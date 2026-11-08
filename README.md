@@ -1,6 +1,6 @@
 # Can a frontier model predict one person's creative verdicts?
 
-Video walkthrough: https://youtu.be/Wso5mTrxbIA
+Video walkthrough: https://youtu.be/4x3BjuDlWQU
 
 **Two frontier models could not reliably beat a bot that always says yes at predicting my real creative decisions. Giving them my own past verdicts made them stricter, not better.**
 
