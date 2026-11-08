@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:35:04.861014+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C026",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "2c9e7323896b3ea151fa8dcc6959ac7873fd9e19e0c988f609565b7f03ff3362",
+  "reserve_usd": "0.066945",
+  "response": {
+    "id": "gen-1794162899-eZeTJllEy0wtAX3YzJ7Q",
+    "object": "chat.completion",
+    "created": 1794162899,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"It fits the requested reusable-shot brief, uses original graphics, and the clean agent-and-window composition suits an episode intro bumper.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating graphics choices**\n\nI need to choose between typical cards with direct requests using my own graphics or low-res generated sounds, which seem likely to be approved. The image should be simple and clean, featuring a black character with blue bars against a white background in the browser. I might edit it due to the low res, but the context helps mitigate that. I’ll aim for something awesome with a concise reason that matches the reusable request.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating graphics choices**\n\nI need to choose between typical cards with direct requests using my own graphics or low-res generated sounds, which seem likely to be approved. The image should be simple and clean, featuring a black character with blue bars against a white background in the browser. I might edit it due to the low res, but the context helps mitigate that. I’ll aim for something awesome with a concise reason that matches the reusable request.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MDYRwEOqv__InUR2CTvyveAYIfjHqLs2vEVMku4E5zUGD8O0fZf_jmkXcZIN5-XSlssdkVcNLQ4zKNW2OzIIWD4ga9P9rGAwK3R-XzoKrxGyQrH5BRgVAmnrao6q7Ya029vF8m63C1N6WrM-tLuYBV1VzB9fxZvmz1_hyWsg0meueuIn51P8KfAdXyzbxCJeApZwcmJwZ8lFzK0fYEs4nVR5pYM2TJ_Kfaf0rG5OgnPrdWsBauJrFcQbvsKCxCXS-62kgRluYAwd2W4idlg4mLigIZGNcsMdkzGsBMZS1Ojk3B13aTTzf5Y6PGatrPbMHlsXb1NFtUAdi1qERK1WUd9D0WDQ3ZEqpZ0QlZMdiJ_qrqHy7Q5k1DReLtyYLEjmIJ4GVPFU5Py0630rP8dDq0Cz_Kyb1Tmb0sWDu-T5HDdvTRCMeHY1agkBksffhX4Gi5yRAdHgr0mSXlTo0cRgi1Ax_QBWfb3paAqYyXi7w7IQimP3fcuBGN-EdQ4BtOqmPBB_J_qCR1LtV_ZTCqRBXa6ZJnrQjlYJdMjTpYENxcEGC_qgP3RHKZRZEYI4WLGCYS0ufP6BAA-MgaJCscIaDtXqlh92Ps0LGNR4UHNWT-2sqGsuwJdlp7OBxQ3jTwtnbbYG_NPzckcjf4INOHCxKus1EewommGyBXFnsC-S1LOlWz3tPUYedhGG1uGLOobiySX33YGFhzUpyetaufH4IblcJbJgMK-sZJPyq23GsriWYrBy4cbhnTs5VMWD9BhsxTPxRIAqOfqH8uNvhTCWEsH7_lPopKo2LCOX6YG-xe55x-EVB_E66w_kRd5tgeSaQTrCa_fnrqgRyqlk7x1cp9h0WjIvuWwHRdVedLXeTopeN7RpdgNP6d8naj5g-aQsz-kve5aS10CDbLiSVerZpuDZ-f5JSxUNqsPXeKEvooLSQ0mi3hVea-B6GM-c0t185RM0mqL9ygd1dygHeCZwW-sAUrMTxkDoc5FPPO_JlNhtsmznaUWJ8K2wiAVARr8C1sr380BhlnsblbYx8W8DGlXoKkFFX4Ikp4zE3f2boVMsARrpmcVI_Tm1UfKgcXorOAFcXledHZf2Dm2Bzr0PQyhYTgzmOEs-EjdBZxkMQUnhn4LbO6TpqigvxGsji5FIjnfF4ARrBFOf3vok0LWgAqm5Xi4ILXyOtF5PyfTQdCuQSH71jbWaagsYPau7pBct7P7UCRmefaoxD0o6MVYh2R5nX3u1J0VAayYskmqyH4XFRetctngkR-VjjLjc9nNq0LhLzTd91c_rM0Ra-qFCQfbgLzpYVEhI9XiJI-xtmuH06OUZTZgY5pomCkUh4dwgpZ7VR7ZWDkbUDse3b9bpT9SJwPMnC3y5MsDathK71ldZ2u5qzBBOeEGPpAmqeqjoh9e_DTWZFWkPI_2j4vP1n6hM4kyutIcOqBPJo6C6OFtu1ee_BbJ4jw0dItrkBKedqIkS-O-6gmRf2gAV0ZgGETtPRxQoKaxbvCFG6b2Pkl3ebsv6fchhM-Z7JEfbfDfnY_hTNnrz99PkY0Sb1Ju2tw9ozSEb3qMmy65aaQY3yoCaVB690kRlLw9sUKWYwADhLTymyEreSpn60gwpkke9ui4gtRmlJda1jmOR-EbZ0QvcthHitLO7Muv755vH_bEm0tFITi9TJ18TQDbqxE6Vo0ZkrQTwIvavFXKC8wY7QIxBw4BLD8_20Nz_jkvWd7es8ijaxJ-j7HI5W00OcwajFq0D2A-0Cq6DmMbCPzNbn9xIJmNkBqdV8yMpy_d2f3XCyyjJtYbbAY0GLNgLqweROrj_gavlsxCUWeTJSUtaxDhzFYj_9Hj9SyeZrOnJQIIRmeNtTM6oaaI_GJ9db_qI-NwEaG67eoKeBxiNUddqj_FaCJPakhktOA4V3hcXBu8opDwEiEgkWorSL3_i3AiFgyX--mTCdhrhNqz27_Z_wnlU2k5d3WfPkIjd_N5NLXRdwrS95PKvjDlsOOdxE3RzyvFLwlaliypJStJxeyu2tYE0RX-VVcwGMThbp1IQJTH917Eiqt1vV6uVFQ4Ol8_3bxuvT85kNgFsDDGWly0n3tY1A3B0FrmlKe-5K9-THI1AjN9hEVOFy0AyQadUHmX2i0sF978V056ZKWGjspEOZSWQoJiwer7Ra0iwGb1WtW2Stzw3BOux7qf12eFlaC-B-x7FTK3NOu6IZ0ZzmBpG3sWpLKYt2GwReWFnBIFFMrZFXQ0x83wQNSD6tBajRvYbeJl5IAAp6-wjKRLyYApXcByK2VpT3V4Bg1Rqcw7Bkfl8CxEMzoiLvFggHdiuZeVinZdu6rUOfhQ7dZI-c_usmFEwRxjMPbZJOzH67zP4Emh7WSPOerWEq0dA3weliwRAi8veHYMx8y9drAmUjbX5FOXbFdF1VlWPkaM10las9CxnuFp-uDKZ4jOXo_scvs8fzA9ljtF4q0o3GKpa62q0BW3sT91I372ZPB91VIMVfNXjGZCxuy2HPY-BP2tT7wAHjhk9rLhVMPBsqdpVPRRb9HncSXD2Sr3hvx3RlqnMlfQbJxPR0wtM6la042XqplVx2NtBOAWWU8CxJXHT9c7uCXiCk9f86q5yyvB8vo5UmfYq42O.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0c6b8155367789af016af0c0d532e087d1a556378af7079e2e",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1451,
+      "completion_tokens": 107,
+      "total_tokens": 1558,
+      "cost": 0.004696,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1448,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004696,
+        "upstream_inference_prompt_cost": 0.003626,
+        "upstream_inference_completions_cost": 0.00107
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004696
+}

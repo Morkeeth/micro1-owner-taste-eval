@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:44:24.672107+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P024",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "c006b8f409664a1b8f1b88048027c9dc89d462bd672c7ef47d8cc15628c0b51d",
+  "reserve_usd": "0.109385",
+  "response": {
+    "id": "gen-1794163460-cgUdcvRXMxQsi6zU8ZYq",
+    "object": "chat.completion",
+    "created": 1794163460,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The reusable pixel-agent concept and clean blue-line branding closely match shots the owner enthusiastically approved, especially the agent animations and pixel runner.\"}",
+          "refusal": null,
+          "reasoning": "**Considering concise options**\n\nI need to choose something concise that really stands out. The agent might be a bit unusual or quirky, but there's a strong history behind it. I'm looking for solid evidence, ensuring that whatever I select not only looks great but is also easily reusable. I want to minimize the weight, maybe focusing on approvals and efficiency. I'll aim for a great pick that balances all these factors effectively!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering concise options**\n\nI need to choose something concise that really stands out. The agent might be a bit unusual or quirky, but there's a strong history behind it. I'm looking for solid evidence, ensuring that whatever I select not only looks great but is also easily reusable. I want to minimize the weight, maybe focusing on approvals and efficiency. I'll aim for a great pick that balances all these factors effectively!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MMHusVD8IZ0aaUAHvfmHOURTBRe4HMlGjb9HCk-QYoqxwUJgLc20bGhWmDIEDH2kQIGkzvKO_mJhi42gOjW9XMlvRvkqHTTkHcSc3PHsec2u2ZLNarxJRKduRAjR3cFhifSlFr_RCw5Dr596nJKINYZcPfCX6udav5oQoYxEE2vX06rZUZKIEv9WQwEV-09iVGNpAnk-A5yGMhX-eqE_E1SrMzf52G_st4zA6ZnQN7QFlBDwqKS8vTrvXeH0oYBTP4qMKbJQ0rFmzWzI1TY88GY7tqx78oUlaDlKbbHnik97XIXgfZCsH8uEv7-80VEa3sxUyB43CvKmCZgErwMwhxr1jR-OE-xVsxvp520TDL5eYcBeVqFd18PoHKxBHk2CezBs6DXvkD-_n2cjlxggowm3gUApwIu3f2VGskHsK0aSICqjbmLlOOpOEPLCWdjr4C4TUe-SC23AM0kujQpzTVSMtLY3g0ezIDtkc83ASnX656VfeVsfiwuTCLv8UaNeUXyFJqpTwe_nxqvpa-3Eb3zYsEYKgGTKQB7Y5YLh3mibnYxXAn-vJvtcw93t3xvuNGnhNj7Xmj57458TDhp3H_WgZsOMPtyKfd6-3sf3P62sIpOQ0NEYnqyDwBnvee9jMN0Rcd90_TePmEqmLxp4H2K2tJpzGI6d6SH1F2-j6eaG3POPEk5Wd2glIAYgNJO7p4tPTz8QEblZimYa5uiqxbE-ug5uueCfkX24XR6CKRVEf9a36iFd9AdMichF5le1FVP-wZRWqIB5G9GDzg-qLCycZWDPoT9vWycWeAqRn821mOdAM2B2lE3khV2H-Muz9WBXWwqBp33ThqvQ0VG9qnDavOlflq5gCFrL9ewOpgFJMuQHrOISVjbE3ZHivnLrZwvSGpz0iCMJOfcgFSv9A_xsURgT_1OlF91dbphLXdna4bR9hNwU_cYxYZkEVKPzKoxBZsFYOJchxTh3mD1Rp68joBfvAYeCkH--hLpY_23MCEIOW5DEYuTw1nu8Gr4s4vTQIEeHyAl7N5kq4bfhoKCNK0aIaepw2u5yJe02CeetILbwEYeQZJeKL6MUfY54LYRXKwyMQ2W3xC-DaN8mCE8MYoWVfVPHOZAHups3suaSyjw7XDhpwSXsH6QXyUXkUO7C4qKIz0iUSEfiEiExawBHyxM5kNihJhDi9B9HHjBKkcHb8w8f6Uur1RiAIyjfXPu0KuLIMqeLNAz8kY8fLkOKSalgtRH9Tjz2OgDeE9LoGOphrbY8eFORzgw5bvKS_5-gHnI7oMm5NdQSB3z8UM8fcQJR9oexjGZqPpBFgo_bSw2wGvnIu50N7rGrS2cy4JcrxRErXMj50speo8NhNTkspI90B8sONiMoVoF6ZxOq8l77qwCJ39AHfvQBsgODYQ_kC90uWsRCl-GSrnKFaj7vm7T2d6daJV6KsEXj5PP7hIF3d6vOCRaxpd8BjK_gc582L7d1azq7JqU5sAuvBhS_MMeIKLZ08FlOQbbo6K_YHgewp86TmFkSTooWV8rO_ve4OH55svn727BDUmKXMduaj-CkZbMooR07HIEkZUqQTJ3w7j9Jo11TGqvMxpo6sV_46OlkYb56eGeaQJj-UzO6osTwSyW7lqjo403GNDDc97WhcqsqW-MZP--Cv0077pLSsdNkP8mlpDGK12VCaHJLMgka70nN8PlHQ6wqIb-CkBOAnW1P9w2jPsE3hShXT_ulSyyHOm0h_wFrmRYWHTOqybfFE8t-HzEyECuBXNhvXZh1zuTiIo9DEsUg6sZuFjfQzsp_1Dj6c2XPby6Bb_e_kpAwYiHkT2LIV140ir2sagt-o8-TNwq1Ek1zje3kudMhLBs3BK33k89QDtIQr_IKFfn7oL4OD-DOyCcn8PoWMtivB4MxHC27IybaYE9upy-Oe8EoD3xu4XLr_PznxUGP5YbkUBB0h-PYH_n6v3CDNFpkbpk3TzGdco4rOf6100h_mcQpyZCuk-6aFCPMRVT1A9_tx7EGtEndFRXBi2vHWDvhNePngY8-IM1nth04hKsb4m614eBEyljaLn2MYPQq0QbfNd8qwql4y-FX9n_v86K3yX14aY4qc5Qihj2bBuh8_tGBc_nuafNalaWOcMQxKo0TSmp-4RGHaasiFNhyZeh8R21O8dtYofnZa3ukoC_dhR0afsqpIve2OR8aJkjRu8nmZPrY7GL9-hLnZfMz2w=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0301bdb86d29c6c8016af0c305e1fc87d1b44cdbab93168061",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3513,
+      "completion_tokens": 80,
+      "total_tokens": 3593,
+      "cost": 0.001157,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3510,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001157,
+        "upstream_inference_prompt_cost": 0.000357,
+        "upstream_inference_completions_cost": 0.0008
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 31,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.001157
+}

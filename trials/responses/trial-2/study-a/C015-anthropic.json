@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:33:28.569977+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C015",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "9ffae8787250fbddaf63c65c9a2fbcdecf4d268319d81b25d3badf6b11d3b790",
+  "reserve_usd": "0.098840",
+  "response": {
+    "id": "gen-1794162804-8RHuKdrAEKqM4zLzmnGL",
+    "object": "chat.completion",
+    "created": 1794162804,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster shows a clean, on-brand graphic overlay (\\\"THE NEW MODEL'S LOOK\\\", bright yellow-green swatch, \\\"BIG TYPE\\\") over real footage, so it looks usable and close to done. But it was made for an unfilmed episode seven and has never been placed anywhere, so it likely needs adjusting before it fits a Short. That points to editing rather than using it as-is or scrapping it, though from one frame this is a guess.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1100,
+      "completion_tokens": 176,
+      "total_tokens": 1276,
+      "cost": 0.00792,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00792,
+        "upstream_inference_prompt_cost": 0.0044,
+        "upstream_inference_completions_cost": 0.00352
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.00792
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:44:07.693243+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P022",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "e12a3259da93ee960b6ab934cebc1cf898b878d0e0a7b50f480dc96ca617ac87",
+  "reserve_usd": "0.109250",
+  "response": {
+    "id": "gen-1794163443-TUpbw0WbQbMftsy1c3tz",
+    "object": "chat.completion",
+    "created": 1794163443,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The generic white review panel and empty phone resemble the abstract screen/object shots the owner rejected, rather than the distinctive branded transformations they loved.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating UI Choices**\n\nI need to choose between what's likely to kill functionality versus what’s actually needed. The generic white UI is unreadable, and the owner finds the boring white panels need to be freshened up. I’m focusing on new objects that might replace them, considering the screen ribbon and folder options. This Higgsfield is reusable, but I need to remember it’s not a magic core. I think a careful calibration is necessary!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating UI Choices**\n\nI need to choose between what's likely to kill functionality versus what’s actually needed. The generic white UI is unreadable, and the owner finds the boring white panels need to be freshened up. I’m focusing on new objects that might replace them, considering the screen ribbon and folder options. This Higgsfield is reusable, but I need to remember it’s not a magic core. I think a careful calibration is necessary!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8ML3l7fVt2yLtBDJz3xUWxqfqozvnxXji438vZVDQmrIAXpd-qxEXkofXDvHNcainNGBaVq9jyrzMA2IFG3-E7HWPVSRpfSnMoA4bLLBCLjsINDb_FVD3k1CIoEq544a-6p2rPPHBBK_i2EtrgT-Cp9EGtPWsi3CZvf-5_j5ZUBM1LuYIsNtEsSrkbpsdO_OLJbzwQN0TVnDxMm49LOa1uCgEytqzB8mcGho5nP-N6fJNOvoDwvMGyBqAQY99TzAxOZjTUaVX3oicAuWHX6n88yc-q9oieytGWuO0c5eJvm6jVthf16l-lgCROhyjqznigxH4C2XNj1cRKjbcthB7hAhDrk_BWKzvXDfpmxDAuv2IBi9Wf0ZZFduZj1kVoI001pqqyap9MF7ffe31IbcFG8bZOHNEf0STncpFqrgdSyKteiGifbNXYXwK98nSPAYGfHAWIt7nGu0NdKC6onuNgztNHmd8wCv7HwzWdyYp70h6mPiSsizWniC82Gv_rLyT1s4JE3BENsJg4N_q2iFlkCwiSg7xCq57KYr0mfsWv9U3nBvz9SkVEyGZG6rt8F1GgzsLbrVkzRcuJtphHcn866_xpbUcb3JemsR_MLcMnDibhb0VKLqrdeBSakfwBm0rZJBY9gnkRa6Ik43u83Rl9ninYl33pqmV2RW9PBJHW4BTEE0O4iHNoY4NNQCQntFreIwqxC487VDzi1ZjL2EDbWVC2gWdvTHLVaEksV6UKYRvMfEcfSN7YBD_d6-lNAm8976Uij4VDd6I93evFmByEs9d3kUmrzP-P9fJE71DCX0ileZp20cXOd3Pxi_grLT6hSTRoGScJPavBt8TNQJpirCllH5uvLQH5_Un8QeYqYLv2SZ0p_xH1wmB6vuXNtwlaSY6ZT1zwZeQG5ggrT1DFsv4LsOkphyEwgL515m65762yjB3WhRJ4-lh6EaKU1JpJPwESR7pT4M8XHzGLm33tGx88ksUUDNhG1NCMoQ01dFmk-4HGWGNwsZ9gyb_R3x0Hp7ZV3GdXtXewoc5c_9anD1p8YZtKaUV6PipKWYI-cuY7iWiBDSJMbCQa0RWIJTPAOPGGrUqpUXIDzfrGBpPt8m_vbbsv4XZX-aNbUFOzp_lvp55cSShNFeRzKVH2m8DNk12MUEmGee_ZBTWx2CAKh6Nm0Bb5aZEYAKLOWUzSeieJoGZ-OQ8I5uLSXjH5koMMFGuXdf14-_vylB1sCwQPVcUExObLyj7rDw5QMb3os_fAjlo3MnesXLHX2YrevdXkiDLkr4H2HS4AI64-QmRwq1EcfbA_fw808e18dIOE_MWMYltfo4ti02oQvkxmv9-bjc48PCefrNwbKFdXLRphvlvRp_C6cGptCtSDqvLixPDOYXL9uZ3PSWUgcePDPJTkKuTie7oim3G88qFdqfreU6tNoEnAOQFBgHKzkaP_mzwRxNYDvAOHi4G-3F8KiGQ2fQwjiQWzlIDM1yzqOu804oVtYSLJC2FyQoWDM-R3TFFqqYvEb_KqlgUGbk0L2jEL5co_z4D_lAIMM1OPLmM2ERPtasA7md83blLTLM6NcRmkns_AE-4iip0C_PqIC65opUQmXca9W06dNVL8JSNUcKXliCy9cwEQOInD9xS1H03YhfCXHdjqlDFS1fPeu0TBy-TjcSC6I-OtDaYfpktXYwTPcux6RRNRESc_MMEx25BwiiyrOYcFKVao3A9-XTo21JwX0IZS-DKL8KI2eWzcSirjA-OPqTskyrAjs-Ot3SyDj4-iLx-vIDPU9Y6ZMycAbTTlcod4-dJvFDuJtzbSBVZXSb3l9CKk6G9kkbIH_22Zpi73v9YsgUyRaIhA_RnfFilIcCuAJWGZPvvTRe4PoYkP9nh-wXsTs1JuimqXpUPUzlPOKOQ-bp7n2wHKQzoAkA6vRWvSutopmENGoMsYByOWDOj0BfHBEW92WDlVDyWY6D5qpg9qKA8LqRjLWvQDVNVr0irCxvG_o8Lb2oHBdZXnHR1BcjjHOkyn-uxT3MX9p6I-t9Yncej-CPLlgAzR96PltKRqAKv4YB9Eue6tWOv6dd_sZhNptheFSVGfKQDSUY6TChDkcACyvrKSbr67eDVjB-Pz2q2yYluLTH0wQgWZa4yZ8ZimE1GIeuCc8_k91ld1n7ZvYXr-ivUWDr5cPBHxjOli3FgHtlTVYzNLjFb0PMa_YtAogJJIADT_edzwyRtc31yRD_jrxeqD0CrQUg9zIyAWocPBlyFVuzyLnznMDHHAKONd4wnfXxwnpPNpY3mxh1PMVK34wWqVJZO9u6AR1xYMkPhcSa8p52Xmm2XUMAR7qMmCko6O0wQzyPYJjf0ZwKbk2JvdTqui3daVmDxrAJMjBBOkmIpBwdZOEh8hymbBcoGQbmYTZMtKYzfkpB5WoiR31iUaSvSSaBUU9FFjTRT31JCl43t3YBmeexEw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0cb6cc9d2d0a1780016af0c2f4ae9087d1b0246f5920635e86",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3506,
+      "completion_tokens": 100,
+      "total_tokens": 3606,
+      "cost": 0.0013563,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3503,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0013563,
+        "upstream_inference_prompt_cost": 0.0003563,
+        "upstream_inference_completions_cost": 0.001
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 52,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0013563
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:37:25.497776+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P011",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "0eae0db3c2ea78fdb80af1f6e09030dd036c33a33e3a108605838fcbf061ff11",
+  "reserve_usd": "0.066815",
+  "response": {
+    "id": "gen-1794163040-DsFxGLNtjryJaiiif1r1",
+    "object": "chat.completion",
+    "created": 1794163040,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"It directly matches the request for reusable core animations, and the poster presents a clean, branded treatment with a real cmux screen.\"}",
+          "refusal": null,
+          "reasoning": "**Figuring out poster choice**\n\nI need to choose a poster, but there's a mismatch with the \"STRIVE\" theme. It seems I should edit this one since the corecmux screen isn’t really related to \"strive.\" I must predict whether there are hidden issues. If someone requests a reusable version, it would typically get approval to look locked. This poster shows the browser, but it doesn’t represent every agent, just one frame. I want to focus on the positive aspects without unsupported critiques.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Figuring out poster choice**\n\nI need to choose a poster, but there's a mismatch with the \"STRIVE\" theme. It seems I should edit this one since the corecmux screen isn’t really related to \"strive.\" I must predict whether there are hidden issues. If someone requests a reusable version, it would typically get approval to look locked. This poster shows the browser, but it doesn’t represent every agent, just one frame. I want to focus on the positive aspects without unsupported critiques.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MFlqHQIKW2qOp8UOg9JR36-ri9C2_Z8gSY6jmVLQ2KcujSW7-XZ3x1VWQzspsksIxDZaNZbgmCtc9SsGWpR7D7bDO7KgFizkkvYHhstWT0bRtd7OKbT0b_IOAy9PI1b1XBkbhwyj_4NWwOa9ZRYMIQ94H0ommqlm0Cuej5_vmnjmqz9Qy32TeFBbU7gLLhZ9n3jAe756bqehvEyI_T8LzPc_wPNzTylokRNM5aZnaNVmBPFkkZJHzY-jFoHXywyJZ1qjDmc9o9PVyVFOucyxYSDXShM_jiVMnncFnI5OK-BHiY2nTl-d29WbrKfq-174btdbrjyDSMukxGSF8yAjmKpgySKSbCb2fb2tpA6FFvz9_FGvL9LcJYXOHDmT-JMyidMA5N2QsHW3sV0mYOARCGcsixK4FHfLKtiVzyz2D3QBjyBIaTUUVhnK0NlDL-PBpdqeRM7s7HIK4RDR3Uux3paUUDyDCY5cDlxk7PsQ8pybuAfPQjwBUp-E4UbZ6X7rhazg-R9bCoHbPdpdYAFm-NKBoqGaWEPsLkI9TfjEKAWyayFKpCr8jMgRZCTXnQ3RoklOQh0hpJFQ-pDp8n4SeR1iBgfugLfF8_0dlWbxTVIOJR-xHyoSXnih8lT2sV3hVOsy-bXy0p44IyjRB7SV0XkKH854vGkT05WIbzI9yQQLle-al9fmQeoByGLXuEZUecqGQHuKpGAoapEm-sFkVDGbgcQH8Ex3_QAuJLZiX4TjmVzVYZg5EHeljtwEuUDA3gThxwJkwxsA1lYIqCz58gMgmRKUBKra5owX_PB6x-xLxf_EtVR4Vd2Tt6QVRbZ6vZUZhWS6dQ4jP3gfnzR21syTVqP5XJvzkcu8uKJBL1jrtEjcnEr5Dmi_uhlzKrNp3HAFmZGzkclTuWh09fG8r_Vpocu3ihwFqHrZ7aXm3lto-IdfvbNnkkyKMBiiLdnH8d5xdKAm3dgSosirkr9nCR8POLcMhXf7Rq0zvCB8LQRGpWtc-bNycXkQXkAv_i_Cc0YgkQfM1Vzb8nwrG6VXkkLKaWY2BqTvwt8q5NjhER5coAkntENbi6wFddGZoUgteWplDA1kwCyU_sE79A6LRgAx7XvOGf15CzNq2QSmNKzsPNL6PobDm6OWAC4AnXSAK0WFDCTegmv9DiOx0w-yC6-20OlVdDKLbTp2xU_rjHAigcAkhzm4O9J_Ib2O2_jmvnvegWVo7ZqPN8DuixBZ8wsFV-3AsWw6TXbcmaMlNaVHRi40Be4lwN5xHYsrzkCRCuVZkMf9yfPDUXoE8RK3zZZSxuJWVtc5zis-ZCpGiEeTwsrq4BFgF9IX-K406obDPO_TQbzdxR8fGgDv_4Y0dWeHUaEW5RmJn-Mc4XefkTokWgJCUUmFLvObGa_u55B0X7jDOA7EdU6UaesEh5psGenOGLJF1MRbXqe0o67rgIpxfM3nUgi35PMp6I48vhoCnOKMp0p-wrRiiEKo5wy5Q0_zdrQXp8bEH78pB_8c2SEta_1g9r301dXPCZbOp84I0R1r5TMxXmVZT9ju0U9K-q6sj3WGQLD8UWLg-IgumItYJ99LIMsxkg6NP7CEybkLu3YZOeQIliKhoU50q_efn_aJZFeWiJjX5JIjvsju0FkHb6Lpwib-urVUNQsQfo9f3rN3ke3oxZqBIOqdu3SoJ0cGVefmUwxd-dyiNBsu_74u24SoY5eLqItIfSR4jDfyPpDakL0XBMmlWyV99fdZevxTEfCA6cK9n7Fg1WHx2NvnRSz6RgsIgMcJYcZK4mgwllQrUU46fj-0NZhhg6S2yzedee9tAPWVdpaWGVx5V5CHTiiHyLOzoq5cU2lgJ4gQ9kAoH6otIsR0Kiadt1DUTqS8_EoL6gP3Pn6sid9ZywqzuNut6k61kzsSnyz59d7MapisutL_wAeG2sTEY9yquWU7goetfu-09etQR6yUgUGxEqkwj86_WeTDoSXz1aFAa6K91B5ltJK6x1sMlmSK9KJdKFt75x9bGg3Kph_zLI1AN0a_rVCn-tBlgZJomY0jYjroU_ssd4aOMpXtX5yOpS0ADwHLUIyzuYRudLW3Q0hsCZI1TENp2-aRbXZxAGj8-1ihMEI9XYYnt-iMg-kBGOrDpJOU7lcf_RT5bkhdP-7KsX01nC8yrvcl0haSeQfUufvrlMDvKHKEhxwNuUltXeRtlnbABXmGqCd6u7A5VLeFJuWNaJccr1dOvHeDQ9FQtjcq9SwrapvC9gebaqjE4JblnOBdxjM1KiwQALj-Ghs2EhGPDkS-t6Lee2VkNtp8WhERg7NgpXHEv-sw_DeCk_XV2KyHdGrbBmz5-Ta130n3LgDVecXK7bZWdeYQ-_PxZMm0pfrr6d_xhyPgZaZLc_yPbjCkIhRsSUUKKYwBspZRNQGCLByvEzrAji9EprXAiO5iDuRyvM3t15nFRP6ApaBCDFosLcJjFAjv6a48H0QKc0MXKoTWndL6KOHptLApFcMevw2yvsV5B1zkFm8Y4-bYTPU6Dnz2Y3Y8TYp2xD7I4A=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0a6f4ba4988741f6016af0c16219ac87d196f4da8ddccfc4f4",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1446,
+      "completion_tokens": 104,
+      "total_tokens": 1550,
+      "cost": 0.0011903,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1443,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0011903,
+        "upstream_inference_prompt_cost": 0.0001503,
+        "upstream_inference_completions_cost": 0.00104
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 56,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0011903
+}

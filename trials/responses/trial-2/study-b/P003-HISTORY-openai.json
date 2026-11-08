@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:26:23.192381+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P003",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "c65e02e4152d9f4711dce45712de147051dd9a7dc19a3f3e1da83e8fdfe44078",
+  "reserve_usd": "0.108820",
+  "response": {
+    "id": "gen-1794162380-4McJ9xoSjmNUQvlpSctd",
+    "object": "chat.completion",
+    "created": 1794162380,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly requested reusable core animations about the index. This proposal directly fits that request, with real media-index rows and a clear blue-accented layout consistent with their approved core-topic animations.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4840,
+      "completion_tokens": 59,
+      "total_tokens": 4899,
+      "cost": 0.0126885,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4837,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0126885,
+        "upstream_inference_prompt_cost": 0.0120985,
+        "upstream_inference_completions_cost": 0.00059
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0126885
+}

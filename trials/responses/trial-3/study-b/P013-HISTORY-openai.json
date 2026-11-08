@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:42:35.708451+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P013",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "0bae19f85748c70eedf760b86c504738522240666e62524d42c7c70e5018f4f9",
+  "reserve_usd": "0.108805",
+  "response": {
+    "id": "gen-1794163351-tqa2zO9vkSTyfGuBRBAK",
+    "object": "chat.completion",
+    "created": 1794163351,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster shows generic, muted app panels rather than distinctive agent imagery. The owner rejected similar screen-ribbon and cards-into-folder concepts, making this orbit-and-stack shot a likely rejection too.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MKahFU97CW0P10sLyo_p08-f_2QW1MOSitrL1OapbQAiD3_K0hxTA-TpN69ZV7QWonFDuFW_MQJho9gnjK1v740JE3V-DeHAI8EkZhdVGBt96IVTOuU3LHd_8t4jMIN0zbc7i-XYvwu9pnxpwKxBeqInz6X0QlwmGDR7lwGT9ZlRnUJljYz2AaWbCEaco9ufdSCXd7CrTKhBIXoU0uUcZYRDf1YkYLEWyj50EK8-yr4mY7JhEw_oD_3R_w8RWKT0AwfrDumJdhjsvbIOxcLodn3HflC9t4pJspsJSsXeh3wtWg4s-ntBRLY4fJajhFDOnkxkJySOpnnmwZTAn55GDPrwKtOg4JVLeIjGRfFoDrSTgXwtlt2bf47_OIOJ6hBRv58YZhJ7P-zdXAbSNDiM4zaMJnPJXZrVyoQ5iWNsmNpIw0jbupSX7Ha3A0d-YMFHtyBdMpZm2xm9WpIo_aBfDq_C8RwJu_pClLbleOu2e1EjpMSbaTAwXail-C5fRVRSeZlSQ3L4GVl6vM6aJplzGY3CRZ_sd6bjXbOZ-LtAQOwG_G_GMyXs4W6OTgJVH41Cw3pbcfw380tpYqZd2J8xul2B5PlKkmVTC48RveEc-l_nRLdPEV0XmnCXNFz7bl9Se1JNGGZQklRdXOxwrpOQFl4PvJGbMtRLKcHoBo3jav_U43RsfBUMGKSDf2NbgZlXOvkKTPYEjV58rYnr75TU4FdzaHT_eR4ha3clcv0HXqhfVlLyB_SJZK-t7h6n1fXopwXTFW7_Tmj0-lxQIYju-_7yBsGofLHcdLVSJtPpcXwku7-08Bs7XKxirDe3Cqi372PaRt4nPpkWC4RsHs74aV75UC5druPp9slGmhCFXOYQvLu-gQioxsDQEUWrgmF2i_xI85BaykDSn9Qr7Bgq_z2ZTA3DzQDRwJWwAnRVEHbzt9B8x97aM3THFFhrQk80gAnzL_cWG6bNjHv_NXm190f-QTh9Jp0RO-pIFhf7wB66B5OHsMQ2sgBSRHlbfP6QtDwUyJtetpaF7FPkR_sGFCcdY7Eos4J8uM5wiGjAWdLwfLgG7IgXkQueXRf1sSKUVs5A7AR4Vp3AEMFVA30hGAchOHPuwzxnIMcEzMw2VW29iAMfMhjAIpseS1dY3Sd7rB0b5XeCvGhKOcuROkN10mvUrNnMfDp0GhQkLaJOQkQcCvVIYa7O6xgzzCfAE-jyBAVjCJ5MhNvRCpouHzlvWldF7uqc1d7S_BrzZ6LWo9d6NUt1nV9IWotQE2aNBE99A_DAJ3ApWz98mvLhciT6s-pgDRQazfKVlRprKCQWUbFGhQObA2csYhIqZhseA-RmnphmI7bzNuNmfVYvWwx_I_VnnBSCVSdx-nZmSBaxwOb_SLZYukcRpf12fW0gjbX44DrdkfgsgMVljuKDhX0dzacWYSXAfh-XPLldkWfDAD0EY6zbjWivjKko42eZgQOSql_oInA7oMeDerHRw7_i_IrIT9iCttDdgsHxSan1Z9zH1lk6M1fMXhS76YBVfKJsS3HUzNTPIZs5XZipMfzUBJNBcHKwgebLgheCORv4EIbvq_jycnNjoHkWGIMHc6ASgjIjL0SUjdvIhG0ah14n2KB1VHVRcVd5HJAWFHM28WGJbcA30pqTCmF2Koc81qD1oOkaRKalQ9KaifI0QWN7RlGHmz8j8oUhJm6LoWwbc0uYlbUvVNRpZpJpP3j3M5tLk1fQRKer276WDPdhjljKuNh1Z136PDTDih6ymXGo9hc8PQP5MmG_iBjij95KHpzYsJsZhfWWMHJpWnbQnLyXk-Jbczc1QLsDvzXHsg0LqD4nsV76tzYdQUPd1TR3u1tRvd5x0RITgEgVE9hbWWsyYwjxTJQVNQr9qJTRpeqNYXhRpAYhk0zcLYUqFAmlD3ClLc9jivzaJqSYGOMVWvQtM5XroHH0RsqHkPUJ2bou_t4IlOrUYYpKBP6yZGdjGEb3ZYZVlly2GCqAoFd0kzQ6jVk9XR_eGhYrjNqkMtjWxi3IR_mmhcZ6D3YCXZaF9-yZb6u78NR5so3dAVLA1CpCL4J4NiXeVu1NNShYx-RWP1ApL3suG9cb3MKGgs4asd2wffb5N2FkRpxC0kx-s8uSDNXCem25kRJGXoJWM9YohBM0NUzQq5tsBXEtDpLHcrii5Wj9Fq3Rcwv9Ye0FpDBBirE3zp6XmnXcJrwUokOmWjfAqLx4e3cZ30XuVppcoOLGGjP-CMEGhSsOqwYhpS-Ef8nDynfVeMhI8ub1HByx-PGjAhaKLJ4ciTnlggeKSZAv6Y2fbXQHtsLtc5yYZDSEeaF9leG86tI65CoqDfkzc00U9SV_-ps4QebprgbtyaV_1xsgsWReQRPXpc2IscRNWST4TQw1xEkrLAr3J6er2pahaFgcK1BeMs2zqhud9mvh8lIOv6px8NFH_EaJTNeUDpBEFv1zCJRB_V-5giDGeEI0U8rCm4XcJBg6juQTwZorVqFssn5lpjfRtn9EUh-64simblPuvBYFKR6VL8hFX94YCwwDn8R7x-dWYEACybvZOQWPE-aW_poUj6f1jg3VnJ2d9YfA0lbYrHBOJPOLGHgl7jEzeIeK-Efyl9Ag047ivDj_pqmU0dEceOWSGADN_Y6jhQXPh2pgmWw-5-n1YSQd_0K3sEaUVfsWXOoOYItyO81ZEHfXC0GPdZPzV122hV4M9eSmzKZXQo1yWO6_E0eVC_k8SrjWNQkq8X_yjP0P0xN3JGsrrVJki7DVM5QQzBGmw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0544c79911d0a400016af0c298c62087d1b129e6ad27f040d1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3487,
+      "completion_tokens": 128,
+      "total_tokens": 3615,
+      "cost": 0.0016344,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3484,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0016344,
+        "upstream_inference_prompt_cost": 0.0003544,
+        "upstream_inference_completions_cost": 0.00128
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 68,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0016344
+}

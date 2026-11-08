@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:41:05.403284+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P003",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "c65e02e4152d9f4711dce45712de147051dd9a7dc19a3f3e1da83e8fdfe44078",
+  "reserve_usd": "0.108820",
+  "response": {
+    "id": "gen-1794163261-66QsHekfowxtqMYMkJi0",
+    "object": "chat.completion",
+    "created": 1794163261,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly requested reusable core animations about the index. This uses real media-index rows in the established blue-and-white look, matching that request and their enthusiasm for core-topic animations.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating options for panels**\n\nI'm considering how to choose between likely awesome features versus the need for white panels. There’s a strong explicit request around the core index, and I think a posterior score of .7 could indicate something. I want to keep my reasoning concise yet grounded, ensuring the index is clear and the ask remains explicit. It's important to balance all these factors for a satisfactory outcome!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating options for panels**\n\nI'm considering how to choose between likely awesome features versus the need for white panels. There’s a strong explicit request around the core index, and I think a posterior score of .7 could indicate something. I want to keep my reasoning concise yet grounded, ensuring the index is clear and the ask remains explicit. It's important to balance all these factors for a satisfactory outcome!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MJBjCr0nL4DphqySKgJYIR0KWBSw0IaoIYcUWNUH6domRvKuLCe5FRnuVE9DuDhz60L05-b9QxbZBKBJmDHVBZ6IRYVUxtbG5qGHDzZbdLhMZmoKil7NU-bXqTLhLAPD5feuFlgZWQsbG-ES5dF2b0P8mgE10g45l8mlmJ3RXyMeYewuXdaWni5H11xxDfr8xw-dX93BNJB3P1-q-AeGRhZkGf3EmMk5_aS-htnS9iDn1EQDKVdbx5EqfDq9CG4ueY8nvWzxDh0U-SdMQQLl3LgehvV1NqKuj829Mk8sDBemxhRHep-2KSTLbV36G6u6k0xuyOe6dSTFjHWxzwSGxqTsqv-T0GyLoFE4xggNpP5rrcDZiM-5XiPDQGcX4c6cqmbtaUYZiw_uDjo4EnwOGgnJRY05MgIClkCdiIVsl6poObrkLyqtXlgvDnpwX57DFrZ8hViUMXy_mrF5zy-CvBnkYIFAmBjkbF_IMlFFlcXwpD9ZzV468iqs4kFJ-TtJ5oppDtidyb_2aLEgf2aMYTYyQEc4q_pLzHkLk1m23S3_PlkY-wN544I7qVbUPfsaR4sfhNVugEYpk21vbXLj7_uxjmZQFKtJmolVFTwIbSiriUL1Z27P8aw0jc4QSwCftGhBsDNZ9Cv379mGVWBEL2h2RzIWsIxnX1GU2s5hBHF6unNdQYpxOzOvjRpce5RxU8MVBQpZ6zJfJvB1nuhAfkwny7fTkRIJgk11eznoajOj7VC0ixzUIJ7PvPCVQP5p9G-E_cwWP1ktAtuQWLuBZRAa2cYXWmG7_oP0dd00KH-rzyuRviyay9Hn95N-rGYF2VoCi8AFlSCH3z7tK5u4a68LSv7ulGsPh-IaR37jjRGkV2fR_--ctmLIZaKQi-68JaL2eX6DRmKv95gtEDDs_h0BlArGGQMspPgPbuN2if7W2EHM0QgbSQe8UMrQD6s2zE1FN06qfM7bCyZ5YhSG-aqYUKkCOURoiOPNS1b333bwWqCEK3IxJU8V9sS8eYnaVk30JBblchmhlFGOq18i2LXgOIIy8Zl9tIDWFnenZuIImMkHEpdcfBi5j5mZuArL_1elUdqPW1LNG14cqtzp-e8HBAj466sgwEige37svu42yGUAnhTtU85xa1T3qSufWpWGnPnxO2mJD1I1wD19BVTyCx3Cv-a4LAYBiRq5gsZigmOY3dxQEWK9j2-GhSlk7v6DVeuO4nzinLYPNKfafLg0vz2Y1wjWvD4oNx6BtzJBYC-LR6-nq_fVnMPsv1-vQ00ANoU6uwTjMmW2EtZ_77YjUHQ-p_Vk4DhxRS6SloJQa1a_-9yFWXw2Mx5rfBIEXQ0oNKzkYItbUg7Xwo1LBPEv2GHj2vDwiLWvzOokzhUJRFQ3G2izAfBDvtRIklgkTgJoYT1czTmUfVlN480hwv5vgB2ThMZC0tOK0cDjulF5M_pQxo4p24Kly_FRj60z6O4Z9BMG2C3LAQreux7JEOzNpKtFoyxQS_lkMaFaTUpi1Akb_GvXDB4gFzxMZKckVsatZh1Ot97GaJOwoLwb0BvFzoC6AXTL2ih092HERoVimI29r4tYbh4G2uyaTZIZNEbQeE3J4Qwni6A8aoAfu-pnbblbSdAWE1LLL_uReWXAGJpwccJ277HbXOBgdL1f8qDnGtrzbbT9AxMbiGJn6vHsiFERjyCQw57DN97w2dCwd8nSOIm0tKDkpMYFBnBMfLk5lZe4ZLWoUk5z2rxDyI8_8gw0XwFNipzw3uI0h0xElCvo4FF3wH4QKfhkU7ChuAA2EmjL1mFf45_n8iMWp4GP6UoC-oxuU63pP4fyb2YidMMcqnrCXVtk1TzCmzIAluDUiEWKbvjAINUDrlB8JJ7oZewj_5j1Wo2sdzvFh3UvGWwxy8I1rW3HDnMiCr1MvDYEj-tKgKirPC4SlxC5T7eupa_ImGBF53j5g8VTKTS3KHB4jDkBjTZA-mkLu3WTzoDLS9Xln-h3MbdsrR2JHtLQXV1y7zxf6Mo0ywnAq56XgSKF5zS3Anm3Jt159O9VScxDqwQYmIEhh_lKRBBNnHz50GMwPWfeNyN_OuhmJyCNTI0wnk-zc1gy5Jdep03fRB9cGhPOiG47fL8Py-Bdh7tHGQX_PBUsq8dG5KzyNfkLeuqB8ZQSkWna7ih3-MFrR_PeGGsJVQ61rtpX8zvdcGAOq30RJn3t-njApEBRFuNyIk=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0b8f82265ffdb8bc016af0c23f146c87d1adfa9f8d2eb13cde",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4840,
+      "completion_tokens": 92,
+      "total_tokens": 4932,
+      "cost": 0.0014097,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 4837,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0014097,
+        "upstream_inference_prompt_cost": 0.0004897,
+        "upstream_inference_completions_cost": 0.00092
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 34,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0014097
+}

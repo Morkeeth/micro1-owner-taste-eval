@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:22:35.108108+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P011",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "0eae0db3c2ea78fdb80af1f6e09030dd036c33a33e3a108605838fcbf061ff11",
+  "reserve_usd": "0.066815",
+  "response": {
+    "id": "gen-1794162151-Df78xmtQ2HvY3VVJu4z3",
+    "object": "chat.completion",
+    "created": 1794162151,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The reusable concept fits the request, but the poster foregrounds a STRIVE setup page rather than clearly showing cmux agents working side by side.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating prediction needs**\n\nI need to predict something related to a poster mismatch between cmux and strive. While I have a polished template, the screenshot shows a generic setup that doesn't involve agents. It seems I should edit this one, although I'm unsure about the owner's preferences for these tasks. The card mentions real cmux, but the browser appears unrelated to strive, and the terminal is invisible. I'll work on making a concrete edit.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating prediction needs**\n\nI need to predict something related to a poster mismatch between cmux and strive. While I have a polished template, the screenshot shows a generic setup that doesn't involve agents. It seems I should edit this one, although I'm unsure about the owner's preferences for these tasks. The card mentions real cmux, but the browser appears unrelated to strive, and the terminal is invisible. I'll work on making a concrete edit.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L3qXUN7yhHQQ1Kx2bX5Nclju5ldjcYWrLZOxST8z4Tzfx89GUrEDP0dxxDLRTxMx6EqEzDy0ugNaRmlOTGrOYreEwbVsIuDppPmW02QuchynZiaQZThSTZjmAY-CEIN_EX-FCUoCbog3Ne9WeqYc0tS0-nA7BuRi6tmNFLGHIU9UhaLvHMXYIGGP8MC8JsQa7tQ8Z3nV45qnkxFyhlFYivWkODHiRd-YYsCNdtKqlJYaTuTNo6D98c5HFAQf9NaIqZdiX3lzv87-Rst4ceRiZiLYgY3Cyrjm0g2lR05SuqQAMbBWW_lss3Be-Wl5mEtkwTAH3ztDtGmOBGK-Lv1Z1D-hQOt4BGXpHSYzNc1WAtv2xdoU4nReFVpjecbLugp9Wzy24geIOnc8irTh_8-wgZqV-Nvfm2nI9Q0DiqUxXh5H5S5XR3PGg7IXr3JOT6gjob5YpSeXt1dLKnDVBX0IeLTPZFzAjrLJcFYN9dbNu4Nv_nVpvOilPmZeocI1OXP3Z5QZlDBP5H0qNfM0iOhrd1dGQZ-aeYu9sNXvh8O8AFDNYf60J7BkgBxO4UEb5j_dZ0L2CSF_ltzkBP5YtxZXZGbUOiPvIGdEpCjKXBb-ef6vs51LWP9WqekaGUx4Q4fjZwwD-ErtvtU5NiP6j4RTYwN_9FWz0y1QZxuaOZNlOKnTOHuFAZ0wvwdMlfdHvKnYitksOMwL6v_7FZLkPvx1SuVGfoBSwX1TEUwsMKXoJwdxH5KYoUMbmcLxlLwLto1Ud-Y--ShtPrYnHJM4MF3tYGJOItzBMdybi4NpXTxu_-8STApcRvhEiQixu8WCH1iSN6qApBym-enL3l3558yGIzvgQ-OuYgCmp4lvHSKSWiwFHHrS8IT4qKVpvCa7SYgtXA7KED4SEokzuvrtb6d2OEPlPs6XRSQOu3h4qCAJlmvPhm7tBs46vMyzJbP_dhNHj6AvStg3N9AGn6-hmPURWcGoET5ytwkc8tbfa8ap-YN4zsry2-aX8NSvaZFv9z8YSR0-wK6wY-gMwpL9PTDJ26KZnJru_0N9eDNU3wrHn0HphrmdAl9clwLB3mSZkG5H2TVpqYFJKQ_Ao2s83nO1EzmyRe1NvSXlaa7nOeIqgi78s4YhF_YXPWCDRne39aXV0rm2-IB0ryiy5P97APegdf2lzCZxJR3PLcqgT6u-CXlRFI-ez4i2igAQZrcYhqU530utLza86UBYbjRX5yX6W2MZcHA73hGkifQnZeh_lz-mHMX6JlqpwfkIjnqlu7Moc2cYpWfod0oGG7OeaY1WUsLgTlOHKsokONkAt9TPX7S5DvsEIqIt6qcs2Jg5tIFSckvlj8t1ECoTHZ8dW8rcEPLRwaLhQ4WmOUdXt8TColNLuocrsWTdteGXDnBLH-EyBdNTvVY8KGfH6ImIFhEPQ6iIcBEcBanqlqekjzn9Cdoib_iXdFTjhMIyFa45X1_pLFO7ImrMofwcF-KEqr2IPtbhC9Z6uQYyoP86_YjgRrHiVnLFwz2gR5aYg-xeB0fr9tPcX9SnNu9N8Iv-k7K7OR1Vj3UIrJdy9RBrY8C5eGcubyyUfN4GBldSDflrvnCoyHrGdjkjI42_YXifDpoPKXS-rakg14BieSS7gnVPEEkxy2uOgAXj35Siq0yuHTxb-UN1qQ8LL63ZvAlBMwjlbeoqm1OwATDaZ7PfrhtWSRaRZvsGxSstYEUTwX1uJ1TrzxGaL4q84-PK1ULqFU-rE5hqThNqlUFOmg8S5bfAbxA1w7KI-nS8OoRorBHw0W9JkuFuVBxI1wNXRKwsImQCVStpZnkRI5CQ-mzp5jXxlcENxZ6rfOGfj62qINI7bV1NAcL4NTxnWkqB3hXQxKC5o_E5Wcyy0vsAmktdobk2qWwI4WWNPNrWW4yW7Q9TaEaHjI7-nNKDupHBj1okUagHjdx3x4Rbl1bWCTKU0TiQBJeiawA1UctdJXHnyOWRwQJitzTr3Hm8ovuVRrkCqw4L1Ri0UL6dyy630hNNfPbMXf15aDh0kwfb7N74yUyPCmlU6tR2ZdkRi9eBZACaLrEdzCP3v2QdSL-egMKd_8FGqWEyG-hS013cs0OI8Y0ET83HhxIlm6aeiMea5RsSDyFfEmQcRGeQ2T7EONiohvoQVL0Dguu6tOgL_UjNaGRHHlVJ2GLpHu52U_7p1n8AwDxO8KhXICwMxZWarKW7oJtODJnAh-7VgPSfmGHQ_gBuPOESaDXr7wF4b9t5cf6vpBEBKBzuWNktozAUrGbzsfC-4O32ImRbM45L1g67RFr_XEFLN6kwlkG7xuYfp_6xVDkGQVG9h3uUuMvVx-qY07XRAXyX0WwxD_su2vgLywYCSXE0ofCzAL9nBgbKTvSPME5rIgmtQPpZxBnvLSfnl09X-n--OoEOvLNBWEc_QdCBT-FPmroonazNlCx3Cn2QAyzuyAROnIbYH1qch9JdhL8UG9L4uph6g-v160mYQCwaiZppFqkGoxEcAQErlxdvb0ncoDsDSGP3E1X7zB5UbqbHnMPCN3q-wM06dksjD7ToNhLZ-PsF2-9pfG4ZbimK1nQHNEYjQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_00d5b6ae9330bfe4016af0bde8958487d1b35505c47ca5a5b9",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1446,
+      "completion_tokens": 107,
+      "total_tokens": 1553,
+      "cost": 0.0046835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1443,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0046835,
+        "upstream_inference_prompt_cost": 0.0036135,
+        "upstream_inference_completions_cost": 0.00107
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 58,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0046835
+}

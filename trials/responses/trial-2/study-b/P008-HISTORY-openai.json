@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:27:07.253837+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P008",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "3c60c217c73e4275c5d742aca7b8fcbd08836e9ea2181a4ada940c8c65490223",
+  "reserve_usd": "0.109200",
+  "response": {
+    "id": "gen-1794162423-3WIe80Q1gGwRMVenXRii",
+    "object": "chat.completion",
+    "created": 1794162423,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner liked the cmux sequence and requested only a skew fix. This revision directly addresses that issue by preserving the panel’s proportions, which look natural in the still, while leaving the approved elements unchanged.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3510,
+      "completion_tokens": 61,
+      "total_tokens": 3571,
+      "cost": 0.0093835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3507,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0093835,
+        "upstream_inference_prompt_cost": 0.0087735,
+        "upstream_inference_completions_cost": 0.00061
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0093835
+}

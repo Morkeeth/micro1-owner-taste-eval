@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:32:03.147442+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C004",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "6b15848458fee27f2401b7135b296df7dcfa07ad8a01395101b4a7b6ac7c188e",
+  "reserve_usd": "0.066740",
+  "response": {
+    "id": "gen-1794162717-s97emMiwJxWmgMLCbhxt",
+    "object": "chat.completion",
+    "created": 1794162717,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The headline is strong, but the poster’s dense, low-contrast terminal text and dark face inset need clearer presentation for a Short.\"}",
+          "refusal": null,
+          "reasoning": "**Editing for clarity**\n\nI need to choose a plausible edit for this dark, tiny terminal inset which feels weak. While “kill” could be an option, I think editing for a grounded approach is better. I want a short reason for the prediction that doesn’t imply any definite ownership. Using \"EDIT THIS ONE\" as a reason creates a strong headline, but the low-contrast terminal and poorly integrated inset need some polish for a better final product.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Editing for clarity**\n\nI need to choose a plausible edit for this dark, tiny terminal inset which feels weak. While “kill” could be an option, I think editing for a grounded approach is better. I want a short reason for the prediction that doesn’t imply any definite ownership. Using \"EDIT THIS ONE\" as a reason creates a strong headline, but the low-contrast terminal and poorly integrated inset need some polish for a better final product.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MAiSqNeO0MukCpuTgPYVHOk8xK36xysqaAQAGRAVG8ejsJhGXH12o1KbUlKuKOJLffA8sYuzWgzx_OpKdepFCVKLhnLpZ2noayshE90gmS7Fr0qwuvsUt7uedK7dUHdyhnceIkuZXclCyhmz_YG2RuztuEDEticlVdvsRijWp8toOJ2Km4dAqtzypkzyFWZwr7UyORm9yq3U7xp5N3x7s78bHYb7AsoP6P0IbuPUlvkcc_7qtx3j7vi9S7xOalOLETceO2nJPwqnYUJf8XSS9ST_rFDasg3cF9E8QKqKdh7ydSpTq0uvsAa1emV_UK8XAh6ny8avqz4Y_Ue-OFHvXRYvfHlf_j8kDG-HOp7_JGWsstsi-OU9jCbocCpDp569yPByVqe0c91ld2gSbbtYzYni_qMobGABGiXajJoePUWXZhnrUuy1aKJX4W3HzqjjzzI8FXuvIsyXEHoEXMvfREiEJRCvSVcNW8Xa8DpWBdpw9_ohLNPTF8ZOVbBWjZKQ763KuBfRg-yZcJkJRPnxot30uQx0x3cTUdh4Yuoyhx-v91jUV70UwuTNYgLwzkx3cWt-9f-fYV_4G4rPHhXop9TKEuXfj8TR8tZleeI2DO1gVk6SQhALVBBg2Br5U-WriiVXTGPZJDeAvyIvf9MIDNn42cOHJ4JzsyBxw_fpDAlp_l2rtOQCMOMvKWlS5LSYrebOP9lJhu4f2ve1Rzzu7_NlPj5dnRC0sdZhSYwGAmD0iQ35ZFlN2QAhhNdaPJXJyqhklzxrvqAlvMuMAsbOVzwKQQ4AWuQcOnNCnO2JxQJ_mEEnQCBU2VZDa4ve0rtsaiDd__AU3SWuIhYedEjs1XDKMhTlS1vTnSSnXMu8vhrIZVYPX2ue6lWvkJ7j3vphk_ee9QfYfBFegfXEsFeZSVJ7eidq2YdVq_CAXTg7RD6TJT-JmjfLl0NXhlZXdFVYeqPbX7nBHkyU_JIDvmkG13UPkloEIGyOF_YZagd0EnLG-vOSko2ACUbS2u3Xs-kworkyK30hXgSmVKZ8p1pBGlG-sNIePT8cTgi7sxLkBX_wDLpKZWpE1OakouhtdCECsXbp_4BvGEuWCyjTSq4YhZjW6B1x05U3bFM2ewstlW_onYUsN85F0iPp5IaYvlVqMX-ff_uGyX9kLEB_i0zVZw3eloiiIgE9KRfJp78XWoxsIIjTiyVDFgVytKNHCRlaJyYMIOvb95-MM_-IbV6rRNcOjZCw7PNfftCW64Ul8hn_83PhfHsUazbW71SZ2beMVwA_GqxN47Jj8XjTXBGavo-280L6ixbA8TQtnXaQxYESez7BwFqiS9C96WSO5-Ad33MU6wxyXyy7-WzljOqA4EQZ8b-H0Z8lRsYrVxOFwtqZY1x6Hk_6hKKPvlHMKVVDKuTMK7GmKei9LdP1TBUefKSO_dK-IVlPhYe7dh0YqXCu9Pf7p78JRVrSQqJYjL3tYrB1tfV2uKk-y_dz5rnSPknlp-LSkwnlK03Npbin5VF_BDBELUqOD6HjV_zjiMDtBa74j0MSTSoEnxKJNniIHFHrKcs9y2rJ4TtaG5jb7opJ7Rm7FBtCB4Lsptw37roqtuEs23bZYTzc7bFt2hg8aVEqPw3CkI6hvmUmKKcH1EPDmOAQCuq4SJN418Wz94SKXt8_upIMjfXhr2-Mep-YVomolKzPqM2H-704XdHzrOIg2zulRKvk7PPMXlWvgWIYmZ5e3WXj4aGKyIXnobjzEN3Shb2WzCCCkq0VlmBkD95jEf-HOEPWvSyuJil_M7v0XSIhJdTeBY5lBRARt9lu6xqbg3sNpdOxzTk8yM63ukophrhWgYFmqmBJcOnE6vbYALPjEvqWRhsaqmv9lZ3-T2pQnso6podPGM0NOXoaZUYVrTiFXyJhxkP6mfSmvxe7qDLWwFJR2OZYnYbMyCO13ylOMS82BLGFl7xX1GanAPKLHLAWN5IKoRFSCvh23iu3PgZYEPi6EMXBI97ASHXCS1wJixhqNn-Ylvb3gmQmPp8hY5kHQoicOmkBSbwlBxwPRpaRrwd5XRDxYrRqrlBuu0g4xQRNGq_OM4Vgd-MicA6xP5O4jm6OZSb-2Av1o7Srzpw6eeAmivl3JIbyzg1EjqudePNAnhdPyNZAcac-epgZ3UnTHYHrlkVWpv3z9jTa1VWBM9nSuVC_UHT7IzWGQE9A9odRtOc4DNM1dROnFoW6IV8pblHRGQbpkifn1RwnDGRMPGu7La0jyTr654fz9mfeYT9AynsZyJMRLkR2_ZrDh9NDgyESp2HDSoQ8DL0UgZ4UZFh-0d0wrX-zvJ8g9_G3jc0bR0AbNs9bjIAVV0la5uRNyUF3Feq21Ffbk_oMy-y3Da6kdhlBMfGVCHK9nhTdFNl-G656Nu39crc37dzaLNuF42kkm6xTb0n28idt--XnbwPJnwCsrD9GI7qObLlFAfyG7eaEnvmfMF3ILqOeHY=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_046180ff45b929b9016af0c01f879087d1a12f7489be17b76c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1435,
+      "completion_tokens": 98,
+      "total_tokens": 1533,
+      "cost": 0.004566,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1432,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004566,
+        "upstream_inference_prompt_cost": 0.003586,
+        "upstream_inference_completions_cost": 0.00098
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 51,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004566
+}

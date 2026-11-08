@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:40:49.263018+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P001",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "69d77d150c102e7bbd1966b85ecf77946d12ea67109edd8fe654267068a5277b",
+  "reserve_usd": "0.108800",
+  "response": {
+    "id": "gen-1794163245-WfVpnoEGeIUwOqEFv8vS",
+    "object": "chat.completion",
+    "created": 1794163245,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner strongly favors reusable core-topic animations. This clean, branded poster explains skills using real folder names, unlike the generic folder effects they previously rejected.\"}",
+          "refusal": null,
+          "reasoning": "**Weighing options for tasks**\n\nI'm trying to decide between what seems impressive and what’s truly needed. I think focusing on clear, concrete skills can be more beneficial than abstract ideas. While embracing creative concepts is great, it’s important to match them with real, actionable needs. I guess I need to make sure whatever I choose is relevant and grounded in reality without getting too caught up in lofty ideals. Balancing both is the goal!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Weighing options for tasks**\n\nI'm trying to decide between what seems impressive and what’s truly needed. I think focusing on clear, concrete skills can be more beneficial than abstract ideas. While embracing creative concepts is great, it’s important to match them with real, actionable needs. I guess I need to make sure whatever I choose is relevant and grounded in reality without getting too caught up in lofty ideals. Balancing both is the goal!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MIww-VuS6rxMlHZB0ox6JFCfgRncQJROAP_ZwClrUsoyJenZgkCZ22y9DEnCHLbggVf4jHmmjVit-1bVe53upW2rSvGMSF7xH9qFnp1v07-0CD_X_XXj-CuUDR8f-pm18IS91TOD_SZumezG1KWG4dKpTu8TwJqPkZD6X-6Q2lQ5fFbkfLUfk9-zwFRq7KTF3HlWiug9dYXRKeL5h3VSfnXe_UNKqNxajouMk9ubeEg_7bwwVz9c0xaCIP6cjzQV9QH36dGsOVvyM6dYW47DSTi1R_l7ogSnBJcWwdKYxLdFWc-dXVA4rjXbtJWxlftmwSttRRdbb8qMG5D57ikfP7oF9gd6G0p9BeMoTfVRPpgkYXZ82km5RenN6E--mJY6PfZ_FMIEiuoe5RIrprzZgT6waEVJuloZT25BxlAZaQ_mnTGRt6L_rKE2_ZC4tTzLunPW5nSd9-qT-MCsgDFELMrrgettGK7MQ7XhpmbW92axbxDRU2YNwFns3Kdl2IKUkbm0LzMAfZ9PW-CMg14DCV5F74Y5Vm96NzoJYe5jKWxwi1DLR4gKrVYgYYLnvWIuj7TaYFX47xagvRjL_esajqbMHGYbLZji-r-lMoXWRSxOrlkKvBceAj9kuVdL9viNXsTT86Qi-N-dE9bO_diADee_b2J0F94rEeahKq6xVf3kvSKpIByNUMVU9zX0YfQoNSBLNQbPQLG-Co1ThIibSuMk1Fmql3V1fXOPzrLSpmaexEZ4vYBfdPaxGpbHCWgsbZE0Vtn0Ae5wjmDRlneZF9s7ytbKAR4qnMhqq7FgY31WJfaYNYmvc80MHNtXR17mjrV7CIOg6hEJG8MgLrC0tl8LIWTyqnU4rrIgs3tcEzs__YuRyFb4UDOIXF-FQF3LIaoXu6ohRDnUgM2a8P6_Iv0TNeLchAe5dmvxZTvZTnI6lThy06iWJDFtx8lLPb3RuDdH8V1YE4W3IAqAfeotn3E0S3mXSZUPBFkw0dibT1LybjB_Kc5eYMaR1f-ZViKd6mCfpRK6pTSso4B6LHZCqLE1B3x3jyZSZju58UnhtiymRAcrutWiXwTFjrErb1yeNRQ0KEOdMqueRWgGO_xSBDXQ9waLCCHsfezeScVylD9bexVVGFKu91W0OutbMwS5O6syQzPE_iqKlGf88Eg5vvaUdx7HvzTnUxNYaI9a95Lw8xrpd-pD3gFcz4N11HDFXG5xHViji-Rs_XtBdwdmyUKHIQLExId5L15uJXi0CLrcD9jKmY_f3UARkL-c3PJ1kuVJxJuCJe7nvZ6noZl8SmOUjJzDTct0Y60f-yA4nJyTp4HHFhxi7HF8_K8Sgl7wNvxrBp_Qi3R4dQRYYZ92iSShsNgh6oLDIX5tCtWPbANf2Zh73YSrekWttQJvwIl6y9sggNMLxZkJy_RmI8wtDilcy8V2h8Lf_VHEQ89rmqAed7vk7fO4NxxZS_EUeYKAptf61jtdYkaoo_NkpgnRIIoSPWIpEj6_lKN4sVtLD3YDATiTA4uohmhgwWbdnJUqMR42Zm8vqgGdf0t1O45RE6_fl7XEADQKc-Gqfgsl-CXdKge3RfK5wLzwkPR_d9pCoViEDs4--BVyo8BajGhdBI03pBNiJB0lxvQhqttUG-KOm0WKfPEG_cW-ewdjwJMQywWJ60QAQoITvqR-p7KWk2CJWhdBOD1njvWBAROXW0cA9GIpkrTCNQFJ5nLR9Mnvmh2LOPyqoTh9gDSKSBTcVacoVjjvZEhw_8hTh9E2-Xr_ZHb16A5mmpyzTHPgFjLLJTtQWmQV2amXML51vWGIHp4DxY6s6Gp_mlF5fHd5V14hhff7jx0QT1qDhKI3CJ5-7Kzz_e_Yeaf34dDRe66UyZ3cYbnekg91NwJlgTwl2Gi8GpZcSOxuw0aDDT3RTHT5lASc6H7s5r_9s2WqH_k7GdAGBfzp4p0ikkpbcfpCfwGFqiKQrrp-x3CGrmqdxcUwvWNECBvV9hkLrMa8ErL0Q-5bOtNy91Z-Q94x19Z33530VQA7glrRM7dz22sP2pIobriSFl92EhDd5gX-J5u7r0vO-16PXlzQwKlNN-fstBNkGMmtJqrTFS2BosoyH2EsQsa3J5srzi5sGO7fVKY_CNfWlmQzlbaaCvvQm_NjadXiNV7HPyQWexMW-6P-rCH9vmHjbs3qsBy5lEGukudt5dvO5ZdM1YcWwyvwXeujVYSboE=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_046b6432eb01d09f016af0c22ee6cc87d1b81a7d354ae91863",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4838,
+      "completion_tokens": 83,
+      "total_tokens": 4921,
+      "cost": 0.0013195,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 4835,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0013195,
+        "upstream_inference_prompt_cost": 0.0004895,
+        "upstream_inference_completions_cost": 0.00083
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 31,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0013195
+}

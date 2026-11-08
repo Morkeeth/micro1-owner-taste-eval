@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:28:25.689209+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P016",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "acb595028ea4550d659880ff7ab1b418d2c65e06f086d9ad2f0d32f8451856ec",
+  "reserve_usd": "0.166440",
+  "response": {
+    "id": "gen-1794162501-yPoknKXfsFARhNlVxAx0",
+    "object": "chat.completion",
+    "created": 1794162501,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"This Higgsfield shot barely moves, so it adds little over the already-approved 'Six lanes in cmux' animation. The still also shows garbled text in the selected lane. The owner has killed weak Higgsfield shots before, and the card itself recommends killing it.\"}",
+          "refusal": null,
+          "reasoning": "The Higgsfield shot barely moves, and since the owner has already killed similar reusable shots before, I'm leaning toward recommending a kill. The poster also has a garbled text glitch. The \"Six lanes in cmux\" animation is already approved, so this version looks redundant.\n\nI'm weighing whether this one should be edited rather than killed, but I'm settling on kill for now.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The Higgsfield shot barely moves, and since the owner has already killed similar reusable shots before, I'm leaning toward recommending a kill. The poster also has a garbled text glitch. The \"Six lanes in cmux\" animation is already approved, so this version looks redundant.\n\nI'm weighing whether this one should be edited rather than killed, but I'm settling on kill for now.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSsQgKEAgTGAI4AUIIdGhpbmtpbmcSDIEdUjd2Q08s6XVjyBoMmzJVhbWLFEGzUgZZIjCQVygx2wOOr287cukCo1tUQE6kthGOkxMShsetf9r7D1qewQHneh5BEXF6ntCXgocqzgfPxC4rC/l/78uEzGdpErUKrVIxEhVwWU3YTi6U9Kd+Ufq7LS1GxutF7EzF9IojroXhysDLX8O8ZDNcmQKwQJgwG73koVWScY4D4dI++cB50zWyFL0XpI29BF5NiT8+6lWkNfyYEhuBWJVMh2s5M8OXeZdMfflmvWhRbfIi4Ie7xGjUxOiURYDzKdOAh5wLIIzRYe2vx+PXp8NoMlfB8ReBY5NvQD5oQhIzK5h3KkHK06zm/g09GUDjlh+iKK1J/HRm64NHz8gxkXC0CXdd9ghv0FPxJU5rtnyO+84fR32nXQ1Hj/5QmnHLFCgj2gKAxcRnky/tHPuRkSVOrhCnNb3jRtsdpbhnjbZInEelz/3JjgPJ1aup3+MZTwWp00EqoNZ7oLkC6aIVekl2bpRXLnCX0iY2sSyVJmD7CzzSCuhkN87xJsQHCvOPFMSm9VvMWEN+v+jrVyVDRL9l6Cz+JjrvKUUaHhhuraf+AdiKaPwxu3iP8yzvjeNf3msV2VRoMWFRCbE/o4yQk63xG5hl4ofc3+EboZ20nWyXiycHU2EbXU9UonEXxHmUYv/qnhHarpRQZPE8dmagOYmOB4Czs/5ZkQHEXFeAksBCMAW8/K+rB8TRpS+KlgeRqjQWIAXK/mvVroUOqCcke3AiJbo2KLzj+B0wUy5+YMr5wKV+hGQdRtuR4JeRNoTYfWKd/vogHgiBSvuQqIZXxFRMl0f1HOB6vvwu0KxNnFgN2z4h1Znh8OhtyYb3CUAVlgevT4YChzYCb2r16B1e0vjY0iehwpWddhGdfmluoAbuwiyoVXJ2eY9F2IUWInyiybECz8ESryiWao9jn1nH50zxNjNkLPGvIavrW7Jb6Zk6D/IXqN+HWCVUcR7AqvXST/PtviIZ0f0mVa37booKapkVnv3CtAiVY1U8Jc/gi7NgLi8CS+da4amsY/9CBNfPAY7/FV+oo5w9mHvA6+N2gTLGRaJYqgmxFepjPkbCFyYkXuTN+OvpNemoy1t6ou0wtrSpeOk0b/+EukkYk1OYNB1yAKAk/1YMuVHDlAXcYtgbHaxnwTyLtmt9JT4dJ9aNLzYRBqZkTQHMX/MGBKtL/nB6wTUk1c9qhEe8BUkrj1q8+MuwZDhMzn3SDP5e8ka/Jou8qoOT+9l0LXBH/JhVd+b+6z99Dct/4kslrUklCTMh3vYKR1evS8AbmrXMTH9/zXzWAahAlVesAmAi6ifLa8VGVS9jM4t46ifCgoiNsOWotpEDBGflGUobKnaTlgfh4xHF86g503PmjOJcNQZPA6OK1BEgahgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5017,
+      "completion_tokens": 272,
+      "total_tokens": 5289,
+      "cost": 0.025508,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025508,
+        "upstream_inference_prompt_cost": 0.020068,
+        "upstream_inference_completions_cost": 0.00544
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 163,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025508
+}

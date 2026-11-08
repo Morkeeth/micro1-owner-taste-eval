@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:49:57.396367+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C029",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "a5eeb3ce8ee44a1ffd32aeb5e310f621b6b75fcf561e86844d8444cf1eca14b1",
+  "reserve_usd": "0.099192",
+  "response": {
+    "id": "gen-1794163793-ShnIAa8pPwLF7hjLlsMw",
+    "object": "chat.completion",
+    "created": 1794163793,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The still is clean and on-brand, with a single document card fluttering toward the blue folder against a plain background, and it fits the requested set of reusable shots. The caveats are minor: a subtle bounce, upscaling, and placeholder sound. None of them look like reasons to rework the content or drop the shot, so the owner most likely accepted the recommendation to use it.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1925,
+      "completion_tokens": 140,
+      "total_tokens": 2065,
+      "cost": 0.0105,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0105,
+        "upstream_inference_prompt_cost": 0.0077,
+        "upstream_inference_completions_cost": 0.0028
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0105
+}

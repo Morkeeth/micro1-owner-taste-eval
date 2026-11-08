@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:24:03.829285+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P021",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "dc2e24741abb7eac089ae75de042fece524e338d235dcfa8a8631ff2516c4889",
+  "reserve_usd": "0.066895",
+  "response": {
+    "id": "gen-1794162239-3VDtC184SRWi1NdXSrMJ",
+    "object": "chat.completion",
+    "created": 1794162239,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean poster makes the index concept easy to grasp, and the shot fits the request for reusable visuals that pair with the index lookup animation.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on posters**\n\nI need to choose between the likely awesome option or making edits. The poster text transcripts look malformed, and the episodes’ music is clear, but the transcripts seem distorted and angled. The drawer is simple and flat, beige, not wooden. My recommendation is to go for something strong and readable. Overall, it seems most likely awesome, given that it’s clean and symbolic. I should keep my answer short and grounded without overthinking it.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on posters**\n\nI need to choose between the likely awesome option or making edits. The poster text transcripts look malformed, and the episodes’ music is clear, but the transcripts seem distorted and angled. The drawer is simple and flat, beige, not wooden. My recommendation is to go for something strong and readable. Overall, it seems most likely awesome, given that it’s clean and symbolic. I should keep my answer short and grounded without overthinking it.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L5DKgfZLDkXIU_R_ccORA8FHhg9wSxDTivpuRlUXPHDnfQtxtfw1vPYDTEqCYm7BBnIlH8mJeJKIDU9LtgaizxTL0XavWb9goJOlEbgNsVLhvnBWgs6mBzyYOmGbUY1vL--5s1FKN3ili8XOSRrJFv0ebMOTQJ0MmCaZohWiwuxvKtVcD3cAtVWldPahW3k5h8xbvPA1CNCMxpZWvUq8w63xLaaMof9WW2Mb_8cx2X3j6gyLXNbGWfI5uD3Z9EeWRsAxFseePXrdFgOZmDVuUbKg4I91lFXiBqMWwF1VWThI0UusyuX9ZOlH8zzSXridywx5YP7bYoiKWdNLf7fkakuOXtNrUFyb0Y2sCyCk0t5HwqORA0yfXnpzZ-ZF1vrdL9qczZntuoUexkrH_BdyozALCwgziAHEX_unms77nEpy9tsUrjd42TQ4a5awr0N2MwFlhjslNaFBz3ACCJPVk035D14F1Vyexz0mYlvlR8RLWgi8a64MFo6fwCxFxuxPf4i0OztUbl-6F6DHsduvCDXXACCsBmdRcuL6hbeZgwmMzXgMhWqzac9luUoGzzS_FNokOId8g0cAO6uCjFd4BHCjxeenDAxPHXCltiKuYwVqydj2Cm2dS2DLU5AbGg_XfSAAasL1MFnGJNm13r0A0WwFRW7PuYUJm1jdSClcLtuxrubxXLFFsKCnO6q3Lnb8AZ5s4IbhcS_zCBK6bO3xeqWDGsd6hxcu-Ecz4oRNoIfiXO78bJsc7Y73YoDcw4AdNLoiMuul1MPt144t7PzIQHHW4f61COTbmdtRBXbVxxr2bYb7a_2-Mnindr3OygcxUXjv-wFP1c5SQbJqKI0GapJV0sNsh2rwLBtml9GI-3Id1MWKm0pGV8wYRIU7mz5riFf2vswQhAfiop36f5mqj5GuzztzrbOvySjANs1t-NZuoOmJbuj53ZWdAiZJjXP8WA3NWPp54m56xozgww9oZZnqRVl3Ktr_f1GK78P1lGMR8C3m_GxJw7ubIVgPKQkgq-4wD5G75tq7PlnoVTZD8mlVfipzVR5w2Xz7W18ipqExGyI3DJbion23wI03XR1hgbdSu1gMVlrHr96s17aUEkvd1n2WNvslgbQ5kE9lZXgdz5NIu-ZVmMkzVNwKngRGPG4pgsrqxJgiHAb4F5w3_wt3kMWmZ_W7YrcY8ILTHJKEaKhppZ-vQt9M1AXko0kStxXAADsH_Yhlbs8uSJVEKt37kZ7ZlgdJqLNPcK9KrYCiaLm28K8-fgR08mbbkDTknKH_OaCiZ0l79ajd0R8O2ftqLTicdjquH155u464pVw5wGOTldTMkCxuz4pLc11hHhF6fhLIDbeDpg9Y5a918QGlyCuvKG6sjna1lsHUS6wt0VjHwvg7MvZyj8YO0R0pmATndF-aprI0PnPuPh0NbrlvYngAY1JefiwxS_3jL0tpM4RcW8y8jBUpR-Oxnhy_CPcuuWqqWER45U9mDJu3pROKgOkfwXYtoEc1ZwSrEjezYSn-txWZZK3pyl_T_rP9G-HezeEBf8Icdcy41uPuIvF8GSC2oZgkQ_AHG45-Z_ntceXCHxkEAOlOJkTngQHMbZlty6XeOhdaHNhXNktQ9GDqwjTnVmIepe4ebrWsSLm6J0YoLE71GrPHoM7JD8aQPyQIyEYGLEeCwQmZ5jVEflXJv_5hiw1q41PBQQlka8_vcJfbBotcRXMisK50loodG9lO5IBPhgbhZifzlm2GSikcev4Zu633oepYzd6o_KYFeSAQK8wXo5aXSLGNLrW6JOsnsvEDnGaqgcEqmoSI0XKRGY6gL3IRZzXFTbzRIQ1LcA07xcDzU77XFWz3p6vtkkvIphTErkHoMnKnK8NmxAoj8n1RY8uqB1bncwNjZVE3s5MZIq1msNLOLN045sPUimTuf6tS7gnxAfv3Em8CL5Jt0aAfpB08RVH5ev-YNb5ZJfkcFSCfmoBBeT2XoHk9ZAER6rq_GjkvUqhP_T8d1PP-JoGRi-Daa1FweoJlzRA0nKuwItJ7oEuDpTawQfTUNm1aNATzWhIvliHs5-Wr7WFtN9UWu8u917zBhY0-4P3mSUiobkK6D8_NCGZqc12rYOWzhR81lsTH5dCwBRiVGTtyAU3fD_OW79RiSOfx5ZPWBST5q2hro32b3QOHgcmRQVmxl9FSrnfebyi9xiJifsDarnla39ctwBQJulZherZc_kNMqeimpIcYmg23Hc0IclUocnlRHoDF9zsre2Xa8zw8RA-7P3hPhm1jp4OSTgTg0tjYpdVEdUS7knUimY8k81QIvsExzi7LHNh2_kdvgM1LUf7k0X2lyrUzBut2CV98lx-KHTzsBxRvEDYx4s2ReDEpuXOc5iNm5X5YA36LqLrilrtyXb-aXh_FB_knI99akrEppoAPbUK7IF-PowS8JAkvSN5HiNDqLQtKM87mB-btnwXDT_ek9BTygR8hBgZ6CU28nGo0hL06ic0OdjzpeTACwGpe1QdOH7Je85hB6r_Hg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0f221724ccc97223016af0be40d92c87d18d084fb29cd95e54",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 101,
+      "total_tokens": 1545,
+      "cost": 0.0046185,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1441,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0046185,
+        "upstream_inference_prompt_cost": 0.0036085,
+        "upstream_inference_completions_cost": 0.00101
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 51,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0046185
+}

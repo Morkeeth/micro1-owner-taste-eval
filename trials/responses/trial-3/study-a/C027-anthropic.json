@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:49:39.884973+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C027",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "4c6ca4d93b250ba220f5f36ade5a879207815fb3cec4af3e1c894c8ee299d677",
+  "reserve_usd": "0.099096",
+  "response": {
+    "id": "gen-1794163772-kBJhAqXieRN3nT1tm8iX",
+    "object": "chat.completion",
+    "created": 1794163772,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The transition idea fits the request, but the poster shows a frame already dissolved into blue blocks. The agent is an unrecognisable dark blob and no broom is visible, so the generated result doesn't deliver the described sweep. The owner likely wants the shot regenerated rather than trimmed or used as is.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the poster, which shows a mostly dissolved frame with the agent only a dark pixelated blob and no broom visible. Blue pixel dust as a transition seems fine, but the first still is already all dust, so the agent is unrecognizable and the clip starts already dissolved.\n\nI'm weighing KILL against NEEDS NEW CONTENT here. The idea works as a transition, but the generated output doesn't show the agent or broom, so I'm leaning toward calling for new content, since the owner would likely judge the clip by what's actually on screen.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the poster, which shows a mostly dissolved frame with the agent only a dark pixelated blob and no broom visible. Blue pixel dust as a transition seems fine, but the first still is already all dust, so the agent is unrecognizable and the clip starts already dissolved.\n\nI'm weighing KILL against NEEDS NEW CONTENT here. The idea works as a transition, but the generated output doesn't show the agent or broom, so I'm leaning toward calling for new content, since the owner would likely judge the clip by what's actually on screen.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1927,
+      "completion_tokens": 475,
+      "total_tokens": 2402,
+      "cost": 0.017208,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.017208,
+        "upstream_inference_prompt_cost": 0.007708,
+        "upstream_inference_completions_cost": 0.0095
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 350,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.017208
+}

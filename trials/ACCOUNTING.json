@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-08T19:50:20.412619+01:00",
+  "authority_verdict": {
+    "id": "micro1-repeat-trials-8nov",
+    "verdict": "YES, BOTH STUDIES UP TO $6",
+    "note": "",
+    "ts": "2026-11-08T19:16:23+01:00",
+    "card_sha256": "a714c77015f104c05933c9b69268b45c6297a9187b1bf52097917ac3680484c3",
+    "card_basis": "version shown on the page, unchanged at save",
+    "secs": 4.8
+  },
+  "cap_usd": "6",
+  "spent_usd": "4.2780606",
+  "reserved_usd": "0",
+  "completed": 396,
+  "planned": 396,
+  "status": "COMPLETED",
+  "current": "responses/trial-3/study-a/C031-openai.json"
+}

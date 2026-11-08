@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:25:02.196482+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P029",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "9afc4f154408ba49553e3b27123f36187404c7d5f6d31f47ff6f5f980ec49fd1",
+  "reserve_usd": "0.098928",
+  "response": {
+    "id": "gen-1794162299-MO7ruGNNlxGSuX4lTDOh",
+    "object": "chat.completion",
+    "created": 1794162299,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a narrow revision that does exactly what the owner's note asked for. The agent sweep is removed and the meters now use the owner's blue and a soft blue. The poster looks clean and on-brand, so the owner most likely accepted it as a drop-in replacement.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1916,
+      "completion_tokens": 109,
+      "total_tokens": 2025,
+      "cost": 0.009844,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009844,
+        "upstream_inference_prompt_cost": 0.007664,
+        "upstream_inference_completions_cost": 0.00218
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009844
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:28:29.567406+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P016",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "95b46fc5497ed0db245699b31bb80acb2968b1e16fe86b7d57ad248884cee982",
+  "reserve_usd": "0.109145",
+  "response": {
+    "id": "gen-1794162505-SKdAhRvPJNLhmIEqDrsg",
+    "object": "chat.completion",
+    "created": 1794162505,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The card describes almost no motion, making this closer to a static screenshot than the magical, reusable transformations the owner favors. Prior enthusiasm for cmux is unlikely to outweigh that mismatch.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating options for editing**\n\nI'm considering whether to choose to kill or edit a particular segment. There's a strong history of cmux being great, but with Higgs being static, I find myself leaning toward the kill option. The reasoning here is that the grounded card has minimal movement, but it’s also reusable and potentially transformative. So, it seems like KILL is the way to go for this specific case.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating options for editing**\n\nI'm considering whether to choose to kill or edit a particular segment. There's a strong history of cmux being great, but with Higgs being static, I find myself leaning toward the kill option. The reasoning here is that the grounded card has minimal movement, but it’s also reusable and potentially transformative. So, it seems like KILL is the way to go for this specific case.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L9NrhLAt8qll7vKhVlI_9QdN7jlVFnjeLJ_qNVllFcRB8F5TUQGsIl8Oh_JpL7qG3wEoF_hzSotqj_wlN7TwHKUuLAsw43Iyskcp2ibhsQBjNe6S1A77YhrHxs9BhB_YrmXIImpTSvKxu2VYatfBCg9E1AMgs0xtsIYuSmweF-2GZz9JPIWvepxUJ4ACwiI9uoh6rP-b6bjqE3Hn1K9QZyMSbhuoNtqUk1kjM7wO_dTGE5uz-YXCSEvAw6Ui_DE7beGbf8f4ExhkMMkhypXJiGwr4-lCz-HMvxyxB0dUdZLCgMPyc14FQpTl5F4AmYCBLCnANQliMyDr4IH5p_rrX7WfvnHYBEn7GqGUdTKA-5Rovplf2wpvnl8uvdvVfTxnd_r78ieLokiIQeKxuEpnqeIdTU19gnnjp-SFoIQ0Y5IPtgvJdADir4m4zYPgPYff0KSlzRAeueqdWq7jklJ-38Qu9RsYkzsegfTonOKUKA0nlHEDAc6n2U1mQUnjfjQOLTvIWgjSKAkRJLqp6HIssj2Tz4d3xcq-fg6UWt_fRW-wIt_7l3xavpEd_p7B2zNyfS5SSTufWNJkWbIWkG2mg8JefsWSZOnIV82cKxG6x1KOt3r1AWrHNb7IVijEqg9awrdAHICOs24uCA-pcfLDKEBmSTAuDtCH3FJbp1ACvZm71XQGekE51XKSWYGofdNAZK32bs51x1MDnYyGrFX4hXBZ3hN37Lm9Fq00vTvarQR0LwLziN5gVKayXijyZsv-bARRXNfV8Miw72RYpY_vooVqCvQ-YBrLgtcNS_Ajzc_msfYXlH0YZEAcsd3cRMKMG1pTIVV7KfTP29OviFTGI7FFZrrOztLReLZAzXef5xqlFUmtPhEO0TKwuKZvSw94MOmhlwf0e1saqJ4zr2Ufs3XaAtAfKSJb4O_0OAebMZP5unn4gKck0HPpvz0cqiE0ipf9OE8lDh3aedub-mIOSSb9bmmjY-X2cMFwCYR3cDdcbclVp3f3wqwjgnc-kJBpHxJ8dBFwncVnKlH6KZZMICnDvwobK8nRV_7570RBqy72eNFU2bP5ITuNc0SZe-MW6RH5Lfrk2mevMT4n061eeqD-lR8IgB5GuXI_3ba_ZRjGLiNpIpFYk1F9k7dfdJmu_Hg8ua6mkfRVKhzSIm16ODme2n_ombjdxm611GNM3t3O-m341G_YfjZFXrh8O2cBHY1PWNOIRIcokC6SupPtwTWC0BcZ_VxUFz9fWYBSY3Gx_A1MjMqdJhAdi60tQKcY0y3gaNvS9r2i6BDJcIIq2NvQSsZUXTaA2LP7IQLeGmkq4nKss413o5pa0ojOw0qW7VSDXdfmE3GuNE2IRfIHr5rjXB1dXpVC5pzwGUDFrgkkf2QEVtziIsUol8YQtkpiwB4D5Qr6-4EWP4xIbbJ4C-ct7k-Ub8DJxNJayN8oxjC325NhP4Uu4g1NtMc7YRbO_T3Q098Ruw6D04umpjVAKhJSwzuDnQVupKAydCWLo5ZOZsmNiUlldQprlL1BvPPN6388_yZSOOBS2kZ6cSCUe4Xw2vgEOQDXNKrbVIRU38MAtdEQp-UCHfJ9L3lRTK7jCQwm3clewIbQ3VPcnjn9AOASATnYvLQ4ehmBGQhx2wWmJiaHGmvWA4wb2GNSItA10PCMQKh9cn5OXsmZgSFK4vLvza1dPwfH6pSgZyam7on9yGFrD4O2LRDkiuVZsmDz25um5FtU29qu5kaDwVDQENrquaqBsF9C7pSiOPsictCQqOX9hwwXkiHRISSV61aThxNGyK2-VM-qOugA3A9N7Dau4qoWRDV4Lonmfkk3TkLGE7vsdNbMTnpm0-DI3FTIGpbJO6qp2-4I4_vW2qkGhIMxiCoLdvAK7zGycyoCAXJUmcmEPbyvrjfJpF_xH4w_Ty2LmgzO9_kIupLKW1vsA-Tk_d_SrA942t258XOMNk5it-IaAUXTkLBa29rjJfU7FGICVDeqPgosOpqz5lKq7VVgyexTpdD9n_f-BjDcNYNhdad1tVJ4G9u9aly8wh2IKnBqjBNia-Aweck3W7SZPFs6zH8q1aQNqscOyjC57iT-DsQDLPVXeAAANC4ayUyOci-HMhTYb6wzzAxTXihISAQw5UqAVOVL6LlR0ad9NPjnaNPn-04EefQwLdy6OkfD3iZ0ZLxu9IlumgQ_WmWMF2RfOKR-ptXJA1528zJdQ5T5Zc=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0c452bdca91ffb5f016af0bf4b1c9487d19c8e9ab783d7d2d4",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3501,
+      "completion_tokens": 91,
+      "total_tokens": 3592,
+      "cost": 0.009661,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3498,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009661,
+        "upstream_inference_prompt_cost": 0.008751,
+        "upstream_inference_completions_cost": 0.00091
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 34,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009661
+}

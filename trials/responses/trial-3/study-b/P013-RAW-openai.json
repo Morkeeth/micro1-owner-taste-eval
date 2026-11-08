@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:37:41.912127+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P013",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "920888c7627a5501850718f93dc303582ed269c8bb8b75d5f8f48ff77c7e9ae5",
+  "reserve_usd": "0.066630",
+  "response": {
+    "id": "gen-1794163057-EzmHLKD6PDQzTXiTTYpH",
+    "object": "chat.completion",
+    "created": 1794163057,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean, generic app-window imagery fits the requested screen-related shots, and the proposed consolidation gives it a clear 'many agents, one place' purpose.\"}",
+          "refusal": null,
+          "reasoning": "**Considering predictions for graphics**\n\nI need to make a prediction based on the generic poster I created. The windows are slightly fuzzy but polished, which might actually look pretty awesome. Since the request was for something generic, I think my graphics will fit just fine! I want to keep my response short and grounded to ensure clarity. Let's nail down that prediction and make it effective without overthinking things too much.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering predictions for graphics**\n\nI need to make a prediction based on the generic poster I created. The windows are slightly fuzzy but polished, which might actually look pretty awesome. Since the request was for something generic, I think my graphics will fit just fine! I want to keep my response short and grounded to ensure clarity. Let's nail down that prediction and make it effective without overthinking things too much.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MF1eCH5bgTYHvdnDH5QHfB40EWEeRfLW95r714PG-8P3NQrtkeecTB5SR4Q86UXv-qX7-6Z4fmdibE5LVVI5jHXedtshq7sbTAvL44E946196KNLqO20kXZlLRyesQkNPz0GLbZK80HNwUGsGb7B1yOk7kNuV4-g9t3jzOmxX9_DxUvUDYhzL3aWTpEYhD3XcpjJ_rrEd5ptFlMKs0lOTj9GeKMEa7PC0g2RttB5_h-UT6kYH3ujW1sWVg2Ls9EKWwWnaS9B5r7X8K7QLt4iUSWjdmI5vn3YShueadAHNWAYPy2dXn1iV5endmncLe0fsQOqyvAO0qIHOnESzyZ9fKkjzYL8UgY-_TeSk2Rk0f6E-JAuDsRJ91Zb_3gPCBpEaTp-mL7XB8qX0Fb2IswJVTkUaZn47jXvz3MGJvOoSvlaMinIz-zX6gq_Nx8ayfHz-7hE7gvS71HrJaX8V6iBcvgeUIFdCcRxTwpnd7nuhPNJ_Ieg5Azl7k2okhSxW0HE0wXPZondDb_EYJuxT79JhSKaZs8XTgvBz1Q0SidpeYlsJwnPTs8X-mFGK4YlawfPOthUELefu-t6sQrCT96vQcaxK17-LRp9VUm6XmF5ripLIJUB7Fv4lBZocw211OK7f5PE9coURM3hwJ6mfct6mz13Ldobuy0CXacERR7tZEDWVu1PfjUM9l2Wz3jREBnS9YQ1innVgNnvBMEAa308O9s-qhCViMsR7DSj9xTXDviRZ10r61xZWMRfwmx1gFi2ixiOro9t76S-Rhe4DIhv3B15apb791-c1hk6G6XBCMsOI1f8KSleBCjHeIF0ouIg-eD-K8EjdyDZlJbZenblSHvi2ttTn-PuT7AsMzsNLgdtqHOQy5cdbrCpIjNE_0wzOg1NCduXQWhHB2gazTSJYczxDJQlyxpppqigxT3kzgWpQqKpUpFkpvNSV_BfPew564FoZmhA6MepajY6nnJMFsMPKKuPubcKHw1c5uCZiK9bLKZccN08_is2xYmY-QUsE47jQlEwCVmJmNxv3Wm3Y54cstRk_TPQnMJwPzcEv0vsQ5pDOIQz7E9He6y5KGTte0E7qW0lSREFcYp4gBUKZLZYx_AzXwvh0fR3zglEgQNV-rOEnG88-Dz8PijprDGx_uDPDb8P79yIc01Mwx1NC-xfphNQfmEkeKPmCMMSHyJGeSGapf5h9ZA_D8aKrLXrL8nYJLnKD-j2q6hhouPXxsIxZAjG2uej6Vb5AWeQJ7V70ljsO81xGjMPlKpdz8MIDlaLeLOxHj0esFJ2FkQvxQgM0vM5n0PLuB702Z0P1dCq1WHRvFKAsxQ-Wh4RbNrusHYMswWyqf0Wn7TEhMCu4IHID_r3xtc_59WM48kOv5kG5wzOMj2aGAX82CRTR-OlW5pkHGLRTwOYX1jd8fNYrMQuuCnCbwaG8B37hs9iGAD05iwon0zRA76sbG3xLcF0qIdlKuZaJgRp59Kud5aUdCPJG0Gu4HjJtQSKXLK5MHJSMoEicxCrl1FWvfBr5fnhw64oBmg8xU7_p5OnJac5mYsrmTgIA2UNQrbjyzJwJX4j7qPfk8uLLmRoOZxDTvamxqFdkWI_MwjAuyBvykTjNgHPb_aEzYBbRlqcKkn0S8ng6rXVRXN5FO4lYKIuK6xCz3tJINOR7MbKYB-IIan32rPbQylAd_le5076otf1uOyxlZPg1jhD1HdDdauoQXB8XbcblshwCg0WsdVyalhJMPc9xc-SWoHE72P_JGWUhBih9bqpAocS6LrjQiR_Q7vS6ZjtBGP9HKlof-Yo1_di1YabEa1EvdEOS5NJ60z9LOX19mo1W_N_uOxWCyUICOOwS59MJ6hRWTHdXTI5mERXnwCiQ9Qmq7pkINPAK95wREdIVTxejBS7t-ukTyKhhKRSzjd1VatVrOt8-CIva3wjgOFXg9kusJ8aLW4veL_ozT0hYdUngZZjxT07yiOqDFo2HOUdO1Hcn0UZUUZXxw87t3oJot5LJ7HPU9oAnfeUANP5TEx2uaBJpeDyJqHLTkssXoRvxDoMqe1wJw28OhpueICCWVnXvfRvgwgRwvhwVpxzCDm5iyfgZqjuTltjfDGG7_EjPzvmF2BsRB0dhBdURFqikMjcE0E-YTrQXXO91hrDf70nTr51TbaJFcDlvfXcJbh.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0d8f52e586bf140c016af0c1736f2887d1a27ee001f88dbbe5",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1434,
+      "completion_tokens": 83,
+      "total_tokens": 1517,
+      "cost": 0.0009791,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1431,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0009791,
+        "upstream_inference_prompt_cost": 0.0001491,
+        "upstream_inference_completions_cost": 0.00083
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 30,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0009791
+}

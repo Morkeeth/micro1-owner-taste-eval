@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:24:15.078892+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P022",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "e58f99d99701d47fea41e23fbe913cb8ada0db9a08f2374cbce563d72f397204",
+  "reserve_usd": "0.067075",
+  "response": {
+    "id": "gen-1794162250-UKbRctSTuARd9rfauuiy",
+    "object": "chat.completion",
+    "created": 1794162250,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean, generic phone-and-window visual fits the proposed mobile-review story and looks reusable without exposing real screen data.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on poster design**\n\nI need to choose a minimalist phone window poster with some gibberish review. It seems like a great fit since it's safe and reusable. I could edit it to ensure it doesn't show a real UI, especially since there’s no owner info to worry about. The goal is to have a clear and awesome concept that’s clean and reusable without any personal data involved. Making this choice feels important!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on poster design**\n\nI need to choose a minimalist phone window poster with some gibberish review. It seems like a great fit since it's safe and reusable. I could edit it to ensure it doesn't show a real UI, especially since there’s no owner info to worry about. The goal is to have a clear and awesome concept that’s clean and reusable without any personal data involved. Making this choice feels important!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L5OGxQRtTFpBO9WLc0gm6yrxNpsT50DZu0WTIrZs7tL2G71piKgFTrI5JqzUZmPEQG9wGNQXKm9JicpzYZpxUAMnKlEYYbV6dgXCyqb36-9OZrpMtoP4Sdf7bhXN8Z_O1N4aAtRhdH7n-4i5nY7BK_f3SQFERmB9CkDwEpkhgVj-xwLn4pSNC_eJD_5tcYnhW9bYMeyo9oApjsN2VowImy89VCsTQxNKnAva5nT0lqHry6MetMgE3CI0rrrEKX8l_cAoHzO6IG3fDQMJKlEV_XA7Ye-hVg0591kDyfHUasLH-I-eEQ8HaMJgseaxqMb_s3x8HZ5BwsMhcfk5qKQn7nAJE0BSH0qDVeoRKIKHx_W2TJ1i4Tk7plbKm3505IijzXfiJ0B_24i8j6i6M0NnrnzlEeiRLmDL6Xeqe5xDEnnOdG2aUeMzVZyF4PmV9GADGeIDPo82G4q_z3Q6wtLqaNTEtYXVtaiQCYzxCKtXg1EDAvPR2g2pf2KqDoeK5Sfej8amXwE8TIsOfkeo9ZZPPylY7sCXldEXLIJMFsP-GgYlN7V1Q5AcmjHRHd-cUKijC8TFhREyhiS1CZW6r_FdfUAmucg9Rszn4tlpK1dApy7j0MR7tQPcfhnmxkDpc4x0cl9Zjqlp3Bz35rga1DRk3ZF9P5SNZ8Zb3VzvJseDCfjR_LLMksZKPN5hgdBhsTKmPT2rbOXWUcw9O-AO9Zd9OYKIfaF7rJ0z2PKnAOwmAVypN2DeEeo0xOmCyidFXVodyKD808cnzzL20CmYCAjcI-I4d42OUgH8m2RgswPF8S76D1Jb6kNrQyHPFUpB43oKG6jikLEVyTPTSav4jyYZkr3IObI1UzVvAkYpeibyrlje8NAWCGEY78FRsCIWHSHlyicf-AgDT0q_r08JpvLVCTx3ZgYds9HmQyFmDa-SM95hnZATgth1ScTJx4CLn2QQ697eitHp5DSOkhlpjhJsdT3oh88G1DFgYu7Lc1TlDX_l3pqMANixI832z3ywgWS6S7-khQYA5e2kmfg-Dp8Z8-HaYc2pASIjua8LIyS343SPNUzmZzjzAO32v1DKXvza6Hj_SyGSvzb-RPbVbWVy22GM3vFTMuP6v864pIgCsNnhgJsU0AKY6UcnqLbc9XqYFZe_HP1hMLVzYf1737CYekArLnqFjEPhwfTz7Pqggzw20jn8S-7w4jDQxGCGCGsGB3FfnU15Dpnh7qv7Qb4lpKI_bIDoqj26ZW_NnFgniBRWaNYw2z_jL5-sfPv-4QWHy3uarbFw6A3osUX889F9x1TPTI0-5OerdFKkLv9rCG__lx1h83cNAfmjgYwekvyRPwoVjbatwtcumBvuwinWIUhHIrX5Z379D2wOuPx5UPc7FG6POlyLqv0ThcehYv6ioOiwZHbjR8-5r-F6vVihmtUaHKHZH2yDNBbJzFKDGObStjw6uIg_AgO-H7lu5LPGIM1QSFbS2GVhUGHhiAl4RJNSiAdxm1MQBZz2VJOUSYDa6CvdmSK_ViNHjJl5h0byuT9kg62wx_gdqsjyqp0Z2DrRcK29ekyv0C25be9EWncBxxoNKh1GRPffMOngjFZJan2JCUas6By5rVMI1HdTkofHlhTQlmMtiKHDHB7gRlj7R9DJm8U52P5lRyCG-mQZ61hXmmS9t85qDEaOm81J1i4Q64dQg2Hex48w0jyvVdvGiH5l-_riQbhXVc0kAuunzzDVUIP3suLMwJdl56St0owuUPJY8q22rs80WPVvCKyg1itsb3baylwgROkas-_w3QNeTX9bC8INFqyJ0a_uhwJwjEHMDdsbF245eBuWh-QBpIOa9Jthor6DwALbLHyJVg88Z8xZVFTqL-kmE01kXGu7zlVbEV0Ltx0UgLsnaTQSoswjW45iTyOCCWBbatn-dJN3VhygXIfW8wVnYzNsfO8_t1SHHkdE12n1Ds2LDygMtUTo1FTLm19y9mXC1MV51YORguFPDUFAjQGUqtKjSB2UiXhk7u0YwIzY3jlrs_aLIBHOMbg_T--KB1w1hRQMP0SVj77QFUOR1gSZGbRFm2MQDLyWu02QKptMCL8DmkEZfPu6lEOIcX-u5JU5Gju0fhomOEbYbXnZWT7RZCJ6h0z2TlmKGy7Stjdk-Vki49F64brOXGWb_-qRor3H3aifNjVIjxvMSOnZaQW5HMKd1nNCIZTafaWv5ONtKK2D0Nu6f2503ZzcAC5y8PQ8vmvCLkCrHVLAfQD7fjOBKnxdMkww00FlqF7hq7g1oZr4LLo8xdo_fX0OvwPQLvVDGNV2u204x_Cay2Lnk-Zq6JL6PADAZhpOfzB38WwXoBy6TpdczrEAWCQcPVHVADtyd4Xum48.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_085a7cee5e7e22cb016af0be4bfe8087d1a4a293683941104b",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1453,
+      "completion_tokens": 91,
+      "total_tokens": 1544,
+      "cost": 0.004541,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1450,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004541,
+        "upstream_inference_prompt_cost": 0.003631,
+        "upstream_inference_completions_cost": 0.00091
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 46,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004541
+}

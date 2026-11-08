@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:39:58.055256+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P030",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "a9e4e3099fa689a731ac0096d89f3fc35a85835476be5cb56dbf69644aecb647",
+  "reserve_usd": "0.066930",
+  "response": {
+    "id": "gen-1794163195-4fFy5gL0wDN5rytEk4B3",
+    "object": "chat.completion",
+    "created": 1794163195,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision addresses both stated notes: the cleaner is removed and the meters are blue. The poster presents a clear weekly-limits graphic with no obvious remaining mismatch.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2794,
+      "completion_tokens": 52,
+      "total_tokens": 2846,
+      "cost": 0.0008051,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2791,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0008051,
+        "upstream_inference_prompt_cost": 0.0002851,
+        "upstream_inference_completions_cost": 0.00052
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0008051
+}

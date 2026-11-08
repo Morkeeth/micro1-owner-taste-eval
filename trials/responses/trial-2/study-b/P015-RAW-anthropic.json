@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:23:05.275854+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P015",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "469ed7cd40a143ca0e3c18b3810a4ee7c263d84cbfef944d29694854ef1e6e26",
+  "reserve_usd": "0.099024",
+  "response": {
+    "id": "gen-1794162181-phKAyTZNUR6vrfXmjtZf",
+    "object": "chat.completion",
+    "created": 1794162181,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The concept matches the request: the agent cursor is clear and the browser layout fits a computer-use moment. But the poster shows garbled AI text such as \\\"Cearch the web\\\", \\\"Cgors\\\" and gibberish card copy. The agent also sits in the corner rather than beside the page. That points to fixing the shot rather than accepting it as is or scrapping it.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1926,
+      "completion_tokens": 141,
+      "total_tokens": 2067,
+      "cost": 0.010524,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010524,
+        "upstream_inference_prompt_cost": 0.007704,
+        "upstream_inference_completions_cost": 0.00282
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010524
+}

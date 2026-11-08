@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:22:38.796382+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P012",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "fcc492f516c102b207e1afb507d4c710988594748dec98cc232ce9fbb456a11f",
+  "reserve_usd": "0.098816",
+  "response": {
+    "id": "gen-1794162155-NwPJVArnxoYdtJjxlfmo",
+    "object": "chat.completion",
+    "created": 1794162155,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is my best guess from one poster frame and the card text, not from the moving video or its sound. The shot is clean and on-brief: a general notifications shot the owner asked for, built from their own graphics. The poster is readable, with clear labels (Agent finished, Review ready, Tests passed) on a simple phone against a neutral background. Nothing in the frame looks broken, and the card recommends using it, so an approval seems most likely.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1908,
+      "completion_tokens": 161,
+      "total_tokens": 2069,
+      "cost": 0.010852,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010852,
+        "upstream_inference_prompt_cost": 0.007632,
+        "upstream_inference_completions_cost": 0.00322
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010852
+}

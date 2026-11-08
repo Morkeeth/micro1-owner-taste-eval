@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:22:13.793611+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P009",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "51604f1492ce11f2fdeac05b364f3e36343eb01f1abdca7bd301c7f49d68fca5",
+  "reserve_usd": "0.098688",
+  "response": {
+    "id": "gen-1794162130-qsNy2Eozr8CDnHYqcm3K",
+    "object": "chat.completion",
+    "created": 1794162130,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The card is a narrow fix to a complaint the owner made themselves (\\\"felt a bit laggy\\\"). Only the dead holds were trimmed, cutting the clip from 14 s to about 9 s, and the pixels are unchanged. The poster frame looks clean and coherent, a complete review screen with no obvious defects, so acceptance seems most likely. The frame can't show the motion or timing, so that part is an inference.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2629,
+      "completion_tokens": 161,
+      "total_tokens": 2790,
+      "cost": 0.013736,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013736,
+        "upstream_inference_prompt_cost": 0.010516,
+        "upstream_inference_completions_cost": 0.00322
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013736
+}

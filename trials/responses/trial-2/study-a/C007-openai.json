@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:32:26.128704+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C007",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "91c4ab1b7e750e6d86fec253e695562fad6b8d61158720824eac05e0f18c090f",
+  "reserve_usd": "0.066910",
+  "response": {
+    "id": "gen-1794162739-R7yvbDWnrtdf30I1dZd6",
+    "object": "chat.completion",
+    "created": 1794162739,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The owner's earlier complaint that it was too red and they were tired of the layout suggests retiring this unused animation rather than reusing it.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding between options**\n\nI need to choose between two options: one is to kill a layout that's too red, while the other is to edit it. I’m leaning toward editing since it’s specific and might still be usable. Often, tasks come with subjective labels that suggest the context. If the design is tired and demands new content, it might be better to revise it instead of discarding it. Fatigue and previous criticisms influence my decision, so I should be confident in my choice.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding between options**\n\nI need to choose between two options: one is to kill a layout that's too red, while the other is to edit it. I’m leaning toward editing since it’s specific and might still be usable. Often, tasks come with subjective labels that suggest the context. If the design is tired and demands new content, it might be better to revise it instead of discarding it. Fatigue and previous criticisms influence my decision, so I should be confident in my choice.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MA5nqAhV-X_1hHuRAbZnENf8hxnDAMumvlXnVg6hNeDQZoe32PnK04kMcejXjGrRWLr1dAySZjsPNeocT54k4b-rcm6rjsRPtMyEfTxLyDf17ZXuSPdBnx5mRmCwNah5Lr6LlBocuOyYOnnf1Mgu9-LoDkQSO9IW60XI3PkmLMJ6u866lHqoRK8BEzMqgRgI0v7wUg9Xv0ZA7r0wq608WVaExhnKL3g2rD5ydnceR9CQwgxqrkb7c5to9pSaMveDZl1YgAGEZ4e1-LHDTCNxganVffHbTFsm0oWDSjJ-1tSxXU8_760684r60xSWUk8FIZGxiBHepmd6rns1tJWCSJ-lXzA7NXvK8apTQV-el6diKwChzCHoemm75xfT-JcRStyGmAP7Qolus_XSHhrSr7Gi_EmcjjiJKSrkXcP2PZtMwL2c68_raHrI3cyElczvdCprw-s5GMxHwsppfDfN6YoK4X3sfDSBO5-gvrFYgzBAwz7RmZEHM-6rYFLEEAHijhPn5gFzCGVwI4IR8ialb7c7k1NVxNvCGmia44yUCRuhvYsT1-Aj8YH_bj2r5j8o1VH31nVNjvjUmHkKsdSq9LoGn3wpNKKgXfwNEFM-B4O7vkHmJdLuT1ibjzxU6-7qJ6UP2dj0wuJFBMIOWelq0b4CFOFrWmyNpziFJ8T8BcaRXQDdYuFq-j--Mm9lcBIohpLNkNU61ITcR08hpAALcy1Wz0AzD6toAz3K_PTsB9cqHdmZqkXS4Y9RnyiifPDH_awOzWbW3e2TW3u6E3zaGFlrJiG1S3sVVgd3UTajspmdFFjVKq1VJABzfpAWZwwowvxmaOHlCBjnXromZYMwCld-IURiBESsKCQXOkYvveuF-1uNL76ff9mrCawuXUVyc3c7fRV2KDEOJx-HYCfVJaBDVY7S4HETOG6mHUuUyJtVnYdRz_ZRJpB-BqOGk3i5lC0Kd7hf5asYFp7JIyqBpVXE4KVQDWysldBFBiN1MnKeRzPEFyyHPtdqndyMXbKJms9kZ0A7SU076KuhfPulzVoaWM54pfSF4os754TiNZ86AKu0TEcHabhoHnk6YDvj3wxXmYW-27djjw3EADcMv68yltCplHbMz_yPkW6mKluVUqrmyPvQu_qDOdtyCMrVu3r4DEggQ0Hkrwi3LPHQWedAiXXaJ7DN-7bHEEbVdHunr0OyxQCFXtfZlhwX-FvKHSEHDycLyhdYikv-56_YSJbZrRqHDdnoacE8us3g0IftxXCZR7jdbqyegcWMp3C6cYnRcmgPOo-WEPO607uvAnfI9ytGj1cv7I4lq05AKuf9rCtdYNSw9fyarIf3VFoVC-PkMJ5e1aZkE5obk-y2KI2SKwyCo4ERb2G2Gyz_1-CZNyO4kwJvTYx1b2ELx3VuY255URfyqpMhnw1mouCDCYrkYS76nyKWZSjRphyD5XvSh2P3xIglfcrmpOTcg26WPzWVAdcwBVFKVQQyZNyXerPR1PgX0bhF6qWTUJuaD29jCee8IrQgFeucMI6sGxSP3qIYJsRsGSAnh88mG_gYLu71t3iOqKzcFPrF8KvRyakgY3O_Vw8sLsrGzn9obyRI9dxhvVDCQzsb2Z93flbuc13UUHk-OmfmWhqQV7CNxAUwBwqxNVPffsBV97dlN8aVgwqYNyABrKhRhjSu80rKhPkMWu-m902OUuOCRXHJWGOTpHekbeaCmsh4Jo1Q9-Kit8XzZrm3UfVKrozK0Hw_NfoG_T8T327afluSdTAL01fh_wo4R4EV0cPcy05Qa8OhNRxuavj6Tpx9oJ0vKUuHVP9iDDO-4wzfhhpcF3vJYUZvDPdWZ6-wxJeIVB3ezkueLK4GwuUYIeqmNcR_cUCTuouKujRS-Dx3CmpnJ5Suxjybl6RgRjgtzf48bP0KStzNQcTHTH8y54lTR6pMbuNzwNmr9-pK4X7QaFX28kGkuxuOcaOEG_3J1IP5nxife-IhiyxWsh8m9OxRA7h2lfovne6djuptpQpIlcYTCZ292IhBaWrIUG70-7Le6BvQ3SJqxwSjx5Reom2gBFoQ3K0R-8hUQ1H-GLK51J20lKFUNNBE76i0wlYSozJTz_Q78mvKPPEha7vLdjbV0-yx32xqRm6j1mh2We-xOp5sugQx2pTVs0Tnrtts6yyb6avK27p2y986hJIoxKZFegjc3W34r5bW7yRk7Z9vkxx0Tuo9Ij8O9rzRbymzNiYZJoP2Yrdw9YwcYAkeoGNYxBr6qCzkLg0lrXlaAJbUSD9_4SeFmvJoRQ84k2S_Hx64vuZFvvj8OEbeljmox5fI9CRNpxr84Y4GaA9UCZ5yVgasL-sbTplqtGhgFYOjduVe25cQA9R1hV0EA-fhlMlDSonQiu79O7d5HBEZyyvtoq-2LwuVj_Y-1tTZM5gVlRtU7MsBKfQph65a96ZQZrooOKQfKxjmVONMYBAakoxKaRR3kW8j76bdMJNSjD3hsOVzN8EC5DorwsUDFk2WSZ9RL1BoUDT0dBvLn_CDEk0ACdT11OMGvJwaiLLGbILtp7yIXCk5Tbkks--_ncWBWKY6-bh8qnjJOOv1EIQsiP2wxaLgrew0PcxfRhsCFJFjaymMF8uyw06ZWtT848S1l9Hspx2BiUlCCGyMero53aYImvCJ9iQmxyqAPNdjfjEShYMAUODOsN6lqayBMJinq9Drj2UBPlBEWB9IoC0G-0pz1nQqxirF8Hbul0oMdfE3U6NKjC3JvCevs_VBSfRmO4gBB8faNYNuReXCS2Xjr6o60NftqofEt-v93KYB1CUgcwIQ2ZaUHkUAXddz9ExUX7sLp_QIf58B27BElRT7zLW0RlCYmgIs4kXF2OJw6RfNMlZIFOck-FcRBMRGVY7AB-Zefg-ib7GVGEND3_fDyNihz9XSqsqwYGNQmG4PPIB2jP5kOzSY_gFt8d0NqcRRxahbO7XNsL8K7X4AykZ5lmXYS6GUpL1tnuS1nPww51V0FuvwNEHjSY1cJ_0qI5MEskMymYpxEfDO0lpX14FGOvYeVppDgPZ3brAMKubdAJCLQuiu03mejHHlxAbPjUQxvQZN4aZ4OVjuyuniWpSREqY6W0bRB6qMIvsgE-m98sK8ZKwhYk59R5y2D1FNWQroxRgyZF012yh5DYAR5aJPElkdkSjVYsvXyDxtlTC5p3df32Z0uLw_TbodP7h8zQS5j9Gxvz1_oLdMlcv9ckXjuY56PE7jHUx6BJ2coK0CV57GA1B_n2-zpWJEcM8quU7KJ_Uvi_XqsVgTm-sQTQxOwt03cnN95_cekQ2V0VqQ1WqtwAtGxCtu9n9GPviztXQZDLZ_eAcpbU1KDxt68Cf84pcjSenJSNWie9qLunXgjvf7RxAVO3l-w9IFRHudy6OD3ZVQ4Hp0tpzTgBMWxZ-b8itGEuitkdzcyOT2_hKA_etXqrW7FsSrE_K7YKwLifCQVcQTYJfxOdF8n9-Wj6b2KjenYXrTd1umRpNyf8=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0512aaef07ccc1ac016af0c0351fc887d1a3f40b39c6880afd",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 173,
+      "total_tokens": 1617,
+      "cost": 0.0053385,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1441,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0053385,
+        "upstream_inference_prompt_cost": 0.0036085,
+        "upstream_inference_completions_cost": 0.00173
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 125,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0053385
+}

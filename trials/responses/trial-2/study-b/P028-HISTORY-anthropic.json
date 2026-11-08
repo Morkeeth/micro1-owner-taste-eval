@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:30:24.794403+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P028",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "1a8c4ab6b980793ce60c720b2363f279c641cd015006b4a4d4ca36071ffb5731",
+  "reserve_usd": "0.166392",
+  "response": {
+    "id": "gen-1794162620-sNme6tecxuarImGTr0dw",
+    "object": "chat.completion",
+    "created": 1794162620,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The card calls this the weakest motion of the batch: only a small pulse moves while everything else stays still. Its recommendation is to kill it because the limit bar shot does the same job better. This owner has killed weak Higgsfield reusable shots without comment, and already has a 5/5 'Two limits, one runner' animation covering this topic.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the card, which flags this as the weakest motion and recommends killing it. The owner's past Higgsfield shots have been a mix, with some kept and some killed. Since they loved the \"Two limits, one runner\" version, this one barely moving stands out, and the call is between killing it and editing it with new content.\n\nI'm leaning toward killing it, since the owner has dropped weak Higgsfield shots before without notes.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the card, which flags this as the weakest motion and recommends killing it. The owner's past Higgsfield shots have been a mix, with some kept and some killed. Since they loved the \"Two limits, one runner\" version, this one barely moving stands out, and the call is between killing it and editing it with new content.\n\nI'm leaning toward killing it, since the owner has dropped weak Higgsfield shots before without notes.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSmQgKEAgTGAI4AUIIdGhpbmtpbmcSDAsvpkbp7BkQtJAzCxoMnnZLWMwSpp0ysXl1IjDF/kcObsZ2+wwfPLgIPPLzsoTq/wQJKRONanH0hO9+fTWGpcSAcnGW7zjafWxydXIqtgdVS4N0o4Up6fgH4XxCbAV5cOf/a9JbJyHZaPmkncRxn91DydIaP8s+csNkTSIubydnI3m6SpsSH/iMtLBFRPgo6olAZlE3F2QDPDiHU1MXIvWsmWMdXzlX7KhOd00xjzNNBBC2Gs8J+CyG7OXRMjk6Izh4Jy8tQrRqLw9vEHxdBLm1FESEapXpz002sYbm6+DHAI4R0oavIGOig0aUYpi1ULCA7e3b+EJUPd2eEJnengV6S0xqou+6P1Jtbb7npO5dHVtWoL70YpCtfnuNZIY9utDSYgh/Yxz2UwOzDCunTnaY8hLNO8FScoMAOt2qSJ7K+NAihDTR6WbNLhP66ppo/Pcct2G721JTg33OZDm/InwMK9KlX/+edawVL6ttf0I8kBzDH9jnKlOpylQipC9frR6mvj7fOEWXThllsQk2pXuNFFrrA/8XqaKhdu5Cd6jQtk2QSTLkFcnkAI1ziu/6ZU8XsN7HaiOEmVlAWinuX8PkXiEPHDABspJAeTWvNaEwbeP95ZAaTDizwutFYDuKeTnbavr1Xrw4RGLqWkdIULpqjF5Bp0zi8ojgXIXtDP7JBvP/Xh9zf815H/dV2hTBVzrcizOgkpEndMQzL458+Cb2S6ywmC+wIOAPz+cp/8JwKhbJvMM0WQgSVm4T5b+d7Sll7acWri/TlCdM3Ahqj9KRxbI2SY6v+f6UnyOJxFSYB/OyJ8NRbzH8yFqoZdKHsZDInQopZ/Mfj9ALyeD+6FtjxNfP7OEtPtBdUPPFk9QnC9+pz0rnFsxsy4IzQIEkdVfC+XApQbIu+v0HuToJyUtLJZs0QfIFamuDApeZsiyoR0yC/acvA1nM35UeIg4m//A6H4rzUUjxBMVMh4qI9Hnx4n6bJUM/jElNgqOfPhNtm49JumHiGalXy0vkC5WCMZoY8HnBa3wx4Odo31VxjmUMF1tnsKLDB0riQaS45bLc0WMtkRalnZdKE3COfmuxGHuB8KKGX0YaLzYIK/rscTEYC6HdoGr2axsxhKdtqhUwwXaxtPdbTS24w8EJp/qOB540Dt3MJMxfwXVSBEcO7noIHOLgEmJ/N/zFWTvJ+NWitU66oPIahovFq2b5AEL5hwNOWUgzkjzllJaxUUNwR5DtOwBKUV0iHFNzhpoA9rULmOX5caLyMKQqhvcZAA/6ydu3MjE+LiqCHdKaEADtY6u0myn2nxraZmQADW9mvVBMn7Ob3A282LR2bUB7knfQ2PaJRUjRD82JldgkbDXJS7BMo+VuNxgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5021,
+      "completion_tokens": 291,
+      "total_tokens": 5312,
+      "cost": 0.025904,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025904,
+        "upstream_inference_prompt_cost": 0.020084,
+        "upstream_inference_completions_cost": 0.00582
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 161,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025904
+}

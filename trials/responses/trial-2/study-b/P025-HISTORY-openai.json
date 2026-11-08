@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:30:01.780384+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P025",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "700248a36b344cdfe4d9a4ab976240c8b18cfe5f97d9cd105bd9de99ac8252e7",
+  "reserve_usd": "0.109150",
+  "response": {
+    "id": "gen-1794162598-HXVV2wXPB6bEap5ZmIIi",
+    "object": "chat.completion",
+    "created": 1794162598,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The reusable agent-workflow concept fits the owner's interests, but the poster's green glow conflicts with the locked blue palette. That suggests a targeted visual edit rather than replacing or killing the shot.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L-phNADxZ3zkVqT3vhQVX-eZXFSr6yqIGE4puDf60C3jaGmkP7M00YHD62MNmJe9yGgt2ntyO8hP93e_mTRmv8PUcRQDum2JfZQbc6_cOHoDl0xnwO9juv4ADuo6_vi2XwRia5-_VLKndd7djj9IXPM8PLDJ6rxjgsfqrx8Qj4-gw4Xc9M2S-jxPyktVuqXijiA7_fgRImfcNn9QY43hdE5gyp_zzMxksiE4qRBih8nySFxZC2t11rKG0vVMdCmEpLjXjl8Bq-O0Hnr5cEEiw-ygLTBi8xWsad_GG0p1WvSQfY8ZpZcjnUDPWV3jiNlnu52HBRPqGOnNBfwqqETgds7jg432KFSCDVebDlXAkeQUDz0Ee4UxdcF_M18rILWWlAw52Cbqkp5bfGdLZJ-V2QBcBUkJer8xFFnJukBRBsb37ISZkKgwOEUBVKTd_45dSfiJQ3TyV1xr_Dq3d0pEWsWtNgUPQPFgmBYLvqhoA75HkCCW-rKa-Bb630QvZjcMdrRRn_nzwZHPH07o4_6CEicSdaiTJAyxKfbbPFyZXDuirJWi72VmwS11wn16FbyD4Pw7ljhqF5cV7GozyM6F5c3v5skKVHsfzWkWheERqOtblLkbzkxNzWynXJpuC7ikCaZv0KdZsoDHA3H3ozg9EeyCiY6--rDQIq2p7_SAI4vXhGrjkO8ldg6V4_trBoJEEx1R6c0AmbOSqlQ9BI7Q_QaH_sTT8iAFOHSedy9NaGXKcQjv9s8ZTmLtA9VehVZ4FxwatHPnkaxQfMtdb9uLvOGrmPUOTpvHDP1a9EDu8yXqZcVeuHnqkexLW-hibPsikiJKI5WsofS8n_O2_jnhH8dME-PhMqs_S1jS2IG0TNGPkpvI0S6TN_SU1ShCjY2Nxs4r1xMux8MZ6yX7Ju0YPPCfDaTWVimkcdMfAkKCssTsupLAckHpA-w_PQFSIb3p4WNV4Pj3ZEDB8Aa1C4BNL6qOI0ANpzAJ8UL7wW42CjiAYS1dAmAJ-3AgLAcVo46erCFssJzza96Ok_PUP2TIzHiMgoTKWqqmdqyL7UnvEeH1ST-WAEfu3Zr3VqZ6pLeULmQmMPEGA2UktvMdUeuZsTg6WUUquxNx_FM_nrUMI2dHhr2WjfmtJ5asO-PDgtzG2GGlYRfFoI-pJf-B16xlZ4uE5A9F3_-5q1ksrloEXNBP9mbenMJcc8-C1Bgo_tATE52AhmPQxZcVflisHTkP4KyaAYlg_Ja9e41HMl2mcx1Nu62WGEZwJ-NDnHIutFWREIWV76_Wd1t2jsXrn2Z06N0CD79nPy0gBYd9r99sq84AfgNDMojA2KwpQsTOXuIPmqQrhEpgdrMUshiVhq3fEwcA6QAhO_3PjRuatwSlsQsi07VSxm6hHldzrrvl2ykkK2SMGusTD-TSRayAvu203NCEBCOcp_I84nqjaYp9wq0_gBxFGiz29U7ldaoPBjNv6Ao-7iGq9hOiWfVvK-Pbp052QEECsLbip6ztc5q_s3dgAitfUXJqw057kKHn7W1xR7ou-UJCFM1s0er4Ua62eY5b9y-9ZIrCsC3oyq8Fc9s-bx0YwI95yVE94iLQ6NetKUu-hMU3ZTq62EQNTXC3Ovj4W9qCnRewq3_j_zVWs2QcRf3_RU70EWegcmjeNZGUvSNZBI7qpxujP1WKhaSRXr8Jpw_ZxJaRFcvJgPkyHwgYuUyYapfCudhFMlhVcry1Oy-IlvmrQTAVcG19DZEOxxVFIFRphcaYSmPyDOXjfKFwal0adc0YeEeYkRKrIAEffy-QL4I9Tftq-jJjXaJy1t_Kp8PtTZUjeNT_aAmh0e_66ngpSdWL8t7pqVRx3-brKKkb54oWOGiO5kz4uM3KOPsZctgG7swr6m8_pZJKM2BvPlA9gHyv_SQYGbhWTcUa4Dd6ikXVLW-B22O_gc6iDBrkyBoaiih1lVEou_LHo6quI51m_wlWnHzs-b-QK8_D9ahAL5_kAxxTVKXksOGpMVpIAa8hdGm3cBAtOy7Uc0QovA=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0f394242bcf47855016af0bfa8236c87d1aa35769d94cbba74",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3507,
+      "completion_tokens": 78,
+      "total_tokens": 3585,
+      "cost": 0.009546,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3504,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009546,
+        "upstream_inference_prompt_cost": 0.008766,
+        "upstream_inference_completions_cost": 0.00078
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 20,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009546
+}

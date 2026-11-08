@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:43:18.967264+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P017",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "b06f07b6ab4d798e3d30557e326b57823415091b9a1700ffc424959be4b221cc",
+  "reserve_usd": "0.109310",
+  "response": {
+    "id": "gen-1794163396-C1N5ciyuCVbgYsTlIDAV",
+    "object": "chat.completion",
+    "created": 1794163396,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly requested reusable cmux core animations and praised prior cmux work. The poster’s distinct terminal and browser panes make this a strong match for that preference.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3510,
+      "completion_tokens": 53,
+      "total_tokens": 3563,
+      "cost": 0.0008867,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3507,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0008867,
+        "upstream_inference_prompt_cost": 0.0003567,
+        "upstream_inference_completions_cost": 0.00053
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0008867
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:29:12.465806+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P020",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "56731da4cdfa3228e834f13d3f5a77f8818459e59c6a3f49bc595cb714a45a9f",
+  "reserve_usd": "0.109535",
+  "response": {
+    "id": "gen-1794162546-dMbJmP8As7OMifKf8RQA",
+    "object": "chat.completion",
+    "created": 1794162546,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster shows warped cards and garbled markings, matching the card-based visuals this owner previously rejected. That suggests a kill rather than a minor polish edit.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on card options**\n\nI'm trying to decide between killing or editing some cards. The distortion in the cards makes them look ugly, so I lean towards killing them. Even if there's a slight skew, the owner probably won't tolerate anything garbled. Editing might be an option, but it's not reliable, so I think I’ll choose to kill them due to how visibly flawed they are. Generic visuals don't seem good enough!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on card options**\n\nI'm trying to decide between killing or editing some cards. The distortion in the cards makes them look ugly, so I lean towards killing them. Even if there's a slight skew, the owner probably won't tolerate anything garbled. Editing might be an option, but it's not reliable, so I think I’ll choose to kill them due to how visibly flawed they are. Generic visuals don't seem good enough!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L94wSpakTbxSitYGDCsQm4ex_E67jHmnBtkymJLXrogjVdcrbFzafmzL3TneCcCwsncFOZ_rJ2Qur-touubxExBW70zXaWtX1p9u0RJaBWMbOVESMAI5yGsbBSuhglqjqLkGGr1GaVnrGQTu_5RePGSP6G5MxSOxaxcYtKPhvAgvW_8avrGzQXKjbhskZXQ4JQlvJCTVtrAyHI4NZSngPYjJaqaAuhJWcWYPm0Zc-pM1nsF7OQtRc7JjQI-8mZtxr0KOTpRRYyGQBzc_xEV-SJbJdMU-nS6i_c3jUPFEk1SAaOS4-79bQMF32r2BeoglUqGHXC5wCNHDxieXjLlyfvMZ1FnJEO6NJIFhfMjs3nTqhYb5EVOk0EavXpFv0rpwSsdPOHS8uz2mTStSaIpvqbeuDhGWRXSVPMTjXclWXSofDB-9oAWdSrRAevI2sAW8V1XEI5a0hggXHqFwXjP-3X4BQ4Xtbq8WdkKSYy3UcXVDJqfFmh45zLl2QY8FhuE2x8IQTK2LniqTdwuuEAQl5uGb1BoKfAaBuRfpNT__Y-1fYhYPURFobSI1N6tfgDnRHJZ0HoyajcQ88p1hi-UwgSaTTjZg1ME3WVf6NmnmqFRZmIk4X9WhPYPljiTVGyoBehDuIBfwhJsNhzlX8WCTcN7ZnI3prkKz5fMXwMdcc4OSxUNg9C_dNjy75_OkQJfadaHb4c406kyjbS2lFmVnzPHK284rOLfXwZSCSgU363WdnlMspxrmp3hSujT6Y_Z2UOa-Udzq_FOH0j1c6NPdR7M_eihvySnfE1Ed04PeC2adxCR3J3s0A1mg-gb-y3803mIvcBJTHUK21tzDh_2E2JcqJMhIEBgxIw5PYgvTbH0YVzFVJqGi8mipqLKYRfMWRkkcl31BaLHi8RAWV0uP_vXi7Jq0BS1tFY4ONKdxe2mGLx3ililLgaAK9sPBKnL_-PkgaPTLYbxrowivgIdvK4g_wlQOgpXRJvzASmtpBRCu3W2c2mcP0g2pwpZ8Vhk73u5odWETVLtUKWuCbVee3N83RX_WAq6jW7hgGB9yNwutMBcn9eHjwPq-Jl62pXrgR6ifaJibE4U0sgkRL1nES4cSQf2_gL1PmlHnk_aAviZ8rIgVn7h7VpdzF_DockuEo4rgfZuJs9lHdzBV0hdkLGBVtb7N9j5n_PPhuaMCkospwzdkOkYv9Gha2vDr9AqDub9o_5oZIeN6fZEf66RDUanztfsb_WVg4gRgGRA1JN0YqloiQIu__jQPBROpjVhaQttYkoEwNCSh6mxmYH8y4WfLLRjbjbmqtsjybLYUPjqHFTWLc3dUbqbXCojOxPNnkQ7TB2Y8L5QJbWXk3E-D1Np-2sSDjw4oS1Qy82lShIK_j2_ovmUkE_D9DmxhLYHBZ9ucKWoyMLp-co6vY09PQ5MQNTvb-yBm3GleROIAGDcdglifmkGwRLDKqLbfh8ey266HUgzanbbnU9scFIjlxXTzNTYFz58NaUrfgJqM5Y_82fGUcWFzld2ndIObazHQBm5ecp8TDQ0YspM28qmyRny6a8ibGfOAaXJkgC-JZeaXpyzXfQyJUFwGg2elxXhkn_xWw0VkLkzBuTfV8SUoCTwBSYqSYyAUlbrY1MAsuBja5NkgD0XiFvtdXp5TNbU-W7HclW6mozg5kmrNASzlNj6iGGgsiQqh8vj6Q-ZhKtiXVURM6d-wjNjo2ll0QOne6YIUplncwy4yNpZGoovd0C9m6yDY1lbKJlRYOdCwacPvqskc3_I0thZaPqT0H83Si3ijmwiIijnx-hMjB9V2n-sqP_Iyp__0Pr_C6nO6kTSntA0Vz8hGCFRnH_71n1h3vQozgEzM2C0jKRHi6e2415PuXwOoLmagPIWRugtIqG72syrTlYWrqzXPJX4cl1QOT25sfB1QOGjqGQJstdlMxOpqbZGRDLxpc7GwEgy-VmkreCRI1aicmHxhIN9OGUdGjoi-mKUhuIQMVeJY4uk1Y_GoRmpd7VaTOxtP40JF5eNtmYawoPKy_dt5T-7t699p3EdHSIRvWy1vaNcK5ayi2HLKJHLqexjTVGBMLIb4WBeEADEUyD2iV2s7SQLrKiMcfDJ4I32YtUrQjSxRZAnn2183Y9b_dKluJD_Y-U7d7-QHF8eaFmnfnJjkHBgZl4n5Uod9jg00L1XFT7X6JATWh9wslPuK0M-YPK2JfXyh1jUcz8pJCDOjIMwsnxcD9JO-r5JoFuS4Mc1pOo4nvaQOPGUem7UPWLs60cvDgLfDcj6-mbHkThUoIPuLUhgX-WDGAW8AWficFQLi7OoDfTjraNqzZAjZOFMP1UvK2GFfNya_b0XkGEo8d9sv3c5uhknycxrR4tA37fTONZFdLHFuO9_mdtDPg3cm-o_GWCMer1aBTSKWH571hTqaW1vivdoHiFGmIKibUG54yotVTi8nUsXyuXPpnp7XIA9o8x3nbx7bhem_w6zGDb30QR7QzaAErLjPjGE4VdF1QYCNp5-jRs9Lht-EJZ3v3QJHbH0V9gtYjSAOJyIiWRDHiwrhTukOiPhFXXzUQmUCkM-E1aKkzJh3X417_Vfh3LhN36tcygsGklb77dxhH9WpXeb-s3fUjTyZ7CgNJX2imIgL6pFahRA_tKHAGAX183aXfZPmYNPe4ikESNKvPHl9pTk8sgMiaLlTEERPuPYImajNWHbeSlC0RWWzuIONBFhy6CENzi97PFBi3Okn-SsVK9tBV610yLCUCuoBHEyA_3cDNVmirzkf-vuECaKrQEof4eKT9U10NWKshmzaimF3zc6QCh0laVSfuKLh1BkCXR3N7HwyUH8iV5Vh4vCEXe1lmqqBRlpkL86dNfIxapATQZSgt9siHKORU29E8ocCkkbx3DeQnSQ3kxE4OtSOeAVKRnbMdlvvHnSztE3vdsLqa12KB34lImB.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0bc5c22780b98d21016af0bf748dc887d191b1b5ce2976724b",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3519,
+      "completion_tokens": 137,
+      "total_tokens": 3656,
+      "cost": 0.010166,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3516,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010166,
+        "upstream_inference_prompt_cost": 0.008796,
+        "upstream_inference_completions_cost": 0.00137
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 85,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010166
+}

@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:44:37.078116+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P025",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "700248a36b344cdfe4d9a4ab976240c8b18cfe5f97d9cd105bd9de99ac8252e7",
+  "reserve_usd": "0.109150",
+  "response": {
+    "id": "gen-1794163472-Az5IzPYd2dg3tSyvVFJ4",
+    "object": "chat.completion",
+    "created": 1794163472,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The reusable agent-workflow concept fits the owner's interests, but the poster's green glow conflicts with the locked blue. A targeted recolour fits their pattern of editing usable shots with fixable visual issues.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MMUn39ikf2qglmnOSjz98e4fHRkXd_OLWGO2mq14qCugE5F85kQ4wGYtqQAH2lw0LzJn6j376tIRzuw3Hiozn9dgNxbgKimSnq9fvuGiccuGWtvwbjuHAuqNbVpCXt0eLnTyVibp6CkjUUS2rA29xSAvQBoDxN7vi2wmO-Fck_UH88e3khes7rP9icUbqtmRcKxhArrAUseJ98GblFhI7HJvsGUGGSK0Vbmxdt_Q_VxCXg8v_k_2aUGF6xe_6ymGPDdWNO7ldsg8HSyqIUpLurGQg7X9isIywe_HaAmq2dVnNEc9zZ9wRztHhfG-rHAAZC8RiQiv28AujA6GsBqdWphbaI1WhadI77UNPYnOtsWfRB1SmB82c4-rMU9lNCU8-BHMSlEaT9z3YgSU0hJ9MF0jjwq3RYEny3ToXy2N9MKhJkjZlUbZbGikYseFCh6oFMMPtYgg5CuLhDP07iz3gWnuM_BGTZZ7XRC5rbPS0V0Hv8iPULWT0vkaWXCGb6AiRQ2EUaFXkP1p2joeOdqyrJuARyeoFOixgA7GZluHKllQj-uqo92PKxWfHYndrmvNejsA7JlDdOYqV5Rwvrve9uNNzms80YXZaKyDREScwdkQQvNF8oMuMJLr4Tdk3dFKwa9THWRRVu6ebLuEXpPh0S9S_O70GLXPP_WWDZjkr1-Ud-F3cD_39UKHRYJwDGYKQW_cJkr8-i_HLDEYN5IQnOJ8EYMtOtFS2jvvFmBHZGABavaOcWEUfjDnpBwxAAFPruBABnIwQqZDGmGAz6y-OFGLl224xBWxCNkzqLdJKt87jZ_TgYGWZWsCkVShf3YITFX5-lRaGE0nOg2ZxMzwij7cWu1GpN0ix_qNqZqEcB6qi1IrbXhu52gYrFT7Z6xkJlNhiC1i6MQh5l3OtmRVyiresGjpwqZzUeumpNiG09WhVIsKMOPcN-pWiaMgDUfqsDLbynxTW22MztebzXBP-ZGo5FXZp0c9rj7AeyMe28rililKUmmmtFbamZDAaGcwZ6STcQbJoGoQG0eIamXt1UsSoH2rHCW3QW4x-_SjM5ECz6MWfGDEDHduZNcAtsX-Cr9z-D8llSd42MeF7DJduac_ZecLJU9zabDnrQzBscLP0gnNGeBaN3bgNAARh_6A4lrhawcCcayIwZMCtdcK6OQ-2i4AKkXRkQXNMirgA1Vscneiay2yTBbdgv6oMl1F3Dbfir2XH2XZ9am5n-2VpqXAFa_zs3kRJeDyMEzkZNPIyzb4fUye4AObS8bpbp8SZhX-YMoY3NV9vqVBiVx59t8N7XjCFsL-kLab4MPJWXT7WVZsGkW6ysHoneLD8AJSjUqdVxQRP6vOmPB_5VgLTI1dVTypirIGSK3F9PhNd5wrss6oyx9pvuI8AMtn0eodeaINHcZPuEPO2Jlbc-k0e_KELbo_X0lFykeTegihbZSklJz4KkKtrtjOWknBlq7CfXnIQFLK00j3EdGf_Z1HtiUz2KGx5Qo0zQ_EC9EfEbC1e1OOpYKkq4FvVpdRDFRXBzjiq5e6RuXOw9v9gsUnqItEILE3hO7FRnLt_xUJLixaVbFW7njFniZCRE5GPIyRWNcZfP-5Ul7AIm05B259eJW3P9OeCtqZN42dUTdza9Tv8O5izHVIVj2MFWEY8owodVysUhUbnmvIzLXi71NmQjizhoU6Ho1-LCgsSBgCHh5NQru8s3LaKBVPrSXkiO3QD_zU5O9LZikCL8Rt1ayXwkQY3g0UZD3BPyJR42n7aTjmhKFJuQLgjUXMlQmD3miZ9-J0g9CuqgdVTJUxFYIUBA203bilfcK89LJTvKHz4ox09T8tnMWRPGNSVret1f7de6AvBWgwYxE-7z6Cgbv2n4dzg2zklNi3vZOBoYVKH8z1d3yYqy2m4guULcm9yqwiu70YWxYI7mTv5S2umljnwM8Xfw8xgL7nb9BSG5BjopuuB26SUcMgQ2pxSeAZVqr1prNx_aVgD9GwH8lk_5k3A1P0AX1cbvOZ0W8ONyJuD77hB_qc4MsNaU937WO7ln33vUxjxCBq4n1WskVCqAsDAVeqoM0HSVDNanyuomJTKDikNacHMVFv37nK502tCTW1BzrfjIirFU34qx0K5N3mu-IHr1iQIrFTHrdtf-qEYAGhOcKc0pvXxSq9QCCgsh-Mkm2.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_082f83205e040332016af0c312183487d184777fb85fa8d33a",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3507,
+      "completion_tokens": 90,
+      "total_tokens": 3597,
+      "cost": 0.0012564,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3504,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0012564,
+        "upstream_inference_prompt_cost": 0.0003564,
+        "upstream_inference_completions_cost": 0.0009
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 30,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0012564
+}

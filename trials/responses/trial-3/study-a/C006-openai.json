@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:46:51.502419+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C006",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "4fa214d96b3b2b51325315857b814a4830586c3b78bae9b114f9e3ca69521482",
+  "reserve_usd": "0.066915",
+  "response": {
+    "id": "gen-1794163608-TkVlb3VIZgsEKpOFeO9q",
+    "object": "chat.completion",
+    "created": 1794163608,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier description of the folder as “one of our statement animations” strongly signals approval, and the poster shows a clear, prominent reference-folder graphic.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1442,
+      "completion_tokens": 51,
+      "total_tokens": 1493,
+      "cost": 0.0006599,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1439,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0006599,
+        "upstream_inference_prompt_cost": 0.0001499,
+        "upstream_inference_completions_cost": 0.00051
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0006599
+}

@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:32:37.849671+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C009",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "06048361d9c08b1d9730354fc0ddc9e50c927e81210a05043cac8ea125e44bea",
+  "reserve_usd": "0.098512",
+  "response": {
+    "id": "gen-1794162752-RiwCJGZxolD0Ol2vSNyj",
+    "object": "chat.completion",
+    "created": 1794162752,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier note, \\\"GREAT, betufiul\\\", is strongly positive about this piece. The still looks polished: a clean serif caption and a moody, dim close framing. It mismatches the card's \\\"object\\\" description since it shows a face, but nothing suggests the owner disliked it. Approval seems most likely.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the card, which talks about a slow, close look at one object. The poster shows a dimmed face with the line about the honest truth living in the transcript. The earlier note on it reads as enthusiastic, though the card is still unused, so I'm weighing whether the owner's praise should decide that it gets used.\n\nI'm leaning toward the owner's earlier praise and guessing they'd want the card used, even though the poster is a dark talking head.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the card, which talks about a slow, close look at one object. The poster shows a dimmed face with the line about the honest truth living in the transcript. The earlier note on it reads as enthusiastic, though the card is still unused, so I'm weighing whether the owner's praise should decide that it gets used.\n\nI'm leaning toward the owner's earlier praise and guessing they'd want the card used, even though the poster is a dark talking head.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSnAkKEAgTGAI4AUIIdGhpbmtpbmcSDNiOgayKYOaAGbmqehoMxCu5VXJWTPSwqwYZIjBrtS1/Mxpja9glZf2H6P8FHejkpGumoDzOAQ2rqNt5ImqWGKJupndRy6BUoPGQZzQquQh+41YBBPxarEPU4RJBjHnAgmAjtLYydbSODHiOMXMXTkTn5+MAB2amXSqPPLfma1ZZX7SujNMzXbgvM9r7wZIuMEHEiM4hurx6xa1eF4Q9RRCZVR5wG7D8J70MaPrdMhPigwijjJna2zzt6PUzGi+MQVhL7K823LH0VxBBxX/KNyl/yZkGFtQbr69Ev53nG2gpzzLIonNZI2TL187otlqRMyphihZNU7Vmekbn6GTjbWPN3UZNjFvQ3GsaX1wp1XDuYTgRIBOS2ixkNGc87EnogqDzB6xcYWRhM1pMcKRDfbbENUHenI4HBC5KllLMPLwY0/AXVrbx5gm/Lj/OpaOon4E1iu+nJTnpTORhgPgOP1xJWuHwfVBFuJyYTQmEKdV92GT8wYhCjV7ysQNGR8HXfv1xVNiAQva0ku6SPVgRFZSl1WhM8B+Njea7Tt+QbRSQ077MFvXH2hWL4xRgwYD3ud24RItfBTiRG+GEraGOpWfWslV1+W3Qv9X56Oot7qiHFX82yng2JpV/T2swq3DM21mWryuqJoxvW+nFje1vZ2WCKV4wvW10XHPeM52FLluPp4fOEW9gQ54eddNy4b1eKHkgfPPQUe2BBvGTcIw14B9DYhKUauXB9uta+EVQPlyPpJCz6XDcjMmDxG/epBm/te8e6tg5wMq0mydFawFbt1/3kUaeNXHGBeMUBJYI4RsvnVtNuFUJNsZjwpk4ULQBgLjcNuGfzZygcpcFIV4i57OVh/SAdGuc1rxDKNvg98WhyoYXh2T8mPq4agGy3wN3TzwN5tfrOAPbtkqBuFegoV3HD4qfsAmoKG5exSDKoqAmITMPS7MHqUZJJR8S2aEAPlhmLWUhwcq7+4k8M2Ejoj0JZmPMhREuN0emSPAgCMwuI7bOcYNh3vQiY1vaFGSKiGo11h16zJOmfNK8ons+9RMJlkxPPVa+HWvlhni+rbnhhazZKpTipmr8l/dlBBGHA6ZMyKBXcxeenOBEwzlqUHuqWvWHz6E5CWhnSK0DOzmsR11Vw2+Rhj52JUOoGdsXpXtyWSAcvdnjNAZDipeE+L1yjd6zjzFQqW+6hXBzEYNYcy1QypVjswme8whHf7ri7mG42jxIK7h2ibFCskk62IbXOYYnMSFF0Dme0j7n9ep8YZbvWzGKtg+UcrOXuHn8upQ0T6fVccKZnwtgwmXwXfjAAeV4PGCora8bj2KA8fjPhEpuI6fF0UmhfbJbNUOJwikKKohsCIHnb/ZsCb7YNidwEvzt/KAKHq6APzp5/zH7vAVaX8MJeUaimXLi+yLoD6uFkIHKCeDP53SzJNwSx42um747mIA5aZSrAphHMdjqZ+gKKjxlqhOMcwmP7NjxamC185R+hEh3+9mk3UC+scCKB6jNq6j32og66vyl1budlDBfdttbr8xDpKrPW1xxyH6qzLfwlBRRGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1903,
+      "completion_tokens": 314,
+      "total_tokens": 2217,
+      "cost": 0.013892,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013892,
+        "upstream_inference_prompt_cost": 0.007612,
+        "upstream_inference_completions_cost": 0.00628
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 187,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013892
+}

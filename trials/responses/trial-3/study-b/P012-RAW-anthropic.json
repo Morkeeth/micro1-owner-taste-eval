@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:37:28.949230+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P012",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "fcc492f516c102b207e1afb507d4c710988594748dec98cc232ce9fbb456a11f",
+  "reserve_usd": "0.098816",
+  "response": {
+    "id": "gen-1794163045-qlebXH4JKcZbMQZV0X1i",
+    "object": "chat.completion",
+    "created": 1794163045,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a guess from one frame and the card text. The shot gives the owner exactly what they asked for tonight: a general shot about notifications. The poster looks clean and readable, with three clear agent notifications on a simple phone mockup built from their own graphics. The card's recommendation to use it, plus subtle motion that brings little risk, suggest the owner approved it as-is.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1908,
+      "completion_tokens": 142,
+      "total_tokens": 2050,
+      "cost": 0.010472,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010472,
+        "upstream_inference_prompt_cost": 0.007632,
+        "upstream_inference_completions_cost": 0.00284
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010472
+}

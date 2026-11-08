@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:49:12.444408+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C023",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "6bcf5e5d6a6b29a486165ba50c7abd1d93ee98f29c2944e512457c0201886b29",
+  "reserve_usd": "0.066865",
+  "response": {
+    "id": "gen-1794163749-831JStJHgKNtZ8GSoG3p",
+    "object": "chat.completion",
+    "created": 1794163749,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The card quotes strong prior approval—“this is GREAT! more like this”—and the poster clearly illustrates an agent requesting approval when a purchase exceeds its budget.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1441,
+      "completion_tokens": 52,
+      "total_tokens": 1493,
+      "cost": 0.0006698,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1438,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0006698,
+        "upstream_inference_prompt_cost": 0.0001498,
+        "upstream_inference_completions_cost": 0.00052
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0006698
+}

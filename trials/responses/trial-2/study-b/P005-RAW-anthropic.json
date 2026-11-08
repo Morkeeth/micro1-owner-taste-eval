@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:21:40.809689+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P005",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "8202d0b197e927472673f324cea3ed251ff64e6f5a77e564c1500c690aeb451a",
+  "reserve_usd": "0.098672",
+  "response": {
+    "id": "gen-1794162093-4WXfFgTUfK561dItDszY",
+    "object": "chat.completion",
+    "created": 1794162093,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The still shows a clean, on-brand opener in the locked look: a blue line, a clear EP4 title and the pixel agent. It directly answers the request for reusable core animations, and only the title would change per chapter. One small risk is that the agent appears to hover just above the line rather than stand on it, which could prompt a minor edit.\"}",
+          "refusal": null,
+          "reasoning": "The poster looks clean and consistent, but the agent isn't standing on the line; it floats above it, holding a roller, and the card says otherwise. That could be a small fix. The design feels locked and simple, and I can't tell yet who owns it. Base rates suggest proposals like this usually end up as EDIT or USE, and the visual is fairly sparse.\n\nThe generic chapter opener seems reusable and simple, so I'm leaning toward AWESOME and USE IT. The agent floating above the line and sitting small at the right edge could still push it toward EDIT, though. The card looks clean and matches the request, so I'll settle on USE IT.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster looks clean and consistent, but the agent isn't standing on the line; it floats above it, holding a roller, and the card says otherwise. That could be a small fix. The design feels locked and simple, and I can't tell yet who owns it. Base rates suggest proposals like this usually end up as EDIT or USE, and the visual is fairly sparse.\n\nThe generic chapter opener seems reusable and simple, so I'm leaning toward AWESOME and USE IT. The agent floating above the line and sitting small at the right edge could still push it toward EDIT, though. The card looks clean and matches the request, so I'll settle on USE IT.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS5QoKEAgTGAI4AUIIdGhpbmtpbmcSDD64ir3aX2IiBR95ERoMSjImI95Xb9q5sGj1IjBiv0Q/rrcfz1iTAHV04BdZrTvT0iw2yBzMrCEORR3IIvmw8B06nnUurTdJ1lkwyCYqggo2/9WjMwHZI+EO6Q8yQavgma4tmTzJrG/KQb7arfo/7Y3aYL+dFptrsAOIWE05sitoCyzJTDa9k6PVvF8kKYQGMHBAOE2kw7R6caHWBsv6uh08lL9aE3pxznaaeP69F0tpnJdP5vrjbLTMB9z5Bq92qBCv6cm0HC3WT35DQ2rx8u619yKYeNkXLS9naYlTkEe2uia8OrfRo1SSKzPrIgEhcmoCTRlaL2DPpxkzNzGy9pOS/NAoQqY8dUQ6G8ia9kTch5o4DCwNg5IOVq3qtIygiKPASgj45/a6GUjBx+zDq4A8MtJGqXzNn2uFHeGngHLU8O5m9vE0EKzaXOwgZsa83Aw/mdKWyN1t6R++xPWWfgg8B0WHMuTkAea+mDYuzbuoe9+mZ1AHAJxkceNyL/bAyujPWzdqMcJAzLxdDcn+K8EJpI6gK82aKYL7RVekhB1i8J1YorvqDJ9FZhAo1l+hF3yzC4xxb5Xm42TalKHeiGxiJHv7Ug0D7mGnGFJ3spjM3P5PNyvEBoyhbljMwmSBZk0PakLJHiC5iIS6PqI84DZM8L+U/5M++68gCF/JV6zs+6o3GifU/EPYbIP9KwiKL7rMBEVVOzadDX5g4yHhMP0h/egUA7UHsRE5Q5k9/PIXTnEc6F8tccPa1xtYfx5QShn9ElqpeRRqVvI2NbNMelIfcmFoPmw7JJVWR1LL1hAWFeX0Y0MevLFGk5GYXfKksk5GRUoKxYi/+ds436KlxRUyv5ajR06H4UT9UMY1h+Qf015GOLNZy+47n+3ImfEEmpXA3eOvhFYMfYGRVR+S3jyx7iF7zNckmkHousYTS+18LL4OlgKGWCAeRZmvVs2NZqVSq4tmvABTtmbJRdq+n7YyWgjqij0VWCpB9KxUfiCRfcv+x1BRR1FH4CzRqxpPt3iEJYBBLq45Q/uXKJB7qo9iLh6c3q5WaHu5eKBw+APaqe458upfBWRCVlaTfbUG1Az5bxIQ9LFbD8G6dZQw81bgH4XEr55pdn1pYuKQna71BQjw9e3xXvgjkn5mdF2Oa3yMasrHDE9g+CD5S5SXc/5dAAjrE0UDa/GrjJB0H2lrDCRA0cFUnwoApVbKN2KUFJ/K4ofi6Rrn3UAA2qGXH88lHZgDd9qIKcEPJAfeifmyqtAnNyCv2Ggni/+GpmX6cEycsKPTey9WnKw+VNtt4yI04csfEysmQ2FmV2i45PUlpApAv2GBzZqxXenyW0N+G9ge3I5vGm4QSDkOuh30EYcpXlcp8eclq8J3SgCpDdMi66f2Ok9xG96QytJyMCFWCUfSiNX0P7X9uKjU5bADljD3aSzjym+EAmqHeK0q8l7zJfagk9T181GPrxA69KAO5oGAHsdOtIm65dP9ulLTg/n95JdaN42GBC1XaAQi7EaqCXaHij1WcvlwZ8NkS/9hXQD3i7M9/5XXmsRB21ulRw0G5QoP2dO7QJ9gPizNjiRq1U+vb+1tsIV8C4/U//G3HAgmAzBcxrBoN4YFyZuRB0GMCFjFAe4NandDDFBfq8VyrXj9/vnNfYYTA5refOh5SlXc7iNvfWMy7mpo68nOJFNVh5GUyfmQvpBVN3IhL3C4sMCK0l9DVEghIHub69/iyv0I3zOspRXPs2xkeXQMlOPQUZuzzS3/U7Xnm2sxGicE+N7e5+TJnWu3Cl0hGK8EG1aa28E13T4C//Dpt3mIG5bTGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3403,
+      "completion_tokens": 385,
+      "total_tokens": 3788,
+      "cost": 0.021312,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.021312,
+        "upstream_inference_prompt_cost": 0.013612,
+        "upstream_inference_completions_cost": 0.0077
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 257,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.021312
+}

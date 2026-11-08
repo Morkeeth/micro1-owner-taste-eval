@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:43:09.254200+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P016",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "95b46fc5497ed0db245699b31bb80acb2968b1e16fe86b7d57ad248884cee982",
+  "reserve_usd": "0.109145",
+  "response": {
+    "id": "gen-1794163384-M1zDGJ8s9ttdJMPixCEb",
+    "object": "chat.completion",
+    "created": 1794163384,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The owner likes cmux content, but this shot is described as barely moving rather than delivering the magical, reusable transformation they favor. Similar weak reusable shots were killed despite using familiar graphics.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on editing options**\n\nI’m thinking about whether to choose “kill” or “edit” in this situation. The owner loves cmux, but I notice that the static generation seems to create a reusable kill for the terminal. There’s an explicit mention of the card being almost motionless, which might lead me to lean toward “kill.” However, I should consider that the card isn’t being observed. So, it looks like “kill” is the more likely option here.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on editing options**\n\nI’m thinking about whether to choose “kill” or “edit” in this situation. The owner loves cmux, but I notice that the static generation seems to create a reusable kill for the terminal. There’s an explicit mention of the card being almost motionless, which might lead me to lean toward “kill.” However, I should consider that the card isn’t being observed. So, it looks like “kill” is the more likely option here.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MK8vB7nnlDAk8sqMUba03WMxs1NQ4lduaNX6Y0UxvclmRAOjLCQcjZwD0MOy1SYqoWL5CN0OvuEBNj_jMnJ6GDlSUuuYLgWk0e0YoxVFDE35pHCXoP0mtmJduE14dlKzVd9MqGrJjFfAEZOOlP-2cl3p38FOPDZo5sT1uV6RigPZmho89vHrCWPKPlExE8xismlF0aof38nctD1S-L1vb-QoC7hiky0ChuARvkFwvjDmATztD2_2qms3-7AaVjSjp7382-CQIrll7RNrgLy3qBhNEUIgHpZaITMLxmDCV1pG0_UFLe8dge831QnsOfhSPb1o_5e7os_WJYZEk2BMHTUgGbKU5qWVKPMnyO0kkDpn4qZTBP1xLien17U21gDnH2x7zZWv4kPGcFrQC5QK8WBgWLertUSuWtZqT_1TuF2c3IhN1YHwbqREPuKS5oshEqPfOkQcu9OiMqlCLm-pkOWHfxVJNfYF4MqWVQaUHsipMqRvauQ8aA8kwoi-MCs4FC7Fg-bS28CgkNnblNftBfkQaJYG_JmSnJLJ0u4XWpHnpamDNkLHd9L5DS5yK3zWNZqqSXhcI_DFjn3-O0LbZsGxm9CIemUjC4Um1o3yV_oIfn5DuqdnyrWyB0VLr38ZsQPKkm_XssUjVuhMj1Fxlz9luuDKibcpHxjWbMysgyGi0-5j6HpG2sFMOKkgvj813rU2KQ-THGedypvEN1D59hunYkH4Xz4B535pHLodZbK1vtm3u0f1r-y-ArywsyPbDgOwyMdo476vEye3AUolAWoS588S0qyLRccXkA5WEjH-Fajb_pasqnGCLKKTWZGQ27FvZK3i6EvTn3g2pdtfzabNUijMYiyu7RxJ9YH7tVkMgLM3nD6RKhYxuXldWODI2nICWYJTaeg9OTLRopvXQWTJyF5obF2SEoFsXLofkkeRdfMNuKB42O19GtOQ9OASOvnsm3TyI-scqaPPXWGdjY2w3HBfcORhWHg2yM04yq-iq7gazeNP127DGlne6jPiDJTNps93BUuH96YyKtP2r8BP2E6Bwg6SmFcPiJhS9I5g69Tau5GmHDGRx1S_3NjF86MZ1s-Kbhb5gXqsY6C9wHHb9o6gLuinZjRIpTeryVjDc0hUc9NYYnsVrVqNSL79guWI5EnO8SezD0EzoZUBgEcrh7CgdoIx2Qnaq_pyWY-3zrWFtKjvwaHjR_2UnDHtJPaKkmnndcTeBYgRR7CFQxg_NSqxWfMG1I4GQzHt-fnwFLid0DVdoii_0hQyvOAxKJznud-cEpNI0-jAfx3eogSoyKexd80AibkjTuEDFT_PgRYMS913DAe7L4v-B4gUH_uAeAPQ0CJlmdb6g-9F1JeID4PLyp0PnpibmlRNjpfkI85XLnujRRiXIuyPcQXnZiTStASqIdjwG6aLqx20E1j0-b4JcW_PSd9gYHRsGSb_hh1ztuvzEwg3yFc1YsL-ogmmqLWEIdWkjfTJnl_FEyMGxjn7kUNqv214X7BSSOa1KE5DjkMJRLEfd9wTXEr9LCTaIWpsGqq-g7AJcxAr-fDQ0O7Dl_ioMpN2TVKjEoNMaDfLPUrRxqkVdfizl033A3dJ10-cKJhW7upLcbxP1Bg721JPH02-L_V3jEmgdnwC0-H6tUj5iXuXDtX3yc6NkgpcS99WTlsVNO8ZExDVtQ-ljzazC6BVSf9U-IiGfiq6t9Zwgosmq0VBrqE7tXR-zYx8R5IVqQVOe5v0tzN2p0UOaRO2Nak0AuilsH_s5pfRkqo_Vxn2QoC0LSryRJbM2cGYjlF089p5CVS3sUkuzfbuid8GuxSyVKePMtA1S9a0aFlgF2IM0sHUJEDRe1kvNWGWRfZf1eDQs4zxr52SsYWHYzGKz1kSFYQ8j_9wOlfpzW4b7O3f6hh-lJ5SDL5kr7xIJqmSlNCw93bU9c6-Yy8bkMy527GlFrlKqAK3XpJTMH5BJkhb1jpLswHFaulDYFR3WgNWRVFHBdav5pSETnDzNotO36ewrJl_FC71z4rK7BAgGDn8WRDoG6WfgFmtUzSX9dCxQoGw-1Cd5OY1OeHKVZYiRC0ZGPF-x_nvpbAzaz77mo03FqnyArAfi0UsY8WbdSKe2j6SyxF5XZ8qtS6jiYJsntYkFFsqxlK7ePkw3VnaIt0PsgGLkk9CVRXFtB7GkTEefvkZub5eSj6mi_KfJDp_N7C4iL5NjqS2hdIdiHRBv49XQvcu1z5-yHekfECZQjcoKagLSr-5i8-jaKpnw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0388000fb15692c4016af0c2ba2a6c87d1a564cb13ab047320",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3501,
+      "completion_tokens": 95,
+      "total_tokens": 3596,
+      "cost": 0.0013058,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3498,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0013058,
+        "upstream_inference_prompt_cost": 0.0003558,
+        "upstream_inference_completions_cost": 0.00095
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0013058
+}

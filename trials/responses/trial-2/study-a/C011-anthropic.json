@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:32:55.872744+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C011",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "b6155f42f534bbaed443335c1bb68fdecdbfe120a67ea13531298943282fd123",
+  "reserve_usd": "0.098464",
+  "response": {
+    "id": "gen-1794162772-G739jFalD8TrYlsCaAtC",
+    "object": "chat.completion",
+    "created": 1794162772,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier note, \\\"Beutiful, perfect\\\", is strong prior praise. The poster frame also looks polished: real screens with a clean depth effect over a dimmed background. Together these suggest approval to move it into the Shorts pipeline. The still frame can't show the motion, so this is a best guess.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1910,
+      "completion_tokens": 125,
+      "total_tokens": 2035,
+      "cost": 0.01014,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01014,
+        "upstream_inference_prompt_cost": 0.00764,
+        "upstream_inference_completions_cost": 0.0025
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01014
+}

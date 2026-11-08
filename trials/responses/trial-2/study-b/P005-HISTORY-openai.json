@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:26:39.088202+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P005",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "a1d7374da461812230010a7411eafc02058d3910e2c2268b5f6775ce879458d8",
+  "reserve_usd": "0.108965",
+  "response": {
+    "id": "gen-1794162396-YPj2QoENatBkkwiMekdT",
+    "object": "chat.completion",
+    "created": 1794162396,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean blue-line chapter card and familiar pixel agent fit the owner's enthusiasm for reusable core animations and repeated approvals of agent-led visuals.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4843,
+      "completion_tokens": 46,
+      "total_tokens": 4889,
+      "cost": 0.012566,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4840,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012566,
+        "upstream_inference_prompt_cost": 0.012106,
+        "upstream_inference_completions_cost": 0.00046
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012566
+}

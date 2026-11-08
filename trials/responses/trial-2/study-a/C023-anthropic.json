@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:34:38.441867+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C023",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "15dcd34ec3257657ad884c69e8f865b3fc23b7ae64bf8102b1cd7f652f44ae74",
+  "reserve_usd": "0.098792",
+  "response": {
+    "id": "gen-1794162871-PRsBnoxWeEpIhF21CFZb",
+    "object": "chat.completion",
+    "created": 1794162871,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The concept and polish fit the style the owner praised. But this still shows the approval sheet cut off at the top and a mostly empty bottom third, which points to layout fixes rather than a straight approval.\"}",
+          "refusal": null,
+          "reasoning": "I'm noticing the approval card is cropped at the top, with the Decline and Approve buttons partly off-screen while the bottom third sits empty, so I'm considering an edit. The progress bar reads €60 of €100, but the black fill only reaches about 39% of the bar's width, which doesn't match.\n\nThe bar's scale seems to run up to about €155, which would make 60 and 100 land near 39% and 65% and explain the mismatch away. The cropped top could just be the dialog animating in, since this is the first frame. I'm leaning toward EDIT because of the empty bottom third, though AWESOME is still possible.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm noticing the approval card is cropped at the top, with the Decline and Approve buttons partly off-screen while the bottom third sits empty, so I'm considering an edit. The progress bar reads €60 of €100, but the black fill only reaches about 39% of the bar's width, which doesn't match.\n\nThe bar's scale seems to run up to about €155, which would make 60 and 100 land near 39% and 65% and explain the mismatch away. The cropped top could just be the dialog animating in, since this is the first frame. I'm leaning toward EDIT because of the empty bottom third, though AWESOME is still possible.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSzQsKEAgTGAI4AUIIdGhpbmtpbmcSDKinvCYiP0eBFYUO0RoMk1NtJpsNgjMTIjB5IjDijZvEEJ+7FJryyTALCqPGNqmXGK6F4ksUgNkKs9ztg8ALr300wJ9ZmmHZdu88DQoq6gqLV2egrkk8UbhHXj2nNTGlvxhfdMjnQfGJcYHaNhddlxUiiXOCfX3HK26kyQNGIzLr7AZDqxQ52N2PzWz9k7Yj6Y8LYrgN7aPxL9RHW5cHAoNMq4GsBk5QOYrI7OsDUN7tXurC12x9+NtcUSUplajzxc5tm9Qy7CQjRN+CyeC4Q8nW2mJGbuR1WfkL+ggY13uo2EDtKeHZin/HrB4F6xSne0MnbhJPL6k0tp9p0d5ovdjRwSl4eUM5VCl5xe6ZjJqhe0IOSP4HrcxM54eWXCiBe+2kqnhAnPe6Anovnt/LVa48F1DdjlAmcVa4tjr8kTmpIxpir4O77GiWvVgH4hMJqHSCGFfBoEbKt8ad+tOKUk9saMWoQzM30O6s0+ONpX36N1dgneROCyf3HtNudb9yS61LzETB9qV0rfcoaQmx16E11hg7VP2d3Cg5Jd0tOhLn4RUK1tLoSVIeVQLmKL6w5obyrKTVlsrhwDOKLp6x7Jjbfz+qsEhJyCY4L8T+XPBCjYFVnHbmZ9fNEAqQPh+dSWOady/5EDvs0Jf9X20J2DQtQ5vOZFufwsypHErPb14K4ZBQhwUz5peOx71CS1K9dlhnm72nU3OGqUrbrij+JfcSbbpZTTrYyFQUPHaS0TFSVA/WftS66/iZ56ZYb9xCJM3rIDXcGB8Qp2gA0aJRF91dM+K9jJmtYUF+yQjfM5P9Dq5/56W5TdHKstE2m12y+UTZhbFmsuboq1n3zJxI5EiV+hBuShlkmTYKC4BB6GZ2hAQObJ1r4cVQBZzYt3vhD67UQGV2kZw94YRIsf5PCcBXBi+M5EpeJ2/KK02wtlkyv0zR3nndR8Jz+D/+RWSBFhp2if5gn2s+ksuRnM4Fqd2a7SusT9FzorGFYQOYahQp0YW181AQ37onWy38avI8d4W7LPa+FZLciQFkV+fIjXiMdXS4LsZ90616v+/qgJV+o4zg9U44FHGg1kOTDIs1glvUwEkU/kniCqlnZkEvIjH+X4uXMN2Jm7Y3/+Tg1HgtaebOe6TSqsX3zHhV3IuvptHO7OPBsQ8vqxpOfef99YTEaAJ8SUtblK419jGwC/oZ/Ix6Hd8LYMxxMgyTJFw43XYNseppPKilkozBl9GBdcZ+lzCWlTuEpVp085zQUuprg7uF1bPJ+5PUF3dG4CPB1X3lYhL8MfTur4+AzLyRCWZGlNGS/7XdMx0BTEJyLonvGlV0hIOtR6U0T2lq2zNcBoW789e39muEz0VsBftZkBm6ZeDzF7XwxJ2ZsxIs16bYpLwbSaZ6Fj9QoFinmrhxxkGdx+xPIUlB0N7T46+qeDQaNZxnWB6uXGMoRnTAYRKwvo+6D2JbrkuEQB1nqnbQpui+DVjbg0uvalJQnGwAw+pi4qdfLXE+uxuzBX87XEFOu9wtZOD2MD1skYRZbQAkgmQ9A74qLD3c4XHQV+mPV5NamQzDNcvZt8nmDlT8ssXqe/xIahqrXEgEbT/y61/ts+IL7Xadxsff4ZTRqrLuOpt3FiuSj0tBu5epo69dxgtU5moWZVRaTnK6kfjTP9nuyEcuotVJ89hP3dUT0JQ0RKZiUf4MOeMH95AdmeQWAaOejkKkoCjc8gfJQj2OFrTKTAY04Y/0sBZQzBcpwDJpmeW9ZaOLbypC5XRZBOPIksfW2P2szWGUTBLIF9U/ZKNXHlZ2i0KRiOUfap0266OXCEnYHATGs4Mi95gMbDGAJ5ghIjSdunDvKBYD7WlTrD2QDVyGeVPTdsM8lYFc3OkGtEKvxT7KHoOoNfMSJ5TjCzGChN1bGLPSFqFiCx+hukOSoYxXP3ZA/iNbTGHXdinuDLANP63ybYS1L1oYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1917,
+      "completion_tokens": 417,
+      "total_tokens": 2334,
+      "cost": 0.016008,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.016008,
+        "upstream_inference_prompt_cost": 0.007668,
+        "upstream_inference_completions_cost": 0.00834
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 331,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.016008
+}

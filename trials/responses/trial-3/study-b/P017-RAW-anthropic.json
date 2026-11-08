@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:38:09.624278+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P017",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "bb750dc7a30967b190ef535dabad7651efef882403a6a9140149dbdbca1eb137",
+  "reserve_usd": "0.099224",
+  "response": {
+    "id": "gen-1794163083-LW4m8cEGYl0C29e5qE2R",
+    "object": "chat.completion",
+    "created": 1794163083,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The still is clean and premium: two glass panes, a terminal and a browser, float on a neutral stage, and the UI content looks like real screenshots (STRIVE, Cursor, Claude Code). It matches the brief and is easy to reuse. Some terminal text looks soft, but probably not enough to force an edit.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the poster: two glass panes floating apart, and the overall look seems clean. The text on it is blurry and garbled, which points to AI generation, so I'm weighing what the owner would most likely pick.\n\nThe real screenshots of STRIVE, Cursor, Claude Code, and Codex look like the actual content, and though the text is only semi-legible, the poster looks pretty good overall. I'd guess the owner picks AWESOME.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the poster: two glass panes floating apart, and the overall look seems clean. The text on it is blurry and garbled, which points to AI generation, so I'm weighing what the owner would most likely pick.\n\nThe real screenshots of STRIVE, Cursor, Claude Code, and Codex look like the actual content, and though the text is only semi-legible, the poster looks pretty good overall. I'd guess the owner picks AWESOME.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQStQkKEAgTGAI4AUIIdGhpbmtpbmcSDONMx3D5oCmiH4VLoxoMM0uY+qeVAjmW6tO+IjCLjV0rYKcyeYD4SVy+JN4TmypnGPYTs0CHXoUxqteSPw5vfshF+EgkDoHIgPfnLzcq0giecfPa+lXoxaqvPhMWG79GdVzCuZWux5R4Lk4GdriHk6VYLRdZOrsEXDXcjFcnihMCZpvYEYXUHVlh5LLoTVIYjL4jyEG6ngi5rP7sXoc0n3CXOfAdoQcsi0qNd83+EfJJo5j5797z3K+ctQ5UxNFdNE+qv/CjM4rEMU+kP4p5IqcngzCJa/HUCCOunN1Ku3nbNQrIds9ZCwyxPpASFe3XzcEWvfKuKhXDQEESPQwEBKeQT8Hz/LCq3jTxHsV5JeEfz04ayzSzpmYwM6It1uoM465d1MMwt/wj+SDRn1rZaJUj5iBVVNpec6xqjEZR+IJ1HG9HpWYXA3dJLbv99RQWfnkxi23K2Id4LThu2TQx+nW6sbLw8nHV/Qkye9POOc3J602widHk53iIi42BZnlssASb3rZlmToYAu3ZBZjGAkJgQA3mbLoP2z9purbzhBFzxRu2xBxv2M4YPOrMeel1XLgVd0Wt8TdvU5/zXqhzRGOjSavhFysYgCvdQtM1rFHlmHOob7b7sO87qk0A8gxx49wG5xsutYHhtPsb/43eBsEjYUfjMUJlZdFadYMz/r1FGyqB06npiB3tmXg2yhAaQ/tcLLKMJ1nug3i3f/0bOr/HM5y1xZ4eYuYuziIVvmfror5tDTHjKP61P7ki1kv5+u3JHW0We0mOQf336hFck0Y5dumGvQ96T0Z4mhA3z27wipzw/5za539kUKOdpfzLwIUNQ6QPEJ2br0MBiqAieahTtgR+cx83d1Jj5eRVp6nEe0GdU+dycgO7C8/gCVBXBXFQBCTQJC2CM4fN0Iw3Z2QbrRWyvaAZRmVEzCkVDS1+jOgs0JgLklypkVXO8HHrPLgYAeN3pBY7QknyMnkrQK4om9pk1mKtb5JVLQ/37zvpRkuWVLb3BVNyBeG37dlSIGtWlk+QpL0cwfAbXF1BGiUMdrEps7yQsdZXfzO2f7g16DD+xYZjOqImSjTr4Rhi+nmEHutICDYndSVR7lPYy6E+NTpoGu7LznKOGDxl6G4VuAhNa03mJlHtjm/fCY+zTQ2c3PGl+dWKObJ3nN+YXj4UtGDifiM3gwkNpsD+C8IpTcwoWwDBuGcDfcsZCtS+R4bntpru4pXGtSH9ixtfzPtzgyw2c5gIrEqYhqHdbESaZYnzXie3ode7EZU0ifOEd+kwXA7fxFonBP6ZYXsXgmfbx6cMbQF1B6SjZlBQlxAqHKhxI6dN6YX/cIZJyVCUH+pj8U+VoLC31yriObVr17yaoICIGCJGDI33cz46rWK8EIx+u3+wVqIVAd4+WUmCB2SSggKRVztEf0oT9x1wq2cHcFXMwBvhA3dKZbqbVgDpq5Ck7lW+c63yGAOJVgY3K32bdrtZzdYgpMC1CPv3KkJ5y6jtJFjtFScqF2XPUgtcXrIFrFKBAKntDcInugqQElhaSZofLNKRErpl8UCgapSY+Dtkn1mCC2dnUoIm+PBrHxgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1933,
+      "completion_tokens": 337,
+      "total_tokens": 2270,
+      "cost": 0.014472,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.014472,
+        "upstream_inference_prompt_cost": 0.007732,
+        "upstream_inference_completions_cost": 0.00674
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 211,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.014472
+}

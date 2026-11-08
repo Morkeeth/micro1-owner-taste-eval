@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:37:58.009854+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P015",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "6b18c88cf9aa6772a7e4684be284c9310c6844bfa4a8fee4399b5832700bfb56",
+  "reserve_usd": "0.067010",
+  "response": {
+    "id": "gen-1794163073-KsNulUgnMxn4WxiqZT2N",
+    "object": "chat.completion",
+    "created": 1794163073,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The browser and labeled agent cursor communicate computer use clearly, but the garbled interface text needs cleanup before the shot is reusable.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on poster edits**\n\nI need to choose a poster based on its flaws. It's a common task of predicting whether the owner is likely to appreciate the edits or not. The poster has garbled text that's clearly confusing, and I see some gibberish, which makes it hard to read. I need to search the web for better examples and fix the labels. I think I’ll go with “EDIT THIS ONE” but make sure it's usable afterwards.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on poster edits**\n\nI need to choose a poster based on its flaws. It's a common task of predicting whether the owner is likely to appreciate the edits or not. The poster has garbled text that's clearly confusing, and I see some gibberish, which makes it hard to read. I need to search the web for better examples and fix the labels. I think I’ll go with “EDIT THIS ONE” but make sure it's usable afterwards.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MGFUs1EeBl29Z83jUpxDXy9lvmGgzfXuvdKj1OxID7wmEtn1crHotdopvETZ5sr4ST0YamsnvaV-2sHspP-DZnpFwifCl46KmrLeXL2m_6gP4uiD9nxGCciSdPT-bjfi8MZ8cJieUCO2Zm7gZV0laCX3RHBFJ0nv_YkUyqKXcw6jMTOOuRmuhfZOiCb_gqdfFwjLyhaEBUanHPwxEsX7WeQLdYohQG-ZeDOsPxe2zxNY_-RkP4bisOJrSytYOzo_tYasOJz68xI30NIqYhp4252cVHRe1qcaAWGw-EN_9fGChDUQRNdHBZepgV_wkFD0iWanhMriSj-deBmfx9-hLoTRYnMQvwSI9XvpHzT2RWRsKd83dhAC2Bj_41dYEvjbHpfLcmQvgFWxcC5exdf9acpYXswHBvbEP1_MEq6_cWMVM_lLYtyhCvnot6AziB_Shu90dk-jeTCgiXQu-G-T0jocS7mT0hdLESzK0RwYvd3bdtU8ZvPPkjHWeY3a4vQCEmaEPdBH2-IVBNb3jX86bdTAO-rDDnPtcT2xXS3-3WDzZy8q-MpTFrpbH2c0LywHf4UIemQHfxF94VZ0jntFarerJWlQu1LCCv0PxxBTNLCUlsmPrX7JqAucztzWOmJkRzjY9kUxaStjIrVtDfFZ5wahyCjm0x-WaEnEDhp5JNiKg1HxPWVxH6PVplDAVLcn-NbI7SRsG6_BzR528T5olwqGMf1p6kLf0LKC88J1P5yl14qi-RMU5PqUu6S0wvooEumRvoQ5jv2bqmk-f6UrHhXmTPvqmUGK-tLUV0QpfDd1XHx3YKYMMngW3eJWB86Jw8_1wis022r6Pt7AvR_BYsO2QgcFK9XhI-IkUSzkVnL_eHucZZIQDO5IqA1mca9lluKud8cxyC8MaZY9Bky6qGvnKAV1QAl7fHwhOVdXddqhMapjK78KnW82KOiVlMIzvID-GkKx3GntoTw8xOGBfQnAjcG22tQkoH0W8nXysXaO_cu3eBFiUsGskvwML1cTNjUVmUQHpZpcsMqW19F6iqpF-pQcpf3BKOP78zytqQiu6TZt8Vq7B9_m-PblmOuJv3AFzw67yiexx9QwLeTPdGaurtQzX22Z1AcKd0L8iQDSDDRMHvqMzrhIAnNTlKReqm02fT-8nimlpIv0ps8jKU42Wdc2MMZLLhzipKC3iDmLEsn3bFTLbz6BdVwATsFAwX-UVO_0CooOEBgbxM6XIvj36NEMdMnGtxuqCh_mCqMEicM00F-_NR4I08hRWr6fHggjqmu8i_53ALbP7iglcZMAuNbgxwdkSd-YR1Sd48u3TGwY94x1k2xZianSKyNxLiIQArokKZA99W6GoffGjvtdV50IzY06JYP-PAgvxFfc3zOT5Mh6iLWjNyNKIp7pcthVWO1Hd6Ro7iM6JxjltegybjA1s8sGpZY3D1eKgjot_Vnf2qE4KTkVEmAn2gcX6UnuSJjNaiBQbgpDchDNt1ClxrN6OsmE0OLM5T6udMMqLxBiUKN7Bz0YwTmG0-ngg-masyyvotVKJJpk1zS4oDrge_eNpOhHRwkfMSH9vv55TpgX3EisPALmIzJPyjM-e-PYSgVfdkf-x5MEEctKsxB041cZbAvU33S24j1zD86KThk1S0uMYeOaVA_FM5rXO3-IciPaCEiIWjoRG4wcsei83txoSQlIXrhELCU_wJdHW5LUpGr7NV1rV5vn3Eg_1muOIX9_xBA0hrTffoLtC_sJ2QFxKTaT-tokWwAjsUbW3yMeqDF0xAOaIblnCqBtjCUzdfAird5YsTQjlu9oqSkCLnAeLcx4Xa18XMTTUKrUJc0ZcnfFAmHaisv_AyFZ69RHjAoQPANpN1nPbP47diG0J_9WIRzwnJ5RkTvYtxtRiUeaHvCM0jV3hr2ypsac8SLN1c-PE5BwAvkvedFjyJbAmUhsWK3d7rPxvRwLoYMRLVw_Kt40_5WONuCzxem-sDCOq7TJOIeUc2_HDXJCKPQmilqh6ljNBW6w7kkVN9yj90fs4qWZ58-tF54LJbm1ksLp53UZz_c81AOJyJwfSbH6LWIZl079cUetpJ6i4MnISMelAR3gUCEBttI7n_eoY3dQgf851SOLv5kFpIqIvWkCZn7tyH0f8u5Ea43kE6TjEpUzBnuWtfOjj9hlQ_yK3gtpiDJbOckgAaqXsIObClfq59IZ6hSvdBSmXa2CXZ2P-gefSvXgCzvsy6YlQEOLFqO5fB6aPWNfpvkNUi6XnZQeXZpz2vLOevtCbYa4AS8Uayo8inoq_TWemsb94CMPbQ-fa0P9PNG9_zAgNuSHgDd7InzFSgah_-efBzn7uQnmk1FyBDX1Lwq3qK8dkP7x6NrqWHsI9ct7M4Y4lyC8gwxICzs3n0We8Tric-2wJMkJKk=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0b8792716b9dee50016af0c182e6e887d19e5dc33c327fde50",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1450,
+      "completion_tokens": 94,
+      "total_tokens": 1544,
+      "cost": 0.0010907,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1447,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0010907,
+        "upstream_inference_prompt_cost": 0.0001507,
+        "upstream_inference_completions_cost": 0.00094
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 49,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0010907
+}

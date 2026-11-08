@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:23:50.582043+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P020",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "323c031827225984367e42b8b23c24ff653a14673b67f2d21393275ab9c03b12",
+  "reserve_usd": "0.099584",
+  "response": {
+    "id": "gen-1794162223-xob12iqe4IYxSwwxuwzK",
+    "object": "chat.completion",
+    "created": 1794162223,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The card itself recommends an edit: keep the clean start and the landing, and cut the messy tumble. The poster supports that the middle is the weak part, with garbled labels and one card deforming into a playing card. Since the problem appears confined to the mid-flight second, trimming it seems more likely than a full kill.\"}",
+          "refusal": null,
+          "reasoning": "The poster's garbled labels and playing-card morphing make me lean toward recommending an edit, though the owner might still scrap it because of those illegible labels. The card's stated fix doesn't match what the poster actually shows.\n\nI'm still weighing whether the owner would kill this, since the labels are gibberish even in the early frames. I'm leaning toward EDIT, though KILL remains plausible if the start isn't clean.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster's garbled labels and playing-card morphing make me lean toward recommending an edit, though the owner might still scrap it because of those illegible labels. The card's stated fix doesn't match what the poster actually shows.\n\nI'm still weighing whether the owner would kill this, since the labels are gibberish even in the early frames. I'm leaning toward EDIT, though KILL remains plausible if the start isn't clean.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1961,
+      "completion_tokens": 493,
+      "total_tokens": 2454,
+      "cost": 0.017704,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.017704,
+        "upstream_inference_prompt_cost": 0.007844,
+        "upstream_inference_completions_cost": 0.00986
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 371,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.017704
+}

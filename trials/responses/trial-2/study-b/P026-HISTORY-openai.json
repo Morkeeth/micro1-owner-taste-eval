@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:30:10.571799+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P026",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "fbe9427f9d5d20ea6b4a4363d9cdcdde614774f3841561f0c3d21dd61c92d368",
+  "reserve_usd": "0.109085",
+  "response": {
+    "id": "gen-1794162607-6EF4UBjCEWP8aOsaqmjo",
+    "object": "chat.completion",
+    "created": 1794162607,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster’s repetitive placeholder windows resemble the generic screen treatments the owner rejected, especially “Screen ribbon reveal,” rather than the distinctive agent animations they praised.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L-xt_7hzdlTxzrTF-5oOC1L5qAdap7M5nfS6IbGU8l7N9W20brT8jajCjNYiI2OKUxzBYJ4Adv-a2T_TFWJ4kzYW-LmP81AWZqA83dfoR5INOIwe2oSTvKiqySZr99GAaAaUCdJw-zbHl60A73GUaNaQIeiuDv8KgIyti7kgMbR2uFLQk-Vi0jS0rhqyxGE6lQ7YdhUjUoo-kTQH5RM4J3JNayQqA-1ycFkZhXJjNtEaXrrxt9FnXAH502oSLD4xWVnHmDxYcM8K_Bl53KGZNCo8gnGi3GFpomqdN8U1kk9p3D1QxM2Wf_THHEe5i6XQmd98iOVRYx4uDEm9mZ5tWdUzJwRZnmE1ijD_wwz0_O6A0nu3IapJ7DerqDS4JTqpJ9InK-p0eCUz6VDlCDYGG26XITS_G1RMzUiu00KSDFwiXPsc5ZCG0SILmKJYDzmI43EcrMfdZIvSnfayfMD0AGafyCMfiDHru3fHfUx4YUlciTJijE36030FntKnG26yjMXR9UCVcL0mbZQeiroCE-zQPDKLrxrjAJUIiyvxJsWHYO3nKCdyz8UYqd4-oLvM-ndsgMTKiEgGW1VjJpECr5KVv4SWmN0trx9u0FX9cv-YDOv6Ci2FmBLfuWK_DovhQdEhBs0lLt21CPneR_lPm_0Ux8dcj6vOiWv0lJtbk-2VCle40ImFNFF8cp4YRq3IZT6aRBqAE0ubZ4JqCqSAe7JmwUEM_pUBGf4HyVIjpYMC7442Pu6qcY40ZMGWm3hw66RSB3koTMkt1_6bo8Lid9Z8eUqeoRxB1dWcf_-rf2Z-f_hbrAriQqHyG-XGcvXOEL8KKWVg5xK9bfXCIUpoMFgjjsL6xb8oOKelEuvTUkPB1bWHtyfiQjZdGeR0MZo2RUCB4lSWXFeVCDtApkRLxKkv26Pzzg9dxR5pEufiM-R78gbKm19v6YmRSrgL_HXIT5oyb6X-LQw3t-f9YPG9v68zx9nq8g2vtSoW1FHDMSKi6N5aDErrlOsJHfpxiEUBIWbTKWDx67iO8D53qyju6e-r3mYqVlhC0uie8r4MRJHWcFqay43LmhavxdFgC_xNpDVja-CrkKyU7BeXmb_zWhqD1V6y95w1RgXDYp-a4gC_XDVzWvTG8NFYD-9WsOc07Ke1YP95BlupC3MNZl1edfEFMeVQH-oNE76lxHwNc1Q1Hp0nQ7DVXfTQ5dSkhv-LgAx_pU2ahsm6XUfj6MsMSihQH6od_21ap6LCi83rmyCUovFKgP6a_vYqKeeh6PN2kvz-KkCCCoCl4YFFA3lWOfrvOftm06FYdLLFbk_y_44WhIc64mRRdv58B0OoZv3ZLKCyaQfvjcrtDwM0BCynnpxLXUwXmdeexHLJ_PDKQ_DYOngh08AIXF4jhQr38a6Qe3Vn0Q5P-AOSSIvfRMBVaGQWUurzk6hDaDBUheISXHh5AIeiWp0eK59cdCvc8p_zX_zr2UBX60e3gA4mlG9aV9tOX6dTBRMV2jQ03l5o1A8kV9ps4KEbU6wBa-T5TLR3jfBBypUKc9Z-LCr10V74cV4s3PDqvykoD01yM4p71bJwK9hexG0nu2utTIXOw3cW4Oetqqcf5jqXNlNocePQvNd20Tp4Xq38Ku_1yN1fsyeLWnFxCtfbRI3Y7LaZOqMhq3i1IZtUD_obgZnmX8kS_txPDaqKM6iY51MjYPBLI_NmuZwRdVbmPs-ue0Jr0KE08CueteEp6mwsB9WFNDBFzWamEo4VdIGrMPMRQLSXseckh4Z-oqkS7AnnPksYNRzq-LtspABb5KIWStC2R0s7mg-KNKZ72OLBf0ngKPYqljj5qrVYt8uyNVzt1F5Il-HPl-evy8JLE_5Y5Undq-lXCDZOfNKa4v0GOBZvn-lfocq1WHir4slCCxOZxniwwDqwa84IyU7T488IpGAjYa3fXbU7OeAhar-y4PUhp5viCJ0cvePS5fMjmwQsd5zn3nIn2-RI3fdNYtKi1JlTu-x30IFDWH8lDBhlcImjeV6razivWuq8O5n-o25mqhYBrz8VltOa-5CYk2KuYi6m_cBxS3zDuA3sjcoJLfddd0OzA388iEJdpIs-6gppW0qdSuIRHxMUqyROpiiXYpKN6f9w4OzLACg2fYiPNH6LGv2jshsIHLe4xTcer74oeqDUx-rfGS7eHYjgRPN8GNzzVC5Hy0wv_wvZ70_kM732GBYfWoI4clzTJq3gQDnZ3QUdF9M0eCe.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_08adefd571ce6545016af0bfb0ebe087d1af12569c0c4917c6",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3501,
+      "completion_tokens": 83,
+      "total_tokens": 3584,
+      "cost": 0.009581,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3498,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009581,
+        "upstream_inference_prompt_cost": 0.008751,
+        "upstream_inference_completions_cost": 0.00083
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 32,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009581
+}

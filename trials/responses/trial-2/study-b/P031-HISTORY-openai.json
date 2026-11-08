@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:30:55.720967+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P031",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "23bb22e829d81be4dcdc01f28e8998919515d606ce7f0c2646174af442a7297a",
+  "reserve_usd": "0.109135",
+  "response": {
+    "id": "gen-1794162651-DrewWhwnjkWxf8UKGk7m",
+    "object": "chat.completion",
+    "created": 1794162651,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner has praised cmux and approved its agent-lane demo. This revision keeps the real-screen presentation while reportedly removing dead time and the walking agent, making approval more likely.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating history and changes**\n\nI need to make a decision regarding the history of cmux, which received great approval for its six lanes. The current setup seems to favor real browser Strive over lanes, but it might turn out awesome after the changes. I can reason that the approval of core cmux can work with a streamlined cut. However, there's no verified motion to back that up yet, so it feels a bit uncertain.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating history and changes**\n\nI need to make a decision regarding the history of cmux, which received great approval for its six lanes. The current setup seems to favor real browser Strive over lanes, but it might turn out awesome after the changes. I can reason that the approval of core cmux can work with a streamlined cut. However, there's no verified motion to back that up yet, so it feels a bit uncertain.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L_fazEsNMcIbAHX_a75aWY6qlz9dEyV5NQahvM0Cc5XZX-8uU1ZARIOcUus2FuelSP3eIUHq5D8qSdzLFED_8LenwPWcyc1CR3CsXH3X6j79yLMxicoaMoA2ZraOtsxN3ehYyVDwYXQe_U3kO5ESYzDD9P8fz43dy9-TWonpuzBr2_XqNe4UplJA_b_fvwPdv4aiekSuLaiQzCjqJVGxY-DYUJVmhUFUcjY4AFYI79dLagNARczlJ_DQv5K9D0ub-1s3sl-q1q1medCcCQVd3TcgHwu8Lre7YV7hEn8oAknvcoQEigrOwVLQKs4IplvmmwxzF8-4ncubu2xm2MklwXa4tgzWkJwClSCLwui0edGM-QwTRExShdQbLTkDAXsCWmW-sBGL_l_kXEZHI8Q3u9UO-NMaVseLcC4ge2u111Gdsjwwa5ybpeU7uPUpd-yNxhkwH4jTAOmngtvGqHfIy7EH1ZP7lSv4GJvzpJZj6Fa3WGHm3x2kNb4e0Z9RvBMP4SdbGl3aD5ZrEB9wTld-OpbxBDVAz0z-HBIeVXHIz3ptiJiM4gdRcJLlMTwOp1df4U1rV9Chwux_bVP07UZwvRIwcnsLt-U-iYYA92qguwyEgHyNKNL1ORCjlr7P25RHPZrxmn9pMEuHeffidSrJn1f7cgWj0nr0ztlhXL__b7t49HGKTLHklMRNRbVBXG9v8id4yVNhDA7O2-lLxWeGRQbKN6ldEX4BdhtqDq1FLpx8gvp3DLXaqZQG9fiGJgXh5b2Le5JtUckXhjj403mB-k4KlfpuRLlC51SASWzbrfrS8lHbWu0xCuoZ20S5rz0OllyJgSysWnbjqVsTeWih-798egYOZYMUdFXXURvNqYuFUHUSQSY6oRodrbeH1UrkhbJOKTTGpkme3HTzTeG9Xj-iyKoWdLVvbtHT4FrhapD_YqvR8e19vk92e9ghAPz2_NbK1AviivAcVnF1P3pp8jbOlBINsy30WkyLYg1Zmse9mp2uM9FP0-ZuxF9dIiK0ZVv70BBmWYmlNQf4m6FUqFlo6ClCDMWEX3zo-X-eZ0asyfHve4cT_VuaOYH5WerNh-KOeFQBPeaBO3ky3KP3CD62IVA5bFKq44xgEYW5K7VaomBV3YWjP8sJZhPrNQgSO1MSDLpBLTatzdRc390oxOUihGGw08w86N-JkwYFd031H3thYYLKBHu4ojQh-UufFY8UzNMZQobrFkMcmGcIWKOpSqIl6fUfq-tcLsou1CW1stt_GyFhtxse6IbI9LhOie-xK3wYBk7_9dy4b62J_xsThHMJJJ8yYgSkA_HjtLR6ewLmstXyO9t43K8EiPXb0837eU84cECInzR0pR4Yz0BMGSrbtai_7FhUTrs-gTrGdaPfJ3dV6in83pC_ZwjSoc0t28L3BITkrK9e1Awi_7XC030-YGIsoco5-1JxkGvme7CLlDTVzIL7EkTlPGcvNQfKyPvO4F7Tyx6iySaLQjmjjlmMnlFpmsHf5gHF7HmLD4qGp2pfT9O5wJWWsnzpFG1-JnksCiDY-6jJdTmzaaa-yuu5H7pvz-EfMQ3FQcjxrWZnjwlHGY6MF519pWfSAVi1kwrpbyBnFEazeXiDku-YAVXH7a_XgEw-61VL5oZxcoBDotDsGKL-DUBojpDpXJWN0HTiLpxzehqOExxW_I401tKVV49XHg34DjjhL-Yxtu43L6FMRIHQIeFjRY4nw6BYMZvqsMD7TaBgsfttVbGLlUSpKqqD0u8KocsKKLTJJiMLuKloLL6Rt6S_ugIVPpPCfDK_ng6Wdk7BTeQxNz_KlNcD7rIrSQXnNuBGN_p0VqC-jgisI27RbdeYmMbEuXxGykrX6iqNrGCG9Ar-A-teOZzh2lcN46aItQAPFtqeYOehz_TQjqS-Ye2fjC5UT7rRppq0krkD3fJzSbZ_tAi6zLN5PdNtlwPnT6Idm09EY2gx-cvfbDhI_sB_xZV4wKwMVaUgT_fv2MWXLZ6vYcoPe0FcRRfTHLBpUf9yg5zZ3km97odhNXqIzKr2w5_-6Hc8HLUwbJdz3-MUPuHguGR5Z79awc8C_mxM3xgnALeAlGw3MLJzUG76EQ51QkOcqCvoqt3P3N2bA4zSBIUwyLFYULatExhgAiTQdLYZ55FmdmoHkiiAAqMA5S-THGUwa2MtsA4jfiU1Oi2nKhiZfOVgwh14BpErVlxgqp7fa71hlXPkvBuIKgGp3WJIHmqtr-L2qKP2hSG219rziSg6wBUhTZW4SOPr9fMdOjx9DFwju8McpO9S1c7mN1y6_Nf3sl3mCZfM0jh98VfmHd31j9gNBSUcDn8AVZ_6qHQWsz-TVc5f3nK6fNQYa9wRi2j1H6oE-PMrHohY38p5H0Xjombhu01oxxQUVPfee2yPwKgmVw=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0041e96cc57e76c9016af0bfdcfde087d1bb611af3a59f1957",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3507,
+      "completion_tokens": 107,
+      "total_tokens": 3614,
+      "cost": 0.009836,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3504,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009836,
+        "upstream_inference_prompt_cost": 0.008766,
+        "upstream_inference_completions_cost": 0.00107
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 49,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009836
+}

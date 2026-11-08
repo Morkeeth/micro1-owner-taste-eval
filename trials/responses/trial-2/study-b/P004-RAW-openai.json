@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:21:33.304595+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P004",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "8c850c7e168c4cf9805db7264f81b1639e130e9eb321f8751bb9417e82d4cc8f",
+  "reserve_usd": "0.066715",
+  "response": {
+    "id": "gen-1794162090-cQEkTJ0HzRiizIeyjP2H",
+    "object": "chat.completion",
+    "created": 1794162090,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean poster pairs a real cmux terminal and browser pane with a clear headline, matching the requested reusable EP4 visual and established look.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2791,
+      "completion_tokens": 48,
+      "total_tokens": 2839,
+      "cost": 0.007456,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2788,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.007456,
+        "upstream_inference_prompt_cost": 0.006976,
+        "upstream_inference_completions_cost": 0.00048
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.007456
+}

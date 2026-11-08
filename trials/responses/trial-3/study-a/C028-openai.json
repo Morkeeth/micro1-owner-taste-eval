@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:49:53.656906+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C028",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "811268da619617db954c8bbfa98fe5fe9d76d37dce6c92aa60f1ca72e320a20d",
+  "reserve_usd": "0.067345",
+  "response": {
+    "id": "gen-1794163788-CxIy98NlaatNYFwXS7Ob",
+    "object": "chat.completion",
+    "created": 1794163788,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster supports the reusable blue-line concept, but the card’s noted crossing bar and lower resolution suggest cleanup before using it across episodes.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating graphic edits**\n\nI need to predict the necessary edits due to a lower resolution from the vertical blue bar in the graphic. I want to ensure that the desired visuals match well while considering the technical limitations. I’ll provide a concise reason that aligns with the overall concept, but I must remember to fix the crossing bar issue and improve the resolution before reusing it. I won’t imply that I already saw it; just a clean approach!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating graphic edits**\n\nI need to predict the necessary edits due to a lower resolution from the vertical blue bar in the graphic. I want to ensure that the desired visuals match well while considering the technical limitations. I’ll provide a concise reason that aligns with the overall concept, but I must remember to fix the crossing bar issue and improve the resolution before reusing it. I won’t imply that I already saw it; just a clean approach!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MRRT1bw9mnFj-o3vLSjr1VmNT73rZPOwzJ6KJi3mGE5atIo8EBSXAajdhBUHfx_5VHXIJqnRYWQ1ye298Y787IfnI7v813wBrSptS1NM1lOLmC4aV1WOfywkH0ub1RZVpiS4qHBM6xCcFIUA1rO-xbxKGXQ9OSZTFcnogrh75sVDWvdGsbn3-JKm0fdrvQOFLMfzUXemUtqco_TTxdniUJIxqMRyOp89kqx36Mnife0iGIXO4VNg2j6C7BC7x8jxbE0DoIUMxQxw06F4L7V25A8pexR-MWlEmWADaNqr4I6TDaQ9NcwX2dGinTlcu_8upDjsVAYF-KmM-Ke2JZT1nJp9RH4_YGd4E7TXdAuy9jsh2ZhtuV7mBHfw9QLFxY65_1PqINQJIKbTU2LaA8i_HNNPS6b2LCRQ5DQ_NlCmtYO31NIRw2pMUGT3dXYOapU5jR63GLo4qm3-anP1Wglo0nwhXURCmnVvHISxaRRh0OrcmgOFBQziKNmRZCBFE78B7ypos5f_DHn9gAJ4jK0rX7OtD48WxZktQBwyan42grcjszwUmw78LJmguqMwytyMHn5lqASze-QxkekGGqye86-Gt4B0dAFqe_OWXWE7nUyEC3f3IZcBn9FlgCYC2pEUI5ugXt9cR9MsFQSdGtZeMC1sTWehKMpQjBR2XVGMnjzsEv1j5fnMIAggBIzm-ebAAz46cqjEGg5K1TJXc9Ui0aNB5_jbTLiuXDfR7cv5nnQ5oOuSQBPu9BwOrs_aUxW6zZpWFmjs9vmA4-RwrHNS5Lx5S5uykvtX3W-AgmtU8Tkkt_UvXjbdxrNUrji6sZjdFzqF4MZB9L2yA-Rd3pbbLgmm2Vmbn_LJySg4d_rrXf8x2QNRxYMODmj3px-jee-qigJ2584x4MPWoIKO6rMX0E7_V5ymoQgJdB_d0AwN1ddYlO57GICmbjKva6FjPFabpkOX5ei_Jm-xL7FB0RMMAdaj2lpEZ-LwrvM07eTGk38LMza261Q6ZQocyxgnaF83l2_ogQii43iaiLWpGcPwTss3yK1KRBjdrklZoXQG27N5DqSFORFdPBZzzZkeZNrvIB3CFsBkF6hUKm_F1M5glwddczlg2TcxrvMnmKqoRppiRQaaqcqEtuhPoYvcWO9iEfKdS9RHNltbRjLe0wZmF3cdLM6Rcg0pVMbvlOqmBt6gXwYQx4ib4dvHqmN4r2Vz7xhdy2jkqYnRu95HpyePwdiKSLVf5AxNjD2bZf3Wni2dftHC6dpYDEPBgAiNG0m0fLXXsj-YAExNCeFD1QkZqa3zRKve71JJikgy6oBQ0YoCq1Tl1idWtPWv-_tLnhVOIQMkV3mhhtzZ1eLEqRWogwtJhF5lCA3Nx9XKvDepCy5BQZwoOY_7AU9JDI1nWzqgUhJuI2aZuiwSZ6n1gPFyjGMNqu4hQtjjVsRUv7PEnMsNd-0ct0vm3-j7CsxaMN_LZDtz_dpDadyTzcseZcRgh_qkPIIoaZ-OJfqoxdDTQhFNoTwxUwy4ZIdHgRFbMItuzqkNee7guiAR-Qpjq6peFnnYlmRbMprxfAZhLsX2jAsZzm8zjBUIM3sIR747O__mR6cmo2Pfr5we1KKY9tj3fOAJdnhyTmFZXEayQpkiMosfRrKrrIj9Fzdi-a3_igUZK20Q8GsGGkMpRJm20lH7fHf1ShuE6tTXkelJpxMTS08v5i6U2wwWFdDrDbX7rKI9GvHkQ7xrttgVDUuCM2EflQCfQFpGYO9nIvYAbaHJHaN6XYmhutuETwdv3mk_6rmaBsXMj1Wpr4l8GPcMsnACGNU-TBBgoLMLd4cTWnrjcAPY_L-8rciVEFMcjr5b4FnKDhOKMSekZrzFlCYJYy7jv9WU9GLK-iZTAM53nuvH-K9RXC1OoKJJnbxPmOqq4BcnBnRnAJRJBpykWBsNWl06twuKdW8A9q1bpjfO82urYx9N8hKbFv4SYoCL70tn14NOqrv4AWYKHkijQ7qwRpbcPToT7PrzI5ddKhTIulcbGmzf4N5axPZYy2vZyCfD0Kx-PgVGCbvdUvlcjTx7CG5NWbQLjhe1rQCVDuwcD44thgqhsiHYGG8ZILKEMM20xLvGukFpQMZcmcjFJnP9YF4If5bP6ooR1eViJyaifx2Iwl5_1nxK_FnbEWhHtxAdv61vRkSD6GceITzkEM5DtoCpC-9sERKB_C4KK3oGItStujIQKIR8QLDJTn6ob8xBQg4OnwZYQsR9dmvDjfU7jAYhAagaySYDNsNBQN_eXnym9dDoorVvLDnJxIAmf2z1beoPbgwiedrACsRfX1CQe8BsdressSdIsEnFHb5gzDfTVni_HJIO9QSu1OdJ9SC7J_hkR--e-ZQDfEndHz1foE9tL4UF9sthFZz0SAWAW_kOEnq-ERszr9ZZ9-nf7-oYCU_GAmr8WJ_jVBcnTVfNxXNE1NDUA==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0585c4bf2c178c7c016af0c44e9ba087d1b3eb5f259cb1161e",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1467,
+      "completion_tokens": 95,
+      "total_tokens": 1562,
+      "cost": 0.0011024,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1464,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0011024,
+        "upstream_inference_prompt_cost": 0.0001524,
+        "upstream_inference_completions_cost": 0.00095
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 48,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0011024
+}

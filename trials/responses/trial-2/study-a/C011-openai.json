@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:32:58.118673+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C011",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "db2708c09607ed0a75841bf61b0fb2f3a40b107db30a47a10361258337a296d4",
+  "reserve_usd": "0.066660",
+  "response": {
+    "id": "gen-1794162776-maLvQns5Mt4V3m6scm6i",
+    "object": "chat.completion",
+    "created": 1794162776,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The supplied context quotes the owner calling it “Beutiful, perfect,” strongly suggesting approval to use this previously unpublished animation.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1435,
+      "completion_tokens": 45,
+      "total_tokens": 1480,
+      "cost": 0.004036,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1432,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004036,
+        "upstream_inference_prompt_cost": 0.003586,
+        "upstream_inference_completions_cost": 0.00045
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004036
+}

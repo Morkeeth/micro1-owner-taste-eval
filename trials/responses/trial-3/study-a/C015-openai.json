@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:48:04.590419+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C015",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "db562c6e012843e1d130d70ab3a709f0263eebe3976072d78f7fbcbab5905972",
+  "reserve_usd": "0.066895",
+  "response": {
+    "id": "gen-1794163678-s3BnTATbvnHHk7qE5Zle",
+    "object": "chat.completion",
+    "created": 1794163678,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster looks polished, but the “BIG TYPE” and color-swatch labels make it feel like a style test that needs editing into a self-contained Short.\"}",
+          "refusal": null,
+          "reasoning": "**Considering content and edits**\n\nI need to choose a predictive style for a typography animation, but there's a mismatch. I should probably edit this one or create new content. I don't want to overthink it, but the polished graphic overlay with bright yellow and green in big type looks good. There's also an unused episode that was never filmed. I could use existing animations, but they need new context. So, I think the best approach is to edit this one for clarity.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering content and edits**\n\nI need to choose a predictive style for a typography animation, but there's a mismatch. I should probably edit this one or create new content. I don't want to overthink it, but the polished graphic overlay with bright yellow and green in big type looks good. There's also an unused episode that was never filmed. I could use existing animations, but they need new context. So, I think the best approach is to edit this one for clarity.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MPk8WRy9HIvKQE1ehRkjBRkoLGmn98FIKm57GUrcgh1QjCp_1G-KyCUKdZjq-EGUhf6tK75W79WXi4qKyHbkLgRllTDjSifxuAiBZ8M-Xk6ElnJrMAiJJQp6ptsvxxIjMK_-GTPDeytOEep0QT-37xMw6VPNx1KkjGFzQizADwa0CQzSyw6Y3G9O1vBWahIFQOJWfxhhydvsqlZigPa6dlYqF8yGvWGV9J8rXd_7CLN2bmVbkxeiKUlDBBZgb9v4ZkpnKmH-ezHAmREKe5V1wJl2YO1aYcOK9yeuaFIW_3VXLYyCHEL6caB97_xBnraOZT1XX-HkSCrqDz5YemYDGOSCR5dwqFb-gGBfRCNVbv8snQdHVEOutrwkxJ_3ulmgSutyQ2yyq5ogXig9-2OUY4rhT0w-srEnPI5ydXAicGl46KCfZ1nzi9kx0m1d0ijfSAt3uOkzogQazUv2iEpJqUNpPKwUVFL-jvB1a6waaTdld-1svoqKYGdfL-ftpTSHdivGxFc2SmNd4LMUOgxZZTa_jMnePK8EdfcMQn-ij-wzfOpFt531bF5DKp_r_ccN4Eezs75amWhZ5Y0n8si0-wv_sma1xs2jc9m4o6XF5cjGndjBj8Vpdk4eBoNJGtfFIjZLroEnF12oSyFIpBi4bVYPwamcvkCs_L3wmYYQaX1OQpBFVod_UZfn2W7hKTHlFVbLJgrlAOaMyyLndooZAYtCgTXqefRWq0dJU340C161vegbn8BX8F_W5ptXRoCBJzwuZtn8JDoSF6-Q6DsqmNvjrfOqYA1uuh01pNaMxpNsv31TSGd85JwnpDOeXOO82hkz4Ff-Ly0DslEtC4YeaWB5KM-xMtvLkHfhwJFOh0P0B98f4kUBUMDdytY030aOpC85NWyGv4tJ98xEyHMFw_HoaSwbaCafI7I5CF1vcVUz3hUkprcewvG3haYDYb4vp0Elkvvv-2OxgT7YPmM9Xjv9SLthwnhySHSsBRKinr7GtqsHg_F5VIzmdRehrCkYJDaRQUnVWBfPcbAi74ZwbY2QaWhRrGGTschJzmZupevpZyR0OujHOcA1sp9jxuZVDHJYl4LW_oxAXU8d5sWSc93bi4gO_nsRPffYfmvZH9S56n6ZqGPNVo0qx3wblHQKMzKnDgxcmkbvrb4DoYUJcokJppXAFax2NkWtudVAygqdSjFxoEuwAS5BKJiGjkCZInJwLVAsPlbfmYgRhJSV8L4hFra5-y8_C1bOy8LY6iUUnkt56GwCovY_otUFdEnDwcqzuLcG1DpiIp9MRev46b1tuX6E3s3PY9KaqO6ByAIbGW25KFcFDArt4O3khivyJEVn58kL3FkxVXRZu9Fpr9hPB7H6aYM7XcE5oXkUQ-9vsMFZFfaVLhZH5CAcFOOGbFqmWwWlpd6I-ieel6l2pUkGkqqKMRsPqfXw7DsWiVReFMQgjZ5m_UWOpulkXkz9hTYB2WbEEtyTLNEI5y-TX9NMBm5nZ7X1PTCFHrkTvqZzcmfLFaH1CZccjdijJi3pRTWqhM21q_eQ9OX95F1njjvnwjRnOh3rxDnlMTyckUWfG4ik7ca1H8vNGOGvzvZLdMe_vvNzX6gaJt7UvAwoY8l_V43euCaF_d1G5RyAaxXjAHplnMCGSfEr6fFyYNLgr8uyO_ZEw8EI1aXD1Uarq5POk_hoNdBKb8M7ch4KJ0kRxCy1AaXqParm1_mMnT83wP7TPnN6KK3ZIGjsvigCxYwP9S9mXyH0H3NuCGi_kNeSPTwFebrNGmvL_bHe9NCf4YJoIfcouM4P4M7eaJ_9jRuYI5gCZYyuHQRvpv_rWclfrJcl1vFwOA2mLhGHsa8rQA0QNErIywRBAIFyJRYV_wXdOpkNvKy43p2JxSXQ9sUO73nkCEYxVp66_A8bL9M6uaMDcIQl6PNtH8vJ-v6BfLabc6WhdDSP1AJGG-uk-Zz3zsNJTr1YDG0zS7nLA7woNVhYApxhs-sEneIYR4VTQ2TKV_J7wDoWZzFSvWvftywzGGOZv9ZXCFAk6lV09Wjd5cPzTFZaRYLkMHI1OPfa5lgNbL-oIzIlGYB9xXSHmYT7UQpa8B-G_zOLmnczvpxX_Vsq9qVhLM-XxuGKCsmZ5ulm4GBo1_v9OarG2BQK_0PhbhsP7Fxh2zZT1Xw85PUJv4LNChF3HZfzy_HCmJgRAEaKBxukeph4Ko_quFG9uCQHv8yU2MStx0PW6BdFmCwuufjFNzG2bDjVTI6AooKJ2GTaFJOc7bP6APzIvebsKbF-dkoMn72hIckMkahPumDrMXMnbght5vN3NFdG7d3JnJR9ihcTARMrOfDkF8laqoZ2Ex6NJ0w2d0TD6Bj4gokouiuURNhwxbzHStFS6TveXw6P9BIaJu1qq67ged3BW_o6Egc8paX8kPTg5WCPOZkMihfOYuZfYK9V1nCwHr9EV2g26fnCPPA1mT-C7BTbfn3YU-DvP5aSKrpmBuDIbmhkVyIMqBSM5UNmDRPfngljzoJULd945bTU4V3NCr-va__9NVmM9tDe0mKTugy0KiAaAlHcwkeC50VuyUxVwsEbp_gEbykgeSSCTV8QEKJ5CwPEx08cnk-2CeE1M2rFerqXzvZLRSaEBeY5SJQAbBbDJyr2y8UegZWoHv-CwEXXWrWiPHGgXbHsIaiOF6PBjiCyTezA3y_z3FjlgkawFEB-76mD2ajBUj747hduQ6sWXV_W-5ApmvIPHri4P3lPcXuoE8_3iEf_0UPXtRV5FigWwBAmGjYfPzIOkvLQMoj_ODVk7bU1rWCGge0Ggm-yVyMP2yCfmqrAaP4T0BeWQ5Dxsi0newIDDopkJVzfgoCHoJgIcgR-ngAgl1cwTFC37-zF12zEUY__ChQv1v4o-FALxlvYRg3FHzxzOARl0DUekCWPPH3cI1dIc3nZMcxZJQ3Hjd4uHEgsQiOqICXmBM_MLga8-xEjPgMHZpwYv0GcEBWmhuv8JQPt9i1OwJMMfHH_FJZUv4K_QUstPfzXc5VmwS4KUoa-hPIZg9dFfDvk0jojygXp9rRK1UpDvTjtarRaF2zWG3Xs7srBLmFuR--Q-rhqRc8qoHSituGgam5YeOgNOQ=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_05fb7caacc0d288c016af0c3e0377887d1ba431dd13efb432b",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 696,
+      "completion_tokens": 151,
+      "total_tokens": 847,
+      "cost": 0.002902,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002902,
+        "upstream_inference_prompt_cost": 0.001392,
+        "upstream_inference_completions_cost": 0.00151
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 99,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002902
+}

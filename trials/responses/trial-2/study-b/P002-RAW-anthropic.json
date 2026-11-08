@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:21:09.717138+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P002",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "b32452021ca19466b6da9e8a451888f428dc51f4bbc4254ed41323f991238eb3",
+  "reserve_usd": "0.098416",
+  "response": {
+    "id": "gen-1794162065-VZ8zAYKEvIVukMAytZIg",
+    "object": "chat.completion",
+    "created": 1794162065,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster looks clean and fits the locked look, but the owner would likely want changes rather than using it as-is. Claude reads as maxed and 'paused' while Codex sits far lower, which could come across as a one-sided jab. The pixel mascot is also small and detached in the corner. The core idea works, so tweaks are more likely than new content or killing it.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3399,
+      "completion_tokens": 137,
+      "total_tokens": 3536,
+      "cost": 0.016336,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.016336,
+        "upstream_inference_prompt_cost": 0.013596,
+        "upstream_inference_completions_cost": 0.00274
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.016336
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:32:51.938577+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C010",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "9524bb3482f5ff914b06e5b46bf94ccbba09542342221bcd11d15618a89a6d43",
+  "reserve_usd": "0.066765",
+  "response": {
+    "id": "gen-1794162765-zqpDZCfCZ9de1ihOUdni",
+    "object": "chat.completion",
+    "created": 1794162765,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The screenshot collage supports the on-camera segment, but its dense layout and tiny text look hard to read at Shorts size.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on image overlay**\n\nI need to predict the best use for an image overlay, considering its relevance and polish. There's some uncertainty about the dataset, especially if the images aren't frequently used. I want to choose an edit that enhances readability. Most overlays are straightforward but choosing one with a small text might work if it doesn’t obstruct the main images. I think focusing on how the screenshot collage fits is important, without overthinking it too much.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on image overlay**\n\nI need to predict the best use for an image overlay, considering its relevance and polish. There's some uncertainty about the dataset, especially if the images aren't frequently used. I want to choose an edit that enhances readability. Most overlays are straightforward but choosing one with a small text might work if it doesn’t obstruct the main images. I think focusing on how the screenshot collage fits is important, without overthinking it too much.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MBTjSGcqzq3BA15jVEPi5jkzTFFqsJHruZ2fjTvz8N0WaWwRIWnK9xKrl8Ds13JxtRj-Dq7zV8EgRPtq9IJcPWQN4rqP5bZtLdW6dR57I9tFSsNdAgWPEaiCxpzxMH-rAxebSSMWYsTR398WAaMuDCOM49TFNqBrYaO5T2Mc13rvN93av5hc59alASSUQxjvmUFgm4lnGLEv0OY7L1WJb_JixeJofe23_dRcIs7RRRcx29HhJZ7B0k0OIl3oyMzUSjOCur9CXNl2a1RYFXrhCFLSj74eejIRJ4uxI3sD-88_h8aQ8sPIqJaBHolyUbpi20n9SNLe155jHb1ASza2vEWDnbPSpvNnae_RKDXzs4-6k_491u4O9OUFhJ5qC7p3MO3XcFo1ZiR0T9Ny7n7nkaNltRtuu_RExX3LSQrIR-hzL6XGV2y2CK_taY1BUDhmTVBBwUXnKhx8CtOY3P1yxSFzoRgN3iOR1PX8aK17IUpNAKhLBH7NlSQrPtIwXawdy-o1BWyPD3LTGjKgqp2CqutHv25wBdh76NZNfybOPeniJzetQBlKeTXxC8u37TYPxch7PsfZGi0lAgm7jE9ss0ujego0QTtzc8TTUEDqajST0e69vfPqyfMwQWvCy4zqtShuSlW6gUyA0xhjkwFMqAJYmT3LW0y3xPQZvcOg7Iu4WwgYzHrrqcZNoEZKAsoKHxf6fTuvTmC6CM6vQO8C_MNq7KIadm9U874i4qMSlacT3JSpbyErGqVbur4aTD68tefVBdwTqeJrUjAVabYZ0_0Prdu9QyY7mSt6NGAy6veV0Y4V7s7UbKAaLzMbIy8vcn-f60oePU5g8Ru-hBu-WE_YXpIpMhMX-IMCxjrhbZ0Qw0nyDCoHdffZBCyiBNRSOE9xDmpak4uijzGB9FShYZ6c9-P0E16QCCbo7VCq9fTN3cC3pxzTgbAiiVLZZWvbeHSrZhRykkTACloXTAoPcRf9eCtQe9xZzGSq-7CA4K3s1PvCZ-Ebdv1tWNrCdPw7r_ix1gnsdVuXhorKTI6K363pjtYv8t2Vdwn-Pi8TYR7WQ_vdjwuJgh3aSioWMHNfxU97DnXJ2LEs6a0WVA3HhT2viDeuQr01iMriiZhDllrMFA-jsnLbVJ6gzZjiupe7NWpbGVIT0QWl3-np588mWoX0vcrzqG0ml-h3ou4lYn0sSahaH1K4eNxncyDqDq-0B9zr1loD4fpugL0BN0Ocg5p_I0c4M9fpqwwiIVgk4COLmwLCqPfHOPp00DbOp5bXWI7sj_syynq6gElj4Tc47_-p89FyHPYkbM8qGvbVDV4YwR2f5VB4IHb59kpzn0foXXz1fovq6wT16RNJCXqlEdyR4BZ-E08xnNH05Gx4bcu_8ZH4GJcKNgryK8UElAywM-OnNODUAXNKIlnlBe57lpyUW7qFNdQDlUAUym0Le9MgKcjJJ-jTouWFZQvg7AX9rthKtVJVNnF1SW1h-dO0g9KoSCeh4PyRZZfNkEq0VdMiEGSQeZ8PIWrmJvCw8wGLZyJDCztUNfCt9rbkRmL05xCBaGlINg5l7GDXaR4gcauvfZdE8R0ZMzK1jcB1Z1aYSE6VaQn_Ke-9AuSqfIqPl59bnDAP-hfN4sCJ8UCUUKuiQej8bGkjBNoGKCjkqe-9cob_Qslnp1B-4JcoAGJmSjHkWd1nJ1Q4j0sJ9CKJnrFD3WQfNypI4qws2kCQGyALBc9iP0OH0ZJF5TgtNNrKbNQXf5NdNN-qnr_9u-ABWj5gY-Y8dkRKXIMK8kA9xo0NOAySleAmhzQ_JfFI9GNtfB5kkZsT0zyL3TyMRDUmojaqvH45oAtUyn8tS4k-aBp8_9ZrKgLCPcYpHvUA9TigInTLbp6s1DP9P4dzxjtb7XHGktrrMfnmUNY5NxfeWhULoHd_ttKYf6OqViq8XDGYpccMfwDyD8LxMR9VUi2olS0RhXfwVMu0d9vDiRXhr9AJyJJ7Dc8NCyaDJL3_IOG_Y7XEjlbpPvo2aiv4PSCYHuiSFTZP988M4Am5bq7IBY06h0MYmxF0B-yWemKRYz_crkxnn_AGS3K6r0zXfg-_WCdLREwFUpREIA9pC8fiNIYx_lYMUyQtp6MB1PTCjUVIaxNruJdRg6Cn2hTF5qMR4A6kfameEpn17MJzM-6FJdNeEVMkIeAf2S03TbkCaKVeYBNmTnn4zmGC58J4ljrNBkWfdit5wexKWAk5T0hK6oM4bUiBX_EGLS3b0JQrFmCrQiE73tVoR97CjLztv9N2wHhrXgn4zQjYh2ZqNmmAKAD0TF1txzwNNv9WI5lVL2x75RM4nxS6jaaXENSfCIk4Tr0AiMJDmpx62mPb-NrEfag87zuIoRzjgpiI70aMJUw411UX4dOeK9Oehq9px6lpw1-Dh47eZCQ9aURaFhGzg4EZWAQpizg1Wh85okmoIas6wpuuTWtzdQvAxRFgs2E2ufGP-zbG3mLVPdsfDfsYmYCMkRtKDk9PbZ06-17ozdytcT2MtVHOyGdxd8fvKTUF717W13RhGVPmaho1ycC6Em0ek8POCZV70XWXvgtvOKIaE0MASpcLQXTOM6ljHxqdGw7p3Pm26VYyF_ec3qXocc1-B5wItSq-4MjK7EL8oV_F5GOJxr98BZP-HKnVbJqWR0fZQ3pBh2sb01HaPWkO-mSVA6y3r9KdZ4XcNuYBHW6h0NXAQMIG4_Ua80UW1S31zyhtcpS_9tYLHLRBQcxhD9SfM0WjHBVbh_p9NiLtwzbsbn37hyPXM-KreorBQmBdEVAELEN3vL_9le8N1CEQywrrkfW2WippqW0FFWMizoTksj14DUo0ZnGRunjFMhF3ZzqMI6LZ1Rsn-BX4-v54LINfBhClS2164PwDEOlObyib8hMSR0NyseGOOUSRegcNFbdMNtbd8fNv6beKSPLdq7cEG9H2ry1IaYLB-mFCy5jMKw9AkBmOftSumn2rCmcTLuTHuFgLXsisOzCUctYci9KQjwnEt6-Zouxm5KB2SPxSvsSQqZodJUXFxR6AR5v1t2pZTqaMm4f0srJ44XDNmwFMZdYlHmgfYfJCANh3mJhsxTXE-TIlWv_uqzC9GY48qajQ_PHE6QVyRu1PtqB1KEjHQEDj_9mBwrt3L2QgARsruPjsPpUfciTLOOsXmgRkLEoPKODH8sYUWJU8tc2Ho4zi7-992yVJ2U_UAd9Rk__wmdaiw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_053d64ed2054466e016af0c04f112c87d1acd2382c80a2d65f",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 688,
+      "completion_tokens": 145,
+      "total_tokens": 833,
+      "cost": 0.002826,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002826,
+        "upstream_inference_prompt_cost": 0.001376,
+        "upstream_inference_completions_cost": 0.00145
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 101,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002826
+}

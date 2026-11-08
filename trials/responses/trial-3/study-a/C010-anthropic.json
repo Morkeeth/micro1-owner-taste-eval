@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:47:18.392462+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C010",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "478e6f6a05c2ad63489bc17fd2bb602f90dee10920e3f57935bf9d2ef6cf6ac8",
+  "reserve_usd": "0.098632",
+  "response": {
+    "id": "gen-1794163633-Kjl8U91KHjx4Y4It5K8M",
+    "object": "chat.completion",
+    "created": 1794163633,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"Best guess from one frame: the overlay is clear and on-topic. It has a 'My slop folder' title and a grid of agent-built screenshots. But it covers the upper left of the frame, and the thumbnails are small and hard to read. That suggests it's worth keeping with some changes, such as resizing or improving legibility, rather than using as-is or discarding.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1093,
+      "completion_tokens": 140,
+      "total_tokens": 1233,
+      "cost": 0.007172,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.007172,
+        "upstream_inference_prompt_cost": 0.004372,
+        "upstream_inference_completions_cost": 0.0028
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.007172
+}

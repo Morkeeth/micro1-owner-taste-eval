@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:45:40.065154+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P033",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "793db152e0f38b81d1685b029b71fd0a7023f2f4acf49040ff436e62ccc739bf",
+  "reserve_usd": "0.109115",
+  "response": {
+    "id": "gen-1794163535-Qbuuo5gRNvLHZmGVEQAa",
+    "object": "chat.completion",
+    "created": 1794163535,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revised lookup directly addresses the requested content change, and the poster clearly connects the skill search to highlighted Shorts results. It also fits the owner's interest in reusable animations about core topics like the index.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing revised content**\n\nI need to make a choice about matching revisions to the request with the core index. The white panels may need new content, but it should remain reasonable. I want to keep things concise, not forcing any actual animation but rather focusing on highlights that are real and specific. My goal is to produce something actionable and useful!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing revised content**\n\nI need to make a choice about matching revisions to the request with the core index. The white panels may need new content, but it should remain reasonable. I want to keep things concise, not forcing any actual animation but rather focusing on highlights that are real and specific. My goal is to produce something actionable and useful!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MNTWozW6T5Z0TeKn-ZJ0vy_nNgMg5FgcRFtXX-wGQLMwYOBE3OZYU5fNsJXK24JbVjk-eytafaDmeiy34-uNP24Br3SAGsapgzWFH50X6oCQd0_kBsxk9i6iTbzvvXrO9ovG5F9mEkTFihJyhx3_KhaI_iUSP74xzHLI8r11byqYDu-7OEWu7sVY5sPEimI26ZaCWLiA_u8VdFEnokIkjsgsfmtbvYw2hpdKV8YTn4qwMyReu-NHi9_0pHlQ8AediG00a6uwnd5yCAegSL-tTOr06OgCoSF2JRniBbPBpZxsU_FCChiSE4hX8-kkrPx3J1CqCyupUwEjHZIINl_kljmXRd9JRskqiH6V4bZxakIPJchPQOWPov0-RL7c4zt8RbxrOkgmME_Ip3Gtvrq6ZRrLj9aK7UiifZgseXrykn4TpPAZBawjETHZCLBNlb5RA0_5jDoU6-l5C6du0OgCAQ1VWs7DqoNztyP5btl2NrdChqOs-m6HIgourRTohQndxuvr5UcGmm8zP_Q0NaQi9oGwxFqj2g2lTrQdaRfBV1A0pUHedzklYPyZ4uwnbkxjDJGNqn7MdO5Q-qeuiN8GCzYG3QAjoGaagoPlo--FbkV5-7wTsmzpqLH3yD-hNZnyZ4eM0YwUZCZ-zcm-PmtiKi8z6zVBQEXEdvPfwepUsCkHcMEF-W09hrk4Cz_iC6v2ckN8_EadLAuB6ECStghGzzqm_k5HoJkvkNWTG8Yp2F-U7LLWgEhfbQnBL3AKWUvMtJUvSZj6WIX19Gv4JOKFgD8VvDVLOqrjDaS9nS1lPZONCuwcyHh_84nOd_uo7d1DcATI7UkcoE4ivsuHXgt73FYLh10FwQRqbq_Vr9G-QJxiXDhQwxhLNjG_CMEgR7UlunX4cstRCMFuIEs2ttV0qaWLuPRZQL63FjmVqXBaP-6-W8cjYEF1RlFRCxDRK7dsd1CG6WK8IOAkwiAJssR_2XuaOIBDqRhyWcfDilUiDKBsSSNNxSMsxHFTAPu8BfEae1svXIMD3VaG0M-aCU1saYfu9XRMqpzvHwW_hQkjOwET6o1W1bh-myT0al4pstiX3nJ_0EhL_3ZxZdP6iqVvPKE0eps5w1-Xzl7PUaC99y-QgxGUv-iiH-eHvE5HU8r-kjw3KbFozpiTZ8icTv_DuNY3lD-zxPR-oIrqo8JR7MUn5PyfEsp885InOYYVybXOp40wvuNlnwxLZEHOqHn8IJON-r1LC2nsQOqqHt-5irFq0n1D0VhSAXUnn5LOMMcPgg2MPnvbxGFIiK3r_5_FAA_ZIb0DDZMHz9Ft8eMx5rAurl887GkKDu_kOZQdKgLKZ3dauKxphRYdW4SRhstdG4W3zPIQHFgWmdsNZkfdIT-wQBGFSwC8XK5n1qsDsHTr-eTXYKuazl50BuEbM9sjKHj4S3x6WD9O1a2BUA0TabG1NaE40arQuOvhWlen87-62boA5DV0lDRRENOpUaoT7Iu9KLyMBKEd0shUKEPgSpEmyt3h6EXhr6jLPTDRVwWNSP3I2UxCu70LWdtI4GqTGLLFkdh45xFnRJXqYLITrkpGMCYLXj0ElEPNMuHMW_1gqxVtyeEilQte2-XznRmElg_uuN1I0_cxrV2W1nfNgiHBLZn0EoN_s6y7Sy90MJrM36na40Qcw_7b3k4Tuvb52TDk4RSl7G9MdPybQHtGBnxRWyilkBYr2XpLj3-nN2xccdbJmLdLOTEb7AUvx6LEP73HQur_MltBjxLRFvknJxl8VaSGjJEhJH8h22p1JpmSUHpPkciB2tzwLI7MubWRs8Ftempkobod2jmzf3pDJuTlM_24dpnwhlfDqOVi-L5OxEz26EKkqQ2sz_qZCa9qFu5oPNsyWIX9p3nGc4y-Jy_m9O5MjpBXP6jGvQb3qlJcU6QyyBkANcT66MSVkAY4a_TbYj_K0Dm5NaBSQblRpOchATxUMFO4BM6GsaOwzF5fUc1yFFDyKNj4-nSo_02efU3m4qxUErbhgd2muaHlZ7cPVjDEIL2XKBNNWcHbvSZ2EUXDDCWaUZAT1lAh-h7xRKCl16TGJPDZpBYk30p9V3E3DwnLQFDVH5G8NCrtTInbvSg9SAO8ZoKOqaf-J85RDEm37gYpbACD-l5qcFTPAhGmHvSdJ4lcm0NA3FWQoXy0iM1rNocymqVhI1j6E6R1MB__udUldmNfGIypCTB6mDORnOS_BAGV_HUJvJ_yKwFfP7d22fhARAFsu9CAY6PgdKL0sz2ndENeJpTI_I3_E_v7B_ZjgwfghBwsRkElB_AXx9Ubn7E-jYN3yZ0h4fc0-JFLh1mHrJajsNBqjjQZQkG2Is=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0661bcd32afa5434016af0c351eb5087d195007003a0b44196",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4847,
+      "completion_tokens": 101,
+      "total_tokens": 4948,
+      "cost": 0.0015004,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 4844,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0015004,
+        "upstream_inference_prompt_cost": 0.0004904,
+        "upstream_inference_completions_cost": 0.00101
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 40,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0015004
+}

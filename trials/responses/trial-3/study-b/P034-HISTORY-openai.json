@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:45:52.594932+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P034",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "010cc41b7969f43ba3b9145259a40a9b4ad0ab3995f48014cfaf68e5f5c63e32",
+  "reserve_usd": "0.109250",
+  "response": {
+    "id": "gen-1794163546-ZmZrzvd5s1iJuaiT5BLG",
+    "object": "chat.completion",
+    "created": 1794163546,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision directly addresses the stated feedback: a shorter, agent-free demonstration of finding relevant Shorts through the index. The poster makes that hierarchy clear, and the owner generally approves concrete core-topic animations and responsive revisions.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing between options**\n\nI’m weighing the option of choosing what’s likely awesome versus what needs content. The revision should address explicit notes, and history will approve any payment for revisions. The poster has plain white panels that the owner dislikes, but there’s a core index that’s been requested. I wonder if it could be semantic rather than just an index? My search skill highlights phrases like \"You wouldn’t steal,\" which presumably points to skill content. I think the awesome choice is more likely. Now, I need a brief, grounded assertion that’s no-nonsense.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing between options**\n\nI’m weighing the option of choosing what’s likely awesome versus what needs content. The revision should address explicit notes, and history will approve any payment for revisions. The poster has plain white panels that the owner dislikes, but there’s a core index that’s been requested. I wonder if it could be semantic rather than just an index? My search skill highlights phrases like \"You wouldn’t steal,\" which presumably points to skill content. I think the awesome choice is more likely. Now, I need a brief, grounded assertion that’s no-nonsense.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MNgykuzUITP3aUFP9l1PHxE-Ry5VVccOpZyU6HZc-yWZ8PjzfK1Z3RprZRKju3eEI337eNedvwd4iNYjpex5HQcQNb1E9fMMUcvKKdxvVf6HQRmbidY0oGX1JBUZTx73wfdd_Bu4vF4XQen8da1Xu-MLLRLEkO-uyxOJHH0oJaz4Am8A008WmtTN9tlo9qtepsLgC7lTuNsnSwv-_5YaSuiA111FKNY7AhV-BA-DJlusFzxxiILlp31n_MNS27nYk4tIffKq2yNg2_72cnoxoES0ajQ6OCIVmBKzIgszdlhvd9rmIhHtYAxuWxCSAO8XIYnZTjEaemPBhwxTMkM2ONxDzHh0RKFlbubQGU-IUGdyvJ-rvEHz98yXIvDT9cBnsIkXSKlic2GC9a4RbK_K7pu1wdTm6NY0_tgJVvjZC76zjaoAgApvcNLEKyr0mINhWGdZ_WNi6pcodL2n5ADJUrO2YnDC2mGAjqWvWFg-ntAUrzwVWpoJ-rXZBtuLqEdaHVI3bJC_k8ISzwAa5xsa5jIqWZar2W4vEnfzn20XmJxJeFxKXZgKuj6pbYjxegWLxTYAqMT-ibEOt0q6G3Ng7sTYidtb7geMc7lbW90QuO1RYKTIttrQYJKsfoe6X05UtwU5XyEwmU9rfJ22K58Bfid1zto7ep5EGUK4cAUMAyd9XUXs1mG5I1jPcUKVg5XPwsr0SPwnjCI7YzlStS9ENNbyyhIN76phyMsbzS1SmZftbc1XRywoj_YUIrJkiO68847rn75eUva_mMX-O6wFXOND4ALZvV-1tj5j9hVzEHLftI5Ycg384YYwlDYyVHMA12YiOqGLD0KcoDgTTTvLHMSv17m4s2l_zYSQ0QhdyfU6_BlUjpd9A5QuNJdTCdb6emyaKZszOrbc9FNVbOcUmK8qsMx9l344HEzoSjYmtcmd4-4TW1SrEsydtRh150Zyz_CqQtzCqrhNZMq5U0KRDYrvuflhGlVjys5trXWv2WB01tGGQhOfDkqH2i5huHCBb4Ku5kJm-NxnqZQMy1ynIAXwH9rSGal3FH4RAF-0tGq-3hYf1JGLkCX77VTS4O5DUB0Lx353mwPatIefrub7Y0aoGQ7uOPoQRmdoR8_Q_a5pY4R_33uaHV_WR3ZYhLPkqZUlUaZwPPVcnQMlsmch3dl0mQmFujEBuBtui1fOTcmURmYg7gi7Z5uJnzaqppnQRKY70o0TAGDM4p7jyoqaxk390etbdhruErMHCg-t1jDUyliYdMsW_IkHO6nFSDBwWHTNlhAgv1pc9JVSrNbi84iKZSOqA2KRr80xDFt3Vkfai7n13c3vH0la1XCdZQlYaYITDWD6FywLEiYiiMXxmWHQ62wVFrnRLNJJjRNLXAUfR0aIiSKEIpc6pPZVyLiJN5ydLXvW8Q33rcsEjw_0cIiW8MlnXK03FRR5240YABvRzfRbc6q6EqzPgPIMMAm97N9D2gVu3EkknBMIZ-fOHcXHvuvhGhhk1N2m2eb2MBbkBsBWBspjggOUC7YDImkL9lfqiwJRcxDBEvaGnaMwmBNkzZONGGw4MJt7ru73fFai-2lt12fQR5Ah94teFQMKMypf8p0JN0qoX1We_Eba-Tnqhr7lrXV8a3_sIYTvN7NFwmF5JorT30zYxtLVLpCdIq5tgfjPeGAUXPUtPbt_vw949UlcXKaJoMkDayRuJFsMCi87MT6JZPzYpnwgCCcL-M3G7a825S9DZ73awE3ybnfIgWIyVxY4CK5B6JsPPlqv8J6l44kPrBEWl-sdMEDEzA0KosTZqcb6yQ8XVXIBEBdSnQFweUzja79nQhrRg2_kCWu8GU3hpSIvkSsZCEKXM5elocLnKCN9-y-qNBlQN6ge8baXsVXaZfAgE2zfQgnjg1FqpIi4X7_tqss6MdWMsWlEH0Rq89svPDtpwVtUp1kocDW7P6Z0zw8Vv47hmtodek1UyP5Ypt-QDadJLqeXdjhRQpS3e4GaNAHPEHOyCcPooDb6tUwAjVnxXXS7AcKFNMzNJWAB0SqLuTYSwCJCVT8ok7avNvbV0jNRLQ3Qzwx1fO4nTvGazFR49ZeccscIR3iFVGTUOG9Ig-1BeT1y_6_DFV6qIwuRhyxtOUAcrQGOPeGPqMKvFtdrC-wlkHbspQWqZ2V8ZmekgV232JWJumI7YB9V8cOt2iYFNbw2syX5Q8xMubD1CiAMm2MC6noi_oAq7NyZ30-LNMiIlJraiyQYXQ-TbNxndWeIwpREK88BPm1UIhEWnSksWMHWuzU4hUwlCC2Sg6am2324z4UVPrNqw8hzwzW0YlF91wQvI_TJKTnDceVUHNjlG9ZbPZKvthYV6sUh2oFJ2NCTQ3aq3QH4SnBdXInmMDpJyxPq_1esXYmJ_Xyxh49Gr5iqFFuTLnRRJIsDbirx7ojt9DgXE8UkPvVvGs-m0WcVJC-Hh8vIKN728axXG811XMRcYh_uHtZMnsTIM9UD8mRgPFAC7haGtNSP7E5XUkRzxUNCnaSDVEoqQ6gDiVaEKZQdcJCvVzsTY6yTr3AyC6eDecW_EPKNtaj7GyfxBYUTFz1EOEIQdRDGgq4142fweuJW4_hzezlGruB8IKyjVvJV-ku6q914tQ-lwStcmApxiqCPB85b2VMjUVUB0I77ItGWO9vJac=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_01c15ce9ce28d210016af0c35c919887d193e25cf34bf6998c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3510,
+      "completion_tokens": 126,
+      "total_tokens": 3636,
+      "cost": 0.0016167,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3507,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0016167,
+        "upstream_inference_prompt_cost": 0.0003567,
+        "upstream_inference_completions_cost": 0.00126
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 62,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0016167
+}

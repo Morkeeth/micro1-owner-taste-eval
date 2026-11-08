@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:47:38.280632+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C012",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "faabf8e427ab03ac4b0098ef98bfe00b8e8e9857cfc4e073fc2189ded0cbb6b3",
+  "reserve_usd": "0.066770",
+  "response": {
+    "id": "gen-1794163654-Gu6ZOu0HWfJQTp8hj8Lt",
+    "object": "chat.completion",
+    "created": 1794163654,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, readable overlay, with the blue diamond giving the “building worlds” concept a clear focal point without obscuring the speaker.\"}",
+          "refusal": null,
+          "reasoning": "**Selecting a poster design**\n\nI need to choose a generic poster design. There's a polished overlay with diamonds in the top left and blue text that says \"many people building worlds.\" It seems like it would be an awesome choice. I’m thinking whether it conveys the right vibe or if it could be perceived negatively. I should make sure the message is clear and concise. Ultimately, I want an AWESOME visual that smoothly matches the overall concept.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Selecting a poster design**\n\nI need to choose a generic poster design. There's a polished overlay with diamonds in the top left and blue text that says \"many people building worlds.\" It seems like it would be an awesome choice. I’m thinking whether it conveys the right vibe or if it could be perceived negatively. I should make sure the message is clear and concise. Ultimately, I want an AWESOME visual that smoothly matches the overall concept.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MPJ867KOvqA1O7hCo8F3FWQUST3dRHp00aPX-Z7sCyO9rMHpQBQGyVdtf964SE0uZI4KeRpKAfTj3-FGaLGSQ9An21634TPmd585aKHVTXIYcL9NaHWLwHvOpZ85cdYNgF4ybn_lnx1Uxmrbbx14jKapLPFDhnJ0UmZONc1Xadn9bEeOPLrnqdDmAqyDXZQ3uK6XR15nqiXhyogALyrvkCAsQt2hdkl8a9cWXKlks_rRsnA7YjeO-t1uQx0nDGupGXdedl3pJDs3k_GL65DrYruovBF4TANM7QFUJHoJmFRzFDHO91k3t8TviefrWoWv3dBRtTUpcCJh-byTFC5vFwd_yZVM55jGpy74K_CcanLNDtCPR80FybGJPuFTw95fGAP6fpU9U-iLhPqqTG0RlfNjkM2Z39mDdvNG_kqwyJb_3d2ldnqtVTY-6Vd5vv3zXDI-AC_3Woxvn_bxcJUtQp9_v3nB7mHRUtnSRPeC67kWzxOpHAIWPm1sO2gj2a-1rEaRKl-HUv2hWC9D8bJNu4-plN6QedDp0jdq2UKD4tVRgDSG9jbiYN5zobwwUHlC6ayD7lq2Uf7aC2-sFkeoXBdLs2PNDxbidLJJ_uoVfYMJ6pXDala_pMM-ro7eCjoPWTkoJU_p7WCQiz9rBjIHieQDmpb8o5diBDYr5YehTauT2qKEfPtDEDeZF-pLc_bE2F0sX-W-5p0MHvRtSd-0-088L6kgKbNdDaSZueGdOdOGRE-1zwduZoIMGj_lFbD1Sln2SYlITseNq6xHROSqyBDPUKZJ9-k_B_dgDsafgNpO--vXzdz5bGI6pSA04_X8eYdd3fIS4lXLroS3FBemM3T0D-MXdu4W5gUKLkH0t2NNEEytrEHXwv-Y5qRnnbBR2zzULQI5cok9QumBP0HQ8f5dJcuaPgBbQhAH0QxDZEQ1bbYvCe34ziFCcvL4MxVo2p-ZSgzb2Gor4Tl-X1OYk7-3TRD5NFepFO_zN0mWSFzzNR3hqsA4RV02Hr5KtsgkKBZOgIcDkZTBIGu-BdCUuu2Vu6o5-40be95gyhzsJ0Imb4MgKaFBGAy6y-4dGW4GBa5FXF_QI8TU3_d_XyFhGUPon2JZWiVBeM8LIDUFctpMGSjJGQvymqsfDZ5F2HN55_f9N0hLJ40YStGbhQPbRrK2V91ILFoMk7nyrJHCkMsKcnbSQMe5hrHP8o0CvZQlgcRdpQLOUtzzMQ1P89gqnij3MW8yfXA4bMk2itR-D7iox8dh4-wfdEEOLPTgF_MvdImwAU7_JtkEwYdBizZbbGiMxmyTTumwg57V_otvmBmUHmQn05MoKoJAgydiuq1JdViHWoQ9E5dS4krekdGNda6X9bx8hkEWq85lyKrSymctNb87ZvjxvL2Eg_m9lS1tM2WUcI-gp0_iysnb8BIYgVICKeXuKpEdiNOIsu0_A-AJZwaW6d4G_d15C-0PGptRP_ZDA5mUPdY61UWODQSYKxqk5NYqvXH4l7IpMR_f7jXr3-k6bgiOkb3OhqTJnqZ959Mf_z4p5xyh3F405W7bd2vxEpxUhGT5K5tv2mKlwj5WPQT_Adr_wYP2Y1USocKmPPohnpGM19oBv3Gti24CAiXnisHCqb3uhbGLV9QQ6lQaeNxJx8qLsWdByx8bDIHWt-LLCCVhOTqCDOu2dIeoy35GcVj--2GODoVr5a8DILtznaWRaNqaaUtpIpgdznHIQyUREvWfna22ofnS5BVH8U9S8RAMA9i17DZ6p-53_1WBYNXubiIXbklTKVqqHoncu8ATDdtzHuV5nR-LRaOLPpDw0Cb2k0aBA45AHl674kfCOpN6_485dpb8Ms16_jvm1lgdOl9c7VqCWg5gLnA77u5jEMlrv3rzhbybXerIFthy3FpC1qOfnkUL7DrD_clytoH6uRvr00IZC-zM1tnAuAtFA09aNuVrP1qsDSUGt5JlgIUAt78noy4Gcem1KPsdgzRPNJ5rdincDEPbWD4EoId2DTZwOMBuCLos9-20R3SwxkBsm6gE75gvqAq0kihDNOOJlF0Q_HBvcjNkk6ZayVViowoQSWaforYvhnt4nAsI-nQyg2V0_IExrRpjRKqShA-rgYlHY4arC_pN11E3wgxc7F_6ti1-2iWJY7BPZJAbDrX3nZWU7kFUYu7LBo6GomEnjQxEtFNN5uXOebdqK2NLjjRF0upRmjRbP__1eIh4YhTaMgooHh8R0XLRtZcVoW54c7sDneYkR1RJLs0ErPAEc4k8M1rm9iU4HMvMJoZO2PoE4z5KVlJcjiXvNKrgJtuZDeLBBt2mVDcMzabopkfQMrcr_o9QKzLbJeEyFsLztc_HlyeTypm7CUu0yMNsTmsTkpLrJw5ub1fYwNUhHeGY2ri4A1DnLA1MicpqWPDDk36FKHppR0tLD3q_7GkL4lnxPzsWZr02H8bD2JbBeLSw0y1lP97SKOpoD4LWrZpRCiOpdbC4he0fcOmLxU-Pr-4.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_021aba67ceb0b3c1016af0c3c7a77887d1b497979071fbe803",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 688,
+      "completion_tokens": 104,
+      "total_tokens": 792,
+      "cost": 0.002416,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002416,
+        "upstream_inference_prompt_cost": 0.001376,
+        "upstream_inference_completions_cost": 0.00104
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 52,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002416
+}

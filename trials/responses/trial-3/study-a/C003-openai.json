@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:46:26.517034+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C003",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "2f73e04c8d847867694a03fc8cbb8abd2683e842d69de3a3d504ff93eada3731",
+  "reserve_usd": "0.067535",
+  "response": {
+    "id": "gen-1794163582-hzP0cUTmyHSwcWQTBygy",
+    "object": "chat.completion",
+    "created": 1794163582,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster gives the window-button concept a striking Paris setting, matching the request for ambitious, fun generated shots. The card also says it uses approved graphics, stays within budget, and keeps the existing music.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on design elements**\n\nI’m trying to choose some likely cool design elements. I’m imagining weird lights, but I want to make it intentional, with buttons arranged horizontally. I think that would look neat! Also, I need to consider the costs for card approval and if everything supports it. But maybe I shouldn't overanalyze things too much and just go with what feels right. It's about creating something fun!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on design elements**\n\nI’m trying to choose some likely cool design elements. I’m imagining weird lights, but I want to make it intentional, with buttons arranged horizontally. I think that would look neat! Also, I need to consider the costs for card approval and if everything supports it. But maybe I shouldn't overanalyze things too much and just go with what feels right. It's about creating something fun!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MOCQ0tIl91yknlLsF7VlAWXTSiqmn39KyMLv8fU7eSBNJhpzCV5upcXI2JZBlG3VrzhXA1Vmj4fAt2n97kTUK9h1p0RQsnVySj3ax9v_pgaR8ekcYQyrPGpLU_Ffd_Z09ThhpF7zSgQw-Z0d2iJlOUAsGRCY3f2_Mr9cdxcGV_IyX_KUuGUiwNQuEGXQZU9_SINsisr0eYL406BENZLWmrKGqdn6HaXyfJBMTeN6G_DPTpvCcTfEOgd9XIE4-TuXdHkWA4Q_yOcXBDRYY2IrYnqOYDf7JLW4o_PdJig9ZjFhvUp99Q3qor1KJ5LhoR1IU973RDTIZUYE8pxuw1PN-59tmtRzFBFzjuOP6om1PWeXOXFYEKY_rgIU5AmLikPPfow2dthmmEHIV6M1E6gu1BktVAuaLqnEaR7slPybVtmFcdT-o2gx6w9njujYe2CXNYtmZK6GF2XwGxbj0Iaaf5yodGaKPgsaawZUj6I6nAYe9JQd4Qk_Xb6neaDz3SJCJaG-xuTCZwEanbWRtGCVdj5IXZJvgV9xM6mmi0_pbRpqHtAL2qNvjWTCMhyk9eKORGr8V0TWJDYrRNeR8M5seFz3i5VMi2t31vTQpFQBk-sDo4-RKZ_fafonl6MsnTaJcLrIx6_qOJmX-KWu-CNF5-y9KUI19P6ebIKt1OSegLO2-hd69cLFPZiWyXyQFAsDS9__inHPoLXo2Xb6TJqrs1SiQg97dDlE3EBOy9iFy2s1hiwrBG4tm6dRX_OLKCmu5c13aPHGzh1cG-41fKsTZLaqDdywj2xsRurMNzJF3HAXUTb-Pm2NFIv7bK3S20dcBk3S0tULRmzu55vAtdh1wLTsL69sjXAboXQMTE2z7CkrDVXKOXHmyrBxglYeAVB617NeTU0Sv7P0cOVf83kDvGbvfl6MJnO2Ek_KWeFzzDI6v7Vyhrqmq9iax_cxQLVDa1NQLkqiGhiTyGshbbbiAJBAfYOcWAbwgjxxj7Ukmsx4x7BdWSf0dP52J-nNI9ssDfQjr0qV1L6uqCe7ZMGdXoDQejz6glsP9yTmHe43xDdvPRGb0ADVncpPMek9wI9s0rHWCjJOKTFRYBN88nFULIcCRefjLoQLfCZ4HikhFRNTqAV8Vi5pYAEz-kGvhXema_wE_U93tTL0NfptyEAS1f6R0PWRMa0y137oUBu6zW_RkIHZD7uh0_ALBjmchehgu7BNiiyHdQIyRKhc1nHzhlB-p6ikKY1SlVPDJG4aqZRDGx9AmiI9ELJKqWiHmN72-Vs2uUwwcoH5ae4gcu5GPC8_ZWuxhwPYua1H-1uG_IHG6CfxDuhjXmBEE7UVcPevItC0U5UhSCUhnX-SOv83bdfeyU8ULs-FnULXJrws5DvJRCO4SgRjmBvsJe3N0rN0G4uRv8mgt9msGDmcwlX8iLLzTBpLOxd8_ET7LteU9YrYbK1BtEhS6gICVmOaTw6QiLZUqYyqXZ7lWzZCW3EaoOff8PPAqaz180lf8Il6t-mMZgV__E57zAO6Ex9r-5eMo7lOEH5TKHnsjwVLOjg1295ueaUjJoiIcPHlZKdpc7W7gOBQrn_auod7qDxVtTH4DUayspgk2kszeltLf1u_y_98mndvpc5WKQ9ArrU-pVTmy1P5rNkVJ2EID3Wz-FMjxx91KH2MoA5biNA3DQwiN0HM96XjjZOd_i9rv6ZjfXKvOrJMh8m_RHF7EKUeHo9iknzRsYzcirPBPS7cxeBNXiQ6lwCniOODnBP-vUHqCPKngWbUSRv_8BtWydDEz9duDTmN3zEWeknyWnaJrIxajhh1s5_-wJ5eLE2h3LapPlWawaN1eVoPrFl0_pIabsf9w3JnAXbzUpQNETh8CWo6ELuOWSZX_dLAOzmX8hGOQBho29AF55jWIIFWZDelN7qHh5Qy2NXi2_NBuegJ7MSyUT8FCQBHt_GJ2gGf4JDJeMIh3YxKWZoFeBHFHKs2yOsS0IGxwNc7qNLAUthjGlxOvwieEG-GZAXKWYWUwkHbUTpiMFqeOf0yMS91jgCgGIpx6Dz82tmMDx53Ammy99-vr56hO2NRHWgTzMQ2rC-h_HjoGyBT-J0Uw9HoVkujOZA9n_LvRmeBkPgO70XhNQY72wV-BR_qkHRTZaFy_GAv8vrNe9unLEK1zSSGHO_ERkjHE1Z.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_07f10ae247f27667016af0c37fd0ec87d1b852f0982449a1be",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1469,
+      "completion_tokens": 93,
+      "total_tokens": 1562,
+      "cost": 0.0010826,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1466,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0010826,
+        "upstream_inference_prompt_cost": 0.0001526,
+        "upstream_inference_completions_cost": 0.00093
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 30,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0010826
+}

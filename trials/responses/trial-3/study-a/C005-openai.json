@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:46:44.749690+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C005",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "0e0ffe5416e7c93aa0961d5b314ffb9ca8867597489bff777d976e4210ba86d1",
+  "reserve_usd": "0.066815",
+  "response": {
+    "id": "gen-1794163601-XtAXu2HCBLKaMef4z14N",
+    "object": "chat.completion",
+    "created": 1794163601,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The earlier complaint about a very red face matches the reddish facial coloring in the poster, suggesting a visual correction rather than scrapping the animation.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MOU5eGFb_KPNlEspA1KU4skrsEInd1E4CRIm7U3uxtphSsrtrYKm8L8Ryj4ZgqexjpB6Zb03bcHcVrtf_X03fsnLqWfMI5XkStRH73cZExgR56xTzad8mCj9kuUVj6e_Sz1F6vbTt0B_CJ2IoSbJ08Zj7aQKIBMvnlJKaiLE_4rubUY4EWOzj6mjg-Xs1DHa-tLODOiMOyR1bGHNdZxwrQzkY1xu5INU59lhqQmuJT1jEKsirI5wfvCx78iakenlu30xfq29cfhMCX9hIjlJ-8LEA20jdeFntZJmIk11aKdEqd3IRm2ZC2KnHk-KdgX8vs9jbWPApI4NxWCiVLjL_ZTyBYzgR0MSz6qn1kOFC_85fMShbgebNKyVD7AISl6BqKW7L0J01xKvBcDh0EuykkLX-zNZcQBQUccW9G9CBqPmAqk6o1SVwubf3MkhVqT3U0NVXvaORqSJqoyf4-86jxb4WRE3GQiMuxeEbcUSTQZC8OYzRyOpHzux9ON-yYVFZ-m_P1Gjwspn8Dc61HyHVf6PV4vJ_zsdrffc7IJIpgulccFs7uP_Ad3Vn2Oclzr_6mQAzidqCLv1X5I7LatR01JMJHPou10cjYgnrWBZv1tHZ94MQcPmZcHhDOdZhkGYk0cX1tmR7gORG1VWN2eepg71f_nPMSpBwSiTWJMxkLs3XNUv32SfrwTAgcsh1IlPyBKaVo9t-IuyXprdAruJyQ70BVdgsgFV3w0VZPVeZ20Vr7DtTultGxNJPwGYW9-xTWbZdQnxEXUap427-dKM1pfGCrNzKF2fHeKPJmuWdDnUNQtAgQAJsN28RweqyKwrDCyKj37qSS9RJSRzEJhl3MFGfIL8EYs9gB46Pc-mNaFqCgHVtY2m3JVMtIa7f0kULYKuoIX4WwH03XQuGASFvmR7JssOueDC3xLNI87KOBkwZGmvgzj5oRPfTGPzYqPrbww4isPqX9-Y6jPMrjJ8SSUqqFCCj5VYWfT0XpPEkUxABQzQNA-F2NFZLPD-MSuTYTctGnCenyvU_xBPcdtXXfn9iGGk73vA_H2Y6ky0OpCNka57RLoB-Kb1TQE92BkTgv7nGCRAPfyvKN30n_RKoTtbFYmDvefJTRjA369Pd1BS8I3Z-RDbIcrKAFjayRT6MA7H5JCrF_PFuZFwQQl7GWjw_7wItSGb40cSld13IvfIwbhfTOObaThnjrTj2g77weIQ1aG_IKghobIpSg1Z9vY5ysUDFuNrfWIKGP3MN8LOG4IHuiAcq1C7P5gvo5PewPBlbqj6v7dBN6rK5RqQLT3oCvOWolUd1nlHEPscyKP8pzjDXIgzQH9FRgQeBWDoz094nlq648SVWqOaWU_z9uwFJXd2BUupyU46BL4pl7WlMry2rS56pYgIOKPET5J2LbOf8NL1V73PmjBLQ9jKh_NylO2NfuAvARe4Iz9R78Qxx8rLghgdBzqP7wZYuCO8MqPH9v5CiVCX0335r6j0jrQpDLDQA3UT0Bg6dpT3TYihet62lviZ2_sLOjWYYOqk0-kGgT_1PCUINHyJHvCV5l7ht-v3Mg745vGXexRV24RcvR8Wqs0fS29npueT29hGaGCpryZcTn_yBQdDAE38XzpYM8xUkR7I5VeDJpiowOcZMd_Roop8VhD5JHfAXJ6DWj83hSKHWyARFjRTtafd-bW6NXjeKYqSaiZah68TcKjoR4dxbomM3RyluVx71VW8KFrDOpwoOgtOMutetioza9luGsiUt75ikYLbJCIssP-T0Vm8Zd_j-OBKajhz7WeVFZ4x33ZzRmb9GcqI9Q7aUsk8-DsIKj0OlV8A3Aj2XZgxFNQ90UMuyQFewxXlDTmXqFZD6K-hhIxTXGCYAWJg-UTofGCdSFEO3iH5R2ATU9PMUnj1A6-UkcAV3cPOW0FLAX03MAu4OmUTfyG2Q_iaSHTdXDbvUvZfkZ1Fbvfd2jxNlwLm0qh-yzQdRfDdztGOEp3wiRr0QL-fX3R5Q4M6MllRGgZQxLPPH92FmX6E3gDXYRKEv4ytay8E4o-F-yuaOxwWnJog-UsEwdozBHSAQY1RggOs8YavlXXeUS4NfPRBF4tEN7_PayHv4SQ3e7cQEGeiEDKfj41WAj8lAFGAsDLYzoP2wDdmaW1CjADOO3KJPw=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_033f42deda6e920b016af0c39329a887d19a71bc6edd15661b",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1441,
+      "completion_tokens": 76,
+      "total_tokens": 1517,
+      "cost": 0.0009098,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1438,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0009098,
+        "upstream_inference_prompt_cost": 0.0001498,
+        "upstream_inference_completions_cost": 0.00076
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 28,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0009098
+}

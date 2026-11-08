@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:42:31.088422+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P013",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "59c02df254947399482cc3ef2e2621249a98da3ae7acbe9a352c360887f309e6",
+  "reserve_usd": "0.165896",
+  "response": {
+    "id": "gen-1794163346-E7QkZV1vTDq04HCewjGF",
+    "object": "chat.completion",
+    "created": 1794163346,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster shows generic white and grey placeholder windows on a plain white stage, with no real content or brand character. This owner has repeatedly rejected similar shots: they called white panels boring and killed the screen ribbon and the cards-into-folder shot. The shots this owner loved used the pixel agent or Paris transformations, and this one has neither.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4985,
+      "completion_tokens": 133,
+      "total_tokens": 5118,
+      "cost": 0.0226,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0226,
+        "upstream_inference_prompt_cost": 0.01994,
+        "upstream_inference_completions_cost": 0.00266
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0226
+}

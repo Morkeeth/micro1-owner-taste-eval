@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:46:11.769446+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C001",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "3ae0c3752e939092101cd452223cdb45ef6d9621746c735bf4cef6541175f32e",
+  "reserve_usd": "0.067555",
+  "response": {
+    "id": "gen-1794163569-faSy1nZN7auffIuyGAyI",
+    "object": "chat.completion",
+    "created": 1794163569,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, appealing 3D pixel agent with the signature blue broom. It fits the requested fun generated direction, uses approved graphics, and stays within budget.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1476,
+      "completion_tokens": 55,
+      "total_tokens": 1531,
+      "cost": 0.0007033,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1473,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0007033,
+        "upstream_inference_prompt_cost": 0.0001533,
+        "upstream_inference_completions_cost": 0.00055
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0007033
+}

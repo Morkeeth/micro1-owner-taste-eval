@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:48:52.333085+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C021",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "9dc6ecb07bdcd164a86e50433612feb8415356480301380c1fd25d86df1df63f",
+  "reserve_usd": "0.066930",
+  "response": {
+    "id": "gen-1794163728-68I9kocCQODXIfGwCG55",
+    "object": "chat.completion",
+    "created": 1794163728,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The owner’s earlier praise suggests keeping it, but the explicit request for better attribution points to an edit; the poster’s source note is small and easy to miss.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing attribution edits**\n\nI need to decide on how to edit the attribution for the existing owner’s praise. The most likely option is to modify this particular attribution since it offers clearer and more explicit recognition. I want to make sure my reasoning is concise, ensuring that the information is straightforward and easily understood. It’s essential to get this right, as proper attribution matters in giving credit where it’s due!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing attribution edits**\n\nI need to decide on how to edit the attribution for the existing owner’s praise. The most likely option is to modify this particular attribution since it offers clearer and more explicit recognition. I want to make sure my reasoning is concise, ensuring that the information is straightforward and easily understood. It’s essential to get this right, as proper attribution matters in giving credit where it’s due!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MQTYpMpzyAtbxPGU_EScxVEu_AXtgduNbSUgJnQogvrfrIizzxfWpKzf1icrCoPCED7fpSr5wCV0WfYoUSsbweozyDhytuJoSbWa_ELRQR-4GffdGruW1fjmneW9EnKq2p1pOROyoj9ttlMmfLxZ8lXB-F2SNvO_Ll--OfJ0uFarDjP-XttTRJXWIhkIl9lyMWEk9vLk3ab-fQsuc-r_0jT3vRSdaYR-P7SRnOrxQe89xAia7_00hTtrYvhc4wz2sGeCkZRC85msQTNsA2UR-AZPDAisQ7jdcgCPrMnkNd_S1qo2vXBlb8P_EQ1M-bNrPXIotfUlCTImpKDLRauyfx70QqxZOiZnYBy6DuIApLJvBax0452VxW6n008Y7gcUJciB4ya5c0Wlt-mjTtk18bkzoO4fjRsxPbZhr28jlby_HQO66K4D4Ql5nMxke7s-3xN3Ss6eQ-wZ-M-QcADgr4OF2hqP5cx4C-ZpdFkbMVPpF94IVFjzWYEZVri7fJMzC6h5qIJymxbuOc8Zmg5Qq6_qGkygYAufIcU9gBHPrOJrzqXofUahY-SwL4eJbX6NhoYP9KdOB36gLuZ9qfjryyuUZRnOPavJ5ufftlWOKOSL2afRNjsIuMU6UzWoF3-ipKyOOU3owbBk8afWGJvXtMUQ07P8bMkxZm6deXcGyrzTZvN6AQFFYzu3Gz3fn4pw_4xs1w61w9ZFPaGlTuFYDGRLg9mf_WxZd4ay14G01RDhSEVSu1Ni8P35vjv97D9qEpUpOEUYkMg6nSDyKgyDJZBS-mEiPPMz75AH70J9ujrfzFScTC5yHGOOiKSpPhQ7tGZEvg7KyLIuNPpyvKd2R-91vsd6ZfjNQAPdelnFAD9PKJmcV38KbkmGGdp4gixBCXcuFjHnIUuWmr9eBaanbgWSeeiujKAwHt-HikVwmjnU5mM6BpS1Yz0YkDf6_KI7BjYX8Iv15beX87qMNXnyEA5BMfi7y3OKC6EUiWKCCPH62nqCkJ8M_gfMsoAmxWWndfzlOazCpzr8Qu__aO1oZdCUrIfDxd2yhmMprdvuF7nELPO6__A4YBCsSToO3kfee1OoA-NkSLm7z_zitiOKYV_TBTQUR_Yo-R5OCi1vLldKdRa7Yhky7g8Eja-Qadny3NwlM7qjJIVkzt7u12K1IA-QputrIMlyfeisJz1da8W77e6vg_UhBaWCIyMm2W1B8tb2YSaSC7Np4mvqJvLp20knMVH6G2kZtD5QD-oI9chOlsm87bjrY-2arhBG_EkWi1koo1a5AC-9FgDU1kEDvK4hVf7DZ5jsYgTAMmDAKrGqsO8Gy3GLKTr2dA9K9diKWr5yGXnyj5oVjYE9EJwDSlW3uvBO8qww3DBW-dn-2ijHnd1B5v0WPxqXSo2rucoGZ1TGvK7oY47wkUDfr5dZ01hrSC9aTkx0DamIZSuTZ6_hDPwRUepbEhmEJyYX12tunTsLA4OxUgyv1TsM4gdZUQ4dASNwp1QCuZdixfN_hD8qSzube11lkct8lJMhF4FggJwpNO3g9V1jqR0aeLQNsz4YPUKmbOs-MaPXInFNhbjz8PKKqsXInAOdoH8oBh2YbQ3EGhknhMsKCjR1-rgDX2Bi7Ow5ClwDOSND29qN6aUSnvl9WrqVKnCbPP8kUlwxCaHThhcMkbQzAG1dH3E2ldP5euI1oj-lZURbu_I4cKi2XEb1Q7HtMxKVKmoi6jOjvc4epdPRrcHUMzK0Pbivcg4oXzcemSa72fuRr4dwXkZNhNz5PjN9iiGR1N5etoE1AvFJuZWphYVPY7LWQbJ6SmAXrO9N12KGPePLRl1OIYWA6DI2G66td1Fv82Ny5KIgQVa5vgYMTJpwzBRgQ2xscFRFuSAZtzLXjOs5tbsohcN23QuvdI2Dhtg1EfvVdick9jWAkuGHATcub2rfIPlRcQY0oR5-OqlsG9PUDgY_k1UkkZgCs0-hYT0KoDzIekp5aKTODKJ_13k7GxSGdIMwjtTRPNsieqGCUAQBHnxpcpV3UWhSJE0dgyHv66HSXY5P-9FXsFbikCQVP8M5vZkmtWzGLTAdg9mNVagrNe2oJcnJe5WJS6pd2Nt_AoHmvX7zJgfr7tch7QIxy9yogNADy_wsQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0b3e3aad1b80ee6d016af0c4115bc487d18f420efb62c94134",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1445,
+      "completion_tokens": 79,
+      "total_tokens": 1524,
+      "cost": 0.0009402,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1442,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0009402,
+        "upstream_inference_prompt_cost": 0.0001502,
+        "upstream_inference_completions_cost": 0.00079
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 26,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0009402
+}

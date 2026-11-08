@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:39:33.459276+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P026",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "004204f01c581b0cb1b30c5b0ac4ba4a223fe09992df6bba23f0761a7a156bf5",
+  "reserve_usd": "0.066910",
+  "response": {
+    "id": "gen-1794163169-XRcXfOZckd6QZh337GPQ",
+    "object": "chat.completion",
+    "created": 1794163169,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean, consistent grid clearly conveys many screens and looks broadly reusable for the proposed focus-on-one-agent moment.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing a graphic design**\n\nI’m considering what graphic to use. It needs to be clean, likely a generic grid that’s awesome and reusable. I want to choose something that's visually appealing. It should have a short reason for its use, and I think it’s important that it doesn’t claim any motion. I have to keep it simple yet effective to make sure it serves its purpose well! Let's finalize this decision thoughtfully.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing a graphic design**\n\nI’m considering what graphic to use. It needs to be clean, likely a generic grid that’s awesome and reusable. I want to choose something that's visually appealing. It should have a short reason for its use, and I think it’s important that it doesn’t claim any motion. I have to keep it simple yet effective to make sure it serves its purpose well! Let's finalize this decision thoughtfully.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MHl460aj0NmvQw6TUTTST96GxQFbcSiBlesE2QhvSxyo8vodNcDIwL4at3rMXaoijWv6a8A8RAHYxMDjjm0TF77wWN1i9AfSQN8Y0bE7GcYjXIRlS_I-jsXT1FihbsA4WYwY6RhNa1Z8Xy-l3aqZZmgN1Ct4fEKleOJtGqMpslBFTxBvhI-E3cU_yYY3WLGtD84h7XbNofQERPR2xZTyyWRttcScWZuUtgUFJZ7PXumUVieNjgAbX3o1drJ738G_nR_S-5D7RY5TEx2745ooFW3JXxcrv8Z0aI8n4szO9EUEcdg3zS-6t0twE3_O92c17o-CqrLG87lihdvB8OmIwa8x7xZu7pxNA2zrnqAfQzM355TJrXXoul0IMmGaVwnMwSAELTdjHlxZaIODN86KOYpQgtT3KTbDK5GiaEjJlS3xYwXX9_CPiRPwYZeU8v6g4TRNTAo0-8K3Pttw7BcqOK6wlla-iBJAR1QxSyXLvsNQV3Yci2s3ILWhFfr8_MAEXTuIm3m93qpbvXOuPiel1Xcjj9DeX2SnmtQv6BdS6L1uKoOhvbRZwZhA2tcWOFSHVzOMQTBZY__MuWOgcx6wOXmdeAwZ51lInqWC3-BYWTfrhCj8VXNykXd6t5Jc5OGIspmMmJHn9ceS8d-ShqRMJSXqwuTgj0aS-ICM96yAbaZyWplR6wlv_uEvywva58kvGLal4jUCIDfgf91EqrKw2gqvGaXRycuIqaUGSJ7zB2pJyrWNrbzP73LiDb15uMLYzOr2mGjnf8n-eWF8YjWDg-KKLberSpTZQj1wujMbWPvXge4sRuv_JZOZPn8fvk5VpqQFAm7dc6BXcogcBxPzGJFveX74ILgxLPT7Tb9YAFGRNENrkYgtuvwnqTErB34guSBJwHd9G7zxISRoG337VrtlrSOx6GFNnLeeHY5DFGass-bJZ8lIJ1Zt9lsHueZ3pXV3PInrgNGgvCZDlILIQj9lFcAJ2NiyHCyD6RMxuzw7FgBOEuouJjP7vaANUF8sc5mEb4J_G4r6Y74pBm9UiLLPZgy6-tyysB8A3XEKiW_tjmM_c-Evl-mJhjpjGquNQk7jX7B7AyI34hYBlcM605UW5jMBruYm-4TFisgGcIrEp7SU33G9TaJsLeqs0NR7ULRRIoBNEwxDrTRcuQePdmREaBp3-6kuQ9Zipcy7rftrCYVtWJrLX63ei3QZzzXOoLkaBPm6Libj4B8U-b8qsCXJlaQL1uDMEAPdOSDYVlEhLnbiSPSVnEQ4iEU2dfHDTg9Y_WXOREyECgSBF3QfXRO6iohaZukzvnBKvS29NTplrMyFlmHiYssR3fzSyZ-u1GPSFqLWJwnSSTsphHIU4PAbtH75v7TzfTaGBjaqKxsBeQ8XcTR0bRmkbnpaEWTqRHrGFhVQVc3hfhqzhTyUWbJud658jrx64kbT2oXA1Q7ZZKRYxizQyzmgCc9DrjSvh4QU4ouVyzGz2oME7z1aKcrDbyS4Adybt9JHjih2FBgrdWbZD2VZausQLxEO0ONJmFq2wuEgAIdFU9BocZs3RyXe0bo0RDnPT6PgIGufKxQt1NqQmGP2-7mzLVuPB1GqwCHMdihU7Xc6dvVWD3XqrN-5KNYcozVO60XgBh6M8J8EZi1mduBD7zvczb4q3KScPMLzyFPuDLSYV8XT3MQEghDjp5i1UFwP_gcU_Izk7JKdeOUS0ynkikam8EnQgasHhc158NhiZmsdpJPRLZIrs_UOgHLG0OCRXaRkrVsDXqETs7eRwSshG9UAhVpTB1Q2FBmJVgNCnxkEcqzVAQml7jf8PJRRp6OAe7upCS3oiJGJgbAWerJDi5CQ3HCmYtyikWEsb7ubMVsmWxrcTuO8YTT3i6rGkd0j1quzcWiIeaNcvkuKylI7ifzUXWNfpZSOZtDhzUPHnzHbAZEKcMEHFTFzxz_pPOapHlHzQJyNHNThcSGurivMXmTRUnflMqVL8uOMlmyM2pSDFf5TiMwd_MQ61YufqHknlbPctGYJxWdW0chKYvoSIC9BQ7zMLtT1g5k1AuZDb0_Y-HBJvS3C1ctJfyVGQ9-klin-D8NoNUweGf8wi86FrfniTCvfLQJVy86w3kjtozgb96y-Hi1lyarCw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_02a60c5d69d5440e016af0c1e2a87087d19d3ac61644090bc0",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1448,
+      "completion_tokens": 71,
+      "total_tokens": 1519,
+      "cost": 0.0008605,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1445,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0008605,
+        "upstream_inference_prompt_cost": 0.0001505,
+        "upstream_inference_completions_cost": 0.00071
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 27,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0008605
+}

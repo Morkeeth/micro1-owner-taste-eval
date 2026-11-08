@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:37:37.729261+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P013",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "b8667318a3d3bfc6f0d7ec995151392541ad43613c73361ff10b566d4aa28f6b",
+  "reserve_usd": "0.098416",
+  "response": {
+    "id": "gen-1794163053-AdIS6Q93bfOEKtGRGk8i",
+    "object": "chat.completion",
+    "created": 1794163053,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster frame is clean and on-brand: labelled app windows (terminal, browser, editor, review panel, preview) float above a platform, which fits the recommended 'many agents, one place to look' message. The shot also answers the owner's request for general screen shots and is built from in-house graphics. Nothing in the still looks broken, so approval seems likely. I can't confirm the motion or sound from a single frame.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1890,
+      "completion_tokens": 154,
+      "total_tokens": 2044,
+      "cost": 0.01064,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01064,
+        "upstream_inference_prompt_cost": 0.00756,
+        "upstream_inference_completions_cost": 0.00308
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01064
+}

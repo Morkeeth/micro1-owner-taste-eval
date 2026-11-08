@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:31:00.235515+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P033",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "7131c77949de70f88eac3d8bf490e5cacc656cf1f9da011dfa6bf3d0538a39e2",
+  "reserve_usd": "0.166392",
+  "response": {
+    "id": "gen-1794162655-kg5oX5Mc0Bc4WyKVByz2",
+    "object": "chat.completion",
+    "created": 1794162655,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a redo that answers the owner's own request for new content, and it reuses the Shorts lookup they apparently liked. The still is clean and uses real rows, and index is one of the core topics they called out. They often approve clear, reusable explainer animations. The risk is that the white panels look like the 'Raw eval' version they found boring, but this one has stronger blue highlights.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 6509,
+      "completion_tokens": 142,
+      "total_tokens": 6651,
+      "cost": 0.028876,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.028876,
+        "upstream_inference_prompt_cost": 0.026036,
+        "upstream_inference_completions_cost": 0.00284
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.028876
+}

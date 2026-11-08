@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:43:39.842372+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P019",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "d2b9279fd3bbb09531253d269b736188cedd6905818c4719e4a08a2f5841377d",
+  "reserve_usd": "0.109020",
+  "response": {
+    "id": "gen-1794163415-2t9wqNVHRHjLanKX8blZ",
+    "object": "chat.completion",
+    "created": 1794163415,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"Closest to the approved “Six lanes in cmux.” The poster shows a clean, recognizable multi-lane terminal, and the owner explicitly wanted more reusable animations of core agent topics.\"}",
+          "refusal": null,
+          "reasoning": "**Considering color choices**\n\nI need to predict which of the strongest six lane colors has been approved. There's a green glow option, but I might edit the color since I have no history to rely on. I'll choose something awesome that stands out. I think I should also provide a short reason for my choice. It needs to be visually grounded, clean, and reusable, ideally forming a solid request for the user. Let’s keep it straightforward!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering color choices**\n\nI need to predict which of the strongest six lane colors has been approved. There's a green glow option, but I might edit the color since I have no history to rely on. I'll choose something awesome that stands out. I think I should also provide a short reason for my choice. It needs to be visually grounded, clean, and reusable, ideally forming a solid request for the user. Let’s keep it straightforward!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MLbP9aofx1S76X8-zGi72MEbzFYQAaSULknUnys_3lFtWNAZAOwQ-ZjodJhUcJtWMrGeCFCnt4V9f5SwtwHlxCFAH6HHLY8J68o8g44nn1dpM7PbJ9oRdgLQvGXv65FlSadNJmgMQqMHMWZDrZF2mFIMES3fVWCPPT1Yi7_WBNtSnn39DU7H1J5gbwF9peQWZNkdY68TGjum-laxA_UiIkG8pKoHrdmYFepUQZus9dSb6j9KP9GyIc-rD2OinY-n2T8zOlnPjjA-9vmzLZhQX4HPj5tSRxU5p9gvRCIb7XCyQH1Di-AWkwSYpliBFb9Y969gkOUJJJuD656PVCFUohbRKCM0GX0LWCD3CWPfxkgLh2qILSvWv5_oPNzcuTTV_GZ8Yu_hF0Q6i6vqgYperkfAqNzdbbQoAREduLxXrwfZj0eiJwg_savD-HjoTC2YXF8JbwCV4T0w-hFwN0l7hJVuM-KYkfDpXSaiqhJYi023T5a0G_B5mTYgSIuTbatuLR2Pf3-rk5xP3UqidqfpNubr23jlXopwdP4aVkGHP0Jh5FdAeowvuuRD67cgOsGNUyvvrBh79-HMSY6Ffuzepv3U3HO0fqdZk4QqLOhwpPXg_6Bxz3L55ql2S_dTzw12lJsN2hkO0MzY2LzfnRRpnE9FIekONYiuoWD8QcgBQsKfSoDh9tujQ-vRMZanh5oCi3AmYVv5SfsjSKjmvKJafUsAWo6ER-3ww--Fd4L3DqCpyy96VwuR8J6LdzMwZ5jiL3X6ZEzwDACvTfTKw3t6ml4-DLXlH0KwDEA_Buu1FsW1Y0ocbU9aKmRFks7sS3tuAcFrUp_6q3PuOFKgY-0isymv78tHNs8FqkLniaHIGKbNXa_x0lzOJX6dVPM2gMWNvGNQJMrxa0KxImJ-TW1KMEwr2GGRaDc5NXQ85oh8-XRvn6bXk8zuesW5xr_qUORwyDNt6Q8URTZ0KdZK-6ImzVq_Bz7uCskKbthVmw3vxNY5oP1lDeDOCMsE5vaCYaG4A3jnF1Yj6KZrbcRZWQIozu14sF6X3lYnznpUmUHwHS3QQ3dd70Zb-ufwBHxEPm2rWF56Z030WqO0GlJgBPMmXsAJrA7Oim7vZGRf-1SATFXU3NFQVn4YWryC9UJTz0UCcjFPNdqO0vqZY2bUHX36Cr0Efwe58KV8feTQvHRsK6JxUQziO8cj5cdeBAYDdCq2RmWZYFVAXu82bYWdl0V02SYZ1DIOg82XyCKkpu0Q-GE80w6r9quSGeYwNMHBkSLYo4gOrc1_ceoDZolFwcsegKi9AvUgIXuCBElk8VqM8X-PzbtxWY-pwc1qdHvbFwxDLGvKQ3Cff4jNzH-iVjUoaQUotaj1p3xVNmhh8KzZcdf4oOCw2Ni_Q-iEo1KUqhkEI_5ZNKfGhlQrjGkn8r2KG43y1gplqYS5ouwtXq5eShtKjYLNJmXQJwaFm2NLoEKpFOVp3O9fKLajrMLA8VeyH37LrpgM7KCWC7b7d3pve0Xsy675FqRBDe4bqinR4IDuPyDX58R_IVHeY6hXAoT4K5D3RrVQcais3HEcEq2CC5fF-45l5uWdhLgUQZEHWX4DKWcV-jrvc4s8lIMo9QpsM0Nom20CVNVAGueq5a1CDpnrhJ-ZcN7bneET5iG5yCGoEZpnesa-GqJAK4DfZNKnt9v-EKSPPvWq7FDo_rwdM7l7mFGKYo61tF6nemfLjp6wMQXutdaEcZ9H-wGJLE6iHpuFolyJHWVMXGNjL4JZaEZ579mkbIYYdC077yQBvCyTiqNWI9HPwUVMcYpwgSWCzpptm60Ec6jRSV2nrul0tHk-cDgn3hB9LkjqNgFoAZoFJXk2vvpVWT3BieOFWtFDQ0dFHQkhXsgrz92E6L6WTweguMhCDN5RbH3UGCNheWsm0xCmk7uFqFFvyrau2sv-wzoITlVrlqSbrbRpBtxRi0fwqiW4EEhkm7valvRk-ROXl1Qvtb89Rgd_HlNZPjoAC7-AuvvApHZKQgan4yjspc88x5vQ2MpuSRkufsxY4ZlDsLzrVZy4T1nJ_9xNJEMTQax6MiSzXVhm6gmxXnfTfKVPXscF0VksFtYrWOddV7mOaT5Pi_W3byYPwpiKP8YfkYBeYDk6mHXyQQDs7IMoSTspMTzdneznNTlusxxMd5aev46T6dEvUrEkcJ4lgAvIqMWpLuIwsbWmiKn9aMmoemyNeEHgu-qxTA9fa_M_TI3bIIE.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0bf491fd5229eac0016af0c2d97fe087d180d5de5486a57f0b",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3497,
+      "completion_tokens": 93,
+      "total_tokens": 3590,
+      "cost": 0.0012854,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3494,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0012854,
+        "upstream_inference_prompt_cost": 0.0003554,
+        "upstream_inference_completions_cost": 0.00093
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 35,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0012854
+}

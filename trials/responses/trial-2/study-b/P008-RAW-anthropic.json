@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:22:05.949186+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P008",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "73e5f77a1e6e0940d64e66289fc0ebc8e8e0db993375472702d9732c5b25479c",
+  "reserve_usd": "0.099048",
+  "response": {
+    "id": "gen-1794162120-m75rW71LM1Ay2v3p84SP",
+    "object": "chat.completion",
+    "created": 1794162120,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\": \"AWESOME, USE IT\", \"reason\": \"The still shows the review panel kept at its real shape with desk-colour padding above and below, not stretched, which matches the skew fix the owner asked for. The camera inset overlapping the footer is a possible quibble, but this was a narrow requested fix that appears to land, so approval is the likely choice.\"}",
+          "refusal": null,
+          "reasoning": "I'm checking the poster, which shows the review panel padded with desk color rather than stretched, so the fix looks right. The camera overlay seems to cover some of the panel text, though, and I'm weighing whether that's enough to call for another edit.\n\nI'm deciding that the overlay covering the progress bar and footer probably predates this change, so I'll call it AWESOME.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm checking the poster, which shows the review panel padded with desk color rather than stretched, so the fix looks right. The camera overlay seems to cover some of the panel text, though, and I'm weighing whether that's enough to call for another edit.\n\nI'm deciding that the overlay covering the progress bar and footer probably predates this change, so I'll call it AWESOME.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSiAkKEAgTGAI4AUIIdGhpbmtpbmcSDGjqadckeHV8xU9GCxoMu+22S3Ddmpd3735eIjDmTaGnfn7wVO/zkrYMBEEJa6kKLHhzPwB52vzUMaD+NNhhbb1DaDQx9WkQYKuPKU0qpQhfLzhx4mzQvpjuXyitLPbUHS4glNGR84PeGXVh3lgC8GxOvbYD5qi3uR2q+6S2OBTbtza2Ff7i7+alHA1/8/1r5vbvn3KGq9VpG0qQ5n8Wt/Tu4xbpP2RerZfgLzr7lsxHOwYG8OBpoplPlBjX8kzg/tv5u42EHj5wkQreP7Hwpwi6LZr+pnKFlwgH6oaSFLehXvWLOZ1V804ifAyu6uhhfngiYN106x3B2pI9x7Lhyyy4t11FSQLuXNE1DqYpcjcylGUXAdkN3vre/9dzdMzcCcCUdgA6oUAL5DuubybiXLrc0HVqFTGRRyl+hzA7qheXOD8x9K4DEo0IWfzVXS8sohUTiLL8pWFtS7HAn0QtXGqa4VbHeQygvpaLaXuvnYv6Y97YWKVOshyeY3A2yyAbpRsQe+2i1mYHh2Xs/9gsSR2RU+iOEVuyV8NQXhKRsppaXKHNtQ/7D3R+V3ObOyabOHJWzHGnqBj0ZxSpZJz8/J7Qbjsn/K4+7bokCz8dUmC1LNAfIrfX4Gb5ZQ5ZOCDELGQw+Wp94RYEBSyAdxPaOjqMrIm5XBEnjv0PJXZSlsAruaScULqjCHg0tYXltpAeH6ueJZPLq8qozhjYdalNuIDkq4C3R6FISX6Ea3EplCV7Fl7lizDEMoFeuaCneMMXxEGah1DfiEs36gdrXvBtJl+x34hQrOadhuPwWgXudw5XHj7f3801F1Q1dXhe0pDMNU/IRmvzczX0P+Zeb8KesLB4ZuCUX7CilNvEikSvdzlMAS/+XLFyyntUx4spZDiV3Fm5VNb1bJWQWUImamG5rPDQSkQS433eaAPttg00Su2CHOfPjIcrpmxEBiA94/hnAmrMnd+S8d7i7ZY52JTWuJEekf0mtpn5CF6jtRibwGjavaXIwOymzIU9FrLfgnunmB92DXdpH0YdS5U7C0W4tZ/xrIj9SQLo/xIP6HFQBzV80/pKNLwmNGKh5/Ec1td0GBL1V9Qbc65Iu+vyon6DLFR6rZVwdRx77kuQCU40+rPyq+GqICOSsqVZxAwiIWTajlRGOiYN0woApw50A2O46pxMwjQe8cOA+fzQEwfB6UlfJOtDeKsf5QZhzZPkyjPNaDb1h1S8UHBD7G4upORiZKpZCMtGY2T8CSt5LmHgUjfoUKuHVDbgCAm9VnnycR28oa/aZJCBPTYj0H773dlvo+5RMm+aUZBoMoNxvhc5qd6Ef6th483j9/IvjUrz+4cJKXIVEv7Nq1ays7nFdJcQuh+nyON/DW31pw9vsnL/qXj5m8UhMziGoimmHlABYwMxwYCwN6hPNbyGwdiv34JvHrodYUxISKuAhv8zvAiLLdL8T6JK8X94nqcEvnQkD3m7SCXu+6SnT5koveemKZ5+f6gcLNetdctZP6teceXQGm43fis52hgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1928,
+      "completion_tokens": 293,
+      "total_tokens": 2221,
+      "cost": 0.013572,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013572,
+        "upstream_inference_prompt_cost": 0.007712,
+        "upstream_inference_completions_cost": 0.00586
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 174,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013572
+}

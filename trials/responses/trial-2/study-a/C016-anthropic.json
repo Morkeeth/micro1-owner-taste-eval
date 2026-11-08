@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:33:39.528078+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C016",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "a1192bac59b48d0a3e811e27df7e243ada9589c14c531959735d31ca626e256f",
+  "reserve_usd": "0.098704",
+  "response": {
+    "id": "gen-1794162813-rPt10pPRLHjb64pwuXcN",
+    "object": "chat.completion",
+    "created": 1794162813,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner previously praised it as \\\"Beautiful, great stuff\\\", and the poster shows a clean, polished review card with a distinctive dithered visual. That points toward approving it for the Shorts pipeline rather than editing or discarding it. The demo data is a minor risk that could have prompted a request for new content.\"}",
+          "refusal": null,
+          "reasoning": "I'm reviewing the demo review panel and considering whether to keep, edit, replace, or drop it, since the earlier praise may be about this piece.\n\nThe owner's earlier praise may well be about this animation, so I'm leaning toward keeping it. The demo data is internal-looking, though, and for Shorts it might need fresh content, so I'll go with using it as is.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm reviewing the demo review panel and considering whether to keep, edit, replace, or drop it, since the earlier praise may be about this piece.\n\nThe owner's earlier praise may well be about this animation, so I'm leaning toward keeping it. The demo data is internal-looking, though, and for Shorts it might need fresh content, so I'll go with using it as is.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSnQoKEAgTGAI4AUIIdGhpbmtpbmcSDJwijMuPtLhkAJUcSBoMRF+PgBhXdVHbU1vtIjC4yM8wa4rXsRJt9uCShJRKxUD28WKOMuPu59GsmPEgAGRiYejoZFkuISz8q8YU1nYqugmEo3x4wiy4ibkyjvKQ00V4fgtBpEYPfG2fNxTymMkREI3mkimxan14schBI2DLD62CnmNrlwi/5c6CtvDx/pmb0V/B462rwOvTNjLbh2Kt45tguc2Y79hANhmqYTY+IYxYtjoXjX+HPtLSkoi/E5WUIqaoQ8cBzuAlW8Ouw/4kFYs28aYMPiPrK/v1Ib6V/1rJ5DMXmvR0Z7jlkuOmVFet6YBZc9ttgUn7iOndr5Evr8JSgUfCCphLj3mpgvoDa6E41t2d/eSdS2AEAWplKU2XVX8VSSz971AzIfu6bd6Own9CmfaElsKBIUBvB/dQRQoKkFZqgIJN9rNQ7wIRCTHiX4IJ0sRC9unwU+k3OCO+GbXWZawnwAGYpQSYopvsRVbxearsD2i+WwoYsXhCggRwSBaH8wFD7ssNuL/8177TiOlxLVZAfIquci5pnwjHf5stXf5rFiSDz4XDXbvlJcTki0nl+Mdc0FCjfVPtDi0MnTWqSn02+CUq8RwaanqtrixCd3/TRMtx966tuzjOQ5o+hU9n2D8tikIrIbfocaRYtYFYgdFmKnXlfwgZty+OPC0mIO5cuTleX2C4aOMcz22um/8ts8mNibkB6xb3wN5gYwGzIyI3BVx/W5uhOQkHr3l9riYynd0Mz77VQMNK9Dzlsd30zuTCY64wRc33G1ofpyfARj8XJ88QTpEwzBvilm6P10r++JW+aorodZ5GQ/QKajErZptMf7rNn7wwX0GlD5fhHacyOBymX++ZdrpRULATwesaGd8aVX0ukh9sm17GsBhxRedNphZeLwpU2xV1dIs+1/1uXW/NEr01wZrK2akh6HHqM14i/4WiWkmFpZneLR3JI79BEN1haTeZqyMS/jUFDp85b6i6dcGeq65zz6HkDscT3dSvdFMb4wCVA4B5EH2NHYLDwzwePXyxOT+EVmgOyVUHN0JNTz/O7ZplI6Ep+eypGzN8ZowoQZHlQiIdE7P8EjhPQEZqRISGilnhkAMyJGpQdQ0YdKmfnecDDG/SOfqfqL5TyoWUIwt/Wy/kmXFlN6+pcJh+kEW/E78UeXDOEvNE8s4sswfETTh5HuBrk7UlGHvgvnQ7lS03ugQqvmN0xowq3rQwrJ1Lo17nIxJm1mXvq/rmSMF1cZ0v5bT18/6L6b5Oc/OMymInveoQSICYMCUPo8BZ5pkmdCypG5VSaS1XD4uoQG61FFd6hYYBFiEUZdISjl6PcD1cil9Bymsclt7vnDKf/sCwIa06ZAvKdC16p7l/Y54tdNhGLUNz8RIlZB/HJHgV4wW63/yd/ncsAYkd75acUalFR9SJcxkc8FPp6p25WGTG7f0CbI1Fm3wBdMfRVOtQrKx0DA2pSSaS/ay3/qC9e4CuYwJDbcnxA8n1yTgczkb89NWW1nPhH8EM2qxsugiMg2O4/CxLTIzyAlBBCnaDP3+BlHSVZLvi+T+/DInTJYS2u10/WupNDReL/PQ89ViGUHYwcSjexo9iM3njFVrPhdvlXfPcdQUeuniC1ZMhrD/XVZUhTVpCSFL+wmqGRFzhqhAm5XtoayVAAcIe2luyEktVEnB595NdPAlcdG3El9im/mwTe5tvlyAXMuRCsYUkGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1575,
+      "completion_tokens": 361,
+      "total_tokens": 1936,
+      "cost": 0.01352,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01352,
+        "upstream_inference_prompt_cost": 0.0063,
+        "upstream_inference_completions_cost": 0.00722
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 238,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01352
+}

@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:48:19.830723+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C017",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "99ba92235958a1e916fcb0d16daa0f49ddd0d90db9696d3b8d6b573592a6797b",
+  "reserve_usd": "0.098568",
+  "response": {
+    "id": "gen-1794163694-FIfmrLYzS3jA1Hk6z4P5",
+    "object": "chat.completion",
+    "created": 1794163694,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The poster shows a polished, clear design, and the owner already praised it. However, the card says the loop runs on demo data. The likeliest call is to keep the design but swap in real token numbers before it goes into a Short.\"}",
+          "refusal": null,
+          "reasoning": "The card is marked as demo data, and the owner had praised the work earlier, so I'm weighing whether it needs real content or deserves a plain approval. The poster looks polished, but showing demo numbers in a public Short could mislead viewers, and I'm wondering whether the owner's measured token figures should be used instead.\n\nI'm leaning toward NEEDS NEW CONTENT despite the owner's praise, since the praise is about the visual design and the demo data still needs replacing before it goes out.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The card is marked as demo data, and the owner had praised the work earlier, so I'm weighing whether it needs real content or deserves a plain approval. The poster looks polished, but showing demo numbers in a public Short could mislead viewers, and I'm wondering whether the owner's measured token figures should be used instead.\n\nI'm leaning toward NEEDS NEW CONTENT despite the owner's praise, since the praise is about the visual design and the demo data still needs replacing before it goes out.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSswoKEAgTGAI4AUIIdGhpbmtpbmcSDIVE/vm9NmemTeSdeBoM5VgF2Y7RzDEjWAJMIjAoc9OXbd/hpbrS3wOiQkW/TQrkkMUrtpG6AA8DzfpjTKDdz3J5igwuGjfzZ95U15sq0AkC2NZ60ItKCiFF51eA7cUS+0K+N2J7knD1RvsEKj2GN+rCWW519BpQbFDEFAAixpOSxpRq3ppznoF7IwfEtXfuYpFNX3kRodeKcIO7OOQGyWa5M9OOxeLnTOgKy0dLFIB4u5SqSuGhtLbohJWx/vhoaVCL4Upctdy3KBOwUV3E7Iujohk0+u4YVISCCjedtbzvlledw5APhstezzyRZFBKWjR7Z5P+XOGp6py2/Bx8fvW21Vd9o6WPOIfpNQeuP8WtL3K9Z0akSRZtZSrbQzYr3RvhTBr+oiNDkHmajAO2yjqBlUK3jJAMkkgqVLbDYuS3dWh2us5Lr9ZaOB5W0csjWJnJlfKgyNzjzP8HYu2t/MbL7knd1Fi7COLw+w7JCgaE9zESoXGJylKgWNj6jJYFt7IbPlSlzRsrToffdycCc1VV/81qjjFPzv30nvzuTZzV/ey0wBDrfDO+Z6sUJGfl8MKodpa0GUVQH7JbR3+YAOyIyLhKQHl1v46vfGT7q5KMgNcamRCzdszV5qhKK4UX7688k8xgJXmSN4hLoqbZBuI9Yzjr/J9uwjmoLkMdmSEvJQI52kC25AAIJ+Dsx39JUc6TGP9rkN8YR7LHCFghULQAWT7k0Iw8SiEV3MMnrlxlmaMWvyKeNpnMF38Ze98qHSIsKk76FbLRbT8LsW3RHnGtdYU7QuxnQt8/iOVSDcjgxr2dYyvbeGHkImUZsw1Yd0BZ2uHUPN6IDx6bjuo6xj7cNBAB+SiieqHJDO9i+JGr6rJLZ2iPCzVQ3BW2TbaniMJ+HnencaMEWW997UGzFbpbD6P6vespmN/jmsblHI90Iv3mQvmUXKVBdvP1fKcrj/j5hWba+vJE8L65vq9rE5Oz5jImLel8hKzZdMqN4XfwkrOBXc0AiC8RP/3mtAUoNKjkruWN+KHYVjFtrn7zYDDFe2MNmu426IzGTJw0DvQB7oqUAKsL32wqwYx3IIUCl2ujP5kGUKUJTYxXoc9MswfMTYB+1ExuYQjRvenw37Lq6I6rVRg1zyFzRVNwU1K8hXlxLI+rQmC08cYtJN+4rV2llB+0yt6iX9Cgh4X0E6hPxHbF6Uv3w7O76BQB4fZVSisKzhQS+j3CG5J7yb1NCYPW5/YSBGVP20wWgdgJbavAuhfUlGnEiwcOXxbD8q7csT658pqfnFUbE21MkHtbtsMQdlS8Sio8Ws+XncoFTZzCS5/1llGuZ5v7VTK3VMY0gxbha3cajz9q7ZiwCLCOnTWD3Igoygp5EHCfdpWzgbN3JjyqtqEtBVww/018ysC7KLO0igENOKFYYcA2fdOPJUjHCEmi0UahObDcjsybL5F+Hck+TYQWJJTKSl62bhVpiyM09Aq7g0imgivAQc0G8eNW8F9iNT7tpFLiv80W6FibCxoRkrt5F9qvP3v/a2miMF4ZQRnvO/lErfspCUIyQbIGudpfWvEllamqVQom12qWozDQWtQTxKk4t+xJtFLVz6WUzPiY4boSOeY/b3g6p+ZGcZupNIOIYoHSnc57HswmKOWmLsh2tpxIh2v0sVr+fTfrfFJVUxVCGJBRlQDXi/5qXjISSZxnNjPOPF+qlRGurWni1GMhFgbTwbhWK3IACksNqN9IBRAcXP8O7ruoTBgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1571,
+      "completion_tokens": 362,
+      "total_tokens": 1933,
+      "cost": 0.013524,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013524,
+        "upstream_inference_prompt_cost": 0.006284,
+        "upstream_inference_completions_cost": 0.00724
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 268,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013524
+}

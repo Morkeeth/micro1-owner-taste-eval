@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:49:44.872423+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C027",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "8a2392fd6bc15d5fd5f10a79f06ac36c3cfee88c67beaf1e295f323051152cde",
+  "reserve_usd": "0.067055",
+  "response": {
+    "id": "gen-1794163780-PnCHATqzVwRkeSSdrY0L",
+    "object": "chat.completion",
+    "created": 1794163780,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The reusable transition concept fits the request, but the poster looks muddy and the agent is hard to distinguish. The stated resolution mismatch also suggests it needs visual cleanup before use.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on predictions**\n\nI'm considering whether to edit a likely low-res poster or create something new. I need a brief reason to support my choice. There are two options: using awesome, reusable graphics or editing this low-res image. It seems like the owner would probably approve of the datasets linked to synthetic content. Given the unclear nature of the agent and the plan to upscale, I think I should choose to edit this one.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on predictions**\n\nI'm considering whether to edit a likely low-res poster or create something new. I need a brief reason to support my choice. There are two options: using awesome, reusable graphics or editing this low-res image. It seems like the owner would probably approve of the datasets linked to synthetic content. Given the unclear nature of the agent and the plan to upscale, I think I should choose to edit this one.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MRIr0S647Pag6jYeHUH97qMR_B9Xn26yu4-wkye_IRKp23DUgEsvsIjp_r-AARX0aE1J6VYmA0bWsXUdOzKqWJQ2xNfapAHvLBk8rulKFOJfzBLrIL7WfDU9b-BXK391zua4eNuu7A88yd-5UY9_l89sjwxDtxe7-QOdUwFuOFEYNailslGXoJ5S8yJx6jPMyRZ_lzluJCgSrnPQEZ3f-kqqReHIFdxTsMJ81Uhv4dktusGgeh2HKzTitGwrCN4TEQs0oJAEd0CdsSbTilQLu8R_fms1h1Npy5bK0riLqhED4pk_TNiFSW_OjnhT7lUN-23n7t6iGFJeoU7a7AhWl1Zt8hk6cxlFJGz43upc49XycjiARg155pw8GW5_kNAtVcfaRo9w1X63mGPKp53Zy9MDY5ExjeTuWWgNB7xZkxhDIxOE6TDXEzhM65U_KiN5eMJVE5nMcYyvN_DUel-LvYJP6iojw9K3TWLb0DEoeBb06KHZg6q-1BPd7pfXpDnPo_Ygb4B9EHKoJ2Qtz2IwFiy3ttQ-XDTibLxbsRs11pXB1S5qyomtHCJGsxxhLYDHmoluXrcwtgB28NhpqvdSe9j-RooiMtOeaoPOyYQ5N-jAMl9j2-1fzzrS-msAe-NNUBDHLpQHK5Fa1YHGX4l3HT46F_n5OGCWspYYZaNKrSxkUqk-IIu2Ql4VjLLI0UU-aNQXpdyqxPqOE9PzaouuoCAt4tVbdKhCACVFRMP2K9BWC9AN__thuAlkwdf_97qrRse_yXj94L-4UDif_vJlhWlV-RHOecKIY0Hts9kTb_wJuGNKygsOwHhzNuIpsw8XEMnKtcTvJeZSDtJfz_dts97W2qgfjfUiDv1MK_MsH1peSTOenDX-lOlLUPHRRJe8nA6LdhvyR8ps2qc2joGERifjvq2dRkHVCfxhDBJVVWfI8SpYc9BAmF_xNfcxnpvAbLjxfSIaG5hNB5VBSZNYKxREaspIHPShVibISoFn4U43R4W0giwYrn3xRJ_5ULvHi8YA7Rqt4J60_lxEPvgikx3bA8KZ_x1BENby8JODRbb1nyxngppqh1hS0mvahK9KWUUERg15EYtDkm3PBeuDZWF02I6GediIOFHxYocV3ym3DBmnoFyU-fMvrdlUWf4oTN2rTexe8agWFqDIqaM78ue3BTb7cwBDB1oyOohDXZNDiOGGaTmCNDufpRSd5vpbsllf3FW8jqXvlNHHmGwMW8onsb1nbxIH9qUhjAKq4hw977dm74rzI9BIKBZaxNi-QEbnCcBsRhWWmcZTs68bNUorUmtZ3L-1FisMI9KJZusu1g5E9v5xvPVdmJKxy3bX0vCMjdaeJuGIHGx6yNYQmHndvNJX1XDfDBRRUVcQyuIKU-Mt8SdWsJ8FD2-he77JePG3I5G640imZHc-Q42rLMEKdJCkLq8GxUlcAjO0DjO7jygRI7DYNU4mpAxFSmDKCx83OcFo6SyOpTKiXU_BSWkMpCiYMGDE17s1djkRgW2oiz3VoDiTJaFci9GW9qc45e92KXb8eTMpye8aHfjxcExkJk4zmp7DQErSsy7tJkOvBZDi60D_hm3X4qC-LHN21hgwYi4Rm8ejP3BI0_bw-ZRf4jejKSHAYfKoQOLvl6MWCFLnPzyb4y62IE9HRqlGZYZ7e4J462UxzBOZ1v-iXb-PW3QkG6bPZnlkF96btW_nkHllMfrtevDOc4fETa4CHNROZS7nfYbkwM4P6u7XNhHa_VPPVEeueSpzklqMBiWD1lHnWm1V05MP_NBpIPNYE8ES4Cg6i8s5rgDFFRFC-nEi3-3yhp1E2iQZNqsX0Sw9Z_OGfqFP9jQdcS9scD1ZDiXTeV8PaAc6JvKP9xcHKUdV00nxDPvE9cgOK51mCRGr860FOS6fRe44adfUrDuj39t0NUAcbPeozHbFUHUw3RwiizIq2wYYQ2OItet1Nc4-eKGXksHSQhEuSKrrpZ0jPqyMuFw-fsTVp5ylGcTiOrQ5bdxqIJNhWuunOyXXek0JfwbkZZSQt27fmABwqlFVRDCwpxUWnfNVksR5baTfdaHMOXJSQZ7fU8Oefs8JFMFDOeFX57AGOAKy_mhjOYdEqtKsI8DT1m7korxPLrnT2OVlv1CjFMfssoRLSLG9VmuZ_2xAUnWEa0dX5n-YotCf-pXaj-_jrNP53niOwmQLEkna-g7yazS68sdJ7VR98nNt_yux84k9whDkByEovYnnBnm2XgjdQncaegbe3GizUCR2diWHeNPPOFbUgX-UhtaILCHKBEoLFkAaY0j2_Qk9hO_8aB6FTyYY29DTs6l4J1C6bQtbDLb_pCJ45S_UUsAGJNIza2p7hrggLuffNxgbL7DQHsMZwKoTjyV_uCY92TteSX3w-8tYVT8Lz_kWYNrobwlDhmgNX2SP35YmuxASvb7mLwzOBgF27UvJWYwqTuSfg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0d7d707e18ec98ee016af0c44604dc87d193352d59b3ec299d",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1454,
+      "completion_tokens": 103,
+      "total_tokens": 1557,
+      "cost": 0.0011811,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1451,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0011811,
+        "upstream_inference_prompt_cost": 0.0001511,
+        "upstream_inference_completions_cost": 0.00103
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 49,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0011811
+}

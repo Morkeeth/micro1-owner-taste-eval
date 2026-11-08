@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:47:24.353951+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C010",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "9524bb3482f5ff914b06e5b46bf94ccbba09542342221bcd11d15618a89a6d43",
+  "reserve_usd": "0.066765",
+  "response": {
+    "id": "gen-1794163638-FLspKSptA6IqcCoyqzur",
+    "object": "chat.completion",
+    "created": 1794163638,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The screenshot collage supports the topic, but its many tiny panels are hard to read. Simplifying and enlarging the key examples would make the overlay clearer for a Short.\"}",
+          "refusal": null,
+          "reasoning": "**Considering poster design**\n\nI need to produce a coherent poster, but there are many tiny, unreadable screenshots to sort through. It seems I should edit to declutter all these small images. I have to choose reasons based on solid ideas instead of making over-the-top claims. I wonder if I could make something awesome by cleaning up the visuals. I'll likely have to filter out many unused animations since there are no notes accompanying them. Time to edit visual clutter!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering poster design**\n\nI need to produce a coherent poster, but there are many tiny, unreadable screenshots to sort through. It seems I should edit to declutter all these small images. I have to choose reasons based on solid ideas instead of making over-the-top claims. I wonder if I could make something awesome by cleaning up the visuals. I'll likely have to filter out many unused animations since there are no notes accompanying them. Time to edit visual clutter!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MO7SBgoF4heVa25ML6thtjaqNVjZtKmLdUyfXTbQfbepOV3DRxFgZua5bjQIBweW7eESLNnD008gK2v9Dp7lNnFKd2IAa_NYjoI7pwqVYAEwq6LWPKJpEcEhVo20xLZx0OqTnOGELrf9PF7RTiRv0pxsgKKmDDVUtnl_vcK8GW-oZaoTYUQd4GaFVXXtLh7UA4kyfD5IWTWwnzV2qTMaCPGOEpqi5-VTni1gtLflcdPsxhfgLi-rjXClH3r48We0XuI9KqHkw9RR0TZe5SCMHLpsI4xKSM23jdHKcZttF4VT26O1_TDxM5Zt6IxB2n2wP1HVo6Ztm_F8NO_-8d4N68nObGWvm_knUxeFdUZVO8zKWn_khRmmY_j_lyrfsAYhk_W4QqiRmtULcZ7n5-naqf-FO6ih-_EejyS8G2lkRZ7a9bF7LBgo8252iUkxSuxlsC0K7ZuzYwH--58JNNeH2hjGhGQCVrampJOG6I_N1vpN8UpxDOlqvrVLgO44rHLGm2SkfLKqKyg3QIpds_DvHoEP_81BPPPwPoUTdgnqiDJ7wGeVB1yUYl8m9SQrFPdY2eaF8kAu_5wo1Xu21fyGYCCwvziJRYqcPwVirx1xBK0qMocHEv7byKoaUEIvlQeUZ_mOlX53VVlpEGAftclhgp62QWE8hu5VoribYt0S7Sb-SBChB8_THg6oUOkrzZMQDLVbBo8ncFU20l94J8lcLe38AYOs8FZg89FsqpSgoi8zogRwyDyiQWCZVZVtu94Ee-no2wp_Q-g0oN39gKkcwTthekNDGaM6BQHm3hT_E2tx3PPcrKNzk_-Sd99-vFMFOE1RFxloLPjsxKDGXylUvQORB7c4KUhUQcMIQ8qwSK1Ez2O0NLOddTLVNuiMm2cagAN7KWtu7t734b2eWt04E2QYywEbg7edIFr_QGunxiV4kqGTlOt_0EOc53-0dVHMHa12cvcaw6WFGQGl_hiSsGDfhNGwTEdU65hzS3URQleKRtnQ3mcoNMBu3hn-s8KstNBRyfa4AYjNF3d3VWdwLUZjQsjwjFzIGxqfZIarVacb2QkXNKl549OStwfNpzB5U9vrf3KyuANQpyjsONesL99DxzyyJUQPS8Rtjfpq0UvBU1emfREob2tTBxbxcVnHocZR95IDVtmHUROiXrwdlvupNa672xvgpcgXUUxkXUSadhkdZoiUhXW5L5ilXqU33lsrSaPEuOYtQNbS2rYpW8fW53jOcS0eaBK7Rg5mRR-qkteWo4ZUMi6Q5DatE67egu68UapoCh7oA1TUEsMlsyj-4rUzHOLNP5d6jgIIOAndfZAeCwkkt-FxC4WlcYz-Wwylphv2C7oVRbyzvsOAnZfnO58YsTNZqeXOaGXaft7rpavT_EaMg--pyiLCz6lqDy-4XzqsxdCMR_Fq9Ngp3PcqUAciOU79y2hQ4NzG5KyC9a23h_TQ809svuVyIuts2ylAiPCd7YfCiDinRqro1BsKOpaY8bwfhb5AWNmXTNFlgmxtV0S_uqfI0GoxU95hzGLwwQvt-3jsu0IEoBhNugujHXNeTEqDM7Pwf3BSs1-q49Lx3MhPbQnkW14gTCrzxapWtAnNbZbuy7HSWEGQxad0jpqQXzjLQCWcf9XOKu8xmuKAyHJpY0Iktbo-eIuEoK37V0nyfQYPdwXXzvUCGVsNEZC2C8kyOS9KjM42Oj6PYNmyGP3Ai4zNZlXZNGFnIcuHaDnX5FMkGFjZ8rtQVZgqbsW_IJKubWFWSvSIjElDoArjL_nyfnD8L4826tC3VZrI6COiBUqnYc2C7xRzVSiJCgGJMdPvLtsQ2F3-LSU30UP1vfdFtlE3PPl7MOjwZEi1S-G3gYQ9KpWCQ4ZCPsFs-7aJ0laG29bpnHy-NJagu3jvdie0S5_8M0WhzjBW9pSKDhkyICRrMw6JG-HV_bNdVMBruc1mEkjsbmF-kA6rrMKfW_NoZSqv7GbgsoTjGFL6MtFA46z3TVEdEEqhEDnXAcz-5SEksRWWQ0TgAIyvbWX8BEKkJQFzFPzT5uefDc4Zy1FwEpOTczviNmKjRZOjY9zVF5pJ621XWfq-BnR2WeCR55jVzH6cobwOR-oDCDojtxb9yiXmfTvrQ-GNl8zIqHcYQRsJNC72GHWN4HuaQtkWeM-AYkIQCLmFjbYTxcVn-l_uKtO-aGQMuUhBvepvNs8VYUyQxLcSN9N_MZV5JoSSPI0AwuY-q2SFOT8GoET1W-ayb5JxepvOuj816_CStlFZvwaagVXWmMmhK6Lt2z771jyRlvALfpHOhIS3UZvsRVmZdL1qJUPMo_1M0WyK8ksesTAjon5kKSIppiDV_LZQSik6bMklFMQI_EUEhRaM3VKEVflET23nZMbbNZpa_DmgXXpgqDjZVTtsJy268hmHdPm90VmYOpoGjeokaRz1t2JHW0UsR0aSLd48WcGpGiRoa7gHTNKiE4jEW-JlHomByHqOZg8KSGBu9C62N9tLCockLWOkeOAGeDZ-VpLvC2Gi0bLM6ILZBR1lrNCg6EXML1dJMgKVyxUg9GnqULV12VlinC6lMhOfHRZSyEnEaHQ5q4O7bciG2s5NJkhnSU0XiEd5VydboO9Gbe7TfO53JVQnc4vwPaXnrq7pIEX0O4ENWH1uAA3qsUEe0OVeyMjcRyBruCC4pDu1g1-dJsHzWCfbRoIcHNKXVxsNybXr2CHPAKogVZyw5sLTwLlDpk=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_005c326af601a771016af0c3b8ee5487d1947ba1b00feaa499",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 688,
+      "completion_tokens": 124,
+      "total_tokens": 812,
+      "cost": 0.002616,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002616,
+        "upstream_inference_prompt_cost": 0.001376,
+        "upstream_inference_completions_cost": 0.00124
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 70,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002616
+}

@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:48:36.131765+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C019",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "8a55402cf08f70bc32d0fc7cd8c5ccd510d30f23998f23dd0ba906a7164ea5ca",
+  "reserve_usd": "0.066880",
+  "response": {
+    "id": "gen-1794163713-blu3pP3kRZlnXZP9aVfJ",
+    "object": "chat.completion",
+    "created": 1794163713,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The supplied context quotes the owner calling it beautiful and a simple way of showing the concept. The poster reinforces that praise with a clear headline and readable agent-status layout.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1449,
+      "completion_tokens": 53,
+      "total_tokens": 1502,
+      "cost": 0.0006806,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1446,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0006806,
+        "upstream_inference_prompt_cost": 0.0001506,
+        "upstream_inference_completions_cost": 0.00053
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0006806
+}

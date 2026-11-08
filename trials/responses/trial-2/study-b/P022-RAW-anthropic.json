@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:24:10.170411+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P022",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "ee7d4641cabbc6454c2aadc8aed0411fcca795d6121cf12b3f2ae96d5ced7ce2",
+  "reserve_usd": "0.099128",
+  "response": {
+    "id": "gen-1794162243-8IU1lPGm9WnqzI7sdU39",
+    "object": "chat.completion",
+    "created": 1794162243,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The idea fits the review story, but the still shows a garbled, AI-style window title and a lopsided frame with the action crammed to the right. That reads as fixable polish rather than a wrong concept, though the owner could also have killed it over the fake text.\"}",
+          "refusal": null,
+          "reasoning": "The poster's title reads as garbled AI text, and the composition leaves a large empty space on the left. Garbled pseudo-text is a typical AI tell that the owner would probably want fixed, even though the core concept works. I'll go with EDIT.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster's title reads as garbled AI text, and the composition leaves a large empty space on the left. Garbled pseudo-text is a typical AI tell that the owner would probably want fixed, even though the core concept works. I'll go with EDIT.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSiwgKEAgTGAI4AUIIdGhpbmtpbmcSDENmjlWmrDGncanuERoMW1jZ9rmJj1Go6vpoIjDm/OHa8J8eNLTZU1I1FYQBflYpmrkP8OKht5hFgsEQMaWnwhtN4g7d9vJqVVI/04YqqAdmzCZlIalSsMLYo2AEHrydM60cOOW0RxZ/kf6DmcimnJi7LlS8EdiQLAI3bdAWBKM0VTVmuIt6z70E1nbYk0+VnapToSK8sAjBopxtd6Wf5xCFo4KzcJBIp8EdbSR0kowJHDCFj+/nx8PomaP4p2aHR/UGW69udPstzLsYDbnNAoO2KvlkB2vD1kW63jfBCXt8d1zsDBDjhLoAJCy5OxYiJFvD3qtld+QZ8MvXFTCLSQERiIy/o39wS0Cwke8I9Lu5suGdyc+l2gAe6ReJpCI2WGuOFIej9xmHZBA8bOZ8fyJjUCt54/3qV1jttzuF8u9vwaCmCSxSqsmboZ/oKmxQEdpqhzkQHEVyckKZ6xMvwryZRcP9WE6vKueMj5ANQIkzXFw35p3V8jWp1rNrMYEN9hAMlBZtNSb/oiOfrK3bBfYIB3cEcWM0/hohKqGEIQ9L0OSVvxTWIxe8amZ0sz05KPAs3rIqnJ3vmGZDecyu/ONOsISKePRAZXee6fUoc0OkX4kiV7nRA8/3pu9IQ7HoxZwmU5bAmSZktXE4TvxbT+SXOXKICT906B/6fwVB3bIn8dOCbIxkdRk2SU7Z4NcRYt5ywPjBV13EogKNkjltPHis/NlWF+kKAW0JCENicPBjXB7Pt4FCpqmLb+cYhQWZFd5cxsi93TyL0/l/ISkM97vfKeBZ0JByOOACOOKraWdnbSyZ+947P7ssOHPdKbDej4Z20BN2PA+JsZ6uISuyiDEk17wPPRR0zEX1BPPK77I68aNqBO9eee0xLy0EdrULZq1XQLNWyQ9YPdF3QM8XKDg0y5uN0tiAT083drvLoLCtKIKqd7xfQJEjLmgPxUjzosZLWa2hWwZetv4jpe9rArOOVe/UawWu6+WO0L8Uwme1+EdpdIjjNCzPTtUgxttCWGWptS5owdQV9mFZvTZD9TKm/vdwIT/F83KRQDFYzKxuF9+6NY2an052vFMPublKDvhSEaVFQDgnSXsTnxJfPSWI0rZMMMsXb2KWQSDRuZInFoEtgdYq8hvFKrMe0/na0P4UsPhQZpvGvv8UpuyrqjitTHw3Eqwkz5EMX9eDsk4o8HzG8MICNRjckY1e2hd+gP80Q0XDHxgkEvUiwOnLVT2UVr/78bWziFmVETcvJSTwQlxbuoPcvXDFpwSvIOfNU3dAh14Sac3dpSSQUCtTg+223sXaLOhW6G9bYd84LQXPhobckildYpv9VuEme0V1dFNr7IyeVOMYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1928,
+      "completion_tokens": 255,
+      "total_tokens": 2183,
+      "cost": 0.012812,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012812,
+        "upstream_inference_prompt_cost": 0.007712,
+        "upstream_inference_completions_cost": 0.0051
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 153,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012812
+}

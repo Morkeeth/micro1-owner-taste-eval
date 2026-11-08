@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:34:48.027976+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C024",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "bf964436582f9de9eb8a956b0a0237b0d16ca9963cfbb236a09ee0c7d38c100d",
+  "reserve_usd": "0.066970",
+  "response": {
+    "id": "gen-1794162885-YbXAClSdOb7V3MdWZrcB",
+    "object": "chat.completion",
+    "created": 1794162885,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The supplied context quotes strong enthusiasm for similar animations, and the poster presents a clear, polished pixel-runner concept with an understandable Claude-to-Codex handoff.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1446,
+      "completion_tokens": 53,
+      "total_tokens": 1499,
+      "cost": 0.0041435,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1443,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0041435,
+        "upstream_inference_prompt_cost": 0.0036135,
+        "upstream_inference_completions_cost": 0.00053
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0041435
+}

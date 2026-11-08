@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:45:12.971813+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P029",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "29f1c7b1fd3f004c4afd173df539c39f78987c5e2e23fc671106fd4fa94e15a8",
+  "reserve_usd": "0.109125",
+  "response": {
+    "id": "gen-1794163510-tzIBO5S2nsFVPNjO6PCQ",
+    "object": "chat.completion",
+    "created": 1794163510,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows the requested blue meters and no cleaner agent, addressing the stated feedback. The owner has strongly approved weekly-limit visuals and corrected second versions before.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3503,
+      "completion_tokens": 51,
+      "total_tokens": 3554,
+      "cost": 0.000866,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3500,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000866,
+        "upstream_inference_prompt_cost": 0.000356,
+        "upstream_inference_completions_cost": 0.00051
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.000866
+}

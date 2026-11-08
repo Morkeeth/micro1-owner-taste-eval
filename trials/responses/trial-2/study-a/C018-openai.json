@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:34:00.133525+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C018",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "97721ca8e55aa8bb43420d38b846284de39d7365e5e187c21c984cb841818b92",
+  "reserve_usd": "0.066775",
+  "response": {
+    "id": "gen-1794162836-nX7KtWHg0mqgLxgT13Ea",
+    "object": "chat.completion",
+    "created": 1794162836,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster is a designed infographic rather than the actual UI the owner requested. The existing animation could be revised to incorporate real interface footage.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating content type**\n\nI need to figure out if the task is about editing existing content or creating something new. The previous UI poster or infographic emphasizes editing rather than starting fresh. I will aim to deliver a more concise version based on what was already there. It might be beneficial to keep the original elements in mind while making edits to ensure the new content aligns with the previous design or message.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating content type**\n\nI need to figure out if the task is about editing existing content or creating something new. The previous UI poster or infographic emphasizes editing rather than starting fresh. I will aim to deliver a more concise version based on what was already there. It might be beneficial to keep the original elements in mind while making edits to ensure the new content aligns with the previous design or message.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MCXvB1_V8zIMUQ0SGzuS9i7HI1Cmx17YZkS5qaLCUCt8SPAGKwIIwIzaLc2d8EFk_5Ic662mczajnWoc-LTlufPEX_qlv4DR2n5GoezHCT3ZnCd6ycw-TnO2gm7Ku--b7pObvf0nrgATLjhDMbW-gX4o_ZujE72BdcCHiXXzNHmXvzUy-MhoEMpkZzQSBZNddgsd5OE1uEoGZhC-mcRdL2efHMVTUmw8jtCLmIUX9Qonpp3YXxkF3YdvzrJuUKDPO2OloAJZa5HvQqHBXHktwXAnuCr1D0qN2ro77Rzg6QHpPlAAQtvUFhfMisaeDSPrl6d1FeQQ_XF7TUqrlncBWba09dJqObr-FnGACLwsbmc-CHrICyceCI_Jj6GGE5j6mmUkjv4CH9yLx01_yX-jCTmEiIG9aJDLDErSLz8dX1Le3ZhYaH865igk312VdhiwCQv90dckGx8qtnj0n8w8UmHcjjdgDSgOwFWA-ZYh3DE3NCLTtZZZXkNc1obCCA-BpwIfV52oT7iPnyZrJe6zTzSHj_Oz2sZI12EU2vYO_oMiMkkzLqs_XohbZZ8WwWzNkylTdVd65cMV4rxQG65v7mDJK-__Ob-xA4wDIMrFkTE6VGtWZ2TdEU42pdYYJQxNolbBEzDSFHydW7xIxgQD4x5cmpUZAckxcBAUs2k5TMQ7NYHk0YsYaqS2Ll78XzO8IdNTsXP9aqB0hv_yICpknfolZucJonoBxLgdgeev_a-qpXEo7bPEnx7o2uJyamsNoU5gdKnhorqVqL7msze3wFLtny3kuUaSAioEmSavUknkSxcAl2X6UHNwtxp3VY0kTeJuDGUtl4IOqu5j4zlilHHMr_JHxVc_7ljjFFoWpkHGEfD-piA_J_YoyqG-x4UByHgGTLztASepIwJce1mSgwkGvXuyW3TiUcErsO8cC8Syou7n6C6Lt4Oi3xeSWYbH-ChwOz0buPMZL0LrCXn7PP9dRKTJ-TZ0qIOWEmdfyAhq-R_15rvIjleI39gPjwgoWvPM3VSL-Ho6dWw3jM64cPtsKs1M6s-wlWKQM7LThrjRTLN33YcDANWWtDkjnUfaI1uVVH14ldVvtvbHv4VsRYjhjT7mL11ldJGSnENvSXnlId5IK7Y0KiRk4RTPXND1IGUSQH0snZ4Nb-edvwn18BB5NxXYu_Pk4yDLDazo10eS1zInq4TK3L_c5uNC9_iW0FNtIu7biRVTmqOUI2omOmn9_Nke5HVa2SXXKTVFdj-7Ux71G4qKujNdoo46o9GUp5nQkzLXWIKWipJCsQMH02rmsDTJ7fQhMD_7mM1ooFnXzWLhLSEtB7jCNa1lV3N7ZnzVzt8OskRY4RJSO6hGJjnUE6g3MuIIhQXzG2wgu3qZk02SfT8Hh7tZrsG_l5PaB7QOJpGjke6pyssmSYOw3dSabkRpR0dJJBA-RGlAusp59jheFyOPCbBjGGgMKT_JgFz4NkWtmmJG1utJYOUT83httdpPOy8Qpmy6OlybNRSRDRAUb0p5Zf8ZHI4_5T0J2G-jazl9_WQkFNedw1YHXOjvWf7H3eY82ZBlbljUKBT0czInQwdL8tqW0ZidC4HVWtxu3y5Wwf1jF3bKsf77_sfc0wt9iWy0UrXfczUJIaPnZdFbMyzcBJ2RQJ4DsdwaE2Mzh2sL4xykeroHF0513i-U7zFoVx1ljnOm8B-jXtd5GQCoxaC-Bgm_MTHSp4MepTkPssYTA9gXfe5K9vqEn9vwgYWIT3O57_3ONPU5AoiQ6eAlO1oBCMj5AKNExboSjpIqPkcjaQFx2UH_wI9Ec5tkf3SE1Ie3O6LrPW5mMd3CDQiABxyplfLG3WxG5qjT-ZvrOvLnSLObIYJ5ciXdr-VN1eVbVmN44xdufc631BI1XCEV27L0ePHlsdymXN_TEIpk-9Baz_qno8pW4LvoAM-7sVc69xDIa_tXRWqe4ZX_oLlt9eJUKzJ5CjlOW5tw-0LYnEHZZgoDud20EZ9Dj1tFckDsKcwXIQiv_fDoNGTnBkNafW_Xa779n-6QmFWaUTsG108KCP_BkWBjK5hPyiScQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_096c5f5d9ffba58a016af0c095ecb887d1a97dea8730671344",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1438,
+      "completion_tokens": 70,
+      "total_tokens": 1508,
+      "cost": 0.0042935,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1435,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0042935,
+        "upstream_inference_prompt_cost": 0.0035935,
+        "upstream_inference_completions_cost": 0.0007
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 23,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0042935
+}

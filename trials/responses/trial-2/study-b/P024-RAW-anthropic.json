@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:24:26.980151+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P024",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "3996bdc3f692f9596da8f1c49ec3c040df5f6f8b38a1b04c570efe45dd394bfa",
+  "reserve_usd": "0.099344",
+  "response": {
+    "id": "gen-1794162260-PoHQzNzin5RaQYd1o8o3",
+    "object": "chat.completion",
+    "created": 1794162260,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"This is a guess from a single still. The concept fits the brief: a clean white field, the blue line and a reusable tightrope shot, with the low swing recommended. But the agent in the frame looks hunched, tilted and blurry rather than crisply pixel-styled. That suggests the owner liked the idea but wanted the character fixed instead of approving or killing the shot.\"}",
+          "refusal": null,
+          "reasoning": "The poster seems to show the agent tilted and a bit malformed, almost like a crouched blob that might be off-model. I'm not sure yet, but the frame's minimal design still looks consistent with the style, and in sets like this owners often pick EDIT or AWESOME. The agent looks like it's leaning heavily, like st\n\nThe pixel agent looks like it has lost its pixel style and reads as a blurred black shape, so I'm going with EDIT.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster seems to show the agent tilted and a bit malformed, almost like a crouched blob that might be off-model. I'm not sure yet, but the frame's minimal design still looks consistent with the style, and in sets like this owners often pick EDIT or AWESOME. The agent looks like it's leaning heavily, like st\n\nThe pixel agent looks like it has lost its pixel style and reads as a blurred black shape, so I'm going with EDIT.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS3AkKEAgTGAI4AUIIdGhpbmtpbmcSDFj9Nr+mlW4S32GWBBoMA4HmOebHqiAU3FMsIjCeiym5uT0pCPlDqwIAtQ+KAXP07PQW4euJbP2AzuyTp1qCGgPlQX6to17MStETXvAq+Qi1UqkTlLpO8FHAV5VdJvbmR8Q6OZW8MCSjW68LD02h/zUCLGKPtNwT9/OSCNWBh9sjHQdJmYRRf24YTbwx2MhGSSp0JXEkUE4wf+kCvvPGZgqFHRwUBvOwNRmvje359fZ0VFcWQdmQ2SslO0lA239+a2GnR9HgbJvz31X+dADbXlVK44kubIzKYraWkCPsKHpuKRND7CabxSakx+AhTgW3Sw87kJXZrGr9IcsE/9yUcg5nyFhSJQLMBEvpSq84StVE4b1643xRvPtAl0JrmNvDh8bt6n2hIjsKSCpDkRm6YgWep4JRQWCDgYqyDNPZQ9L4EWHcDGJz4o220VaCj7ZeIpDgJJj9r9X/fzbh/+1Kn0iDmicTGxg2ySFUS+BXQR1IHp66rxtEeOYQu+JAUlZY7ZR0KpoCo8LxTZWtL/YFqUKwKDneLb6FvD2vo2Z3pWMUuDf4YL40qX0ty8yh6zysa/AKno4PZgG+LiF+gftaKmRNPENzZFDkeMzudI/YgAA1KgTKHfgdD+DVrta5sLeR6QnFzJR0R5/snQ9/+tPFoEab+rewqvQOKPrjhgyP0+1/uAl/WepSeA8dHtzCOpoOXjjXT3E0d+0+TT2A+Db01EzHCSPlzJOWcrtVpPQ+m3WveR9cmFdj70kxY0jqeWMNSbOyn+jZgWdxL83t+gC39sji74X7gAwEm8EorRDJKSO1TnhTjE3QJqLOulf9UaaeaYskDyF38bGQLvDpI0smda1ZZmwyjIlyyHZs8080r4Z3oS7dtdVyGPPnr7trjNsZJRfSYFtX3/35HuU+m4ctCSFWnjs9VPFUk35ttrbZytphle9qeVgB+dDIMHXMOi/PPhkqwcDwBM+Qj5N5PbyEv699Tu25ygR7FdngPAIRdECGb+s6bpoSTgkvJ1X16cIMaVXsAKfc3haxS97nHpiJA3vqkZCHug+xLv2f5rxn1JDcEcEK/AJpQ5y6zxi1v+cJXg+U8WzAztoJqhLi/JTeXxE6j7AwgP7NNHjU3VQPMx/lB3zzou79lLEu6cjcFDKJNFMXi8wLuxtR5eJ94EatMuqacrNXQAcc3uvz68V4Z3mNloz9lowddJfYJgmGHGCYtQHlzqhVJdurI3RRzDe/ndRp43Si46gY9lP7VhtKlPoMDdWmgXnJ5EpsFQgRE5h1xN9N2BHE00YGoW4eeFLTVjOz6asEANN2RWHInIUSBl18WiyIKppRuhUD4KhyTCY6/39GxYBEmv0ZUcTqtt12CBSaSXl3yYXm6tgoQIXczgt2vbCVdMQUJTvm4AZUT3VaSqutvV0O6ebtjwE6WSnDs6u2FPoEyfQRaSQNudprNu6rVO61sRIUoEWKRstfs1knPcLhJm2gcYa1Al6Ql+o+/PhbNDmqaXblIyvOVM7JBKCaaBpW4EIHQXTR1c6ec1VnvtazLR/vwLViLQWySTmLZS2f8lfJzNse0rrwOCrGveOpYCiO9XU2dpUs2oNxSf4/+sFoFplhwXHCVfLjyQC+FtFykIrPrwq/9RgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1935,
+      "completion_tokens": 361,
+      "total_tokens": 2296,
+      "cost": 0.01496,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01496,
+        "upstream_inference_prompt_cost": 0.00774,
+        "upstream_inference_completions_cost": 0.00722
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 220,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01496
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:33:33.414218+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C015",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "db562c6e012843e1d130d70ab3a709f0263eebe3976072d78f7fbcbab5905972",
+  "reserve_usd": "0.066895",
+  "response": {
+    "id": "gen-1794162808-gPcwWKPWaTFVxPavAcrQ",
+    "object": "chat.completion",
+    "created": 1794162808,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster looks polished but reads like a visual-style mockup; the large color swatch and generic typography need a clearer story hook for a standalone Short.\"}",
+          "refusal": null,
+          "reasoning": "**Considering presentation options**\n\nI need to make a choice about how speculative to be with this new model's presentation. It seems like I might need to create new content rather than just editing what's already there. I should focus on being grounded and concise. There's an animation that's unused, but it looks more like a graphic style than a standalone piece. I think I'll edit this one, but I won’t mention audio, since existing footage might work, though it needs context for the short.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering presentation options**\n\nI need to make a choice about how speculative to be with this new model's presentation. It seems like I might need to create new content rather than just editing what's already there. I should focus on being grounded and concise. There's an animation that's unused, but it looks more like a graphic style than a standalone piece. I think I'll edit this one, but I won’t mention audio, since existing footage might work, though it needs context for the short.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MB9QQVwyeT-vmso0dR9CQ8-NGdAeJSBrTf6bTeRwcYPi3ijRtgHmvWRJUX-Ah6zQlPo6IWSllS_bJ2TixyWYeJt2HE0dUFKpMJ8ib1bKHloDSGf4QBuoTrJClaDV0InkzVsOAIvCW8TnvvkiLyVqzCDhYz2AwufkSGLEa5pESopp_d6b99ccHztwRC93bJvj0sM_RYdVCG6l_u6ofpcCSnkfzv8yn3TzWLv2QFWrBiiRg2GLjOqHuz-NBtSkqO2-AforxSt7guF9M7rwlHPQ6A-OJbBO5tApPZ7Y-QC3yUEIOKaSlCynEYRlKiPBosxjpe6xINfmA5ttqqED3tKLeP6yG-WDpakDKuLsI5ciWX7qWQijhGjMaEa7Z2AGDZITOuBSkdyztEdA8tzpjqsi0_nFnZj3Vll9x_O8uz8Iy4Uninks_51DUfvyOqG3W5s_e-enc-08B_UJDP6T9xBj6EwFKWhiczQMBPW8xGDgTl4BQBXHjCUn9JIEMxGnx5pKvKF4PgzEQ0imMBLGEdmeSF9TP4J_mAq9XDqWONGsUnKz4TmSYf9vQK9vAsVa9NBQflIZW-6T-2jlZSYj7mVvLo2forj94dXjItXhgGp0efvfwnBNHKxMaeReyoyY1ARYEzQbJ2jMN1g8Ydfwz0RybjD_Ec_fwS5D28qQ0JzJ6purTJEooc1H0ct5_Z8Pf3s4hWiwVc3fl_EbScFXW5qH_t4GLIMQfneE_JSRWH8teEvwX77Ilb9KtVf-hZK17lHDXSked-kmUDE_pwPuzVit-DxI1IWW9iAZtnYZRlfpnxjXewkK7KZLsT7rpTt7HPFbrQ2_6VQk2_CT4xjPS-5q1ssILI25F92l_WAiGhSKNbYJ71gH0sr2sesHAoxj-cJiNK6VkwZPSHC7v_jggdB5zo9uH9Mohno9ith00I-CrA6XbO8z1o95fVCxAEuR-BrNgjPGTbEDIMWiMDto-eh0b0qlRqDC0Qq46co-X0sZbhfdDOlEPkPfHHkwz_ignSaGs7ONOL3JjVPWCeRFCtgmr5e7ewLZmSHvWe9Xg4grq8r0UyYfca391v2_C5kUXO0Afhj3i5OP2JTwh63cdaZ5cfBoA27WUTzOU4ICLRehnccrHLkWMdGaG9QLhb7eYZ2OEqxBbCF3fKAf7D7lQ2xtxTPosLTiJ7o07IyCYiqAOjTWblYn9ymGm_QWd_gkB43HLL5ZoMNP8ThnAU7-ugqRvZwfY1sxQlZ2AfnIw5vVTA_pAmoPfYno8u_nB01aQq2_sK0VSM_SIaUXw6_QuTYhFMuHki-bPckL7iSGpp8IRpUZK3eSW8EL7n3n2y86RUTJ5hxiAT_6Jh-Po9-a-55NIfWGwITvYD7G070MVG0xiMh39K1Jk44qakffBb1mmfJ31o4-rMY1eoLXgY3r0nnRo2YQxJKjXhYL6wPf5JMufbk-OfNIi49qbJvHtk7G3n5WWuQJlIZemhnDQKkkjNok48EX-EpAibQV9dCN3waYcFHR_nuSt1LdqOMTlMuc9HLA8BpxGQyJdJQhIRwOXbAde1uH1LC7sskAktazSWQUoiWmZV-EGt4GWqirFcOhgyhdeJldYAS2M3R1MNDlCnGrou1yP8y64YR97lPtnXuISYn9Xn9POxPBDmcKGbgjOP2xLiOVmGOOtTpz4u38xO0U3CutAnmyYKBtzwBVKbyI457HUkPmPz3rlCb4afY9Upz6AM0xqj0oYGPZ3R0dWhgyLbrGLRr4TnKH1MbVGqmytkK_Za7Gz2Jivy9dmoOkcX3QX4j0OptNuSCNLJzu2X7PbRrTmJLqs_KEzMhohjvJPUHU1x5K9aUoysqzamg-w0_m4OYFyK3FamwIJV6FVYM_s7YSx7EmNyqAIDTTW5gOXYAMUsety_0Y0zcHEsPtQwxQe1IiL4a1A_U3WrbiDKS5OW560yugiMfI4ADjspSMMErXV8t8Eevoa6aUCWDp0wryuBnhBKwX5po2SKeiZFdGQydS7ebM2QT-Tyk7jkns9wS8gic3IIjjx5ROK00C3jj4NQjlX2kqIkCBG-psK2YDSB1PeO5Zk6MgmjgOKhvLA9_2CiQEIzo1bEK0lFPLpBGLXJ2KOpgEFy3mlyV0WJZfc5hMdj-JGCD0I0g9YmXVFjfWVm7BksD4SJmQgAck4tmxfmJMT68Tq2DR3IOmx8V8rBVdwVCJqPXxGEPywwb8dFmexDIY41PMcUnHx_H-N_xhCgAK0HqnvIKalCpfl523S1iDEmTWvMqwA2wYQPBdV8VhLou4hp5nzU0eWcKhZixYCRmwRkWFO3PmFh27LwsXJKxifuVc63q-DexF3-Pj9u2SRU7xycj4qocG0wYQE6eHZx0OVbHp1J287V8p1oOxiTif31OhMaN3tULgnP7uemtu0TlBmYNScB-M0EZExqMu3K-09sl_cJFKsuR3Jts4X1bw314O86c3z8KKeRvw8u0Ekm-if0nhuFTKcWdqh1EJTtZee2Ll45xcOpl30F_uGHIxL19lf1-aDgmeOZjXPGAQcQ_JvWeDXWz8OxcnbTLPFtzwdxiHVXaLDAaSPAiBHU1O_TdvMLICfWaEjZFaUZHZdUM3j07CToYQohW4aeNnBYCeINYanboJHC_jtFwAiDAJhmBWxjdcMLR8NUkOdy1qIGqv9PSQ0z-1YvNmQzEudNIDfFf_ocv3Vfkzz_NLwfQbg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_017c807d886e6130016af0c07a025487d190158f4cf4427584",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 696,
+      "completion_tokens": 120,
+      "total_tokens": 816,
+      "cost": 0.002592,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002592,
+        "upstream_inference_prompt_cost": 0.001392,
+        "upstream_inference_completions_cost": 0.0012
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 69,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002592
+}

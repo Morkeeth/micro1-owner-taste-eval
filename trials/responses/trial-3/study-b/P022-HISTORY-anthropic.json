@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:44:03.126769+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P022",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "113bb0fa7b9dbf2ee1963e56a23210ff5729db3e7a1e7854d2c489d33a9cd747",
+  "reserve_usd": "0.166608",
+  "response": {
+    "id": "gen-1794163438-cC47dTdn3lSxbPC8RYrF",
+    "object": "chat.completion",
+    "created": 1794163438,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"This is a Higgsfield reusable shot, a batch where the owner killed the plain or abstract ideas (cards into folder, terminal into Paris) and kept the charming character or Paris ones. The poster shows a bland white panel with garbled title text and a hollow, empty phone outline, close to what the owner called 'slightly boring with the white panels.' It has no pixel agent and no Paris magic, so a kill seems most likely.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5023,
+      "completion_tokens": 163,
+      "total_tokens": 5186,
+      "cost": 0.023352,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.023352,
+        "upstream_inference_prompt_cost": 0.020092,
+        "upstream_inference_completions_cost": 0.00326
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.023352
+}

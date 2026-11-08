@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:31:27.989593+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P035",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "aa0d28a8014ca3fbd41935c84a1f3f3f560862d1ebed84da0bf74708e14e8737",
+  "reserve_usd": "0.109640",
+  "response": {
+    "id": "gen-1794162682-LeLwg9fUwgETxBiKBrpn",
+    "object": "chat.completion",
+    "created": 1794162682,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The replacement supplies the requested real cmux footage and multi-agent view, matching the owner's enthusiasm for cmux and approval of the six-agent-lanes proposal.\"}",
+          "refusal": null,
+          "reasoning": "**Considering options for content**\n\nI'm thinking about how to make predictions and the need to possibly edit due to a blurred sidebar and a crude joke. The owner’s humor shines through, and I see the real potential in using six lanes. The blurry sidebar does interfere with the content quality. While I could edit my prompt, I also want to respect the owner’s unique humor. So I'll aim for something awesome while recognizing the real request regarding the cmux and the patterns involved.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering options for content**\n\nI'm thinking about how to make predictions and the need to possibly edit due to a blurred sidebar and a crude joke. The owner’s humor shines through, and I see the real potential in using six lanes. The blurry sidebar does interfere with the content quality. While I could edit my prompt, I also want to respect the owner’s unique humor. So I'll aim for something awesome while recognizing the real request regarding the cmux and the patterns involved.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L__ll5kr3TRKCgPaU7gMTUtdW7JdP7_zbbM8TDbtZvuI3qSqsnF3SBILYyzUYDg6M7kEfLveMOpzGfSSIutmae8VUACLuvmcm6hnHC6g1L9c28I3z0tGGRL77JO7DyV96KNN_Lq6sDvgYRj0k-Ybo7AZnuSSniyozZMkYnlbJEkVm24zXdjW3IEHegsQd6iC9hHCXZzsbsP0cVEQAz-l9qy1AEdz9UvhrwIoc12v02EWOcX2iFEIv4aAmAkzPErKspZemYIdc8GJnlmg_iNd5O2ZMv19sMTjfXoPQf4E3D8cjN03Hq6lFceq5uQNo1Cydqjo5M07zNP9w90p0cpc5MvEX6qgL_2cxyiwSntChkap7cz1AfwDg8ketdxMYYuPIeQzWijZoq0Rua_EwYhLv5WCqTQYASBgrDNcUAVA1D1gDTiIQ03z-vCSvbRmUdp8dN79H8ZGXDH30W2NGZyOMPY9pMA-rGArykafnxTfSO4TNbc2DqnxHr8YT6M-5xLdGoVPavOz_nE-kLQ1cUST2CXwUQ4oz15tA9ZxytTIDc13M0btie6cdCb6s6ZqcxUVCF2CjgQE8weJW0AIy2VUEUH6byGHZhXsOkpWVc30XsL5l9LuSKuUlyyoEwkNs_4jHFLFu1qF5omiPShMbPA74H1Q80Ukwzbo1A6Vh_zwpAwSj_4MJLH6vVjmzdhXgq7IDk-mgx4o-yt2z_EjMGXDajmdghPg6t76gtmnrLeKzh78KsEUPJUHEJ1avPWZ938iDZg8HKLSj3kzH62TEGvRI9hbWjkjtFxSd3o3kiw2kTj_2aiaHCeDoe7SJOgVcK6sOI3hSENmGi6Ch8b7DbmWb4TRTpHzyaotjNgfCXHs1L4aNjzhtZrgJo-gZnD1g7cB3cXan9BvDjgxp6Y-EzUZ4s4003gbY_9FMm9bYUCg6l8zcNfULCf4GlPJv4Ia2UvoL0QLmlgFwIiW-glqqaV_JMex9xkLDKHLijE565uJaWjJh73A-yPmjPwY7he6zJW7fGBX4ljcXBWPOQXajkqlOlmsuUuYsgbAtURpNuDizpGPBNu9A3brrfPlXaMfLXgbZyoJhbsv_2chteRbIhPuOIyuzJZMrTqsVdt7kbFoTIiIwrRyQNkOE2As8LMGervrstjhrKLh_wwFmhhodeQvR0ovz8hOPla4HQ_5LMPm7dVnlOrOAEnWIxrnY9HOu6oFXAcfkDNZpSvmWZzUicdyLPD549RqZ-S_ovVCTIqNHTEQhfexcWhz0-EtYffFTFAyU6NbRt-L6x7oYrTQYl3-TYlKmCPIIsxwAVJo914Osfyr4j7-jPgWLGj0K4zwuJcEWsWihvIO4Sop4KlJTrN9AUjQYG2aYsDd-YcOl7YuuqPdEvyn9XrFkDyYAJ_NHSUbxEVBTNk2zN1Ffpp50kz4R4wJRCBcedTtf3VXjl19h8NNW6Wb0Thxfq13OuL0jgjqMnb8JHGgwIedzkRmeGc7t109djrVwdFXx5tx3tSUFdzVvnyi700XMaObE7vYn1VNaCOWZxLIaoXDTTn_7HSK9HN1zvwi_XJ49Oi1SSfz_NLjqDIR_c0IdmJzkjck3cgAjnp_eVGOJaqibobf_LXjOcUYwEmFc2ItRt12Y4z6Pkw4vtLD_tGcktNqAS4bet6TSOfSfLnGQemTDudqizKddfdIiy3foJ28uxRMB6tVkKwN5wSfZSdq9lQ9wOp7RWq3w7a84OACT14G1V_gJJIsmolNVqY4chocYwQedrHOzsAxkH10gJiPAghHm8NOenfrHI-grF1K_XdOQXRI7ak0OTybl-X0ezBvyGRrO9fNnGNgY3Jgy2FMwCG_FTQ-_w4sW7UAjllWigdhLuMUZlH0TkBZB7jr9lfCNiI974mBPUw8q_yeNKM2B3kWyd4v1DXoc0TuT60ZkgJebxmM5flGrOLoxDwaqWeTq90x0gLR7iK708k7jAZi5ASGmcLzfHFBC315tH5RA_89hYbRpWckUqy62lg3qisobEHZNPiqSkQLeKoey7CuUi7ibVxzW9hBKVab7u7a9EvPkbtpHmV0Gki5UiTDbxmZp63eKDMxOLVMkTCM0s7H8qBiYtjDmwjZSLM_NzPJn2Ha7vI-9XYkGZT_xmlR7ZQkTYgdx4RQ6IMD_6bbd6f__ZkP8y45Kn0pUQDImJll8U8RDJFJKm8B5rXTOADQVeMHdWee1earevBIdV65uW-5NmYykCGT0xrbvd33S28biLIs_LzKvn1uFTATEIVYh9dB-iVPgnPfPE6zkD66XPnlZOzafQygCR0cSkxC396-H2Fu5l_2lIcDUQNjpUk2R1AiUz7i4DzUUNo1rsIhclGueMDVkS-ZhQVVqH1ZwkLonHuSl3TWQkIU2904xPl0gBuiquVAxAdXTNpbVfyeEOfF33PqH4EaFDK28E5Gig_43BxVKBsJa2XexiMzK-b2z6OJTJL4GdWK-dDwSal6QoGbZCIF8WXj7TtfyQFJYAY_-ELP4ZUJeRdSdyrTZg0I-FHBKylVoNyHoKPe8Tdhc61jvM71WVIqCw6j7_XGIqXOn62ydBWYzzPDH0ZC5DUmCR-V42iV0l7x45kJRbvypA2jW_2fT17kOGzWNz6IQdqdkv2qZ-SROq8rwQNtfFEySjrFlmFBdIRWTs_NNSEMF6Chu_F7d1mSbIEaTxHWCil2iaAlWAzmJdiWBvrTGZeGhF4PDpX3gukPQMeiQ96UEFqgebKRFXbRTCkD3Pj7ndHNSnScWsdvoP10AT-OHvwmiaGk2DDypOAA0_bkcmIfHq9a0jOdPM3Hp_NTz0OA1FFMamaHKARQjeRFoUJig==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0d3c7124c63161c8016af0bffbef1487d1825e850f6a95758e",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4870,
+      "completion_tokens": 131,
+      "total_tokens": 5001,
+      "cost": 0.0134835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4867,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0134835,
+        "upstream_inference_prompt_cost": 0.0121735,
+        "upstream_inference_completions_cost": 0.00131
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 78,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0134835
+}

@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:34:09.761503+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C020",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "459a92a0e1127db2db391b9a749b120d6d6ad4e17817c215be34ec305302961e",
+  "reserve_usd": "0.098936",
+  "response": {
+    "id": "gen-1794162846-MITgmUFu9mvtM0EPD9DG",
+    "object": "chat.completion",
+    "created": 1794162846,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The owner's earlier note says this one needs to be longer, with more fun animations about tokens. That asks for added material rather than a trim or a fix, which fits NEEDS NEW CONTENT. The poster shows a single odometer and a breakdown chart, consistent with a short, thin piece.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1919,
+      "completion_tokens": 121,
+      "total_tokens": 2040,
+      "cost": 0.010096,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010096,
+        "upstream_inference_prompt_cost": 0.007676,
+        "upstream_inference_completions_cost": 0.00242
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010096
+}

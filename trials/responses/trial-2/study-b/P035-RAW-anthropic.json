@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:25:48.802740+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P035",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "7db59be9abc1240ba1ff214bbea10137a3dc5c137c2f0ee8fb22779304b2409a",
+  "reserve_usd": "0.099752",
+  "response": {
+    "id": "gen-1794162342-esEXh5dmyMOEjmHTJjeG",
+    "object": "chat.completion",
+    "created": 1794162342,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The real recording delivers the requested new content, so a full redo seems unlikely. Small fixes still look likely: the crude 'asscracks' prompt line is legible, and the sidebar is blurred so heavily that the 'every agent in one sidebar' idea barely shows. Those point to targeted edits rather than approval as is.\"}",
+          "refusal": null,
+          "reasoning": "The recording is the owner's own, and the crude \"asscracks\" joke is visible in it. The sidebar is blurred so heavily that the \"every agent in one sidebar\" point is lost, which undercuts the title. I'm leaning toward recommending an edit: either cover the joke or reduce the blur, though the owner might actually like their own joke.\n\nLeaning toward EDIT and dropping \"IT\" from the plan.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The recording is the owner's own, and the crude \"asscracks\" joke is visible in it. The sidebar is blurred so heavily that the \"every agent in one sidebar\" point is lost, which undercuts the title. I'm leaning toward recommending an edit: either cover the joke or reduce the blur, though the owner might actually like their own joke.\n\nLeaning toward EDIT and dropping \"IT\" from the plan.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSrggKEAgTGAI4AUIIdGhpbmtpbmcSDJcAgJnfeBsDAAKHDxoM6/huiYkDOXpqM9s4IjAQeVo2XFVlPKyJKfXUmWpn4kLF8WgH/jU0VJC+R3EiiTewXXdZRPPtlyNQ1LlNKSQqywfiLgEWrOQgxeGt/Mbd4Ui07HCZi0udiqS9EincRhwMxQAujlbrB/9CIG2pXvqDCsqP7CeskdeNK0QqRWQ3ue4cTqXYQgWW52TtEs417/9fG6eYWnfCWe9pQv0yNB0zYMnqtA2wUHSuj/gy5kheZLgyrlyyjiq+8yIfC1XJOSK9IBYgiTG7cw1FvHZ1S5pH2K/lTypbPtjK9cY7pFlpIcBzCpn5+yMfGv5K/v5MTAFHEaffxhr98/FK5/pPqi4vyJGcgFUCJsB6qHrB2Qx+pSFqgsW+qEZXRhQzgIj+Ulr60QvgsAK+cppT5XAVjHsP4Z3LgItFsoP7zEHWylLvB8KSBdaUL5xKuY1DthDyg313t4bxI5spqTFcmJnSFWUWOcmD9wW9q886Gc2KxYksvSzvV/X/yfOhvDreEgqJCh1hhK8d76XlyaSAk8f2Yp/DIbg5Lp6HCdMMvx6Kehg9Y1K7NXSvjbJN/1nJ1OtQPi83KVWE8omGu33nzQgI2fXPfboPl3gU/w+y6fugZFs4WDLE9UwC/JtcQ8i9d6StwfUOB1Q21hmK5puMQWnDGgbPv1iykt3Ooc1kdfJVO/yJOP5j2tXG4ApVX1ffcPYyJHvc+soJi5KontiYdEDYI1TYaS34+alzvxO7fhXlLMlHncSiZFhp4iI/+OYkUS5yKwU59vky0KmZK/kBDDVxWbEnCUOuVvzONQs8mMkoNl/UUXwNc3jbaKQ35cw8aCm3D13VO1bUdQiGMVdzqsOKWWrFiW36qx0duhjIcYrLxfLfTVhMjxO2z5+dY/6IG2g1olfnBd8z7qgOLJUpGX87OslXzK0c7x+dijGXmHM1CRvGLqgNAUiaT2ACSOHmA8JqPoYe6gwgtnN1F5PcpWSdiT4pscrwjjlPZob7y2+UXnOjlTKtc6+ReEk+ySFfYzrH0WvFgV2hhk0L6/ZDdCmW8qYrxrZQF7iDlEX1C0MPurS3qu+gWpBG129X0ofOUqmKOa3ST930UZOfBWeFLaILUVAYa7e/aDMN5lMlwZGHyeSuKtwjtg8D4I2qT/fdfh/pD8m8yozMULbfxjpPDHYVxxGAfoUPHYE2S/nIKWSW2gubLyeiAcWyHy0VFXe0ioTFOyaHur8qngN+24dbIbhDrmMjvG5IM8M+W9hjXeoBqYp6TsdfR7HyXCBe54DS2BUn6z0jTYvv96CIckG0MdSauH3lGH2KVATYZCNlmlr1opQq38dWfQfayFwBI/W9ePNdaYh3SKbeBVMqGpMh/SnAR+l4Y6zXjHP15Mo1yRb4VBgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3441,
+      "completion_tokens": 285,
+      "total_tokens": 3726,
+      "cost": 0.019464,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.019464,
+        "upstream_inference_prompt_cost": 0.013764,
+        "upstream_inference_completions_cost": 0.0057
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 156,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.019464
+}

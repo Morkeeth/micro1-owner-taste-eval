@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:33:43.359308+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C016",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "105b7df21a430e1d07e9c0b7564827da2870e70b9c89c92b22bc54f73de28e8b",
+  "reserve_usd": "0.066810",
+  "response": {
+    "id": "gen-1794162819-FRfPpbeVBWmxhGQGAI2g",
+    "object": "chat.completion",
+    "created": 1794162819,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier “Beutiful, great stuff” is the strongest signal of approval, and the poster shows a polished review-panel design with no stated need for revisions.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing positive content**\n\nI need to find some positive and beautiful content to enhance the review interface demo. I think it could use some fresh material, but I want to make sure to focus on the strongest praise. So I’m considering what awesome elements I can highlight while ensuring the overall message remains uplifting. It’s important for me to really emphasize the positive aspects in this revision. Let’s make it look great!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing positive content**\n\nI need to find some positive and beautiful content to enhance the review interface demo. I think it could use some fresh material, but I want to make sure to focus on the strongest praise. So I’m considering what awesome elements I can highlight while ensuring the overall message remains uplifting. It’s important for me to really emphasize the positive aspects in this revision. Let’s make it look great!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MCGE1Jzq9oFeUD_u3rOb_xWqWM2sl11DWKcojayCPa1JxnPwhlJZu0qX-1hf6ZYPOnelnGa78o3kdLAMSGRkJcZ_MTlpMiPTA0E_SjeTuWu80kMyaLOGshwuQfp0OTnpXFl7POpHEJU5qYV5UyjWKoa3PqrsOXvIaOOOBnR7efgI319SzXazuKrktgWyQCeqS5lmGilAyYJSnbtRCuQgkgfP4OvePJ2GOCQRqsMG-ZQxBXByPzjV6pmB8CwC0hMPezTQb8rP15WONH9qeE3wzMLa9jikzXqnbNVLdzojs5JLW_uwkjrlBplLGOMmsfz7NnCeDujTMMtmm2KjX0ln7TpeVEsWDtxvpATazykOck9Nxpe7UyYHR0GP2zgxX9uBHalxMgc7v3ku17bLK4fbpdOFMPpcNEubOrYJVNV4C52IsDBMj64ZZoDnkc4Zcj1aVGaZdDGkHRg9yONMe8ncoA0GPQWejVMMvcFBPZMKVoFEOtDCD0qTE0xHNGQyIu1MWZ8s6zdW-oH-I6zeGZbCSB_Ffx64UfRKJQJxBCt-Jn180fEKFDP1d00RqJxr50tLSAsIBM0hBgiuHnAs5hF2lUIFAoEzHvLy1eswZppm2O03zDr1VGqlaqmSjUh8S02pBcr2dT_Pr_WypvLUYW3DJhqATeNtJkRRfBCfInj6pqUsFKAMi2nwJp-ONQJ5xBeg8cMfF4zcE-XF5jvh6tBPpZd3b7oOds-zvH4ZmyMcEmgMQ4WAGHDkLYLp4iuQ4xegLTWrKpveok1CVXm9GXiAVEneI78-rfh-mwUhoZw5CYFmqFyb8zqnpWWMuBPBI_Je1eDbmuN7nO0v4GnHloz533QAo-1sSJSRF-2xis6K1h9KSJdnPekbqUKgTjnBkN9p-C9M3if8C7X4RP695VG0k4wioqyvKfhuGunjrU_d84JGYkNFn3jSgb3_vIFLI98fl_ZeZnmWVFeQTKGfE1lsUFIjWDDYom3rFXxqORVsLILR8xmW8SSxid5rrZJ2wKx7U8tupaTkyuluu46sAEL8OCpTSCWe9OoneIljSmM3n2I5ql_iKwx3wiqQLNuEIOGR2rLY7erT7GSGoWr7mM9Tus-hJjRBkhZdbiSVB-riBkd6C7kYY6mWXlgwY-RO8WOElIXlD21Fi3TrWK_hcvFtGuM5n5XxtDeTIVllV9_cj86tQm9XGpA7B20gVQFnBO6mTBekCqsGkZ8AjJXE78VtPOIHj_8QM-0jV3EFAoyBE4-zrj7diZ4y5_hboUr_bAlCW2-y9hwmI3AcG4E9NePFJyT1TYDC7u5ROKBElSRYHT--8aVbsMjwnbjUPSXAJO1Rb25q0xk-nsKNhPC3JF9zVMm9QDq2Dmg0OnUpwZDuP1MNhMYHgJMoO_LS7XWRqmIlV9jGji8zPhyGM9pJO6vCKwKJcLzfW-jXpwzKfE0A4RHHoyfvF2GyJwltvjoONo8EhmjFYxhgB8r_liTmUI3LFPFJEEYfV1pGxvFy5kgms9tFZSKGzUqqhmpu48dQlyRt0owCWrlEhFOX_Y0bcl5jcc1xsSLF7TycYdArWm3xO6rvKfYulaz5eqwkjtEJUFE_rGlqv4NDoMDHp8PsBt4xPT2ZyWKuBLzVfekhBhIh9BOI52sWDkPb5mBuRwtWYQgRiGxW5ccemULPrTqcQG2dtsv2-nfFexJkFfjVosNU2oJKs1jiWH58W69iZXwayUCA-s54QObJ1uPRUG-y1k4MIKOEedqe1-WiMTtZlb9zaZymhgANe9OIJ0j5Z32uCl58tM2Kn2b58mE4P65fp4WC0DlCknvxVhHNmnlm52oqUmB-FMKc_-4xV5FjYNmbSx8U8EDFRGaNgvJAS-oV8Vxd0hGcKmpa4UuNEKZG6455cs4XMFHxHvHUr41m0Wknr4BDOhcqKwWiIXDQQpnpxSd0o0LST6HrrIelHUQWKw9aqArICVek2WYB8XA-P7qyMJzhmMtcxzYQDyZFxJzilTXEABnEqLftpFKPQBbSBEr-md76G3zdYqpe2bqTnJDEhTpNS1ML7_ukUXW0b2N-lxhH2icHwtP9nE7oyGBSLx7orrAGm8RwoFSBXsBuFYp1P156mBFhJYDdG9sR6isAiYmgxJPHaVIbH6sUCO2_epRQSqZHE9Ld1v7CDrK5kWYBJVf_uiV.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_00727172d02ed013016af0c085369887d191a4bed0ca44bb9a",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1138,
+      "completion_tokens": 85,
+      "total_tokens": 1223,
+      "cost": 0.0036935,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1135,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0036935,
+        "upstream_inference_prompt_cost": 0.0028435,
+        "upstream_inference_completions_cost": 0.00085
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 29,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0036935
+}

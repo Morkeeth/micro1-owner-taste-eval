@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:48:09.662968+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C016",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "a1192bac59b48d0a3e811e27df7e243ada9589c14c531959735d31ca626e256f",
+  "reserve_usd": "0.098704",
+  "response": {
+    "id": "gen-1794163684-tqkOBwJQHE1LYi9M1BRq",
+    "object": "chat.completion",
+    "created": 1794163684,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner earlier praised this work as \\\"Beutiful, great stuff\\\". The poster shows a clean, polished review panel with a distinctive dithered pattern that fits the house style. The demo data could prompt a request for new content, but the positive prior points to approving it for the Shorts pipeline.\"}",
+          "refusal": null,
+          "reasoning": "I'm considering the review panel micro-animation with its demo data and the clean dithered look in the poster. The owner's earlier praise points toward keeping it, but the demo content, which is internal fleet material, might need swapping out for a Short.\n\nI'm weighing whether the demo content, which comes from internal fleet material, needs replacing before this goes out as a Short. The earlier praise still points toward keeping it, so I'm leaning toward using it as is.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm considering the review panel micro-animation with its demo data and the clean dithered look in the poster. The owner's earlier praise points toward keeping it, but the demo content, which is internal fleet material, might need swapping out for a Short.\n\nI'm weighing whether the demo content, which comes from internal fleet material, needs replacing before this goes out as a Short. The earlier praise still points toward keeping it, so I'm leaning toward using it as is.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS8QgKEAgTGAI4AUIIdGhpbmtpbmcSDFjefkP4eQvOoslLHxoMYCYUNl9PW0bD2kBYIjDl1hCJqihfJvVu44/J6O699IhrGobTrpXzlcjguhbj+/Hh4g2bsk5GH4rBhY/hz3Yqjgg/Zid2i+jXqXjp5Hh5rqwQUl/m7woKoqVxP+hTu+RfSb5HZf8bqkFfdTP5EqwRGD2tWfuQ693hWN8AD1gAhMqIpFEEKbd1Nz45tYBnZwzEAp29BRdoTiwkbkxXO0FuIsZide2W5gLpRpqwB+RXZgEe9SCCZA30+z+1bvDnV2ZUBin/VcZA6b5K8L7WTcuSLLzOXSgHNTkJQ93GlxcJBNptWH/cXSpgU77fCA3EJ4H6z6yYLAC+D9Z0fQZbXb8EIY6l3O0xDp/8XHDI3z3TMIaWbj0ubcJl1R/Gmv6gRyoAHFOEvyYYEmSVKXnsRkDsc326tsbbsxOdDQMfBIJukeAF0aKUUcwUhtOPTIIHyhQqjRDJJ771+PI4xbjce3JteT7Xcw555yj5BmyLlUUbYTukFd+pSgNScLppCOjP0YPB5SOlpzLYYdM83NlNj3atFwDs26IVcfEQ57nC5VECLrVHr6+0g2W3ga/2+xFs3aeLj2uSimx1KIzcdT46f/wz2+/KsYOmlKoYUDk+oxC1be2kBLqUMlQr7C4Rtl91IHrB5nEEIAxy2aT2Msg3HyHq99b1I1Nc03SoIJtb5HfqUkIdAOHcw7dWUhiEMymQ/i1Mw8yLPs8jT6OkpADPtJ+GSBsPcr+EtJCq0W+jcSI3YOBHsmwepxhA0U8n/ev/mTuz5asji5hzCS2rItYr/jQlTF9opGoo9Wnx9vx+f8MFkeNMteOmBQkkJ06BeB7oVLn87akOe2F73BGC/mAvMeRqUqGS898szBrlBhUTWt9I3L+taZxmuwhhMSz/vgsMMnBSuogVDavYTqjZ7ulxrtQitWKoU0eO7g56XDC9GucTzLdw9SaK8/3oYUG+uGW2JnTK38s7vXeSEzumo72izR0eSDc0p+qT6ewN0KFn2y7hcybSMU/E9SqyRLFmtWZGs2VaoFaYxENWeaWxgz0fk/mCLNx7SIb0o3SLN+hMpeTaqISo6WBeNn8gpPwufx7bWFc2GKXW6GNHCN7xj795lqUC1VopNmzyo1365YznCoSyYnYQfhcmVBXcMMVrqJiwCJWLZuIsdXuOaI8Di4UbNHf3FuKy0PUvJOlO98sfDanIlHuCYi3ykXWTTnZB2xeK06Gtz7hH8s8RRN4VoA2zceOR7AUwDskZYhiGYzsYbs6mcldVWvlqTHP9eXw6OkeYDpqtYGhPwwLtNySlKpRttE9RAbGe0Lo/GnEQZILxU38Lg6YsR7Q+O2rvS/q0O2YDqHH1FP9XLZ/q637SdXezhuce9sIsPcqTCq57GnJbVhNZfIBLbbIWC02IG4eXP6V6YJ/6aYWcr2i1LytvQtDvxY+cz1ZkUYJdnb2PjGtqnMlE7v3jgrCx2ynt7FDFLm9pLZEYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1575,
+      "completion_tokens": 300,
+      "total_tokens": 1875,
+      "cost": 0.0123,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0123,
+        "upstream_inference_prompt_cost": 0.0063,
+        "upstream_inference_completions_cost": 0.006
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 182,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0123
+}

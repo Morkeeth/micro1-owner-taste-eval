@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:27:45.920042+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P012",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "d6c278f1c57c7e37d054d06475c1ddb2a4788798a261b23215bbdb8c0afa01b6",
+  "reserve_usd": "0.109055",
+  "response": {
+    "id": "gen-1794162461-Kn7cM5kI9QVmmdjv3m2z",
+    "object": "chat.completion",
+    "created": 1794162461,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The plain phone poster and described slow turn resemble the rejected close-object shot more than the lively reusable animations this owner praised. Notification relevance alone likely would not overcome the subdued presentation.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on objects**\n\nI’m figuring out the best way to choose an object. There's one that’s close but could be too similar to another, which is a concern! I want something fresh and exciting, like new white panels. A phone that’s plain might slow down and become forgettable, while a static object can feel boring. I need to present concise reasoning that’s grounded and strong to back up my choice. It feels a bit overwhelming!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on objects**\n\nI’m figuring out the best way to choose an object. There's one that’s close but could be too similar to another, which is a concern! I want something fresh and exciting, like new white panels. A phone that’s plain might slow down and become forgettable, while a static object can feel boring. I need to present concise reasoning that’s grounded and strong to back up my choice. It feels a bit overwhelming!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L8hejjunBtuxxbJac_ZX-FKzBTrC7h7rxvunGYN2ZtPI8g745Evb1B_fN2aABGh6sartw54O73m1e8cvfMHpIhM--kdwOkbYM7q1TND2M-6Uky8tmVkzky83zRfbCMurgmGelHE77R-U3GPQ5Hlw7D_Hn7Qvq8JDEPFtIwgRor5K6eW5pvAayn_z0iCmyaVg9-A_yY4EpJTT5v0yu_0aMablUDvPWgfPHfgkZUbmkY3hmrXjYw3WXXcp4OUm9jpUZhBjSTP1qdj-u7KRSF5pWBd84Pvkg3NJIZoWHT5dyqORUnPduO8cmBrbUD3wXuikgLXgCXRbFeQbdMBbdtqmWnQw4Q7rZp-8Y404OCHbvn3HCQXSQ5UP6UADhdEjFRejBovk-6ARaMsV5gB5zGs1GxjUqQsOrm2W73wWz783Hohl3WmH7T43t3KrblJxbkpHBzn0u004QlwtVy9YXdtBAKxvv7E_Q53ywQ-V2TRmQEfRgIf2tKBIqIwG-hK6LjqkkJyq_fYxBimQxWSrxXCSeP0PNMuCJZFEIR5Hee4Cb2wOYievsWiXYAU8BwV-jaCyFy3xIGc3KyjtEMWLU8XA-44qJ_Zi5k778Ea2JJS93BUrzCByqKjmlo9HGMa6CWjLJCO4TIOidg73v5rhZ47e7D2oH-IrhpaQjp5zg6Hwid7jdOvj3xjpRh31HIxl6Fd6p_b0DPNpMFPbFAWRMzFzkHHzazqGNG3lhrWHLaoIKv1ECqqnU3olQptmXrVXdSvQbcjFDKw8gWtIE0VbCHsL1iT8bq7l_VL7hxada1TtYbHgQXFUpgZg4ZzEUJhWHXR3Hbq79ZBg0b-ehn-1P-T5RIU6yNRJR4M1wSDVeJSywLbQWXkrGhyZhA6TBIqao3axWRp75-J3syBxumtKYR7KJkxuMmweAMPFtebZOMIZ5jysCDA-UY2v2ps4IVUXoierHhXu2cBN8KfiOfCHndU-sqa_pjey-Lv-oGUMdKp-PiotcybuH3UqxAJPGf5F9PRm3zPGFs0JkNjcHdmzpsAgJQVKit_DV1sadmfBegHn-IwK2y-AdLV8VPWRJsuliTyPWzhX8Y2_659nw9bEnmllCntW1U7CY3HDS6zgg3GkP6wBJluNy39eJjV8Ib7uM43opqo3Xyy23IK1IOBwo7ryw6Dzr_QMJ23zeKFJkstsbuBvCT7xcCfb9Iw960pqeK7d4u2U8vXrzN8hzXvm0EqA7bMFAS_vr0k4GQGwiftEPamU-gGWCYlyM2YlAHWXDfJ_BXidEjrF9tDyujKJRt6HBUOG7vOSWp0sR9jKa_7eLRD5Z2k1u4XevdXvuCyAwkjNplSlOq59F5VfN3rfIfaXmhbmegtZZYcVZVhEKX--Ry2YEw6BlCSeapk4o9u1SuA3hbyPRgW7H8FfgGzOW8D8bK-TKXAWtXT8VZ5KOuy638ZYKarhjW07taZneP_UJge7Ub04u9rWCHamS_ys8k13ZV0xg-hlCkoh8kSawq3ez47paKDcRy8ZHFvXAKlwM3JTayFkyRJFp57xKrygJuY4bSHrXzmXefxAvjaOtiwl-_79GQ01xJgRZeq9H0LxePJWMJiMOaTJTqcQ97CRSfqVk2KTGN7Cd2Y6mhpxNBUljBThF2L70F0f1VgGpv1JhA3lO85jXBTmZ1RSvTfi4UEePmsUkUUpxCvHNCx8iWWa-6lBsUVd-SrOCBbB4EKKjHyBNF5I3wZtFM2De1PgLGwk4kd6KMADrT88tMTjSaRLtEzjn-BglgxwNY8FZzvHT9-C-lAUGaqoD3DSk4gZIJhjtdYkYzGZQpW8qH7wPuOXhX04lZXAgKWZ9o82XbVtLyH9cwe6JrAUrH3FK2b-i_VimKXNGC0xc6O5lK5IDcKzc5poDuaPAiS0l11v31rwP2BkPGoHa1YNouBAuHF3MwyPppoIfvKBitoNODfgzHme71JypMUWGQZlRRlr_2rKIs7I9dfekEEQu3xHOWpEuNeeJBxxB-RRp2Y5nAVI5hhms4piHALrbVz7AS1evXRQHZAl071KCGAeovachXeNeSsPlHqJLPCaVjor9-K3TSejlsE0-vL8iba2JiUkL7P7LcH6_QQhE3Wl7EWu-fJqJ1fh7TIiQnemzZFAb4-3SY5HpcJ_CkT96C5gB1GmXwSLakxX7IIfpPjljaa_7xjS2gxsKCqv79teqDhifNuWSJ2AxgADcjj57w1UaF14zrOokjXwUlEkwkHyhLbC4r4z9IIVNc6ntvSXdG2oq_ple1vpPTD36IqHsDpZWVvc6OqXmvDrlbcrOHhmaORjbBF7UItcic19dEmHX0lnUbd1HseOmyjit3AATYBFEKq32FdHOhUEVDCKgKo0w4VxTWp6YQSA0osmtbSW5VN5XKA8JpSCzfpvWf9_qVltIF-dZTJWxldfPxn.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_03aece1158b0e323016af0bf1eefac87d181ad436afb756892",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3494,
+      "completion_tokens": 104,
+      "total_tokens": 3598,
+      "cost": 0.0097735,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3491,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0097735,
+        "upstream_inference_prompt_cost": 0.0087335,
+        "upstream_inference_completions_cost": 0.00104
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 48,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0097735
+}

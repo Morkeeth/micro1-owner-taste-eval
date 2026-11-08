@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:47:43.009099+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C013",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "89f4076262999c5b9dd4423ce1f28b61cef6534017449ad4424873bef7cf3200",
+  "reserve_usd": "0.098640",
+  "response": {
+    "id": "gen-1794163658-Li6az8bo88rF4RZX12m2",
+    "object": "chat.completion",
+    "created": 1794163658,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The still shows a coherent 'Design Daily · A page a day' thumbnail grid with one item highlighted, so the concept seems usable. But the grid is small and crammed into the top-left corner, and the thumbnails would be hard to read in a vertical Short. That points to rework, not outright use or removal.\"}",
+          "refusal": null,
+          "reasoning": "The poster overlay reads \"Design Daily · A page a day\" over a grid of thumbnails, with one highlighted. It looks reasonably polished but small in the top-left, so the text might be hard to read on Shorts. Given how owners usually decide on batches like this, I'd lean toward editing it rather than killing it.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster overlay reads \"Design Daily · A page a day\" over a grid of thumbnails, with one highlighted. It looks reasonably polished but small in the top-left, so the text might be hard to read on Shorts. Given how owners usually decide on batches like this, I'd lean toward editing it rather than killing it.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSjwgKEAgTGAI4AUIIdGhpbmtpbmcSDCSYOSlyC589FJOofhoM12e+Du1SjzznN+O7IjAYnGKkEPtWj/PSOhcXRxe9alzeQKpDgYEEcDn8WUN9nKzSSS4FE0z52ycyPHacXyYqrAd/WEky7+79uorUvKOGgFrseNeNNGZaR9YloaQiGzu8oeco5TNEuPipOIU1WL6cVhEkn4tnuRbT++R7USbYEXhfW0YKN2uAjhvyizS1plb6OUAznkSbxWW7iYvxFbmJmQEHQ2FA1rKoCyoOxGhD4NIbOerVAnSIt3v8HJc/plX2+v37MOX+jPPJK0C4I3z5v50jzjNFRuTt+ReB0brw/ujiN4JmtkX5zcuQoJMcZj5HA9cFxDG3VlUgyMciwEV1Q8ja8A7LskZXgxk09MLndXOwq93eWT6z+d3XlGOwAgeq9nuFvlAbKql2Hyc1rPoN4Ky8EwQxPI2LjInELYJ8R5g4cyjIdK7CT5eIkPHUW5iBIVfA59kaP6NMX21fULD8cKvNVIapkw+09Cl1Y3FcBpBPUjw01b5elyKafKAkuPyUyWJej8+OutjuFMOAheyFn0cbYY0f4sHp8uYEceEgoNZsLI0VOt6t5RthX8bFpmkp3rhnlvkLzFnrbP4UyPzptCYqVUAG1V7kq2n2Z/JGEt73SAHfcsZX2t6pCzlu43FmmZwgSX+gZF2SYGurPWzpvC5jfzEoPZE45mhRPb17c8jwTzOTFE0oJz9htahOK8+g3wfCNFBjJpUWlZksiD3FiEdmLg2QSnlUhvUpDoDBxAnTIhbdL3NdtNtNwFMxFlrWQEwGJg3Gbn6LdIewIetkBVfIsekMxV8FOlcG0Tkz2jKKZCQmOocp6XSU92gcpnZa9/6LJjPcyYqhr75LW27O2H1pfPDoCzICyHaIphwqFxrZbHdmfmy+tuMXvWooBqQ4G9THKItftAJZaOS+MMMnL6Jdl7kkPdqG/jzKzHkS85NGysvRRhyJsLOaigxAZfBRYvxG/E6KW2rgTZad1oKu60ShZNRRX47G74rwQfo5Hv6bK2h0PvrapvblS0UYJnlCeZEyhORpjXaHlDZ+VKPOUH4typS6EEqQ8azS4cyrWcoPuADwuq4iW7woSOGmvd1kYJWSo2vJ6pnvChONnQvIavqMQ1YjqhgP4PWNYju7VSomq/XByNKYOmqC59+eEd9Dn9LIZvKUMfharL4MnBGv54N3Un8I3yU/zufWJKK3Wm6EUjKhhYCxAwCr7Tarp3Hk50tetxXHCmMJ3LNc8RQyoCKJSghl8taIojCeFbyHAjE/84PnBG3uG4PEH9ILuHzTOqGtUX41nkfW3Fqh1BUzKqo2bNKbrSKs3px5mOdsI/QbWb/Qhfc4Ru9/xBO3GAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1091,
+      "completion_tokens": 271,
+      "total_tokens": 1362,
+      "cost": 0.009784,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009784,
+        "upstream_inference_prompt_cost": 0.004364,
+        "upstream_inference_completions_cost": 0.00542
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 149,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009784
+}

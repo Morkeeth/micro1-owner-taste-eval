@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:28:07.425693+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P014",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "5c3fbf80fd36767a867b4e0726e783a9f32295424583bd09cc8abaa518048c56",
+  "reserve_usd": "0.165904",
+  "response": {
+    "id": "gen-1794162479-JfmB8DtI5D5uFvP2XcKg",
+    "object": "chat.completion",
+    "created": 1794162479,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster is a plain white panel with two flat bars, which matches what the owner has called boring white panels. In this reusable-shot batch the owner either loved the cinematic transformations or killed the weaker ones. Weekly limits is a core topic, but they already rated 'Two limits, one runner' 5/5, so this simpler bar loop likely adds little.\"}",
+          "refusal": null,
+          "reasoning": "Weekly limits is a core topic the owner asked for, but this is a fairly plain white panel, and the owner has said they dislike boring white panels. The earlier batch had more variety, and this one is just simple bars, so it may need an edit or new content. The video looks AI-generated with bars that seem to breathe.\n\nThe plain white panel doesn't fit, since the owner has said they dislike those, and the reusable-shot options are awesome, edit, or kill, with no \"needs new content\" option. A boring panel most likely lands on kill, so I'll go with that.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "Weekly limits is a core topic the owner asked for, but this is a fairly plain white panel, and the owner has said they dislike boring white panels. The earlier batch had more variety, and this one is just simple bars, so it may need an edit or new content. The video looks AI-generated with bars that seem to breathe.\n\nThe plain white panel doesn't fit, since the owner has said they dislike those, and the reusable-shot options are awesome, edit, or kill, with no \"needs new content\" option. A boring panel most likely lands on kill, so I'll go with that.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4992,
+      "completion_tokens": 509,
+      "total_tokens": 5501,
+      "cost": 0.030148,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.030148,
+        "upstream_inference_prompt_cost": 0.019968,
+        "upstream_inference_completions_cost": 0.01018
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 372,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.030148
+}

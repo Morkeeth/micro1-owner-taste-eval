@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:35:27.830262+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C029",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "a5eeb3ce8ee44a1ffd32aeb5e310f621b6b75fcf561e86844d8444cf1eca14b1",
+  "reserve_usd": "0.099192",
+  "response": {
+    "id": "gen-1794162924-WFSSG7ZYKZdBftnSa1hz",
+    "object": "chat.completion",
+    "created": 1794162924,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The shot is clean and on-brand: a document card with a wing flies toward the blue folder, made from their own graphics. It delivers one of the six reusable shots the owner asked for. The caveats (a hard-to-see bounce, upscaling, placeholder sound) are minor and can be handled in the edit, so the owner most likely accepted it as recommended.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1925,
+      "completion_tokens": 138,
+      "total_tokens": 2063,
+      "cost": 0.01046,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01046,
+        "upstream_inference_prompt_cost": 0.0077,
+        "upstream_inference_completions_cost": 0.00276
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01046
+}

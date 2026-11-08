@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:23:59.119978+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P021",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "78d8b3dbf0f6b3bacc5ab1b30d261a2a93910317b0063a4ace69b573f2445e23",
+  "reserve_usd": "0.098840",
+  "response": {
+    "id": "gen-1794162233-WoPThgRoLhs75aOpoCb0",
+    "object": "chat.completion",
+    "created": 1794162233,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This second take reads clearly in the poster. 'episodes' and 'music' are legible, 'transcripts' is only slightly warped, and the labels-into-drawer idea comes across simply. The recommendation also says it pairs with the index lookup shot, so the owner likely kept it despite the plain drawer.\"}",
+          "refusal": null,
+          "reasoning": "The poster's labels look slightly garbled, with \"transcripts\" appearing wobbly, and the drawer reads as a flat beige box with an odd handle hole rather than wood. The \"second take\" wording hints the first attempt had problems, though the text is mostly readable. I'm leaning toward AWESOME, but I'm still weighing the AI text artifacts.\n\nI'm checking whether \"transcripts\" looks warped enough to matter, since owners of these pipelines tend to be strict about garbled text. \"episodes\" and \"music\" read fine, so I'll go with AWESOME.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster's labels look slightly garbled, with \"transcripts\" appearing wobbly, and the drawer reads as a flat beige box with an odd handle hole rather than wood. The \"second take\" wording hints the first attempt had problems, though the text is mostly readable. I'm leaning toward AWESOME, but I'm still weighing the AI text artifacts.\n\nI'm checking whether \"transcripts\" looks warped enough to matter, since owners of these pipelines tend to be strict about garbled text. \"episodes\" and \"music\" read fine, so I'll go with AWESOME.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSrgkKEAgTGAI4AUIIdGhpbmtpbmcSDMXAeWpEG1+Jlod0jhoMOAMP3/CBwaRMd8N6IjAWFqCYkkwBrxQ6mQ0DsA+n19aabOZIWUcdHhr3wFOJ1gmbWATE8RI6r7aJwIkyfqEqywia8PBMLvdvdUskTMk8ZxmdEciG0zstCgM6LIp4xl+iz9pqml9oRZGXoPKUoQVE3/8ZRtN2u0Cy/c9riFFVeRHwM4xrzyJ608cE60tnWmL/DO6X0dnNTu0JT1J1up2UWiCbWxnOAkEq8IsW8NgCOrmJo2Sfo/sCfTKGQyZrcZ20tsrJFAmgQcVY9gipTzLbZ9PZ3vCzDt2+6FRXJdIznXm2q6JzXoW+wc1naPkjbvtKqu+CRxu2bJ5Stt022jyOpe5744L2h0EJtE5N1YXaZXeZhtYOgntJu9RugX6DwYOhE5DSVLLgnqI74tBQ6jYzunPpDqLHKhRCIVrV+nC9qBEtliPX+Qh1sL3Jq3brnTyrL2qBRJSwkVUaZoJnxkogt1K4bSGKWqoSCuiBWp85wYFnpUDwqwjLDFW6oce4W9bDCtltNlg+3FqhkyIwPZHx9hbyhYKr5AcMj0zYaS5e6u3zTRtd6FJJyK+qIj8Rn2iooSgYC+GuMNEtb57LJkM8u12xtKXup8CdTEFiio921fZkSVqB9U7St6lOzPRI9a9dJmm5Dk06vJBsG3jmbh0IUgSQHP+hk4qEcLFrVIZE0OmvS+FyzO4ATi4D/2Im9F7MPqcQcWt1w9dVZ1lP+rlADvktlIjSGG/7vT+uWmWenFvhqaFDWVtqqHKZ8/foxM/DoSHQNrFSug38EvNJFh0V+paFYore7jhczvYQx3bHklmFASWFwq5SwiWwD0UJbgR9w5tEW1XV/pRTmt7ycUF6Z3ieU8Yj79pVgauuqJcxKgv03YhOCKmYXnhb3ubwbiH7DvXv2qjJEf+3YTojEx4sUjS8nzQOABwahSl1fX0nmy+RF0t8IOFU0UMHz7lSpzJ5GtbVrF7kv1Rf4i7FpAACMVf+pZazkGpm7WOBWA6X2bRQ8Rux9G2Jvt2g1ep64L5c+bBBNLh3sfLuO9tfYew0aNaEo7R78syL0Wm7d92VdG0X+x2VQjPtTv+Ot+drt0rXicUlg3HbprAxpXgvCvN42Rts518HS9///yY0WRz4AYQkn4jmin/Q/2RxIs2oewGfE0QDBbj9fvHTxFYYcOBgPTmAXjH3azqdyP3JXJdTkb0B8MdphZWayf8tar7kJrncJXvMWUNmhBm57GiCmcTf7b1ZnJhXZ4nplsCUfysw+z3LpUQ/q4+bAhN217LJHWJHUP2g1JkhWs1Jr11ZQjGXu0q21YZm0x4AQz0TkE8H7Rcf3l2dRbXrQWZRjeFk4Qq7M8ao4O11VJVWCPHoixnBu33jrLS7BhLqRTRJpgyhk5cn96llmojJDhzZ0qgW/5dX3rpiIiiGSH2vbG/QUsC5lwQEJuB7thmgxxzXR7YGMLhAfRpbQbvsNMtQMK5KjwCOHLYC9/wl9edzx82C/as6L5/54lulCZeG+ED2MZ5IShWZRI+nKzw20I/rFLe8kK3IDNGbrga4mftDFjw5GAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1923,
+      "completion_tokens": 338,
+      "total_tokens": 2261,
+      "cost": 0.014452,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.014452,
+        "upstream_inference_prompt_cost": 0.007692,
+        "upstream_inference_completions_cost": 0.00676
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 215,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.014452
+}

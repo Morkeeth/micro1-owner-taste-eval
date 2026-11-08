@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:38:51.306691+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P021",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "dc2e24741abb7eac089ae75de042fece524e338d235dcfa8a8631ff2516c4889",
+  "reserve_usd": "0.066895",
+  "response": {
+    "id": "gen-1794163124-V3vkaFda714dWHDLXaza",
+    "object": "chat.completion",
+    "created": 1794163124,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster presents a clean, recognizable index-drawer concept with visible category labels, supporting the card’s recommendation as a reusable companion to the lookup shot.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on poster labeling**\n\nI need to choose an approach for labeling the poster. The transcripts look somewhat mangled but still readable when rotated. I'm leaning towards a plain box instead of a wooden one. My typical tasks involve making positive recommendations versus pointing out defects, but I really need to ground my thinking and not overanalyze. A strong, readable, clean, and minimal design will fit its use. I might need to edit due to a duplicate index from a second take, but there’s no evidence of the owner. It needs to be an awesome, reusable, clear concept.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on poster labeling**\n\nI need to choose an approach for labeling the poster. The transcripts look somewhat mangled but still readable when rotated. I'm leaning towards a plain box instead of a wooden one. My typical tasks involve making positive recommendations versus pointing out defects, but I really need to ground my thinking and not overanalyze. A strong, readable, clean, and minimal design will fit its use. I might need to edit due to a duplicate index from a second take, but there’s no evidence of the owner. It needs to be an awesome, reusable, clear concept.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MG6UjkFnvWHMOm_khpB-8Cye9m0LxUWkZlYlGV-qONwV1WXqCzz9tkbfbP6fDzqZEeQdi9aaSNo3jGKwHi82peAWQyIEkVJgdsyYjJwygt-fJSykZgpaNzHkJ4Y44bgwp7sJZSIIyHuFKnQEFwz-c-ZrivCeAxJ483pIDy0bHQU8s3aikm0uZkKCU3-iW7DVWHz4FQfGVnM-y06XJ_v_krZR9ljCkLhnQSl3P5FizglW1LBak5GlwRUBQrxJag1rDHRnkw4dL3myUe9rHVLorDuGbJo0kDWGBXh-pQ6Z4Yzn0iWb1PQhdlEphp2EZrwEdSk6S3l6NrJ0uYH-SUtBpXbvCNlt4D8123kksLRVc8BF5QsuTm-ws42koN7FBAFlPRl3m8w0LK9yFTd1F_DbmGk7Y8G0rxwwIDkPJZybzRVU_oGA2sc_aqMjU8M49-vn85-TqGbFStMPNZUMo3i4LXnbF-OBXpbGcm54ZZVSWrzUIa5g18tP_5Nb0bQL6jVFJU1myACT5_BLXUkYsIr0oV5BD7kMzmX_jSP8HSDhrvYhUb4CAheN3-diJCRBapLf0WmyfoNMJBssYDFF6uXBL6mzi3GS3UXWmG25UiIvOUgYxTABXS-PCj1zzyH9X2Nq87_7-IAw1tnLWcvY3TEeSVjO6SZppxfKMd3aBjQxu0fP7azt462IzNcGI4S0ehAoDnCXpI7HNgDNMmguGNGTww9FU7jK9tkLw1v1M3q3KVsAuDFZEXMn_NSGvbXetu6Gqxss9ceK5nHags9b_zvRDEqxeKRK5epMpWsxHy_CrFQX0H_t_txKZd3uEbUYInKZ4EOKnvbb8cmvwkmXttRTyAUjTWJuijXbRiq4g8ndSrE-gDy6isHI3TFDzpzSJ1A40HkZJLWLj_1HRuzqD4655SomTpRQp0ekg8JlYAmwIRD3Kf1oWkyk_4ltcev2W2W8BbXdoJph-nZq4T6lb-vM4L0bbHYRC7DNvY0YjzhGvSqFiGM9D65W9JrSHXfr23YGMaQdDgo5k_crwUTZ7L4iIgPjgU71d8xoP_nm9a1a3aXOlnafQxjFZ-vbb32KV2HAInfpnOhp1s65Unevp72zwkQf8jqO-RuMx8J2mF9U5yAb_obGXxRse0iZ1l5fBO9h7bVUJpl8l3GEgxW3SRhtZw9hpk1gKV9iCiiJ63-LNcvPbvRyqjwm0tNA6qfq2OOvAdm_QfsqmdVb2r8gufEqKWcr9PtZFDyQLfH8rQ2vyu7EEoABVFPXO-oa92l8b1LfpLlEjmcCjxeBcepOC1rgSchQDCxCMpWj-9aQpJIHGNrznf2wi5iP49kXpjICAkRTGNy6dM6EJZtrpdKxzC5exog0D7kIqaJCYvm0zrQG9_PVHFviwbDYF3Ztls5XFmyJtpo43tFiEujpNU5deZ1P8XZS7-JLsu0A-71liLNofeg0ruHPFKqk3TAkyYiIPwk3qmUZfSqbeoY4JX1MKLc94MKXdqqKGK6eGxia56eegPiK9UWXF0qCojY-S5fRHbGC2ojwtWt5U6oXlmFwY2-0vwxijPk4pXhuuN0lwdD0ZTddUZTZNir9u4dmeNapbGVTKvI0OU1oMRAlctoGapG5hXowSIg81NEJu82vcxG2SoV8J5_sVyXXGaMJBiTlybs8j12I-F8AS0KuOXEZaOnvZqLtQZZDco_2VkyJzMutzeaq9HHhhL4P3ZT_KduYSu6k-ebmAd0W41jKIXFa0-ePpOOv_ExWV8cjleABDp0QHyE2hLhLmq6z-4ksak44TXS9SjngHuQLLxx7Rr5hL76y6L9IfkW7HcqoWlvDiHbogc2d-p5oxRCau2fMgM6sEIqeRz7PSQgerP8XVeUpuxUIjTvXQvlx56syD9kJpOlvtkEXncPEPiaVy0Zq1sztiDFSX4XWzX39UJw3XFDrqCe2P12NesxlLtXHalrB9P5F5zNHNqgu98gFqRNTa54vnFpGmoQsMlppSbctLzpJfEBNPJUgrvct9VTYAAZMARFEJmekVOOnvCJ95HlwJycP_te7gSxXIKOUYNfXoVXEJAfpjQi2evQpyHGzXR-krMFwmhGqUwe9GuqCr5R3S3fc_TkjYMB_8-PS_cJdDm4j7OQrN5JCefmbfYdJkTZ7xXMvz4crGmaOCMjnMeE_flidWqhME6js6am6T6Ykv1QVp4iy1ksoFybcA26AYVTQT8fd0I2ZciN5JAmeAaYUZwkjT6dOpi2GebStYa3Wh72ejki168c_X8z5BI2StHmpJb_d_wHaGtfbiZ8Li1lc253JuKL6vxezoMkrZRAgr5NiX3AsY0c87RHFToQz1Abf8lYI7ywoXnoIgBbyOKGmrL1vgtmSaqzVCyGgsC_fc2WxZEpzy9iJ8zXkKiUMgSf6gKvZitqCusfvR2C9H-XxF2YwFiprsRVwQQjN1Ult_SHj9KO6Wc8aLlXJpyvfFzi40zZxidWitkmKIRliwJjY_1XgftsSRGXJIwgV_3QVZ-Tq4PD_65Qg9FGweC4HsEbNjkmlOuYSXVJLxuDCWNWhxdPSOkiYMK-uwWh8vI2cC0tjaXVKm7RRFfwFtdfXoFvk0Z163DGTjtxUfgNEK8vxrIYuQwi8idG9V65d3i_H8LlzKLwWjPwYA88ytCIUDappjsM77mcMhg=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0e96f974bc7362e1016af0c1b768f087d193af37b8b15cd1bf",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 115,
+      "total_tokens": 1559,
+      "cost": 0.0013001,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1441,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0013001,
+        "upstream_inference_prompt_cost": 0.0001501,
+        "upstream_inference_completions_cost": 0.00115
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 63,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0013001
+}

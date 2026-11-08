@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:32:41.568020+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C009",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "93501949ee83b1dc33fbd9ffa130e8b8ec4dc420ec17ed0e967ab6c1baec1910",
+  "reserve_usd": "0.066690",
+  "response": {
+    "id": "gen-1794162758-NvA8qi49EjtjhZZrVcYS",
+    "object": "chat.completion",
+    "created": 1794162758,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The earlier “GREAT, betufiul” is a strong approval signal, and the poster has a clear focal portrait and readable message.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1438,
+      "completion_tokens": 48,
+      "total_tokens": 1486,
+      "cost": 0.0040735,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1435,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040735,
+        "upstream_inference_prompt_cost": 0.0035935,
+        "upstream_inference_completions_cost": 0.00048
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040735
+}

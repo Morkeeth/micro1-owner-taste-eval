@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:46:22.101322+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C003",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "1d8ac6a65dc8e4f50f087e7b4c94d83a6cde31a9c6e40cf8b25f7502db2ae626",
+  "reserve_usd": "0.099864",
+  "response": {
+    "id": "gen-1794163578-vDxFjqANzeZNIlCP42Pt",
+    "object": "chat.completion",
+    "created": 1794163578,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner already approved this Higgsfield shot and asked for more ambitious, fun generated visuals. The poster frame looks polished and cinematic: a moody wet Paris street with clear red, yellow and green lights. It was cheap and fits the budget, and the generated-audio issue is already handled, so the owner most likely approved it as is.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1956,
+      "completion_tokens": 133,
+      "total_tokens": 2089,
+      "cost": 0.010484,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010484,
+        "upstream_inference_prompt_cost": 0.007824,
+        "upstream_inference_completions_cost": 0.00266
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010484
+}

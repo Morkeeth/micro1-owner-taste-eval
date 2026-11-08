@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:46:59.134680+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C007",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "91c4ab1b7e750e6d86fec253e695562fad6b8d61158720824eac05e0f18c090f",
+  "reserve_usd": "0.066910",
+  "response": {
+    "id": "gen-1794163615-XMW8GOAgIMRCDvN2mgG4",
+    "object": "chat.completion",
+    "created": 1794163615,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The earlier feedback flags excessive red and a tired layout, suggesting visual revisions rather than using it as-is or discarding the concept.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on design edits**\n\nI need to make a prediction regarding the design context. The current layout seems overwhelming, so I'm leaning towards editing instead of starting from scratch. I see concrete feedback suggesting there's some usability here. I think I'll choose the option to edit this one, since I can adjust the design while retaining useful elements. I also need a short, clear poster design that stands out well.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on design edits**\n\nI need to make a prediction regarding the design context. The current layout seems overwhelming, so I'm leaning towards editing instead of starting from scratch. I see concrete feedback suggesting there's some usability here. I think I'll choose the option to edit this one, since I can adjust the design while retaining useful elements. I also need a short, clear poster design that stands out well.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MOiBZrrY3f5jUj0tjKgJTVFhJYsCRpruavxCuzTTwwcp1u7ECbjVc8iwsbr1ZyjwQOM6g5ZBh-qlGn8-Ym4z0odiM_11ZZIeYvLJ5mMTrnArl98-SFtJe5RW47JSa0A8yXtOkSScfos0QLlpa0tgG7Nm6HqoUZYBhrQm-k5PrCh0lLhImOkcN8Eeqa_x-And3lPUXbf2CUj2vNfZsr-SZFOR1A7Q8atqsla19NysULHg3u-xqYIrct5jeKbPZust4IvTY7UmubfOVf3iqq8uyQLeDahZm1MUC4jdqSrU9e6laNjGlosXzm8XwRUqsr74rc03Pi1LDaE-vyqA6kE7X-pgimzYLN0Xmy6vf9V9ZKXF-lZJYCOGDs3KRj9jYu-OggRZG_UY_iG0iFLiPc8-YwcaZ5YzjJBKJxBvHG47qEodg6OmBxtkv-iHQeYB71WWYVLwhfbTht-wFG2GSWv3ZyJoxdGAug2CodUIk2ZQyIaEfCxN6A_JmfLOnu4JYAQyUkwiCeWJk7iPZwflghQWPhoA-KOFU7oSwkvUikuczNpxIaFCTtPF3PernzGaTTmdWeTg5nt9YnvPzlDQq4QRZWcMHDMgYtuCYIfEkoQCKOEZaNYAgEvEvr0Xb8G5FvoqtYpXggXPma2dRzo7FigJJZbq6m6B_M1wy5YOOylCf89dA8AVmQRErsTYJxMEFFynkvE1Scu_1pJGTYdSfRQ056pD91MqWa62Ll6B5FJJ4Amvfhx6VF83WcwZnvQnzw2upbV6JlS72DQMws7Rylva0tBjH3f39jlhrsNd8MOfWm28EynT2pfY1LRyZ5_Q7J42dl3ttuAl7ygTPdYwEdQl-xbFyEqM4WhQ3sQIMqVHSjjeIWf5Pei8YOm22qcHhYCzbrHvIfX5Rgre8c3ZqsK3oHe5KYGjxwmmw6ssXMIeXC6BEsr0Stn3xkOX6khdQ2nWFcg777ArLk1AeiKXWnlpIq2JO65oRWQfBc_rxbMyVzngq1c_HgAwPm-isKgDPJACBKJPMnYtWoJHDZ1JQ5Ay16HksxHVmkSL6drVc5RyAH8eaaiHtRgMSqDUEjypR87f2UGVvEqno5n1R4A0fmYerM8f7_5euI5vUjH2Cw8r0mjZKdOKuG9CLdciisUZkdurs_m8b-SMEpTVa1AFncVCL-69SsLlWGWn-LGfMmyi7l3qu35EPVm5oCb8ZgI1eop8JaltouUHw4LtBSM1M7vBSEV-OFZUWATxXoTbciRf6Nj_-uDNj_wkfMy2shudgG9gjE-7qGtMKpFoa2RWq70bHJQtTIHhNk_cP77W3WTqzboKMJBTIMHbBpiF2sZkDpqKAn3JvU3eIy-J8CzuVfXhZrjn0iMIMcd1rUjtlsStjDD18wFCewP9oEQpzw-02k2nlm0JW3ZsoTMdCdbGwwTh6k-TSN-D-n0W-7aeSQIoDFrULeZKVNIzBYNR3D84cNoU-RHfn0g-QsKaDhdifWIAloOWBmY1EUmqDlmo1drPvYjnc36it6vQT-R386dAjv2LY3a-dLG7qpDh8Ou1O4C4tPXi2UkXxBVXnc6_vBtiAdZZJ_i3nMA2B1Yam1Caaca5YWZ9BzdtOhF6GhvB-TxoNLo64p5bb7OI-P5Nbg3f62GODsF_51BrvMdfKOzk0aCSk6mCiFpPJz9cLkdZ0KZztFyaKxnLeFK6EE-gUdUY1QweqE7cLbgA6IGWliZ-PPZOTgbqF7Zwtgfw8XPzcCJXDM1P8EIsdxxBQcUZXsAWQfOANzgpAer_hBM2wuLX9Eocvx_3BETLpS8_udE9OI-7CYOtjxFTByk1isJLsxjuaGEavPr2QBxUDRgMNJf5HHD60p5Po0RpMjfuMeThS47dppFLpJd78bes1_A5XwXMa74_oUIoTMrkexFTcsUAQrPrUKGHz0ivEZorQPmetdFdrjlT6k96roJq-o5FZqUZ3oo8-VWfX4iLJtHJL6qq-eh5PfBvjVp_5SeG2QyZrI7M2yJu6Yn8c8OGDeyFREJfKKQb_FzgyYil_89oSF7eUWN5dnFiMu1sJDmQMGv9NQy706_KVp-AU2f_D0rKcEDb6zhubMobUjcPryXD_LWJnqgaspAH27ieF36TWUWKBdwe9usgWofwfc6L9_GMo9sop0tQUwutHI7JLBwGIVR0QmSMXeoeGqO8kWo4rPbmREkYI3E7wknqdnj_KVexMTGhjmlJQP3eNgnMnGeN9iN3w2ipAJ1M7Km6r_bZhSyWizT8te1eiFk_e9E5VyX_JrN6Hu_aD9i_5oNgJdBBc5gcDDNYH6kfDHxh0nIR2E7cpFabhtXRzIdVKC_8ifZic27FidQ4SSg2cqW-0HUBF7puzQpvVL1QmtXoG2VPmyG6RrvAGx5DS-Vj-z7_Nuf93wBmj2LRPA=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_002da250c3b186c4016af0c3a092cc87d18916587d85dab956",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 92,
+      "total_tokens": 1536,
+      "cost": 0.0010701,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1441,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0010701,
+        "upstream_inference_prompt_cost": 0.0001501,
+        "upstream_inference_completions_cost": 0.00092
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 46,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0010701
+}

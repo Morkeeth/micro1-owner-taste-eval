@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:22:24.412640+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P010",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "4984453a192f59fd3a17316a99f2238e345bc1485fb4801f4858483f5ae1dd70",
+  "reserve_usd": "0.066895",
+  "response": {
+    "id": "gen-1794162141-E6GRgokwNlhVqm7GPDaj",
+    "object": "chat.completion",
+    "created": 1794162141,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"It directly matches the requested reusable core animation, and the poster presents the actual media-index categories clearly in a clean, consistent layout.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1450,
+      "completion_tokens": 46,
+      "total_tokens": 1496,
+      "cost": 0.0040835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1447,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040835,
+        "upstream_inference_prompt_cost": 0.0036235,
+        "upstream_inference_completions_cost": 0.00046
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040835
+}

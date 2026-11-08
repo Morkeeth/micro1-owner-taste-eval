@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:26:47.930856+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P006",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "75d3664dfefab556e02de24e6f2fbb1a7ff8a0a2b1fe78006da0b284fb2b5b3d",
+  "reserve_usd": "0.109120",
+  "response": {
+    "id": "gen-1794162405-fpVgaT2y92ffScBw85jl",
+    "object": "chat.completion",
+    "created": 1794162405,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner wanted this concept edited, not discarded. The card describes a targeted seam fix, and the poster shows a continuous blue horizon without obvious panel splits, consistent with the reusable Paris transitions they previously approved.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3506,
+      "completion_tokens": 61,
+      "total_tokens": 3567,
+      "cost": 0.0093735,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3503,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0093735,
+        "upstream_inference_prompt_cost": 0.0087635,
+        "upstream_inference_completions_cost": 0.00061
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0093735
+}

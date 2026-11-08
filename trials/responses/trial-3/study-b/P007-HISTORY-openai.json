@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:41:40.094686+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P007",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "ca1cf36f2987616c86a209f34bc9df33185ed77654142f56f8b06adc00c55eef",
+  "reserve_usd": "0.109040",
+  "response": {
+    "id": "gen-1794163296-yq44xoPWWG822InC34y9",
+    "object": "chat.completion",
+    "created": 1794163296,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"Closely matches the weekly-limit pixel-runner concept the owner rated 5/5 and their explicit request for reusable core animations. The poster clearly shows both providers’ meters in the established visual style.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3500,
+      "completion_tokens": 60,
+      "total_tokens": 3560,
+      "cost": 0.0009557,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3497,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0009557,
+        "upstream_inference_prompt_cost": 0.0003557,
+        "upstream_inference_completions_cost": 0.0006
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0009557
+}

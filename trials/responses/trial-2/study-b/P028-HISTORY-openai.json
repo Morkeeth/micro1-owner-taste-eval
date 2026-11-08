@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:30:29.848761+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P028",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "f3f147596ad8564c3bf5607c698c91ac5f00f1080dabac2d31ba86c2646a16b4",
+  "reserve_usd": "0.109115",
+  "response": {
+    "id": "gen-1794162625-07RG796zBo1mPtYtdM1k",
+    "object": "chat.completion",
+    "created": 1794162625,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The owner loved the original weekly-limit runner, but this derivative is described as nearly static and redundant with a better limit-bar shot. That fits their pattern of killing weak executions despite liking the underlying topic.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on design elements**\n\nI'm trying to figure out how to choose between a \"kill\" or \"awesome\" option for a poster that has been approved for use. It's important to keep in mind the difference between a card that's specifically described as having motion versus one that's static. I want to make this distinction clear and concise so the design works effectively. I'm hoping to come up with a simple solution!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on design elements**\n\nI'm trying to figure out how to choose between a \"kill\" or \"awesome\" option for a poster that has been approved for use. It's important to keep in mind the difference between a card that's specifically described as having motion versus one that's static. I want to make this distinction clear and concise so the design works effectively. I'm hoping to come up with a simple solution!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L_FR4SY_gMpLs-7cT9YBajNUyKJA8Voi7JymR6HnIl65v2fNlZemp-QgND1JPk84uXjnTUy4Y8lYPs0QYCm6CZsVDcmPJPsBdB0PqszoKQoVTea_cPVqJCfZFKAR90AALfOGIBC3r8r-O6EpUrH8SRpbvqtiaBs6FdYFP9mbANTn1lnJWIa-CkY_tdY3oO1XVXdB0VlKgiIlne_9AsL3V4uXc3SUSwgUzURWxNSzuKkyf4uYGWkE-d_dCID4ddw76_AWlZKvJpJsPv183EYnAIkzO5XcV1N7Qgn6D_oKhkynuy4ouKcVYLtkXswd3K-6x-AUyGi-mttvmTSS5ApfFb9DqiLfVSTKP7_hW--AGODq2SbslYrjw-lnlZA921CJffgD6u36GAfQbOWWMTjG0nbrsXlF5iF1SXHCwQ5mGat1ZDVtL3Aqc9wlVMbNg_HQ3_C5spwElXqYmQuOzmhA4W8DITvnItDweqj5LCRNtW6PGEbULK8urwQH0xEsz1PrOe2M6B234sHpkBjJIATKkI6bQxSuleMECOgeljT0fotoNp4grmw-5SiMHYG_ysecsI-RwCch5Xlt5TCFxIgpgJ8F5Vmndc2fQp__juoca2lQYJkE6yrCmKAFkLRkCurI5hC726c7lEnddAIJb84QUjwprCc4Y0XM2UtNYjHiMG4jWZZfrMX2fjDtPSfZJ6_CnMfyxN39zQvpkrcITPR_RRhhEtHo-0v6hr_topCq7TxH8FLFAXZcymnj05eq81kIoNZrRO5KlBv0oDyeYH8S4c5n7snVFIdU0DGgQaEzqyVXawu3kmhtCdvPd82bc3lER7atwhy2HB56hIkSmJM3Z5_a5IaQ53aYnUIaKthnIvz3w36iyRmMvE7M2KPT5t8RJhL9--Y4-5rGlHg7MNVl7uC5dG2pKpgE0CKBF9dN4w8SL0vj3SzKxpoCpKIKSabQlhVqUMs-FIc9ToZmT3UaWniExkAAmW_kHEZFUmX58d996CbcW1Vc7vVbC8J2hE5huU8rFtrHWDvek1J8iqlAp-064fNg9cRvhf_nY0qw8UrES_8Yc1UPWOiGhQ_nExEEepg5zgIENy3LJlN1laf3zbAqVWZ9MZ1cThvyi053l_o2nU9BJpA4dY3CNWD-YnhkTlX5udxxSaCrZyK24D_Og6MRKFOnhKksA6IIRsk9SSxVNG1of47MsH3PXEK4IcH0y1Y7rx3m9dIcDXyVZzmQH9Wz3rTrqCzGPvvW7z2Yaq68zh3F_INOiv0myAr4m7WBllbgk1TG7NeUKjcxRo53sdduqm3TTjdNJ7KHgTUGdPYk33DneSuCHVJVKtj5997zQENI9nPuQlE7H5isMPBwr5E2FDYulK08jogbsMx_yZ0BfhYK-iib_4pmJ-nydiwbx3ZFpOirJett4TD_zNV_tXiQ8kdteYg5u3qVFEZ5613AZOopQMTpLAhgfpJpmkqNspTbrsusQ7onUF5NkySQtDyi4qRceWbh46MCfRMNPp-42fb9sWYmbXsWQWrEBj56oyklIlueQ6NaDUP3fz0_6_IyHL00J6zNo_5ATcjGoknJi8oicUCR1ulDxH4hqv-jAkqX_IOirml0fOayo3l2uOgfONNDaSExDPV9NS6YovMUxoaLJwINXNxO2Pa5cuYtYoXVI2Z4O9pgob06DHsMUbqq0I680HFVN1edWnjz6dSOstjipNO_aRcWPHitG5Z5IIIHI927LGwnxTF1AiBzxtu69oGD19WSnlxxxOYqKFqVmwx-XLwSnxAEtYOzqnkFFVTTe8eZKvao5-zpPeYuMz1ISo4Ot-3g1ztK1aOGfY0Yzg_hccvC3KdbeUXr6yUsHzhoxJepL0_MAaYXrQ9sXKLX15ka8-INrftMCDbTEWpt4FsSwmPU_wQDeOmqmM18B545TMtr0KFxgHLY76d0BfoNknHDW-2SHvSKXGrRgq6AH03IJRwVxy9Jxc76L2aFXrQwBxRW1m94qLsi45SJml9FvNZaxvAYMNQtgEuqb92phtT4AMN2Wm9JE8mtQqWJGtNaShWDgA_4DJpbkE3AYGKtQn0wG1sqP9S0CLgN-wTUEyuqrjYGUZCG1N_hEgLueMJnqAPB_JvYeutlB1_0px1xx9cATdxg-t4GKK_JJxMjzhqFUCesAEfum0NbPtHrbFSC4EqfeqJFoqfPIJNeLcaWw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_041b94f760e13ad4016af0bfc2ce8087d19c122be36d7c9495",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3499,
+      "completion_tokens": 90,
+      "total_tokens": 3589,
+      "cost": 0.009646,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3496,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009646,
+        "upstream_inference_prompt_cost": 0.008746,
+        "upstream_inference_completions_cost": 0.0009
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 29,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009646
+}

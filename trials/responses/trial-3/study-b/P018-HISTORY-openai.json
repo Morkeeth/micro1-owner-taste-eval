@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:43:30.002291+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P018",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "0c034bdd62ef148daf4afe7a5f20f376700917c88efa359522feb93c06e25289",
+  "reserve_usd": "0.109145",
+  "response": {
+    "id": "gen-1794163406-e8F5PZqtWyuBEnD0D0TT",
+    "object": "chat.completion",
+    "created": 1794163406,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The requested notification theme and reusable branded graphics fit the owner's strong approvals for core animations, especially the earlier notification shot. The poster presents a simple, readable Dock-and-badges insert.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing poster design**\n\nI need to select a poster design that's colorful and matches my graphics while being simplistic. The owner's preference is for notifications that are reusable and have a high acceptance rate. But I’m considering that being too abstract or oversimplified might not be ideal. I really want to make sure the message is clear and concise while still being visually appealing and effective. It’s a balancing act!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing poster design**\n\nI need to select a poster design that's colorful and matches my graphics while being simplistic. The owner's preference is for notifications that are reusable and have a high acceptance rate. But I’m considering that being too abstract or oversimplified might not be ideal. I really want to make sure the message is clear and concise while still being visually appealing and effective. It’s a balancing act!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MLRmmRo8aClKj2Apk8idqWq9AzsZC3ro5vQJuGOe_nCgJ8egRMq_s_Rb0mgxYWhAbehd7_PGA_oV8LK_UEmKJGEGU6FmguN5saODMf_OiVxV14yB9cAA_qdSe2r8U0sthvgdt7CO0Hc3hFIcHn8gcHBCfRMJV7R_DjmzdjyfwP1z7XOLVpD3G5QPqSR5HsPeGIzBfoLpJFhK477fjJnxr6Niq5-gkubGfFFaB1k-o4GtyRuWrAJLthgByzO9qPQl72rnFiRhUf6FKjrLDX8qtaKzXHRiqb46CKvwu9upZdQ-3eqErOhdg9EAF5buNv0tGQgFpxeGSpOBXqlgdnPJHpgaHau7Y85xYYXmjPPWWV9m5Cn3LwP4-fy7ZPbdwx77dh2N76O19teNy8XM-JG1_ng5gtSFUmI0rdntjoaPHFwSkykjF1iE_u0qnhtO7fE68-SksF--BGIvq5UnpqS6fbi8KA6Su1IrImJScG6E1eZhbwJI50zbQ05lt71TLf3BaLCyUV2GGhAdRAuZ6uhuxPzwc3ruqIcmksH6VyAGUwZ8Eyk39K6FGDzPn6Civz5aI0-7BsIs--eYe93pu7rAK824pAD0_J4dCK6sUxP34IwonNzMkaZY3ITkLAf630hd8-GyE5f8rhZTNia4zn1l6TcnH7K4nXMtQXuO7KjPQbRlsJwUX88ZzqoEPU6nEz9hDr4Jls0CXMkwBRz1AVs39MlYiR-cSGW2IeQpVfvmG5FvBvilwvcMJSPWAYWF8VkoVuN1kpL0xFJnAmxlCvB_a3ZEe68gP181u6tAaeP-PkZaM6RA9NnCHkyJ9DaMoASLeNE9CmNs5b2MGsEBw5E7lOp0CPmY3VKb_6KnUQfqK0Ra1JZ2tYhBcHxEvZcQdW80BXHT2qeeQHZGOMhbbZcfJpmwE5dXt4-y7vImCcp6TF_maRtOEDhMwHQXoq68p41db7NkSAc-ukjxlSuU-NtQO2FbEAhL-tPbbznim6UUDOLinsd5gsk8eSVBFryL9iI7WKrJCZhMvoe-By4PWpcS46I1v-qGf3La73Fs0_pNMgcWRKuOSXXkUT1fkbBxT56DZj8VmfefEj1QGqpeCAYI8RdLrhQOJ_6QZ4B0EyPeecD7RdiWf6g4m4jvv2BjvHHtjGJ5qUcs37_utiQ0p1rGYlQCUTOPcJXYLDe7SWDDeQEDfj5DRt08Sw1ZwocFsn9qyx5-CCaqsnh6RzeY1yGWFjNyI72D2ISxsEQa8ma_blwEKB2Fy4I_HzzZdKl1nytreNS6KuAhr-l8MrtTe0OGd5VmLNcgtOY3l84Q9ELcE3QvB9Fw3K35ST0QqgqGntxMBJ67Wr7un-gpRo3ofQoBVA498ZSTfGHLT2HplrtOHIabLo_3bSToYkFK0yidYm8H6ipYTT-XOwzMV5sb0aIcbG2xFle7gvoD1u_Yrji2sl66y6qOdaoPcoH8Ar1_oheAU_iDPFNEInm1W632khBMX0I0TFS6iU9b3z1af2zdHZZlO9ZjUGI7OHq0G3CtjTuKbjdK0P8xXeCxLO17Hr-vZGyTrh9BqAHVaeklqiiQo7E4_700dfE6v1V56aFyOqWF-J_G5ug4qCMwgpc2qltHfkvbcXhX0nkqRFQnFHHrWzSmLz1DCqEbO4kwMMhUrquepnDWA2hn5iabpFF2I1i_shc8Oyp0c68SE6AXKbceoKZNNPD6l5fOkljSG-ZNN9jLq4qrC8wMwmMGQDXSHitOVcVpyR-W2rjTwR_ygb2E3lU5BDxdrl5sf_W3Eoa07V4XOm7UrqncPYN3ViOVKSXEQ4eTN7x37EhDNPv5oRsgcFH1rYkyrEteYLtxlYwn0pa5VQC21LtptWF3_Spe6_LVBkhw8PR3BbSZI4vpSwb90HEHXU9AwM_1p5nYd9XdZbLda5n1e8FTDZ-rgBaAaOcQEiNflGIabwf3s-XdjykEPXkHLUplOvbH9Q__VKjWEGqf8wXmGI-ZGZH5jbzZlzjyBJp9RaTUBBx1z_-yxyh930HLOymTJqXTa4K-eKzGHJ0uUIU4eIiJrdv7iZTJVBTw2CToeANiK3boXf8nmslaoOsRzUqlxMsJx4VCVax3YtxqVNWJfVdUi9nC3Nf6DbwGQkHsqkLasY2VQns7l3k34LHdsNrfNipu2iog8TX_kaYCnhzNfE74BGsL4PqhDqcjHXHfW5bsMpcIQ7hY6K-rI-xFp1ycjthUVmAxIpK3wgxx3ON5g4GhKRohx7VDEQWCW7_F_OGOMgN5OEvhZwP21C8H-6frI2tTQtIr4-CMLjSM42-KYdVjrhGhtZhnBGb_TP9CBfQic3QDtjsuCVHH7WSlJL06cXd7ma5MyQxdVMTM2R2.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0f7f2b50e23b135a016af0c2cf41cc87d1bb578bdb6c658de8",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3498,
+      "completion_tokens": 100,
+      "total_tokens": 3598,
+      "cost": 0.0013555,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3495,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0013555,
+        "upstream_inference_prompt_cost": 0.0003555,
+        "upstream_inference_completions_cost": 0.001
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 41,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0013555
+}

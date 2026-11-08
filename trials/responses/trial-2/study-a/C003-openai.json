@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:31:50.032154+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C003",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "2f73e04c8d847867694a03fc8cbb8abd2683e842d69de3a3d504ff93eada3731",
+  "reserve_usd": "0.067535",
+  "response": {
+    "id": "gen-1794162705-gUrXDjhWs9Q058vvrduI",
+    "object": "chat.completion",
+    "created": 1794162705,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster’s colorful lights and atmospheric wet Paris street fit the requested ambitious, playful concept. The card also says it uses their own graphics, stays within budget, and keeps the existing music.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating design choices**\n\nI need to choose between an appealing design versus editing anomalies related to lights and buttons. There’s a strong focus on getting approval for something ambitious yet fun, while keeping costs in check. It’s likely that the design can be awesome while ensuring visibility and style, especially with the requested graphics reflecting Parisian ambition. I want to avoid overclaiming and stick to what has been observed in the transformation process.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating design choices**\n\nI need to choose between an appealing design versus editing anomalies related to lights and buttons. There’s a strong focus on getting approval for something ambitious yet fun, while keeping costs in check. It’s likely that the design can be awesome while ensuring visibility and style, especially with the requested graphics reflecting Parisian ambition. I want to avoid overclaiming and stick to what has been observed in the transformation process.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MAVtGGtFZfdALutq54WZ4JSBAk_MNS8O0PYKfUTqp3lUcihI76yKhCkMOUVVGKIVluafsC_JrxZMXkp0NNL0DExJzjgSBnQthN-gwxUvLDz4Y3tza3wAqIkx0M7X6KYTxmdnWY7U58jDGEiy3-w_t0m1qB5RW1Oa3bkiSRTFNHweALbM0sGnLHNO7gp-Fbj1wa33VqY2oBYJUbOPdY9SEa3qvdphUOe9nFi6yt_nLTzCRoyiO3afX3WkR_0mRQgbBGG3haEo-KXF8QwStgIvY9UbbPqn9NuQ-QvNG5uoHMBJD77qmJelN5sD68wF7-7G19yRvcb7o0YbhkubaS1WyU6XF_v0VTt9hXvie0oiNHO1T1VfZOXgLX_Z7gQ4NcfrWF3NsLD4CbR_AN7U5fF3XXQ6Pg1z9O2bMbBsKjYiKjwqf2FCFeD0Q2RLP4bx8XNxMXO9Fbnvwda-0ol24lFgGg3D4sJPGstQq6aVC8YIbykgDOAnP4wdMO8nY0iXlqSy5B0-wrU5q267wZOVsVXM4L8oq0bXcRmVu23dQlIg4KHVUryfGF6UoOOtOEj63qYpg097ZqCTVbzJSatqH4Dyhnd4jRIq9Hd_3QspgImcEyx3xjVFOnK1-3hSIQc1SOBqXtamYMNYopoLYPEnLxuDA8ncs6NBLC6hdiBBHwwpeQKycO5RmkkLGKbYPnvT0JEwb-EEmT-m_94zvoaEr0yqjA5pPykrKdXB7yDzu0KXIlS9JJ4NEnE7pr4r-RLkBrFYNWNZSJ4Qb7LdtUCPrUGnNQtOYAfjw-dSblf6M5ZwYXizuMGRzAkOk6YVaSHG_IlMEKgdP10WOwCGxe-sQx34iqQHUhz9xUtHB5N5h6-oW1N_MSF8BIsFKLX8NXnUTWaAkTtWxt7F0FvXNWNS9PkJeUuPeGA9i-jyxUf37ZEkWkv3JtNY9F_a-i0cR_oxIbVj5LrK0KpCCaNxK58jfaUd3o2ln08632Nlo7VBz0bUfXtgT6WTLlxb2SOCl_hprbn7Ve6PkAjhsEyKglmYo_igJ6MmcqCsC1ZEPQaXnXoj3Fnf15JOYHOX3ks5H9vPPCqRSXfDW38TpQcWss3SXx8O3FFUhjlo5ct7Y-pEIpm2OnCFYc7P0oF1wJW7zalN49bAndpHNnwOrlGA9j_eAShsFN-K50yIqQZ3qOI-JDhni_kK1ry4jlQofcUDSduKuDZ20qc_HOZJR6mFBmUAYDk_Ev_aYW0y3G4lAguc2Dum2yZzLgubrOctLU466AB9Se-dDmdiadZq1W_xK8wJW4kiz_ufIKi8nzEdF0voYqbpoKIkyxE3BWrR-nvFNSpf3iqHFHW1jhLROBti_VCLp_K-ZPjAju8OQTeRi2KXNIDs5PSwzaDb1nbgXj4aYiWXS-4z1EHxoQLxlWsuZ6Wd2E9nkzuJjmq4bzTTSkV2D-n7eCxu6ODrilgUvKpJXsz_Qwqsiu0ch2mxvtnZKAJV_JtIN_H-6DrbY8SGRKbcEBg5kiAF4iqF6qSnE_lb0wKnA3wkJWvjCau5ONDsSC8SoFUor0HjiAmJq4fTEKss8YzR1-jslQ7qMTof1k8V2KXaer6jZOSFsCLfyjzR4EldsGC_n4LhVHU28VsH6u7q4BVR-oYbpH5U3-rc8npvf5-I_jb4kHCx5xT3auEvY7Bn26JpUpLx8Y4ODrwUe14-J81uk0K_f78p7o4FVo4g8Wuh59GTx-GdTs1ZJOaZacEJ6MulGOMZbPo8PE7D7LX6NxQMO30zz5ExJQEWAWr7BIp9rVN4IMJrKmA0UIjCe5jF9gYz0WSQLcEOyDgKBljMZDjwtqYTK7H1hnvKO7NqmII5e6d0A5VLHZv2RsS1TB_xsr-4L3AgvAbhQJLBxRYEnR8AiLQR7NHkg1mFolZRXXjXOo7IiB3b4EEX6eS13BPnQ03UJRnlXEhdIeUcLb7PC7IBWEjXZXIp9dotDkUDVbzzkAiPtz09NAgGBT3pJCzjVLtN5cI2a_YtMV4zDrl_uuVeBf4ib8F8Ke3vPO-NTDFyRDCYKkVqP72Vx0CQFkmrs9M38BklcGy7DV2z7rdyzpvq1kzInJIv4kEYBnXIbrqv9pdDVlUT6KlpLSbp11vkTcWCeL1suIliobCOEtjTV8IAEox9LxmK0sF366U2cD4ZWVYBvao8xc2s095qmG6t9u9thHvUzDV_ygvlAxuJILMs00pvV0hK3vJ4FCOo33718L2bamKDeXVmSuyjerVXQv7QrvwFV25p-tfcG5IJgmqlSn1csjmxXJNKb6K-2R6zp-Z3ojYKE1PgqjcbxHX6p02Hx43DC2UvsBZm6YI1B2mZzx6-wuy1DnwRZZ2wIF7OT6s-PQ6TTUdwaCWEZBm1BTA95TAI5GgVknR8Rn1tnCmj9kWINLUU8KVJorzZXwPPn8VLjzx.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0dd03eff1e2697be016af0c012f7b487d1b776b1360ab68722",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1469,
+      "completion_tokens": 103,
+      "total_tokens": 1572,
+      "cost": 0.004701,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1466,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004701,
+        "upstream_inference_prompt_cost": 0.003671,
+        "upstream_inference_completions_cost": 0.00103
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 43,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004701
+}

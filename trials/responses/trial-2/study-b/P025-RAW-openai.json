@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:24:37.160446+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P025",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "379b158115648c7ad804f1251fd9266b1f175f3cdfb5ea35fdb23fb71c228247",
+  "reserve_usd": "0.066975",
+  "response": {
+    "id": "gen-1794162274-M62moVQQsgUh4v8TqvCB",
+    "object": "chat.completion",
+    "created": 1794162274,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The terminal concept is reusable, but the visible green glow conflicts with the locked blue palette. Recolouring it looks like a targeted fix rather than a reason to replace the shot.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1454,
+      "completion_tokens": 54,
+      "total_tokens": 1508,
+      "cost": 0.0041735,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1451,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0041735,
+        "upstream_inference_prompt_cost": 0.0036335,
+        "upstream_inference_completions_cost": 0.00054
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0041735
+}

@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:40:57.387217+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P002",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "0b31bbabd2dcdb9988888e9d5df5919900ea210b57a9ceedd8a0619926198767",
+  "reserve_usd": "0.108805",
+  "response": {
+    "id": "gen-1794163254-2sW8tnaxXKXbSt70dZXT",
+    "object": "chat.completion",
+    "created": 1794163254,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly requested reusable weekly-limit core animations and rated the related Claude/Codex limit runner 5/5. The poster’s clear two-meter layout and familiar pixel agent fit that preference without introducing disputed usage figures.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4840,
+      "completion_tokens": 64,
+      "total_tokens": 4904,
+      "cost": 0.0011297,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 4837,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0011297,
+        "upstream_inference_prompt_cost": 0.0004897,
+        "upstream_inference_completions_cost": 0.00064
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0011297
+}

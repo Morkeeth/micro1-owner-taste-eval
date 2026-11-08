@@ -1,0 +1,2 @@
+# Standard library only. Tested with Python 3.12 or newer.
+# No third-party packages are needed to replay, self-test or rescore.

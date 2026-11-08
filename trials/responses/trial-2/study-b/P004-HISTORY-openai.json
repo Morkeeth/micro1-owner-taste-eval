@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:26:29.690372+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P004",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "eb7c9c336b3455cd5e8686b9ee60e1adbf101463e201cf9fb3c2922585a2c015",
+  "reserve_usd": "0.108890",
+  "response": {
+    "id": "gen-1794162387-98FrqYXdvcPG2cNI1bcg",
+    "object": "chat.completion",
+    "created": 1794162387,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly requested reusable cmux core animations and approved “Six lanes in cmux.” The poster’s clear terminal-and-browser layout fits that preference, with no obvious issue warranting an edit.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4844,
+      "completion_tokens": 59,
+      "total_tokens": 4903,
+      "cost": 0.0126985,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4841,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0126985,
+        "upstream_inference_prompt_cost": 0.0121085,
+        "upstream_inference_completions_cost": 0.00059
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0126985
+}

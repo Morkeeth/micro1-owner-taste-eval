@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:24:58.778380+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P028",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "a9d7837d387bf849dc6d1431251b75b19fb3e9b8a1176aa4acf852e352f0fa53",
+  "reserve_usd": "0.066940",
+  "response": {
+    "id": "gen-1794162296-1Q4Cegpztejmf8O2LSkr",
+    "object": "chat.completion",
+    "created": 1794162296,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The card describes the weakest motion in the batch and says another limit-bar shot does the same job better, making this one redundant.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1446,
+      "completion_tokens": 45,
+      "total_tokens": 1491,
+      "cost": 0.0040635,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1443,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040635,
+        "upstream_inference_prompt_cost": 0.0036135,
+        "upstream_inference_completions_cost": 0.00045
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040635
+}

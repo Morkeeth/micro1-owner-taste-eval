@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:37:12.625315+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P010",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "6116bb71df365a02e69e0af9879055b2cbb73c647f053b746cfb0fde9c67b282",
+  "reserve_usd": "0.098840",
+  "response": {
+    "id": "gen-1794163029-fnbSOL4Hs0iQVJTt3AF4",
+    "object": "chat.completion",
+    "created": 1794163029,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a core reusable animation the owner explicitly asked for. The poster looks clean and on-brand, with real index rows and a clear headline, and nothing in it is obviously broken. That points toward approval. The empty lower half of the window and the internal labels (HELICON, ROOT) could prompt an edit request, but the overall fit favors use.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1916,
+      "completion_tokens": 134,
+      "total_tokens": 2050,
+      "cost": 0.010344,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010344,
+        "upstream_inference_prompt_cost": 0.007664,
+        "upstream_inference_completions_cost": 0.00268
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010344
+}

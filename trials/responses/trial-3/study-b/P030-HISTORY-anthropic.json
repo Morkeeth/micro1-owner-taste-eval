@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:45:16.773521+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P030",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "67660523592a05ec1bd30986810147be153f44cf2e9b5421ba9ecb93cce94c8a",
+  "reserve_usd": "0.166376",
+  "response": {
+    "id": "gen-1794163513-NIFFLWc9iXIhy7lHGg4G",
+    "object": "chat.completion",
+    "created": 1794163513,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a revision that applies the owner's own notes: the cleaner agent is gone and the orange meters are now blue. The owner tends to approve fixes that match their feedback, and weekly limits is one of the core topics they named. The frame looks clean and on-brand. White panels have drawn complaints before, but a targeted drop-in replacement like this is most likely approved.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 6505,
+      "completion_tokens": 141,
+      "total_tokens": 6646,
+      "cost": 0.02884,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.02884,
+        "upstream_inference_prompt_cost": 0.02602,
+        "upstream_inference_completions_cost": 0.00282
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.02884
+}

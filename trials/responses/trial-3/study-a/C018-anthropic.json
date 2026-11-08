@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:48:26.005570+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C018",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "10fe4ffcf8c5243417c4950000bf581f0e48bf4600dbdbbf0bf1c1d620a9245b",
+  "reserve_usd": "0.098648",
+  "response": {
+    "id": "gen-1794163702-oveyW9VMdIyygQCii7Zr",
+    "object": "chat.completion",
+    "created": 1794163702,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"This is an abstract data-viz post (a token counter, bar, and a grid of question marks) with no actual UI shown. The owner said earlier that they want to show the actual UI. The content is also an internal, coarse-guess token accounting that would likely mean little to a Shorts audience, so it is probably discarded rather than edited.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1903,
+      "completion_tokens": 127,
+      "total_tokens": 2030,
+      "cost": 0.010152,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010152,
+        "upstream_inference_prompt_cost": 0.007612,
+        "upstream_inference_completions_cost": 0.00254
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010152
+}

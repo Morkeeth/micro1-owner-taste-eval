@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:29:28.152514+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P022",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "113bb0fa7b9dbf2ee1963e56a23210ff5729db3e7a1e7854d2c489d33a9cd747",
+  "reserve_usd": "0.166608",
+  "response": {
+    "id": "gen-1794162562-mrkxtdyylLefOkKDuO0x",
+    "object": "chat.completion",
+    "created": 1794162562,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster is a sparse white frame with an empty phone outline, a window off to the side and garbled AI title text. The owner has already called white-panel shots boring and killed similarly literal object-moves-into-container shots, such as the cards flying into the folder. Their approvals went to characterful shots like the pixel agent and the Paris transformations.\"}",
+          "refusal": null,
+          "reasoning": "The poster looks like a plain white layout with a garbled \"Review\" title and an empty phone outline, and the composition is off-center. The owner has rejected literal shots like cards going into a folder before, and garbled text reads as AI slop, so I'm leaning toward killing this one.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster looks like a plain white layout with a garbled \"Review\" title and an empty phone outline, and the composition is off-center. The owner has rejected literal shots like cards going into a folder before, and garbled text reads as AI slop, so I'm leaning toward killing this one.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS+AcKEAgTGAI4AUIIdGhpbmtpbmcSDNuuMSwvQezokyPbuBoMqFiSgoenwRPL+zbhIjCBE8XtWjaq1IwHae1YAh2JVJVFVcEyR+exMD9a5uO8xsef8TswuFnVO21+1cml3DIqlQc4+f52DfLsj846iOB5otzKaL76lN75wJy7IY9YFYjHe1IJGhwd691IhQNcYtv+imcqgfAfyNU8LFavU1mijGTQwmITzprS3I+/OIsyEOBqMgSsPAF+CRSnDPA1ltuBjxzR1q/UAPNQMoSbGe1BtjuEcXtfH3/DUcf92pfoJvZonyEaIMVJiGz78r6WJeQuDvBLbFRYa5mF/yqCmpWOJHyiwDJKxTjuSgEwrrO7gh28VFYgH/WutQcnkxKILyhBPeGDeILPqLhoW+Pjp4Yv6jqr9RIX1FIMVwhtJ1f4QTjHBXf+6Ip+JHeoZc/UK51q++IJ/t5wmZ/8/ols884yS1bmpi4ofkKJ2whAYKItEIjJ/mkJjX4ucUMlS7oCsZypYP1P/Di2MUcGIzMVp3cYgZQqgL8ehtAShO2IH9dghovr7lN9RWrY1hlwKir8mKSlEXsewT2ya1BDowoQ8uJfr0we1qwHXndhwICvsLSohmZ748P8b9+1uUg+Wav1bCkc2PI1uT+eJ83mkPlfSKpNmpjHc+kYgPR4xSgKcFeToK33Ya09JxBLZ2qidAf2SDJMBM4h0Y4vjf/Jdxh++fqxEzLBqZO7+2VWSp1d6sq6JgMrzbbI4XwfPIkI7Bq+kC1pVcG5FycadeZ2+KSIHBFDCRgr+PWx1UYXK4hcV/8iVZVmM74diMKi3y58bQO0+F/PgOn0dfS27ykFJN4PJECAMooIi+wCeR8epay1m2pTxe8cbkCLZ0nLlopsiMkx+NnUBaflRJ+rXnbNe7X2DacFRue4zAgCoKu4OnaQ73ipcCSWGwGGafQOy7mHs/IFZf1NWPP58ZLk+tBfQOMrp1Gxo+C9UfB3qD/evN+i8wreHXK6L9LC0QCVsNqwLyXa2/72mgXPE9j3f+WXE9sWfdzUjQaPFqumGlYjsC98PUnez4yrTisSNQ1pnNNGPeqLdIkjZN5U859XE49h1zuPUhraRJvak2FVAFPn8xDwgznowFxQ9nBx9lthNfFYbJgt8PANMgS8vqTPxNu8bXa10z6Ac9BrBE4Fc681Yv7Ct497XbR4q/IPUtfihUt+pDJrX6Ao1n8QjKO1eW6ypwI09sjPkQ2RewngtGJVj69oHBwTJMGTzCA5ymewCGsC//vjRGxEGFunB5DxIIqqvy0gIjOc0NRhNZHRen615Tbih3oOJLW4LwMpE55yK3WGvaXgaj5iorwcypXgxhgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5023,
+      "completion_tokens": 272,
+      "total_tokens": 5295,
+      "cost": 0.025532,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025532,
+        "upstream_inference_prompt_cost": 0.020092,
+        "upstream_inference_completions_cost": 0.00544
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 141,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025532
+}

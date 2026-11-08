@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:22:57.881078+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P014",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "86ddc4bea15962be78dd3283fbbf4bb8b43baa570351a099c76826de7a878a24",
+  "reserve_usd": "0.098424",
+  "response": {
+    "id": "gen-1794162174-uOJkRm7WxWkkjFquuLWE",
+    "object": "chat.completion",
+    "created": 1794162174,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is the kind of general weekly-limit shot the owner asked for. The poster looks clean and on-brand, with clear Claude and Codex bars and no numbers. It fits as B-roll under any weekly limit talk. Nothing in the frame suggests a flaw that would need an edit, though I can't judge the motion or sound from one still.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1897,
+      "completion_tokens": 133,
+      "total_tokens": 2030,
+      "cost": 0.010248,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010248,
+        "upstream_inference_prompt_cost": 0.007588,
+        "upstream_inference_completions_cost": 0.00266
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010248
+}

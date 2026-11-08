@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:47:50.477602+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C014",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "3544aa77bce1c216a9acdc8c1aef6076271f35148621421d83d1758f001802c2",
+  "reserve_usd": "0.099000",
+  "response": {
+    "id": "gen-1794163667-fmM09z3V60z2m6r7XECv",
+    "object": "chat.completion",
+    "created": 1794163667,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner previously wrote \\\"I LOVE it!\\\" about this animation. The poster shows a clean, well-composed \\\"References I love\\\" overlay with titles and taglines over the camera, which looks finished. That makes outright approval the most likely choice, though only one still frame is visible.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1128,
+      "completion_tokens": 113,
+      "total_tokens": 1241,
+      "cost": 0.006772,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006772,
+        "upstream_inference_prompt_cost": 0.004512,
+        "upstream_inference_completions_cost": 0.00226
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.006772
+}

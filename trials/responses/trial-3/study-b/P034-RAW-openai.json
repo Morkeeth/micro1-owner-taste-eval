@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:40:28.584847+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P034",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "e4cf56b250483c5956859580ec33c8833e9a3ac44c11dc5b8a57dac5ffe62923",
+  "reserve_usd": "0.067075",
+  "response": {
+    "id": "gen-1794163223-9GmCE0YJZf7566n6aTBM",
+    "object": "chat.completion",
+    "created": 1794163223,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision directly addresses the stated feedback: a shorter, agent-free search example. The poster clearly connects the “skill” query to the Shorts index and highlighted results.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on revisions**\n\nI’m considering how to revise while keeping the user’s feedback in mind. The focus should be on addressing previous criticisms about the mechanics being slow and the need for clarity. I think using the term “awesome” can be effective as a responsive revision, especially since I should highlight the points that make the text coherent. I need to ensure that my edits ground the claims while not losing momentum.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on revisions**\n\nI’m considering how to revise while keeping the user’s feedback in mind. The focus should be on addressing previous criticisms about the mechanics being slow and the need for clarity. I think using the term “awesome” can be effective as a responsive revision, especially since I should highlight the points that make the text coherent. I need to ensure that my edits ground the claims while not losing momentum.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MIcJUf6AClf9UVA6donx4dqrZFQOElgre89zR-K0Fi_bxZV1pXAQPYo1aLc3wjj1ZCKB6JZh5HpKE3vRtdTzANIqsUWNaNTPkdCAj5NMxMBS2XknNyG9bogRLz4gyP5VUBdB18vMexw6NR6vxemSoc6mbf4nAHLseD5xFGqD_0a7QpCJ7RxxzJTk-s-3X4fUw0FKyLabup5TG50456a6_9PUC8ig0uPCX2nA2XwZHoAs9JbOpUCeQNKTew_MyEJF4HZO9peI4hSkXLfr8neuA8kb0ZCE8iOix1OXGFoMSZ6Hny31VGdT7SofJBFhWNXCxjiT1Y9tIFvC6NxEjvoTbcrkLfVEkxSfKDBobW6_Y8KW7y1U0aESTsluDDfK62YehjEYIj4lh02L0O2s89Fy_6rG0dYE_h5xwIiwn4y59TRbEVK_44duzw4tSNqEOBWJETzRYpfj4XzDNIDT8HbkEDwsfAQ-Q_JioaKB23Ss1h5iOgjF7DTWh2hiVC4BWdiOXUVJkPd6aLSp0-wHe5fnxkmT1hxz1sZAi7KY9VLv0zIVaLUsY-U1kJMAvofIZ-NfIKGwiwoYI3F6uKsETEFoVn8wXQdgAKetsiwy_2blGF_U2dnTnw1SC_Zvd_TdXbaZPC11U9uj2-zUaMUO1QAOXRO_SzCNCJ9Sjm_lrLCnEpPolw7GGg2Tl4yj3fGbtBE-jwIakQTpXiDlb8hwwqwSV7PaMHF6MEO98gxu-8FnF2J4jN8tl10QmWGis8cRceCPi4CEB8SMkv_qXFZfTdlO1ZSMrBlP-4svbiNnm46usviyf_-IgK6C5a8IDOF4xFTBDDWJo8f92kLBtPbtaru19ir0Gxh49rZ8ZcBtA-WnjW3zmOHWb7Pu1YrN8fSQlcmh1T0_Iefc_hlUJDwELypn6tfqzSu469evFZZamwfJ2A36emTIBv-YJexAct7qNIaWwmkVBPFeg_I3x_oPCJoQnC_LzCtyTtVSlm60osj4GkskTRqRTPlrQcuWLztELecorbd-AMI_ZbLw7ntMSAU7T-m3OhAVrIdsxtx712ji7dSQKWmq5BMn3_iyBgRghj4hHLypHaCJ8BPnWtbNSc4vrJXtlWoaV5vJ3JpdV29y7L88URLzIdlNOjJqR5zH3FnDOb_7nb-hAwntnwyyY2CU2jj_s1SZR3jXkMjHFBCcEOLGYjajLf6uEAZWriP4ts3eSI97J_srwyMsI5UbiOX7NDCJxLOxCqZnhCq6P9a3f5ulSJY1aNLFrkQdhpVEEUxZZ_RUUE658M9KcE9sHIsQALbEewDZ8qRi6QIRbpJJMdFn012aKjOgsQWlLqnBkzb-t46q0WdT4SwpitQ2QQ8UvddTQEIrLEYBEYxqlkcftEffrxWYXiYNOWJQbeiCvQ48IwAgeMx3AVfAUpPmiuA2XlcIAN0ugREc2AdmzIo0yH-85j8U_wHv3cu0h62L3WU0PSnmYaTw4P1x5VjNjQ2H2G97bY3JZ8NVWDnrPs5qQpu_SGo0TmG8IQWiTohNm4Iw7UzqQsgv9b6dUYtYoJ81xpmYb1qrN8ZBEowbZSIRMZ4XGNoTsam5BBemY4m4Z4VjhRgjq2RJYdsE_NpRjS1JhYuhGypC7lH1Jy8uq2TeCeH3lyYZJjHlLodW950PmKGdxw7po5ATwoG9D2knuvGFNQdNydEEQ05EU5e0r3-ko7xwjLBJrmDfPEQ0YvR_3KI59TlsXKSaaNpcToXmt5lHoh6TxikJBwuJPMNgJuB-Feoq2rtOG76IDw08lqLKqj3qd0UotbDjAt9AtDKX7dco1SuAUfOWw7qW2iJiEfqWLYBJpLuasdGG2NpOGCZSf_2yXm3gw6PpdVp_BpLmGsBuKlyk3JY67IDUBpAOn_JjxVN2b5Rq3ceVbHMPLKB-YemzMUjbJdE-1xQqB9FjJhMcC_QtsDmZ1wXXMDIw8TfZnizkrmBL5ZabAuDktTXeyU7vtfuR1Bprz2GxwRVoz80612MbmO5iT_giIRMekF6gXU759H7gNjg6OnHBVbRms0EKIFkND7hBjYnToXc9_QN6uzKs660HLJm5UUxZTXBAdjQPpnkHH6tErf-9-7uTUPamWmcQf7fCgZgYxRu_uKdKtXzuBlZZ3z1CaePjD8V0LqR_gG_CL6TdiuvPUpKbeWPPK_p2pBzSgKfJns7CoqvCwzB1AvsIRpH8KhxNoJ0m-TcVXi-9FGZ-32nBHm0ZECpmNRQYvWliqJnPMayZjYqU2t01qf9f3UdlBoxhVe-Cvh4ohWBMu-dAR7Ag-6s4zQMahbHuXJUwISmLSs9T1O0eN4dqAUB_YshWotScyvbBuLxbP2kezAVOeGuo5Us8KE28k-8rebC-3iBbtSxf7o07FKUiVaiJbsa4cWgrcPiqW5kej139zYuFpbx7JA-PwKqCJ4AkCIibiZKDfQJU6JIKJNb7iQRo_-rUFMH5gFhyCLPt-eb7k_26FrcDOWxwAzzPHEDmmoYxW-WylKx7UIBcOPcy8Jafn55rxtzm7x6y6ev80z0-EiKYVUuc17TtR9GyvVlgDOLMcQ_7O_EBxehc7u9ug==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_021717b7652beda1016af0c2197e8487d1bbf07a10024fb987",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1457,
+      "completion_tokens": 111,
+      "total_tokens": 1568,
+      "cost": 0.0012614,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1454,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0012614,
+        "upstream_inference_prompt_cost": 0.0001514,
+        "upstream_inference_completions_cost": 0.00111
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 56,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0012614
+}

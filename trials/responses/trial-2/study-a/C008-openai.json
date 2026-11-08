@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:32:32.475880+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C008",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "6e3ccb3e3a88f7e66d6e88244a50d53a2577a1faa928cb2448409a96b00fb53b",
+  "reserve_usd": "0.066715",
+  "response": {
+    "id": "gen-1794162750-hG9Ie0T67BbTZKc2NrAk",
+    "object": "chat.completion",
+    "created": 1794162750,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The card quotes the owner's earlier praise, “it is magical, perfect done!”, strongly suggesting approval of this unused animation for publication.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1436,
+      "completion_tokens": 46,
+      "total_tokens": 1482,
+      "cost": 0.0040485,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1433,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040485,
+        "upstream_inference_prompt_cost": 0.0035885,
+        "upstream_inference_completions_cost": 0.00046
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040485
+}

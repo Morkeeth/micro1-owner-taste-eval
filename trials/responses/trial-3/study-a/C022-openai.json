@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:49:03.940409+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C022",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "5929fd0b13972a0a1d973655175d9e8f10c92d8345ba81abac8de543a8f55af2",
+  "reserve_usd": "0.067070",
+  "response": {
+    "id": "gen-1794163739-4616D7ozvORY9WUQnQ2y",
+    "object": "chat.completion",
+    "created": 1794163739,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The concrete API response moves toward showing how agents pay, but the poster explicitly says no payment was sent. Keep the strong visual and add a completed payment flow to address the owner’s earlier request.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on editing**\n\nI need to choose whether to go with something I found awesome or edit it. The previous version was great, but it’s not clear how payment is being handled now. The real reply was halted due to a 402 error, indicating a payment issue. I probably should edit this one because it’s missing details about the completed payment. I need to keep it short and focused on grounding the information.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on editing**\n\nI need to choose whether to go with something I found awesome or edit it. The previous version was great, but it’s not clear how payment is being handled now. The real reply was halted due to a 402 error, indicating a payment issue. I probably should edit this one because it’s missing details about the completed payment. I need to keep it short and focused on grounding the information.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MQfAkOLOnlIysT6zKz0zT3jcCf5FNiDvoccrvaRfD1SVXw10K5mlCwiIpj_0TTXpRK_q6WzbUVpQpexJRoxMO9QhWLVlWbDkr_j21x6mswBmXwvqj38U68_PFeVloyJ02sibDD2Z03UVsJZDtPbjL8KL3SRuvjio-EX-L2aP_8eOJCmx139AEbCoOsP-QUIFj524DA4Lsn-I1YxFsTenTTjxMvKkI4an11Tpt6JMaplesopLxOL-P-B61MsIYwRmMsmbI-FgXNT6I9ESAuVoHbP_1fsI-cAWvIWck0sDGYE9HnuT_x1W6v0aGC_rTiP3121W0lYwPpa17fthC1DAQVt_3AD_81L3p7zfJgGj4U-aIS2L_hkcmX7d6Jj5im-vXC5_djDkrtCdUXdeGzB2UcpaA4v_vuKV1aYlcFdK2QwyMPHYBljrcHVsJQc56-KrfiNfBG0Y37ZnRUfr5ClcxxI5aKBd31WSOB_YgwRb4J5nr4_qWopRWnsSwUn5ZX-WbFviJE6mTZJBgqQI6itDk9UnJMAE3vTNNkeW308vcWyg-cVRvq-Hx-OGq_UrXtqmm8atczy_cTSugyrDpCmG679J1MubzvxmetwHFkKhxykAFC9QjECPtfF_4HZWiL3CnNm8AJDwI3C_HmDyN56-r_PrR6pOPUlD2OdYxnIp5ktFuHzUHr2bgxiUcRZLeWVT49HYDBI_iv0M8hFSPAu7H9y-GWi9g-JHS78Sp9RedvZ_4uP7XdVSro2QnuOUhO5p90VAGq3dYFO4kz33Sc2wPEUa6JTHmygPK6PNjMDraVAxNM9GJ2TjJfATzJ88E5PQkSC8QmnsQTjWbRDnI9OWCaoRa5uCRw6J-9vuV7oMm25G4qIeYoyvd2srX6VL256RzywSTeT2MUW_nMdCa5pw3Bz0iTEo11fAMMWi2YvjA8vggj-Y4H8Fj5G68LrRHA0B_e6kQQ1CrToXUCDDf1tBrZHJTBoGbz3dT6gEFx-m979zaGHNu5blg6UGohouMlDJyJEcvnPvwnUaPIuqwK8TNUAp1BrtIa0MjQTXfqrxKOtJTaA7WfnLmnDK2IrD8owh_Zii4AXA1hRGdpsjAaAqZkx2TtuuXsCyCB7f2ZGipkG40AA63SQUatFzqOLhyg51YgXk02LgHod0aBuVlZTe27MLCX-fgrfsPXofs8M5JezGo39I-tzrp3E1zpTxR19x8dnZ0zSiCSTsrwxnegGWARB9hS8LV0GFOYFopxVp-RosWDhogVfC2BtbJsKNfbnYkCSlKvcHxe6_hodIUErmQqAanU7mZP7L5_1PQNYU4qLscRetK79pAZvvmfYx3vHvonHElypTYr5o7YPmkHKbFyJhSMaxe6A2PvPs-qytPfW-k1LZBTYUP_f1fDWg57mRZn3FIYLnMznzZ7qG_hhePwPj0VL3R2mKYRNXomt1UFiv7pOQXtD85BMEt6Otgch2zRXtiaiQvth9dC_eCjPoEmyTSJgrHb_gr_5rHgnf7uDlJWmXohfqWst0vgiRV8GQVmc26OFkQMS1jniNvGLk_aXLWt7i8hDPE5-CJ-iR-r93dhpyGDyigCDu5hWK9zAsAv5JqbAqH69JcyimbvSWeUB3JbSD_muouXdBERtLEGiXgkZBuOGB3EiWvcyYzCaFJINW4OOYAFFarMkCCc92Bbf1eoSCI1s_Mg4YisXEGhpG-GMUbJPeW5PebyC2B8X90ADY6BepISkBF9r_WBi7K2ONiV_rzW90R4cqIg68AIuYgclgC2qYhTZqLMpKGU-cQV_cK4HvpVYq8OoWoRswtvRKWZqzCMVAxg5u5-Y0cLVo4EghkrLAxF7lmyjB1sPuhzU-TJgN8ertGHcfFBy4bsoVVk9kxNgWgocAeMoHio8YOrG4AGBBM1LL2r50_Uoi95GZ8OZMfq1-D81P-pqfdxiUya-QpAtskiQDm6WptgJw14bIhuNX_8Hhq_DJEMsDo7xc2zftNzK1vvboSOHwnQbI-mI3wGvfTB_eZ-isYzZ4EbhW7JlE2mFLdNlZ3qeaSr4bDKX-k-2VBJrnz5cIlI8pGcpwos83VqoKTp-yEJOhNr-hjdrAbJimLnhWZEDiXtg3vn0GzGT55zcd2FYeWLM5fo6Yjx9qTmGkxVmIHutDZKaWX2XDO1WtuKobUrxUZBTiJBBD3vR_rGkk0Sm-B9Q16mDcfZ4bTAJXzHIabgFnIZ2pdRocBBZLpPN0CFYe5OVNkB2puU75N58O6-iTs8ywhhZNPsWORDkA-lZ6avqsW6tBwaw2wovpabAxPQuieYMNzzhmrD5v51nhdQZrs9Tpw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_03ec276e0e2da51e016af0c41d2a7887d1bc624f89cce584b4",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1450,
+      "completion_tokens": 101,
+      "total_tokens": 1551,
+      "cost": 0.0011607,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1447,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0011607,
+        "upstream_inference_prompt_cost": 0.0001507,
+        "upstream_inference_completions_cost": 0.00101
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 42,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0011607
+}

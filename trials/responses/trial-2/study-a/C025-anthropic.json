@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:34:52.520562+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C025",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "4094955686dc35fb90ad0ff9e168f442364989be0db4b806c533d30ad136a618",
+  "reserve_usd": "0.098888",
+  "response": {
+    "id": "gen-1794162888-hsF2IPJ5IL2GBFbvGKyM",
+    "object": "chat.completion",
+    "created": 1794162888,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The owner said earlier \\\"i love the idea, great BUT the unblock seems wierd.\\\" That reads as liking the concept but wanting one specific step fixed. The poster backs this up: the barrier-and-lock unblock moment looks like the part that needs reworking, while the rails idea itself works. I can only see one still, not the motion, so this rests mostly on that comment.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1923,
+      "completion_tokens": 144,
+      "total_tokens": 2067,
+      "cost": 0.010572,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010572,
+        "upstream_inference_prompt_cost": 0.007692,
+        "upstream_inference_completions_cost": 0.00288
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010572
+}

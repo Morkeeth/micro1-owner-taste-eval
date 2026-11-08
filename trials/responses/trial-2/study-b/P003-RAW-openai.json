@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:21:23.630759+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P003",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "868d07542ed4e8652669df684d869887b2819d5c51b7eb196d06fc8431eb2b8f",
+  "reserve_usd": "0.066645",
+  "response": {
+    "id": "gen-1794162080-TKXIxG5uEfl9ysxEtFoD",
+    "object": "chat.completion",
+    "created": 1794162080,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster is clean and readable, with a clear two-column media index that directly supports the EP4 message and requested reusable core animation.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating poster quality**\n\nI'm considering what makes a poster likely to be awesome. It needs to have clean quality to fit the brief without showing any evidence of edits. My goal is to keep it short and grounded while avoiding any missing pixel or motion inference. Making those choices carefully will help ensure I end up with the best poster possible!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating poster quality**\n\nI'm considering what makes a poster likely to be awesome. It needs to have clean quality to fit the brief without showing any evidence of edits. My goal is to keep it short and grounded while avoiding any missing pixel or motion inference. Making those choices carefully will help ensure I end up with the best poster possible!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L2jGoFYSZgrejZb3HCxyzMjzZC-PTogBJ9ky30Nitw9MI_SiAOlVqLiPtcNodiYKCny3-o2zk6WDvhnrodkivlOuOu7NhJUJZO4ne8TPGCn-vFSP2xod8TOXLXa1mnysCFyepnJuM9NDy9BYi850E3MVJ0ugD_pAm8vmzdUesammgM2kHPBxCwS6gxxfs_0og-CSCkLsgbyY5zZSpnMWsbYkLWPZRxMn62dZc9L7TsOh9ehtV7kc0yFwWjXQNjr2B0IcRTSAIW1K9a60UTqcahZgKwOCP79JLSZtns1LvkU6ZcHS7ewTxsxn-Ua4Hf4C2Il9S6jkb7bd0MwcfCY1A1dm4HFQOGhFA4PkQpH4TLAXyW3rkdNJJ4mANt2JPPOMJlNUlgev-4iWvO2webzX476P45rslf_5sI5PqOHWHZqgWrbPJRO8dx1TiSxXyvTipbdTQyJT-cIGMurs7hSbt4LSG74WKeeori3pBsQR19jxepzk0GNUUvuX52ML-ebucTUc6ckXlzrzCZXU8-G1WPWnC9HFHE4IIGnv8_3j-b7JUT0cvJ_PKDvhwYtl8jQZfTBzX_3ID-zfnFQWev0gtNmBPqUCOfXQXCHL6PUCefstU-hHy9EGRdZ0wkJsSkQHxZHhXsSTQ9GjTh51oZrDtYE8KoRQXoC4A7iSOmvnDlxAw1INC3eS6WGntCshDmNsP6waGnVWLcH4B4ZCkT-dcC7hIYN2sEfaEALyRx5qvyanvVA-BtLXtA_C1QG2pMUPdxcRDeZSFJnaOiWn2QXwiPKt9dmzRdgJWp3gtvKCYyUok9tRJAe3cXuL4sR1W_5Wi3C_zrvXl_yKcWtdFeGijaMQrjC2_rPX0877k1iMTuJ2prqNQOV81cBEqa-b1PQk4E0ydPIq5qHf1hkTZmqLQo6jaunrnUZA5oXkAu780IXrar9PW1DTYeWE5i47g3ZGcJj-qdo_Dtiubntov_cer1PwrPf7tfB59WOqv1Xv4dasM5we__BCFRW5lqDqzhzCAUd1Bkkf-tBraGeNV32SL0Y4-qY6q54xbFW-eNyXpRy568e57LQWVgmEl5RrBhnsrKfPNIv7SG4gaj50vX2PKC3tbKdDmfntd69esIyMW2HJ5Ac3ZXYH8FyrK7-RhbF5GNakGSnvMk_M1l9fPAe8LSl5Dw3Ux60EEhdEd2z3OGqY9U5ug4RnxpWz-Z2YQPvOpFbuQOZP_zrbWaijWmmrFDBKzYthm2XO41PpMcPocDwkwtPhVO9Rxtqd7pY6qgcCDOSHxp4bk8CJL7_neHUMMsmlagthVN15whm-OmppICagD4DQ0m4eW6dyvnXWoiCSlZRarND_smAirz7r0EnG3ddr638pTfduiKJFh2b2Cc1oudU_NSHJz3kTwQFQhlvP9l1jcLEwstI1N72NVcUJnxMkKsWQejhwQhkrNDfHiS9kh2yh7RME97hc9XzbmdfatJt3WTtWQR64CEhybCy6zyD_v5HdUT_OQl3D7I2PvEVfxcShIUca7T8LrxSc7ecs9YNZHO67U12hEAD6J4kONny2sUyVsss01f7C8Ic5L7uaX-akzl1xbp9xUEVvCyFWUIQ7Oqe_siwSYLdt0uTYSLmqUrk-OGAxb5-baOXi1R1BRFPAa1YCx7VTKTd5oALzeUXNvUuob9XLDbAKiGwzBZD8ywvRadpT4TCG15kKDyF6-jiCV288kVIchVEPZtUWOc1wQvVvj9d6wqBhoSG-g0nSWp6iAGSWwJ3PgsXcYXfuq44IR3wB6Ni_pJJ6QRv9Hbf2Xgei7BtESmwLJeKXQWJ1ZCX-RhcdBcI4885bQSTfsyGGHzaAAeVxjvy2LbCVqxBrMDANshf5szzBOktJeoJnu8VX393QuP_R-IWSkLH6zL7PvCkRNRGClDowG8QxwCPGVvPigCGWgYaAPDlLo12bJCaE0RyBPyhpOdJsAUicwyFA9pMMNl5NNMY9ThzyROZUkWAWAoAY9nkc_0N5jPDoN-KdJHe3R9Ypy63KBlEO578v3AY1w8Af5FobTBCYH1zJMeHP7oFP-YU488AJX5Q6yR0irSsJmyO4n7ZZqFUNeTjAx-Wa4V68BxHSZI0d84c5CdpimeeaIdKqx6f7Q0UhDQ-GHzTdAsSy381Px4RaSQ=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0a6ae8279159321f016af0bda1757887d1a2d90b9ce7593fae",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2787,
+      "completion_tokens": 76,
+      "total_tokens": 2863,
+      "cost": 0.007726,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2784,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.007726,
+        "upstream_inference_prompt_cost": 0.006966,
+        "upstream_inference_completions_cost": 0.00076
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 27,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.007726
+}

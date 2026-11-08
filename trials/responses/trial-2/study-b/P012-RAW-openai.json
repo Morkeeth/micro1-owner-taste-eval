@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:22:42.878347+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P012",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "f87d1c28652e5f945212f5dc02bdc98c5f5e9607a48fd4f7f1011bd502c2319b",
+  "reserve_usd": "0.066880",
+  "response": {
+    "id": "gen-1794162159-MZmQjC6gddzdKd4wIxqd",
+    "object": "chat.completion",
+    "created": 1794162159,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean phone graphic and readable agent notifications directly fit the requested general notification shots, with no obvious issue in the poster.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing graphics wisely**\n\nI need to select clean graphics that are likely to get approved. The focus should be on keeping them brief and avoiding any glaring issues. It's interesting how graphics can really impact the overall perception of a brief, so I want to make sure they align well with the message. I'll aim for a simple yet effective design that gets the point across without overwhelming the viewer!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing graphics wisely**\n\nI need to select clean graphics that are likely to get approved. The focus should be on keeping them brief and avoiding any glaring issues. It's interesting how graphics can really impact the overall perception of a brief, so I want to make sure they align well with the message. I'll aim for a simple yet effective design that gets the point across without overwhelming the viewer!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L3y6iiD-9KXlGf0RMpImXYloXkrjtz4ePy3nvs5pL8k8QlMyjvxjQjHBf9d-_T_cIN7nLvWyn_JkuZS-QW-iJEy897D3z_82NX4dIFkWUBmPH88-KkDBHyeW-01guGw6GoK5VBAcKNnNAbKjHGw7MolwT_7_GhJ9mgdMj2SH7We8a5jXcBFWuk74UIKtKoxi82AA2x9nQtIL0TSe6NROt2_PxxtSRr4K_wrR_dJNiLoXid6RpxfOm4-VHsZFkgZh6USLploahHd31Y1g3UeJLA07VPnHFcKd04I8eTUNq7Sfbgf6fIjtC_treH700I6P-v3prlzGok-I1zFsEXQJdmWe-_myofHflxSWxCE4_QAOelrlU4CZ5sze0UZjKVVcB2IeI17RRhGxxHvcHbPmzCWmbt-mjFuV3Q1qQJAkJVqiLPM23RHh6BIgQE66dU1Kgy-LiUVn5qj64vhSHayBJOuoQW_u3RXE7EOF0Xzi2YFQUqVC1Cy5JxV8koDBGxc4ZuQtqbEEGnCNcyodbOxJy684oh0hGJqne74W35G835N_FEmonRjvhhfpbQtq1roF9Do-aNWjy3yRAGkIL4MDVOp0U6DHkvnuqoieSkhfu0VGidEakmum4PB4SI4B1FAzhgWIGZhSs70JTlCOb-T3F8gkbnh11Q34Nu3_d4JPrIgXdO7UEYAVEoaKyfq_6EGeJzUDW2iDa83FbPMZu2YxMaUvJT0FBA9eo7NAtAyUG858cSyl5Qxp1zTOdF9uTiE5OTBipV9DYd4OI0VKIptQkvtFew0bsfQn5u57VBSh_h9PveTFtgHWPqRMHm42U78Av3-LviTXlxoC8jyl7dsp-GdHcz4NdFfyDgEQyTKLkpSGTZ0kv8UzTn0_X8KiJZ7H4qzgD1Lgg_VORpsfNczIG1DCu_1ohaiRPHV3-ZUGl2iBdwiyeDAfx0r2nG0deJjxIVstyog1FDkTayBpte9dgfvNUxnvLSSNy-jbNevAy4qtRlqamcy8-FdauT5bENT44F3oI5qgfjvffKYRKIMbeJs-DQj_Gum44rmYND-EXc1kuGNbRlLxgdwZyGgXnN6jApiMLAacUzSabkM2x3NbbIMz6rVK7Nx_6rjrVH55fon7FX0J0UiL1p_eZuY56uHzUiTFwmgOHxb0D1-l__TTGbM7Q8UAeX0vrxFzaSbKIkmuREiXkNdqGIc3snbl4OpqbUi1A0CAnsCWLlIB802m3e4YNO-zTGPIy0Vl3TRAYB4wcqiqE0-uTeMoOYwhqglDWMgNfnWVGEyZ1qKv09h7fG-d_SUcdQdlK5-dF_c1W6bSM0jBVBH7HtFzFznQi7lz0aOH0cSJdAuY66WisJY-0es9zrKobC-QpIGCx8Y6aDH4H-zvSQaZFCij_UP7H32IOEZhmx26Dc7SM_GF3Wgwdb-HMCLFX6dEF0nb8ecgc3EkQJOxWMT-DH_sDhCF2brjxt-xk43dXwaBFpmFlJ7fNMY5RbOZkmlkokMbijLIt0FD-wwj4821Y4VG4VsL3AZ-81GFz9LYCLn66LQudDhE4uy_ZRGDfMSqBsLbEGT3JVqQ6pkjTid1HshCRGOJIjCxq5AhXgWzm6U1wGuhL47Cj8ha7AJThGVGXo_FEV-oPtIs4_SrcgvQtdrp3lto3_hK2PLM8NOrOI6ESvqu7u3ks89JPJ695n75muYmRxTSEMIx21wMt1_yMhqghkq82ScUXC5_lbGxfxnaRF9CyqeUpTAyqgQN164VIw9R7aNZqpZ0LfZyU6Ueqg4hBcEoKZuYMM7J-q2ITBm0sZtDwpYS1nj1NqcyAWmrzoCU2oeJ-TgjRN5rE58MeDph50urh2sg8LHyf0uyx42C8vIEddUHitf0rHFlzOkapYFIdOjjMCNhrvJ9BIun3BVM0XEf5WkrbFixuOoL1l_330E5sXstYAbLmofoSsjSC7BnPl9WIO-XmBwHsfb1qb8p_PZ0g-IweeC.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_01ae9257891ac288016af0bdf0943087d183ead52229cfe4e3",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1441,
+      "completion_tokens": 64,
+      "total_tokens": 1505,
+      "cost": 0.004241,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1438,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004241,
+        "upstream_inference_prompt_cost": 0.003601,
+        "upstream_inference_completions_cost": 0.00064
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 18,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004241
+}

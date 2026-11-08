@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:29:01.322898+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P019",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "d2b9279fd3bbb09531253d269b736188cedd6905818c4719e4a08a2f5841377d",
+  "reserve_usd": "0.109020",
+  "response": {
+    "id": "gen-1794162537-1eId41bZ8AAvwxbc25ML",
+    "object": "chat.completion",
+    "created": 1794162537,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"Closest to the approved “Six lanes in cmux” shot. The poster presents a clean, recognizable agent-fleet layout, matching the owner’s enthusiasm for cmux and reusable core-topic animations.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing options wisely**\n\nI need to decide between an awesome pick or an edit for something more green. Historically, the six-lane option was great and generated reusable choices, but I wonder if the simpler green lanes could still be effective. I’m pondering an analogy to help clarify my reasoning—what makes one option truly awesome compared to the other? There's a lot to consider, and I want to make the best decision!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing options wisely**\n\nI need to decide between an awesome pick or an edit for something more green. Historically, the six-lane option was great and generated reusable choices, but I wonder if the simpler green lanes could still be effective. I’m pondering an analogy to help clarify my reasoning—what makes one option truly awesome compared to the other? There's a lot to consider, and I want to make the best decision!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L9sw_hV_q77amVcrGGslxdESkJjbfrmKRxsbMVSEuKh4rLI7v4cZCnUrPt0NSdmTBFeGU-ar-Wu871Lp56aCBt_qhJ7OGrg_ra-NfHN4zpsGjcYCW3dWq1U1bHv3kNchz7UiSy_vYXtZ9dVHRJVZFdq7ZdrvMZw-yz3Pu0DNVgs6ipjWTCwVZHcdvufXT6fbNqWjjppA3xdq7_l1MgOSTDOBpTMM3r3Irp9UQXpVIbOr5LXxUY6hsf-nDG0iTelNvhSx1f5xHoKetuUWZSWJoyyVeyf279lURzJ1A6uCS-CKq8Y9QXnyAXXkJO6wDhRrEtEI13MWjLsWWJy5jzKZS-dsEa_MymPr5vMBQLMPLiWbJ6aSCKZx5CmxGfP5Frj1938OLlQLsGsziz_yKJECHH56wtAfSOUo_IMbq9imgZ32dBlvFcBa9XgIYwbKCxxssnDdLPVcyBZY0m1EBonnGWRAhW8InOqKf1LEXjzx34u6HpBJxR-9yPdWmEGBZYRIQXElNcpC7P6AzbMsZGO5JFzTgERJ-0CHoAup3CjS81rbBNze-u07CDoSr_X0uY3GIAB_6es1tyFdL9CUMMC8K8XxrTzrJ0TPUoXCbqhb5a8pCYrtIhq5WBFW8-OsSlnGTdg16KrtJOOntt3JeakXsU1HCeGgiHxPDB0ejUm5FTU5oHdak57ziD2HkqSskXHS2bXkjXJgzSKaIOYM8J_SA5s90d3JJrWb9Y5A6XZaw0bDwMjnDj1ki8xYH4ZaZ1jxDqCAgr-p8D21kRjHX219y7Hn82CPSQEKErwyGRgSsyoudlAUbhZ3ht7FcJ3uZS6p-_nOZVZaCnbLzOlJ5RVpLtu5HcVg5EyKqmXE1h43n7W7djN47s4zy1oanTWtZFA2kJ8oXv4Sjdv-E1APvzwRj1SvDniAAoCu6mt6xHE3Td7lxWM2Vft0n8-kGcdMnxe_klsJf1pZAqbN6HPH0dH9sP_Hqm4hR5luIMJPjTfM9YODmpBjI16_ntMcbEhamPQixg0qNlVx_t9dCktc3Zy0BRTKBSnvUs_6lNJPQ3QyNsaF66SHhlgvZeiMZuMIvO2j9iiw7CyCz2-TNqprW2ZXsnaroZn78b_QRThxIWAiAkmXO24LbKxesCdXVt5DNeeF_HEwI0_5u45xu2JryrfAVOXVEanus-IODxyCgywAHrtxwde9klgFIif4XAw-jJ-p2InimAU0tTmB4GYVo3JKfM3ToQSZLn97fwjHF7wGayvDLkwlIm8U_pwY3b8NZFbZQs8FXTJrjdiN0noF1sJHp2WpRLJWJf2sXd8hsBxOdekbW0VLDjmaMt9_fxpx83TuyA7EDwxrC1FrtOHOLPOdxLZYvaQ50Ewzi5Xxttoyz5oDLpBLOcdQtDp-obuW6MePwD2N5oJ5FOIOc_MC8S2ipFPlr8R9Mf8gGbzYAWlFJKlY30h3VYyIz2VFKbPFz283Fqih-9H6GKJfWQ_Zwk_VDNhciOB42i0DxJKgonBc9ViCeQyUlmYwzchs884KY8p0S_bcLGG2NjYMCGfmoCNGAxfpxDGtXyLJh7xfIHz4I6kUjbB5YzIOmW0KjVlAGTibXVCN_6JYDLOyen_MeNEoVks6Xv_46wKO3fmwBg6eXj3sMMAcwiNUEVZPl0mi1Y8-hrkc0JVrsrwY0lZHCkbcU3AodyyzFv2jA2DWyt5HGbLalatVLYqkVgG4RE6PI8Xs_my6K3PmS8SnvXrJl2v1hnjYfhpj0xmjjOl5xiClHw8W-T32_h30D9JA6RG9EZVG8WP0Kd467yBUFTAfFoV2y6Q6mGCWoVnOnE99u7E9YjlJIrUa3ginz_7NNKSFBJzkfWuDdCY_REuOxIjKQ8UQ25sEHh5KJjXhh7eido8KUa-SjUN7DdxIed5xj_whxZ0fv6_sYirHI3bicC3HSzHPRD-dGUm86rXRF094njiqWyx-pR6t017EVWuEe2A959hc9hWFTQ-OW4EGqD6C20lex0xsT0IeS3kWlruTRMA0vhOvPx5jm6HorDt1KhrTHZXGdwbaidERVThRRv77dq7uhd1LdOGBoZnjXlAIeXVm6IOi0ewV3ilMDtD_3TopaP9fQ95x_jvoPCwAo4CoVjQw4ilGGZNePIgmGjQTYsZJogtB2pUdl6GdhXv5gh6my8NyG9Z5HGuVPig3rxRQi1E3BvMDMtKJnnSYxK88FQB4f4FtBmdTDsSQGjP52hMjJ-GjkSW.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_05cbf16fe9a0860b016af0bf6ac6d487d1bf4892cebf1d1da1",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3497,
+      "completion_tokens": 96,
+      "total_tokens": 3593,
+      "cost": 0.009701,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3494,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009701,
+        "upstream_inference_prompt_cost": 0.008741,
+        "upstream_inference_completions_cost": 0.00096
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 35,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009701
+}

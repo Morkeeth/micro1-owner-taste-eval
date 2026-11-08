@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:34:16.456065+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C021",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "9f7a2d46f61c08f7de526c320d8c62debb0fdbc8913454c3f926d2b890b25dfc",
+  "reserve_usd": "0.098896",
+  "response": {
+    "id": "gen-1794162852-pbKOzjKLBpaJ3Qext4hF",
+    "object": "chat.completion",
+    "created": 1794162852,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier note was very enthusiastic (\\\"sooo cool, great job\\\"), and the poster looks polished and publishable, with clear numbers and source notes. The \\\"we need better attribution\\\" remark suggests a possible edit, but the visible footnote already cites the data source, which tips this toward using it as-is.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1913,
+      "completion_tokens": 126,
+      "total_tokens": 2039,
+      "cost": 0.010172,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010172,
+        "upstream_inference_prompt_cost": 0.007652,
+        "upstream_inference_completions_cost": 0.00252
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010172
+}

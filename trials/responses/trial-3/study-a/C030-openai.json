@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:50:11.805319+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C030",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "ff9cab3a119209e297f03e97afe3c77b7f0a29e02e7b30893127be1458d6f6a3",
+  "reserve_usd": "0.067055",
+  "response": {
+    "id": "gen-1794163807-7hO4UYbI470gV4kcXYw8",
+    "object": "chat.completion",
+    "created": 1794163807,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The dusk rooftops and floating notification graphics make a distinctive reusable visual that fits the request for recurring agent-ping shots.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on poster choice**\n\nI need to choose a poster that satisfies six criteria, making it attractive and reusable. One option is to edit a blurry resolution, but that might distract from the context. I should aim for something awesome and concise that has a clear reason for being visible and aligns well with the ideas I want to convey without making any unfounded claims about motion. It's interesting to weigh my options carefully!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on poster choice**\n\nI need to choose a poster that satisfies six criteria, making it attractive and reusable. One option is to edit a blurry resolution, but that might distract from the context. I should aim for something awesome and concise that has a clear reason for being visible and aligns well with the ideas I want to convey without making any unfounded claims about motion. It's interesting to weigh my options carefully!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MRj4NPys6_ooX1rqJd6qdeNzE2jnd0OYBG6icIcpIOVzNZ2hc3fLzt4Oi82VsFOCGM5Hlw3EzlkbW_gruPGgXA7ArGlw4nNMmBwdkkcJWMEUAdd70dMywwqPx7XVuWotgZNwN555ENQByVkkp8zPRfi9mW16QjkGdqEA2PCsbrjC3MrXqX7OORwWdPxhj6jCeptF6Zke_CSz_9X3ggxSUUmYDPANuFUJcUCXm1x4MtnJli6CNu4Ub_iCXPVJEk4KvU44I2RTlFnyrxmtoUZNen6QXmSsxFJ86F5AiH9TnrbAORjq36ys0pmHbBwzUJ8d4Wcutmhr8yF8u962ulXwoL_BwXmhRnA7poqiBLJu4NhmiKL7MmhtztK96pX3TMOkglPjGKxELtjKoXV3topUBlo957TYiJ20--eMM4lwVF9pTRwsGdsu2l8B9PpSXwDHye9l3owvBHMxoQW-_BhHZXRw5hVbd2YD0ykZkA-b0AzYtRBYUiq6zBEQJ5nTlw19M8n9pAhNsvbpuSktplq432-mLlZZ443ivvygVrk37eKqLF6yrgtjFiQ8LjFq51k10lAaJZxDJ42TgnhY16QRDZ-NbfxaIL4HparLXfj4aSzdhb4YQPmHvTJwMzRHo_6BlbhHDDgedX3figEzY5hVLITyeNlp7pZhg8op4FyiNYEGMbQKxJNpyAC0Y2lptT0pHRK7rVO1sl3xFDb_m-YWqmk7l_Ldq3OiTewv1lmFfSBY36jDrM_KGV_r-eav7fu9NDqwmdsXdrUdkkHK6oXdmXEAal1aWTcPnf6GFMBeTwICb45JuEPpeq8INgZPcE1nJ3zveQw0xOb2yVAdTLI0c0odiWgU3UeHfSAs1P15v8OZxTHZ1sQqpLVWXcHIYLq-YGfmbUlLje6ehhDfXTtf_xwyLywnhfjrVqFlscqrvpL6Wn7W_jx5KLjs7pr80okx1ZJBwuvdyXkT1PjHFDBIX4ltA8TrSxQc7jkNnrGWiceV_bh4WUOphTMfqLpeHytF6FBI5k--SEi2YBG5exZ29Q_AXHwPGpakYf8ma19S4cRu-IkHK_148qeO40tKT8dC43hB1sZipe4uI9QK3mKtShHuRHZZ2xwdkBf14XOmRmE1uyCN_7BI9JdVrdvK0w8jJHwPodpyfUdDnm7lQc2QjNl8K2awakBfK84xVExzIw8ghdhxo_5tQM_7gOF5Au0gj_hHuS5fSnF5PurQpip7St0kNijaKhzBzdurAUBj04nBLGND-2GjckLXhb9usePdRUnvR_WKdRydCp8FuLHzr4WA5DW8wEiQBH9bf28ctukNi-dAdCUz5EtGQiw3_0QVRiL--ZUDSseKrrvf8u8I66lW_7sL7kBmTdWjV9eqm-n67wD-ba4NPX_4z2eb1Y57GfC0b43EO_qxcCpBh8_b7FqyyQdGkK87HmEilPb8IUc_yfTl-kkGb37UDt-Ffw91BhroPQSI5PesUXZ0OY_KsuO31_MjWRAJpVBFRrjjZLTp-juDjhAdp2rIYH3IcGjtccOIBkkCSDj0UP4nk4cQeHyl4BuQTN40xb16qX-V43p0chPG_6G0Q_0ZrbhDjjfpfyzrVPUzGX6z-jotEAbASY7u-Ge9KUFK96oZu37JMzrhJ_YjfPxq6cRV9ZaXB_AEm-Dh_XWaIGbQfcDq647Tzhcrj7upIg_nmkcjyC86IEFF9xH_8oP92cl5opgqcY09tX-1EwBeM1Jv2Mv_lr_gceXrXYJckz2Lbt7w6dRo3epFwgWlXvA9kx4rGjEiD0-OrKkiaTk3HQsZ8JRIltLmnbxvwEkbcT8nzJn32bwl8GXLwdZ3-FNPG11kVwzkTE_wM15FulDsC_YbqlIR693shW_XiooguGnYhD8IvxejydhQPyOdFLXeeO7vthRItB-t86B0Tma2Da5MrIWyEsnb96MXjCakwzQeWeNPOTHzt2DlTRbXQk9VKZzx1lSy0spIRr8S_i6GV60LzLn13OrQsChq5hnvKC0qUPVJy1BOKRz9Sn0ftcfOJB_S9ceLAkb69XvOnsQ6iA0E-dQjovm6ridpX1JG1yjWU03h3iBdYyGwMsVdoX7VdJ2aph7DM0z43zWNbjge61pIeKvn7DUch454jXgyTRLKUcsvLUeD5F0c_Pdo5BYfgjI-7glSboQoDKanMT6be0bUZNzhkT5TU7FLlpE7E7p5iBtOte-J05evDB1hCiPw1eZgWhApTPHJQBD7PG5MMO-XZR9bEqK7zgGMNwT9-pDdZrU5pIATBxwwDXYqblRe7Ds5R-G0PNZIP--WZTuj8akeZbAtarl_INgzw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_061c68eb2375518a016af0c4611e3887d1b6ac8ed0ba69695e",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1452,
+      "completion_tokens": 84,
+      "total_tokens": 1536,
+      "cost": 0.0009909,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1449,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0009909,
+        "upstream_inference_prompt_cost": 0.0001509,
+        "upstream_inference_completions_cost": 0.00084
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 38,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0009909
+}

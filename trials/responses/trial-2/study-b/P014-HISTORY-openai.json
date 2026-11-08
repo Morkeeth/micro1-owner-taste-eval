@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:28:11.747002+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P014",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "29e3919c9013f824e9d83b204d8ffb5fe6318b6c7f512330e0556be0d4abd72a",
+  "reserve_usd": "0.108810",
+  "response": {
+    "id": "gen-1794162487-p0Ks08KKCoenh8h2LGnB",
+    "object": "chat.completion",
+    "created": 1794162487,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly wanted reusable weekly-limit animations and strongly approved the Claude/Codex limit runner. This poster clearly shows both services in a simple, reusable graphic without potentially incorrect numbers.\"}",
+          "refusal": null,
+          "reasoning": "**Comparing awesome and boring**\n\nI'm thinking about how to infer what's awesome versus what's boring. I need to look at historical data to gauge approval ratings while considering my own core limits for a weekly analysis. Awesome might seem like it relates to simple metrics, like fun bars. I want to give a brief rationale for both to keep it reusable without diving into specific numbers, since that could lead to factual concerns. It's all about balancing clarity and insight!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Comparing awesome and boring**\n\nI'm thinking about how to infer what's awesome versus what's boring. I need to look at historical data to gauge approval ratings while considering my own core limits for a weekly analysis. Awesome might seem like it relates to simple metrics, like fun bars. I want to give a brief rationale for both to keep it reusable without diving into specific numbers, since that could lead to factual concerns. It's all about balancing clarity and insight!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L87jX-MMDFunsjhIg_b9gKa640RF9RoA1BIqtUXaR3Osf5tCTFuodGnmKjziP_nqCdkLwr1uoiS8QsOQ_wJsB68LxCwYyVy6vVJydvGSbq-v6McUvVdPbjTfp-QPYrcjXrCDYKPffvHqrNIb8IqJJYV65-vaHEtIpdj8-RMKRraY-krDZBzaSEkUSqCYLvAV-2kJyxeNyikf3CryqKDGVCxBacKpd2SwVLdA1tirgIKr1whnyBDIWGGfGr-gj767axbmrlTRkhcufBk8JFmF1240fJkW3SJbExmeWkldDpSo9ehGOahNE1TvpH0QMUUOXFlQmUE1XXt0jlTzLlThyRf4qLsa_BM14sscwRLKLPEe6GRcKGyQVgvCh_Co6LduyLkxmeY6XdlHfZ9jPLSqkQ_zpk2LD97TAd-YqB9c5YyXzKU2jGdYjvPAY2dyQOoRSdzJPbSNiCSWG0I34-2MOn_wnzutPEGginpDgs1v-0IxivgPXsiltJEb1fvIuGSFwWfSVAaaUoihCJta7_u7g6UnHpJt_H0Cf-hN7gLExvVaNQBfAfWYxXHHlH7lAnXYrEr64CRG8PmIpHEaj_skL6cLVL-DEenHzaEphmoDjKpP-8yXTlJl46RiTg0J8pS8diL7uGjSoV1nE-NhtA6e0lpXWhd03MjgO1CEXNgHQVK4HKx1N4iULSDrPi3Fsx44sx-8FjPY9EYwyAciFauEc1vhxZkURiN2GDqoaQ8uzgCEaMHgzMBNNyvDf2mJkPl4d7R1e5ZkmeU61tDEwHvfxgcyTNiIlw3H-xw5Aumh3ZS2mnMe6C0Kz0ql-KcxNGY7tHGK8HB14B4qgHGLvrarOk6nZmyp-f9jv-sPJp5ZNyKJgC_ZbO6GET-yL--DBHhvfvz969RwOWu6Y2HOBQkRgZ9WoclNaPrpy0R2EP9R7TvrCt920aAAJzuReCbPAG-KhTVftpSN2tW47FgQjuI7mxK4FTgFc7CYpZfWY8VmypCIAfXkgBpyJs-rCb43ORQiB9ETvP4qb4JjxSl_UmBy_0bSFrG2iVnzqMk1NaXxwd1laYg1MdZgqHU4VM_4ZWHD_mm2zJewA65vj6_IUxfxAjWPsmSIHeh67fiw5YH0usfl1XwNCfMs8GiuwRAhi5eVJU_0bgTHxtyhzTBGKK-31yaI_ghKHH_UxCPsoXpFXmsDiV1tyEWPgmCoah80BuVAXNrBusyDOgBrJDme6R5JmtlE3t-aQpdAjDpRSX9LPoemhVnlYghXZsk5FQDGVrzDv2GvtMTf--zCOMs_cgHQr1yndmWWqU9HeLL_lpIkKSBg_zfj-34-xGeR7K3KwXA5eb0KbzlBepRKSfeHxpe7bjUShl30-qk5DHjtAMGSMdKO494iB39w6AZ5I3PJYe8Fo9ffG8ZXZUFrwt_b-6issDrRAQqILpCfPf2amSacSXW6Txqge22i5D2YQUZwoo7jZWhk7bsU73O34nVeH7LvT--qqktHNm94MBdmm8GJyOK4ku0Fjq0E2EICn5UCpLBYBKlI1lFQCYR_V2mWJo0SCDb8wLY5xnZwa93jubiVfBxSRoZ6QkgOM_AE1b-E77vfUmvTZ0VpKvyS57h1ElPI9uI8-wGE-nAyNTGZRRnZ0qYdh1GC4Px7wax7OT-_HMUERLO3hvdVDHhfGUog8R-seh5l0ybg6gDhiPtBpFxPQfWv5tXLWQcOvkhBJ8saIjNoafvWa8xtMVfihRo2PZ1URpkTtj1Cu0PcnylhJCigdU8V7_MzCvIX0AVfUr8PM-wNJ1iwX87SewyBUkn7c3mgH0lxH8-qCZ-FBGqwhy9CgfO78DOnM9HTiauSVCd9gil9ej359tl-TR7TvP_cbgQOSqjrDxI0IQqihNKUgCWka-MStq-IjA4mDcfdF0nWphhgRc8QdrjKixFOGIHo7H4HAsk6oYq9Cvg2IxE1Lzn6Oo9gw_kC7NqE_n4veHigs8nSTtJNP75as06Ue_6OD8DIs3m3AKDfBnQBPaReYaRn3ENDf1ZevgVtbaxIbDBH4SSpnl3tJFAva18sOjXxdAs6mB1OZ25zOzPIBXO_PXhMtZYFqx-8LD_YlMxBYBZdvOLFfi376TcCbcjtiv7_APmNukgAcptGbywEi4IXvB6YtweKfkcGBUyV6w61HQ2qCwpVxwSQ9C2YgWvOng8yhaZl53g4n-yw7Vtk-P5DJxCQ5mW0v0scsqj08Ny754yWzNvUzDq5pI_wRCcvlvz-hd_jMeuXr7wFRvtUkb66gtmMa5o69JXcV9c-dtTq9QMh1hgsFs1.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0dbf2dc46dfaf4b2016af0bf38aaf087d18421221e03ea1358",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3485,
+      "completion_tokens": 95,
+      "total_tokens": 3580,
+      "cost": 0.009661,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3482,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009661,
+        "upstream_inference_prompt_cost": 0.008711,
+        "upstream_inference_completions_cost": 0.00095
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009661
+}

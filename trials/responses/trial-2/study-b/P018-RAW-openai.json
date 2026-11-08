@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:23:34.303656+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P018",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "ea817b8a8efab6630bdcaf2f2ea7f80d736b54996322fd4b0b9219283251a501",
+  "reserve_usd": "0.066970",
+  "response": {
+    "id": "gen-1794162207-lRt4GlNUsYpo1BqPukC0",
+    "object": "chat.completion",
+    "created": 1794162207,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster’s simple Dock layout and visible notification dots fit the requested topic and look reusable as a short insert.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on design choices**\n\nI need to decide whether to approve or edit the notification graphics. The current design looks simple and vague, with crude dock and sparse details. It makes me wonder if the owner would prefer something more visually appealing. I’m thinking I should stick with minimal but effective designs. Perhaps I could invent an ideal version that’s clear and reusable, like a floating red icon for the poster. It seems approval is the more supported option here.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on design choices**\n\nI need to decide whether to approve or edit the notification graphics. The current design looks simple and vague, with crude dock and sparse details. It makes me wonder if the owner would prefer something more visually appealing. I’m thinking I should stick with minimal but effective designs. Perhaps I could invent an ideal version that’s clear and reusable, like a floating red icon for the poster. It seems approval is the more supported option here.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L4lD7sTPXqS-fTKpeAsLKGdAjHXCQRuDBnYVqbJvDWiV-rOte2v_IBMD2UUiHvvFb0BlfTGWVnbfoyJs5DjUcRZhCEwCDKPxYyAreQmo4OKHqDqzPB0tq_qsvX0WextjzVk9TZUhUW-oaXbQCkHfdWwCp8lq2TAkEY5zcerhEGdfjqTQ2TxCKFnQ9WZ1OdfFKZ9kZrAKWbuLU2IRoz7IKVBGyXzHHEPmALJS97RB8LoQpxTqabOaKFH3yZiwx5WFAwA9FLXWVbhpXoompqsSJbv0rSFQVKucl4Afjp0sBYE1QCwy-UUEmz5eEQcXpB6w9F44_EQdy2g9blXGMjJIuJkj28ZzDFmW1wQCA6mZVX09QM2seqa78U3AaQ3LV4ib5FFLFFMVcmLOK2c3hPg21-1k4i5tNVAxxQzzPjRMQT30bLn95DK2m9mmARNwBx6dc6l1Eg29iK49kEprxiijSGHIw2nuZFgO6MFhQRQpy1aPojeLBfbgJroS0-LjfdEEQEmROIK624kO_t8T9wq1OK6OHY1ZJZnVQlMETSJaw1KhMb16OUEhqYzqtY2D7afORZ6dItkzHsKrRSIw2KdGc8y4-YK7-caD6jUP5DfVEmPuVKCzXhKrEuuWL1b7SbUn2vfO0juVPXOz3oxACkbG2ntcstIw0DQhiYuGZPSuZ3oPZEVMeZ77IvjQX4NyYfMDXiFYGUPBC-q8M9b_ADHi6_WXtRDsUX6g3693KaHvHmelPAC93rwqC4uI887E77Uxiu4Amg9dvcZS0JkU0oDH0bc37RslVbR-n3t4pufdFQe0y2YWOwELcTqSNLH8Iu96fPM2XG9rBq2UlZuJuQ5nnv-gTx7j_0Ne-dciDjZs5iwiG9vrQ9xUsG5aEuwiDMZkJRj9Tu35lpRpfxtwsvd4_X-uy5WnRtTno1RNAyXL-ucsPY_jHRadh7r6OgrQoSJgQSduH6tpg9t7621Efe7jS2uCgRvgmvmLsBeHXU1rK8bPL5LnBaw06qJdhpcwJPBdznyk2EN-ueZU_h2V-ers9YRfoUG6cO6HdXbDC6vSJRABHwh6IGcgnTqzhoA216oFKdEEZ3vJpADKLvOi9Vxx5Jr5tQUn32Jtj8FixJjHiihafnx6plgG3du4NkZiBHpk3g6lF2B-eN6GA6hjYdiKYTW3fyhsBOL8FP84cGRdGPyR29UZXoNOkUWXsrCRy7_-VCtXOJMjVi9c0O7om-2mkdgZ_GEH4SKIElOAj8p_G21l4QOie0PSRECNr6EOWIvm-iI7RX3Zt-eytefAUQL5Wkv9sBu8gMa2Qnm1F_X-FrItEa_naTZktvl9ZlfGbCHhMBvEDMAAwYkVvAEIK7OK2w-kxd7mrG_pOfCR9tlSF8i8mz98PAI5aqjT0KcN87yYqfRECgY31FOtjJPzPht-YOdT6vj4IX76_EGXgdKJRpA5pCo9jJV1OjPcsPsCXBqTTQN502o1-tRBy7nZsa0mNhkJglEC4kpVG8aJSoBCrtD_7GLz5V30mP0jDcir2snZa8WWTRJUPd5G3J3iFVlSEUNB9M7djYkIjedfrcadzuXw-OicX2shT69_PJHXPTlwXw_YxBZidDif94UCYBgxm-X4HsgLl9TNVnD2HuFm9KmfARMbKSLYKOrN92oInz23Om4k6iXUwLXXdtmjjOIGRqtZ6M5Lruc2BA-aQpTGvJZLIWAs3xlqhMkmU5MggvDRAxdyRippabuO8lKcWL9hb9y4s_QbgKZtv7pjrfZMiG7YL4TVCTXuOP3Hn514A_sh0FTevUDRISWr6snhxfUYPp-Q9wsCTfBLjRw2bpyqvJh7r-Rdf5r8b73-2ifBwBbKrsF07BLMT7Dkp09B2UN5fSroEdPj0mFTI9to_Tyw3TJTzWlK2tFJvBGj-8dRbJcx9ILsvcXXZOdxUmJaV6io0zqGiVSaqGXqiYeIimPZDP_RcG09iTYFIWtcO3_Ey4HHZ_nvXR9wMcBNxkxoqAE6iMnDvHgKUpe70dh-QgreACsfy6ZpKMo9ytDuQ-gcQwjbdIuAenOzWjVjh5uuQbSk9sX7lUqnAVWjCRxdj1qmfWVYNdhQFpAaHIMt3xkloTd1YPlJmx13bNTVLBQyiz1o67wTHEvpQyIqz8J9-VkJ1dvfFpLIUyKiMQFwdMSepT6SSHPGdz33Om-eZpfHf7p-hcw0YKFa0LOl-wKzzKj85nfRCqNmqzeN2hc_K0xOANzH_h66GZqJD7pySBNyxvsF1XbEry8SzB39clMdFLcN_3-g_QmWOQM-EEF08oKu9AaWJyyvHHazls7Uk3YMmccsqZSigRuRGslRJ1KAVL41kdSWYyR5a7K24NzwnwLGqq4NE6wpdO9ytN76Qs9DLOTAixlFrcA8_3Yq8gAlAzVCAvccv5Fdkw94kTUtXRS3HZKIPPt2g5FwHJsoMMU9-UUpA9tMW7zVGLwehahwc0BPdCD8gYRvY81QwOnMve2pZshcwyMQQToRCRKUz_jroEH1KW7Pa5WdjP-Hw1mylTrcUFFio0nF8GaqNhtIjOLu8wyiWD9pCEJYgx_s4XOVw6vkdj-odFIvOlwbSSv-dv-6rdhqGMCmWW86JrSRZmSBhF0CfBnSmnGMIUKs7IFL9HezCDWVPjkHtpwnaWHvkbzuwjDKEn63bBeQcwu9YHkTxTsj8q-ryuL9r8LzOD5RkHyLIM7Ph5oJSRnKkCz04GiLUlyaqPmuFoeoQN1EACMZWu_ibHXG7A9rO3FRQGah6tSJTWis2zfIrA-CSz8cguEYduNrNhMy4Xo6yegiDg3MjyeyFtFm3qhs-i7WnuVyyuQuPKQaeodTzKhkv0wZxKiaJJJXK5tXjB1prDAfNP3K8NFJRvzEjN6I8dzgmszZhLd5ZFv07T-1gXApMG3raPAupkAUzGqwXOwtS_HDNIETeNA5ELH7yltBAZ2S10Z-9SedV1OUzFadUyoZghIeg5cdx3pZk6mYDrcu3i-PimAbqySXiPZvanhpRNngLfH_Rdehwd43z6rRHdJrbwgVFJLagD5b8OmXn6_5yL4s7SKHspTUZq_R1lkP0P4EnoyX0wROg7VTGEYMOLXDw9KnsIitHpZf6CIYKYei7VIJmtzGYrBkfld.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_04446f46c2c249d8016af0be21503487d190feb336fb916227",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1445,
+      "completion_tokens": 141,
+      "total_tokens": 1586,
+      "cost": 0.005021,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1442,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.005021,
+        "upstream_inference_prompt_cost": 0.003611,
+        "upstream_inference_completions_cost": 0.00141
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 97,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.005021
+}

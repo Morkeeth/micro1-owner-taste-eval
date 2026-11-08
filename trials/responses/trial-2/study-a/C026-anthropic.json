@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:34:59.520767+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C026",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "f3636c7031078d2b7e2f2eb4c8d655efe81de0ef634494c3eb4dc58c9a3e1459",
+  "reserve_usd": "0.098920",
+  "response": {
+    "id": "gen-1794162894-GY8OdH07FkMHblbwm3j0",
+    "object": "chat.completion",
+    "created": 1794162894,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The concept fits the reusable-bumper request, but the frame shows a blocky, nearly headless black figure walking away on a plain window that has not yet lit warm. The character reads as off-model and the clip still needs upscaling, so a revision seems more likely than outright approval or rejection.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the poster: a black blocky figure with blue stripes for a head, walking toward a window that isn't lit yet. The body reads as blob-like, and I'm wondering whether the figure is off-model, like the pixel agent turned into 3D, or simply the intended design. I'll lean toward editing this one.\n\nThe figure's body still looks like a garbled render to me, headless and blob-shaped, which makes me wonder whether this one should be killed instead. I'm still leaning toward editing it, though.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the poster: a black blocky figure with blue stripes for a head, walking toward a window that isn't lit yet. The body reads as blob-like, and I'm wondering whether the figure is off-model, like the pixel agent turned into 3D, or simply the intended design. I'll lean toward editing this one.\n\nThe figure's body still looks like a garbled render to me, headless and blob-shaped, which makes me wonder whether this one should be killed instead. I'm still leaning toward editing it, though.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSmwkKEAgTGAI4AUIIdGhpbmtpbmcSDJz/ESPAAL2ZNjIbuRoMRTt9N9M4iIupC0OCIjDVwXwWlRfMxcvCpX/Nffso5zZpBbWwOh973rn5Pi9LFCfShh822VsKlPciWOn4+lgquAjjxnTjSc5037+QiTWARmZn2a5Om1D6yKXdX3/78K1OUZu/hKGTvFNN0eQHQwzLqXuD4jnYutS8T5iVwThBKJv6FzVlG2RkVYeA4v5AcLE2QodYdTLv/lp4+mlfs0a+UcMpQXH4/Ml9qBRcJMO+xdTMTfU37dkZdtVcoaLStGPqSMYr02bUdja8YAyv9Rp4Xqw6+KHv62/VFEilrvlx8FBeT5VAflSdDdccKjyiDBqelm1aKvUfvOgy8+U1iA9ba+cRPl/OWyrkL9qc1eLLy7yCkSsAmIdq9xOjfrh36Li/f7sHB3y5M0IzT1uea0VDyb5i3MD1PJ6bK+CjB/YlAy37c+GI/Eyy2tFiWNPUJdUblplqLiB9+FHkC8M4zu+v+6zZiuzQTiijaTwDjh/f2oUEaC5TiBB/3xxdqz98iHxpxQow88NFlwpZ65H485mjE094qfjfQPfgIMNpcnIKEJqFGVKgoAGq6BvxaHp7G3Az1QcK4n7jbBnVRXaAivjGICLuqE/nYohnOKxpjaC2wYHlmI6sA46GuVmfonbxTiyceEysfk43Sw12b7VxWJqpusBxCoZzcXUjneBsOHutBltSd1Hse3vFNyPKBDXjxqLbaqxWvzVvqfBWlBrVwHeRhsB6U51J115zsZPY6X7QA7UWQ9UI8MtBaiBBVpONG0Fet5ywc8bzBVuKKE54cbp/iVQCYqfZ1PtC5mA+tdDOD+EEYc04hbZFFhTRiy7jfT0BIQM7XVNyV9CqTdrBP1hU4Msj4Z7kXpm9g3rNSzVg0Rx5z/jRFNjS5vrfEKKFSViSEd6GPlP/zMwUfzDZh/pmtNsIAuczYync6r9z6RJY8AYU3cvCiVE0zlrl90BjG+afO16cyHl/4P7UNXgUk0NM7eLHevIcXtFMzPKT6JMpKyP3Y7kI6K/romIDgIkINbskGqN3gSht+gcFmLwvymlZzp1WlsXPpFENCJ+LJqx5lTQGY0eq2ZhuQ7BI8PlsFWjabtsQFtzGbFex7wNa8nd7OgOsd5aKBP8F0lsaCLQXWN2mhNChUDKfKqcAUEdIxAgSYEhwZTiBUfQt+7jSz0oi4T3T4osnzg1iNiKPldL+GVnuJ+biQ2FEpY9hPVpOMBT0HwZ3qUqtliiyV4aziCWM47567MdQxMVQb/K8KW9C2TXnHmODPB7eJ4qnMeVTMCeUucO9wiOMoYS4sFlqtZEaNtCuIIWL31kkZpbwLnKQgzUeGUI2Y7ALgUSRdvSqTcIHF5ph1yFhZVQxZbr/uPNsAxP8Lz/iFV4vahOPC+zbjnxRcravBa5c3/AN0PM8NTTZduUX5TwUgC/LKtYJ4ix4JjdwKDi7twDFIzqWpaO/VissMe+9QZzQP/tpqOCROegxzXRyHZCoU1+zTc4XNc+Gt1YGnpG/IXjvsxCzh0W+ZI+nfIev46TITicYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1920,
+      "completion_tokens": 308,
+      "total_tokens": 2228,
+      "cost": 0.01384,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01384,
+        "upstream_inference_prompt_cost": 0.00768,
+        "upstream_inference_completions_cost": 0.00616
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 193,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01384
+}

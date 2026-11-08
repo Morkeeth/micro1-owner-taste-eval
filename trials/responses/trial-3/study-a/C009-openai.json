@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:47:12.922153+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C009",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "93501949ee83b1dc33fbd9ffa130e8b8ec4dc420ec17ed0e967ab6c1baec1910",
+  "reserve_usd": "0.066690",
+  "response": {
+    "id": "gen-1794163630-aCTAHxtMtX3Fefl5mck7",
+    "object": "chat.completion",
+    "created": 1794163630,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The earlier praise, “GREAT, betufiul,” is the strongest preference signal, and the poster presents a clear, polished message consistent with approval.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1438,
+      "completion_tokens": 51,
+      "total_tokens": 1489,
+      "cost": 0.0006595,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1435,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0006595,
+        "upstream_inference_prompt_cost": 0.0001495,
+        "upstream_inference_completions_cost": 0.00051
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0006595
+}

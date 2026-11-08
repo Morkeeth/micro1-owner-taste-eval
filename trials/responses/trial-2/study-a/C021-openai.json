@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:34:19.035073+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C021",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "9dc6ecb07bdcd164a86e50433612feb8415356480301380c1fd25d86df1df63f",
+  "reserve_usd": "0.066930",
+  "response": {
+    "id": "gen-1794162856-9DzNaC4pWhBzJUtPFXhu",
+    "object": "chat.completion",
+    "created": 1794162856,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The earlier praise suggests the owner likes the concept, but explicitly requested better attribution. The poster’s tiny source note makes an attribution edit more likely than immediate use or rejection.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1445,
+      "completion_tokens": 52,
+      "total_tokens": 1497,
+      "cost": 0.004131,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1442,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004131,
+        "upstream_inference_prompt_cost": 0.003611,
+        "upstream_inference_completions_cost": 0.00052
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004131
+}

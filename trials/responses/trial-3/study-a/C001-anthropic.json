@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:46:08.890986+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C001",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "4e49da979aabe55b7e71a22a17e65c12831cac01a91d050f81dbea95d15fdf6f",
+  "reserve_usd": "0.099896",
+  "response": {
+    "id": "gen-1794163565-NykxK6qXfhHg6O98pl6x",
+    "object": "chat.completion",
+    "created": 1794163565,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a best guess from one still frame. The poster shows a clean, on-brand 3D voxel version of the pixel agent holding the blue broom, standing in front of the agent window. That matches the owner's request for more ambitious and fun generated shots. The owner already approved the shot, it came in well within budget, and it has a clear slot opening the trio, so straight approval seems the most likely outcome.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1969,
+      "completion_tokens": 150,
+      "total_tokens": 2119,
+      "cost": 0.010876,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010876,
+        "upstream_inference_prompt_cost": 0.007876,
+        "upstream_inference_completions_cost": 0.003
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010876
+}

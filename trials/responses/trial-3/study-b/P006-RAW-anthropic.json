@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:36:39.033281+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P006",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "f86a7f5b1770ee403bcc1647906fbe2b63faa6091f23987aee4979073930b464",
+  "reserve_usd": "0.098920",
+  "response": {
+    "id": "gen-1794162993-E7pQLfuzfbZYc6XTXr90",
+    "object": "chat.completion",
+    "created": 1794162993,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The frame shows the requested fix: one continuous blue line across the Paris horizon with no visible vertical seam or panel split. It came at no extra cost and works as a short opener. The washed-out grade is a minor risk but likely acceptable.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the poster: a blue horizon line over Paris rooftops that seems washed out, like a faded crossfade frame. The owner wants an edit, and the fix seems to target that, but the image still reads as low contrast and grey. It's only two seconds long, and I'm weighing whether it should be \"AWESOME, USE IT\" or \"EDIT THIS ONE.\"\n\nI'm weighing whether the poster's washed-out look means it needs an edit, or whether the fix already handles it well enough to just use. The line sits roughly at the horizon, not quite, and I'm leaning toward calling it good to go.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the poster: a blue horizon line over Paris rooftops that seems washed out, like a faded crossfade frame. The owner wants an edit, and the fix seems to target that, but the image still reads as low contrast and grey. It's only two seconds long, and I'm weighing whether it should be \"AWESOME, USE IT\" or \"EDIT THIS ONE.\"\n\nI'm weighing whether the poster's washed-out look means it needs an edit, or whether the fix already handles it well enough to just use. The line sits roughly at the horizon, not quite, and I'm leaning toward calling it good to go.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS+gkKEAgTGAI4AUIIdGhpbmtpbmcSDAcjt1BKFJUlNyryvhoMucXOuAVJ0CWdth5kIjAEnSP6pJJ6qlUgIPDgP2ZiMqOtTeEtLXirEMsZtjlVWzGVXY5V+6nuinFfenAjuLwqlwkTJ7IbSqZ79QK4uJXryIo4JZuLZ/BLJr6KX0GltTic27j3ceQ6DjxRWeUE2M1SoKEXG1UC7ui2qqV6baLlDxAu5o4v4ul1w+pO9BDhJKaK/pwjZwsST+lfruOCEiHuS52PAeK+Wbe0lihv70++BNHgoGXH3eGzS0tbBr+xxvstOygiiY0D6LM13CrwtR3qHUDQ53T2yaYzTon5xcwVH5IfS3s5Yy58khLQJ83tbKE0GDgC0PJ2RzkowfEt/GVZBOLq7XG/AYJK83+lQy6my2GHz0S7w4p6bKKeN5KO2wILfDbx8aH+shAqxiBo9qnRpmdVAZQSL2KfpQnjP3skFQ2QQ0jeQy22rOLUDt7mDOWK4HsnpBlJAsZvXnSTP7j+Jm4dRracBbySx79Z5wH7IOufFIr26UN3bgCB/gK5o5cy6YREJy3rUkFNCslPIcqEZi6Eqsng+fkOX4c452dkL36LRTrnZvEG3O6hgDB4/9gjOGU+Sk1jcGJXgcidTBNPaMHya5ynRISiT2NPtOiHI/T5zvDbfOZW8D3836M/1zFl+aM215a3iBGFsZ3TxkDxGOEO6J+BeyB7oN63nWhh02pgyp5fcDH+/cAN9Wsf19pl+qZWl63UC1Yy5HKKVQk5htc1mpDYmWB69F14i7aDgFex0vfHiqRAitlwF8A78Lx82UWBxmHVTc+CQ87eNDCHlk4Wt+byX5pIGm1+PpC+W/TR0fHfCWokeuGVTeNMVyfJzCzl4YT1BU4SKfMcBT/Wn4dbgXny6Ciz8rY0sLtU+cYecBuOobejNXpNRDeE1eKVgRKpbQgHHrnBi4ggTEMPbpWmuhTeKOtAyHXoK1nj1e+QbRqmv8l12tYo6nBVk++jzEb0yFq5fwZMxmMNC5s4hTWx8MQm+qWmAZr976MXkOwtXozsCz3kOK3oWO1UtP+IQ/qNBMwC5yJjlz8dyNX2ECUtAkuWOIqlWkBjsali9J2O6eivyIP2+YBmsJGTpwMPIGbyhcUCWrB97A4MgmJzvpABPQMxnstpTp1CSJmcvk3uL0vNeKUb1B50wchPspCWL6h9OJSOpKmQ9NPdFJLo0wG8SyESKSdJuY7OvLHaawKuXx6sbhSGdjwW5wlqhDq2SGQBbFpoAcnydbhsoORaCoNBqkCgrao8x3RjKUTfLiqW+6AaJAlvwFVbW5+cJprjNVyOpR4xYMZwuiwfyZmUr/VPIqY6IrLJ96lakgg1JFNcNUKWbbxwzUWrUfSGK6aIoNWJI+vwgKP80IiOilwPjhlQdjiQzCaOWTjeas2RsShi3MqfuAWw2/PGGb5SzdyDFlnhz8AABxH/z8zCpr67SJIH0nSv9BZOQ50sIjhl+Ph5LEVm3oAkQXRG63xTHCFp0T/Bt4X8WOMOBKKbWY3nzl017KJqvX7Jgj/Qlj+FizM4Z8aHleChUGPS1wTSVTIM/sbHHdGfws27kw+oqZVxomsfhplmV4P/oQWVufweM5CGQLMSC36M5JiK4NNNFJ0wx66m1x4PPgPUVOKxPI11lTxDR2IswKgKnJoOCw/KmZjmpQS3LoMWaxgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1918,
+      "completion_tokens": 350,
+      "total_tokens": 2268,
+      "cost": 0.014672,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.014672,
+        "upstream_inference_prompt_cost": 0.007672,
+        "upstream_inference_completions_cost": 0.007
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 249,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.014672
+}

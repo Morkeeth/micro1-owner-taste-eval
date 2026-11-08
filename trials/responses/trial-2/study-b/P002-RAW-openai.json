@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:21:12.603528+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P002",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "843d1d1591e497bd3a58ef561e46d281b6c195cae3d5084525b3ed433d471b80",
+  "reserve_usd": "0.066630",
+  "response": {
+    "id": "gen-1794162069-XHcFtkHg9v5bRItCWw79",
+    "object": "chat.completion",
+    "created": 1794162069,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster clearly communicates two separate weekly meters in a clean, readable layout, matching the requested reusable EP4 visual without implying real usage numbers.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2787,
+      "completion_tokens": 48,
+      "total_tokens": 2835,
+      "cost": 0.007446,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2784,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.007446,
+        "upstream_inference_prompt_cost": 0.006966,
+        "upstream_inference_completions_cost": 0.00048
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.007446
+}

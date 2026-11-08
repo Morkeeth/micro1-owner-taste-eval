@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:23:14.081035+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P016",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "5755756d9aca21129e0782b0dc861c1f97223d9c0e8413f069131360bea4fa94",
+  "reserve_usd": "0.098960",
+  "response": {
+    "id": "gen-1794162189-a1a06dmnNCAUrKoZHYcS",
+    "object": "chat.completion",
+    "created": 1794162189,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The card says the shot barely moves and recommends killing it. The poster's headline came from our own start frame, so the generation added little. The highlighted lane's text also looks garbled, which suggests a generation artifact.\"}",
+          "refusal": null,
+          "reasoning": "I'm noticing the card lists two lanes while the poster actually shows six, and the selected lane has garbled text. With almost no motion and a recommendation to kill, I'm leaning toward the owner killing it, though the still itself looks pretty good, so an edit is possible too. I'm settling on KILL, treating the garbled text as the deciding artifact.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm noticing the card lists two lanes while the poster actually shows six, and the selected lane has garbled text. With almost no motion and a recommendation to kill, I'm leaning toward the owner killing it, though the still itself looks pretty good, so an edit is possible too. I'm settling on KILL, treating the garbled text as the deciding artifact.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSqggKEAgTGAI4AUIIdGhpbmtpbmcSDNoosQU0MLLxQXL+ZhoMjjhnzOEnCo8zjM/sIjCdd454/i22X3wYlxJkKStAUT6Kzay+GmsDfaR7V/TtMNj32I2kUz1PHj224+RAuFcqxwcJ3XsRB6O8suznirafzchrKkV7xrWI5A4Ys+ACW/Msl13uXKsbdTrmJKMKXHVEeYKw5KlFdZ86lNdpQvjP9wFBNs8oKf7YXgoNfCCXN/cZG+TaaXLJJj0gXQmM/yJoE4ZcTlRixt1UnYM9U8u/UWO+7ps2BKUX1eImEpevYSPb+T/sqWDYf6zQhSjrlZnLWIpLd64cjo51Lv0asrCEONQ9O8pafB4nC/7K9j8OBpi20PAa/n654UpEzhWei44BIXtknuw/B41ujpUwKvaofHETAjCZdJQYQ5u/FViflPJi4sw2GHcmaK+RZPqYdkeB4/IqEWkZsX4iddxQZBUMt3Q3HfG1oFhn4CqeO17tVmSe+OwB7+D0w7MqhtvIPZ7bgiaNzs0JO2520tjEg8CWtnioYPBvP47cn59TflWA7IDE5pbzuw7XF/UFS7VJZ36Rbh9bqGjGg+gGFMzwW5MABhFQQKzqbnL5XVZDPjXCq+AQUOWE+6pn+EbLFxpZjxiiZbAoKtWavNjD1DpeN6PoHw+sv9vBHm1STD2CdLRAUtrJKQE68z/6KjTDwYI8XqMKYrd8go96cx8eaSAuM1RgGFhsBmtU519oG9B/1hCV+dWogufEOvVcpmGXSlEpQqtRWHMclLQmXjv4d9q27YQWNNfrDPbs7eFllRw3uPnFPgxY0Adjt2qd/zOBz1qfqALWFmf2lxjOnauZh9dhAdEYG5IpqFR1Req2tV6rR7tYDgLxtohT1+FUFUsa4IrpSdpKtRxgclRdNpdGGTuSiqY/lU1PdmKj+bm+uAdIB+Cjgfjc9jUwwbBul21vbBgPrHXJp+oUeXPbrFF6kPeTcjDFOG2t2N+2cfH9/zjpg9Qw9miw7sbgOzMdLJ1LGWrzMkyfmwYk7x8aT9zoo9Uh+iMqWz9eKJf4ozX1+WRUEQRX9svjOBDvLdfEwsFU3aURXOwQ8y3YLxJRv/NQWXrV4fa5PmcNTJSwdXg1tW6n6OEg8vUaBjdpAy1bhfkRgLz3Pwr6KvJAtFh9hxhlmSYqA93IfoHhQ8qQkFhaywN5D6/uYqlMaiJvH4+DdkhZFrs+mEZwkbS4ByrxVq3DFiQ6YUhoUKdxEgtW8N5/1hL1BDvo+pL65LmYQOFrWaHlczlkHRgTAczo+MTolAxvQG2q6rbENZZm5gOWNJ4I6t6fNvmM05fbuVSxp04uuMjvyGxkt48hCxxqji+i/WDd6tOd7d58LID8a776e3Mu7DvxeZnchCrP+dPdaIaanM29gwQ6gZ1VdnAkgmdaXRK5GAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1922,
+      "completion_tokens": 236,
+      "total_tokens": 2158,
+      "cost": 0.012408,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012408,
+        "upstream_inference_prompt_cost": 0.007688,
+        "upstream_inference_completions_cost": 0.00472
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 147,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012408
+}

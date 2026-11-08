@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:33:06.519091+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C012",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "faabf8e427ab03ac4b0098ef98bfe00b8e8e9857cfc4e073fc2189ded0cbb6b3",
+  "reserve_usd": "0.066770",
+  "response": {
+    "id": "gen-1794162782-K4iuzVyPzLcxWPWnhIia",
+    "object": "chat.completion",
+    "created": 1794162782,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, relevant world-building graphic that complements the speaker without obscuring him, suggesting a usable animation.\"}",
+          "refusal": null,
+          "reasoning": "**Determining poster options**\n\nI’m thinking we need to infer a weak, ambiguous element here for a poster, and I want a short reason grounded in clarity. There are great options, like using a polished diagram. I'll decide on a visual that shows people building worlds, maybe with a neat diamond overlay in the upper left. An animation could work too, but let’s avoid anything too certain. I think we can choose something awesome with a clear graphic and a subtle talking head. JSON sounds good for this!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Determining poster options**\n\nI’m thinking we need to infer a weak, ambiguous element here for a poster, and I want a short reason grounded in clarity. There are great options, like using a polished diagram. I'll decide on a visual that shows people building worlds, maybe with a neat diamond overlay in the upper left. An animation could work too, but let’s avoid anything too certain. I think we can choose something awesome with a clear graphic and a subtle talking head. JSON sounds good for this!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MBij8TL08feCfESsH_1PCeqoEaeh9q4xBGUskXyG3-H66ERD0wZIheGLqlq_kmmoXnzuXwzeZBXqsMqTFy-mhfsGP31U0gVZ_efQi1XIM3qdBtscXtlUpLLNk4E-HW69SLIl-CU3yCasZOIY2xoVjOPl4EKd0TwK70P-iHMRIP_smwpjcYlfofkmHZdsxt6aP5ji7VydkOGt4yoOG4n13czq_p6u0uqkO7pqcxjpCqpzoiKxGYjz8Skrz-oK7G7rSrwvaf--VYpk8wcQSNX-zG0fHG9GK-HxCIM0jCvwtHcOb37ocay7lB0gkl-3tlKZmZELXq62V6alPIH_QftdPhfOsAxuYMOTQvl34v5ckVUUKUj6GZsyFaqm_pLFn0jvS56LttCtPIF4eRvTH9tbA3qkZbX2mKcQq7BiWdgXse551kAhBl44PajDBto3MnXDoLmvVGKxgcIGIeF-_z5G1u1Y3KOfIkeOBBAx4akIAvwu-pWw_2lfi9JZz_stpOOeRsfmSQUA2lgutDpeoRMU5JPKhbqLgW8rO-v9aVe1J_QACoA0VrF0XcxbYcOdFj5x4eKm5MMFacltQSY4zcEAcFjRp8drefCFvFSdtyywM04PHvLaInILveKriXfuct8arpauJnsLgASFXJxDN5oAcC9NPf2VXATIjHiBF1-I7cMUxbQw3rf-jCk0s8EGglLCvdsX_DJTxHiB_crnlFQXPSEr1G1mf7G9gVcZeAAtcg7Pkig4BeNGaPBIX7_zFLrevygEAx1V6r73Amqld1o3TjTEdDGl5CbUQscyYSuMx--z5DvAGKcflTZ1cBhbgaaz2sx6ob5aK70ZrqfG1PCpINsf2RnB1VXm9-M-UfZ3qQThOj5Yfsha7PPPrxqY5jgOsC1phnzqRHRnmViY6-ewoXfdVcEvz5sq3AB0GQazDBV-N5n5xE6h_OmK1OAryxzU_UZqcQe_Z5BQLUlajjCCFI4HtxDaNT3xvOaUqygdoV_FgpXA42Qn2AI-zxqFdgvvCBojutkhzgGG3AvYNqIhAddkL2_9eEq_LWzNieqQRYwx2czhNt4RZGsnSISyZsxnDvlYObVMY3ijS56CvC5eMWUQxwQtWJHBol1WPnzEVEq62Zm4Ojcoe2Jy2Ffv3uG7NNH6oDXDZog8JaPr0Yax9TgAmablaE7OzJ1zHO2nhvREEmGQDNgl9VGI8EUKO05aFEQDid8Fvy2JgoZmFs6umeYi_An-KiZp_SfEs67lWqPzk2qWZdL7D5BXcpeMF-VmK26w_iGA6wUgAqtqEDfJnW5eUQAzlB1IS3lxUoE49BOLGpiOcfpsnK59aNdfPo1MWdSS_BFRAHJ6brDlXlWw1mBFn_vIs6ZvmM-irM7IOfLbqooYTJk1a7LEFUylXdvzWizhjywRHeLA37w-IyMGrC-J9vGVgHG9tggByH1IWhQV3_vSMcduYQkHscvLY05zxtPWPH7DMubAuJh5IDhua-3wu_8zY4KFusHfIhg76OzjRnJ9vRxW27-yBvwox0CVs9jepe8ThP4TT-ZfMwwV_zDlXXPwbxoiqyCwcmobIoWLjtcAERLWFOuWSoreKOR5Pjt7_VPxp0aCid0oZab7f41graukyeXG56dgf7AvRnjcDgoRv7KBkPaTzc98F9ZlT0qnzXyklIOPgAmuwSVHS5m41Em-lmQGzi1QobVmYc4QxScAU8SIwhbkbWxeqHuxOjgEvIC4F5GQlXC6Qx3MGsLkvzXXkC40zPud8xCo2FKE4H3_TWC7cWjOzAI6iHEl3XSHmHSHeIAGCAxcWP9gnHkWPYgPNWJZoF_J_HtrED1rDQFX8cqrQuWp1AVeu5nnHZB01L758F2_S7qN_J8CW7X0f6t41lbYXwaDJdZ0tTMrqz3lGT81UXmKYoFrfm2BY-0GxSOv4u4Ffja5R7EtdJKzEVf9fsh3ay7egQa_PoLEk0ZSgnCoivYekmEcIHZIRqUuqzOgPUN6aRhiYHf0MxD_ah3lIgOveJMRbaxUSZ_uXYjFjwwqf1hR72h7U3yCvrwvwq2G6t5Z38JKBahiiJrdpRzcvN8fxu6AuKjC2nZWN3QlJSD9p6g1nW3IiFRxZji52ksX8KRJ3IZBwAY1CVkFdKsveIgc2BPEndmffR7Md7JPxKaGCQycA1lDwVCagqOXGdYwyHUBz3rnsYd_cNyM-iS972k6DGGXjL2LdrbgO6hK7bL3Kv9k3RKQbgUO35HzKiq5zrmUadFz4L4fHtgswg968RZ2a5MgLYzmD0rMWApiT1FuJs5A6qBHfZ9sz4QERsb6sRic4t0LtzTZS6Fr7PvXG1BKUOvpUwS4pyBD5QaGXt1YPFy0Q_C6n1zhE_XXvQixfakpbwWAPxviZT1xXdzEIjY1IlV6HT4iFFbNHTjgRmm9LGXFlPIJykzh7IrfsDvC1Me1E9Z9Jed0_7-RwW-9N3MOPGeBMqKkx6e8OLbd9iZmJyRb21YfeG9ACnZUvyqgSUTbP3sLXH2kdPbx7H5b54tvj91EdYXOaWhFhNJwcUd3wa0f0lfiSdLeCBCfUPo61lWziJxdwZfwf98I7i06TCqHYYwqzb5l9dhkRigpwRbSf7oFuyQDoUaYtT3nLj5T9GhSjnCiMaSLcvYnHYC3zA1Zh_gE0BvWTAhGT4lxhZk2b-ZaiOgWoD1vTivKLwEIm0haEVMG8SWlsJXot0FPdf6-LWXE1vSw51rQmb5n0mpaDyVabTsvM9pdoXaIgj5fZSWXf2ck5fReYTIq2A6qSzgbB28AXPNtITChfY=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0fb290dca7e2532f016af0c05f5e8887d1999ca3969f8e195e",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 688,
+      "completion_tokens": 119,
+      "total_tokens": 807,
+      "cost": 0.002566,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002566,
+        "upstream_inference_prompt_cost": 0.001376,
+        "upstream_inference_completions_cost": 0.00119
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 73,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002566
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:38:30.834708+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P019",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "cd3d8ae733f4acbaae419383eef0caa0e52ae2da6b5244c4e1aa9e0b6d42bfb2",
+  "reserve_usd": "0.066845",
+  "response": {
+    "id": "gen-1794163106-yQaSISE9X2iiQGDKCTwI",
+    "object": "chat.completion",
+    "created": 1794163106,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The four-lane layout is clear and reusable, but the repeated green glow and generic bars make it feel more like a placeholder than convincing terminal work.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating editing options**\n\nI need to predict whether the likely edits will enhance the piece versus keeping it as is. The content's green elements follow the same recommendations, but there's a caveat about the owner editing. The poster looks polished but feels too simplistic—like a mock terminal rather than the real thing. Choosing to edit for the green aspects feels necessary since they keep repeating, but I want to ensure the changes are grounded and not about personal preferences.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating editing options**\n\nI need to predict whether the likely edits will enhance the piece versus keeping it as is. The content's green elements follow the same recommendations, but there's a caveat about the owner editing. The poster looks polished but feels too simplistic—like a mock terminal rather than the real thing. Choosing to edit for the green aspects feels necessary since they keep repeating, but I want to ensure the changes are grounded and not about personal preferences.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MGmsLxt59YGak7ZeVIhx_OEXJGBPFeaYEJE37cvcRbXe9mRbFekH9Xe8obZSHCaHq7x-WPu_CBGnIeAXynUC50h8cAFOXj4g4pp_sMouTDG-N5gTYCkGULEU3VnQrTQCa2wcpkrqfmZ0ytHuW2JE_AiUvAJe4pzOjJCVISk-VUo3O-wDRKRjKr82609zjjCQgR9deBJsPLTpjVi1Vv96Y3Igd1oDdk44e_tkmLVadTWeNM36d5Oq5hkSOK8TsBIOo-K5qZ7zxRHqd6jlbd51n_1gPGXI5-INWGmkx_E4pYlMhVLv8wgsbfsnG9zVcWFzMqrsUNsnIVnCfI8g57glik01FADKYMqR4ujKG861VJmljZNMBsqFcUUXKS-Zb2PVJIWggT7pqWwU4tFgZmf_jEIYDRdYxTHsW7NR4HOdDS9odfg5DVoHxQyfcyJAjFWT56sZdl81O85iXCBRtcLFeBbfvPubdLcANIvDTU2k_QDEoLhQX-xAom46ukgjkZy2BtzrbuW9PRhijgTLwizWEvRaKriJ6clBZO3SfcC8wDdRx-YVZqbvRst-ytaJrIGbJYWnjbJq4Nf2_lgrFvqOpMnCXg_H5extP9unq3kmdomD4ajCTsyBgCYMHHoHWejB9xylvc-7f7_R-oqoHupAKbTneKRXPQPcgrt5pHjpEH0C-qnTpgZoyEzbE2HyORgq_WpwxxJoOH4FtgNZ37A9ud1vAQKEIE0bv3JY6I3lxxM9lvq4enT4yN7wfldgPVqxabE4zymOCWZLEjxdvsoW9Xe7My-LRVS0yJwISMBh4p9negz-KesyLpyNqxOwM7GQFLpLY9lFUUyauPO-QsEzLpX2P3cKMttE6uNDcfaGNBbk19HwMvm0yDq-U7Y7wlv_9TMScIL3N_cD9M3YEBYi_5QpFEXs53a40rKU81CJN9nN5W9bhpxG5UvHZiSwf_wSQ09BEcZg0NmuGzok2xi-aOiXuRD8O5FyfLcyBa46ToQAg4KAqxjjRIlSFgQTIKNFj2S8NwjcljbD5gxpnt_uZ9taq8fCYIbb3ZiIEgOLp3hijPXZj0otA1Mc9LjYMrX5sFYgoUfwtDpdltz3ZG26ZxKJCQ4WTDdBSoC2oQEJ4f8rxRZz7mxp49KlWMW20LL7Th-Ai890PHgYkC__buqxrQ5dkOLE7TrkIqCbrLwJCIGtoJLxNPZWFHdk3Azm0OG-xASNXHQf0odehlHCj7UzcvivgaZga1FY7yTRQ9iS58N_OG5B0dZ1okGWNLmrQlm5U_vF7-25ZpRZXev1xOtVjRCr-i_PkHWp2nmLWso34DS1n_XNXUQ4mCV8sRCzHlB71SYx9E4CQEf_eomdL6B_cpGX05IstZSpDG-C0ySMd7EK3GHo444Er51ZOZOKPnc-ay7BzZOmfF2BtV8jt4zD5Z7PO90Wz0fCiQfJaS7sEmoCm3i3raHBH9KNPA6urPp7vvfhHRX_rYKcqSp2vJFQqc032n3UR-Meg9XVc74NFbvmlhYv7tE1uRXBLZw_1lGbiqdqBjU90iAdQdaAO-exVPtH7gVP2CVsYE79WZjR2ZoNIM3xek2nFgzsMWaFkCNjI8nCFogecaN2_9-9bZLWWiun2XC-nlvBpzRwQvASjse8vSXUrfEVUCRUxYFq7Pv-GX3Mrx3RKM9v7Oq2YSoHtMslEKSjGEJMVAFYMIcGvos2IqyW7V9OZeZ1iesgW6OuvM6e8e0C4p7tmvfVEgI40uskpT4Sb1ISukyjUiSXcVX_SOLBROLU31zbxV3BOHZRUYS7B03GuO84L0ckyLLMJfWMCqjkT3tJhFAnn5GrCMulyjg9wgT0ZbDlppIVsToaJA_5oQb4sxylO7hWPiHC81dcrtrPPk1QLiNS16rsVQ-LjDB_ubIwJF3L7djcTFmI9eJu05BMQHsgMfEYdJM9eFSGwtjQ2c8dXQvaJcok9hEHgKzRl_HALWV986nea1aSHwci15TdY5wLe2uiR1pQooZA8apgc1D8D-3c3vQrFl-hGXPyBoFVkqC-SSsXYwgPpbVR9OfIYOm0rBS29dRd84UcWOjfbkCW_AuLmls_58FkD2GWy7RFKIzRYD8Ru4vQxOm-8Q4f10BcDtBy3QlL1x4cJnFiL1jJh_12j8K6YtxWWLd8K5owTUBqcLq2ITD9gvJ3Vt6Upx5mNMIxn1xWBF9WJOwv7GlYrIb2h6SGjlC_ygkCe1v4pBWP6FZX4LTjWqsrDChCBIB2EzPL9svCOTVb59bbplRscul_FnRiXkcouhFw-kRwemeOWgzHUfjVwseZ1jOSjk9wZlLttbsvC6vhJUCP5-gl4bewTA69x0sHNtg1ZJ78w3sQJpeuggSr1iihAXgjjo6ly5OsCrAZ92n9s9MYcBMQLHlSLzLvQYsSWFgXxZG5v1MnmMPPMqu6yhQBErm73jUyxjnoJtAW5_61A==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_08031fa6ebcafbb1016af0c1a3f6a887d193fe925f1797b9b7",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 98,
+      "total_tokens": 1542,
+      "cost": 0.0011301,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1441,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0011301,
+        "upstream_inference_prompt_cost": 0.0001501,
+        "upstream_inference_completions_cost": 0.00098
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 48,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0011301
+}

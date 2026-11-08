@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:29:22.477160+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P021",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "53fdfc0c22c43dac75c20ad21d70f10db2a991239d228adac4c96d63db295dbf",
+  "reserve_usd": "0.109070",
+  "response": {
+    "id": "gen-1794162558-bMkwhryjjoCOfqCAoNZ1",
+    "object": "chat.completion",
+    "created": 1794162558,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"Closest to the rejected “Cards fly into the folder” concept. The sparse beige drawer and distorted labels in the poster look less compelling than the reusable character animations the owner praised.\"}",
+          "refusal": null,
+          "reasoning": "**Refining predictions**\n\nI need to make predictions more concise. I’m thinking about strong analogies, like cards flying into a folder. There's a certain style that needs to be clear and impactful, but my current labels feel sparse and a bit warped. I need to choose more effective descriptors here. It's all about clarity and creating a stronger connection with the user, so I'll focus on refining that analogy for better comprehension!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Refining predictions**\n\nI need to make predictions more concise. I’m thinking about strong analogies, like cards flying into a folder. There's a certain style that needs to be clear and impactful, but my current labels feel sparse and a bit warped. I need to choose more effective descriptors here. It's all about clarity and creating a stronger connection with the user, so I'll focus on refining that analogy for better comprehension!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L-CR9Cw5CY7wk1C1b08wpz8JySnnL0Z7htUjbxGmS3qBEFC4o3A7dHLN07b9OlEtpq5kjELCyKl77c__opjXZDbNQTgUedUa66rtrxlzGj6QKYjo4CosQCxJ9BzjPXFwaGzIKHPk_CJlk-0JWrrLL_oWwlwAfrm_YN3bKwf0GGyZdu5M4AZWA8aEcmYehogJ6yCSF7HhOwoTNHDTTHSHTDS9VFs0Tnp_DtxTuzkahBAHWEJyhR3snR4gYwNJqgfqhm8P91ifRXpXYyf15CYgxBkdpl5sHA5cWQ-W8IqTdfZLmfpoCl2IQNqm9brqIdpx0vxfdFw2Qk8BP2ACYLJgMsQouEFcrkMEO3ZaMgRmkQpGWaYmaSrWQteRk0wUKR6SDAlYb1pcdRw92m3YwpcGOBloug1iDPMFHeTvR5O_xbO1wqGZMXstVuf5sS7AGnX5cq5Q6NYrh5YS8Ox5M4j-2Up7Q_EXFXL7iDFee6j8D6nP6vBPH4Suq6KKPCKCEEj9nxP5ovHQbUlLewJKviU8WTsuby0E8k7IYvtcXSYxZcmN6xcSodasSJc3QE4k3PsLpzm9q0x_kzesShPlNZZLjRzfRqIAE42KeKTx7AEjCaM121gFQnWL8eifWM8y81F7jvbYbstzV38wC6g4ZCpqu7n4UtXJ5H4l1FD7SPYW9wJyFOm1M7ciwvaUXi0ebexdWY4JEW55bBu1CbFPlLCJgoHl2r51T5Q5_GksnFFF-DAByPMHGgnwAA8bT_zfsFVny2r9ZDW9UfoajkWsznYhBvziszHC1zGokfLpElRRoWyoapuvtHvF3lPtXQf0dCIRNAQFKr2uOm5JzFD4qTGRpqXiKgVxl2BFKKleuvx1wZhCk1KiGxQjH9hCHymNcI_4fZiB60Nf_gIsM8kMG9D6TeQAC6EgmIsAhK_klgtF-5J9NBdKNwAqOLQkDjMXY4OqrTdh6xUknzGFk3VUx6-mIIqy6meOn8XecZd3GArim3hqiC3iShVpkF75tWUT6CSfCWfz22K_Fiuj612NouOsVdjEqiuXYhWpYls-TlVVTu9u3AQRI8v7KbGA13b4OuVDKlYaxGjRNWcMuhgEhKtb19Y1-kOORs5xDVw_FD3HtDsRUEmY7huFsTBOaEAesA5hZqR9P-emhjNaPvP6kCeBf8XJ9pMCKMvzhlWMRUUcT0PsA4QrBiqXesYc8Br1YfwnL7QdArVPk-BTdWsibDZTFpWizHDuHvrjensRmQhqfa3SuS6Y148BtTGwOVb3elhoQtk_nOINwCUK3qPae3nNIh32w8bqLDzQzpiPNo1-152_yOq_wamZw2DliahT3SjfKlkxXJFzMb6fWGT3bSyHCX0kwXZ2_3tPQ_9dWuId87Ot70WkFbprKN-bCyeZHFVAlt_yM7FNsVRJfKHgXiWDFc71IfiQLvJwodsdG5D_6ESto6MtNAcokRVZ7E1PgSO_EHOiZu6g6GfrQUpouorL5s4G0DLaGOL2wbqEKl66-G9qn0CvzYW7j-zRbwwAPN6-5o1zXpPuAOfuY7kycoVX8N8lwmZYOng-I_v-3lliYAUJVYVsVG9LKXiUrbtFFXWGHBwk0WbBDpiVBtk5KmSDuf96GjhYMh_XLH2Ei8NNrSRBPfVZuLfJP7r3sAmKcuoeyxu3tgmCUU1IhaqjHuWKiTFYb8JVFtJ7612qrJX8CnSbzkrQ8H5WP2bK5yyZGaO0-g2oKxZSKh91Gx0TWMzAWZ5r0B9w__siV8DZLZSI9ZoOD--mJqwBQs38y8qJmfmEi2LYUjcwrvhmlc3gIBR6yrjIxTx5e5A7NtUkotAbF1LNBgUwRei6B-IZGuOuyCGjXTYQm-6UfVo1KG7l2w1CxvsTNTyvELjPzz1BMdVtY73-j4UbeU-lQQophI9cLhXLv0xl_Mdy-98fCOY2CNjq3hKQi9GgbOkHPAx_xVrjXjj0ihElWP3vdnz_q2kp8JxKqDyO44kARGBTDzLG3P-gq70J5kU2-mixYBxPEPA_NcFker_UJW1l_nn-rfFQMCgKaRvqk-c4m360VmCvehK-Uvh2AIqQoQTj-dquI5NlyhoXqOKCRLLqewMZqTdaNnGUtoj.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_001304dc2a5768e2016af0bf7fec9087d193ab189326cab820",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3497,
+      "completion_tokens": 82,
+      "total_tokens": 3579,
+      "cost": 0.009561,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3494,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009561,
+        "upstream_inference_prompt_cost": 0.008741,
+        "upstream_inference_completions_cost": 0.00082
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 26,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009561
+}

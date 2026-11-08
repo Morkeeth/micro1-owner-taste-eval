@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:48:33.621388+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C019",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "93a851085fe162fb720f08e2dcf89d94325bceb45355e2f582a3310a7d0f5a8d",
+  "reserve_usd": "0.098816",
+  "response": {
+    "id": "gen-1794163709-KTIBtt3NU8r7PDz1iMR1",
+    "object": "chat.completion",
+    "created": 1794163709,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner already praised this clip as \\\"beautiful\\\" and a simple way of showing the idea. The poster looks clean and finished, with a clear headline and a believable six-lane cmux sidebar. The notification does the 'who's done' payoff, and nothing on the frame looks broken. That makes it most likely the owner approved it as is.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1920,
+      "completion_tokens": 131,
+      "total_tokens": 2051,
+      "cost": 0.0103,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0103,
+        "upstream_inference_prompt_cost": 0.00768,
+        "upstream_inference_completions_cost": 0.00262
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0103
+}

@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:26:57.247614+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P007",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "ca1cf36f2987616c86a209f34bc9df33185ed77654142f56f8b06adc00c55eef",
+  "reserve_usd": "0.109040",
+  "response": {
+    "id": "gen-1794162414-NHDpiyytywsBpf5ealgv",
+    "object": "chat.completion",
+    "created": 1794162414,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"Strong match to the weekly-limit pixel runner the owner rated “5/5 top notch” and their explicit request for reusable core animations. The poster shows both Claude and Codex meters in the established visual style.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3500,
+      "completion_tokens": 62,
+      "total_tokens": 3562,
+      "cost": 0.0093685,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3497,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0093685,
+        "upstream_inference_prompt_cost": 0.0087485,
+        "upstream_inference_completions_cost": 0.00062
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0093685
+}

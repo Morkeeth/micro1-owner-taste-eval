@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:39:43.927870+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P028",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "8257a4ad0a4177acba8911f061c29d9eb968f3b137c487d2b6b5a1df9da313c2",
+  "reserve_usd": "0.098912",
+  "response": {
+    "id": "gen-1794163180-ng04OE0Jc0Psv9LdQPQu",
+    "object": "chat.completion",
+    "created": 1794163180,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The card itself calls this the weakest motion in the batch and recommends killing it, since the limit bar shot already does the same job better. The still is a static, text-heavy layout, and the motion described is only a small pulse, so it adds little as a reusable shot.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1926,
+      "completion_tokens": 103,
+      "total_tokens": 2029,
+      "cost": 0.009764,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009764,
+        "upstream_inference_prompt_cost": 0.007704,
+        "upstream_inference_completions_cost": 0.00206
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009764
+}

@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:49:21.292392+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C025",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "4094955686dc35fb90ad0ff9e168f442364989be0db4b806c533d30ad136a618",
+  "reserve_usd": "0.098888",
+  "response": {
+    "id": "gen-1794163758-jiKxzYvtJ3ddFAIVr3FJ",
+    "object": "chat.completion",
+    "created": 1794163758,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The owner earlier said they love the idea but find the unblock step weird. That points to a targeted fix of the unblock moment rather than a full rework or killing the clip. The poster looks polished, with clear rails, a barrier and a payment lock, which supports keeping the animation and revising it.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1923,
+      "completion_tokens": 115,
+      "total_tokens": 2038,
+      "cost": 0.009992,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009992,
+        "upstream_inference_prompt_cost": 0.007692,
+        "upstream_inference_completions_cost": 0.0023
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009992
+}

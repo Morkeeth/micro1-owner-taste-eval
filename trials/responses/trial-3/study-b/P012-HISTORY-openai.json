@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:42:26.446963+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P012",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "d6c278f1c57c7e37d054d06475c1ddb2a4788798a261b23215bbdb8c0afa01b6",
+  "reserve_usd": "0.109055",
+  "response": {
+    "id": "gen-1794163341-QnDv0DSOkeCo4HI6V8xr",
+    "object": "chat.completion",
+    "created": 1794163341,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The isolated phone and card-described slow turn resemble the rejected close-object shot more than the magical reusable animations the owner praised. The plain white notification panels also echo an earlier complaint about boring white panels.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MKRurS-pZhmVdZYTe9gDH4wDPwWdSZ3YhaVVr2XXZMHL3hn6VeUJ_L6j4DtPPUcx6QDe6A1dxdr-iVMzAZhO0Y3s32KmRee-7XTjrsAKXzLM7qn9Ukclv_DqmyrroGhPlFrQ7qLHh3HnUcUL_9RHTy8UL-G53RoMDDE59EatuXYHrngmvih65gqVesU_9icqEGKtf3J7aHCiV49lZE5N2FKpVTbyEkBBegVhrfmmGzcgju1WlrQrObVTG7tRyHbleZaUJcoAQ7ihhvr3fGtrPXA3Pf7J-joSzZzHy0jmY8909IpzcXQMbXUFEl_H7buzSSXgeprA283jTMMV4h_kbiN6uEgksipQakIGL9NeSmnBnYQmO5LAQjjZg8QPrT5U-9n2SfaDb2ghEtmVV0BWCJcJd86IRT40sdC9kFiLLq0EF_sOzVK3eHSjSWaTzLMR-tdCAcBdAWDTU2emdCFI1LWV1XLI9xd51cbA-ULdC_TnbpIpRo5JBoN9nm0xpIV4Q9nqclaNnkBgj52UMJxx-LciQUuuXxNBRkuaw4sekUra14ncc6Iz_OYHTuR2QdU0-R5KzFMlyl49mzXucVPvkA_UWjp_bCwpmUMwMQNKR9pthWY4-ta9f1j6L5f3YeZKWBnaB_tv7DskYmUcIlc5M1RciczYhJSIqh2W6MAw3PLGHNSyDOSFTDIK1_KU8hzggYHiQNBAigEMqeWLIfxB34efjowkzGETrWCRPEJXfa-erjcIH1jsIbS3B3Fw1V6xH_eCV5tVPIGuuKKMNCb87AAyYZYH1b1P4opJXk_bDJfHn204YtbFzAzRuTl4pDV_VSWwl-pdfxOeGFxYJzNLwWMQzw2HYTGYhEL64KeVdBw0_uWkZ2KKDD83TbMQJLapVQWnnfbyMFUtvrz5jzVAyHLxvOY48v6a3KrR05DMxq4gDaveFrWX0gga7S3uswqo5GR-rT-yzutvXhYID-Ta0c4OwwDb2cl7fqjW_ciQCcjnYq3THOfIsyvxG0wh8nqbngRmkhPxG31B-94amQUFCrI9yLRkuCF55a_J8QUZ0kA_Ne7YLW_TtmLg6S_mcmfGbChDyKaV8EQ2oSSo_jlvvQF7bpn-EokGyBiQ7dgipc8Wya3tGrxKWsv_Qj6EGFTcjcjstfMATPCQ1IkIFq1IYfKc-0gCVahvH5m73DnPC1eDuJqixg8LDcOtVqVYA-9RGFOv0Myoa_R7AlkKvQhk6qqARlHE-D7p-6dSLuTCgFjysNCJcHo7PCO-TIm93lvu1xAOGWQ9mM7pxVzrplX3yYrvVkBD1AWKGJ_I5mDpX4IkGYpMNxeqlfZbe10x3Fk6L68JZOJBYuFYKf147oAmr6mTncy5TengzUJYzwAACqBGCSeO8P4O4Z7cmrtPUH_HS7DSpZ7YwOlQGhLaG9_13SBxvJmYokMOV3g8enkHWCdw3WpytUuUkH8UjnHB6UuzJvr0wXVpBxtAons172Uy1VoVF5uJso_ikZyqW-N5c1vfEEtzkRtN_bqB5biRjprHP4DVK9ho2PV4fRv9-LgL3WSETa0PY1KrLSx-94iF_OM34AxrzCdDxF0BfWo0ddSnGzfRrvsU9sD1EF3kicMOmebqLrBx7tRBXp7vNiwOG8GB4umb7XqEmNk2RCFJuB8SgxLe75bXd-mcSZzpucrcSqSck3gsLzDfl89ep5M3UHQVv68dN0sbEcaNugtzILmcyuIQ3JN3h-3ZmJxtXsoCIp6iiSWUmLEUxO_JYTk7n_Q-zr_ZG_pkRK-VBp2lSj3YUHjlHHDo21aAkg3Lg2-w_ysh0z4hQMplTiyx6mowalJupv25YCV7m46MmOiqiEydI_ErItnyufFTK-RN8c2zG3wjyDfe01UzRlUzsNEvDDeIEQMiVVxEXf-dkAwt80DF8vaPyPJne_QgaoQgxkkvIDIv-_HfhRQpDHzme1UB-q_8yj5MKoC6tjbdd805LOBqb9Eku5jx4eDliAMRE2YRHcUZfbOBJuqdFbm3wgGXi2nKNrCDYrJOocpzKqA0OdZaax_HnqzCpmT0Gd_S9IU0oY0ZAQe1Eguo4AZaKLEX3hFzWlNt69f7uCf4P-PB-wvlHHBlqN9Pv4P75O7kePR76bJJuvrItwXcTTYMVGVUb7IlBo4ygB5oJABbQuxWXyv0E6N1P0sc0_uKZyj5SZntFEGvf5UqnQIpJWxwmQR_tQGVt2otbajzQKVQNFz-pIlXcgPT4lUu8maykjN1zXq5p4tIVGZpNNKP0KkVIOKarKVlqZlsdBx0bv4N02Gl9voT0lDs3gWItLmD5Hh4Lc0Kg2P18vPP-DUXGCHJjbfT73V42MSFuS2pXf5g4mGg-9Pn6BkrfejtGLZQ_S1-utVcVHNOEvJvbSjii9GWJZMygWfg3nQIPq-40F0x8ZX9eetfnVxwW6B4ojADRZmQ7LfadvA33GDYvhdsBHOmxdPvs0DEhsjPY8kJsfLUdeWZwVbnRf_.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_06bb4da390113564016af0c28fa5ec87d1938c8df67dd7b08f",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3494,
+      "completion_tokens": 116,
+      "total_tokens": 3610,
+      "cost": 0.0015151,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3491,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0015151,
+        "upstream_inference_prompt_cost": 0.0003551,
+        "upstream_inference_completions_cost": 0.00116
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 56,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0015151
+}

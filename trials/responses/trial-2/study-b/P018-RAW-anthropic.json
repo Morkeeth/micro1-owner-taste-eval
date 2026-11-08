@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:23:27.836660+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P018",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "d9b82cf9dd1081d25ee5c3a88b61d9e46513994f2327a5e1d79ddcd08f7c7b8f",
+  "reserve_usd": "0.098960",
+  "response": {
+    "id": "gen-1794162204-tcGidnycKopq099A1zwj",
+    "object": "chat.completion",
+    "created": 1794162204,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The still is clean and on topic. It shows simple branded-style Dock icons, a red icon mid-bounce and badges appearing, which matches the requested notifications theme. The only visible flaws are minor, such as a tiny green speck and a black icon that blends into the dark Dock. The recommendation frames it as a reusable insert, so the owner likely approved it. It is only a prediction from one frame, though, and an edit request for those small issues is also plausible.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1917,
+      "completion_tokens": 170,
+      "total_tokens": 2087,
+      "cost": 0.011068,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.011068,
+        "upstream_inference_prompt_cost": 0.007668,
+        "upstream_inference_completions_cost": 0.0034
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.011068
+}

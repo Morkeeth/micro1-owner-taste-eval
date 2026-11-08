@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:46:37.848856+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C004",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "6b15848458fee27f2401b7135b296df7dcfa07ad8a01395101b4a7b6ac7c188e",
+  "reserve_usd": "0.066740",
+  "response": {
+    "id": "gen-1794163592-qtY90d4mgOCPlE2aJehG",
+    "object": "chat.completion",
+    "created": 1794163592,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The headline and four-agent layout offer a clear starting point, but the terminal text is small and dim, and the presenter inset needs better lighting and integration.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating content choices**\n\nI need to make a decision about the inference. The poster has a polished headline, but the dark, tiny terminal and low-quality inset just aren't cutting it. I think I should edit this one. There’s no movement yet, so maybe I should create some engaging new content. The narrative from the four agents feels quiet, and the lack of visibility on the laptop panel is an issue. Editing will definitely improve readability, especially since the presenter is dim.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating content choices**\n\nI need to make a decision about the inference. The poster has a polished headline, but the dark, tiny terminal and low-quality inset just aren't cutting it. I think I should edit this one. There’s no movement yet, so maybe I should create some engaging new content. The narrative from the four agents feels quiet, and the lack of visibility on the laptop panel is an issue. Editing will definitely improve readability, especially since the presenter is dim.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MONH0O-2AgJ8ulp-PIM53SQ-PKT6_N2qC58z80ofs32QdJZVjQzXzeyObeWaUioHM2EMmEJSuIHW-zD1a1pKsqKZBxaLlEm2cIC4O3me3mjdrhW1y6s5TEuCNRNbOhnAcLfd_BgcfEN1z2TIudtwdnp7iek2ERJ1QXYNWDDoWMoxJtnik4OKBT74na81Zn-VD6bTxxsKPU0D1DmumswuqBPmokKdsV0YWfuoyzKuF3-n6QPad6vKguRcqGjZaXgwRnVi7fymU0HyZ6zONvE-UeJ99dh_9Bi9HgeZeQMhPAOB8jXU_wbeF9Yn78ly2C04ZHVsrETLVnMqGZn_9-26nFPSKzQEscv2L7uU_bm5pLx30VIpUTGNTX-Tyyc-Rh6YnQ6cFEufb25i3tX45vTFMzpkLZQfr1BgmbUebbqLwZ9sooEiVQeBeVDnvFPI1MO-L7pLgTFC_6Hy5_pBdvUBmB0Sb1QBkI3OP4kBhPy6CZSzh6VcwSBmiK03mFhesU9lAoqsuPxmkt1RSrI1SkLO3fZUPEkPYP_TvthQK10Zd8j2agIye7CAhBfIOE-4-jU8fUFKMyOVm3IQKShpErMpBNF6x_Go1jghTROxqASt8yw3geMgmt-CNZSSmyBears7X1Ja4km5H8uevyv4hgg8hwV_cV3_mG2kmYxXfmukivicqdSsaM93IyEOvF6Bm6FPmuF2km7s4MBuimLvpftt08UeeV63QnZGIujDq0Zhj-Q1B8y90WZnFxdArXj4ey23pzRnegXe3Qb3Zc8HkEGX0wJpKRuBwInP5nMhep178xudgJ0NaDDnOBNuqr5pUS7KcA2_pWVOmps48vvuIpruINelcu5DKt4lF1A_GZ8a9N-lqsZbRjuQG_MLdsnFAki1_CfXZNF6agnlYOPuosaQqNRZwW6iMOOvV9_bXZ8Ama3OM4W-B4VIXHzvivFslRsB3lu4t0zQsjW5roXBhf0MQ0w2dJettm88A2UBmlsvL6AToMB5MWNbRfef1lup-rzK8B2VMvWqJehOYhMYZjZWUB0Xvac1ybooKQ7rZyC4MLhiNAwDJ7wj_pL3xciFcyglzlkje_L8jZvl6Sm__hFr22vkp3flLviwkjuFtSmZlbENHhB3_bc9tgWt9tbOP0P61BHtd3sgth9V54ef6-ugcgfCbOxkFQP6vvn_R11wZkvLUmjybCm7WVhL-G79eDwhHirP4b7l4CWjUJ3r8Jo0mawnQyw8eYEsZqz5cEuZ04aNGmgWDr2me0YYY98P0uDouZRASA57TlOQxpLuYHhALoBhNnMagkiNRPzlTv84jD2N92EOHtUTXC2XXJVMs8UGuaFXSPojgcOVlXLKJLG-iy5Ke-yh1amtgjFYztH-pgDq4-e30q2NZ7CnUEeB8tuNIvFqBqfvzO_-OzJugUypMi1U8jem0ZZ9FNxGHEVSUROnKKdvKinTBnvCZO0m3lrVqO0iSx4auEACl22UBw0xZaCgqRkCl7YXwGiZgs64bktA2wUqMmHYqBrDAiKoQHsLXCSKf7Z3sGCv8RM0oeucXEnRHLi6iff5nXzxfCMuxK-HrGBkJCDc3iGsZRleR8kKVAYRqii8UXX2dAnMXfDHfapSJY3qgONNiVUMlQhrnb4cEhmiEvbqxEFMUJyWTYhEYNnGlJrCtFJAMYPvC19ZUSNAcVB9oMWZ1zF8Y_6iMuJtRjpM2e-578sSufMAuH_d7H-0YdqDVUnVQuaDEIxZgj1hP7AJ0p1ZsCP12S6NmRYq54K0kXz2D4KwBNt2SCs5O7MPKdty72JrGACbfuKKaV78wIWc8YXJcAIwZ_xzoCW8qqB4zAPHjGxRLdFt5ySP8B9qyZqwCQGQMsvtsGCLO5M6H3-b9ZJhM7QgNaA0kwpLMOdPIXS4kmkPPHgRUN9IIUiOL8ug5UQbum46Kb1840wxba48tTiHLalcOEVnHzSgkdwr-EqAFXFaiJZh4fKbysq_UjS0yTdsbpsLSoZNhFber4QPD7TTbMGoU56VPPpUE1JEcr0eaQ87vMVCu_Z3tjPCZFjp5YszyCcxYLIsL0yavYHYjTu2ws3txEF_jKNW8R7G_3kCOHwezJVHh-wMcz-avF5sX1CzruQJvYi274dnGNKIO-82bxp57BDQIMgcu0ESCzkUh1DDZ9Zk4cdm5ZpQUFSO5JBqgfrm-fUj424J1txZ-puQ-k1Nzo2pMqikT0-MApOho_lHsHuU8xgT8zGrrBOe_0V2L95Y_KOZ_65PXeaG-UCggKMKTmIiaZucxi3ev3GspSANROT48k4VUK3mwK5prUhNvYGPK_7ozxaOdGFL5ajbVnIzCD-953WsBp2y9DtAfsumHzOI84MZ4vEq6RxTTrxYSUzPedXjevaUEWV64R4Kn1_ePrheVQ0lU40O9lCJvSmstDiUOa3G2M9FZkXowU5woWrL81ubI2Zn16es1OiXHRHHk7SQXXApnTaJ38iHpjZEoezaiuf0oGOH6mbf8druUueM2AD1xDlqNm-uTR8QtTayqm1Zf5vvGE=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_08ab3f89ee7513db016af0c38a58ac87d1a0e5f37aefbb600c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1435,
+      "completion_tokens": 108,
+      "total_tokens": 1543,
+      "cost": 0.0012292,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1432,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0012292,
+        "upstream_inference_prompt_cost": 0.0001492,
+        "upstream_inference_completions_cost": 0.00108
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 57,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0012292
+}

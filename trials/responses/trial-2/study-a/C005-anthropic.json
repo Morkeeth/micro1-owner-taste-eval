@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:32:06.454398+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C005",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "9a38b34addf52a975aa7a196906a33a4e1698d659ac9bceda9f945585d0edb82",
+  "reserve_usd": "0.098712",
+  "response": {
+    "id": "gen-1794162723-8EXdMppIF8wOvBOjD4YP",
+    "object": "chat.completion",
+    "created": 1794162723,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster shows only the camera feed with no visible animation. A \\\"raw model evaluation\\\" is likely dry technical content, and the owner's earlier comment about it being \\\"very red in my face\\\" suggests a visual problem they disliked. Together these make discarding it the most likely fate.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1911,
+      "completion_tokens": 112,
+      "total_tokens": 2023,
+      "cost": 0.009884,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009884,
+        "upstream_inference_prompt_cost": 0.007644,
+        "upstream_inference_completions_cost": 0.00224
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009884
+}

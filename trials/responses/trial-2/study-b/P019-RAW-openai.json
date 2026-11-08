@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:23:43.279736+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P019",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "cd3d8ae733f4acbaae419383eef0caa0e52ae2da6b5244c4e1aa9e0b6d42bfb2",
+  "reserve_usd": "0.066845",
+  "response": {
+    "id": "gen-1794162219-d9cW9fF5N29qaQqHuSZ7",
+    "object": "chat.completion",
+    "created": 1794162219,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The four-lane layout is clear and reusable, but the repeated green glow and generic bars suggest a visual polish pass rather than replacing the concept.\"}",
+          "refusal": null,
+          "reasoning": "**Editing for clarity**\n\nI need to choose to edit the green and repetitive elements. The goal is to keep it clean but simple. I should focus on making the card stand out with a consistent green glow while ensuring that the steps are clear. I guess I don't need to infer any lane D issue, and the reasoning behind the green glow in the bars shouldn't be too technical. I should aim for a concise answer.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Editing for clarity**\n\nI need to choose to edit the green and repetitive elements. The goal is to keep it clean but simple. I should focus on making the card stand out with a consistent green glow while ensuring that the steps are clear. I guess I don't need to infer any lane D issue, and the reasoning behind the green glow in the bars shouldn't be too technical. I should aim for a concise answer.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L4uGmhbZZngVZeK_0wNZsC00KIkttzatNAFQfSJG6myujHxtSyxg_VE2V_gp8QJ8-KhiE-lWQfNxfSqtpFSRQ3DtgA-Buj-GhXwrUMFXS16SjW47UI3--dCnnNvdeP2Cxh5h419rwn8EwI3IrS88YDHBKjIa-IukJWIDd6poesQA2jZ9IPi1pCaqxr-UIcsv9bgU1BFsELSrDWskxm6Kw7LU45dX01ySPnvte5foS77pTOyds0DkSWtcd7n7d3hHToXzBXF8kVTEaueYbARJzkVsEQKO47Cg4k8etRL455fUNZ1NUBkMFT_I3s1OAXLGrMz2Y43h7j8TGn-yfxJzEpTh-9tHYaHI4ybCmGQ_zc9KMvB0_LMv0fRU4hJCeLclczL1C1fHS8lKCD6rfkwZkRvmP1EmXxyPebORFsdxsHANsAbzhcqJEohUXytN2WrztFFQ05cgQ32etcT1MZzC2qta6YuXbZqM-ZuOAlCfb7tBq-p7EKS-8Q6FVkVZiVEK6LUGisSukx6npi4jKJDnsfJAFBnOWLs7vLdX7kLhfKsg7cKVxagYLpkqJ3VKW9-iwjEl6PNBNLxd31iwdn-5kKirIaXkGs9TtZlVwi9EFfrFXGvfL7H1gKFm6un9h45ByDmMdJ6t14JbUwE6vCNCl7nr7uanhnxyCYZrtIHFFTV1_ikIrZUe6Ob4vAbq2yLgBZlUc6F-U6dTLZYztlK3G7FaaUo4slNBrIjr_BLkdmVumiCkP0yrpnXkfC5CmIb4bnLWIGy42h46xgPVqasRxLJZfjixFN3FQkKqa36aUxo4rmHqDVYBHmL9VXSJURxhmq7jbb3DzpBrUrh7QFcxXQHEdZ1MmrB0Hk6oGYV_RgrzYeQWZS8t20ERT6cj4yGYHMqxm-HiIA2fssxwT3GYfgOE5eiIuHSYjRMgezrFIrKp2i3VrCLHzmlFBWr11ki-w9cXiguAdFgY1ATa4G6U9pHblIj-DhJCKj0aJ__ghuUdmtl-JsX-D9mLaNrButuSX6htamRLn0YmBZRCK7RV_NFn_q2ydNqLvamAMqFOAaSR2otgw3OhjVaNorieXET-XtHOEyHay_80fvkkplcFp27JQFn2BwtRM4hc4EXTTS8SRioHZjclPeuSgT9uSuCeJxP5wnqRm0gSvaLf56mX09sKRSWAsjuBc-KKERlCEEZqhw4fjREo-rOWmPDAobN35J02H-4Oqvl1Jr4cXcc6n7QlRmP3qR6M22a9wnW_7hMtd2NAV4z7YE693hIAs-pp5Qlfzo4WukAaXwqZYNjkvifXU8JUzx7qhV-SO7J1pKq1Da1eHqOVs7AVkIchP6czylTwLkhNpCw02YD6BaCXsmBgM0QtyQjvNtXHaeWcTw-0-vMI7AdOY0Jx6f2-OZYXIkhv8bvQ6sB0R-inkr4erJm0N6cStdSMG5MZ6gSf0ZQj4uhtlbo6uFFWsgbiQvGSS1RtuXLDTPT3L9AeMKAZkcAEB-QI7PFVMI0Kf4gPVg_EjroISqxWJQpdjDp9Yt8_bwpY8nQtM9X3wX0enlsxLPGmQi6MHBhh9VTUTJajcR6CBtJX4MQpt__rLD_wGG2jDpmtMqBzVrrap3y3o7LiEnjkYLgc1Cj4wXqAOQ43qR7X2QlTTAjTYPYwt3MWvLrsolWriIW4gsELh_6I60_TEuhEpYgde81PODE4PiHKGjbTNa0S8sG_ryp41rhXuwxsoGGOOLAWtp_pJYm1YDy86EZmqsYmQq2mXXFFKW4K254TMwTp8FvqFyj4vrLKSncLm4RnErYZ3ert9gLg8RnAtEdLeVxp0Bm6H2IqrPsCFPOcGfDeMy6UntA03P7wLhPJFb_xHqMQR0Mvn2f7cX0JV7pywsQ8mDkNdBNXnkKH_NUuXmfZ8v-mJoSdw4E2ImPzrIQWz7I-VYyaPAXcEFhku36Y6LEtmlBfnOPTGyF3NmRjwhjMOdXSVsoX5lBl6Q3xAOUNxcvrydoop9I54HHbwmGshp5jREOvTYi-irJCz1JyDKERHKjHtrEU5VujAxy3n9QDeEbC525yMLYc3Ril2WejvGNndAATfV9WpQWtZEFB7mjr9ovGjMnpbGNsuJB8KisrY1fsKkFyuWMFNQI1kvqR7XVTZC2EGWS-lclu3tCOla8b17roU4fPIrxdCdpo31tpVIO3-eVXZsB1c5cIE8qm4TcJ5S6o95ab1pSXW8QxcCDHU-6mAp1H1QW3aWFFhIeBFfQDZ0C1HoV4l6FhzyDMSKb-5xy1kfa5vSy1NHHV0BbKKaNDWRn2S4JFDEnggh9h_Z6u9OdDZbUwI01JjLc-XafJVLU8kpMgdArAvIvbw3aAXq_8ZvZvPw6xMe55kGu53v4MadoUNkNUETDnu7MjnOGFyApw0Fj5fVotN2vm6pKq5ao83jq7cQF21TtlqzI9SfUMfzyNf9a-XvE0etd7VY2V7L_QZ3YTGgI5dLVIVx6S45AZWDUZzmaqFYW5Vdn.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_00c27b23b221800c016af0be2c46bc87d1895fa59f7b743b0e",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 102,
+      "total_tokens": 1546,
+      "cost": 0.0046285,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1441,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0046285,
+        "upstream_inference_prompt_cost": 0.0036085,
+        "upstream_inference_completions_cost": 0.00102
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 53,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0046285
+}

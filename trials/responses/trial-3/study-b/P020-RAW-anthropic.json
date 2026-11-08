@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:38:36.378406+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P020",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "323c031827225984367e42b8b23c24ff653a14673b67f2d21393275ab9c03b12",
+  "reserve_usd": "0.099584",
+  "response": {
+    "id": "gen-1794163110-eLnevMiAXnOWVThurp2u",
+    "object": "chat.completion",
+    "created": 1794163110,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"Even this single frame shows garbled, unreadable labels and a card morphing into a playing card with red markings. The 'index labels' premise looks broken beyond what a trim could fix, so the owner likely discarded it rather than taking the edit recommendation.\"}",
+          "refusal": null,
+          "reasoning": "The poster's text looks garbled, and the card morphs into a playing card with red markings, so it's messy even in the first frame. The owner could kill it or edit it, and the recommendation is to edit. The labels are illegible, not the \"Episodes\" and \"Shorts\" they should be, which undercuts the whole premise. I'm leaning toward killing it, though editing per the recommendation is also on the table.\n\nStill weighing whether \"needs new content\" means regenerating the card, but since editing can't fix gibberish labels, I'm settling on killing it.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster's text looks garbled, and the card morphs into a playing card with red markings, so it's messy even in the first frame. The owner could kill it or edit it, and the recommendation is to edit. The labels are illegible, not the \"Episodes\" and \"Shorts\" they should be, which undercuts the whole premise. I'm leaning toward killing it, though editing per the recommendation is also on the table.\n\nStill weighing whether \"needs new content\" means regenerating the card, but since editing can't fix gibberish labels, I'm settling on killing it.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSrgkKEAgTGAI4AUIIdGhpbmtpbmcSDAy58Gt7JD7FNR1M5BoMmJqGRHXjkfnIe3NiIjDUreWuwcFdI3BJc2BRDArqzx+M3NRPqLhHk9yOJ0hYy2iQTLy2KtBab+t6eIfgYZcqywjE7ErD3evd3Ec4bpZX2La+TRj9Uxoisl3j31YGLdmufmtCFO95N7dbk/AR1JycYqFUeNURPjF+9xKgXQcUIsVMbB3fBznSm+VcwFxExaIU/cNO6a3Nl4NvFB3rSrY3pGNgPzSpDyzJXSgdIVEe59UH0GUzj23jacyo0CJfeqHHVB1L65gT1KBSr5zLAbXPlpcnCIdItlEEUv2MJCIXRcKH79Y6uLqf4n43scrXAn6e4o5R5SgN9EnyjB3odyyWKIyMgq4vxg/J8OtrVBkFbWPqc8sGDYY+pKrmKXBxmGiZApQh08y+C1pib1NORLCYVUoAaWfbqcS1f0/IlXdJJGfIInK7k6MKx6/T0Z793mzDSbtJ0MZ1i42RGsttKrq4gw5eP1IdFkcR4GXBQQp+vHrjjqeTHtr1++37cdWx5VKr9mVmoUq4uZzHtYYWIy78dP4vSlb9Dbhhs96zCnqxGXA0XqMXgTxOuMJnk2paftMXeLJiZJpX2s8bwg0TFz8NcWmHZbSBysS55g/VKK7uhliOuZdtOf45VibRmS744aBvLFOuj8IYsRne2zh5c8dR8UOUgNr1nefJ1B3GMQAzP4a51tb87e6hn9wz9CrSo2rUjI+M61N0lCV4PsZ+RIyZ2o6qG7Hg03zxaEdkVgsieYTUleV/klrPkfNMF3Yxce4UsZo4kA7g7QfWhWDZRxow0pgwvbmot991bIxOqryKBKixxvnNz6paCBrNtYvvRzb2/BKQp/BejOT6JxSScw3cNKBQBnOC1o+TviblWfTRlu1x+ol8dpyHHcoIgXhZaQMIKivE98hEd1eparlhr9cr7BfRzxFq2n238IEGzfjzbWFwMiYJ/m6BcGzMbrIuNX8MwFIDSzoXfmfCIcH5gQjTl6hRG2j3SabaFSTo7ZAllVF2YgeoFIW1nvEx3BnxNSRqe2Xk34eo8D8qxxzPfhxkY9RFkW7vy9eptsIwa4AEep6/1gxwfvuebRUFY/CpsFHhwFpjGdJxoZaH8B/OTha4q6G6RLsWpQhzuVRlDir1J3tdGtKBZg0vrWSGtM1OqOcsRiZwk8JNRt+l8k2DoZEgnSG16t5oONMWSzVOW/0hDqz07T4BJ75jWZpmPrlcXsolmRlX0TXase6wtwNwof2xDc8z4KPR8d4T9ZtHwUcTJ6jNLCML/XvF8bY3UfA5XSL+dOB6/QiQOblFnsoV4umWwdwbR5kp3nWKfFu1V9Hpx94Sz3HO1J3zwjYnkZU80k7u81XNSy15NlW1A/wNon/9NLp/Gms2BzZ7re9U740Kasfk2GkBeDKZO6Lm1eo+E6Pf21jjTawm8zeJhv0fLWCQ5jd/3PVvg/AMPH+eXzX6d/6rjZvoSdbUf4vZ0lCN13syYXB36WQqfEoL1bIiZdjQ/U7SYsLfFcaJ6I9NoGb3LPswtekv3CIMByQPkmow2GaEohzkcpkQSrRmq69bGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1961,
+      "completion_tokens": 305,
+      "total_tokens": 2266,
+      "cost": 0.013944,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013944,
+        "upstream_inference_prompt_cost": 0.007844,
+        "upstream_inference_completions_cost": 0.0061
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 201,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013944
+}

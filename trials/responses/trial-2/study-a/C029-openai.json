@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:35:30.114238+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C029",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "d69e97651a98c75141f57185fb270f77fe84a8a75dbc567a05c87879a220e0bd",
+  "reserve_usd": "0.067115",
+  "response": {
+    "id": "gen-1794162927-em9APo57LWtMIGaFxW0x",
+    "object": "chat.completion",
+    "created": 1794162927,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The reusable saving-work concept fits the request, but the noted low resolution and hard-to-see closing bounce suggest refining this shot rather than replacing it.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1454,
+      "completion_tokens": 47,
+      "total_tokens": 1501,
+      "cost": 0.0041035,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1451,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0041035,
+        "upstream_inference_prompt_cost": 0.0036335,
+        "upstream_inference_completions_cost": 0.00047
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0041035
+}

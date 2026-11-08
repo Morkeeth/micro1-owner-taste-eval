@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:44:50.677462+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P027",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "bdb9e42a34093e117536a207cad216aed62cb2a17c452a92f35a3850d29ca2b6",
+  "reserve_usd": "0.166544",
+  "response": {
+    "id": "gen-1794163486-TT7nW4MgZt5TyaRAP41S",
+    "object": "chat.completion",
+    "created": 1794163486,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The card says this uses the orange and black colours the owner disliked on the weekly limits animation, and the recommendation is to remake it in the blue palette. This owner has used NEEDS NEW CONTENT for theme and colour complaints before. Weekly limits is a core topic they want reusable, and the runner version already exists, so a full kill seems less likely than a redo.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5023,
+      "completion_tokens": 144,
+      "total_tokens": 5167,
+      "cost": 0.022972,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.022972,
+        "upstream_inference_prompt_cost": 0.020092,
+        "upstream_inference_completions_cost": 0.00288
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.022972
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:28:50.556023+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P018",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "0c034bdd62ef148daf4afe7a5f20f376700917c88efa359522feb93c06e25289",
+  "reserve_usd": "0.109145",
+  "response": {
+    "id": "gen-1794162525-Yz9ZGnHdPweEPQ4Ifr7L",
+    "object": "chat.completion",
+    "created": 1794162525,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The requested notifications theme and reusable, own-graphics format match prior approvals, especially the notification banners and agent-reporting shots. The poster shows a simple, recognizable dock-and-badges concept.\"}",
+          "refusal": null,
+          "reasoning": "**Considering poster design**\n\nI need to choose a simple and colorful poster that features lots of white space. The owner prefers a reusable core that includes approved notifications—so maybe I should think about how a generic design might fall short. I wonder if a strong, magical style could work better than something plain. Since the dock is requesting notifications and being reusable, it seems like aligning everything beautifully is essential, and maybe I could incorporate some creative icons.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering poster design**\n\nI need to choose a simple and colorful poster that features lots of white space. The owner prefers a reusable core that includes approved notifications—so maybe I should think about how a generic design might fall short. I wonder if a strong, magical style could work better than something plain. Since the dock is requesting notifications and being reusable, it seems like aligning everything beautifully is essential, and maybe I could incorporate some creative icons.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L9iRu_KMtV3Og-E9SMIVDkeFip6V9jqm7Vny_Jfy9NZDkgWeKNXSgkOiLnnGog_rBxRM9teTz-l61fgSdgjtHi4hsWpr8cD3oRbOliFS7-a1teMCc04v_eZvBdOnXxLy1FtrB2X1zTpvZGXPNg9P1eXB23rjYS8PlPTNbcA-umCQKfDe5HkmP_szShwl5GpuQKuWGSJgzakMCwgPAmwgatlg1WtcVTZzvU1qj2o135P60RDecFkACc4gHx9sFFmclAverwK2-VEMXCUFGC5guFkqhD4a0ZBihqRq-N5HPc_vxxVu1pPn7-FXYFLUGBGJAaMV45WkOlc0QJtXQKmY153EZsMqxWCNmVg1fyPmh0kQyklEFqi6aAy2YW7iVHNrjzGBxFusYPU6z7WmpqTGTda9lSMNGP-D8zhyDq1KzoZqwYHgEtwvz8vhyTln6ArEHQqiAuV4yjuLlXwkuntftlW3pk_hXAUX4qXe34Puq6Kcx39WBA4csxayaoPZSB2u5VHRVItwefWsXnkjN-cFvX1QcGbRn12gr9YPXEPv4iERe0QuAuBA92lvJqnbhqz3k2W8bmQ2Z6gGDkfOZcoWqZFGr5fjdlEltDqK5Zw_mplw2fG_kVvFzTQlfFTdj55iGNX2nVt53S9M3Sy7YImuVa-mGYp8v5bwsK-g-bN1bXn_htFZ6oEnfrd7Z-tDEzSBouDhYRU63VnD--UsiVT_XqfUNWeAyvhTAFuXjMFHzgqt6XLa4p4GDs2I_1zDzwvZoKjlBr8Mv8Q292hMgzTsX9gv7HvTh2nHh5YRqURYIguE9mOReni3txoH3PWZPP9GZc5HxSnOw7ubgWtU_M5vBWLK9vSIBnuaT3oAo97Wa_OA2F_8y7smj3Z9YiPJ5P_ntNPQP4jJDnRmZ8oJP7Ieagk6KjY5LqkOxu_zT_3mzMGkM0bXqF8ZKm9Dathg_Rjcyp7VbQQl0Du5VO9fPfMbkJjf_qIlQ7hXEc4GOmox7wEvQ5GgZ28jHZ30K6gmFHOWI5Ka9AvPEpGEkIDhpcoT6NZC6pA3qMIDvbqyrnZId06fzvJgfJcAB3oLwRHywMHjRFQRK7GyiGt8hT6O4J0fZU4fU1lSc83LPmKhLlmZ28leeBr0u91puOIa_HHSD3xmyFz8F7lkyEqwTQbYPVLPExdmMLmWuMSRwBUdz1zYcCQ5IRQUyZbDXrrgTEE97eLspgB3Zy-ir9jU1KeqIC-q3IyjbT6x-XD9jPvlG-kGL0IiJs57DzkR6mzgypazAlh7H6Dcr5X7Vcrm4ISpIdoQQL0fyOldWznoAcTI4Pw44YSP-js6gD5DZbexNRfCrqBUtCWx2NHY3B1JPzmleEB3oBvYUpTu1B0u5xLGzB083apqFE2coafJM7bMXr3-mVej4B1ERLQ15Vf1oTo-5SDaLXSPmuRCPSDiurSDH7Tn1K4hkwqTfzwXB3EHJdPNaxyz3G6vC09di9WiAD0dWetVs-dU-7oWbcgfY_36cqjo5ww3zUobYbHl6WvOMsm9rfu_Ni7__lADOpdVyIdCRmJBz1hPQArCvvgXtsood7g9UGbvhsgCfpy3L3FvVnrbBC9ac4E_FcWM9Lc3YLOQln_0eT3a7DgOaqDGJYm_sy5R_FxblFse5akHOn8JQx_v2AERmmtizfAr6752lnPOt47n1mDhyHnyIIfkbd6ryjIpHBbm7-oNECLcfoJUQgECQlc2wn_c8hSiYhPjlXSpzcgnGVm0FROp3meS2g1NB9Wmt3Cp2w3dWTCKFFBWYIjERFO9k9AVMr5FGbbVE5COuZQoM_Qx3DPZktKWBicsEiGBvZqtVIzyCa-XjOHOsAvtIz_45NqHReP72-PmUXJp26fMO5bhnYQYgWX1rLWDEfgf1Hmp495_1e3vYSK7Yv0b2ZsKqavvqmUJCT1bZk5S-6Yq1pPV8LKNw2a_sR48JDAVLaW-rzDuVoRQrv6_hBZQEp3ps2PVSrRtxaTGLjNOa2-Fm1alsCoimeC6FgBfN4BllioI3cJeG39ZwFAuoS3B6_HpdDBRf4u-YWiu5UFwnA-r_aAZelCNy08kF6djVAeUCLwV0WYMy8TK4O8Lh3iwnLCH7lNBw4aSbPMixr4wWECkiJlioqFEO0ewZM_7PYllax4IqF0v3qBdKJorB72z7XxfsVpI4u_7Nqyojs_zDcw0QWhndyDCspJo-gqdMLaOz7pccIo0sbtSv5nzsPQyXXkx1QYpjX7fMrCE9G5aHB3DB1aadpA4rCafnpsgNxFErNjqkAUMi9WS5kFrjimBx23wI0ek8_bE0fnPfxqWWknBOqQ-XgClEMzwFC4wbnpHrEbNohSzV7SlFvE1ff3TeUQDMynnr3CI7iR18tgsVy1A9qPOlshl1vER_Yqy5ywATmZJo7QLcjXlfR5FE8yM7VqWnwv9VZQfwIRHXqiOkTTUZ8sIjd396dKxVIN2a_CveykjHCZ-X-Fj6LsMaX-GqgrIgre2905ccFNxmD0p4xzIDHIrEFYn36TD9OipJKO4A0JViqhbAToe6G5bDTIuhpyl_7RimFIQuHTTCl83ZfkzpGYOA-aKOW7uECc885BtdEIMZQKnIdx_yy9wQK17KJZWLXHpzIxux3nQv860BWfv6Vi1VPEZDDUKDst0K4Ccv9tJUhZDAIZwmijIRIQagdldkHdLMFXjhN3kOTUxbS_08oWxNpH1r60-tAmupeyNojI5fo=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0aab2784876e534c016af0bf5ef02487d1ad2b80f5ef4b8aba",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3498,
+      "completion_tokens": 127,
+      "total_tokens": 3625,
+      "cost": 0.0100135,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3495,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0100135,
+        "upstream_inference_prompt_cost": 0.0087435,
+        "upstream_inference_completions_cost": 0.00127
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 66,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0100135
+}

@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:46:32.483680+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C004",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "7b293aa4ba5270e5ed96ac0b2106532821eab3af2f71cc3e7e759791d58951bf",
+  "reserve_usd": "0.098592",
+  "response": {
+    "id": "gen-1794163586-JR8mW8nvsYPsaA5NxlvR",
+    "object": "chat.completion",
+    "created": 1794163586,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster frame is polished: a clear headline and a clean four-lane terminal grid. However, the webcam overlay covers part of the lane04 pane. The card also promises a laptop and a review panel that this frame doesn't show, which suggests the clip is worth keeping but needs layout or pacing fixes rather than a full rebuild or a kill.\"}",
+          "refusal": null,
+          "reasoning": "The card promises the laptop, fleet and panel animating together, but the poster only shows the terminal fleet with a webcam overlay. The overlay sits over part of lane04, which looks a little awkward, and the title doesn't match what's visible in the first frame. I'm weighing \"EDIT THIS ONE\" against \"AWESOME\" for the wording.\n\nI'm settling on the wording: the webcam overlay hides part of the terminal, so I'm leaning toward \"EDIT THIS ONE\" over \"AWESOME.\"\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The card promises the laptop, fleet and panel animating together, but the poster only shows the terminal fleet with a webcam overlay. The overlay sits over part of lane04, which looks a little awkward, and the title doesn't match what's visible in the first frame. I'm weighing \"EDIT THIS ONE\" against \"AWESOME\" for the wording.\n\nI'm settling on the wording: the webcam overlay hides part of the terminal, so I'm leaning toward \"EDIT THIS ONE\" over \"AWESOME.\"\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS1wgKEAgTGAI4AUIIdGhpbmtpbmcSDBeNRjoGcq0MufMKyRoMLdAi182eE9ffWg/1IjCG13tCv+0kwHuCKEHeuQvCVJ9k0rCj+wu20fEhd6rETc5gU3MT3wPrQkpyw/AaLa4q9AfQZ+f3ik6gYNvuazfx1obIvnFx+twvX+QhdCsWOAMjYkkHoXvTnFM9wZhRrx3Y8e0CwkCmMMCoznuyJloGwBQz4L/kAREWGKfkEe4h/HDFBD2aaHQ3i2HVMHGbiVWV3AHhX8FsH1cbh2u0qHxBjqrqZPVvGoMEdi2TIMhOefvQks6gU5+ZzQ1eIQ7HN8Y1IpSnTzZ7/Dcwkct449UXJ67AvVUeWodGvOAuyWl08QbRHJzmKcdD+1Dxy0EiWmOkYi/G7fvKaHV7K0VuUnYsZzIntaRzuZYRMJJ2QYtBpt5e06FnYiPHzR6UEPocTZTHuNTtvUolFDqQQouOy5sAjGvLrMPDF+AD7py6a52XuQ24KC4mqetEsc/BGh7Bqmsx6jlBlvkZYelCCEjldolZv/SUO1qTB5OCK0VLjJg+QxDMLeVbtC/ZBZXW1lWfTVsiyOXBfAcCpJQBZsOqkg9kQNgpI2XaJ50HJQh6VFn8vGueKIfljUqDl4X1tH9jHBO5m6QQY7QEYnuvKVSke+uCUjTne3Ul5+JS3PRKtmFuN6jROlCohtw+QHhdtwSFmIhA90nG3hsMSHtKAL6VrfHRrPzKBb0Utge98qZMTRlpAYN6luOo0Y9CtxzxUhtK1lhdZb+wgUT+awvDm4O3BcLenzSsTQOaj0HMTl/rUGagJpyJ+jVHUfdAeu2/Tuhzre408NBOwmv6BCkimPZuBE4XF61MXCxo+XFNigm6sCjrJmQw25PjSCQpNKY+wnKuzzuuJotZH3nGPRQOSEPkvEcJG9umIQJABxpSWH0LqWj6Diok2+3UDI0G3UOw5mn0BvsTx/jMrh1lJ7HrMB9/+erdidbuLS3dF0+BeloIWQx7HHpVJYrqVIzT4oLYJL7bJNlZwb+PEl/FVzxU6OOojg0flmHscswYFvHhvYzovGBUUJwFFDA7m+wVJ46u8PXSWw5d0YV9YEhYWxSM0KEmuPIYgfrhAMJOYKBN3q/TTJY+kIXsywzpH7BjL+kFV9U5sGv1jlyZPZS6nvV2f/K6GDUONGsQIkBA4I7PnGL7x34SCV0Nin0LBNaQMhMKcKeIaICRLx17Fh4Vz96HkpWh3g0YObCigCiA/01AbRRaZgkD2/v4RKc376Rg5F78p4HQJzI1AyPEttcH+X54NamHj7gzBDfqX0VKUcKK6R9YMQkNIguBYb9utH3r0i9CLyFdODEjqyBWkL6Cz63O22ZdWybUNQY6ruzmb2YdgteZl2ypHdIWo4ewUvIFV8N721A6GjIn3UVTCkwBIKMr7tlHlLKwcFWb0y/bmmhi2I64dayh3o7raP71jMrAIMBK5e16wWQIaha3spJIGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1902,
+      "completion_tokens": 309,
+      "total_tokens": 2211,
+      "cost": 0.013788,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013788,
+        "upstream_inference_prompt_cost": 0.007608,
+        "upstream_inference_completions_cost": 0.00618
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 173,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013788
+}

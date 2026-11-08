@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:35:38.191062+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C030",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "ff9cab3a119209e297f03e97afe3c77b7f0a29e02e7b30893127be1458d6f6a3",
+  "reserve_usd": "0.067055",
+  "response": {
+    "id": "gen-1794162934-ayMrZOLRx8sMv94E1q64",
+    "object": "chat.completion",
+    "created": 1794162934,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster clearly delivers the notification-over-Paris concept, and the shot fits the requested reusable episode visuals using their own graphics.\"}",
+          "refusal": null,
+          "reasoning": "**Considering graphic selection**\n\nI need to predict how to choose a graphic. The idea is to use something visually compelling, even if it's at a lower resolution. It should ideally reflect a reusable notification motif with a Paris theme. Even though I can’t necessarily edit the image, I feel confident that it can still serve as a decent conceptual representation. So, the main focus is finding something that captures that awesome vibe and fits well with the project.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering graphic selection**\n\nI need to predict how to choose a graphic. The idea is to use something visually compelling, even if it's at a lower resolution. It should ideally reflect a reusable notification motif with a Paris theme. Even though I can’t necessarily edit the image, I feel confident that it can still serve as a decent conceptual representation. So, the main focus is finding something that captures that awesome vibe and fits well with the project.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MD5GdinZTyq1N3qsU1Xe3wHxtjgTlc5Pf8BRKpM6wvV32uTnBFoeP8kTdv7xuye__jLQyEnWzfPyX61_ze68bxV74Q34LEjYvkXLJEsgBuV1T-eoCkAG4KzEEpjLm1zc-VmQGCqh-gkQkHKxKm_F0_hujNt4sZ8HsSbg8aaV7zjch0IVIzqhv6AoNY2DOvR0zQ0MKei7X6JylmVvzqNp6s6e8OSXMLBWtcqz-WwJ2MUoS6Eb3liWd0dXJ2jMvjR5cQp0dy4r1IoJnI0wrxsLZcothuZh6ApQ3Q5A0LuoL6F6sGqEhcpLw_t9pEVpkOXN1DXUuOF1l9x3pV5Uz2qNmOMFfmjfKWkUgAXM7HZ8ZUlI3M9eEy0ltWSCi5UNtmhigsizieXeyPBJgptjMPgu4OrSVPh6W_cO00VFbZH-dmLHE9rj68W2UX6WTzM-yDLtx0fFuhC5w3IJDlqy_RAicFy7CLQGQBJflBDzHYp5nEKEBO5L8PRjdtuRePKKeIbIAbyilzGaKUTCiIiJgDU8nHlpOcHaN4Fmz0hrwjMhjKZy5u5GRrgZhzWbCeQyakEWdoKi7GSXR0IIa2aBAMhiHLsc9Ld7tLpa2x-UtEtPL6tkMpwD7PMgXArCOxoIGB5F7juQqt0QDs939gChioe0h95sMwqeQxgiq5sCG1VdIoIaQaxa5KQwiT7UGaxtAfzI8zw2D4V43NPBcCr-RZbBLOo6O_18g4k4dChPpHSgcrC8d_asbjRDuj8yRGsIY66Nfp7pM6Kw2nKlAbg5j9LD8ds8yx4UHIJ4atrzkMQ3IDWyT1G1LXtrYub09C3sx4aBnsRf7ckORXOdoR1w2xUpX7ibbbWOT7CYgukRVohbZyiTHDCnHQvqK6ILBl4sWfizJIY6Q6RKGSbuFwU8snPqA1yCLEEf2H5zsmNjEahHBDbLqh-00Fw2n1_6MxllJ35Nav8zW7xfSbv-qlzDHUfv8p2TjNqaOtYdSU1Yr2_dzZlhiXH8ULPm64uSAIMQGurMtuENNVI9pkv4sr1_P7Qq7zUiPqzfQHpTlWxCiIqUyrJhUXbY0v0yRHVaQSou5jh5QPcQ9QUT0fnGrwTEUzTkd3jGVQX6b-8IyJvXSoXwutfPrqbTWF-zStNSGlWV5JuFgXQ92bQ-9y3iRalh3eFdT8E5ydcUu7gFI8ptleeStGf1q9sMpwwgqpwxW4ccpuo2D6DaxecjZ5Ww7QEMZBOY8rgn04c0-wk_G9Ec2z_UhHGaya-KWmK8icEHlMlcSphukbxQ-A0B-7uVlk9QKS4R092gHhl6mdjS1wHjUVvoSQ7sODX2hIr6Cb1UNfpxpDkk5Zgml9gSu-7_FG9pM6W3CBqdLKWSHqfXmrNn9OBdx3wXi4zSVYa8R4nwL8a8Nwjvwr5a7TjfAY5ReeARY01eMdvmsMh9S0CtyRHhmizFIQMhGd8B9EPsMm9kqB0-b6sZj3Yc2X2L74HyD0DHgDp9yd8q7g9c7HD472PdMUhCZXiftYAGA5EA_PDO0uoop3ztSh8tc3RYe7U5m0apntUXrLYFLded1inCpajeXFKMr8LFwtrDK_OszNahGwd6Qb31rcXb_jBo0GwQnnAv9WbthuyTOIkYMlD_nSQfnkSI41mYlv7mFTyvbSNwuLT_XdD1j3vNssB1uO3ePceamcvBg-vGKOPpeLx-lC1bzUlygTfLyRsjC2uwlu5vUzrkmsM8qYWsjyVEZOLQZFKOafTKgC0q33aKUPE_V6FTWE83hCmr5hJoxz1RkRZaEgfmrJIzDLEpfqeldnwfYv5Kg7ZiGSZoodnjxVk_fa9sbszKPdgvcAT065wzZrCz_J40XryqyRbE-SbGksm9XhXErGGIlYMOyeUv5epSOXFrV-0fxK7iQG9apa2KmTqPFNfhhX2cdrZJyShxssGHVxliZjE6HwP0iy2x1DEsfZpTx-Yjngstees-X5jHbqAAjw4MGLAWvpTVpz5v-JkefpRzaKo4xYAQGkekZmLs3kd2LkQtKN0Vn1AB7JkF-MsctBWmyfrPlMGoZF-D0h1vxUjA58Sym8IX-VRGRgto1OWY24n3KdMkSnfayzL9h-6IeWGPimz7stO7wekRf7vhr0AIIyYRFnX_jmmdBkBsvmxYbA1ON9rR5MC-WrMwtrSEISfyjXANDUM9uFuMqYsIZUT8TWWzoAb2N4d-o9Sp-LtLG6P5cWADcq9axo8to2KGzRmdti9_vof8klFfB4qboLsjKfbJGUIioTDrdrxt8k8j-VTiXkA9SoRbDKzLYJQ3wrS57SppVL1.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0d6e8afc46c43d62016af0c0f7d46c87d1a4bf237987c1ed8e",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1452,
+      "completion_tokens": 84,
+      "total_tokens": 1536,
+      "cost": 0.0044685,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1449,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0044685,
+        "upstream_inference_prompt_cost": 0.0036285,
+        "upstream_inference_completions_cost": 0.00084
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0044685
+}

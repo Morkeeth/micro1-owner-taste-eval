@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:40:33.733724+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P035",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "7db59be9abc1240ba1ff214bbea10137a3dc5c137c2f0ee8fb22779304b2409a",
+  "reserve_usd": "0.099752",
+  "response": {
+    "id": "gen-1794163228-9dA59nUpe3kf3ilnIwhT",
+    "object": "chat.completion",
+    "created": 1794163228,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"This is the real recording the owner asked for, so the content is probably right. But the whole sidebar is blurred, which undercuts the 'every agent in one sidebar' message. The crude 'asscracks' line is also legible in the prompt. Both look like fixes rather than reasons for new content, so the owner likely asked for edits.\"}",
+          "refusal": null,
+          "reasoning": "The owner has sent in a real recording, which is new material. The sidebar is fully blurred, which undercuts the point about showing every agent, and there's a crude \"asscracks\" joke visible. I'm leaning toward editing this one to cover the joke and reduce the blur, though keeping it as is might also work since it's what they asked for.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The owner has sent in a real recording, which is new material. The sidebar is fully blurred, which undercuts the point about showing every agent, and there's a crude \"asscracks\" joke visible. I'm leaning toward editing this one to cover the joke and reduce the blur, though keeping it as is might also work since it's what they asked for.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSoQgKEAgTGAI4AUIIdGhpbmtpbmcSDN78arec/2PLiHeHqBoMyZDQlm3ad9rjwG9QIjB+dcakC44HVwMvpfzTlcI2IrbIDRsTqQhqvNN4LKeLeGgeXNqMeAOBWp3a43ZR3HUqvgcJKGvTNEqBYUvWBut6WeMMB6Hg6DsPYryd3ShxsZBfqDBdvzFjnCZls6Mbub7d+xyyUZg/S+ky9A2KD4mogNtUBsMaJUPhHYQ2jjNOtjGGv1960bXtllGORmERgoddeFNPRIiL6Ne5HmlN52DsAqzF7WT/ZOGUt+Zn0SLPhmAVcffT9hzALDNeYgaxNH6KFbyIhNBhdPWpMMmvfeDqUlu/dt6vuDqTrzlCsHhQFd2VlreQmQapoIGZ1H0jn62hRvCEX8Ev2zz2QjL2BBMTls06F+NeAcfy/lZSTfE2us/JmL+Gq4z8X/HJT+NuAZT7dExM7Zke120AatYpxxF/Iuy3GpGYRUGcAYTGfYIBS/dlhnFv2JNtPM+sBC+qnzUkLB9Up/XJCinzeAhLSFND27aI20+oU8TKNYAH8QcXwQDnP4Z8WqMtIgAB1Xu7mqCwwyat0ie1ZT4dFjLQ2817U0Sh6/718ujYxVEWuPt+yF1i6s1hzfUqTxuPN562q30pihqaJoqExgUZGsaxmtcy5k2e8iCDeT4NLjH60hiiz/qfZ5HV0CNMHMxW0QfdQdsbUa47mnbKiXNTHQOoHe71awq6cm/jd6m/HqexwLFAR5fDR4e+jH6vAV3g38bYyO6aFifPlCkHj0v/X/hFD0JKYFpR6oDYM4QTEESffbxTLHKTEvtDXhbkQDQfNrhvE3AWL9DRhnPHr+0Tm7NUxwf0SEm1gmotNdlvV1Jx7U4XoimZVwM6A2CTtMNDpa7Q15BpNNJxOekxMmCecejt4fqbj8w9XWl57gv8HEdJ/o66r2W93trNsph+1ICYVZdAoZ/9dMndJ6bgpTSEBrvzWxLEjI4fgzQqMiFpK8b2hR1WkYjJpwInQbu3TvlRngpS1BAspfuIM61aqXPOuQTpzwOLTXy+e3eQA1uAvCQgjwdxV7lb5Fqq39zX+ifPCvUocj2cxgkDshp9Ub7vJqVx4wCwzWlPSHC0YMSdn6vwJ2GzAENTnsZlLvMPovZjC64Sf8tCBnMkBgqDZ3C6Cr6rkgtMzdcUc9vKrRZ1EXm30GTCvGU+XRw7hsIcL+YvYUWjbW/hB5pV/jwzapjviezzOgxLMiJs6Gp+Qj4hymEPHbwAexBLurq6jBxL2fZjzx/GUVnw3wOc/GJbfpzTl5wKJPj50kKQQb2UUjNlkpDFJlkFA7WIoRFEZ6/bKOBegm+pEv89gd3Dpt67oK5vXPtDM3coOT1Hwt9esWDmY713JeahVKHNb13lJYkk9fxxVqIj5DrmGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3441,
+      "completion_tokens": 276,
+      "total_tokens": 3717,
+      "cost": 0.019284,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.019284,
+        "upstream_inference_prompt_cost": 0.013764,
+        "upstream_inference_completions_cost": 0.00552
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 148,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.019284
+}

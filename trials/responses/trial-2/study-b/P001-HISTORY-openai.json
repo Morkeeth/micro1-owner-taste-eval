@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:26:02.591082+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P001",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "69d77d150c102e7bbd1966b85ecf77946d12ea67109edd8fe654267068a5277b",
+  "reserve_usd": "0.108800",
+  "response": {
+    "id": "gen-1794162358-OitBjIxOn6LTKyTTdZNo",
+    "object": "chat.completion",
+    "created": 1794162358,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner strongly favors reusable core-topic animations. The poster’s clear Finder layout, real skill names and familiar pixel agent fit that preference better than the abstract folder effects they rejected.\"}",
+          "refusal": null,
+          "reasoning": "**Clarifying animation terminology**\n\nI need to make a prediction about using real names in core animation versus the folder kill metaphor. I'm thinking it’s important to distinguish between the two in a concise way. Let's explore why this distinction is necessary and how it can affect understanding. It seems like clarity around terminology is key, and I want to ensure I'm approaching it thoughtfully. I have a hunch that getting this right will enhance communication about these concepts.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Clarifying animation terminology**\n\nI need to make a prediction about using real names in core animation versus the folder kill metaphor. I'm thinking it’s important to distinguish between the two in a concise way. Let's explore why this distinction is necessary and how it can affect understanding. It seems like clarity around terminology is key, and I want to ensure I'm approaching it thoughtfully. I have a hunch that getting this right will enhance communication about these concepts.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L66MVGl8463a25KVGEyyo3DHSWwm7h7C56HnmkbF-fv-DSqFbUjHUpRPJWydQjKxHmJMm2X_xd7Uh-lVWekhAHjRc5G0aIA2nMh9VwaHcOheW8-ziwK48CgeU0toCNF3oKu-k6Tjmni9Ogv_Vr5TlO6bScx-kEqduO5LELnV_r56o229u5oaGH5zTaS8eq8XinjN8Rs2yzNkFB2lbELkWibOwnTyja9TlZxPpoN6V3pdMbfqrfp2DBdB7obFK0CGM84BMlQRS3xlpdlUmJWHqw6WNYAXUFOHqul5zm8Q8UyO0efEXZgKoYaG4IkO2mZguNbdcubSjzjlBuCJ9jQtsQRs7tJAIS1IpNPMNfM6_kxAzNr0HhzOuhZ9xqfIjCd4JQWbU_V7uWYWA0VAKj_EV2nEIQPYgSeM5JtbI3hlH-S1LuCXPX9dFOMg4jC2VIIu9LlOZI51gkxkkjf3zcP0jWhf9C4X0rKZJ7tcgDtZWjZ7uXR17RDtZcUXAYNtntNIOAkIXkC1ldxg-RaX3QjbQn93FaMyuNO2U6R0PRA4ueNv5mWCnxisOxLdLtRTxJydKcMyIaEf0avKQVOMALluPxVw-IsMmkCobgxy6jH0iNBPEX7ToHROsfIsZ56ZLeR7A04k7T5MXVlJ6Qj4BseLinW26FfMvp6PWzJmNnMLyankmuKvTJUyJ9c-nGWMdGeURxS1C6nAiZz1KpsntpF4UV8eDKS33-pSkenFU067MBfbWCePL3lfxXCnEYY9JfZ6cB3kPJ6xzKjsXPnVk2klOuAW94YDldWg8XuUNx_riKEKppQWwcy-4F9mym1lQeTmIP3bf6DkZI7XK8i2naj-wwZhOHWxmow7FdNOQHQyarpWgxBys4m_WzE_N9xUEpAynSxr9Q9IzKNPO7sIjMGhyomFE_DRgfViGlAdNLb9GlLM4vFz1Zjj3Xmjd3gen78xHO4B3d84fvqXWWoFy8XKzOiTLzenQtGzDffMTViUYpwoUmO1qdL6jujS-EuWYWPemK8JvxA0ILeD67mrYKpJ3NcVoh7IQfax4MGwCzjwBXaM_B3XpMcdEsaxNfRFZzDM6uZcK4i4wHeDD5cISokNfNXP9NnHeVqsuApeo3VDsHL0s0GhD3f4oRuvxsFra97GHZkbQQ-UyBjSye-PSHPAAbEkqdU8SQRB7R0rwzjLSHn9Vdxuwl9AhJqNUWLdIC5n64xntqUKABMMkIZpXEvq33vqWIcq9sMtOXNblBoy1j3Ok4FyWiy1VGjw0azObEb7tr3D5bNw7v3sEgNpgwh3NStTkZoUBJ-qHOp31QswVsnq9dpOY7ck-IVo620F7A4On4jwkRbXfP5HYxKZkrY7a9jC3z0Q-61_xFYsVOGblGB8Xgc_tMhkMUfd7S-gJzUBaoQ3Ck4ZzT4bZ0Gh2PylvwQ3zPzrciIDMtlKNXr49W9DsAZ2QDO206ke7noU1kGf84JmDSCsyx6M1MM7KpSwOQWI7TScjf237wX8qUhF7ZPYz1XoHUu5Qb69v_A03vUD-upxz5f-r2BPqdICl18VrTCB6SMUjsf--q3z_F02TPAa2ds0kvi406zRyK87tEUEk5cCCQQMJHsFn94xOk_1W5Uyd6y95EWOnxTZYPaUkxl41gHAfqrfuT-dQ1sz1xq4LSDW3IrueWo_TNa2U0JMFHf5GOMG2bfXRAsX-6_t_XbWXlhaiIxIhMVhPkvcB1WywD_41oH3zk8gOZwW18PAz6aiZUCUXEzegR2KPwmp8gkDhQLobVzMtHZnXyOEg6HqMVb0pTcHMgzhywnMDNj_gqvv9JBADVkJDy5FN2-ufYqOk5E3yhxNtetH8XB3S2gLlpfZZZKuLvnPlHdqW3hVcmqaDLrBtvfmwUW_C-4sh81KNkw42MnJGTeYHtc28xg4yog-zvSRee0U0vxXLHqmHdVU0OsQRNQv2j_RUpWwjXEaZLHF0GIU8rl_I9nc2PmlyTZmvGAGLhJgoAFXADpJtp90mHbax1hgaUAd6y2uUtM4d_s8yI5Bf6f9GY67u1uB2XDtN9p_uPZPg5kY00zzwS47RTnlnLYqt0Oekl-vuzfNlQ=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0126122e05d3661a016af0beb7f8d087d198c409edcfe104a9",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4838,
+      "completion_tokens": 79,
+      "total_tokens": 4917,
+      "cost": 0.0128835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4835,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0128835,
+        "upstream_inference_prompt_cost": 0.0120935,
+        "upstream_inference_completions_cost": 0.00079
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 22,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0128835
+}

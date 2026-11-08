@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:47:10.397108+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C009",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "06048361d9c08b1d9730354fc0ddc9e50c927e81210a05043cac8ea125e44bea",
+  "reserve_usd": "0.098512",
+  "response": {
+    "id": "gen-1794163625-M86Y2gUUFS7LZnI4YJBx",
+    "object": "chat.completion",
+    "created": 1794163625,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier note on this material was strongly positive (\\\"GREAT, betufiul\\\"). The poster looks clean and finished: a calm, moody portrait with an elegant caption. I see no obvious flaw that would call for edits. One caveat is that the frame shows a face more than the 'one object' the title describes, and it is fairly dark, so edits remain possible.\"}",
+          "refusal": null,
+          "reasoning": "I'm weighing whether the card's \"close look at one object\" fits a poster that shows a man's face with a caption, and it doesn't quite match. The earlier praise might belong to something else, and I'm guessing the object could be the laptop at the bottom of the frame.\n\nI'm guessing the caption and the dim frame of the man could lead toward \"AWESOME, USE IT\" given the earlier praise, or a switch to EDIT because of the darkness. Leaning toward the praise.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm weighing whether the card's \"close look at one object\" fits a poster that shows a man's face with a caption, and it doesn't quite match. The earlier praise might belong to something else, and I'm guessing the object could be the laptop at the bottom of the frame.\n\nI'm guessing the caption and the dim frame of the man could lead toward \"AWESOME, USE IT\" given the earlier praise, or a switch to EDIT because of the darkness. Leaning toward the praise.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSuAkKEAgTGAI4AUIIdGhpbmtpbmcSDAco38I0rGVaAHXqlBoMjdGVtgs63Yu1qFGzIjAO/00n08syCqYy4Skzixw2NNqRQX4l1hQ6DqbtvtcPRSs6GmQX229hIfEtkpZ3qbsq1QhDiYZ4dzUuDjchrWedzuGbmTJsQlnWG2oCog/djTBHKPP70pHkINP00C6RqpSJvWKsulzVlEYbJTXRUXVGr+msNzsqxd34kBPJ+j2SxDd9m/iayH/K/ObXpfR4Tt8sa5zEKF211Z6iLIoe9x1ErejImrnfM6QDw0V+W86lWHNnGVWajQoFBoxNI3InlBptAzGMUwX19o/JecF5gWycyuRRNohFZ2jV3x9zCKRtKVwO6ubus2vBAMdGS18khBqSyMifrq8oH8PWVeykrboU34weyTu4PHM+1yNR8LpldmJcAzhxUDmfhyK7J/XBLeZpicfyZx0hDsUAM6saT7ZlyL4IwtSWBn8xHyIAeoynTvEejpXuI2dywrZdnZaj58ma9Da/jtqJxi7ZmsvOI+337foMYIAogThGgAZ9DMn3QKWtrX4Q71U0vPseZ9/SiREIDD6o5rnLDJ9eSIxe/WVjAnH6qUT3lDLd/tg5d2qcupwWvXjBr0ixhYOEvW9M2HVDVyhWa9O97nFSefu2Vpd5JjAIkJsdazelLds/F6TlgYk5Lss8J8N22oIncvgfqgmh/hKb63mSiohrlNSVoVrJlHX9EsahwKes6ySw1QcpKodgnXGANhmUlJBPhyP1hFSU99KGmD+/WaS70p3aSXS6j0e+x4yc/WJbHOaJcLIUMNJMs56p5dca4fuflb/aMth+bMYjmep0ROJqeumOrgUCD1oKOKMW+EwNJaQUvUKGvPOuliu8Wnk51rXrxti59sCaKVTT2gFLF3rF21XXFifrV6KC5F2BuYFwK/k2/JlzZRcYzItdMPb2kxcwF41n89ZN3MVNP8zm2wcyLO5zgcNNheNkt3CyRXbxBkkCXTJ+WBUKNgnuDHNQBvEI7UIJwsU1Czk43+qr5yIcpVFtceN7W72GKPVZXSf/nwCLfOUCZxnqk8lxU0c500bSi0SkL+t1dkZiFRyoEb/tjvfkgJ6PNQu3E19Q/aeM7+qMPNd1/YM0ZVeBbwbARpnHfxxH+T/9Z1y4n+G/cC67s+unBpI9As77BjBaO4Dbtu4xZQ8MPmUjd7ee71oD9CS/Iw/CaBhGd1y3rcdprkkKeplcu9esgWeZBAnzCTGotYVJMBWddR3a4AQ7ah4Ejic7ekmu28Y5V2YR6HD0bnwJDnAG2FN98p6h7c7/H2M1BM+YzyCg8JYxIaCd4GWnB+PsgFBjPGvmaA92sSVuO0maxdf7X49kggQBpogMlmSO8RlxKnPVu0NLViwaIWt8UOP9KewIaEXelD3LgEaNrNtMWjla/pc3TekHq2pFqPe3PXnLTXO/dquqUZuD9ctRroDPthY3g0PbQ7TjlwQD4mrVJ7/g1AYDa1cy0PG3VW3NChA/otwKMwJVY+qEl6dB8a9ttZpTrGOWZfTbsEfcgqkXAfiZnZsrvbFjZovpWMLvOj1xwb2ZHTYivJYoJwc2J9rrTqBiiZJtMzbr1VuaIRgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1903,
+      "completion_tokens": 340,
+      "total_tokens": 2243,
+      "cost": 0.014412,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.014412,
+        "upstream_inference_prompt_cost": 0.007612,
+        "upstream_inference_completions_cost": 0.0068
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 197,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.014412
+}

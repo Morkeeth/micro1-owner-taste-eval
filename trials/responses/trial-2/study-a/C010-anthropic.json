@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:32:45.000018+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C010",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "478e6f6a05c2ad63489bc17fd2bb602f90dee10920e3f57935bf9d2ef6cf6ac8",
+  "reserve_usd": "0.098632",
+  "response": {
+    "id": "gen-1794162761-MXRHXA5061aXaxzfYpr1",
+    "object": "chat.completion",
+    "created": 1794162761,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"This is a guess from one still. The overlay, a titled grid of 'slop folder' screenshots, looks coherent and usable for a Short. But it was never used and has no note, so a likely verdict is that it needs tweaks rather than being used as-is. The screenshots are small and hard to read, which also points to editing.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1093,
+      "completion_tokens": 124,
+      "total_tokens": 1217,
+      "cost": 0.006852,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006852,
+        "upstream_inference_prompt_cost": 0.004372,
+        "upstream_inference_completions_cost": 0.00248
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.006852
+}

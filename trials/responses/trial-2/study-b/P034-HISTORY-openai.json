@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:31:16.327169+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P034",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "010cc41b7969f43ba3b9145259a40a9b4ad0ab3995f48014cfaf68e5f5c63e32",
+  "reserve_usd": "0.109250",
+  "response": {
+    "id": "gen-1794162671-HYOTkMxVZ7htZxCh3Lsg",
+    "object": "chat.completion",
+    "created": 1794162671,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision directly addresses the owner's stated objections: a shorter, agent-free search-to-result explanation. The poster makes the index hierarchy and matching Shorts clear, aligning with their preference for useful core-topic animations.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating options for presentation**\n\nI need to make a choice that balances clarity with what the owner dislikes about the white panels. There's a semantic flaw to weigh regarding skill highlights that wouldn’t take away from the hidden skill title. Typically, I’d use a revised “awesome” approach. I could edit based on inaccurate index details in the top rows, but there’s no concrete need for that. In essence, I need to concisely present a qualified card, not a movie.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating options for presentation**\n\nI need to make a choice that balances clarity with what the owner dislikes about the white panels. There's a semantic flaw to weigh regarding skill highlights that wouldn’t take away from the hidden skill title. Typically, I’d use a revised “awesome” approach. I could edit based on inaccurate index details in the top rows, but there’s no concrete need for that. In essence, I need to concisely present a qualified card, not a movie.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L_zgVqitNboKZkEQYZmJ00_OiOhQHkKhJ4qhfVwpdzuhCOSp_2VwLXim09t6s-Cb6XRv5ZxOn0WvIxHUeUfzU-ZOzONHuQm0ygxbLrJ7jhBGIz3oe9jbSOnvjFQ37jGxN5UW41nJwq_FVQiGGOohia8LKCweFw7HmHyT561cEnW7tN8LScqhRMEwyDjar5pPDQZq2RKosqGcHcIH8GIKBCCEHvE1BQ4j_AizH_FI4pzaFcNwlNCzwP5CpeNL8DZHTM17ITcAraGyGJcWDH9Z3jGSuLDWkkot3aVy0WOdG7u_R7ARkND0FuNKa_WDeT9c2cjo_NqzDgPuFxMITyO2hXGPRnhAZuXwatjpEsgdGCOrAnAj97SjVspxANbqg7JpFDSlu4dn91VDSMY-rCgllz8gAN2iI_ug0G4kZCjTquTmZR5HS5-JUk4kIeKv5KUDJ8PBkoMn1f1HRf_xUEJmB1sD0DHjWdbGTibIXsxPc7jOqoGtA2eOjeBndyPfD8TkdPD_qGeKwNK_pySlxiWRLoQpq3MpdhNcowCTx1r5SsOKKUDeLe4JSglXHxw9qgnUldR0_Yyc38OS7ZsL4BR3bnVrDmL0hL_Q9CXegOpp0JddrAnLFJi06V9KHNJgTYXBvlP9BLIx5b9UhTukQKA2cBieLyPSAWV-mDy5lHvGOVtpP_53rvSSBzfegb9gvuC-PQ6oJtCvzg-OOBOdR66dE-0R3PTIgk8ROjdYK_lSDrOGCAkdG5Mi5sXnDxYJAV66ixRdODL8M-D4T1HJGJ1LdZmunVU2gXTgNWB4JjLwrY8cRrOpoPhaOPFF-OFT9KXj4WjSTeuTq3OEDhClPdxsbQiE5McaC73LTM6p62Nu-H7X6eIHzq1oG0U3_COJy4yGMUyQWDmNWbKZcDdfwuN47YwRoF6fuVnLvlVG6P6n1xLb7CySnF48mO6haAhVwuoki_kPWSeSDWy-iJbEpX_zAN5Gvk8wfMA0q4_1KlzQH7hdvzWpScTuesjKqtCYsLIfb4baGFmaLUot2zDofMuRjs0OU-nG_xXQGGtL2bEAMw8aBNZ1oH1wI38FMRt7zjeTTkPsudXi6kCJfwAsY2OixrUSTCv4G2t1pCW17jNVQa3ZMRHPwEDIC4AXSbuA9lmUAFFAbAkw_0F-csxUEW8qnGRnbzmL23xBTuy8BiCB6Z43QYVZAuk44UV8qG1o07xrMBII-VnqR5JpsbpuyQj2ZtJ5QI5mNKd2QJbvqi8a1Z-hEN2uVARoiK4PHVyCc1QjMiC37hrN0IpnKWXIPehYMox3lLpEuHp0VZXlMsUcDz-lySNEYZDVCLtQ-pANZxhra-KtZmcvyOm871ZE-Aq4Z6SPk3PXi-paxmT-4m2XWb1szOOP_M-DgTI4yIbu-XnF0pvCnGB3_2_ak19SE0vrM_lLLMwXPd-njN2Nis8opyQQbuHDnAlf_G0DFriS7wHWlVIWwESrASej7UYIfuGD24w0PH9rLynGZHmNhKj8MOr0lALRTzUycKjCT6Muim4nn-SjdtgRuPwKWMJWKroJdTvrQ9lxIRUta00EGl9ng4iqjoIEEdRWUmPAG9uRAdnQJX1L7oIPJXNFWtAS4FGop4PVjffAgLmotlEqu7CYAF1jjKkHnz3uo68u0CWF9EknD7Ebxajm9nQo7Bo8O07MmtT9uoC7ucSEHBoy32jqoZGutnUMnneEnRWYEiEjfnuHY4W7mJZaSU0koWLNYzytnivX-Vs5SXg6TetvK6RSXHLD0cBMn2wDK4BJIBZJdAr21bgbUacirRvNoxOCQjp8DgcD3Vwns_dukwxPy_yspt9AKU2xEqDqWqxgm263CuhhocHCBsmJty0IGUqLjPdJvZr3TDhxAVzmpp9e6yssmhZKVN1Jorq4oxFgSKXxEJWNeXr102fBLlo096VEkCbHFPRGLexf-hkM5lrcwv4Sjpx8C07EgWoifQV4YHFlQpRAn6FUjwpLfjJN6Y37cAq6PY284aQtz5l4Xk_dtIaYJdiUCyWuDKD-A_YoYtgeuVHDq6QNjapqqpBXlq4Z-JsSJxXQPnhyxXI4It-ir9XEVfGqwzVTV3OOUJsvmoF1QEA89EmiO-oZGIlezbesqyJYFThU8bbTyENEjBZZIGfcEDhspVRPe7no8ULIgc4ZvwutwptVRoT9UWoiXfehvIwWLwvA-jdX34r-dZ4NeoWKNVdqJ2tkWi7mctcpS_5HxuaDmXVSEN0SXSPy8TZU85-TET9poK5hDUJgKx8v0LQML2X4hAm9wIV2Vyb_2jqkwgcjBPhP2X-axIyJQTtPdxu37Gypka6w4tNKcgKLRDw3AbnUyzGp411tTp9dAGmSljLQU7W9T-rQ1Pv3Jak_uxxWO-MMaLCby6nUYDyqu6xaRuCfm8NIf7SCpNK1xibbyd2Wajh_YQjYkaRP5J7lrb_EzsSyx7j0RbluCSJ-dzLJt04bMsKWwFigVgrUhxuPvcZUPzTG6VPVKyphJfTAPOU3AkMfA9PQiOx81QPUZUeoEvTLT_-MyP0zQZ-PbXsEPYQ5A3nhqNDE2kHxNUOqqLjV6y81OnPFJR-X10bCYasMVxTL2Av373aXVApxaTnoKGMnIMfc2j2ihd3VZUqRJH2Ql2_7i7RCLRJ-gHsuD58D8uQIDXpVG2_f8ExBM0VrCIArTBd.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_03dac93b64490681016af0bff0bbbc87d1858204ad0d47b808",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3510,
+      "completion_tokens": 125,
+      "total_tokens": 3635,
+      "cost": 0.0100235,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3507,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0100235,
+        "upstream_inference_prompt_cost": 0.0087735,
+        "upstream_inference_completions_cost": 0.00125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 63,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0100235
+}

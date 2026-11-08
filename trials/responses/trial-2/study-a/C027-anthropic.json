@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:35:10.514401+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C027",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "4c6ca4d93b250ba220f5f36ade5a879207815fb3cec4af3e1c894c8ee299d677",
+  "reserve_usd": "0.099096",
+  "response": {
+    "id": "gen-1794162905-9jUux13AqvVurP13yVOc",
+    "object": "chat.completion",
+    "created": 1794162905,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The still shows the intended blue pixel-dust dissolve, which suits a reusable transition or outro. Low resolution and the barely readable agent matter less when the shot's job is to wipe the frame, so the owner likely kept it as is.\"}",
+          "refusal": null,
+          "reasoning": "I'm weighing whether the owner would accept this poster, which is mostly pixel dust with the agent barely visible. The dissolve looks like the intended transition effect, though the low resolution makes the frame muddy. Owners in similar cases usually pick EDIT or KILL, but I'm leaning toward guessing they'll say \"AWESOME, USE IT\" since it suits the transition purpose.\n\nI'm second-guessing the call, since the agent isn't recognizable in the poster and that makes it risky. Still, the card is about a reusable shot and the visual effect is the content, so I'm going with AWESOME.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm weighing whether the owner would accept this poster, which is mostly pixel dust with the agent barely visible. The dissolve looks like the intended transition effect, though the low resolution makes the frame muddy. Owners in similar cases usually pick EDIT or KILL, but I'm leaning toward guessing they'll say \"AWESOME, USE IT\" since it suits the transition purpose.\n\nI'm second-guessing the call, since the agent isn't recognizable in the poster and that makes it risky. Still, the card is about a reusable shot and the visual effect is the content, so I'm going with AWESOME.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS7wkKEAgTGAI4AUIIdGhpbmtpbmcSDOsVEpZPpV6BNCEiHhoMdsncEQNw3y7xGsQFIjA0VwgD/2qo0xUR8uwCk1t9AM2bk0cgf9eKGUzR6KSop8bLiaTosZHYA4yVNTcIBHoqjAlBBRU2Cbhbd+StQZglbr5IzhPeOm3gdeNZFZScLa67GnFG0vF9tGhBo61lfOqykvDvglkYZMpqKvBf9HAJfY7yUmoyRrUn6IIY6RORGX5atIAOIo8QhU8o8Ptjef0aRlfLZ7ZSztGTia8nTOtLNwROLbZsNy7hq7KW+kNq4S9jlHtmgYuvU302m9MMXV72arSg4bmcJWT6VeqzpHUR3dpeUNzkOnWtxJD1eYY1s519uzUJWvwJiXiqyTGX4wsobeLJ4QDoaL9gQ9ineNNtKRTY5kSrcrH+1Y29Z5cKLPQpzTbQhlx0qiTncNXzX6lyvhgLuebhEZ/A0mU9oZewVwoQk0rOVTrL9chVAhSjEvyVJDmLIaoompX5/IDy5G21Djuttfo3F8faLZoa2FNpmP6wVDWTJumr9bf5AVjJRGBFyo2Vmp7ftjbuUsbibaJb1VOqTFtiustABldXL5ZtX7l/yCJpKBPTp0dZzbdDS4oMWHoO4XMGD5ZSVQTYyrZ7oJxPFOKWOSUp6U0bWAgAjlV30cTS4vIYM74lYCPIapaULS+1/DYMiDVIj4q3rgDG8RykUChoFQdYdN9uIeyXXQ06OgkYJl1Mzr3OxEPCfhjFTo/hK42fc69WXZWz8CU9cG8RqQZgrLjig4qfIS6LXjQve9m9ElrRjLx0rf1hQ/6EYdUH26U/xVjt0Eh1Hwv+5oH0lbwijnPA4EMpjjIRdrKNqlfQg7/yY/ALTGd5kwuBV9muCs0i8WNKNWvAljAy9M8/XZC8KSlhmWtpobO6GYbmWSFJe+JOZvsB21fFM05VfVx20bf9a5FcNDjyeY26FeA4EveCheiCsHXHIOQwUSQ2jd6xXbx8sA9YXja83fgA9xBgV1MRnX3a/cuPlSoDO2ESR68nqwAntmOIfw2X+nv5ogeD01KR8V2s+mAvRZkzHLW4lXem8SQZWDJyejQtWBLmBL3acoCW/EewQPSkV1+XlyF5mS35GGJ1kTITWt6d7Tt+goleWjpZ84qnK3QLo9cMWW24m1UIEFZ5x5yNDkYt4K7ZHmnCMO0BXd99hOkqjYS5My+Fv0Co6ZsgvDxFedM4U7IRoaUi/FW/NqzcQyS8mKXnfbxjZNmjTgV5YADbWfjpPTeSrO4/1hZeytit4tQ2hueP8PpzMjKX4i83AOfoMvTxOwbxNo7J00yGHSmHY5OxaYp/iDYLgOEStnDq8K4sTAR1A36JrxG9WZDpTZxX5zh1lbpHKBAv+OIY5+Vbq2soYBy6G4fNlQLLfuG8iNxSKr2U0SRepfvZ8itopF+V/y2SBigdF9AVSML4HFC7/rAdRrIQ482jlTqwtfR4GyJxz3aMalhTQO5rWFP9n0xFA9n38zCsPZp5cLEP9h0wvmSWu5Gm49Vyk95U2AB1hQ20xi0E1BYxHk3VZYJc1h1CA3PPRYRziLqINtNVe5Rofs4fyNQXCo98X6byn31XQJ+caGNUTTzANtAX6jq+rCjQzXb7cAsH461oyD/GvsdZXviDemmbSioTgqw51OQjocI5g+dltuga8a+uoksYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1927,
+      "completion_tokens": 326,
+      "total_tokens": 2253,
+      "cost": 0.014228,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.014228,
+        "upstream_inference_prompt_cost": 0.007708,
+        "upstream_inference_completions_cost": 0.00652
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 226,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.014228
+}

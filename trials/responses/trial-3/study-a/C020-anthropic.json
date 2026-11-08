@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:48:41.200343+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C020",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "459a92a0e1127db2db391b9a749b120d6d6ad4e17817c215be34ec305302961e",
+  "reserve_usd": "0.098936",
+  "response": {
+    "id": "gen-1794163716-QEscKIFhAzMt33MHTXDt",
+    "object": "chat.completion",
+    "created": 1794163716,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The poster looks polished: a clean odometer, a project breakdown and a stacked bar. But the owner's earlier note asked for this to be longer, with more fun animations about tokens. That points to adding material rather than tweaking or approving it as is. This rests on the quoted note and a single still frame, not on watching the clip.\"}",
+          "refusal": null,
+          "reasoning": "The owner's note asks for something longer with more fun animations about tokens, which reads to me as a request for new content rather than a tweak. The poster already looks polished, so the concept seems sound and it just needs expanding. I'm settling on needs new content.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The owner's note asks for something longer with more fun animations about tokens, which reads to me as a request for new content rather than a tweak. The poster already looks polished, so the concept seems sound and it just needs expanding. I'm settling on needs new content.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS8gcKEAgTGAI4AUIIdGhpbmtpbmcSDNO8dniQ0CRUUiHaWRoMLAYFmf/WKRx7a9zxIjAJTl11q8l/z47IE/dJC8kWHeiHCWyQ6K6viCnjMNg9ao8IScpNk0dWqxmWxYPesOkqjwflr8d9Y/m8ctE3sopwIyhnOYZPnvCbXYn2sFTPXHVJTLKILia3wa5ysJxHi9vFwOZqf9Z2ngR3hN1rG3zcFeRrfunkv7LwrgQxoWkQ48jyk20y85oBuo7EQ9RMeKFd1pmTvlijvoRmxn4CYEOX8AKrNEq+ZDCAR0V/SqTmVztl15N8j+4wiQkV7z65cSV2ep2M/TfJJNL3tqxQtju9SWFezzSn/xwntnTl+qa5DDWKgqdZwg5IUhT1kgrJV88TKScg+5i3EnOGyqlNfEfOn4tGfdzSUwYTNHX2kkE4TakB0IQrlK3NB2FH1aOvwbaFJdkA4IhRtOgFBlS8dJib9lndoFE1WFsDk1iPaiQuvd7vYqrGHx+UnYouGvmZO2PB4wF1qKWwJVa+BS0b34yZ0JOn+bqKeXkcNiK+F3o887GbeAyZV/qB2OzyxhkN+JecOzKNW1Cd3UtgPAtWpDsXTYXso3oNctORXD0lYLcSPqQ5zup3Gf1wSB+uC+E5BOBo4Dhw/Zugq3zZ+qsj7co16v9hlp0unmqnP7H8gn7+qsqVNYVH0mUi211r/sPj5cbjV8LPumKrSO6z+/okTAClITtMZt/gWZbT2TxEK9AcTjO1h03xtpCjm7cd60cZuU+wdrkYYvQiWE2OpBIq/asfDGR+jW2HEienuWgq3sq1ZkNUzCUGBgQZhwcNT2s7SnNhX4hCPVq0vFA+xGGh17KtnIhi46srlNAhGbXozqeIGyWJ2EVXI0vWDX4IMalL4ZWGRKosgrWoVzJKjzsrRoBjs21CfUnetg5klJlR9As5js26vrV+AA4bSv4OhhnGiitmmBSlmAVE3jduEuslJ6unfSzhj+HeApFxZmp/jriGAfoY333INVqm+fobAZVAwIYzKJPYsNg0oIn6GWjLapejM8KMdOOJoVmLd8jB3IuGlY+zbnfRdMNkqr/xmVVpBJS8Uo3SCRFp3ZRe5lH07xnzWR7gr43bIe6fWsSwAF3Uq7S9Q9BBsPm02s8mbfEvYdwFhqMtuwCg+61y3EwV+jSE/y6AKWXFYjkz4nr/XslsR8yYHC4TU7hDp7gdz0f+n2nU9gs0JAv3i0RPO8SrApMdiuxQ8n476C4oy0nrcMU1vwg3HtT7QxiXwy1UsZLK7+l3oJn767h3eBqwBS+N3e0k73LlqGHD/cXPDScJLvEPyVjrKrK9C+C3qX1wL60lqyQFuBgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1919,
+      "completion_tokens": 255,
+      "total_tokens": 2174,
+      "cost": 0.012776,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012776,
+        "upstream_inference_prompt_cost": 0.007676,
+        "upstream_inference_completions_cost": 0.0051
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 126,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012776
+}

@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:37:53.444584+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P015",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "469ed7cd40a143ca0e3c18b3810a4ee7c263d84cbfef944d29694854ef1e6e26",
+  "reserve_usd": "0.099024",
+  "response": {
+    "id": "gen-1794163069-DrL1csg57JjUg20UF7TS",
+    "object": "chat.completion",
+    "created": 1794163069,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The concept fits the request: the browser layout is clean and the cursor labeled 'agent' reads clearly. The poster has visible AI-text garbling, though: 'Cearch the web', gibberish card text and a mangled 'Cgors' in the field. The pixel agent also floats off in the corner rather than sitting beside the page. These look like fixable flaws rather than reasons to scrap the shot, so the owner most likely asked for an edit.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1926,
+      "completion_tokens": 168,
+      "total_tokens": 2094,
+      "cost": 0.011064,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.011064,
+        "upstream_inference_prompt_cost": 0.007704,
+        "upstream_inference_completions_cost": 0.00336
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.011064
+}

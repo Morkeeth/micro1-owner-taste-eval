@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:30:20.157268+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P027",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "06c1fa406333dccb9db413b4ddf2f9aacfac000c7df1ce6cf4a99141a92d7c82",
+  "reserve_usd": "0.109210",
+  "response": {
+    "id": "gen-1794162617-l6EZ7YFI9UvATCvkaxZ6",
+    "object": "chat.completion",
+    "created": 1794162617,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The card flags a palette the owner already disliked. Their history favors new content for theme changes, while strongly supporting reusable weekly-limit concepts.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3499,
+      "completion_tokens": 46,
+      "total_tokens": 3545,
+      "cost": 0.009206,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3496,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009206,
+        "upstream_inference_prompt_cost": 0.008746,
+        "upstream_inference_completions_cost": 0.00046
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009206
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:25:42.729371+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P034",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "e4cf56b250483c5956859580ec33c8833e9a3ac44c11dc5b8a57dac5ffe62923",
+  "reserve_usd": "0.067075",
+  "response": {
+    "id": "gen-1794162336-XGA6gwu9olkAq0SLpxkx",
+    "object": "chat.completion",
+    "created": 1794162336,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision directly addresses the stated feedback: a six-second search-to-result example without the agent. The poster clearly connects the “skill” query to the Shorts index and highlighted results.\"}",
+          "refusal": null,
+          "reasoning": "**Considering content clarity**\n\nI need to make a choice based on vagueness. It seems like there's a revised option that meets my notes well. The poster highlights a skill, but the second title feels irrelevant, although the content may touch on the skill. There's no major reason to dwell on this. I’ll aim to respond briefly while anchoring my thoughts in the claimed timing mentioned in the text. It’s all about keeping it clear and focused!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering content clarity**\n\nI need to make a choice based on vagueness. It seems like there's a revised option that meets my notes well. The poster highlights a skill, but the second title feels irrelevant, although the content may touch on the skill. There's no major reason to dwell on this. I’ll aim to respond briefly while anchoring my thoughts in the claimed timing mentioned in the text. It’s all about keeping it clear and focused!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L6mOsETSakuYqnqkZ4pWhGhg5O4J3IK9yQR_0z-95YXz-ECbxrtVd0d0xtDYjeYsBMGOpTlxhaJusLwobALQSIhgOq0JD28eIzvEMPy-yxLgS8vv2F1PR4DnrTlyr9oYydbjNSyoA4JYIR5SYNw1JQ85lQOImLZa8SyTpu2JCquGn2oQ9OS1i2EmqIx1RIG1qOGH6ItknkPGkluvxviQRBa1FtJzIfdLLQnO62p2ZPFJjTI4Cs78qT6YAzG0BhDNTU3Svbfk-Kz-y6sWE2HcYTagNZp21RkUFN8ew66_ip8w4q0mU7UriQhw2lZoKhznKYFMidBEOnN1KiaANrFUc0eshGaKwufrEnGL2ZBdOyRKptELBAOaRwCEbyFvKrBFzhgIWpdAFcnnALkSgXiDD62TQsFq683LE6dGVoHM_uDQ9kSfR9znbxSDN3G0X2bAEIFL8k2Bcd9q1JuxpyMI-piZ69FCsKLmADbLFNVh8QrkBBzTqWQde5KjE3H6grjNovlb-p-o_oak_TyTEfH6TYD1X0x5MWm0IPtO2SMHB0FdvobrQS59DUQ0on3HCneGayJl9ZXM8rSozwrV6GU8JFBT0zC0BTD7-6lhpIl7-fnb-kLkzz8wvZ13eiq08vaQCswmxqEpK2caDUPcAdAqkHyJa8eIgzunjav90apuiRsk-kxHTZ_JirdGvaa29tAOcQUD3tKysBu02OYMGsbdhCjFkmzlDoYOxaj5LO7I-Jed7ovpbSgEHR4FIamCzQVSfuhsV-epXHzFKnhJ-rwh_na88xOMZriWHd3tmgyfeVbakppJIZKLCoGEP0NDbFtPFxOOO2vtMF6A4XWREPEYyIb7UdPfZrjz391_9roEhl-Ynwq1_aXtOoKPHJDQuz6trdDLFVy8PsXqbu5sn3rPIj9mJs6UUvZgyEsPaFfrD9wqFU8aqQ8lKzKdM6JbuL3lh9QeMVLXJjgjxitR56gIEzdSiZ5mH2uY3xMFSJup4tK53N9mHFX5vF0xUo2Xk-196nDYm7ohOPxmDJ25sBM-ufy16LsJr4niv9WTkcdHwWi-_637ObcXD3fkALIHbZJsGPXJAKYHCxbFBlaU4wXDG_sxrg8BGc89jtvGNvV45wJeJTSXSvftFcs5rPrLno85rsULxA6LiowtajVQWB99jA4o7j0uWVyw_hV-fC9XbGTfAk2tikNDEPiR15WIePpYKmrSiO5MQLRNrPjh3Wv2jOCBc-AP3pf-Cor9Wr707DB4b1Zvo-V5JtoGypSthqSjdp-CxmsmmWJqQqjYcoj8rL8RhT8M0B0Onp7aKcWdY0eFOsjzzVIxD3Nrb5KhyrFEat4SiBww7LL2CB8NJUfABk2Efprq3YCZuIJ8liui1X80g6h54-tSJPlX3yqFgIanVAazLjEUrhVZLUbCoMThCmqyn1HaHhkH6vkBYN91Qdk9Bph9Su60_w-LAJXxsS9Foa2b3O_Ar6YOD-iTq8JPpotryOB7_dcjs8JM6nZu1xy9o2Z6Pvs2ZsPFDFLk6QX3a9cad5h-dZa1388zvsyYZYR6hraWcyMxENTHutCK-EIv3G6usuJavZQI3twLIDR9ts4Q1oEUQ-i49YUuhMOgVytMpPU78Zr76l80_4ADrAIhM5pOX6sWtMRM3U1OtphmYG9mBwWBeSPdifm_dZ5uMi1ZNIYS7erQCFcxBhn2FaOOHKpC8mEKUHx6kIQmZ5H6GHYEKf6DwzaQSy5rVjhz_q-4s722BV9g5r3hoAqUAvEwmE29OxwGcMHoI6IfenxOUCvS-qh4skJS8xw2MyPNbNN6zYn0JY25kVJ93xb3pSTU5OSSSpo51WkJ3QRRJCG1b4c6p8IZEqFtlNMBL8JaneXWQmuDobD7zvtjBUUUJG56_A1oH6W0Gjl7dOeJQCH53ZCg01GUlnu8Y9IoKN7wkF-en_nzEZGIF7Lef64x94sYLqDzpwBlxGPyBDG3mGO7NfJsqIXM9zCRolzpMTzz2Z1CYYO1DycWYBeR3YlljAPLkwcT-jRIOG5Gj-5pAyazDFQF-zD49SrYIhq9ij7o2N96lCAFoJt_bwVIBVEAfXfX4NnuYwLNfpXK23GuXYdJHcXtsyw9ZPAPOhPCLjxyiYOaWGADajQPTuSmexXpRDgmW8DnBRt3UXtybtmvmbkNwOVs7-J8EQEyCEh7rfwamtr-Nq6_80QAntWS7hakDesGasjWdj8fm5p9_jkn5gWhEJ2KBxJub79PHxQFqOhU2gtT_Ox-bZmKt_91ec26AZhuO7v0hUB9sFh4l37LrqiYlEH8zcEPEm1mQyTyNceg3cWUg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_036cff982fe78c5d016af0bea2f88c87d1a9df119de0a76365",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1457,
+      "completion_tokens": 97,
+      "total_tokens": 1554,
+      "cost": 0.004611,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1454,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004611,
+        "upstream_inference_prompt_cost": 0.003641,
+        "upstream_inference_completions_cost": 0.00097
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 39,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004611
+}

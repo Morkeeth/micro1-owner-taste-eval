@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:35:44.237814+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C031",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "dc27f410330440dd42aeb550de956fb4f18610a89734510b5ba0179cc5e27793",
+  "reserve_usd": "0.099120",
+  "response": {
+    "id": "gen-1794162938-htD29YkEr62ltkWeEtA7",
+    "object": "chat.completion",
+    "created": 1794162938,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The still is a convincing, moody Paris facade at night with a few lit windows, which fits the 'night run' story and works as a reusable shot. Upscaling and the labelled generated sound are routine fixes noted in the card. One risk: the first frame shows the building rather than the terminal, so the promised transition can't be confirmed and the owner may ask for an edit.\"}",
+          "refusal": null,
+          "reasoning": "The poster shows a Paris building at night, and it looks good. But the first frame seems to show the end state, so the terminal isn't visible at the start. The card says the camera pushes into the terminal, yet the poster shows only the building, so the generated clip may have left out that transition and doesn't match the description. The image is quite photoreal, and the owner would probably like it, but the claim that it's made from their own graphics doesn't line up with a first frame that lacks the terminal.\n\nI'm leaning toward calling it awesome and using it, since the visual quality is strong. Still, the concept may have failed, because the clip seems to start on the building instead of the terminal, which would make the description inaccurate. The owner might want an edit instead.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster shows a Paris building at night, and it looks good. But the first frame seems to show the end state, so the terminal isn't visible at the start. The card says the camera pushes into the terminal, yet the poster shows only the building, so the generated clip may have left out that transition and doesn't match the description. The image is quite photoreal, and the owner would probably like it, but the claim that it's made from their own graphics doesn't line up with a first frame that lacks the terminal.\n\nI'm leaning toward calling it awesome and using it, since the visual quality is strong. Still, the concept may have failed, because the clip seems to start on the building instead of the terminal, which would make the description inaccurate. The owner might want an edit instead.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSwAsKEAgTGAI4AUIIdGhpbmtpbmcSDIbBo7srDfVH9ba72RoMGZlhHFfI71eLnXFlIjCYSqZlbVQ3MK7e/pali/NNzzZa9N1Pf38Hx0o2M9NzBpCB2/AfiO4AiZy9U3JQdYsq3QpscHeAl3PXOnuS9a+DRiidDtfPHgncHxepZIIvG7Grtt6FP2pOamBEsI1UlGiykMV7sV6nJmxTgQvvvsWYHbetfTPAuyXG34rKWKtqWt0okHtfuLKmVXI0th6f/jrFCB0pofTlXYbe6VKhAQfADNAeA6RbbRlErzB4egyKNf/zmSvEI72So9KS5s8YB2EMZ/wqdRjZvQUhxwt0F4VqKqHHGn6cYdiN15Dd06Y50g9GPjGAcZh++x600ciuykpPuj7dQKtvnnR+zwy/Sg5skjX6qihwoxunMw/9NJkLdY2z7t873W7iO6sqSgahBmL3U2h61nJKTHM9iQVX1PPEMZRF066N9zxk80LEIAF38q5YXkOzjm5FFfPigCLyqQntvE8Y7wOCh0GO3bb7ipGyYYrrE2zAfauFSKoSkiMnL9120DDjxYiPpmxxHL39odaRMIwOUYVmjRNPZtQvd6cKyKKqCcfcvzycsqw6PgnmlXrTHOJVuKIzVF3pjClba+r4HUJX0KcD/9FEbOa9y6sXyyHluJUfQ4rIQKG6AUeftLs1xX19nfiByWkiwUbBapQoAvc8B8U/Qh37o9Z9ElO1mevBDAbZnqZSK8W9JRo3KUOkbKOkSBrCgAMFXoxOrxuen4di7Wab1JdJO4U9Jn/68LZMNW4JW/AlG0nEQty7rCnv9w9NoRde8q8CC/Qk+cZ39KoG9vgExSVwS23bemPXf0HlqDsjkjvlAl1zS8V/Vd08bFtnC/SXYKpTbqIkX7dsnNQIlFkpgPF9DbiWD1Of7xNs0warSzQsrYk5gUf6vHXejphOL7dh0/LlhGZhbL1hN+hKR9if38c9OeZzbGTtox9u+r0zMI/QF8DBdgRRBnQ4FZn4DboD7HyPi0yc3Clwiuz5NT3vLPAJdavNgRKoSVaM3hPd/2OPeCYG9PwzdK2wlULj4em0nfisE7+3QxEDwfxtaQPPL4W8Bh8d9gqc+oO3DMmH+OhzJbm105CAwTbh1z9un7boq15GM9xmCM/M0xEB7bI9zfrA/XC7Sgxh1jYmvjcUsmYI/txL8UbbwAGsu7wWDQxzdYU2Wk5rw2bzUCtyBt1esxtfdRPh8Kt0XHyWlqRpOL65+gP5Nu1E7RQYDjhhRaaRqdQDtV6NPfYgsDqTSdCSzN6D8vPCRh0YFPOaRF9nGUEXLfgiC+my3lbP/Vhr90XJGr5JDXrUCtlitpZGWyw8I2NwzDB8ZH8MlSIAlLxoBgCrTO/4+aiy2gs/BPY2M+XvEmEqINBvc1nZEOlhjSKaXn3VdvXSV9xerEiQZpcG5HLQ+8H3kQX2KWoQJZeA6SNZg8L+84b22QiLMNyZsJQH8PRxPvVHjrvN7ZhynE1WNgv8XR5SqR6zCIR51MkrXWYdjkkpPJ+AOqVi/INM1wsi5Lp6sj6mhIswsoLXS/Ko1eRMML6ugSsFk1VuW614EXEMnweWaZfJifw6d4QNBT4zA+BiYEFhbFxr5b4/9XOQ9oRJ52nZwhphePlYlam4QFzOydkZKxno1RNaSW+8jSZHV+vSm/BO279A89VRQWx628bnlrAgU26mIcyUm+5yTtQ9yb1QOL1fMkS000MwGlf8BVMRJimTed9vS0fYiiI3Cc9DHiwzQVBeRILwjufzkhhFbg8na9TBCBn9b4z3ZhcpAR85yF+XqDEy/Fg4+pL7yauzHCWejg9kqGwyyRzxJn5zogxerqS9smL5QsNEYXc0yCE8akS37a2e/YmCdjNunMYDmHycuBbAOM3pPyCIpIrWqEt5DA2ux0DibVO8mMI38hzpDDWKARK9hmPY7tF9cXoVc5wQZcsChRgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1922,
+      "completion_tokens": 415,
+      "total_tokens": 2337,
+      "cost": 0.015988,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.015988,
+        "upstream_inference_prompt_cost": 0.007688,
+        "upstream_inference_completions_cost": 0.0083
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 275,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.015988
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:49:32.835396+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C026",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "2c9e7323896b3ea151fa8dcc6959ac7873fd9e19e0c988f609565b7f03ff3362",
+  "reserve_usd": "0.066945",
+  "response": {
+    "id": "gen-1794163768-2xODTeANB0BQKW37GxEy",
+    "object": "chat.completion",
+    "created": 1794163768,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean agent-and-window composition fits the requested reusable-shot brief, and the card describes a clear role for it as an episode intro bumper.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on design choices**\n\nI need to choose between using or editing the graphics. I requested a card with specific graphics, and I want to make sure the resolution is suitable. I envision a clean and professional poster that uses black figures on a blue background. I’m considering an awesome reason for using visuals that I can reuse, ensuring they fit the brief effectively while maintaining an appealing look.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on design choices**\n\nI need to choose between using or editing the graphics. I requested a card with specific graphics, and I want to make sure the resolution is suitable. I envision a clean and professional poster that uses black figures on a blue background. I’m considering an awesome reason for using visuals that I can reuse, ensuring they fit the brief effectively while maintaining an appealing look.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MQ8P-ZCnvI6KPpXDieaMDG98i3iB7fFdEQOkwSMm_9c07GcbPONQPnnkG_L0JmftoFdbdv-C-KcgmMbXn9q9TvYCAXWX5S55OawTVOGgx7uiKZB2P687aFFq3XYd5vaK_j0SEufcso_5kJLqEbWql_2bC3MFA1BdV4l2zWL6N4lnRvAwvW4YCCbC94v04FXg2KgU9X9aZisq7Qij1ssjcuEco-DkCDesancl8-vAo7sNkwsMbRbqk1qhBo0CCjswK9VE4FYSw-opDCUwp13HuAJ4OQmCt1iDmq1bm077oSTXBYMptcNZITcjTnEx4W3jCbW5jjYND5w579VBmvq7g56Dz6NdwexJC9rci7o5bFEdlzK4bodbCOur67YiTScx3yNdPDjgIy8Xgo2I49om-KXFhLo05NO2npkKS07Sgz-dY49BPdMs5luRzVG5tHSEAVRzI4rrgAL5YzneYHLr-Lp-1CsMjo1lj1rNynHtUWfwteR1WYa4jA6LbQfxFP2Pi0tdMAjVQxzgbOBMh6izZAwrcPyTzux4Ld9xClz3oNU9EXVFFN9mvTkkl_2AeMVUwX_jZ6_tpY98FoqnThHbPupE9IBfQJQqmSWptlxWrMXNNeI-AqMwLtWtLDo9wVuLVBkniErp2hlfzdseIsQK6kY88cKZrHTs5Z1SQAVGVAgpDtNveD_uircLtf2VgiFh5CNyuKE93XFj52GdD6B3WPEgmSUQjFeGS83QiSVzGNNE4TX-bbSGbPYOD4xF2OrN9hM9XZ5upw_HooLD55OPSbjgOWoQv3qt2N2iHRLCHVPtNeqB8ILFX8jQNkDnfOvr0fbJiuSXwI3X1C04unSX4gYGT7XJOv8YALIp-w12MAtST1W9KMhCln-qGeoCeVpCnCpqymCb0DYaJWDICZILg8NiY-zp9w7VFqwEOpKiS4hTDOByUCsFU1EVzgiQUK17rM5MoaCdCCNKf9IGJIwYgmhoQ0RKZKkRueyOR9HuWaL93feZQTR4xJ5ke_LMVP7gucTuyQkDnTSckGZapDAQkK61emLikvLRaErGxEX076CIZtpUMLwhJMlJ-CNqp9kYKlry6DcqgfiiB5LsI0EafboWYczuIMX0QUHLKoepONaN4o1rdtE_6Vnv4346XmjfoxAV-dRHaxR79dz5gwOqwvaKiO5WZk7Yex091XjHoORRfstawxtfS_q-yerw0c8qXj4OWuKVe7o5uvYaDhntm9hs9QDJceF_HGKDMdUJ22Jb0OGLbDkCITJKewyTFgJkhW60KXMJ8ycHHKdT7zdggVkqCZ3TOYAd_8X3JFIXmsRhTjLNuNbVElD3EpLfFFHZ5wPw0UC7Be3RbmaUCJtwl99z-c0Qw1hVUvxU38q1AAXd5pJSgJIhdiTdAsp6DAEN_veugT7kcpcivlySTGLavRZIxYOwCXsF_X1e9j5Suz8hA8GXM0WGES4RbSFpNWflAYr1e-MGeWMdpwtANN3ZdOXpz8xOkXzvs_URQoVao8-KIx_4-b7QcJt40TfV2aPOP0x1ZK7S4RCz5x7b_dB1gybQbRPnbR3BwOMSFhdfUmFtYwCG61mT9whEYwfFzo5kQ_SvF2FXA1_uMEd_OzPdEzKPBqOTIVDcMHW7cZDAEK51ISI3WCa6YShOhQLEZjz8s1Ek5CwLtAV6vxKw9JhtrbTKnvjdrZugIKwLz5xWxpYWuGvg2rn20v50y9A0TtGz5ejIuxmP0AWemestNgpkxBC8iR1N5pE0PnbqdJMFBozVNqMr7BuyR7Nm6_FOlax-42IKHbY60lheSYZgbHsZJFhFKmedALUTGS5ODg-VQn0KXqAxG_dGsP4_4W8ziao9gmrI6JOSdvRRg8vyGeOIJcJRmbpoHbZWBLreDiz2T1CKTHKHtIBivrtiMnHDFDKOMt9TOH4L-kqLSWoX5AzKH7A6ApYw1-SxnEdhowvNJDCtvMTLuFNsGaL_-9rVzI-ZsxTeYbGkvvw5cCz4WlqyPi_ZaOZ-3qp3OraQtyCQ96FzqmwafcRUTUyc3MiKkeW8lSbbKor22K0C--4Zl0PoIE8s5sOn4kAXk5lwj9DVtiXXSk_VtwW8O1axcoSMsB8pY91F25NWfNnzySTjPM1jC0ZWGLhZ6krucE3nVS8WGq6gNS1_4Ahy4LT3pCe9TNv487rcgmcSj53-rENysNjIKhJhkBemSW-jIHf8v1BEXWE1Y9hyq7VQ3ioqVLt9b_V51w2vTY4Dym-2yIleyW6NWXEBiuUWbxX1U0iebIgqJYd8xX9VIiHdAOi_Ldk1WjWv7u7mZG_LGwHUMxNe21BZc3vsenEJ6twurpIu0U2eUc8ZBA3pIhTB1dVRajUl9bQfbjG.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_011582f67a2d5fc3016af0c439fcd087d18f309eb8901db326",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1451,
+      "completion_tokens": 91,
+      "total_tokens": 1542,
+      "cost": 0.0010608,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1448,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0010608,
+        "upstream_inference_prompt_cost": 0.0001508,
+        "upstream_inference_completions_cost": 0.00091
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 41,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0010608
+}

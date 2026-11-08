@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:46:41.813932+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C005",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "9a38b34addf52a975aa7a196906a33a4e1698d659ac9bceda9f945585d0edb82",
+  "reserve_usd": "0.098712",
+  "response": {
+    "id": "gen-1794163597-vXy99skAyAVE9DQAzqyx",
+    "object": "chat.completion",
+    "created": 1794163597,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"This is a best guess. The poster shows only the presenter talking to camera, with no visible animation. The card calls the clip a \\\"raw model evaluation\\\" reframed after the fact, which sounds like filler rather than strong Short material. Since the owner is clearing out unused animations one by one, and the earlier note (\\\"very red in my face\\\") suggests he cares about how the shot looks, discarding it seems most likely.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1911,
+      "completion_tokens": 154,
+      "total_tokens": 2065,
+      "cost": 0.010724,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010724,
+        "upstream_inference_prompt_cost": 0.007644,
+        "upstream_inference_completions_cost": 0.00308
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010724
+}

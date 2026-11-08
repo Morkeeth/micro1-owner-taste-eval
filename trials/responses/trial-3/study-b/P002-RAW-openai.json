@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:36:02.985265+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P002",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "843d1d1591e497bd3a58ef561e46d281b6c195cae3d5084525b3ed433d471b80",
+  "reserve_usd": "0.066630",
+  "response": {
+    "id": "gen-1794162960-Fzuub9ul5nfl0dJVkIAq",
+    "object": "chat.completion",
+    "created": 1794162960,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster clearly communicates two separate weekly limits with readable meters and a week timeline, matching the requested reusable EP4 core visual without implying real usage numbers.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2787,
+      "completion_tokens": 50,
+      "total_tokens": 2837,
+      "cost": 0.0007844,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2784,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0007844,
+        "upstream_inference_prompt_cost": 0.0002844,
+        "upstream_inference_completions_cost": 0.0005
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0007844
+}

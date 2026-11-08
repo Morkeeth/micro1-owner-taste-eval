@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:44:11.683458+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P023",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "479601ffb799220ff6881a82d739933d50702965430777ab7e9c69873364da86",
+  "reserve_usd": "0.166192",
+  "response": {
+    "id": "gen-1794163447-gi1qeS9WtTNLUU6K1ryb",
+    "object": "chat.completion",
+    "created": 1794163447,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly asked for reusable core animations on weekly limits, and has usually approved Higgsfield shots built from their own graphics. The poster shows a clean on-brand blue bar with the label \\\"weekly limit\\\" and no numbers, so it fits that reusable brief. It is simpler than the agent shots, but it matches the stated need directly.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5018,
+      "completion_tokens": 137,
+      "total_tokens": 5155,
+      "cost": 0.022812,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.022812,
+        "upstream_inference_prompt_cost": 0.020072,
+        "upstream_inference_completions_cost": 0.00274
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.022812
+}

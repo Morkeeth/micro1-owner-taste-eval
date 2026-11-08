@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:33:01.866360+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C012",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "d1b491c8174a66d90b29831feed6c55cb2890b855d7cd1dc1aa8237c86b30bf6",
+  "reserve_usd": "0.098640",
+  "response": {
+    "id": "gen-1794162778-XYofzmH5C3rFR5EQqqa1",
+    "object": "chat.completion",
+    "created": 1794162778,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The frame looks polished: a clean diamond grid with one blue highlighted tile and a clear caption, 'So many people building worlds.' It is neatly placed in the empty space beside the speaker and doesn't cover him. From this single still the overlay seems on-brand and finished, so the owner likely approved it, though motion and timing can't be judged from a poster.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1093,
+      "completion_tokens": 139,
+      "total_tokens": 1232,
+      "cost": 0.007152,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.007152,
+        "upstream_inference_prompt_cost": 0.004372,
+        "upstream_inference_completions_cost": 0.00278
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.007152
+}

@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:50:03.672815+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C029",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "d69e97651a98c75141f57185fb270f77fe84a8a75dbc567a05c87879a220e0bd",
+  "reserve_usd": "0.067115",
+  "response": {
+    "id": "gen-1794163797-Iy35TJZGAiWgW5k0EFis",
+    "object": "chat.completion",
+    "created": 1794163797,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The concept fits the reusable saving-work shot, but the card flags a hard-to-see closing bounce and resolution below the episodes—issues to fix rather than discard the idea.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1454,
+      "completion_tokens": 52,
+      "total_tokens": 1506,
+      "cost": 0.0006711,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1451,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0006711,
+        "upstream_inference_prompt_cost": 0.0001511,
+        "upstream_inference_completions_cost": 0.00052
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0006711
+}

@@ -1,0 +1,112 @@
+{
+ "study-a RAW anthropic": {
+  "n": 31,
+  "correct_per_trial": [
+   14,
+   11,
+   9
+  ],
+  "all_trials_present_and_valid": true,
+  "majority_vote_correct": 11,
+  "pass_all_3": 8,
+  "pass_any_3": 15,
+  "same_answer_all_3": 23,
+  "kill_guesses_per_trial": [
+   0,
+   2,
+   2
+  ]
+ },
+ "study-a constant AWESOME": 17,
+ "study-a RAW openai": {
+  "n": 31,
+  "correct_per_trial": [
+   12,
+   14,
+   13
+  ],
+  "all_trials_present_and_valid": true,
+  "majority_vote_correct": 13,
+  "pass_all_3": 12,
+  "pass_any_3": 14,
+  "same_answer_all_3": 28,
+  "kill_guesses_per_trial": [
+   0,
+   1,
+   0
+  ]
+ },
+ "study-b RAW anthropic": {
+  "n": 34,
+  "correct_per_trial": [
+   16,
+   17,
+   13
+  ],
+  "all_trials_present_and_valid": true,
+  "majority_vote_correct": 16,
+  "pass_all_3": 12,
+  "pass_any_3": 18,
+  "same_answer_all_3": 25,
+  "kill_guesses_per_trial": [
+   3,
+   2,
+   3
+  ]
+ },
+ "study-b constant AWESOME": 16,
+ "study-b RAW openai": {
+  "n": 34,
+  "correct_per_trial": [
+   17,
+   18,
+   18
+  ],
+  "all_trials_present_and_valid": true,
+  "majority_vote_correct": 17,
+  "pass_all_3": 17,
+  "pass_any_3": 19,
+  "same_answer_all_3": 31,
+  "kill_guesses_per_trial": [
+   2,
+   2,
+   2
+  ]
+ },
+ "study-b HISTORY anthropic": {
+  "n": 34,
+  "correct_per_trial": [
+   10,
+   12,
+   10
+  ],
+  "all_trials_present_and_valid": true,
+  "majority_vote_correct": 12,
+  "pass_all_3": 6,
+  "pass_any_3": 14,
+  "same_answer_all_3": 24,
+  "kill_guesses_per_trial": [
+   10,
+   11,
+   11
+  ]
+ },
+ "study-b HISTORY openai": {
+  "n": 34,
+  "correct_per_trial": [
+   14,
+   15,
+   14
+  ],
+  "all_trials_present_and_valid": true,
+  "majority_vote_correct": 14,
+  "pass_all_3": 14,
+  "pass_any_3": 15,
+  "same_answer_all_3": 33,
+  "kill_guesses_per_trial": [
+   8,
+   8,
+   8
+  ]
+ }
+}

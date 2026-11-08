@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:44:46.777447+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P026",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "fbe9427f9d5d20ea6b4a4363d9cdcdde614774f3841561f0c3d21dd61c92d368",
+  "reserve_usd": "0.109085",
+  "response": {
+    "id": "gen-1794163482-RhEbFQ37s13mjvt4las7",
+    "object": "chat.completion",
+    "created": 1794163482,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The generic wall of placeholder windows resembles the rejected screen-ribbon concept more than the distinctive agent animations the owner loved. The poster also has the plain-panel look they previously found boring.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating screen choices**\n\nI need to predict screen settings. The closest ribbon seems inadequate and terminal options in Paris aren't working. The plain white interface is just boring and requires a refresh. Generic wall screens might be a problem too. I should think about why a static, generic placeholder could detract from the core character or the magical aspect of the display. It's crucial I find a more engaging solution to enhance the experience!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating screen choices**\n\nI need to predict screen settings. The closest ribbon seems inadequate and terminal options in Paris aren't working. The plain white interface is just boring and requires a refresh. Generic wall screens might be a problem too. I should think about why a static, generic placeholder could detract from the core character or the magical aspect of the display. It's crucial I find a more engaging solution to enhance the experience!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MMeuS6vJGGSqfQ6OWZAugfT3DXAWtkrcsadHxWFqbgJ5FXWtDOPjSnENSNBeCUUf9mdAa_0UGBnWnoHTjHs2V2H5tRha92KeL4iD4W9Evr8zupTcqSJVsbtanowEYEBdwXutescSbjlyQCQLjgXamoD-N6jVp4uD92FsxnO5hdpaK9ZRiBh6oihtOZIn4zEHqYsSupxOVhXOYJ6a34dW8LneaRNYdcjpHz4jDiu-Bv4UEpfL5LaihP0P82-5tOEw4GDW6rD5T3-W1FUY1LjZ2d55bGZMjYyQoTNcf8kO6PPrTpXCHp7E6sBy_daz8VkhFPo5ytOfqVZYW0rRiffXA4AARZRs6MhYzvgG0JPekOXTWkbIxTLR1d_q1G-nWnMbSeTssPuQE01vYvn_YTooq93RP0fGz1YPdd8HyI-3tQHVha16-KMCYyK1HpYRRG6zRpWOPENOuDx2cdmYZcSexCZvolfdIUZFxqA7D58eep1qQVwDxqgcT8J1v4N7X30ZNphrSU1BKlzazZ_0uG7j8YgtKInnhsIYEtWoCgzRM5g7y2TkQePUtKwXAc-ykjEJOtEYzL9B_l6VdrVbh0vCsFxUn5jZx0wuoWy46nH6c1CUH1f3iuZKUwNRwlePTSTqXYQYwPvYabsyfUa1Q3Fu0NEnl-yuN_01PAg8rd62jcrwZVmGboJyGhPsWCTUwcQq01NYmMe4X1mjoiOzQWxnlnXIe2V2roQgwhkbGypzBRibn3Hdo9uAYvGfS7SOFXCQBIZRuHb8EufxwkQzl4htPNXzbxRgUaZ9sMc2ta5CPH-DXTl-MRfdZ6QseRXENOPgjkSyCDqluw8beybr3cFb5olF48pYzsRpaYqMMd_3Y0S4pT02aumLdaT2ArpWaE-UcBnBwEPZx8tEsRmXjMa3B-9kbazBv0kWyQ1jN6_LJcwEgvDiA7ZR28M8V1snW-WrC2IxlMUyOXyPwzawmBL38ywkWAWDfiLXTIA7oZ7jtczQLdFnyfr0oIjy3I2iCW7w9IQ22OCYaBVdrlhf8kB2cF--uGZaCJwr4WiXESGgTltY9tY1WcrzNwf2cxc0yRQxJPMs8YHtPfrpMVo7xLcYMi7KvV8BKieNdarjX8sZvchNb93aATskLMxv0QhdwJBlJzFXAiC4bx6qLfRju5Asjtb3eebiuC0yCxyYNvqEtjvLJzifuKR484m4Lo7bo1U5md6FR9cCj7QLP5N7M5uusUxCium6LEFhI21gzivHwks7E7PvZ14Bfs6BwrmSBsWkCUVcvFSu6iXKq1LFTO-CdxhuMM3sVDq8VrfHV4YIrluiFqhE5qIRQPKSxJaIOmrEmEelkZ-xVz2oCx03l1l8FlsxMGT5NYfr0JbQe-WqekHlSP3wfRZSEmJGYv4pPa8-oAzfIH4So2NFF0JlGC5gWv1kAfWapdnJM8Hru2LC5Z76GpWfQPV4imf0ScTsateWtogoLq4cNYIgozMB_pqaiHNZaS3UnTzHImdmT7qvrQ4MHTHKqcFccnxQ-0FMsJyUHCkhg1tlPk_Y0t0B5tOEATYMQMyRMKzLRkv9p6ukscLmqum4YqIMIIyaoz-TpKHeI5Oi3KjwFBG2pU8fEKvxNLVDnESR2PIN-f-h9yA9v0Jav2wRIR-ItTTc2WWjlnE6bYTQiDfTNu7YbBi-JsQFXCi5HnClc8wcM17nmedDmc-hJJjK6SJAzbqMuTg3ZFHvRzpXE-KGUkm57dkOl6-ueKEnGULW8oeiohBefcS9esav5UGqtF85-zbmpUs7e-VeJZU00BnsOOR7SPwzcrizNmwdcJzDEF63BEP5kd1QfLipKubEsxMFv0jJApZ2JoY_dFwOWaAKdwh61ygyardRSUO3X_3gTip1f7ikyX3FTqVK_SG-d8ppuCkZ0j0jFSEXZRDN-eAm5C0k13f3b_Me9IQZAxb2kSqIqeLa-QD7nWvPfKtKjxEWXChN33NSHE548n_ZHbwt8jrTgFvj4p3FIB_LayTaow-yEHQsnGWZlPWcQSnZvUWD990JGPO7WfsL5WjtALJ9CCWBeD5sb_y3keDbJitysXZgUJBSEeR3oktkst4tGqIpLVaCM3DutKa8lrDdZrQUKZd0eJcik61hGcH4Juod2lkbNC2yn5H1SnWd-4i2EBugXgd8jeGrgFAbw_s0eT5hCVR94X96jFFSa3OyzrnfvQPENUwt9flXmAOZ-8jw1DEN4YYqyv8mtNiV20lVizZ01NsREsRx92AfeeOdwPEx0BRLXke3Tp8mR5fx-3wLJvnw-dKc8Q_GgEdoYUWllcIvmAGOp_w-aG_DtY1cCVLemWZIH7NpDR_FlJI-DDxeVzP9rxWYvJjMEt0Yedd.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_08d71d43da50b19e016af0c31c368087d1b4d70a8184212aa9",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3501,
+      "completion_tokens": 99,
+      "total_tokens": 3600,
+      "cost": 0.0013458,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3498,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0013458,
+        "upstream_inference_prompt_cost": 0.0003558,
+        "upstream_inference_completions_cost": 0.00099
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 42,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0013458
+}

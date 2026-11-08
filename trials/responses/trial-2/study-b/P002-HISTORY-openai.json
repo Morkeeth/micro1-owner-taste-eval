@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:26:14.449352+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P002",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "0b31bbabd2dcdb9988888e9d5df5919900ea210b57a9ceedd8a0619926198767",
+  "reserve_usd": "0.108805",
+  "response": {
+    "id": "gen-1794162368-QPOuj7bVLVHoG3yk8utO",
+    "object": "chat.completion",
+    "created": 1794162368,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly requested reusable core animations about weekly limits and rated the previous Claude/Codex limits concept 5/5. The poster’s clear two-meter comparison and familiar pixel agent fit that preference.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L7DFQrt4ZugT7tbSeUZkrsDD0y3DBs9bmfTYxE3Xh3w8p2fBM4-fzIhRCjGBoNOW46Ny-of8y5b806rOD33mEsMq-miEBHJc3WqEeeXMb896Kn4brm-Aec4txCtbZFJLXFgyI9B6U8XFIikAcK3CWhqZytsxc-LctbE3NijiWmezNYJWblT6Jh0uylUfCu9atWl-ZnVvBxpaImOtven-UT__MqMNXZh49vrsH-A1MeSEVaNjuJeMkpvruZ7AWLh0BxACDqGQSl6fWofMFl5mvGi2QVwu7eLcTPSQpyligqSst9riDpOn4BcvbwxBrZIoGiZ7aCtx2SoqVGFW5S2jGCEvzRWt0cNUFPqj6SEcwI7e05k_OOv15_A-seYXZ9PMEk0Uj9oI9LyrL5tBQFIcp87OzzI1Ec2f4uHoUDkzY-BVAZlVGCB7QLAlWBkivSL-Yo9dOVCcWIFbW3elxJB4DdYvP0agdzxfdcOqTcfgokLkbf1CBfIdFi1zYSplke0INdflnjrkdP2nO15YLAX3NKUR6nGqqK73L7CbPAH3mF2DVI_B2H5aHRKDCHDYk-HqJsbrLLcJWkiXjLlQzMqJjRI2P-yKOKyKkv6LCkXMysL8cdcCfy_OgyYZ1nzn7tYu8UZFjHNnWa6vgW2oL_mOfQ3086akTpYUFsy5ZXmfywsJoZdMvdzjXklU0JvMayGGm3Vf838KtybPHcoMsWHUqzw6mfv5aJgiUWBzpEYCNP-HD0CSNkHHLDM7K-AM1RCQt6tLYRtRaCNZD_Kl6S3uAHIyGZBccvXCBmgIoG5hWXhDJmlN-HjsL_v3dHbiHqIaYZNeTADDDIGy882a2I-tmGCFAfhvqb7pWFinMZk5gt30PfHrW2DeLG6g-fcULoVHX1pWkGfCVyPghpFipf390BMPH2iTQyKV-A1zDPQ07aFo6k9U3nK9cgPzECsP61h7wTUosj21RVq1_K9ElwKtaUw7HRoYPUHWk5FHmESDrWdEn6Ojix4qIYvrIMJVnvLWrwJQwHqUxxG5uSGK0tz7xQrMzHrh2weqG92d3JSGJt82MD-WDAeQk-6fLEoIXdRIo6xguoTVZFyG5nGIrv-UnxzGHSkk54iHFs5sKp1SWiADoZchu5WCCGU07r0ocrN1Su1GnybNxyCyVgtB7O2QVxfXU3aHiDbvOymYp3zbDSy-Hj4AOmN9ULeOpU4QUSppGT3ECxzAnKNo0Lf-vkuAdSv2-fZQJvKGgyWMsOMgabG46vxsbJ4FaZVX45latetQnc2hL1UXorc3xLFAn0tCAwbSj2CHyab-OL7NBHLFoaIvJ7rVFK6xN8pg3JCAv2kEiUsY2WwQQ7lCCdLRoUzxPrXIF3fBFxegXUNHm3SEUblE9HhPjuRltPAgXR9c_bmMyjgfPWQ9RWKBKt62YgUb4ulGP4n8Y39YEva9JTWxqj24qDbg8WLXSPLEYl4C9UzcF1iZLdX6WzkjB7-Kk6EHjDUxpaVL4Esf0rOn5CzQlrEzm63VfTKKdysZDuSPWQHJRTnH1UVMaPnB-vqnrlTTMWGLp3UGVGXUZm3AlHZW6T-H1No5-fsiR0DSpUWwQsK2gn1uy_i5DxNdgkvfbwmBP_ZNkl-fWlZw4JQRjWwe_xCxpErPomcNRAaGsrz-BMCkAGNurDcM7cUVwKU-VOY46EuySmey4Trdnlmw1lk0RMnKD2tc8Et0yJUrdne-pB3DhU-tUn2R_vFALTFIRP0UXkB5GamJZTYk4Edh7wiw5Y5nhiEToSaT2P0FOM4buGFp0csuWC_QO00GX4xrTZ_P3ZDobUbSHtNrusirYmpAPwuUN691zOMng3F7I4lIGKbv94gzI8HzGKc-GAkMSUklzBZpC-wyFIBmTLqxZMR2B1c1S4q4RYhW2XjHpv5tiCzKYpLI8aZLWUVtraObFyh7A4bUO3H87dqfigjMslilUh5aY-Jlr5lUiXh9QcP3rZn3hQRqhERO1IV943pCJcYvc0T2dVUzdRYIgGMc420zRPthE0=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0ed8779b4047b61f016af0bec2235c87d1a6636e7a20f574d8",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4840,
+      "completion_tokens": 81,
+      "total_tokens": 4921,
+      "cost": 0.0129085,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4837,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0129085,
+        "upstream_inference_prompt_cost": 0.0120985,
+        "upstream_inference_completions_cost": 0.00081
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 19,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0129085
+}

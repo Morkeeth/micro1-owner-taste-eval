@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:24:30.667326+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P024",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "6eb420baf38d1bdc1055ac6087855d67a26009d9daa24b645eb101014e29e967",
+  "reserve_usd": "0.067210",
+  "response": {
+    "id": "gen-1794162267-cHA5D1jqt2xwJStxYxk6",
+    "object": "chat.completion",
+    "created": 1794162267,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean blue-line composition and recognizable pixel agent fit the requested reusable core shot, with no obvious visual distractions in the poster.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on visuals**\n\nI need to choose an image that features a clean, minimal design, ideally with a blue line. I think it’s likely to look awesome! There aren’t any obvious criticisms, although the lean might seem a bit off. Still, I should pick something that aligns well with the requested style, something reusable and visually appealing that fits the description of the camera. This seems like a good approach!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on visuals**\n\nI need to choose an image that features a clean, minimal design, ideally with a blue line. I think it’s likely to look awesome! There aren’t any obvious criticisms, although the lean might seem a bit off. Still, I should pick something that aligns well with the requested style, something reusable and visually appealing that fits the description of the camera. This seems like a good approach!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L5eImOoeHRbUNmGfqDLaSp8QWGX6UnHAsfYlpFsrJoxb5jLzwMzEP3bJeplvEhnzvuuxCkxSHbYP-zb_Z6b3j_w-clzo6ugej01Ybi5xJdJmKYjvflEfL7eC27ZVv0QGnLQSDbO3a-JXRb8uyXgUSTB4VbM5C5wSFhE9qNnA7B_XkShdtOxLQsXK2lX5fw5eBtAhq4CP4CSjNGQaU5zBa0oETwtNzhWcOOJcgh8qVa8xk6s4g1dzKjpJA2P1g8bm9NNtM683w6lxvtp5ltzRMjzarxamco96ht_cHMvztEnLecuDwx_2Q2GD29M1u0WmDYNmkkZvLpdCBuQ0WMcY1Glp9XdWEl0vXmwDLnUINOz1evqIN4bwbAMs0ii8nO9T4oYXny-aiB0WgVWaLZcJHoPsX2CyqnKj-JdiByHgDwo_HB32hUb2YEPkwBme2zNJKw8MHTSZNYqZGvTmNiDH_PNp8fHXEmXaAUsPH0n7veJqZl_ptG4ab2uO3jpfBeEM5tZNl_5BrFzDgeIoP_z-Fc68h2VCqqN8_5Devc9GVAT-uNlZ3EnjCYuVJe51yERDK4kQxKm6tGlymOmUNUM2Vf3byNJnjYWXHJ33Qtw9MZrkv8tFJCdbI_Q7w9zLnRhNXvZBsf2tuXHY6J4fvx31l4KOxwQ-4jZTE_3q_Vy5dp0vly4WhXqBwFmcBTfdtNvfaAKmiBKAJyEW0zJ_pyQrLAmFVhyTjoXRb0Aq4uP00zltDzYeYBX2CBt6XjtVyNEYQtVi9rx0BsZkiDRXlNjLHoPAD0bCcCxZSArw0s9Bu2yMlAHhctKaHBu4Wl9ZOqqE2p4Jthe5eyr_-gUMyFxkyFZ58OuhhgfYLZNEHF_fuaHJzRAnfdDkQpv1vobdabjR-Nj6SUj5eTK4vB_aOo2l5ZMVFJ0OBjVPlabTt9uML2_hrAoVbg4d0GQb87rd5DAj2m-4l5i_zRjn_qi9XDjHwRcq7wvBAfmeU5iZs1oohlJxtoU_WwVmTuZvfvkS2VbhTCnszYUOjsq_yqYJlJRfmhPPHe3HJ7RhK8nvh6BfA3pfBPfLpahIW_4YNUtCpQyNgpWLZVNzh6Vy5EloZODp0JbkFLGC0QrppzU7bepm0xjQRL9NUgfORC-K5FGPiRxd_rHV0D2zmhgE-zbDMV8EQ3kovxPljeUJZS-3Vr3XxDGcP6Pt34hfjrmuH6tY1VkjFe4y_NqC15jiZRaN32T4dC8L8Nh7_ng5HTQBKfJW8GxETuIjLID1ADeWZ0mnIEFSj-IH48Yd6sZa5dgcUrcR9IQQ7voM9vhSaT1qzjCEpcvrHHW_heYOKW4wVvGwWKkXG4-pDcJ3Y1kyD78ttm47u5Z4N-4pEKnOrRTIksb2yTsP-DHzSMabVbCqJm-m7MzEOUXfuw4Gy5sy4p1VE3WNq-S_6N_eSoKXlE_6UuDv0g89HTMunqmeOSgLEByU-7o9N2y3RY91BBKJt70tj2-eCKe8wHOwZ0RSYEEuQSKOp0jGoB1RsiGgho4duMI8xD-D8mTWcXKRmflPtt_7y-rZsrDwhSs7KZ2r-cGQrjuFXIxKD5zlJo1kigzEoWm3_uimCc6YhXnc1hJY38zS_6hVuOsZFEGL8hlH8KHJBRRmhIgzTN7l6O04_hYTfiJXqZrkca7oHA_6KxK7QIr0xxPlGGeb1LBqP5QvhNBl5qZuUl33hbmsEKWQfRlFmI4q5TtyKF4LXk_xQgFecx9FGd59csyJZnoT9Rx7-C93A8qOkM-9u2vHp7e-AQeeGSu7k58Hu3jLPBdVEKyTQMJ9LV9I1GJpOET8NZxKS1obu8so2oAkgZ2cYPHriZH-4pWO3bGRsj4pf0EolhnseKQF2ijTXN04yrxRhXmNujA0aFTsWOEEjKl0tMBKJOmZ9LwXaX4oT65NpfQATpnru3KqMTCYsyGDhgVVfTCPoYxNWZenpLlh2GuOMH-gi7WcYP_7hNSNNGzjjnicoDmKQqDPtuX0wu-DB3SwMrG_KbhY3cp-NmEb3t152Y8cQdAmNwWrYU5d7xrvweJjNd1U124AxdKgEjDPBrec3mslAmVoODi8-7gIaYk6IhmBdaldFLuefGST2U19QvhbhMTgofjE0vPDHhs3F3_G54r_8CyZKMSCaOfSBCCJmLoUuVIdh-hERnm7gURNVqh7qkKg5kT6EZX5XqqJGPZ9S8dmGG5JZD6jvqJSfGg2u7887oVHNw5rtPPBRfVj7dzuT2QyZK5EtVNNGjRwfTuHGzbW5CtARJI6nzBZNshSBqWoUAHVWG-ksirraBgKcOMn0TXfT-ue7jsrWQcDg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_001672b275d470f5016af0be5c47e887d19f5ba2308c006577",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1460,
+      "completion_tokens": 87,
+      "total_tokens": 1547,
+      "cost": 0.0045185,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1457,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0045185,
+        "upstream_inference_prompt_cost": 0.0036485,
+        "upstream_inference_completions_cost": 0.00087
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 40,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0045185
+}

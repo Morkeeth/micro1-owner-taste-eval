@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:37:48.974473+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P014",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "5f9eaed447b6ce9582f72d30f84c3be1902cdcaa506a18ecc40809a434a9f931",
+  "reserve_usd": "0.066635",
+  "response": {
+    "id": "gen-1794163065-Wwn3FNZW4d8btfVHyEZi",
+    "object": "chat.completion",
+    "created": 1794163065,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean, readable Claude and Codex limit bars directly match the requested general weekly-limit shot, without numbers tying it to a specific claim.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MF8u3n2HxN5RTJho2GGMOhVUtyA67ZG3vCB4yKWbcTvsvGdiC9D1kgzI_HVPbMEvxOScxowHiFJKw2Hw0IrzYad3SgH1P_a8zl7FoZUAq0wf1JODhavs_XP8yTHaVhy_QBabL00doz7WP8JLQmstFlRZXDL97pZNAgMqCcKZyGM37ifTqMQOtIanICJNszZHMrtpY5I922OfSX1n-SjNLn18ocUYPVrDSIS8GJX7mmtbz4Bq3MIKA-oJSotfV4dP4i_iA2U2DCokXd945kvnfA_J13WouzHETThePO_1ftPy43w2rG5S_rBzcZr_SeP2oes66P2ycZoEbKu-7ukkbRihZscszgjpPfF9S5yIK-PGMf-wlWxI-zp5jh36Gh9kaKPgsMvBC-3A5yLXYdeYYLDEFUc5-FnD8dOP7gxpuPAd44TiDM6F_KQLIc8Czem0PKbTR6lMWim3AwzaXnhYdzGuJVUG4vCg0BLSmzk6_OUdMRFqECJKg43uePc9pHU772mPDI4-jARQ83WatvxVs1IW02Pbkh7LO9-bwQlK9AISlvV4vRwB3N7Ta0FA8JUSL4IYAYvGkaeeS3FCFS2eCyWwk2WIqydvEIs3QOwuaiEBTOyhl--usGXebcMzd0-aNjtlsyx9g1U0wLIeQDcCGT49_oehYqaATXUN6z2IPpm4Jo8yYzNKPVKizBP0fRfAUgwyMtrsPZNjfsB6fizFyovs8aHYIrLK1IP1EQnqdgqDEc-xC0n0n-uz6W_mh0aRmGBxkbhvaf7eBn1jV_YV5OhOdMz5gtsM3xZ6eSMYsu1RtXBrnRy7I-MQ-eV8RI8dAz1rzoPuTmufztpHKZ2pjU8kr3eQfj-ZUruF_Jb7DKe4pWNErl_QA4OpUdlJa5-VyVJcbaTAKTi81hF7t8MJ5s-fjWze2XcQUAz2Qkg5dfyVyX6evuto8XYE4xdZDGdfkNhLpIjtMqOYlWHlCJHU6ha2cndxG4CHpCVdCtjQ7Z0q1YH-W63R1NOv8JmglVBNiDm0SS45qRZP7DMcs-Wzv8v_zuVK77EuX4HOygerNP7YZe8AFxvSAJGqL2lEmwaQ6waUDZMogqK95YufDu47jM_z6FwrC18N1Jjgtb1Zlf9ZX3vMvXbBAkZDELCNmU5WsvAv6DGX0H2j5Wnn7EjKvLeIEMBYE5vEo9Mujjw2yrDaDV3vkAGw4aKHUm3nk0Ua6sPNcA9Lc4Y6lrYoqAFYlyIpYNGdHC6jWjgnqG-Wm05HeXXtOXHXZEUDC0cJG7HJi2IlnWOEAaPtnLsSM01SYmRjERM1RNrWENy2WlnfmjJ8wCK_mMJjJi-qbHcdyhA0m0DFVD73kabvIJQmKYTtAMYsZ0EYgeKVY3cpSJTGdJaccJby5JzxTWDGKohHHJH_xOi4mWMF8mVwBXk6DRCmuQVHtBGXLynShQrpj0yVK6V-h3ccJ9qcqv4A_vIm_6ToDyREB23x2zc1oxjLxAj7UawQ-5ltEBMFGmjePELxfYv7U5EZSBmFdJU5dzqAOEaQRgy7IAKLnAJBVnPzQHIg0m9o76iubZUIV_SC400MymRm292ey_sG2wLntofI-7uOtGFx1ufFPoRccqVXLtqQQQQRPQtCKkHhbFXeIhn3_8yZcPgMmYrnieEcfrYIiJ-oj-AckZtSOV3BMkH4VT8SYxlPi7zoaBfaehZZS-B-IUEBKuFCNHDKIWhCJ2MfQwUDAh3-WAn98iTXTFu8U7uwe4pU4muJKLTp7LxI210DycuIQ2X4rkKpGht9c8LxOCwiv0qN5C9xrnmGydxugwDBU9JqJSQHICaGK2yxG-KsNSE2oWcyjTR0tKV0Obl2dYhn4jqZASSMpybeYHRKztnzkBBtdNOuFnwc05au8Bse5v8fWBx6mSZ-SBZ7whk55byJATzLlEZSph7GP2nAgMctGEGPBg7gAzOj47FPmOz1hRBHOJaWHozNdQzFxTFk-BzDENf.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_05c026fe1e1a072a016af0c17add0487d1995521a009e2953e",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1432,
+      "completion_tokens": 66,
+      "total_tokens": 1498,
+      "cost": 0.0008089,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1429,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0008089,
+        "upstream_inference_prompt_cost": 0.0001489,
+        "upstream_inference_completions_cost": 0.00066
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 16,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0008089
+}

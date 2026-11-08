@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:45:21.129475+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P030",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "6e9b46af4cb66b0a5d8ead160c8f3be1d7e5c1a6cd2eff8f57462479922015e0",
+  "reserve_usd": "0.109105",
+  "response": {
+    "id": "gen-1794163516-h1xEQguTMAmmC1fIWs9B",
+    "object": "chat.completion",
+    "created": 1794163516,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows blue meters and no cleaner, matching the requested fixes. The owner strongly approved the earlier weekly-limits concept and has accepted focused revisions that address prior feedback.\"}",
+          "refusal": null,
+          "reasoning": "**Considering revisions and limits**\n\nI need to infer what awesome revisions may work best while matching the right criteria. I’m thinking about including concise historical references or details. It makes sense to consider specific weekly limits, like a 5/5 structure, to keep everything organized and fixed. This could help streamline the process while making sure that the end result is both meaningful and effective. Overall, I'm just trying to make effective revisions that truly resonate!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering revisions and limits**\n\nI need to infer what awesome revisions may work best while matching the right criteria. I’m thinking about including concise historical references or details. It makes sense to consider specific weekly limits, like a 5/5 structure, to keep everything organized and fixed. This could help streamline the process while making sure that the end result is both meaningful and effective. Overall, I'm just trying to make effective revisions that truly resonate!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MNAtykpoBpD-pdM5ueHEmoYfHGkRSzCodGcSYRxsXbHA61MQqKkAfxXve-9TWWVGAPXkaczK9cTinKoFVmWmoL4bIASKehsugE5POqdscg1laI9i8R3s6qah-UtGq_C0eEVtox2WO4ew2Cb1d6kJbZ59HDTxu3fruH3SzsgRLW5yrY-GKwC0veVosC9-nTGkUEXp4q7V7guzs65mfjK2keYjgTfu3Hq1yETGrTaxNU13PPNgn7AzcaVS3WVaMN6idHI2PqDvKzxryOijRnWSbtFAJkLAc3IBMDaIggZidItxjJS_MDcfEtBc0iKl66eS3p4_RFqLdXmtltTYH2cGxxon47wJqYTq9LkyO2O348FTums8lq11jsmrZUD-mqu2IgRqnkfVmNyWrutsiSBhnsedHP7CkYzYEPOZ2YdE89Ux8phPjcXsrF2_8Pj3A37Fu-E9iHVZj_0FAtB7iUOEns-1QdZmxaV-sNtVKs02_4sjjJitN5Q5g1_85ptMa7g4MzkaP63_ZDjaOlqZ845G794D3qY0BUxnXN6haefOPWtfiljf6QZOOtNtQGrrgVp6C3ufwTvrbBbhtfoR4Y8YEYlMJLIso52XKnBObVSof3cCE7XuEjMeHlJrPVKJoV2WIbv8IGUSFewp8y0sAT_-YEjAb7gI5m3R8dlD1x07gtVBXAafzRAIqqmS3UZbrvRFFnUJApYyBVukjxDVd4HdhW_SaCKnIqVBqqAmTv2uc_vDvEWPI8QPwXuL0tPNu18GZS2kGjupfQc2TcdaMhab7wwYIB26jmKXnZKieLH1x0_z-PieAa27fMOnmaFLkg4PTI7Cs7hKPwX48vXU5iXj5wE6RuRllDB3dMTp4zk5956Dck2KeDBX8Htpy_gTiFp4to9QWSbi52aA4OPJFUgs9dG3c6lB3T0NK2w_T4VmBY_YGkccIGoRkKneOb6CAHTzRUkjEcvuSJDd8lzOCfef0tQ0CdpFYjn3Yt9tnyOUZBmN9s8wCmcZXaQFFvDS-TLlRaBcnGxNMk2ed0aL51Bct1pHv-2tsk30mE6iJMKc4trUMKJuzmx656l61KAwNOhMLFkxHWkk_cgqrTUl1wXj_OzeWoaUKw1JfNrb_XpwnAyt7ZuYjIqNk8aD2fxMCUO4e9K-YUaepQFVYUN5oZkP9slIToXCndTsryaN_ILb4RpEyFrj-gWBZxA1OfBQvgGNNQiNNAFeVhusGpb5ZMSxnNAkyFK6R-p_HpZXiCKBzo298vklJ0zMDHNHMa2Z5eHDerh7S9hlaJdNZ_eBTcR370fH6E_p4K1MD7nA6qUmLosF-O8drzpl0k7C6kcFYJAFT9hyFmwvx9WF7J03nrwN-ZY4dQu0ByF3xCE86LLX-5fXeAqp72qdtbuZv-LGLapJaGmIlMvrsMNx_Uvd03PJKaBE4ZUG2WJY1Z8jq4JSpmb16FuTqUidK6Z938pTUJ3syMZLLHA_eyDcsXKiLZHDkrkG54-XqO5Wi4R1gbG5CiLLdzYAe-dltDMAkxome1XV25mBwLaOuQSQ2xRbsra0eqJL06aUrNG5fB45OEsKo692eOKL4C7jD_aQ2wVfw4vWopzhB6GJV_PqxFKStaKWYysaXe0R4oSUjPfeT-VCrFrgEQPgui1ItbK_YJz1FwqqNJriemMbb0R4VSCE7SpRFR40VNgkqK5Qi1ygHPJWphuWWd-Z3t27w-ZlPI3s90tr_FfMbgtV1ZuXPXoA9CHiQW8hFlkejODKbmoJqaNDf9E5ZDCdgwMpvalLuZi1ATiMRu6EZN5z0GkyDQpxp653cneUYjPLoHFf_OSNX-98rlr5Rd5nsYZKBTp-nMKcsCG3jreEnJR0sX9eJGJ0w4HkiONkmffbD5Yh_HSrETXR7zIgMXkLpyPz44Rk3RB1zxwg8XE6cOZTA4OWB8kZ7_Yr9vB-Z7PPIRSa3Dtvlej3s8O61S39G-IG9Vh-GeHJveIEaa5Fs-TD1EkffuzX6WIMYDzzR3US_fV-Q3E92H4f_lnaccjybIi0Mx-up_JHbKSoLb2kfPt-GQXCFU-dvZIYK7QkHjRPG47nuXMmTiLL2ysXJk=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0f3d5e1715ddad2c016af0c33ea5f087d199715b3e43db850c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4847,
+      "completion_tokens": 80,
+      "total_tokens": 4927,
+      "cost": 0.0012904,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 4844,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0012904,
+        "upstream_inference_prompt_cost": 0.0004904,
+        "upstream_inference_completions_cost": 0.0008
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 24,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0012904
+}

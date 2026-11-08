@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:45:35.434757+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P033",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "7131c77949de70f88eac3d8bf490e5cacc656cf1f9da011dfa6bf3d0538a39e2",
+  "reserve_usd": "0.166392",
+  "response": {
+    "id": "gen-1794163531-mZuT48mRkGUX3SC9qbcU",
+    "object": "chat.completion",
+    "created": 1794163531,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a redo the owner asked for, and it now matches the Shorts lookup. The owner named 'index' as a core topic they want, and the frame is clean, built from real data, with a clear search-to-highlight story. The owner has been approving reusable core animations like this. The white panels are a mild risk, since they once called a similar look boring.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 6509,
+      "completion_tokens": 130,
+      "total_tokens": 6639,
+      "cost": 0.028636,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.028636,
+        "upstream_inference_prompt_cost": 0.026036,
+        "upstream_inference_completions_cost": 0.0026
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.028636
+}

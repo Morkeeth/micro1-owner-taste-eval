@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:43:58.825029+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P021",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "53fdfc0c22c43dac75c20ad21d70f10db2a991239d228adac4c96d63db295dbf",
+  "reserve_usd": "0.109070",
+  "response": {
+    "id": "gen-1794163434-KjhrIDbjqzUft4CNhpkm",
+    "object": "chat.completion",
+    "created": 1794163434,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The labels-into-drawer concept closely resembles the rejected cards-into-folder shot. The sparse beige-and-white poster also lacks the distinctive character of the reusable animations this owner praised.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing folder options**\n\nI’m trying to decide on selecting an appropriate folder. There’s something about the sparse labels and the malformed transcript that feels off. I've encountered issues with storage that resulted in data loss, which makes me cautious. I think I should probably simplify my options and have a solid rationale for why I'm choosing to eliminate certain folders. It’s important to approach this with care to avoid further complications.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing folder options**\n\nI’m trying to decide on selecting an appropriate folder. There’s something about the sparse labels and the malformed transcript that feels off. I've encountered issues with storage that resulted in data loss, which makes me cautious. I think I should probably simplify my options and have a solid rationale for why I'm choosing to eliminate certain folders. It’s important to approach this with care to avoid further complications.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MLu47rhODE1zdTcTlPxgtsVuDeVFYhTbJG6FArEp_lLCknMl1xMWIZQbSslZU-wsUqAyKA4MBWkRWHFmf6MR11zlhfUEc8EuxVV3DMFDHgNcm-HBsxo30howaGlomxqux7oS-bUUJjTbWFqStGUmP40qD1t6CMrxvz58zzdX0B5q1NVCc7Ro4M66i1M-TcgvPQI7zTbMB2x9vxyv9dDukXzTAFWgytlvT7YDFradFz_ISjoeViqQiddBl5FzOm-9iYoQ5HJdEmFZbJy6gwdg1tANrFYG0iUo4k5PUAae0pn5e6i-i6prwO6HY9foAvH_OHVxFwFxPy-ZS_cqJFygUAXpeDBvYC_AaaB_EIQtvXYI4bLLPTdQ0ukgZn1VxPogUGN_oRKBJtn-nPY5LLBJNvtOMteHslwekVw79fOp73kAMQmKlt68SzszpNg-7n8g36D0HDbsHa7KD9zFtKeKCwu1lUTp4_JOhsLJTgvLJU19bSG_5Ie_EYvVNqxOU9pu3nBqTo_Dea-FbhsBDcBDYhDFH3WM4RCR960_PpLIPj1AYWFhROC-4wKLnXqXKw1aSOUtzdUXIoTNoCesiKlqMNTXfYMOxj_xo3hmGHlnoEK4raCMgNaQFWA25icBChlCJ9d0xeeAP12XQiePhskeA_IMtnXpjMNkVyS3uTMekNcIjb86VLZoXr3AwAoZ0Q6DvjEcwiowMWpqAkWxKEbjHfx1Faq9N3BnbD_OLhf4YC01E2gswYJ-A37hlpJXIO65fhOMELMyggQou6llg2UMeyStKX0taHuCz6SIhMFHOFrj5nt90ldm450I4XivQ58D-RWR7OYTik22N2D3VL6LAuOHAl6kKKr3Mk6pjmerWISVSX_Za_4WZcSgiIIl8HOFBOOWoAFpNP7UjJeWR1dPE-Smhy8J33NRhjAgMwnhnZazCjfSAKiWAZJtvywVVWHoewTo7N9QSmYLZGSXjfpfRE5kQp2wm51uJneQAMySE3Iwx8-09O8BdrHvyHL5p0Mhera9AL3JEftJJjwEJbJfCG7Wr7LjMhUO-lwBxItiTEj9qwwcvMZ7Fse3LzuXNsyke2eT4pWbLvGwxD_f_aWzE-gDpCiM-TCzHXheoDAoO-hcFAuiXkrh2s2TAtF58NUDgcnuBFoXd0beT0Sw9x8xZHb_7o75T6rkiwcUoVcnOuyEKAVF8zF0Qd2nQjNa-JuwbcYHJ-kh9SIRktaHetAgTMICnRCUID4PJ3Y9oMHpPqB4pE9UnQx8GtRpIyDTptbyhY4ZjKElp6dl-oxQCGuwSOoi_V58e1GXUKBoHKb2881DtBKY9mAz655sgYouqC4sWY4zAnUJ0_rSfuozecRAjZHMpSM1Ng5K3LL2Lz3urm-AIT--V6NpOfdhaJGuH49gCC5VrS6-zAZI2_xNQadwdDSbSWaY-0WX-f6uDovoPM-qXC-pqLOhdroOackFNgiYA2webfp_q9295UzdBdAzm2d_luNNep5n3K2z_CtLMYRjKS4zE4vuDuFZdDT_qO2S0c4E4JMo85n6P0xz6OhSKe2E4Ucbyb_Fh3pKY9yvujl44GUqmXKMeHpyzrcLJM-Jww4gz6G47iBSuSl8vDjA9mhQcPgxy3CU81_A1KrGvNStH8Y7BxDogset7BP1QI_LrBYfrWHY6yfymYRluHSMPxPYHnbwgbGIy8A0WH4oca6kaGi4DCUc_3Rqfb5rV8vkQcIhUPcXJNI9B8keL7swutd6xCzVSHYtC41NLAhLMTfVXDXHZxoKDF4ZFrdLI4qx2HhmrsaO624uKomTnOU4DFZjhAUb-E0gaCNWuBF6i6-i511o6JowWMWHSUy-_92AoydqU99ig8rcrLLcC-UK93GV8Y757yDSUPDxlg6JIbxs8UP0vThmZZD9Lf0F1sHOew7xZ5wdvqYKFAiUHqrmsxpMEbgTfQAM4yzCKWlfFWCAAHBM4wo4h65hAIrGPwzHeP6utbP82YexOxA9VTS_pu2WU24UOyWN9exfP-l47ZiWzI5Kva6MYwHUqXB2wG0jhFsILaaYZ37_lNitWoJJqCAzTZ2BWyz4ee5sch3pLBJ14YMSieA5AD35p8smVB5Qn0QbjhFvNE0eHoMgaIQGuCfFvfb-vI53h0Rs2hg1jQDE_1kqDLutATQu9UW4wavWDXwH2qBvShRPYXh6Qk1BHUNxCzwYb56OVZIy4gWAB3nVbc=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_008ed959aa6377e6016af0c2ebae7087d18281d895f68d8778",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3497,
+      "completion_tokens": 88,
+      "total_tokens": 3585,
+      "cost": 0.0012354,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3494,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0012354,
+        "upstream_inference_prompt_cost": 0.0003554,
+        "upstream_inference_completions_cost": 0.00088
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 31,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0012354
+}

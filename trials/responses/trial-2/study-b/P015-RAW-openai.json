@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:23:09.641736+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P015",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "6b18c88cf9aa6772a7e4684be284c9310c6844bfa4a8fee4399b5832700bfb56",
+  "reserve_usd": "0.067010",
+  "response": {
+    "id": "gen-1794162185-koTrLeTESIkuHHa1NUMs",
+    "object": "chat.completion",
+    "created": 1794162185,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The browser and labeled agent cursor communicate computer use clearly, but the garbled interface text needs cleanup before the shot is reusable.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on edits**\n\nI need to make a choice here about the poster. The concept is clear, but the text is garbled, and that’s a major issue! It seems like most tasks have unknown owners. I think I’ll go ahead and edit because of the garbled typography and the floating agent situation. It’s all about making it concise and clearer, right? Let's make sure to address those issues properly!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on edits**\n\nI need to make a choice here about the poster. The concept is clear, but the text is garbled, and that’s a major issue! It seems like most tasks have unknown owners. I think I’ll go ahead and edit because of the garbled typography and the floating agent situation. It’s all about making it concise and clearer, right? Let's make sure to address those issues properly!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L4NdJatFdA0aMORZfyiQ1TQNqmlXqVgdBPKRx9Zf_kwBzlp7KX1jBLWWIAWpv2-Kk1vtTBB8HngWApoEhnE0uFV8pGp7euMtiVguMukinrW9wm_ab5KYI28WzKsdJqVJylUvY5sMWLvmqPTuD3Z-VyHyajXVKANBMtSbC4RsD7h4RzA1Arf1-68XbswmlokO-_H0wVtLYWykuGB0mvJUBJruisWZ94oNSujz0kaa27aC_dXkaI0rthTLCj1gsuTuLYPP_OoOtu4LSmzOO4zHtJanvO-s-vsCrU2ikRvVyBRpLlZwLX23U-g5ZspBMbE1UUOPHJMT_7A_8vtGlS60Mv-r2aGgJhctiLgr8e99-rN9THwIcIAZtB_NNIwOGY7a6AJfDs28BQ22OCHCkD10dKVVXf8138xjaIHyjK--liXOfzz8xHCGK6qLaEHvMPhXqs4XnXX7lPJ8CxQrTtlbHVwtvFOg6DPSAnSg0jvMV3GUnK7MoxBRnsZcNk4rc2hui8DCHXMgPDjALPkVb6rQFwjvU8WjMdyf4Qvh9406DZQJ9fqxX4aThI6nxQkcqyGJvUyFYhXdhOir9zQUy2drsoukH6hGGJqW8Wm6daJsMnu2wldPfZ4ssedbWQNyg-sBrxtkGveAx_qtOxw9S-wgCTMfcsXdIy8cw4j6trF_BpsLvIDectjIUy1t9Qk7OaeT-1j5t3NPijSALyW455QYc0htvIbLBMWOFztqO3dn1SaSDfZBYKz8Wm5aY5JJNc9xDHtAQcEPTtmeqp0-Q0oSk9gKpK4ORsaK2jIQEaLpvAyMjqcWsE1EPkfZJt6U2GSRip35LqcDR1fwETPAD046y56e8WeRugX44zqbM5cADEEYj0-b-D0dysF-Nx9AepuB6K28R-Va_IebC29BH8TIXA0B1NpAMEcynbdMzu5U-sIn4sRsF2Xn9t6OAtvsC9PBZKzIj2Hy4RvWUbS1cs394bFW8AX9F80eSgOUW2ZWPKbIeWWi76bOl-5jVzOe-sKuBByiuW4cvhOsmKpjPp9cA_or6TmAWxfcekSAZmLQ1wzXtCK3j98YH-XpCipofFHizAlY42tz8AjBNfxSWAk_DOQiadSz2UlFY-VYefhkyAsrnqvfz_rngycGBOEoqMNsFk9JaGkLc3nAYOxU5otvZ4g3p_bLAwHXdovzFc8OTcRxwj-qcl67P7mxxtRjPBVXztndq14MXEitwVPIInhvK_ZC1pObft5xyrbYcRdC7Wf8aIaZjKfkx_NTennODcrkpWDP4AJoth9r1UkHrDEA-KRFSuNGeoVevsZEmQtqCia8dZzVOzZo3ayguNsg315yCzP_j4LkU-ULS_dhMa6s0UQ_B4ayXUTqnwlt-1pLgIh3CJtMN4DbdJq89CiVNxYold0QZpW2GvN4p5e-pzM6ePi1irsejUk_6iuFS32qZXBw_WyOGWOmsvK945zKqPGJERdlNkamhp-PHYnYjGnWB4KhF04rWS3LWEGl9XyNj-jw_BYLy6m4pgNauK1O6w6Aky6c0Vztbu4r9v1kY5OU6s4he_rA5dQDLD5n7kmgbdw-EIYbCkogL6JMzii-qBK8caG711jixO3kAl6chGSFc6Ohr9__ydO4Q0hqetDvb_k8-2-KOs7L6M3ydLjKBVJyFP4siRS5yIZ95i0eW7dJu11_LVmzBglHNR3FXA_dnGC31J-YNaKqcnIWyZ2CS4uf65ySesWbynoszVXYEqB7Wo-XeWQs1r7YkgqpGu4wn-bFjVht5vmAZ_qPXakk_5h0hnA0dfnJrZoO1x61cmu469URnDQq_z2kd7pjpxMZDX0J61iR19nL6S0aBjhyowblTDB1Ued1_UDqITEM6FuG0-6vcfRGEl6S1vJRFg0ydNq5r-k5pVYIeEEUap7rJVg2gis_34V_Ul_Mx2vUk6Dv6EfX9tOEotjzv2l4iGM9Sf2g4vDDSiyAW7Vc5zWa_OvT4AcHiKM30m8Faavb-0_hTS9b2WWocDu79z3foKaxY9wRFZozcFoVrBtvt-iVz3FhGKoRZKLSMufrBgHvCCjOEJSQfnbHy0bkBWAMAzBt7-QYE-nDWzamhlD7sEyOJFBlPl41bBSZtRpf3FNnuM9yWF0wuRtK7ilWsnlbE39h5EtcxW5QoMQ-3ZWW5TjZt3O7msVzPxJ2ksTzmfAZ4dzgb5rG9dhSmKY8VgCGL0iu8QHff5XIF_osEn5FVA62eFHiWhTCe2qpsAoknCApF2cv_kMcA==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0643b778c3efac10016af0be0abfe887d184f29609dea19ccd",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1450,
+      "completion_tokens": 83,
+      "total_tokens": 1533,
+      "cost": 0.0044535,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1447,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0044535,
+        "upstream_inference_prompt_cost": 0.0036235,
+        "upstream_inference_completions_cost": 0.00083
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 38,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0044535
+}

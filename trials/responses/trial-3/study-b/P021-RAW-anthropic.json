@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:38:44.541763+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P021",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "78d8b3dbf0f6b3bacc5ab1b30d261a2a93910317b0063a4ace69b573f2445e23",
+  "reserve_usd": "0.098840",
+  "response": {
+    "id": "gen-1794163119-wNlixBdfWCOZ4J0mN4Ml",
+    "object": "chat.completion",
+    "created": 1794163119,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\": \"AWESOME, USE IT\", \"reason\": \"The poster is clean and on-brand, and the labels (episodes, music, transcripts) are mostly legible, so the concept reads clearly in one frame. It also pairs with the index lookup shot. There are small risks: the text is slightly warped, the drawer looks flat rather than wooden, and this is a second take on the same topic, so it could be judged redundant.\"}",
+          "refusal": null,
+          "reasoning": "I'm reading the poster's labels, which are mostly legible, and noting the drawer is really a flat beige box with a warped handle. The recommendation sounds strong, so I'm leaning toward \"use it,\" though the phrase \"second take\" makes me wonder whether the owner would see it as redundant.\n\nI'm settling on \"use it\" for the poster, though the \"second take\" wording makes me wonder whether the owner would treat it as redundant.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm reading the poster's labels, which are mostly legible, and noting the drawer is really a flat beige box with a warped handle. The recommendation sounds strong, so I'm leaning toward \"use it,\" though the phrase \"second take\" makes me wonder whether the owner would see it as redundant.\n\nI'm settling on \"use it\" for the poster, though the \"second take\" wording makes me wonder whether the owner would treat it as redundant.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS3ggKEAgTGAI4AUIIdGhpbmtpbmcSDBEzZwdJu62KaTEQLxoMBQqBD+gN7o4qWmxiIjAvbfk+Ic/EK5aHHSqRoxsF//29aGb6rChIFBH31rMFGbeq0pBZ1rtwqqwjBtR1hogq+wdYvFlJ2bS2vQ95axFfEKwRzggzNwDehId6/NdfpborBjjTgmcb2WLZpCNJYBBSmd4+Z6AZs89UTyjIW8KWIqgqVZis/w+tz2APX0u2Z8Su/2BnSOuTAPk2VtyWfTSkm+78Gl88LK8CBDOIqYitBdj8IeNYEYPRU3J0gSorzbK8sWi0meuK18EZpBsC8XvRe3aQpCU2mk20m35lpoKSuFQnXngg/6mu02L0F0d8a28TvOKdQ/DLnycCyDn0SWkyKg2x3k23KFVrydfVs4Qjho/jQP58mXdvPp9IQWj7QB6E1pjnDuSnw9DgUX9CTBjU8y8cblSVXdiOtUhumJYOeRQlYAuJk4FBWN/kBKvDgrq9HV7VG8l2HhzOgXteux7y/TcDrJwGBEAxOi+AdaiABBqUBTkWZKg/YY86I5ihtf9fv7g7nrtURL6+oc1jkBjnkdWLgYjnD0VRSGdlVo3IXkTERh/iovFQucjCMdcStxFUKo1Gu5Iw1KlGQxwF3gWVf4M5drfYHk6EhqoQItZp2N24A1KCO6aRuDtkyV9n0Hu4poyXHfnWbku1q6UZsPHtYl2Ff0oeeB7/cIfkZ7dGDdAE2QnWlAjKvPGinSuv54MS9dHvUvst10/ViCAGTrQ+nY43mwylDL/8rEl1d7P/B27Hq38q8imWsRZClpalwP5UY2ZN9OVpAHR58JhbUiKRqiEJvN/brrxsedkBZBHPdfGuKhy+UhfQO1kqe5FeYPMrvJiLj1bJroUhjcroIwIt8XNOlGkZquxXQO+2dCShyvKZ8JD2W6R0ACGmsycsKcfRKfBrCrNhITJt2a48U5mJnHclVR7xRLkjHJaKJFPe4sVk8LZcvqz878096hZlJDMTMbVGvNwR+zGlhKjoRPF58uNO1W7y0sxe5vF++9y6CWxbOtlqTTbBGOItpLzs9n4ClYOFl/P9NPwSYoqc7gIH9emmxVi3nkCzWSdC2bniyFnwK8w5BgtXn0HHmJ1EPsOmV/25p4/2fQx5SyxYA3zIpI8QEK9ITx+wgolG3z19Y7nKonhNna6c2w3o9BOpGX+NULk50tYyAsltBanFv6EtMbucblMxg52kO5bLvBuiz+ChrjMmGf1l522a0F2HWNXiXS+TBaDkCCuEIACYxWdNb6USEn1+VwL6PKfHUbc77GIzCaDpOUOTgFG7ff84wvpJ0tNM/tTK4KASfFLN0qhhyYopCqFqCdJ+FtuwELFCUE0NzGRCM3Tptyuzxx1/xf0x5cnDWXcHIDuMx5Y0NpaRuRYk1cD2y2gLEs8Z3CnTDJZQO9GUdK2s2ZGG9V9Qzbf9XWdfMeylanZQ3akc3/+iODkx+P6TANGPKhYUbRgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1923,
+      "completion_tokens": 313,
+      "total_tokens": 2236,
+      "cost": 0.013952,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013952,
+        "upstream_inference_prompt_cost": 0.007692,
+        "upstream_inference_completions_cost": 0.00626
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 173,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013952
+}

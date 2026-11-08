@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:29:06.441113+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P020",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "request_sha256": "ad03cad791948e743360a7852167525fa7a6ac0df8ad2bf58e797c3b01a152da",
+  "reserve_usd": "0.167064",
+  "response": {
+    "id": "gen-1794162541-kfBU35Sipacg963BoBK1",
+    "object": "chat.completion",
+    "created": 1794162541,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster shows clear AI artifacts: garbled label text, and cards morphing into dark playing-card shapes with red markings. This owner killed the similar card-flight shot ('Cards fly into the folder') and the other messy morph ('The terminal becomes Paris at night'), and kept only clean, on-brand Higgsfield shots. Even the start and landing look off-brand here, so an edit probably can't save it.\"}",
+          "refusal": null,
+          "reasoning": "The poster's text looks garbled, and the cards are morphing into playing cards with red markings, which reads as messy. The owner has already killed two similar shots, \"Cards fly into the folder\" and \"terminal becomes Paris,\" and tends to reject weak AI morphing. The recommendation is to edit, but even the opening looks bad, so I'm leaning toward kill.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster's text looks garbled, and the cards are morphing into playing cards with red markings, which reads as messy. The owner has already killed two similar shots, \"Cards fly into the folder\" and \"terminal becomes Paris,\" and tends to reject weak AI morphing. The recommendation is to edit, but even the opening looks bad, so I'm leaning toward kill.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQStgcKEAgTGAI4AUIIdGhpbmtpbmcSDB/pQ7U798kxdYhUwBoMSrRWdbPtmUHUNJ/9IjBvhvwNZnrzLr3V6RjPuy3qNVs1uqDMsAYmX51RAcIPaRcvyGbdHb8U7MjHhVYtqIEq0wYxMtY8OJUwgxQ2GjkL1IygugdyvAU7+7QiL1bWc9WQbgF3LNjOsTd+PpFyCI93jmkV12K8Eq6HgNWQqlTj0pomsd4rkDPex9fOJT2zTChZ0d6y1OVXfW3x8arED57P7eJGvxhqbH8xju6ma1WUldmM3U1QU/gdN2obGFeHDu7T1ZzQCPxyN49sFYzSklvsKQGe8Oj/CcGkkNSK9OcuQkqbNdOatadhx+3EAN47hBf8SrhWaD4G/0Y2ts6J7hmCfmxVZ7VXGfiH/IGGxxZEFfvXtKKjWjLp9d1n3VxXHZsoqrwzdTw5CUsVxB+O+eqgaDQFtPjiIbycpNg9/8eFRw8QHY8QDjViebNyhOdnWYd0ITcmG3TrBzhhUw9+Tofb+mrAO2WtZlXy60IgLQPF8/4lS5gJXrRZBWcR+qSdMjtXEEvUJe4kC4jkqGYDvjSi/Vl/byCGDJgX9cHp64P7kgc/hP2sTD1ODHl/wCbZzTlIDysr4qIZwlwsgv9lJVzPu5mfsFVjmg19ZVXp/b6mSzCcEft4eD2DVpPTRRSeR2f2MrFvYL3E4MnsAEotI/OU8QNZX2Wtk9hfDLLi/cuUnpEgUkVT8mBcU6FoSoOfYdBMpszzHLC7qDQ9Xoia9XYhUysPriezaNDQl8uAKRB+ufvRtxGS3S7fv4RyKhPY3bmeFOLv2E9D8EHBPEe/3EPKiJiepV7kWF8QHhXFnijapxPXGL9tu6foFd1XX2wyJ5GfROhUbH0fuTdhgx1owHcmyHnIzKPiD15CROOSlgnQDus+HTq40/PhRh4IwN1D5Od8eixKfRSSBgvU5+haEjMX2OS7vQqfohEvS7cNPQ8aGIOh/q4Esa5V5tO7KBD5A74Y/DEVxI37P9kvU5dDJWn82p7KcovUX2S7LfQzXlWTKQje0SdPGugbMeeCUo2itcbBUQNhTGcfYFoSCREpK/v8kZTnL/LYjlVK4PGH6SkYfPVKQnmCnAClqtqCtxBgR/I7vB3cVdYSgWk6A7vyFMPxy1nDm51rtHi2JbkBkC7zKYRVltAuvhBVzDdgMC9Ijg9Ocb6sQsE74RJHsJAQdnIS8mLnVzOtUCFctCctdL0acPDCR/vpNF/uBkdYVmahsVaHiByZYRgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5056,
+      "completion_tokens": 268,
+      "total_tokens": 5324,
+      "cost": 0.025584,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025584,
+        "upstream_inference_prompt_cost": 0.020224,
+        "upstream_inference_completions_cost": 0.00536
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 110,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025584
+}

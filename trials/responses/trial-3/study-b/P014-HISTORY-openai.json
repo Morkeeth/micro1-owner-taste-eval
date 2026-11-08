@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:42:47.891904+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P014",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "29e3919c9013f824e9d83b204d8ffb5fe6318b6c7f512330e0556be0d4abd72a",
+  "reserve_usd": "0.108810",
+  "response": {
+    "id": "gen-1794163363-O31DQF22lvPeKK5AFnfg",
+    "object": "chat.completion",
+    "created": 1794163363,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly wanted reusable weekly-limit shots and strongly approved the Claude/Codex limit concept before. The poster clearly shows both services without numbers that would date the graphic.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on visuals**\n\nI need to choose between the previously approved weekly limits and my own graphics. Those white panels seem boring and might not engage people, though the general weekly bars could be awesome. It feels like I need a concise reason to tie this all together clearly. Keeping it visually appealing is important, and I want to ensure I'm making the best choice for the overall presentation!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on visuals**\n\nI need to choose between the previously approved weekly limits and my own graphics. Those white panels seem boring and might not engage people, though the general weekly bars could be awesome. It feels like I need a concise reason to tie this all together clearly. Keeping it visually appealing is important, and I want to ensure I'm making the best choice for the overall presentation!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MKnOnhWprt9kYpwVP_q0r8I74xTMQcL6FAeG8oE-6pY0jDBN6OExqnW6_EsndyhmohPBWjAIf1NSityDrAeilSHST3o2_AgJEU0-xZ85DyS08ofvlvnG2fa6iX3qO-kraZUHwPCsU6nPo2Ds4xa8Oozutw95q1EhJ1TrUko4ITAErxlntjkcihfeLhi3wNl-bu0U3bjgkGhfO0FDJ1Sb8NNj7E7WCb2TCxn_MjKdbiEsBG8I_x0H8gM1GQ8s8FJ0q1C3XmeGZeVFZkVX0OteWNkwBk6p9USk_w-9btxRhMZVUgMZwrSmxUsUIo0_IVkjZKXxn2ihiPyJFPQTd3QHKzDimURG35RcM_uVJHDudjfD8dyMg93R79W_zW7bUQfbBX2pbitfIOCtyWp1S49pnSFnbvdxRjNTRrgl_6IEHBhqEAnQxicjx5DHNoX1w3hVf5YJpmXmVmefPvhYrdGpgB1cpltsoHCW0PJ7BxpV-IAWyHPjRM8ME6CZTpNpkYkREGckgvfozQoACQhmZi_0pYh83fSkqQdtq235i0ithJWIEh2XTW83kRf2mXBWv6HrvBLtEMVlVI3eXWFB0i13ogfOm7hSdSj64WmYHIaZhXtbYouUGGXtjVJbyvMMfAKvauy0fvaYfk4NZEcQPLIHKHwObRGbAcaWYQDf2-uF1GOnvw75xToc9dQvzTwV3hhox_Gyr32Sz5aJtEdOyQagXttFowCJgB_BU-ptk2HSL3-TlSkEdFJsNZWADOs6IfWHFHRc_Hfd1sZ8jVux07ZGQjtXWdrVFHVVl8WgtglA0Q-aCkjN32l62G-e9GGxcnYg-tIxV943gpqX6nX8XGzXlgBku0H4VzzKhsYJ4mUE41rl4vWCHhpv2T1ZIpuKjHQ4N0_HKBjFnGfzMQgofnMm35UPo9LwEC_f46SvwBab8SRPLyUwcQhPoTSC25apUT8mL6j4x1-0x_BpjOHCZXoixDGt9rLF-3tkbB1hOcm9KJSN9r1W8QJiycOuAMIIQWgT1D9Ayl0j5KmecHIn4awU3fk9nI5HrwqQXgZ0V320C9XBQhPngemvl6VAFn3wi0u79tCGIRhi9TSuPT2oMfox_ZHT-9ssFj4nvyUQEPbB8RlBN_uTiX0dPSkRLdTsk3kQ6FERtmxEO-rauKiLVZ1Ixtbz-go3GtkS0MUPrhVu_gEKPEwNKwSxcSacCljF6TFnh_GoVyf_FH6GD6V0OInP6M-5AteCNj4A9Q-mmp9izsQcZ5At-qzUwqsI-brCGqXpH_23-RjWgutTQimyGstlNP_4cPC4VphjEzmXSEfjBBo5mZizTCVGlXAHCYwxMM0Cv-naOJ0nf2pGNeju6C2XNoNGW84xkRABJA3GtXSoQN6Z0jk8ZcpILKyiBodO79vuMiZRTgvr6bHmf8xn5gdfYV8mm41D8dJSz7WnGmDIml85ZwY86psCwOLyabGZkwAHLqUMuP4RrAA3BriGRmyO68CaJRHe4WxPIzQAEaIryS0qNmds6z3hL-zkt13qxclAC1l8TniL2eGFTCy1pNiffZuT5ZOfqZ2PoWVQUFfZlcB2VfG2-iCfTk18XiEwH8ceES_1iFGVZi7bFsz0Uh_X3IyiqLzqBt21boinx_fMBaDQBSMd8_kzjW-81PtfIEsvQyEr2BijSGIPXAgUOfxq6s5VY8UVstwGezcEbpuoXZP3Vi5g4AoKiWukt8luWDP3SHyBXAGDvFBzwfh-t71t_zV8xYM3xo2qynPuzuA4nCm3WbNqLhmhJyZdzdMqaDJqfa_mn_edSZ37IYQ6UikSMEi3zA4SI5LkKrm3zVsvxJdFJJbqYgCYS0RSTKsc-Mw4R433UUAgqmGFv1UnUZGqnr-f5PaAHZVk7N-BW3uxwnf8eoNFLtl9xzbEuAiXMcqk3hVj5WnZgV9gmwUQcUmrLhT_UMDnbes_LFVSXbhJvm9g8S9nw0N6jElOLWJ4prP2qvHE3oWeAJI0wsMijEWKf9tuleNyiX1qsPeQOjxwUZegvAmkRTluHyekoXU5OLEOWgfiU3QfVHiiqWD0lOTWpXn1X1CGhPAm-ZovWkux_NEYFDg4bPJ6m7QW6ABT5PobOUnIh7Hn52Ama5dFDTilpwc2Ap2V55GJ5bj4NZkhcpDEKVdJRNOwvJRF8W2Q7BmmrXHeg8cO3HzGON0FP-HOa4b360WMoBiEz8oyQNmNUBg8vP0Uhpg1Mb8INDeSDJtU7gMRhEGmA0CyCWTSAGrgoR6Kg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_076aaca8f4969afc016af0c2a5683c87d1817b6ed340f045f4",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3485,
+      "completion_tokens": 91,
+      "total_tokens": 3576,
+      "cost": 0.0012642,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3482,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0012642,
+        "upstream_inference_prompt_cost": 0.0003542,
+        "upstream_inference_completions_cost": 0.00091
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 35,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0012642
+}

@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:31:38.751186+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C002",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "33156353bdd2c54dbde7c29d20ef3e4626bcab07f31bf03e907079dd29c09065",
+  "reserve_usd": "0.099760",
+  "response": {
+    "id": "gen-1794162695-iJHLwGILdsDvx3fvavZm",
+    "object": "chat.completion",
+    "created": 1794162695,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster frame is clean and striking: a paper plane silhouetted against the sunrise over Paris rooftops. It matches the owner's request for more ambitious, fun generated shots. The owner already approved it as one of the three Higgsfield shots, and it was cheap and stays within budget. With no visible flaws in this single frame, the owner most likely approved it as is.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1959,
+      "completion_tokens": 142,
+      "total_tokens": 2101,
+      "cost": 0.010676,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010676,
+        "upstream_inference_prompt_cost": 0.007836,
+        "upstream_inference_completions_cost": 0.00284
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010676
+}

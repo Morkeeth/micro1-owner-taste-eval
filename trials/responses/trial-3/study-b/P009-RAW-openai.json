@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:37:09.374111+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P009",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "e2376052f6e982c8983fd00cef9c26b1a79ffab6bf2a99ef2f67ed17067bf1c8",
+  "reserve_usd": "0.066800",
+  "response": {
+    "id": "gen-1794163025-LqHZBsHwueEXr67nX7c1",
+    "object": "chat.completion",
+    "created": 1794163025,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The proposed shorter pauses directly address the stated lagginess while preserving all moving frames, making this a focused fix rather than a content overhaul.\"}",
+          "refusal": null,
+          "reasoning": "**Thinking about prediction tools**\n\nI need to think about how to predict timing for a specific task. It seems like using targeted timing could be an awesome way to fix issues. I could consider editing the demo data that remains, but there’s no stated issue in that regard. Choosing a reason that directly addresses lag while preserving frames seems like a solid plan. I’m curious how that might work out!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Thinking about prediction tools**\n\nI need to think about how to predict timing for a specific task. It seems like using targeted timing could be an awesome way to fix issues. I could consider editing the demo data that remains, but there’s no stated issue in that regard. Choosing a reason that directly addresses lag while preserving frames seems like a solid plan. I’m curious how that might work out!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MFUTvdhjWIOYOzRN92fmUUv5x6t0WXF1cGzOChYv14ZepHVmFORb08k0qofTO6XRF9TvitF8UOr2B4pF9c1orUPSJ-WTr_KKYIe0ckq4yIW7E1iL6s7U0Yhu6ldLzi6LcT6zUbw7mufjLtdHANxD8-P2qTKOrFB_KTfRSNnxiIARsaZ8PF_T4HpRxBqiG08MI6fjtQqQD9fQ6eJYLYBsN_ofMTD8LWsimuc6lua9Y5rLv6twcKhqp2M1HhBb6B97HIAlGSjmumDCmsdblQzFp8p4ViNU5IQbE5VrZMD4LXp0udpxFoA9TvXg2YJvbcDZe_37T87wi27EOsxlhiU6P9ythmoK9Jlr39rOKvdjoHvj_vB2k4CCP6zVxi9-8SIVMSH3EMkXV2N_1VrJGpuTesGFPd8RDs1jhu5i1TNV-zBUGlkWDSrss5O7ftn0Eew0VVgAN3IGgInCJ2r53HeJfDVeprPfOANR08fec7z0VtlgBhxCJbmyZb8aov5srz21rh8qnnSt8OVo0uRSp8iKPmC0LD3d1rVm4onsg112hISPKr4QkyaVKc0AKkkqXLeOWwTf7UsP0rw_PhdGKf613HfRz3PnIG3adLaeOLYnPA12cAB2bgRZR6g4Vto6s5hus1s71dirGnipB0m75ZZqueC_FOk0tHNcjBvHUOjcwJniTKaV1u1G4xCfW9sMTuo4FT-oDYKkVN2zbltruNILTdNBvGpM8bhEuHO_uH2smDbHIcvVT4hANdCT1cgYeaa0V2pZaQtBc_wlrKp8a3IYoKyfOpmaFADis2U3eOAuk5JK4zlfYVgTJGjBp12_J0PUxOVg-69J-y3D8Dj61lNTy4NvlfEV52GIYvCSab4LfYt9wTchoUfe0fghsGfKqetNYK2SVELcogM4O6vW95mbTqMPCBOfFSd4v6vPBFqOL4-gkDxyLncMmkZae7ghjkofipdeTO2zqs7Bp-o19pNHpGtDaHhEBXYu5GkADh8faAefQLboVkaKQgkjZ4A956q2V3xCJmKuRx8s48n-bjXnLuf4F35GSeLc2kF6NjQ6A3IcLgrPBpefhO-b85Di588jYTzEw49moZXiMH3--58HrNJVCtf1SOXqGwQ-V68JDRnc93CCDhTw5uhT917Sv30JiPqgw8CGytNVcnBIQwzu7s3IIld_qO0oNNHb547SsiW5kr0yoVAkJVK_cKJmFDxZwamcO67XOXG35W64MQpxaaQy2kql3KWqrdLy-_3rG8UNq-veuIBrj4Ym1A0nDzJ84WpfB2-jTotSJ20QJqq-_EOIzjmAaB-rj8tpAwwsw2aQGgxJo3NGkEQqz0qn1scLZDYwBN9vTN7V5po0cdnCAkNTMQ1Z_LLHjW119roawWDGJt76mPCtVHL3e7dIUC8DYGPl-9O3lo9CSitYtsJ1WyiQ4nCsaDEcILljg6xno0gEA_cYSf1aYMHwEa1LQtzH4_4CKUd9FTk52pz1no0CWF3rN9bWflgUEWhLrRRAcK1pqQkPT6iCA74gp05skoTyfdMrKBMiZyMjklv2tEW6Kb47dmI_wtPm7u9xqBhCgbzRIziAM_ezZf_momk5-6WcktgRWiWVksrsMXYg9OLpyJFiG1AzUliBD4spAlmFtxUk3H0eemLcWbxbf6JoIucqX_E7L6wJQtjNoBpOfuosJOqoVnJ0qq-TrMBHaKJv9jWPk96SjMl8PHexft6skSD28BHIouhyayV179MLNNM4BnBrchAe-Ng9rGmJtuI7Q5spapaTrLk_e8jbPFa2G8TXZyS-mSlYuqI69xmFddFxbQasNPYg8MnGOsQdFQ33VfxkP-3Y8LToExXd17TaQzFSSbyNYv65ArCgOf5M9HiDXanH4j0RYKmRTRc93asLkxvdU96Hr2a5UWu4JDLcKH9mbjDTfIA-gJVldTT0hYxCHrqxNaTZcoI_KUWZbQtooOTary7ycA5iaYu4Pt8M4r3MIXnFQ5DCey7mt5JsrfllH5mX3dmiXtdWhXnHcxA7ObKsE4OuuDjo8RVQvGbumDM0p-YeG4UggIh1SDDYy2GybgQYj1M2bvML8P1o9vjo1Gacd7EXSs5Ih7ORynpPiNV9jp7ZV3Cj6dTfujX8aVEQ34TuFb7nZJ7X1PYcsEQzrYPLzcV0lcwW8yC4A6iglSWQpCD64wmKI8LhDpzol3HiFOr3h5hW2MnecGE9Ajv2-Pu3Wsf6PtVkLwkAEdM19ZB70px2JJDnaPU08XTNXd9WFq5sg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_03582d461038a89b016af0c153206487d19a596ae22e0d0c7f",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2097,
+      "completion_tokens": 87,
+      "total_tokens": 2184,
+      "cost": 0.0010854,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2094,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0010854,
+        "upstream_inference_prompt_cost": 0.0002154,
+        "upstream_inference_completions_cost": 0.00087
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0010854
+}

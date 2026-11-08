@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:33:18.505475+01:00",
+  "trial": 2,
+  "study": "study-a",
+  "case_id": "C013",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "63edfebd9ba47efe525ffc79f0bd7a7496f64e89745b8934c83a76a049fed3b7",
+  "reserve_usd": "0.066770",
+  "response": {
+    "id": "gen-1794162794-LvFqwY76F4TnVoke1W3I",
+    "object": "chat.completion",
+    "created": 1794162794,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, relevant design-example overlay that complements the presenter without covering his face.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating graphic choices**\n\nI need to choose a design for a poster graphic, possibly for the upper left grid of a website. It looks usable, but the text is pretty tiny, and the layout could be better. I should think about why the owner would have chosen this design. Often, tasks don’t have clear evidence for what’s best. I think I should go with something clean, informative, and visually appealing, without too much motion or clutter.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating graphic choices**\n\nI need to choose a design for a poster graphic, possibly for the upper left grid of a website. It looks usable, but the text is pretty tiny, and the layout could be better. I should think about why the owner would have chosen this design. Often, tasks don’t have clear evidence for what’s best. I think I should go with something clean, informative, and visually appealing, without too much motion or clutter.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MBuSX5t5FFMfDnNNBD02tLAe7Tj-TJrRq-t3sXyUOrad3DAJtphZdsL7BXsZuXHgQHj3sEGHKQVRZl3yk4Fr3dC81NfFyyc_XVThM76F-besyMRT7vbgZoC2HIQkRW9PjUNznEw6ji63ZzVygFucSqBAJ5F90FEpRxfCWVERxpkbFZ9hDzwMzTd4Y_jnAlK-ejb4KoJ1Olag7zY5Y1s8UzhHkE5QcLfwYSTsIYTvXYtE2SbUQzWU4dtVbsKAA6mKbHzow2hhjEyXLR1pxn69fnxHW9jSgs_iwxAXYrBK3oIdC00VJZ883JWzYTZr4qRMYKjYxfyUiHsF-dvggiEghahjs6Dv7hoWIVjqnuzlqmEdteg_iXVhuDxmWMLvm7ETe6YmNo1ipJIxD2DLgIcYTL4UwukS4mW1L9MRm6wmj5nsVdUUX44OoQzT8Y-Xiy2v4_RshT1aP-vlb87YVZWy7K8pgnpMxRPmQF-OjFADJfvukBhKPgLDOZQuEVOMeJ0XqX5NOi-1ooxd1A30pl1GO2aEaB3Bo3TwfU5LKmzApj-zS586DvtiYkhlzeVHMwiTMuYXG6AIMWY3xc41VfAX5M0ImN6p2FH88DPqMwMKBXp-DUDH8eZ3NX31UxUhfo3i9KMB04yIo5n0UHAIGGRz97M-jl4xMJAONd-f2vr3k0072b7YYg6eER5NnmfWcev0JG5iDBrgKN6xj4qvMMzbElhgATtQCOXCQzCc6KInFdlfPRc9E6LtilpWMwhTprRlp9LqdzMYvLGUNG6qPYNw-OX4qYIDMispVcZ3h6VrG5cBsUL5DIKShxtRXQ9cIxNUVbnW7ZW-DdeFx-99ZZGGBLnucanLoaN9_FN--DiTJNsHc07SQQzpqSDQopX95U3ZAYOT1r4h0qZ9QjEwqCx5BVwwyZredxmQfwgn9fmJ-pBYSgPODNSe30zCSD2wgd6K8k4Qn9RK7M8OueftSsD_VIAV3mXHJIgJEdEX73nq3JPMy-h_JNC3cSekGG4n6peP2M6097HPO2KB-4zQ_ETMln2LPtQJyoIjVJkdXYZWzk9Lepd-o4nu88GHZDgdcOmBrdc_MQ--eJGMCkxn3o3mSXO6-zhdPaJPu91OI0OxMVV9E-am1qqNEwK_JNuBNFHlem_kXRN10L9DJuL8Sh3pdw4kE5-A6Xvt2o--_k47suIdSDwXrvOxlH2GndSUYRCjxsRMrDCnGYMVMat7U0Hq3T8QKd-vSZ8CLoK-ViLniaOZGhDw7U_mDPFlcqs90szVoj-zOnwM7aQD5sPqpjfBU2zhJ2em5orDWfr7t6vQGHdK93i-oA0L5EWbCc9AbOCZ4TsYWueXneqMH9vaiGByjtcMJ4x_qmAYQmsDJ-5ubhQtOlQKLCrM5jYKAoVWUbXXoISEg_9ZRsf5EGx0a6CJmG705p-xEon7oQhnoe4AMCwI4C_NslYkQOlOkzqLwXSqn_mKX8QxPxD3sOlgzbJB37Rvl6v0BDKIjon8xdMIwQwhd-D4-lkXhLBQweve0RhNX-L1JJsYGS8wpeEtvYd_c1Sq2d4pmsDeV7IQ0SFzOwfcs4pg5VSzioT3M-LtRxbDdN4t5AjQ9FwMOWlQxtzfjgVa_Ocb9uJtiCLun5Odwb4jwiMk5YHJ59RwP4IvPgISov8shDcMjrAiYReU_M-p6aTkri3JQqzPyTMPNTGGOlnXBTm3IUxaoxGv3oLf0OsDG8ybm_RZ_6fwiSgEqR5foYg67nzhyrQfLONlJZAfGd0xvVgtqQQIK6m0QeRU3JrZLm5i4brqBKfz9lOVBWjr1ukJiITwa-puaTag6mjdTGkBNfaD2T9EppSlCJ41QPonICl76KeYxfFIF5JtlUC14M3xETLrZvawJTliU3D3XJZUo0w09prsHuehUUUHG3hblLbMCeZ2Mu2yevqRyArDlO2YFC7JU9A-xFBtnPbnfaFDwW9u_uU6PtxoIrIakyfGnGt098MgR5xqK5DQhEGhajo_2YVnmTILPY10XDtvjrUgrWhDn6ybAnbv-BFeQ6q3MpemNJmJgrVHx3RKo45ntVP9kADcflM2cX9MnAI3YckT4qFbLP9OHyMR25Smri06Cs6EuD1vPzsSJCJpHpoN-nFVEzK3KQPd0seP5y8-AYTZVWhfHO0l2ppxMLt3Kg40hONLeFT6te_pxHtBgjtxa4IJPDcbUYd3onFB_v3aAdWVvuXU_AeIvFb0iZQEQPow_lk1Kro4d6gosJYwcQZ_TGc-XahZCM4U0R46tt9UzqZVw5OW432jEtKpSx9Yh1quA66s8QDtvpPGN99VQaqP9lgzq7vHPDOeZYs6mLEaOAnVQAkWO1QB4eYvfTEJs_Bgi38NkndbFQoyBqvH_6faJ7CU4OSNVCaLw9bhIFkcB28mnUL4ehM53-dBRvcyuKxxYaafnRCSs5R7Aq_14rNpTCJEH8g2iXJSnkx0iS2MHhllOAFJxK8_UHh-soLcN1I-RtlZGLHWYfTR7R4Ik_OG7cmhw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_05b200e961c2d953016af0c06b859087d188eb9475daa91738",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 688,
+      "completion_tokens": 95,
+      "total_tokens": 783,
+      "cost": 0.002326,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002326,
+        "upstream_inference_prompt_cost": 0.001376,
+        "upstream_inference_completions_cost": 0.00095
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 54,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002326
+}

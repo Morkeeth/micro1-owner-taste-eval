@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:38:23.314679+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P018",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "ea817b8a8efab6630bdcaf2f2ea7f80d736b54996322fd4b0b9219283251a501",
+  "reserve_usd": "0.066970",
+  "response": {
+    "id": "gen-1794163097-2MG5gnAECqVLttWPE01o",
+    "object": "chat.completion",
+    "created": 1794163097,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The notification concept fits the brief, but the poster’s plain colored blocks and tiny red dots need clearer app-icon and badge styling to feel polished and readable.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on graphics**\n\nI need to choose between different poster designs. It seems like simplistic, generic icons with minimal block designs in red could work, but there are no badges or numbers. I might lean toward editing since the current look feels like a crude placeholder. There's no context provided, and they want clear, clean, minimal graphics. Based on the rough layout, I think I should say \"EDIT THIS ONE\" for clarity, but the icons still seem quite plain.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on graphics**\n\nI need to choose between different poster designs. It seems like simplistic, generic icons with minimal block designs in red could work, but there are no badges or numbers. I might lean toward editing since the current look feels like a crude placeholder. There's no context provided, and they want clear, clean, minimal graphics. Based on the rough layout, I think I should say \"EDIT THIS ONE\" for clarity, but the icons still seem quite plain.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MGf_y4X2cUwlQQUqnLxFDxNq8hACXhbdiokKCYb24gVrQ4NKQroMKJcI7aTLYqrFkK3W3wu8oMTIeIpHoK-8opwRuoKeEdb7Yn6i0wc-xVkH-kqZsxmbwcoLGyXVbSSbbmphTyCiKr3agYpDm5T3Mz4PpVUSGbpUVswHkxg33lehJToqPW1RvFGVkWGMw3k75utgCH0LRhlPIqG07TZCrUI7fHc2vd5O9eI6_p2PAlLo-dt7nMxIw8VjIfIAwZrMS5SRTfBidwO6ShAzCAa_gXa9udAaO-KN3GxhTwi_Eko7XwvATikT0ushQBW0qK1ElVvVqjok091iTQ_ntsZhvbeC4bphI0xxI6xwTQoT2PfWYiNjs34mJAdg3W47EdbBfoLNuvbwJ3f3JlGKpJA-7B7OHq5gKwWrWDSXQUXtoauoRaKfo2dTIVIoKPC7vZ0_ZiLrE4ab5CT9DQ0gyr44y3orIxakr3kCUKvp3LEPZmEq8qPAhOUQ53WcDjiBdorCqZiKaU0iV0yiu3pcdx6h6iEubRfqOGlCmQWHlgO3AEfGaA8ZS8-8rfF6i0z-nWdHD-UduRtg6XvoBuaSTHSvF7Rm6jbm-0yHzpDCE3tbtfPznMBx6OFWOhUwHYAabj5ke0Km-pl1hmK2-coowTFDu0xWEKeupMpY7N266SNq25-iRkwCLkanS-MZHPDDmwX-tXTLbBguTSFzbSVDgh3SFsMRqTAvtndjq_e9_rhNxhlwtLQeTahiwfC_RZZbEwdUi8MM9N7MpsLe2KIWBiDqngAIUAXWsd6rctpn6QvF5cY-uE3UGw0PgEtRpca7POGOI4iN3Fk7AWqSQiAjeE_CtmnOPZIKikdsw44lTI2qA2a3X5aYCjCIqlSw4LGwXmpZLQv8TiM2R3O-ck4-AoZhgaDeR8YYgWZ8wp1oITmYdVhpQVn2vkm0vUfAQcbFWy_QjmvawA75HERVPl2waLIuUwG_U1Evbwc1-tmTptKBl4AhHmXh-KyXk7qiBffHClwGDUjr3PI7CsMBgDqZ-nIlktoF5PDiDOCAk01JZRHUCqSnvFzxpNB5rqjzYsAX3iFpezODGgkfGkrrIgyhapNTCtQq_ciKQFswI0JbFTSuscfD9Ccd83lzI4SD4IQngiUEJLJmB9dMOYOdLopAyPdSjDVXVq2ksGJyu65R1RT3W4VlVcrEA4pF6vpOGAXjXd44tr87RhA4rStfwEHhKV46G0cKwKSr-zFQDc9cEi4arwmjTOtJot9BNClgM8anMcmbBA7Li850t2NGOyjVZA0pT_-Ogu3QBHUE6PtoNau05poat8dU9g_hf2yzmSXyJGA1dP3o3IvZ0O1N7avVl7txkskVxsdnPDhPlzl1L7tUf2229sofRhfC2cWL_ekCCqxd3MYTFIMTifsHV92v0Lyn5e4AeEMEYwylNmvvyWUPvw2Wp525eNFyGDMdNjeKW5zX9guDPIi9e-5LJF1pkI8-8G64ZdCwfLJZpbQR3APvi48cR9GoBoTH5JMyEVa3aA2LFWCWpEIF3h7EetB_3MJ1wpAIGc7mG201TXyXDYrwfaRTQVeBy9zZGlY3MAUWAFUFpWF5KkQfPeCBOVRtFlzVpsU5wQJ6px4caRW1_cneVHam0YBZh6gTm2LlHcVNNJ9ds0Tw9thzVhjHt-sRxkgbN_5gSLb_hc6dy5MOmWPczs-4mosxu-l8pWxTPl7HvsOB6XFo8qMqa6B6VeQP1cHb-4UJgA40p9QMAqXu9NVJIWPgbafAHFAp6K-sBto3LpXDYGHRiDYH-JlpVtuyAxkYlIcQ9T00aL1Bz_zMb81WEc71FY17W0fsdZw7hdLx1o0PySTtAGDXSJ-3Iulul-j7t-Al2XkVLY_yQBZPaS-62oLkQvyUHM8sci7Rsz7qqwCAsRHrrJKbJSMpf1EMwe3PqTSBkleAXmjVxjtleUpnAmNszXzt3j8j420yMUawQAjK-7DdXKD9Z1_-Ffrs8awcSlEi1IaNx5CLHZryX1_aPTENiNfSgvbkUa0gkPAzAU2BEljZUGj9b0Vzd3B6M0Ah86CSe_BL2cbOLh7jDi_C2CfGjmYC9ouazh6WZhSow624U88I7QlWa5W-5NMY-tXtdRsyXB8yEeU9_156SVPW79YyqmlgvyfpvOyMt9wTsSi6m-_cq9XwDewNHGqJq52zrUqlLuSKaGlUhs92ftqDvZ38SNatcSsZ0u36idtGwzbuZr1SEO-ra6149hW27S74mHIPViA0K_qSszYirTrXxugBZjwbyxkPrgSDaJ3YcpkqEuXL-UI1R748JDnN71EoBcfRVr30zXx1TpBQ35EaZZ7d-AbnYIx0gVMbegCawf-XWkWK38reNNTQmKeWLs1dnr66Nz-gJ_pC5zC0jbmq4UD9X4LAcgPmS2m0Y1HXCmO4A8rLn7ZaeOKTLBgqRfh6iuyhEgQpAFNVRgF9eDRxpgOYnxTX4M7DtyTu2O-N_1FX6oI6TVTo9v9t-xmykc7KogJvcwjhmbZe1HJ3gL9_8zM_YbacmVd8jA7NIfxgLdlJn7LZsaC3dzYDsf4bhJTd3Xo-a6BfXYaz_L5TeNVL-zMfq5NyLPWk0PLpr2CrSIchQqk4pzLKwhHH7ryr5VhZu3o_SyGQI88nWeaRqVMVvQ3lZZGXRJT7RWMxfqDMyGxBmOvQiWKCdhss342zW_g7vUM3xnraBcPV7X_O3HylTK-cleBKarM0_ppORLkyJD72MVaJWWUU_WCKEe1S3jX4agWywVa9KRYzjFRDCDfsfLSgQZYSpbg306mdFqwLhvSXYdjWPjXqXiNSqp-RGuXKIMu8z_LO7XzprA4RSK-LRcWIPSOGLKYgW6GWn6SFVieO5xPCWbnlAFxsTDsCPtaNtpk6Mu9CNwI4xFbxp8aypmkVl7L5k_2X852CIAWgnXsZYJYnmJwFX59YP9Kwpn_5gjKYPECfGqAqYnc7h1erCJ9Utq-n6IQHoL1agxyAj8SXh95.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0fbc49b5dfbe19d3016af0c19acd3487d1a4e5273bed864ad5",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1445,
+      "completion_tokens": 139,
+      "total_tokens": 1584,
+      "cost": 0.0015402,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1442,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0015402,
+        "upstream_inference_prompt_cost": 0.0001502,
+        "upstream_inference_completions_cost": 0.00139
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 88,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0015402
+}

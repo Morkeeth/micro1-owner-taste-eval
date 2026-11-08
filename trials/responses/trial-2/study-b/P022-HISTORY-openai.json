@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:29:34.660773+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P022",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "e12a3259da93ee960b6ab934cebc1cf898b878d0e0a7b50f480dc96ca617ac87",
+  "reserve_usd": "0.109250",
+  "response": {
+    "id": "gen-1794162568-NvPgrh98vn6RQELWtl1b",
+    "object": "chat.completion",
+    "created": 1794162568,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The generic phone and placeholder review panel look closer to the rejected screen/object shots than the distinctive branded transformations the owner loved.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L-Nwcd1kpP1fp75Rqi8J3O0jAYJ-05N9wnOIusBKoRlm-c5-WhRRlPlNisH16I_qcmuHM56W9rhK0cIEIDnHxJJAO-mb26Jk2dnnjeRFbwZbTZj-c_7_GBRhzRYZGO9GlMXWaDEZZDr_qCgOCfiJC_879iLPoEmJvzJHSyIc0Ebl19R580uBqNFe1yYmroGPeAiMPDaye4DcDSCQxFRfFoRVrYF4XFRbW-j5vlgOqD_1HCZM9L_4RLYcd0PBqRsZxd19jJWsKY_SX7gb6Oq6q-Am6sA0p2MQv-uE2FGNFg9g5bc6gnttAVgIS_-FdfBny3gox3T9LzpFoQQX796e1qPibUqmljfU5Iftn3KW7XnvhQ2q4v-358S_ksN8IwzPPS1rq_VTk8fHs1N9wIwZY2FxmMkOglcYd47TS3sZjiFaQg0GDEY2VVwZDNXvEBvrHWA6w2ERcyTe03pUskY5Qyfq48SyZKjt0DcMmYPE4V675ij7rVS73VhKW_SCItGayFSQg1l3lEiaJOy-K-5Lg5ixdoYRK2fK19dM_4maeV7FvUSe4bGlhIeJPyM2uJu6WQpysgDDuLUGbibkiu3_YsLSsiC8Z5VG4PReGs8k5ix6nSzeo9jRS7T_HRdqufqymSJLbN6nOvLJsnKsxdD3nEDu21cJcOmhTIacIUPQ8MCp8yUrvGiGs5xBMGXYQck6Yk3Qw5cb6pFngQBWpBQUgXQRtLQWg8bpD2gp5HD3wBzrWVrw-CYP9d4P_aKtSKoo1-2nxZuIfWJiTz1vxk3Ig637X7bxasIR-Lku6Wzatqd0m8xe9EK2SYiZVK_BaXmMa3Hs5fIrm3-VigO55e0_8gFw3OvZgmy1HT9NCvlI1h0eAMJ8cojecWDMsnh3LXacKpk1-WNDwOTjzESTl74smuBnXoIYc2r94C6bwQfR1Min6vk7HB-6w-3OqQogC56ljiwn1yn9kQG8fX3NHBbmr7Rf-P5YpYxJgWfd0kj7mCZkdItpjA9YPzedbDJtXD5N3Y5rwntCWT0Zvdq9CGuQxTAqNsxRFsUit1ytQCuXoLMe9ZV07-kJLleFBNqq_MS2Lzu603CVlZIx0m9o2_t61I0xsECXbOAqvsxQzyVAg2wYjDnwSjAIY-5BH7rM0ufBFQWuKvvR_OV-83wV7xzoU2TveCwi6afbgJSkWRKOPrB0XhikJF-DKyZCa9JCUdNCnVj6SOINlPSd2MZmY5im9ipWiyTGr5ecsaMEgDcC84OftzwjSR1bLg8gHHQEfiq6IkRSUODDlNIYDMCZXvRhv-3jPOGpnF6rGiLPzgLmpQJYB3PIgT4GRU7CQiRO2u0NjTbFzjMXIMHgvsr0OW-jgJ_5SneE8Wfw0bHp4ZRvSbwh1yDITjRsZ01X39HFhQW7nX0wjVbwKn1dRmdWsR13JgJMCjVjRcjOUQhVuDgeqsCT2x6wo0X2gY7WMYRSD2lwgDqXaJIqunH-7uQefZK1eLIn3HRr1Ffpc_eHKSvvtKBH0Tfyj6tRkG5O_iz9kda3kTMhceTRP0cRVme21QTL8YpANapm1_c-Qwd8DgR1s_70Nc5DNwi4fIz73m7BZnZre2qOFj2bXXA2XvcEA0TKfQ0TrlurmU6Qc_pzfigLLn6YjJ810kiRSVXJMAzmYKHUbnK5UF4YV_DRGJh6MfXLHHcFIgImHnX1UVvHgSjki-20mcjpIWNYgICwkqC31gwLRAJzJ53VxcFayqwPc6bU2c7cVuxA4CvRmj5mzpxTm5GYOdQyKBnsZ4JReG0QeR87ZwIA_nm0U1tj20x2eSdWjlKiwd9sp09UrnKJWItyChRNykEWBf1FztLEnMQd_R0t37RzuRrSnIBS8X732gC_XlAaZFxS44kyjZSi0bRYu-zhBXtT5PumUTZOlnKj523bhOH9wQwxptVzoUYvD91BFE75TSA4EiVHSL4xLyIx0V4z1wp2SM0H4HE-s3xxkoeSOd_MEWunJmb6m-fohHGIBCKK4q108172sh_gQq0dv9KLC246mrZkXeZKPpecczn3dY8EKDeT7nij8L6mFNUNixy78G61Jf6R-Mn-NV2Hi7yzPh9bcnpFBKtdUnP1G_1g0tCymwNzlS-9hYwiPosMvejd3Xw1DfrfD0UqDN_AnqchqzqQChAHa_hcDLiC0h1Zry7CQpt_D_vhaXi8PR2_3WS2YIipvaU42Pljbnmt3xbOlrTze0rKgd6pHeToPfAQPZ1tfY7oCdkjv3PiB3ITvWtDeLDQtBOUouBs7pOvIgwOm3d5UqAJLAbDV9trP8J15QGhDajMCv0ygGRW-rJMMdz_hX9clUncC1v-rZpv1fTDq0RakYkLcSm7gR441dygGcpci7yvTzJA5JXGrT8vdH4J4753MLovVILzbni1_TuL2CcrJzADA_L7go8Wj-usTjkqXvWEPBkaUUleWZoYsrOdM5Fkh9D40_1tMsyECR7eEccAZOqHBSuNDqj9yiNcLJ0awsgw-s9iwlWWMSXEw5IveT9R_gXZgyKQ3jC8XLSbktifAY2ZTQk217USjBjvt1GU9d5OKmS4wOrHTOTbYfn9WNIfmJXwuVWYqVy45SkVSFIuFTQ_s6jr2oX8KGlYIEPozarUcR8QP3bp88CDxyjo2z1ica61FpQhC7326vLSXvYk1-beczhn-Wg9oDG9XM0ebflUFQQ5ONwcX4inunoIPXP7Veb86ekMOtlvKJhqIhaIev8DjRaqKMesyiipaxhlfHCOImFFfsE5mDCB2q4VNYdEIqzMoXSbRhKQ83mZQbKCNB2NBdJLpZiLLV21-teiNiYtPicplB1wW2MPi13wAXVlCMSxCPeSYfrNDWZPS1xRquT8WZwAu67sEj1n4Rpe98b7s0KbIzQpoNY1ABeSDr-i93GDTgXb0SXq0OE1ZY=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_06aa2ce5e68e7830016af0bf8b353887d1928d1c952c43779b",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3506,
+      "completion_tokens": 127,
+      "total_tokens": 3633,
+      "cost": 0.0100335,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3503,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0100335,
+        "upstream_inference_prompt_cost": 0.0087635,
+        "upstream_inference_completions_cost": 0.00127
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 82,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0100335
+}

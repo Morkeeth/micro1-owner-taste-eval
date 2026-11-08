@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-08T19:49:28.405007+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C026",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "f3636c7031078d2b7e2f2eb4c8d655efe81de0ef634494c3eb4dc58c9a3e1459",
+  "reserve_usd": "0.098920",
+  "response": {
+    "id": "gen-1794163763-3K7EbfGPUmWQdqOpD3kv",
+    "object": "chat.completion",
+    "created": 1794163763,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The concept fits the reusable intro-bumper brief, but this still shows the agent from behind as a dark, blocky figure against a plain white window, with no warm light visible yet. Add the lower resolution needing upscaling and the placeholder sound, and the owner most likely wants refinements rather than accepting it as-is or scrapping it.\"}",
+          "refusal": null,
+          "reasoning": "The poster shows a dark, blocky figure walking away from the camera toward a window, so its face isn't visible. The card promises a small 3D figure and a warm-lit window, but the frame just looks plain white. The figure seems a bit off-model, and I'm leaning toward EDIT for this one.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster shows a dark, blocky figure walking away from the camera toward a window, so its face isn't visible. The card promises a small 3D figure and a warm-lit window, but the frame just looks plain white. The figure seems a bit off-model, and I'm leaning toward EDIT for this one.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQStQgKEAgTGAI4AUIIdGhpbmtpbmcSDP8LQknWGFyMHTqiZRoMvYv6hWecgtEBxnPBIjATB1DRLkVr/JLxUiZhzZu7MJ7aM117dcV+JL96yiwDCLB/jWv8GFM4BdjCZMc7Tdsq0geiwrV+5ym7xtEJoKQuRZ0UlrFEEdjheLJ8/+x2/o6xnrAQdIUDOzm0Or5bUP9/tMreYU/4GdVwgD1AYy0RrDEyROdmV2LYHtmHxsPdVeJbJRzsKqfJOBiSUqz839nkDL0tfy3DzaU3I/edMT9K67vdvrmkq86AUfA/oF6tjpuf5/zvMafUIwgOUrIyYOkVkct/5fbkGFXQeGiZDyy0JWABKw9QaISddBzRELAsj7+1DJe+dODtvXi3lCj9J59LdwzX1p7efRBCIl7Qx9t0ZjP3sW5TD1DECw6m9/uA15PqjMt9B4fDzAMv58F8vhWPaP9iz0u7609Whjj34C6/DMooTFSf+NeUWSYD3TZKz7ZzMERtvfLf7iD903to1H+t75KfM+y6lbWYz9MSp+wj2DAtZHReCJap/JajMsd9/zCl+CON4UCjd7rCsXQ/7mTFgydN9GW4nHp585SIcFARVQybLvFzYTGegHmHEOJDO1nwDBq9+RmAx6ibjnXNGL5TKDtBjh+IymEgoEpG/UhtuDiFzrrQ47Hl90gAmdFoBxGiIOmed/By5BF4YlA6pPh/bxM2mROO2RgoJWVAQwdKDjTLtegG8xeor2D1Wc+Bt7CnKfcI+BY4aIGx6E5L12l9XuaS0LfbJQGLX405IfuKUv1oQRpqqi/POSyxXOEHRlQJonLSQ5p1Ilep2+P8HD3nYvFCiRHon7+P8VPg52H1oomqQZ//UZQw2jitW6RdEQOONwZXFSJolxFn+LwRuRztx9esTZTxyQQf7XAFG7UgptwhPzNXJRX+lO6tRDhqAjJgVHUymqvwu3s1hs/HK6CqFBY1IuMKHxt1bVNR3VojHWo2Nuh3/zsy0yQ6BKmJfKxHNAYShU5G0IsN6uEvOnFEDSxe5mVcbWVnH6R/viGo2XNTjD8jS3B1TgbGAlHtIwME1dSerwHS1m72Pr/FOR5OgXvI8O5rbsoZWau3tznJHKSN8RYXvfCImhIlnrRhCSMg2a+4F1zvdD3cbZFpxjSprOx252j7atDiXeTFm/kIjL1OjGimjcCb2F1/pB2KatCxpmJjcb8Xq/sCgZFy4sVVxjJixY35aQF5aWDS/nrihUijErJGYNQ6WLIhcCNZCgL4j4iHvkJlCF7l9OKP8T2qsdbYBkno+w/J07o5XQSU2APkLJa+Vt5jcGFMLnwqh5d/t1oWygfk+2CDz7uxE6ZFyMGfGSMZ6Ht+dceXj9wiQ7bEd8XN5xYvw+xz+fHz/XyTQmaPPaIvMH3hZvJMwM/YSVEyPLaQH5jKBAHSXuhNppphm1kYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1920,
+      "completion_tokens": 283,
+      "total_tokens": 2203,
+      "cost": 0.01334,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01334,
+        "upstream_inference_prompt_cost": 0.00768,
+        "upstream_inference_completions_cost": 0.00566
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 151,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01334
+}

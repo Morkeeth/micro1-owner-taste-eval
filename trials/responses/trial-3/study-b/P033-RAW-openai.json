@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:40:17.997457+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P033",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "233af3f92a47265e29ffe18cab342ba477bfffeeecd8c686650e03b086154441",
+  "reserve_usd": "0.066940",
+  "response": {
+    "id": "gen-1794163215-Hsd605iXlzYWkDdgIs6H",
+    "object": "chat.completion",
+    "created": 1794163215,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The replacement directly addresses the requested lookup concept, and the poster clearly shows the skill query, selected Shorts row, and matching Shorts highlighted beside it.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2794,
+      "completion_tokens": 49,
+      "total_tokens": 2843,
+      "cost": 0.0007751,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2791,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0007751,
+        "upstream_inference_prompt_cost": 0.0002851,
+        "upstream_inference_completions_cost": 0.00049
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0007751
+}

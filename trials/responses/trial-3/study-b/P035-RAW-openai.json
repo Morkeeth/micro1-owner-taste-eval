@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:40:39.659692+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P035",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "9c5fd9cfe75d7c5181eba8838de2cf7c83b32888d3145b9f708574bdc7ebc0ca",
+  "reserve_usd": "0.067465",
+  "response": {
+    "id": "gen-1794163233-aNCNYZF2UW0blGeQXaTZ",
+    "object": "chat.completion",
+    "created": 1794163233,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The real recording addresses the requested replacement, but the crude prompt remains visible and should be covered before use.\"}",
+          "refusal": null,
+          "reasoning": "**Considering edits for clarity**\n\nI need to pick a card for a targeted replacement of a real recording, but there's a blur in the sidebar that erases a key element and includes a crude joke. It seems I should edit out the crude joke while considering what the awesome owner might find acceptable. I need to make predictions on what edits are salient. So, I’ll choose to edit for clarity and cover the crude prompt, keeping it short and focused.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering edits for clarity**\n\nI need to pick a card for a targeted replacement of a real recording, but there's a blur in the sidebar that erases a key element and includes a crude joke. It seems I should edit out the crude joke while considering what the awesome owner might find acceptable. I need to make predictions on what edits are salient. So, I’ll choose to edit for clarity and cover the crude prompt, keeping it short and focused.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MImS60DlvRPtP9HrehyRjxuZZnWGpVya_Q7ww3tDdRZL39YTAlvAzE4LXPrwqrNs1bgmzyvi3vFmT1LdLPkP1cuTFly2_gJhfstxhkL3_FDzG6FwgQrKAnU3GA-V39fDnoG9vMh7nBqI-yJilHNh-GNR5yFOzvVFG6ubz1HU-89sNEDy0y8TD2TRNmY4hV9iyy39a2siDcr2J-Q_xTfJYq4HB6oCKbQzHAP8mRe_Gz1sFlPRsYTkgDjIAnYaES-dAokHpt1jt2vbCKWpnvRS8MJ3W5kR1ILS5YjyD3sQja5XjsMNiSTu09LtXy31MGMcoXsL6V_NEaqY430iN6CsAzw4aU5SirzQgpuLhGg-8rjpeey7-8cjUA3YxOpcX70XwVyCIgfn5tKPNn9_seXOW8TknY0asHyWk06_IPSvH_ZlM7RxTEpPv985aw7PT4h3tKMCaEca2uMkFbo4zHTIHJhgNyRIRVlcLUbUWQFBAFTpaqW13DSSNzzEs9lzFkq7Q32BV19ePMNVv7LKa9P2cIpE-wOJDINJIA45T5pOs08a1r1jovW_2ZqBjyk3zI9iQmP-rLWliMwNioUs8z7R5XblcDbL_V7N9w55lecxgYVQ4rFdi4298UIrm7BrbvCH3tk4cLQLb-833pubu4t5iacnIgNO-9-Gez1PAv0tpieisjgXdUvsa_R_ZWodZxKBAmQqImb2TCARLkRo7pspmaR8Nz2RwFDgoNEaQadf7RAjKk_tsd5mxbEoyM8hHw3lsrGFLQu3lTQdorx6STsi7KqMUcsdipycW3BwFM-HJxiROTLTAP-jUupGy1ucZl135QRpv6-3E4skuOibp2NiQb3od63g_UsK9mLhx3QjwMP6L3IMv75QtbphmqnftpAJiLm0Fq2xZyG75hcUtU0QaBr6XEMlSIuQN7b-QaEH3hNhfHQHMdxPyVamhoy8MUmq_8V6bf1JOcp8h_RsQSCX6U1ff6WzGq8msYqo0N_52b-ZxWOoj5BatjK1IPj5T4uc4aKUCGUwhvWZe1XvyMwWrJFHX_nuKqB1CvYj7LLYPaRQi25NSRgDjNN7RifbUQ0jTAZLvBQiBKO7HRu0FBc-G2YKEIA1z6ycCVgAbK91vVFJwcoBjSPIAnt4LJIOT_qbD4mALc-KRPAmrVqQbNfC3Zea3Iysz19OxCM_Ji_NApwEAFaB5eTzSKDzjMuS_XSpTiB-2rBUNutLXwVO0WTC6Goai9AWJgqUEmAtDMXia6o1SuTfNjnDNRf4uhrM_nMkG8tARAmwohOClvBzBzvJ5xCGbtew_SdyjY2m0jYyP0gEhQUdnSfiP7gwLLgOWHWzE_tkKIdUAcWWAidatiU40ebON7HoSpg2II4lv3gzYm_okcJfSg9wkcQAwqDmbTBpeMJdcgaSZXLy2T_BCnn3pojFpxLjoxuGHDlXbDR-5NxqiFnrJZ4oHrhe0ZAuz_xZvq99svVZfpMcHsqesMG3qNuGIRfeDx8K-l9-pe7Mf7o7664UenP5PQAxV9LwQ9naEyGoqY7XZHsuXkk0bwSrx6LIrjK-TQKglmaIhzxC-bS3t13ck6GVCpRhHhKO4-iW40pvHk6Yz41XdU-xwFXesvwe3d0mkv-YuABa9-HvU3MRc-8Gsb0rzCSRUMGdSDw_gMrmD4nhDOHc0W_d6to68JEwfx3VUf9Nr1WfYXFvByTdFB-TRiv-CClo-O_ZHLHf84bkMIiMCAvcFffqLRNhqWLEcR9hnDmJj4Bs2TU1eQtvNGWkiJn8LfSDbhfca9qohiUzeMfjplaEenByKwWREGXUgpbZkvVpsT2xqGg6hMIjd5jhz-h6IP1EMt24QtPmnBgZ5bVuZabMGyHe-rWs9Nd5NodhIJ8VCFE4ZWmVOAPrj2fdQdwDWW4MgciU3_2LH0Q4Alz0OtyWCrY5lDx-fTU9Yas4HVbgbhivixi_azGTpvu8gAgqkQyf2PjAfDKr5n-cYx58LWSqzXU_y-7m3i11o4RxM_v5cLRpbQr0Ko2XIDNQ2Z0bFBkEOkCcy_OYyPh8Yk_KtzP_nmgueVQ6yIkqjTynf44JxVhuJXF7OdEbSyirauhwurfL3LHHKeYHfl2RNHzMDWyOJnWO8qVuFHZ3oMhDT-wlS-mQg1USsCKJfEFkdi__8HwnkxnaJo7rJ_9YDUZ-9OLys6cieJ-Bj53NWgIq5Qv4oqBFw7E64TAJDwdFlUbuiu6pmoHaioMZPAYbP-ymGnaQg1TYyOTms9SnxJb_c7g9LMoYCACGpcvnsRWlwTCpXzakXxVplog1QY1PmXHacU5CofZCfNB4k76M3BDD_ZTKAvpkziSiDNbMy5D2u8VbohUEdToIND3LhWhSyoTxl9mO4Dtdk-2vaK0WFie8paFcAAA1Rtpx2qi3c2WdBFHp468CKbue-kiAs05PlHZwopIv1bSjOAEW_nPT0iyFUigsDzViYzauOwytHwG-7A9rNxEoBG9BY_W_MWj4Mbldlih_623GuM_nlrZorD-KAq2zPicrKekrfSDFgrTzWs7woXWiJKXgYjsXGbvqvFZluRcAh8LXDjywhh617P_EDoGclzHd7p8uTfpq7-NB7kf82HcFd1DUXoIlnC6JDs1fHvJrtTwzWuVy_RiYA==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_091fbaafc46d4e41016af0c223da8887d1aa0c0d158ad88d8c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2817,
+      "completion_tokens": 104,
+      "total_tokens": 2921,
+      "cost": 0.0013274,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2814,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0013274,
+        "upstream_inference_prompt_cost": 0.0002874,
+        "upstream_inference_completions_cost": 0.00104
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 63,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0013274
+}

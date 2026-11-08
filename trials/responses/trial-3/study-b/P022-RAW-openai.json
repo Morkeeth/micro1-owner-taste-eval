@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:39:03.372985+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P022",
+  "arm": "RAW",
+  "route": "openai",
+  "request_sha256": "e58f99d99701d47fea41e23fbe913cb8ada0db9a08f2374cbce563d72f397204",
+  "reserve_usd": "0.067075",
+  "response": {
+    "id": "gen-1794163137-rK4n7xBvQoNFnZu8IPeF",
+    "object": "chat.completion",
+    "created": 1794163137,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean phone-and-window composition supports the proposed mobile-review concept, and the generic screen content makes it broadly reusable without exposing real data.\"}",
+          "refusal": null,
+          "reasoning": "**Considering reusable design**\n\nI’m thinking about whether to predict or edit the image. It looks like a generic animation window with some gibberish, which doesn’t represent real UI. The typical tasks don’t have a history to infer from, but this could be an awesome reusable minimal card. The design seems grounded and aligns well with the proposed review panel for phones. I could edit it since the screen is fake, but I want to choose something awesome.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering reusable design**\n\nI’m thinking about whether to predict or edit the image. It looks like a generic animation window with some gibberish, which doesn’t represent real UI. The typical tasks don’t have a history to infer from, but this could be an awesome reusable minimal card. The design seems grounded and aligns well with the proposed review panel for phones. I could edit it since the screen is fake, but I want to choose something awesome.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MHHTwYCB4f0zhVJlPveRbFcrbxBUhqsxMNyX2BpUVg7lNV6Ktkq964Wg7TXzfBTIICFe1Su42_kS0Iht1_731U0jX_ysf5GTKmOZMVWGKMFHsDhx20X41K57HyY5RYYIR7MTJuyLmm37HMkvq7NpdQBJEkqA1085K0nsGrbrO5PwyKGnf-pt1GzuDXhY_I7oceMYsaXrH4TR0gqPbtgW-1PIL1EHrurHnBrO2503fTPkadoYiEm3UnPI67rvxNSiw-AtmqjnZ5C4pQK2RorqXsOYwoIVujgN0w-w5kq0jpMWexVPMOK0sEGIhp4DBQkAri46dUNI_LPw5yhS5EfxZzpi2F8G7gSii5k0pmNfpZlR2Sszn2V9GapHzpm5Zt6G4LvPN_hd6vdmnDW7r-6wzHfDIwO_4O-or54V7YkWxxSS0IHTf865Z74_inYXtt1E97uEbMICG1RXHjyZCEMf693-0mhfm1TOfE-jwtuomdceTeSRpuUsc6h9ttzMtiTnN112GxzOGK21v0kgdJeAcE9JRu_WH90yexhAlsMQd7Aojmyq5QgOR85jKUJsPEZPWRFLF0M1I4aeycJIJvz5WSnlt9KvH0zgZD7j9mmqAMqgWtbFPu1ic5CmCLIC42_7qb1sMe_2J7J6uF20QcZhhHKbBL02XJhmRb9NmBxErHbcrR8oDMQh3aK904aES4VIYty2--l9dsFFS441deha89UWbHIOxorrkQZzNjKSB7qIQx2a65-S_G6JSu9C0xdBFXrjxBppaspcsuhsreCz4OhBsIlgq4OumswAZOgHzoz8uHenUeZA12qAXk3ReQgWPcgZnm2hQlxwVjhXRnL9VlcqpqZmD-Eqhj5H44rN4m5imkDgbs5tWMsjWjWgvV-XycmimXKlWo78k5oVHRVDW15RlBTPOaaCnHiUrM0Ik6kHlFBsSUIdx_AZqO29uISkxI3yoKpYmY2G-JGe1Pf57Za4iEGJBA0MQE4kRXYcqJNKNE9qRmg9WN6qv7V6GLcCKw_V1ti2Kuqb7OOLYs8l6CYcCtvsr5ik-wZsig2AbMsbAuF5yP--PtivvCynP5RAD93J1LbyX9rm7YcIAhwGZzK6yULXABhVmY_6SzM3wnNqR-SbATwRJdEVEhcsFISV7l-jJL4qZZGQFq6dgxb6eyy8s3So04WdX0KivFHbjTmxcsGbtRU5NEMQO0ymU-gZ-XFPSrjV_vEH40r4A1ymQrfuglx3H9zYV0hTdEPOw_pPlMxB6zJgDACmYE2dT9vhh-bLH4Gs8evhTpJUIhjGHf4NWVfH4VfY5ZsY7PR7JOnBwO5pVsjWp7ulOnacPUdOq8O1ecJ3-XoW0V1y-logW5w0AE_iD7N251q4rRKdR2A_0Qyll7DgT36WDAPHEATLl28_o8e1nF71jO8KVCab47GyKX14emI8AR-Kex7swJMVNeg-Q_QojA-dqGsSrBC7Vkc5bLIITwYQfoCmSNkNUVE-cr5leiiC6pVtyGky5YjUVv6URYtq1DVc-tJRSDw_8MHkYFKMnnjlKK1HKONgiZFKC3QJysuxbRdGdaAK_vjG7r1c7VaLy_kIfiqB330GmjL4ucw5x9KBzjEt0oddG_nhC7SxrqlQFqkpBKL0zOSxEEx9HRscKO9I1772FIOxP_kDhEdykiVB881WG9_XkrN7CvNENmRRQaqOrZLWXoqJUtMOQoV09yLuj2Az-HRJ0C2iipJH6ePi-ePf5mDY845gsR8YqrjWj_DN4eU3pNPQ1jNa9S0cH0C3uwlJnVRcSyaYRB1WzXOauC4ipeXwReBSbHmfa4J2S7cMZRe9WERsYXFbSpBKAreZ7_kiRt1IHow_QjaWVD3TFBBOCHqspTppha76EOP7XRSgO32LGsAgTKEKU6sehG91RSWzRWu2cl5rfbdsy9znvOJdJ5hF-xikqEyih3G_1YNMWH7gYU2AifYhYj1kEOVc2enTIQrj5NwO3RoL8JIlQmsWeD8pfSaGauBMmWUQyhecxAKt6nLY6KD9q7uFWZzQkpfUHJ8V7XGNqC40Rs_xnm73xArTFToRLlIItUXbKtT8k70CVN8hQ3g_rZ9uYEJpZWY8gcomm6nIMj5VjX53rMVTfRNI1CI126E3lyw8wGU9CAvM2Qv7x-3WfS6rfPdQB62a8y80HXn07mPtYfhbo6YRccSc85tkoio9FKsb-adp5CTW2rflpj7FNMQbrlw0yBo5Xk2367OBw5rK_ZN5DAUWUSPCTlYLW5tCr2JU2eYvHD1TyV5qwoZdWa5yfjQ3Vjv5wHvZmKSdMJUJnYFzoL_RyZgoDA1law-RwPdI1ne1nubP79PmB4VAUCyg17aZwI7iB991dvf3jz8o0pvSeSc8YblrMy6nGlK5gvPSB1XDysgP-MEwquQPaT-dvLrkxC0oHwchr4-mM8H-rvC5wdYxOdukgt1dpkvyIlI2DQG6PaBQi196co_U5ylW_ifY01Arzx9smtjHBpp-r3tFTV3jRjosPxAbcAOBx1lBrjU8t8fyknHP4gITJ-AX_92_V2nskz0Z6ZRxQf3h149U3Ib8fDb9ImOenvTeVfMVBWlJ4F5puujOxICXEnI9ZcsjKKvSZFou2WwLbdnm9tfmbm567xnEGR6sA==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0355eaff9b6e043a016af0c1c3a73c87d1bd5b298938bee457",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1453,
+      "completion_tokens": 113,
+      "total_tokens": 1566,
+      "cost": 0.001281,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1450,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001281,
+        "upstream_inference_prompt_cost": 0.000151,
+        "upstream_inference_completions_cost": 0.00113
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 64,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.001281
+}

@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:31:05.506171+01:00",
+  "trial": 2,
+  "study": "study-b",
+  "case_id": "P033",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "793db152e0f38b81d1685b029b71fd0a7023f2f4acf49040ff436e62ccc739bf",
+  "reserve_usd": "0.109115",
+  "response": {
+    "id": "gen-1794162660-h0T8gwbAuhSWsPf6yqTs",
+    "object": "chat.completion",
+    "created": 1794162660,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision addresses the requested change with a concrete lookup, and the poster clearly connects the search to highlighted Shorts matches. It fits the owner's interest in reusable index explanations and approval of successful second passes.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing content direction**\n\nI need to make a choice about what direction to go in. It seems like focusing on a revision that’s concrete and looks at history might be a good idea. But I wonder if I should add new content that feels a bit more vibrant than just functional white panels. It’s a balance, but choosing something awesome and short might be the best approach. I'll think about that and how it can be calibrated.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing content direction**\n\nI need to make a choice about what direction to go in. It seems like focusing on a revision that’s concrete and looks at history might be a good idea. But I wonder if I should add new content that feels a bit more vibrant than just functional white panels. It’s a balance, but choosing something awesome and short might be the best approach. I'll think about that and how it can be calibrated.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8L_pofYTH72781TBvQbDPG1xuHb77PH2C8tjViQGTwOUkTFHVaXrKgtu0tQ6nVjrx3ozwGrCrw2j5niQqtOSPQD5voM_AiQ0YyjDJTXozjNJgd-j1itvPrvCA5ezSPuhixFvZcWxex9xRg1boYC1IXHVwio4OH3AX1SixnQ6JxyvJNfersW22vjIPFlxq5uTzx3tB0b6kKt7c49CLrNFzU4lZD4e7PCU3fSWuLFL64cTHRUKOb0C0THk2XW3qX7MvRshzIephNLzUzK0L9JsG-Bx8kMxoq3OEiJIyiezetMrxiqH7eAzNxmZQIEbdXk92UUUgbB13MfneMwvIi_V7nV23mCNF3eTGHeoq5k0NG1oORgIlfaO7qovy1QmoEVUu_hsxcwtHG5zWapGvxtateWTQ-07PhXwv-FcU4Pt6SVey0pe671zn1NkJjs3oKjTZMVH0qHUVZeK8IkTGc6Nd7XnBsQjb9tmdTj8eDwjRS-8PPyO5WsEhw2-KVj-djY0ki9Wqd1QmUzsLJl_gfwadYoYLzgYrXftQBC9GusUEyFB526lZWCw1WZfGX7480Gfa3-rmATg_383aLxkZW20fTdvCiMmpBWzam0cvFe3RNF4l7HA15732Xo4sWr-Gb4_zR7bLqzev7ZvqLWllumxWVlF9QxZfkqh09W14LHc1KA9i-cvZKzQa7IpyD7p4SvyFlzBmV9FRFaBmm5JjK35YRZ4MXaHd6YeZD3e21DnDBMnNStRg9-y0Gb0KS89REZrkZFQry4HFNSzPK7v85gjGu4jYO_Cj4QWj56nFykRZtzOv46xAfIP52XFzBt5LSBVvaJXBagjOqvALm26P8X8I5lqLYspYa-JxCbbu-stXBqSpX50b6jE7VxLKtZQVwtFA3rBPVbyYrsZkKlk5ywlrc2-7b8iGO-QlcZX47OGdmmHcikVyIuWrtkH09Jm1CI5YCARN7EC8ebLSzZAlg_pMq8xq_xsLSGHR9glaiWjUnO6CxsP23TCcgo1dKF78tpHUWEgWpjjfEHLNmsRwh079jH7AY6Lb6DIo1NfpUIwmqt-x_Ikw3ajkDfSBbNbH4-CYkcaGvmlG0etVVkP__paWoYSG65HvKR1kQJEh5WxzMiGg5YOaUXzJeMzX5JqbtFbGvs2dZZAlXXlrKIKprrUsTf5XIKC-zYEcU1kbnLnXISoTRijsSgYS-Gdlbgot6pMB4WUYn-VRnDX3AGt-bM8QICcGzZhzWY_rzdTTn82WGxmmtmA-w9mCnPArR0tmzEuxj3wdTxE-uigpkadPERFEx6Nu2bV0-eKAwqT21tuxeoggpjhX8rW3pG6X9j5km3mDuakqXV7Mo6suy3U8-LObAJbXmQnNTwSozPAAv7tLrVqT-lPploc9g013CkT57maMBhhTias236oEiYgOGy6UNQuz8iPWksu2P4xJ2cqlhh6LnukOpWzshY9G8H0ijsm5Bh4kI_SjrnExm8LnWFVBGTB3ImH9apf2TmyQRhQNH9TK2jPT3Lf4VzjEOWskS-gbwboaQvdRqv0oeoKqSdodAlKeI32fUnJjp9vGipafgr3SzV8HFmRVKMJeMm_LZUxxh_FAu86-QEJhY7Ef0uilikW9ozO6osBI9TOF21joZvzq_dxKwIFIOthAV3s6jaWW0NxGB3o8eXCQURix1KlEhFb552SzAAPHr_LPP5ZbXDtb4h-nVNvDdl8peVTKgMhYckijsj_w7NU4pePT_IG9Mnv2pfaPwxiyS6fe-_UxBpV1IIJLRPXLvnZa17yy8IPXhkS8DUMlBhELtq7Iv0Vw09a7mAGmaScRTvt5B3xSmotgdtqt6v6st77Bqe2SsZI3h4dvplFgDSRwUVlvguyNmFuOgynJDir08iVhZstN8GXe_KqMoFvhIWCSv-hmL9Dy8hkCau17tVuBFg0JgkkyRHqeBoHQz1C_xVGXZvZtx4pLs82YJzeQ6WZfVNSrobwYTF4bfQUaYmsG5KM0N-TsnRVf5h6sPAXmPTAghVng97NayLgj7wRnagJ4ygifQNAKf16F7wCK37INc4yHvghMvqC22hDuf1d0FE27C9pnaZ8i_B9vVT1lJEO5dVVRKIjSGLxv-w2s-WBr_oSj9w1GTGsvMAhLs_HZU2mT_cs0s_g3yeISotrryLhhP3pEXKP7KNQWAP_gUg2JidTrHgpH4d8EYiE8pxgO3RL8wJn7O2Ra0OKmZCZdUuON2kmCZvIlR-T.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_093ffa0b2b2ef59b016af0bfe6d50087d18733ea16e9b090d5",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4847,
+      "completion_tokens": 95,
+      "total_tokens": 4942,
+      "cost": 0.013066,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4844,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013066,
+        "upstream_inference_prompt_cost": 0.012116,
+        "upstream_inference_completions_cost": 0.00095
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 34,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013066
+}

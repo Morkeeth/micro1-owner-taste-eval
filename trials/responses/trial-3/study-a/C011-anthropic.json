@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:47:27.340687+01:00",
+  "trial": 3,
+  "study": "study-a",
+  "case_id": "C011",
+  "arm": "RAW",
+  "route": "anthropic",
+  "request_sha256": "b6155f42f534bbaed443335c1bb68fdecdbfe120a67ea13531298943282fd123",
+  "reserve_usd": "0.098464",
+  "response": {
+    "id": "gen-1794163644-T5gwsGjTtC2ipYZpGdEU",
+    "object": "chat.completion",
+    "created": 1794163644,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner earlier praised this animation as \\\"Beutiful, perfect\\\". The poster frame looks polished, with real screens laid cleanly over a dimmed background. Both point to approving it for the Shorts pipeline as is.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1910,
+      "completion_tokens": 97,
+      "total_tokens": 2007,
+      "cost": 0.00958,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00958,
+        "upstream_inference_prompt_cost": 0.00764,
+        "upstream_inference_completions_cost": 0.00194
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.00958
+}

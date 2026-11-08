@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-08T19:41:21.125014+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P005",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "a1d7374da461812230010a7411eafc02058d3910e2c2268b5f6775ce879458d8",
+  "reserve_usd": "0.108965",
+  "response": {
+    "id": "gen-1794163278-l3aSBLxxrM5XUWjPYJjF",
+    "object": "chat.completion",
+    "created": 1794163278,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean blue-line title card and pixel agent fit the owner's established graphics and explicit enthusiasm for reusable core animations. It is a practical chapter opener, unlike the white-panel demos they found boring.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4843,
+      "completion_tokens": 58,
+      "total_tokens": 4901,
+      "cost": 0.00107,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 4840,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00107,
+        "upstream_inference_prompt_cost": 0.00049,
+        "upstream_inference_completions_cost": 0.00058
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.00107
+}

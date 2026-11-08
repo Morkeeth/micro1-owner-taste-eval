@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-08T19:45:05.459818+01:00",
+  "trial": 3,
+  "study": "study-b",
+  "case_id": "P028",
+  "arm": "HISTORY",
+  "route": "openai",
+  "request_sha256": "f3f147596ad8564c3bf5607c698c91ac5f00f1080dabac2d31ba86c2646a16b4",
+  "reserve_usd": "0.109115",
+  "response": {
+    "id": "gen-1794163500-WvbwM8o0d9viWB2u5NMT",
+    "object": "chat.completion",
+    "created": 1794163500,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The card describes almost no motion and a stronger alternative already available. Although the owner loved the original weekly-limit runner, this weak, redundant variation is unlikely to meet that standard.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding between options**\n\nI need to choose between a less convincing option that feels weak and something that’s historically significant. The user seems to want a card recommendation, but they aren’t following along with the evidence presented. The weaker option seems redundant in its motion. I should focus on providing a clear, concise reason for my choice, ensuring it’s based on the evidence available, especially if I can't assess what has been watched.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding between options**\n\nI need to choose between a less convincing option that feels weak and something that’s historically significant. The user seems to want a card recommendation, but they aren’t following along with the evidence presented. The weaker option seems redundant in its motion. I should focus on providing a clear, concise reason for my choice, ensuring it’s based on the evidence available, especially if I can't assess what has been watched.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8MMxdz5utIm68tLdPPZqIRMzr2o23JxoumZsMtSK_MOkF1cv1TrRhZpcU1yporZHgO36F20JEj9yb7uvJ9nOi3b6I_1Z8OfLYig4Rlr02I_7jQ6PuqaIVSC7j3NjPd9EVgxUyIlGgOWhd73pj7aUmkKgKrbco6SIECjUvI6IGPbvWCVsr3yq_p__RdUqLd8hYSaCG8TEuWCVEfNWxIAZDu7MUZrwJqLsic3CF3PFQo2EEgAmyOx1Oe6jaYHLirRY9_CIEmuQ6cIJUPnKA5YaS1W1Dh2Z2dOdOU4eRNYYWqnGLLxoTslHHwmJWVk_URkzh3bjWKfx4ygIV6KK4-FDv6M_dpbJs5Mfb5MQkt7yzk4T6MGvY3ENmfh5LPOBsknxDRSasPysAsUdvjtF0CAJA0aL4hzNR9efaj4Ps-t8r_UUn8Bxhuqc6D84k3w3LE8zza6nBXhzZi-b7_-B-aTuHvV_5dexnm2FxfOYZqENHOLCX8GeXX8tSYYha7E7u6HIWxV99_S8RrFAtshH93r56nEYm0QXOiz-9qJ1IPEnaTJwzIOUTI8LGXFsSujbUh2-kSBwBgW1N3alDOHfqRVFLv82huSfu-_dPswxzUKDz0KOTsIEBHOJUrvxZPolCeEF5DcAkileRiMjY2ciTJOxJKuil-ZeYAvTgCMwT8WiWNLiba15oQ75sFU2PMnRuADrOnyssFeRoTMXM2NwiFG_keeu7qy8WF09ZX8LukSHoDLXkXC60LeuF3EkHIcVjnMiVpRhI7A6r5APIW4Mj0Q2H0o1Jnr3StTdqxIU8v4dhYbKhiKQd3vbuGC9I19MgraDDsLW5oCGPZ-sUA0yFVmL0F4frpH-DUHdA014BvrTiaYYcNctXVBl-Nul2VTXUqmd7FgEKfLt87MOlpPmVPeHN5zUnk4jQ73keB0aM9qqlcSGZ599_wsvhiiZ6FsWFvAked8x9f-1OpLLPwL3mTMUZfQrphqG4c0-f9KiYkT2nRElmP0p8-PRjjP3ozgLhdiXZFR7nyfaDA07Jn7-fV2nvGCU4okrcK9m0zsqjwlGUmIertLj9hVjVLa3XcldFxAVgfKI28gVmdXpIxbrHfb5dZHKhgk42KyyTtU5aCsjg-kvx1P4X62iKuXrNZT0a_7TKZiRFO6pMhdKGCtep9F4OsqtB8JupyqXNGNUZNYMAxcCAD6czm17CPMDZwropEGZkm1Yp66FXeOUuBa4vdvFC2m4FJbU19NUYwUDTwifeYDqJJXhAVllZX3o4rkOY3QAHWtGCh5s6dV53SNhKiUy5d0oYn16eKmZAlYL65CFTYRVfbUF7F5h1sAtBCkLorBF13rgVh_pkM8zV4Yajsd7iC_J3BSoy83c5WHXNjWHcWuZJFELC9JLAdomyDSJMrQ7ZYN41OW8cDDi-si1Y2OTvK6XC1KkbAAoTJ10NygHMbmr0_grotheSmu6K9I_09iQGjtJtfxFyt9jy6BgGSdYGLUn0QpEoGduG0m25XEWNJwyK9izvaswmQ6e2HMluVWqw5Fsz0zMmItrKUpH3QIdK4iLvBOQ9KA7400tPdLlFTB51J8CsSoFut4B_G1Vsf2kdsGg9mcT1QnlGQZ5blAMFQoRrx-y_GpBgKLCCYOPhgJ1PUazwJ1VpljwoQ_N7XfYcVtzaLkm6oIw_P7hiZPGbGW0glQhiAWHAes3elPsPcg2mlKWlmolW8qkD6fXdhKdOjbF8c8iOwJEzqFT405IUfhs2LEtkyxKErtlatrzmQQCbOiHtDnop3ewy_dkqCi9XE0nJkqRSspUKlTNxOpjrgzbhgrHyDS5yOzyYdLR_a8PHRdJ8NbTDIzeqioatqb5j_AXDHgJ-48XOGMbEwtIBFI_ctHSTM2IaHe12dMCaGrMmOpl78EX--byu3Yvvb2ZJ31tEMHIhNaEpuP4HSpBDH4r0K6RrqY9FC5CkSzifA97T62iFNERfgJevMjH8U3o3jhPiTIGP0AHYdvRjRzQKllcVH07qeINurldy-pJtBKwkt0WtPXxZkmNtr3xWAt7EXl3nZtr5EC80FPhCS5OEbIoeRTOPtcC9Sv2OxACEp6-gD7h9WyE4bm1f4clt_RKsXdY5ox2I8gUEoW49vgzg4kCCFXVO5br6fsULtLD33Lt1nLb9btw78PYOIGaSuvida-kDsMFx0yxSbyr8UcXRt59POae9T1hiuyf4DSSK2jaGIcQpDNNb7EwfCIcOVZmNKeibNIwWZUuwWZdGgDiYzL27nwt6VUj5pawUrjOvtu5JoDBXadpCO7O5ORPfQTow92qDPDk_2MAJs_sMfyx9Yzo04mR8NjyBKI9WDukNg4ns_rHy3Wt5grxQd-NJHsk8jhA.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_01645f823044089a016af0c32e7ed887d1945f47a0c0a3fe1b",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3499,
+      "completion_tokens": 97,
+      "total_tokens": 3596,
+      "cost": 0.0013256,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3496,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0013256,
+        "upstream_inference_prompt_cost": 0.0003556,
+        "upstream_inference_completions_cost": 0.00097
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 41,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0013256
+}
