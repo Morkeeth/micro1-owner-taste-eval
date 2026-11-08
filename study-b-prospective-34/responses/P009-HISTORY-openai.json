@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:00:02.881061+01:00",
+  "case_id": "P009",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "f56969e96a5eceb88bcfed96bfa04284af736af99536a8e1dfd333791a9fc1f2",
+  "request_sha256": "6011c93177f223147f8662d0d74eedecfc3cabc1139a4b1f7627e1d7cea81c4b",
+  "reserve_usd": "0.093324",
+  "response": {
+    "id": "gen-1794139200-JQJyhc6hVvqdtIlxnFjK",
+    "object": "chat.completion",
+    "created": 1794139200,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The earlier review-panel animation only drew “Bit laggy.” The described edit directly addresses that complaint by shortening pauses without changing the content, making approval the likeliest next choice.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4150,
+      "completion_tokens": 56,
+      "total_tokens": 4206,
+      "cost": 0.0109335,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4147,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0109335,
+        "upstream_inference_prompt_cost": 0.0103735,
+        "upstream_inference_completions_cost": 0.00056
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0109335
+}

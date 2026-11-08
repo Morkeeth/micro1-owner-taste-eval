@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:02:19.438820+01:00",
+  "case_id": "P016",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "f6424e94ff26d764e1f3c86bbdd5451cda65a4af4ff20ed7a5823a0abc7c548f",
+  "request_sha256": "95b46fc5497ed0db245699b31bb80acb2968b1e16fe86b7d57ad248884cee982",
+  "reserve_usd": "0.093460",
+  "response": {
+    "id": "gen-1794139335-YnxserkgHkif6HaIya4o",
+    "object": "chat.completion",
+    "created": 1794139335,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The owner likes cmux, but favors reusable shots with strong visual transformations. The card describes almost no motion, and the poster looks like a static interface rather than the magical animation they consistently approve.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on animation edits**\n\nI need to choose whether to keep or discard the animation. I liked it, but there’s no motion, and it feels unfulfilled. I could edit it because the concept is great, but the recommendation to kill it is strong. Ultimately, I want to deliver something effective. The challenge is balancing what I like with what meets the project’s needs. Let’s see how I can make it better!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on animation edits**\n\nI need to choose whether to keep or discard the animation. I liked it, but there’s no motion, and it feels unfulfilled. I could edit it because the concept is great, but the recommendation to kill it is strong. Ultimately, I want to deliver something effective. The challenge is balancing what I like with what meets the project’s needs. Let’s see how I can make it better!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GTLL1ynkhVu9LhE_SFVfCDBzTJxdXhUH9k6jfTvOq6Mo3_gF2JH7ITfHzMwLSPEWJOo_0NOcaV1t407MZxP5hR5UvXlhnH2UbHjLukZRa5vvaLspVMKlddSIanHv3dephwsf1K4Ptfx7exrAdaMUhtvsYhjsP3ickTcpVxYxj24-rMVhe3GXSjAlwFz6iu62fwGUUtH48LKygRdf0rYpsuhmSTTcDSOOelH9lfXtmiCTbE4ZCzRKIBL7YOp59d05MH_E7GpCKtT1U1QOy4y3XcPz3VOZeVmv-H1_BPdBPVG3o0m-4cX8AKHqVpAtXyG6bu0KUau7Yt7S1rIXQVXr-CbYYOaGsGTLsRsbeSXWABET_0BOCSnEsXYjTgag2C4qHDxqES0syW6CUmfiEBecAbj1-vI87L7yHPT2FbZyGKEgbD1Kh35Rbb3lVLSZIM5ybQXA7laBbSrLjS2iVzywV9kpaKDe6nHa4tvmlS4PEkW_MVFbazBftT94Gxw4YB6ZH9XtSo6lpYpYrcEIQnHRk-g7iUgICKInH4UODWv-FUqNrVcobGj17USIXw5-jIdn6tZyNryHsoVgblVFD7SSwpx3Uhv2DGwBGXN37k3E2kv6Jaum1iVZhYDdvGJdo2TeDLpSe4Mo2rrQ-nvF-Ru9HSVVFCuuz9JKI05ADNpfTuL_eFfq-dEfL0Cal6UMs8Q-qT2pIJYiJqiJ6LrMFOVG7bo1o1IW0fIEmVIGN2MZzYlM2Kq_mZDgXbY5SVZKgAXEgnV88FMKyBSGumitMHc730uZXnA-Ndqa4bsZiQ8MmMNKYwaOhxg5KlUp6ZQ1l1Mn3Ux7A2XU5C53k7FUC5D3Y5fGZDpM06NiHU0Eoyo_XmuDOVt8S0J146JQM3LcDf7Dw2VG3jUtU4diELyRJyK7Q2dG4Yev2_FZR4CP0tiIUx2ox7HaWeZRx4o_ZPk3VA49yGrk0lfXR9A10IOg5VEOJyz5bojymLpCGkCkSXPXPNwymxq9FEJ0Kk4Kmg9lYSfbUUypzHDKqP3wuu_9a-5ldogPqD9Xr_vbO4g3_pAX9wded86sgzX30eY2x3aXTrCjXZHdsmRU42sPRqJe39j9iWOlL7rCeegXgLtCLgGL30TMpiZtJ22plOcrpP1PKZh6Dw0xEq8NXD-hI2ePp7ph4KVN7b0ZEB-FUUQyywHYEyqiLNZDYnzJehQ-xPuv5_7SR17eTls2uGdsOQqwTbnPZMc32ot_j7Zfxn49AsNu7LJETMNMArO40edEYMLL75fYpwsb9vl1U09paazJ2VLEEKq59E9Q-JoMb7TJIgdT7POqt-1BBhtxeP3KS6C-5qN-lozgDa5cuzEn7SpmJaoHGDYebCn7brPj1-SXw_k_VfDfriZZAGqeSSd1zdP5vsrTEzKGTiL9yLV6KSub581AaAhEFIXykbm8cdAopdBpWUcKfaDkE_swFnZn_RPrsJ7mAIsExim1mksOgnXc9fs015uYXWO4K2iEuzp3dysjY6GHTsNbJf5EN_Wi9uLcJpngYNvVUyY8PFrNgKeunXo4hLXpJd-Ti8thu1E0goS8lcGWiw6RtigXziOXgM1gDI75DidsxLTmKHnpb9J8UbRx7SVoG6XHzLVaHmQkSilGC3Bqw2ATbxZU1xCCvWjskBim-HsQhfUsSjF6HcaoAeANVp76LgVkkIB3LPe4-7VNKS2VBZy0_1ByTHMpjcJvaKenWHGM3b7QbJWF6BxrLkb6k2RzHzQ9DXyiwZKcC-cHePlUsv-Cu9QPyFbI4mM85IEL1DEYcWz-iERFJEziuEGxaVJpqtGNTspntgm-Q0wgaSXbVjbvfMIQXbF8SG_9z5Z0tjl6tfzqpcg05jXIb7CrNEF42wIUbOt7P79bMnctvEvEd5di3ETlfdSE3oRTmWRGLmDF2e57AZwUjDRLmE2d8uI4p7_yNKhA8Y_QdjyVbebrbL8btrOP5PCedTFandWe_7aAChZEzYoh0Dvws9o2rYVnOPzeqNLsOjkDnYKi-TmzIeh2XQsQwU3OwT8S7GE6hdVc5ujvuzpmriEKZRn9n_COjXFloX6WxCVjSleB4AdZT6ttvxrEOcFTvWWsRUJeB96dOVgwKn5Y8XTm2nW_Ln15nSktgsSCbGu6r5sOhBntNjUJISF5jHmuPio-C4zLXZDBtS-qnMucEKB16q511ATH5KMIUg2e32V7Toj515Ee28=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_01c1b618b86b4a69016af064c89d1487d1a9e15fc45ab8d345",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3501,
+      "completion_tokens": 94,
+      "total_tokens": 3595,
+      "cost": 0.009691,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3498,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009691,
+        "upstream_inference_prompt_cost": 0.008751,
+        "upstream_inference_completions_cost": 0.00094
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 34,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009691
+}

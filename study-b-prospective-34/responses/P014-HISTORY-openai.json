@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:01:38.380828+01:00",
+  "case_id": "P014",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "b973faefdccf65ec872bdf2323d962ae997a0a557e8823451cb5ec0a7758cd90",
+  "request_sha256": "29e3919c9013f824e9d83b204d8ffb5fe6318b6c7f512330e0556be0d4abd72a",
+  "reserve_usd": "0.093192",
+  "response": {
+    "id": "gen-1794139294-DAXWEs8rxzVC0x2jmrrv",
+    "object": "chat.completion",
+    "created": 1794139294,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly wanted reusable weekly-limit animations and rated the Claude/Codex limit runner 5/5. This poster clearly presents both services without potentially incorrect numbers, fitting that reusable core-topic preference.\"}",
+          "refusal": null,
+          "reasoning": "**Considering design choices**\n\nI need to evaluate the simplicity of bars versus the more conventional white design. The reusable core is likely an awesome choice, especially since it's been requested weekly and includes a note. I want to weigh aesthetics against functionality; while the raw evaluation looks plain, it's what the owner requested. It’s essential to keep the design visible and clear. I think I’ll settle on an awesome rating of 0.6 for this design.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering design choices**\n\nI need to evaluate the simplicity of bars versus the more conventional white design. The reusable core is likely an awesome choice, especially since it's been requested weekly and includes a note. I want to weigh aesthetics against functionality; while the raw evaluation looks plain, it's what the owner requested. It’s essential to keep the design visible and clear. I think I’ll settle on an awesome rating of 0.6 for this design.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GSi8FPAgVwt2-jUZyl3f6b8tHUEDEqR6EujDH0_OspPc9gCBxByC_b2ewUMarh2L8Vc_5U1gyANn1ApHk6RQGlQtsPSAHbknC5BHURgcyKMmAhpCP1rirke85eSC0ZjIUEPHoI4cfRsV1jnGrfbgB55b5e8qPJDzfWeqwkdTGf75-saTy-GXu8tpRaPSgiw8VTOnZj0n1hduoHtIDUo_ezQLuf7usxsWb4htaRh5X1AAFseOSGoI4fbpAhtQA9Hva-J2s1Ld4QvYSPDhXLt9Osr6BYMeLi2Viq8TsPqw3vmZAqI5lkecjZCiyIKXgtTFxrBTBILgBEU48D1MY18PlYpW2OkKgUkvzfMl7i2V6rjWcBDtCNWi6-1gcFB0vGzYkjXqiPZTdRW-61mvm6QiuafwvhDyp5IMXJBqmHvypXuvmap_z8I3Sbypxuay-RizYrSPwqL3oXksVSBI-1s1NRwd0U-p0ZFPp94QK1kmgwJJnRXl0DlhsXp2Dm8AmtQzv7zjQSXBM_6KoG6O0nNJpU64GO_Ye8hqm_FKCDQ4ELfsg23i6ezckbuFUShQKItmESfyZxXOrBeLyG4lFgroagNy5VVb15PjQCBq_MetSz9O-I8n44weMPguOeoiQXv5DB8WVFysckq4gKzhg1BEzmg2UohUCgHywDGcO2nE_J75tOb1LPI-r-vh9V-ow5wYG9CuOUGJ6xl_q3I8IS2ww_UFiv7QBW6TeJasLr-sM124kj7t-3dB2kpjbtv2sPtpJQOtlU8KBvlJLxdauf--PImpWwwp-zgOvmHPH1RmbFm-OQNZk068HAe-Dmr_jWpFzgUWNw5yr1yfJZ_ICds438IMhNAeT9kkYUBjKr9DsiJf7ZAk1y3kEnsW3KDH151FBgn-ogUsy7JEl07OdNHikr7x49OnbTawFBN7eKR_eSJa7xuQqzx6U7QIKT4gw4IQLS-P1RtCYF-powOMhDXPwj2GfYiZETunlEoso93OAiTrLJ8CKjLkV97mzgRvOCbJR-aR6s7C67V5KQt-olYdvqdqvZkgTr1u9mRc_0DxP0x0vwTQuJpW9lY-OdQ4RDf18TAiOIErZH0y5DXZ02JfHszV_wJRfyUEToWsTg-kpVyyXNqk5zM5tgGlknDklVYp5eNQCZOZTBpKYAnHt9dUaABzjTzB9nnRTHKDsyF3Q9Byhu49Nz6v4n0DRBP8GSgOQu3d_Jz2tGvW9fU_I7kA5gi1ZMs3s21EPos0EACptAMpccJbHeU77R1HJwybufWlN7zwj8rD2sxhAgflkmca3sbQsbt7W3glJSm0Ao6O2JBdZwhbOVz9WcPsCalgXZkCowNkAZU4i80tg_QOvEgCacYIdNq2CVuFU2vg61KE5pNico1ZbLYZzbK4KLrPLttwQPa_abCbCxaGfegvetCt8O5KlpoOo11zP2LRhilZDttic0TW0U53X4WkIJdH_jdggfcZp9ZocKGWBY2W551mFgI5GgFSY_EgupO5m-znHvYqr3ZKe72FyukiD_fRAIE-4nWTKA1Liwzn0fW1uTEquIfA--zJ0giff4p2oNGhYAcUz4qvOBstpc0fXhtfGMaJhHAMNcOHRs9111MihMFZaQaUz58QiPdoSPm7KnWoWWPa3eYcNRg1dJhPy93jib51572yyphTG2oFQFAplJ3HRio1ikT16tDIKK3GEB2j0aF-19GJs9GEctJt_z7UUxOKwmI_AmP_7R9RbWJaf8CgPUDO8cVEXsZYcB9oav9h43qECJv8k4YLaJ5grvfbO8AXYDD1fc6BYKyZizmpsEPr1ummEMFwJ3B-uY4k49a5Xt4F2aWgrdkOGDbvh1X95z3pbEY3Z3qxNoiHeVNEuH-eSQEeWspfeiCQFUqLjzhyHMNd3uwDEu0VMfquvn9gYIWAF6wlrWH8aQLnYofymkfoXSCxHbyyZhBsW-sb2N9a4HxfdlGtVQ2blKiGCb6kgayre39SevDxeHPXWCT9solAcdKA_bp6x2hikeZr9asnw5euAVsrAaNx6NnPqP3U54wHtxjhf0gLP3KO1EEAkzCjBVJeWuP0f5DPx2uCmNMbtlJrabHOUC5CDbVNmD--LJoQoWsAE_0cyPfpw8XgtGihHlCdJIp30sicPJfkhmrwPlyn4-tQoc6qAwJBVD1VBd94QjD8MrMMdavePDwFCYkNZ45kyjHIKrTVJB3NSrEXvUQtjaQyvPPtnUWXd0UwqiCslsWFhqs-l4fz0yysA9kRnlsGqm5sgqmhqYInPYhaYwIpEe5ibAE5_owIAhtzuj-msURzN3ojDDW-YKT3ZayBjYI3u2NhzOmaPusr_WP626HDd-a4jZTsitb3GY4_L1WGesnmwjeu0N09-Ld_-3glMJznqB9sU5HWGVyniEY_bG9j_weoCL-BLqt8o4N1m8L9U8G.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_04e45fd54bce340e016af0649f849087d182f98ac50c5ca3d0",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3485,
+      "completion_tokens": 111,
+      "total_tokens": 3596,
+      "cost": 0.009821,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3482,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009821,
+        "upstream_inference_prompt_cost": 0.008711,
+        "upstream_inference_completions_cost": 0.00111
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 49,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009821
+}

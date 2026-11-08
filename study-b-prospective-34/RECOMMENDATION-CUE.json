@@ -1,0 +1,293 @@
+{
+ "rule": "kill>KILL; needs new content>NEEDS NEW CONTENT; edit/recolour>EDIT; use it/good/strong/best/fit/clean/replaces/drop-in>AWESOME; no cue>AWESOME",
+ "status": "EXPLORATORY, POST-HOC (written after model output)",
+ "all": [
+  17,
+  34
+ ],
+ "fresh": [
+  10,
+  25
+ ],
+ "non_awesome_cues": 5,
+ "model_agreement_with_cue": {
+  "RAW-anthropic": 23,
+  "RAW-openai": 30,
+  "HISTORY-anthropic": 16,
+  "HISTORY-openai": 26
+ },
+ "rows": [
+  {
+   "case_id": "P001",
+   "recommendation": "Use it whenever EP4 says the word skill.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P002",
+   "recommendation": "Use it under any weekly limit line in EP4.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "EDIT THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P003",
+   "recommendation": "Use it when EP4 says we checked what already exists.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "NEEDS NEW CONTENT",
+   "correct": false
+  },
+  {
+   "case_id": "P004",
+   "recommendation": "Use it when EP4 shows how the agents work side by side.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "NEEDS NEW CONTENT",
+   "correct": false
+  },
+  {
+   "case_id": "P005",
+   "recommendation": "Use it to open each EP4 chapter; only the title changes.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P006",
+   "recommendation": "Use it as a short chapter opener; it is about two seconds long now.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P007",
+   "recommendation": "Use it under any weekly limit talk, in episodes or Shorts.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "EDIT THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P008",
+   "recommendation": "Watch it once; if it looks right, it replaces the old version.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P009",
+   "recommendation": "Watch it once; if it looks right, it replaces the old version.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P010",
+   "recommendation": "Use it whenever we say we checked what was already recorded.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "EDIT THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P011",
+   "recommendation": "Use it wherever an episode explains how the agents work side by side.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "EDIT THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P012",
+   "recommendation": "Use it when work is ready on your phone.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P013",
+   "recommendation": "Use it for many agents, one place to look.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P014",
+   "recommendation": "Use it under any weekly limit talk.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P015",
+   "recommendation": "Good fit for any computer use moment; the agent cursor is clear.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "EDIT THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P016",
+   "recommendation": "Probably kill or reuse only as a still; there is almost no motion.",
+   "cue": "KILL THIS ONE",
+   "pred": "KILL THIS ONE",
+   "truth": "EDIT THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P017",
+   "recommendation": "Use it whenever an episode says one window drives the browser; it reads instantly.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P018",
+   "recommendation": "Good short insert for any moment where agents report back.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "EDIT THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P019",
+   "recommendation": "Same green glow as the steps shot; otherwise a clean fleet visual.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "EDIT THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P020",
+   "recommendation": "Probably an edit: keep the start and the landing, cut the messy tumble.",
+   "cue": "EDIT THIS ONE",
+   "pred": "EDIT THIS ONE",
+   "truth": "EDIT THIS ONE",
+   "correct": true
+  },
+  {
+   "case_id": "P021",
+   "recommendation": "Strong and readable; pairs with the index lookup animation.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "KILL THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P022",
+   "recommendation": "Fits the review panel story; no real data on screen, so it is safe anywhere.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P023",
+   "recommendation": "The best weekly limits shot of the batch; reusable in any episode.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "NEEDS NEW CONTENT",
+   "correct": false
+  },
+  {
+   "case_id": "P024",
+   "recommendation": "Strong opener for any episode chapter; the low swing at the end is the best moment.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P025",
+   "recommendation": "Maybe an edit to recolour the glow blue; the pacing is good.",
+   "cue": "EDIT THIS ONE",
+   "pred": "EDIT THIS ONE",
+   "truth": "KILL THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P026",
+   "recommendation": "Good for the moment an episode zooms into one agent out of many.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "NEEDS NEW CONTENT",
+   "correct": false
+  },
+  {
+   "case_id": "P027",
+   "recommendation": "Likely needs new content in your blue palette; the motion idea itself works.",
+   "cue": "NEEDS NEW CONTENT",
+   "pred": "NEEDS NEW CONTENT",
+   "truth": "AWESOME, USE IT",
+   "correct": false
+  },
+  {
+   "case_id": "P028",
+   "recommendation": "Probably kill; the limit bar shot does the same job better.",
+   "cue": "KILL THIS ONE",
+   "pred": "KILL THIS ONE",
+   "truth": "KILL THIS ONE",
+   "correct": true
+  },
+  {
+   "case_id": "P029",
+   "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "EDIT THIS ONE",
+   "correct": false
+  },
+  {
+   "case_id": "P030",
+   "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "NEEDS NEW CONTENT",
+   "correct": false
+  },
+  {
+   "case_id": "P031",
+   "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P033",
+   "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P034",
+   "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  },
+  {
+   "case_id": "P035",
+   "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+   "cue": "AWESOME, USE IT",
+   "pred": "AWESOME, USE IT",
+   "truth": "AWESOME, USE IT",
+   "correct": true
+  }
+ ]
+}

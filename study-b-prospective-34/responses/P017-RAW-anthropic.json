@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:02:24.635336+01:00",
+  "case_id": "P017",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "6a872cbf563c76ef864557a86d5caae18e6ab84fa858b205e63d7266332cfb1a",
+  "request_sha256": "bb750dc7a30967b190ef535dabad7651efef882403a6a9140149dbdbca1eb137",
+  "reserve_usd": "0.099224",
+  "response": {
+    "id": "gen-1794139339-UVB1lhL0Wt5KjXfaUd5x",
+    "object": "chat.completion",
+    "created": 1794139339,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is my best guess from one frame. The poster looks clean and polished: two glass panes, a terminal and a browser, float on a neutral stage. It shows the cmux core idea right away and suits the owner's request for reusable shots. The terminal text is blurry, and the frame shows only the split state, so I can't judge how the panes snap back. Still, nothing in this still suggests it needs editing or new content.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1933,
+      "completion_tokens": 153,
+      "total_tokens": 2086,
+      "cost": 0.010792,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010792,
+        "upstream_inference_prompt_cost": 0.007732,
+        "upstream_inference_completions_cost": 0.00306
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010792
+}

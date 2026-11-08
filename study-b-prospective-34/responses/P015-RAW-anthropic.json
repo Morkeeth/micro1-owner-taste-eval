@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:01:46.231915+01:00",
+  "case_id": "P015",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "362b53fc73100e1e06166bbd44c8b1fa5a7e71998e734faacfd008fb1bccc6a4",
+  "request_sha256": "469ed7cd40a143ca0e3c18b3810a4ee7c263d84cbfef944d29694854ef1e6e26",
+  "reserve_usd": "0.099024",
+  "response": {
+    "id": "gen-1794139298-9nTYDEuAgEa77fuPY4vy",
+    "object": "chat.completion",
+    "created": 1794139298,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The concept fits, but the poster frame is full of garbled AI text ('Cearch the web', nonsense card text, 'Cgorsl'). The pixel agent is also tiny and detached in the corner rather than beside the browser. These look like flaws an edit could not easily fix, so the owner likely rejected the shot.\"}",
+          "refusal": null,
+          "reasoning": "The poster's text looks garbled, with \"Cearch the web\" and other gibberish, and the agent seems to sit outside the browser rather than beside it. The owner probably sees that and wants it either fixed or killed. Since AI-generated text is hard to edit inside a video, I'm leaning toward thinking it gets killed rather than edited.\n\nI'm still torn between editing and killing this. The concept works and the browser shots are what the owner asked for, but the gibberish is pervasive, and a quality-focused owner would likely reject it outright, so I'm settling on KILL.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster's text looks garbled, with \"Cearch the web\" and other gibberish, and the agent seems to sit outside the browser rather than beside it. The owner probably sees that and wants it either fixed or killed. Since AI-generated text is hard to edit inside a video, I'm leaning toward thinking it gets killed rather than edited.\n\nI'm still torn between editing and killing this. The concept works and the browser shots are what the owner asked for, but the gibberish is pervasive, and a quality-focused owner would likely reject it outright, so I'm settling on KILL.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1926,
+      "completion_tokens": 478,
+      "total_tokens": 2404,
+      "cost": 0.017264,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.017264,
+        "upstream_inference_prompt_cost": 0.007704,
+        "upstream_inference_completions_cost": 0.00956
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 352,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.017264
+}

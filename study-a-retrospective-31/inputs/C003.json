@@ -1,0 +1,23 @@
+{
+  "case_id": "C003",
+  "shown_card_text": {
+    "title": "The window lights become Paris traffic lights",
+    "what": "The red, yellow and green window buttons pop off and turn into real traffic lights on a wet Paris street. It is one of the three Higgsfield shots you approved, made from our own graphics.",
+    "why": "You asked for more ambitious and fun generated shots, so this needs your eye.",
+    "question": "What should happen to this shot?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Opens a trio about tools you actually use. Its generated sound is dropped; the trio keeps our music.",
+    "context": [
+      "All three shots together cost about a dollar forty, inside your monthly limit.",
+      "The month now reads about sixteen of your twenty dollars; nothing more is generating."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C003.jpg",
+  "poster_sha256": "7e998bf37a8fade783d138976aaa039cb38a0b0f11558864ef161d3662362516"
+}

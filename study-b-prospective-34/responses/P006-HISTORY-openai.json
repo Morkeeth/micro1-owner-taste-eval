@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T12:59:13.456472+01:00",
+  "case_id": "P006",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "91caed51cb476a4d4db0f1e3bdf83bbadfb2cb5453eba03b5d5599be4bd05d2c",
+  "request_sha256": "75d3664dfefab556e02de24e6f2fbb1a7ff8a0a2b1fe78006da0b284fb2b5b3d",
+  "reserve_usd": "0.093440",
+  "response": {
+    "id": "gen-1794139150-rGatN6k76moDKLkowpzb",
+    "object": "chat.completion",
+    "created": 1794139150,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner wanted this concept edited, not discarded. The proposed fix addresses the stated seam problem, and the poster shows a continuous blue horizon consistent with their approved reusable Paris shots.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating fix options**\n\nI need to choose what seems like the best fix for the original edit. The poster looks washed, but there’s no seam, which is a little concerning. I’m thinking a short justification might help clarify things, especially if I can reference a calibration card to back it up. I want to ensure that I’m making the right choice here, so let’s explore all the possibilities to find the most awesome solution!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating fix options**\n\nI need to choose what seems like the best fix for the original edit. The poster looks washed, but there’s no seam, which is a little concerning. I’m thinking a short justification might help clarify things, especially if I can reference a calibration card to back it up. I want to ensure that I’m making the right choice here, so let’s explore all the possibilities to find the most awesome solution!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GQRtM45fiRZiprNa9jUawZIh3dlm_R6JW1f44Jabgtfy1Hj14IAZytsyJvahm5zfrYvHfS5woJohQAFz-nExaUcnK5oGzAy0KLLEdvUkNHqFlDdM29yAmik0NuEUKML_80_rNkmRqgHAtDoSDrWBFgxZr6ypVmDpHDx3JrtsrREprIDAqzUbAoeNESeuNjO4eVqsroo61nvWWLGMdsi9-jwSNlgGWSf3-MCM8Bnmo8wnl7mfqNVXc9NSNlH9K065HQgnz38Te4DkLw6johPk6mBKdWUCVgvPKuqOgUbI-LhsjxH7XBW6Hv6HgoHGxJn5gVwjvFIu2SAFnc_TSzhkM5ADBV_H1AA6q0npSLOkgGSvxy3rt2PiLC8Tcl7L2NSdJ_1VkBuFneNSFo6nZPwjhDzDo1-NscFyMK1t9J_H_7rJXck8zw1TYWZQEhhEERx_gh_9A8fOYeCo2GpMPpSl2UBcGOqNnfz3SGxEpeMHmiwv03KWZT1OyzVZPEPu1m3Q04x5sgc6bP5VUQE87yyWztER-hZ2ae1BXy0jitWp5Li1fn5AHSxMIo5BS3HXUGxzjijDyDmi8rpB6AWhy7_-w_BHZO86dWt8ECY8sXIDVyokiY2Utk6Gk6oE4orddbW3iBP6y6DKB7RTfn6GAoxMx1w9Rr-0TUC7nZAbTIFFPUcxUnIAYh19eKrptGr_vZYP_AIhHwOKIEhCPPcr2QOZSEhCQD3JsmVoWXdI9mjKGiKg2YuSbs72xPbwIUQ7f578DDISA1UJnyZbldFpR3wxXijcua2AVtRnKvyK2JU4bQDYzUCgai2ejrqAz8fDvdxBXL6yTN5_epKzfa_SZjqDmSu0os94_hgYCMlQCNdazlr9b7qBi59TbyIZLt4KpMQGJ9HI4_gKIFXEQEzVpyAT0-oaGhbZY0BxGHIc17LwgK5L0rNx5Ppau6QUbXXjoQ8ojo3LUqBW65pJghUsE-L-SrJE3LsSTh8tlk5tjQShDy3HLhrjirOHqOOA4e3b6x3fDZFYg5o9gL1fPkq-2BPMWCmVJX5Q6QkjlA7o62ahhJojaljqx4XGKEhIaDroralJdCDlPJIAR3NhcS18phaexfxYdhutxpM3c1LmeeuKy2isnaFRngH4O5Q7JLc0fgFfmis9coQckwg7ibJz57cYvqZ5QDOtsmlIMIh0HR-Qal6aLSIpR3Qoy48LnKta06l8zXaP4sniQeGgMKD2pr89HBp0FmN-fSjGeV9TYnsEC1dT8KiPaW8QLzdbN8a8dm-2AfILsJIm_iTjnHTDzP2GtLqlo59FhvuiNlblvVJ6XSDy2-AUDDGaJ-XpeFbkRkOxO7-6z6bBC_YGaKB3MrbF2SXudbEfIJutsfTtRxyxRqEHthIFKqTm5zx60fBJxpO7LO8U4ceLFwPev91z8l-D50lGDl_8HK1aLCeFKR869ox15e8C1e9E3Qx9uw84otmeeduPgSae2DVwjMbTtHrZtTRDuHE_4q8fJ9PisdswjRSPfNoCBkQSaJw9rzi0hV9gCn-7QnMY3_oa3tNH2O7_0zKTY1UfebWMbEwy_rNQGgNywjtd7wucICGC1CVC9fve9qaOMFqX95Ij15s-orY25yitPaD0B1jXANxRG4z5gHsmpkulfCChvHsKD7Fm8KGysYJpxqs4aaBi0Hk4Dz5NJEKJqyOrOrSmZCn379erY1n0vBasSB7BzqTKxC7OaSOaCP7aB3X1OAABWlbYaNeCdcGbK4j1eU8DWalGAD8fS4LUSfvxvzYCaZC_9vfBmC8s5nkmY8T9mA_QvwV0YHBe9CHqkrBrVEVzB4xjLSb1-1Z5rBr99BMPUyIxOxDpA2MIkIHTtQ0dzeG1E-OaBRBPlxy8jbk9z7JnYqVL7I3npXCRZIC92_xQK6NDjvnpsVDmUxfJBOQbdMUDpe2KUSfNqg5M7ZdetlQETKZVw8IbYJNBmr1OdFN3FRFheVNibQhvP2Q1814-CFSNa3Qze6fcQA3Tnou-7JhB_Pe6dhLKIxdigx8EmzVtcRGhsXG42J98YKJODmLYveHb5SDpHXNs84OPXi--QfZkpqwtOOcC950gfw=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_05a8708f07f805d7016af0640fab6c87d1990d01593f749d2f",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3506,
+      "completion_tokens": 81,
+      "total_tokens": 3587,
+      "cost": 0.0095735,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3503,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0095735,
+        "upstream_inference_prompt_cost": 0.0087635,
+        "upstream_inference_completions_cost": 0.00081
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 24,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0095735
+}

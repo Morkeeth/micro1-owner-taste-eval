@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:33:57.119753+01:00",
+  "case_id": "C018",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "b7d001f512ba51f563e08077533346e31613df3b518c0713facbae8906aea4e4",
+  "poster_sha256": "591b0db06a81f0a7acd5cf8fa4314fcf5b2dbf40a6f77d16ed290a106e6030e4",
+  "request_sha256": "97721ca8e55aa8bb43420d38b846284de39d7365e5e187c21c984cb841818b92",
+  "response": {
+    "id": "gen-1794105233-umXU7gS9EkvetB4Wes06",
+    "object": "chat.completion",
+    "created": 1794105233,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster uses an abstract token visualization rather than the actual UI the owner requested, suggesting a revision rather than using it unchanged.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on editing options**\n\nI'm evaluating whether to choose editing or creating something new. In this context, great animations would be part of an actual UI, which makes editing the strongest choice here. The poster is more abstract, lacking a real UI element. So, considering everything, I think I should go with the EDIT option, and keep it short and sweet! It just feels like the right call for this situation.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on editing options**\n\nI'm evaluating whether to choose editing or creating something new. In this context, great animations would be part of an actual UI, which makes editing the strongest choice here. The poster is more abstract, lacking a real UI element. So, considering everything, I think I should go with the EDIT option, and keep it short and sweet! It just feels like the right call for this situation.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq79-Ua2UFCy3lNuw1-GNCRJBg7N_Jez5rAb2OZf_HSo7zeEihE-GVtsLff6-fg79xRGZMtdcNsUbHqJRdkwH8TB_ftGesEIpvRNQ0wMC-Fm218m1isM7PWo9Ps15DdV9RXK3yHBMssJS1V2inFrRN1q9YXLDJsVjajPQaI8mw_1S8lf-UUINkScG9SLgmLcZA66QWwmdw2uMHF5bT7DS-_AauDIu58-bej7y-A-TyrIv-TqVON6lrgf9-Zgt9bLE-FWJIHpAYqIUmFK5tHtra5QoljIJk_9qnXHBPHaV4cOt2tiV7fRY8XxZYYr2DuHApCTvnNIDHX9t4HMoo1o3Q3Us3uzHb4H80R4m4UGlEYERllh-zxGKaPqrBl8PkCNXy5R_US7wel3vNYR9QaScYKLFvE3LjvcGXIIlvbVkVF01KbRBmN7IH8mUBde72PhVkllCun1vykkfLtPy9blwXvu8lBfcUBsYEs-aEt9McTLsIpwTMmDO3mDtBmSix0b0cUJ0ebRV14GhLlMy48G7R9HiEaAnLmS4ZR71EPHbLcPFn3D2G_M42_Lyk2DdxtqCJEm7u7zrvnzv6nj876Oto-KXk_FPuhnnhqET8ag5-IHcpzxJGFlwD5OvN_Qp7zNx3DlEz6JGIU66ts70yslZ-G9KBgruzjYa0k4VSKl2tWizqtrsysEa1FA4ajib7M8FaVhrlREOPbtaB8nHLqOgLlxE8yJtu_QVH2pxePpGQnMtDnU8XyAkTu801gYVHOQ_fE3_7so_dgNapbzd2cHwOBHNRgKwWNCST95ToXDlbAaPNkoYU6Wjlhzxkw3f49lKA25_QcHPoYhaRMr0A6IF2HHwu3E_E504nofGvJ93CQByKXwYEQIYs3W1gFNlLphPhn2Yd6JyuyGiyeCN1pYN5-Pm0gzra6Kn9W--5t1Co8unz_nQjX0ioaaeggytVaL3GCPbc-GcXwRbufNMn_odq_AohhNuWOJUdEwD3a-PhX8aluXoUUzgIB8oB7JUX2AiCaNP9SJ8SMoSRz_ZNLpS-uXcya6MbBssB6AIO8wofybQicUU1jhFrkbl5x9axYRCmAm_sEDruXuN0L2iUM3OunX4wzswWJFd9raOHkO3Oo50YGOLRE6k4eekXM41rWc1e8CH5ivz5eEG1AmD9yoX9cIOZ_dFZLJJtQdDGDC7RvNkePEJyFWXGXQBSSF43gd66MNo35MbbKvnHVAVJorwu7NSzyFom8DgtqQmsG5zDu5flgtYitkzJ3RbgHj0KXfAr0gpO3ChGt131LxXEBz3lvDN57tqDg6YVTA-zZoTxEcCda7WC4AhcnRYqLxDu-73zwNUAheeMHIsxlCeuM5f1iarS3fQue41w-_HPeEV8W4D81f8gu8XCW8Jnr-9_oSdqKyCAgbhBCUQkuFB3H5tnmBk7NtBsfW7f9smtMvvMggRgVKGkiG0I715i_ZCh7aXfRKXHgG9Yu8VGMutFwD4FZXAWereexs61sBBBSL9LRCx4gTnX3UjzVBD-EW6tXsb_Cjc-pmAX3Br9kwhYH5i7KjZ2SLTk8Auov9KCQN_2t3phf_0bWOZLfiDJ-lN2dJ76iEnNEkg_HqhMEQmzCefEnjo0MqSTPmls7ZpLB07x797_RFBCSgnw9dOW5gQooEYI4jpazvzvnCs6JllhQp_0EO3teCNKleSJc5Xxmc8SrhSR6hXHB034VuvaLr4wltoQfAYOqNzX9RVwJ9yKbtp0CpVJE6MvWrKNM2omLeB8-D_pgmjppPEaY_VXBNbRIrvzw1eANvcnsjEaQOkxSQYpW4b8Ujy4hZpe2GW2F_mAD-2nR6vEwnX3y34XE0op42nHyHTrgRagzja4ljNxHCwSxnWbd8rmcfvAOs_yrOncKNvriqnRhYI88EK2qv67KH7gv2pQShI6wHCTvqT1B3WwQ78fdLp_0NrJkH0WWg-vTXR6rDfIgMJTWP04qvhpJP0GmcEuZUFaRC5X-3BDo6-kOrtjmFomnXZ2QuXdREvNiAHJvPVX4QOMD-PCNvkIef-WwLhWEg9GjLf4-BGmjAP85Yn0oGD7BpKIA6apG-m8kZoQM8Krdj28XTe2zsNmPG9SCC_Si-t0aqKFkbRDgfxwDIJEgnslBhkBD3DR6728Cy8l1D4=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0b5aeb9b2693ddf2016aefdf93665087d18bb7f8cfedef624a",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1438,
+      "completion_tokens": 74,
+      "total_tokens": 1512,
+      "cost": 0.0043335,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1435,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0043335,
+        "upstream_inference_prompt_cost": 0.0035935,
+        "upstream_inference_completions_cost": 0.00074
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 29,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0043335
+}

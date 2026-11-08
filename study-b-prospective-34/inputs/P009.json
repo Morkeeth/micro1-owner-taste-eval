@@ -1,0 +1,22 @@
+{
+ "case_id": "P009",
+ "shown_card_text": {
+  "title": "Micro panel animation, without the waiting",
+  "what": "The motion was smooth, but long still pauses of up to two seconds made it feel laggy. Every moving frame stays and each pause now lasts under half a second, so the clip goes from fourteen to about nine seconds.",
+  "why": "You said this one felt a bit laggy.",
+  "question": "Is this fix right now?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Watch it once; if it looks right, it replaces the old version.",
+  "context": [
+   "Same pixels as before; only the dead holds are shorter. It still says demo data on screen."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P009.jpg",
+ "poster_sha256": "da80ae923515cb58bc5aa1968aa9d7a281df1b9ff2541c17e8942c8acc6cf901"
+}

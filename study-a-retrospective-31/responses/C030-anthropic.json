@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:35:29.701349+01:00",
+  "case_id": "C030",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "c4f9b8cf4735b7a20c22d1e060e311ac4d3887c1ea483cbd3317de949f9120fc",
+  "poster_sha256": "5733bc280d14b501efcad0de74921aa897f1521b57d6ff1c784f24c6e3c993a7",
+  "request_sha256": "24976e2f900e297757f866bdc06458727f1bd01dc656b04b046a6dc04da4abc3",
+  "response": {
+    "id": "gen-1794105325-unxYXI7z9ZXA4uMtPq8F",
+    "object": "chat.completion",
+    "created": 1794105325,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster delivers what the card promises. Notification banners multiply over the Paris rooftops at dusk, and the image is clean and evocative. It fits the owner's request for reusable shots and has a clear use case (agents pinging). The caveats are routine: upscaling, and labelled generated sound until music is chosen. Some banners look smeared or ghosted, which could prompt an edit, but this is likely acceptable as motion blur.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1925,
+      "completion_tokens": 163,
+      "total_tokens": 2088,
+      "cost": 0.01096,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01096,
+        "upstream_inference_prompt_cost": 0.0077,
+        "upstream_inference_completions_cost": 0.00326
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01096
+}

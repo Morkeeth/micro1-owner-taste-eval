@@ -1,0 +1,562 @@
+[
+  {
+    "case_id": "C001",
+    "id": "anim-higgsfield-agent-8nov",
+    "source_line": 4002,
+    "verdict_timestamp": "2026-11-08T00:54:31+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C001.json",
+    "shown_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C001.json",
+    "input_sha256": "71ad70611594b7b7dfe7613832cf38005307d93d880371b53b48a11e2925a484",
+    "original_poster": "/Volumes/LaCie 3 MAIN DRIVE/01 PROJECTS/Morkeeth/2026-11-08/ROOT-HIGGSFIELD-APPROVED-THREE-0040/still-1.jpg",
+    "poster_sha256": "ea97f41b59327b4e6bf702b8922f65b9dfea576c0d0773033597b9f03170d0d0",
+    "lineage_cluster": "higgsfield-three",
+    "prior_context_present": [
+      "All three shots together cost about a dollar forty, inside your monthly limit.",
+      "The month now reads about sixteen of your twenty dollars; nothing more is generating."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C002",
+    "id": "anim-higgsfield-show-hn-8nov",
+    "source_line": 4003,
+    "verdict_timestamp": "2026-11-08T00:54:51+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C002.json",
+    "shown_sha256": "57aa8be579a5720aa83f9f4fb6fb40bcbe43f4182e080c5964344371519ee4df",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C002.json",
+    "input_sha256": "7513d1e1fe9c165f599fd6c98b05cb5847024538daf703eafae7f32e12e42d58",
+    "original_poster": "/Volumes/LaCie 3 MAIN DRIVE/01 PROJECTS/Morkeeth/2026-11-08/ROOT-HIGGSFIELD-APPROVED-THREE-0040/still-2.jpg",
+    "poster_sha256": "8a2d5edf2ee56fe6fc8cd1c64d176278971c088a8d4554fe12869d51832e7523",
+    "lineage_cluster": "higgsfield-three",
+    "prior_context_present": [
+      "All three shots together cost about a dollar forty, inside your monthly limit.",
+      "The month now reads about sixteen of your twenty dollars; nothing more is generating."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C003",
+    "id": "anim-higgsfield-traffic-8nov",
+    "source_line": 4004,
+    "verdict_timestamp": "2026-11-08T00:55:03+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C003.json",
+    "shown_sha256": "48d967167627717a2a97610fa16a747bd2bb311f6457818f051a48e851348054",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C003.json",
+    "input_sha256": "6bfd9d82a2c7bbc012233b21177256fe7f5322f64e10760528647c7bfc8a10a4",
+    "original_poster": "/Volumes/LaCie 3 MAIN DRIVE/01 PROJECTS/Morkeeth/2026-11-08/ROOT-HIGGSFIELD-APPROVED-THREE-0040/still-3.jpg",
+    "poster_sha256": "7e998bf37a8fade783d138976aaa039cb38a0b0f11558864ef161d3662362516",
+    "lineage_cluster": "higgsfield-three",
+    "prior_context_present": [
+      "All three shots together cost about a dollar forty, inside your monthly limit.",
+      "The month now reads about sixteen of your twenty dollars; nothing more is generating."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C004",
+    "id": "anim-unused-laptop-fleet-panel-8nov",
+    "source_line": 4007,
+    "verdict_timestamp": "2026-11-08T00:56:55+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C004.json",
+    "shown_sha256": "a54d49a51eb4e0f377f037c583f960967c0679228ae7c0ac05060b0e2efff926",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C004.json",
+    "input_sha256": "45a30a06d88c663b5ecd0293de5efc49447abed57ee437a15bf57fb718e39440",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/laptop-fleet-panel.jpg",
+    "poster_sha256": "98cf6e489cdd2708e17c2a68c9a10463b787c47590ff18a86083246e17252728",
+    "lineage_cluster": "anim-unused-laptop-fleet-panel-8nov",
+    "prior_context_present": [
+      "It has no written note from you yet.",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C005",
+    "id": "anim-unused-raw-eval-reframed-8nov",
+    "source_line": 4010,
+    "verdict_timestamp": "2026-11-08T00:57:24+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C005.json",
+    "shown_sha256": "f6b00c98bf4d1d5d55effb76512b0ea724cc390a7130496aff1009680e80ac90",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C005.json",
+    "input_sha256": "603d6d0184d9d9474e990e000bd47d995793878e3a5d3d343170a89afeb68e9f",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/raw-eval-reframed.jpg",
+    "poster_sha256": "aa2e34a3761779aef5daeaae309b5986b4688372d8be802958ca7c5881d83fd4",
+    "lineage_cluster": "anim-unused-raw-eval-reframed-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"And also in very red in my face\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C006",
+    "id": "anim-unused-style-folder-8nov",
+    "source_line": 4011,
+    "verdict_timestamp": "2026-11-08T00:57:34+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C006.json",
+    "shown_sha256": "dbf3eb2bdb2bffe9c0f736fa99bd61c717168d2b936c4b227eb59335c38b6a7d",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C006.json",
+    "input_sha256": "488cabf05b74bde5be058e8de79541abf54d9919f600b7955d534cd2d4410079",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/style-folder.jpg",
+    "poster_sha256": "1a45e4094710adbc7ab282ed93d95d35fb25a1633374a99cd3d9d4d9b0362629",
+    "lineage_cluster": "anim-unused-style-folder-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"this folder is defeintly one of our statement animations\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C007",
+    "id": "anim-unused-unslop-real-ui-8nov",
+    "source_line": 4013,
+    "verdict_timestamp": "2026-11-08T00:58:06+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C007.json",
+    "shown_sha256": "f94633039bd2300182775a7f7d55fda450dc969fa348715d290a5a516e8db571",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C007.json",
+    "input_sha256": "c90247dc9186feb982382dabbbf25669e138ca48f54a7cb5ad35c63ac03b8c57",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/unslop-real-ui.jpg",
+    "poster_sha256": "3f0f37ddf6f9f756d58eb1130a06793509da827e8eb8053613a4408f7e044f23",
+    "lineage_cluster": "anim-unused-unslop-real-ui-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"Too red: and in slightly done with this layout\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C008",
+    "id": "anim-unused-books-orbit-8nov",
+    "source_line": 4014,
+    "verdict_timestamp": "2026-11-08T00:58:19+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C008.json",
+    "shown_sha256": "c71375474426010e30c07fb7463f32c99d90d6f389c68d8f44e4086250ab0758",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C008.json",
+    "input_sha256": "438c0b9109c397d8cab3ae7680b035c2318930fbdb6b60d2e17d983d82c79d01",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/books-orbit.jpg",
+    "poster_sha256": "5bc2e8fefdd0ce4e0c2478641fb2dd4aea3a90b5f66e4545912a29a2e520677e",
+    "lineage_cluster": "anim-lab-20",
+    "prior_context_present": [
+      "Earlier you wrote: \"it is magical, perfect done!\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C009",
+    "id": "anim-unused-close-object-8nov",
+    "source_line": 4015,
+    "verdict_timestamp": "2026-11-08T00:58:35+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C009.json",
+    "shown_sha256": "637623138246841216f2df98f01219caacf8fa88692cf5cc327a6be5680c453a",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C009.json",
+    "input_sha256": "58af6e70e27278e2a55a56da8f93133a616b8d15be05eb1e225f422b5f3aa452",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/close-object.jpg",
+    "poster_sha256": "35c69dc8a617b1e1b5c74d92b117611fa47c40db07b06e8924ac8c8a3b3c0530",
+    "lineage_cluster": "anim-lab-20",
+    "prior_context_present": [
+      "Earlier you wrote: \"GREAT, betufiul\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C010",
+    "id": "anim-unused-ep7-batch-five-8nov",
+    "source_line": 4018,
+    "verdict_timestamp": "2026-11-08T00:58:55+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C010.json",
+    "shown_sha256": "211a019f2d34d44b83e0d2da8ecbd5f97956b9ddbf27b396988810a5db32626b",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C010.json",
+    "input_sha256": "fbb1194c244bdd4c66e138435f7748467ae63c84012024d2e66cc600934f9f48",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/ep7-batch-five.jpg",
+    "poster_sha256": "346c77f75db2f75f88d1f5786c5abb684e3d107272675d41e35b58c64fa3f245",
+    "lineage_cluster": "ep7-batch-reels",
+    "prior_context_present": [
+      "It has no written note from you yet.",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C011",
+    "id": "anim-unused-screen-ribbon-8nov",
+    "source_line": 4019,
+    "verdict_timestamp": "2026-11-08T00:59:03+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C011.json",
+    "shown_sha256": "2353bf022cd021ce05566ecf3d1caabfb1db36a3c6b165d1e14596adcffc4025",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C011.json",
+    "input_sha256": "3d411ed313b800a4cafafe68aa6d46c447b46597b1d639aa2747294b4b7f9ec9",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/screen-ribbon.jpg",
+    "poster_sha256": "366c4007e88d474c9cf7594abae9ce3369661768d547822c2eca108a67f8be3c",
+    "lineage_cluster": "anim-lab-20",
+    "prior_context_present": [
+      "Earlier you wrote: \"Beutiful, perfect\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C012",
+    "id": "anim-unused-ep7-batch-four-8nov",
+    "source_line": 4020,
+    "verdict_timestamp": "2026-11-08T00:59:18+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C012.json",
+    "shown_sha256": "5c387be5a669c436112a7ec9f5bab7005b799d9be097f3f3411fade43960c661",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C012.json",
+    "input_sha256": "18fc081ea339a907a864c6f5f79834557f8a5794d464aec67d6137245423863c",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/ep7-batch-four.jpg",
+    "poster_sha256": "336a1cee68dea486076ca4a9c354e4e2ff4f25cec052740e03097269f47b4ca6",
+    "lineage_cluster": "ep7-batch-reels",
+    "prior_context_present": [
+      "It has no written note from you yet.",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C013",
+    "id": "anim-unused-ep7-batch-three-8nov",
+    "source_line": 4021,
+    "verdict_timestamp": "2026-11-08T00:59:26+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C013.json",
+    "shown_sha256": "1474cb5da111bdeb60066a21320ff32d89eea105444dddbf6c7563e9266afc73",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C013.json",
+    "input_sha256": "a4b0ade734705662df9171b712abe9521651a005a1374401371c630c41095ae4",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/ep7-batch-three.jpg",
+    "poster_sha256": "12d8d623ccaeb40b2f6f41851a9996de887f3f6b054596b424540b5349c354cb",
+    "lineage_cluster": "ep7-batch-reels",
+    "prior_context_present": [
+      "It has no written note from you yet.",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C014",
+    "id": "anim-unused-ep7-batch-two-8nov",
+    "source_line": 4023,
+    "verdict_timestamp": "2026-11-08T00:59:38+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C014.json",
+    "shown_sha256": "46da1f9e110f39c20bcce9609f2330d9a38cc34da7649b65ff50450ceae70504",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C014.json",
+    "input_sha256": "b5052b9db005817f2d1f8705f1eed1fa9931588ce3606eb7356983e364ea64b3",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/ep7-batch-two.jpg",
+    "poster_sha256": "a994a042f6b75795572a66cce28089537adb6c5764fbb9631a50dab92cce6c93",
+    "lineage_cluster": "ep7-batch-reels",
+    "prior_context_present": [
+      "Earlier you wrote: \"ok now we really talking I LOVE it!\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C015",
+    "id": "anim-unused-ep7-batch-one-8nov",
+    "source_line": 4024,
+    "verdict_timestamp": "2026-11-08T00:59:44+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C015.json",
+    "shown_sha256": "28ba95bed5439ebb67022312955d7e5d8c7434d3d87af4bb7ef3d3d4967ab456",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C015.json",
+    "input_sha256": "27bb7a60c03accfafdbb85deaf2cbdb01306d403f34870c1c31d171f694c7995",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/ep7-batch-one.jpg",
+    "poster_sha256": "3731f021d0f70d6e2d285a0e7b60861e68383408bd70d32504aaadbf86d026f6",
+    "lineage_cluster": "ep7-batch-reels",
+    "prior_context_present": [
+      "It has no written note from you yet.",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C016",
+    "id": "anim-unused-micro-panel-8nov",
+    "source_line": 4026,
+    "verdict_timestamp": "2026-11-08T01:00:05+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C016.json",
+    "shown_sha256": "e4bdad96b7d46f8db36c23f73be2bc234001d80e2d2c31f55909f1bf537359a4",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C016.json",
+    "input_sha256": "fec0df9338d31ee07f28ea5e2f343274e36f4b1c91630c54ba919f4235c06a14",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/micro-panel.jpg",
+    "poster_sha256": "4dcee4aa8f6a63ccce1049fe6d0d66a4cceac006094c8aaa5da44a5cb24b00be",
+    "lineage_cluster": "micro-animation-kit",
+    "prior_context_present": [
+      "Earlier you wrote: \"Beutiful, great stuff\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C017",
+    "id": "anim-unused-micro-tokens-8nov",
+    "source_line": 4029,
+    "verdict_timestamp": "2026-11-08T01:00:29+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C017.json",
+    "shown_sha256": "95e289d6a0e6777e69ca9449d573c2498b5ee30d39f0cd00e33bb86340c1b6f7",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C017.json",
+    "input_sha256": "52f56f342a571247a2a8eb3b63f3b4c3228558b644f52374f4ecd93e5bc39dc4",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/micro-tokens.jpg",
+    "poster_sha256": "32ee209ac40cf76c3f8cc1a13155c4042396a5f4ac4f94edf4e5289b7fc68770",
+    "lineage_cluster": "micro-animation-kit",
+    "prior_context_present": [
+      "Earlier you wrote: \"Beutiful, great stuff\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C018",
+    "id": "anim-unused-x-post-tokens-8nov",
+    "source_line": 4031,
+    "verdict_timestamp": "2026-11-08T01:01:13+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C018.json",
+    "shown_sha256": "888e60194ea502157f86eed082703f918cca927467166c6626cf47f58138c0a9",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C018.json",
+    "input_sha256": "b7d001f512ba51f563e08077533346e31613df3b518c0713facbae8906aea4e4",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/x-post-tokens.jpg",
+    "poster_sha256": "591b0db06a81f0a7acd5cf8fa4314fcf5b2dbf40a6f77d16ed290a106e6030e4",
+    "lineage_cluster": "anim-unused-x-post-tokens-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"great animations but i want to show the actual UI\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C019",
+    "id": "anim-unused-cmux-fleet-8nov",
+    "source_line": 4032,
+    "verdict_timestamp": "2026-11-08T01:01:24+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C019.json",
+    "shown_sha256": "bd65f0a09a2764e662189a93c9d9d23f6b778b2afe01e1092611da996ed7840b",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C019.json",
+    "input_sha256": "c71d9b3d889d990a1814f6f4738b33235959ffb4695cd7edcaacc87652e4536d",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/cmux-fleet.jpg",
+    "poster_sha256": "a23c9a8d67b5dfbd245b2f3fdc518aba3bf4dd47f7a95e4cd7a9b6aae53b9a6f",
+    "lineage_cluster": "anim-unused-cmux-fleet-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"this is beutiful, this is a simple way of showing\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C020",
+    "id": "anim-unused-token-odometer-8nov",
+    "source_line": 4036,
+    "verdict_timestamp": "2026-11-08T01:01:48+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C020.json",
+    "shown_sha256": "3b8bfb133c2756fb37c1033ac6aec676add895139c1bae0d6e3c931cf18808ee",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C020.json",
+    "input_sha256": "44e1915c45733a14ed26a51098e143d84ee6fa523b6ed62f462db4af39a4a2a9",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/token-odometer.jpg",
+    "poster_sha256": "084b6190603f590af8f4afa9ed27ebba6a3a3627a6f343446cc97ebf88b772cc",
+    "lineage_cluster": "anim-unused-token-odometer-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"ok this one needs to be LONGER, more fun animations telling about tokens\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C021",
+    "id": "anim-unused-token-story-8nov",
+    "source_line": 4048,
+    "verdict_timestamp": "2026-11-08T01:02:42+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C021.json",
+    "shown_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C021.json",
+    "input_sha256": "f189a358e2fc5bb86f7d002952a9fd8813f0a20da0dca4b2770dc074a6e93b5c",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/token-story.jpg",
+    "poster_sha256": "6f2c9ac40cbc4aa35c666ac4244050b6b3f678d0e18fca79b28e6c412b76b2a6",
+    "lineage_cluster": "anim-unused-token-story-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"this is sooo cool, great job! we need better attribution\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C022",
+    "id": "anim-unused-rails-v2-8nov",
+    "source_line": 4049,
+    "verdict_timestamp": "2026-11-08T01:02:57+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C022.json",
+    "shown_sha256": "3adda71d117e2df770eddf6020b9d0ac48aa355d80aeb6a2b40a218056ecfe9b",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C022.json",
+    "input_sha256": "5f9a87e3c196d72b25db75d355ece5e46e4777f421eb612db990f6c7d3f588ba",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/rails-v2.jpg",
+    "poster_sha256": "b1cfeda8f180150c10adae52e3ca63e1d2c2a877c05ce4606ab2cdb710c0d035",
+    "lineage_cluster": "anim-unused-rails-v2-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"this is GREAT, but we want to show HOW agents are paying right now\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C023",
+    "id": "anim-unused-spend-limit-8nov",
+    "source_line": 4050,
+    "verdict_timestamp": "2026-11-08T01:03:09+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C023.json",
+    "shown_sha256": "7bec5e9d3bce87c06cfc0823081b1c06cf638d0e30cb65a9edc0edd7835d1034",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C023.json",
+    "input_sha256": "d2bf5c42e33dbf85882cf0b8dfed43539631b5150209e637ca31d1852800cc9f",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/spend-limit.jpg",
+    "poster_sha256": "67ac3deeb0696c43ed0bd4c34290111c6a982bc771704d5767d40faf38a2af62",
+    "lineage_cluster": "anim-unused-spend-limit-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"ok yes, this is GREAT! more like this\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C024",
+    "id": "anim-unused-weekly-limit-8nov",
+    "source_line": 4053,
+    "verdict_timestamp": "2026-11-08T01:03:23+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C024.json",
+    "shown_sha256": "3d1bbe2245f58d627e2c7906a7ea8b9b386163fc297610495c3b4d30737f0095",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C024.json",
+    "input_sha256": "9466b51e0ead507c4bec9987f35eb2a7a47c14bf5f6f7bd95f89fd59a9c00091",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/weekly-limit.jpg",
+    "poster_sha256": "7b782e94fcceaec446a1d836ce30fd218ab913e36830182d03dbf1624d388cb8",
+    "lineage_cluster": "anim-unused-weekly-limit-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"this is GREAT let's throw out more of this similar ones\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C025",
+    "id": "anim-unused-rails-8nov",
+    "source_line": 4055,
+    "verdict_timestamp": "2026-11-08T01:03:40+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C025.json",
+    "shown_sha256": "0e1d4a9320afb85b1e5a1f62af533e7e5cadb8700e81bf458d02db27397d10c5",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C025.json",
+    "input_sha256": "e70acf70f104e285e3c38490d4bb1ae39390cf34af0671e94840923d75db9a64",
+    "original_poster": "/Users/morkeeth/Downloads/PANEL/Unused animations - one card each - 8 Nov/rails.jpg",
+    "poster_sha256": "7130bd531afd538ffe1a97836579327866e6a581e0aca444c7c96247ef4f479f",
+    "lineage_cluster": "anim-unused-rails-8nov",
+    "prior_context_present": [
+      "Earlier you wrote: \"i love the idea, great BUT the unblock seems wierd\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C026",
+    "id": "anim-higgsfield-six-agent-arrives-8nov",
+    "source_line": 4076,
+    "verdict_timestamp": "2026-11-08T01:06:53+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C026.json",
+    "shown_sha256": "d308817290ea4b1ae46af6fb188d0be99b42ed952b79efe9b2dd9dbce3e56704",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C026.json",
+    "input_sha256": "d5e54d33f760c8cabcc7ad2d9156b7ee041cf2c8e0f3733d74bb4328ea3ee34a",
+    "original_poster": "/Volumes/LaCie 3 MAIN DRIVE/01 PROJECTS/Morkeeth/2026-11-08/ROOT-HIGGSFIELD-SIX-0058/still-1.jpg",
+    "poster_sha256": "d47dbcf4a3cdc35a5207bbb519dbe7474fd0b7f07d4144e3e6a3c970a55f6cac",
+    "lineage_cluster": "higgsfield-six",
+    "prior_context_present": [
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C027",
+    "id": "anim-higgsfield-six-agent-sweeps-8nov",
+    "source_line": 4077,
+    "verdict_timestamp": "2026-11-08T01:07:05+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C027.json",
+    "shown_sha256": "064e2de03f26d02373495dd9963103da6e372810e433484b411e7cc4602f5a5c",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C027.json",
+    "input_sha256": "57216ad324a988b3e7bbaf03790060208da0f0fd0b81c5d58480ca48831be5bb",
+    "original_poster": "/Volumes/LaCie 3 MAIN DRIVE/01 PROJECTS/Morkeeth/2026-11-08/ROOT-HIGGSFIELD-SIX-0058/still-2.jpg",
+    "poster_sha256": "76f91c846c7701764cb51fbe9bd232b78d8d69bc50b2494c138bb0eccd34554a",
+    "lineage_cluster": "higgsfield-six",
+    "prior_context_present": [
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C028",
+    "id": "anim-higgsfield-six-blue-line-8nov",
+    "source_line": 4078,
+    "verdict_timestamp": "2026-11-08T01:07:21+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C028.json",
+    "shown_sha256": "e8a010b145aa0a017d2e9e0fe1e7c31d0da64213b8857b213f23bb2d99ae1027",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C028.json",
+    "input_sha256": "ddbfc8a6eaf2b82aaab69bce837115cf23920c76400bc7031b2482b68e65278f",
+    "original_poster": "/Volumes/LaCie 3 MAIN DRIVE/01 PROJECTS/Morkeeth/2026-11-08/ROOT-HIGGSFIELD-SIX-0058/still-3.jpg",
+    "poster_sha256": "02d550e343ad0f44070bede6637cc9257cee17d08907989e074259af6e2c7387",
+    "lineage_cluster": "higgsfield-six",
+    "prior_context_present": [
+      "For a moment a vertical blue bar crosses the line before the skyline opens.",
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C029",
+    "id": "anim-higgsfield-six-cards-folder-8nov",
+    "source_line": 4079,
+    "verdict_timestamp": "2026-11-08T01:07:30+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C029.json",
+    "shown_sha256": "b49f099c6320d065b48a6750c552c50279adebe5e2ddd9182fafbb4adf49bbe4",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C029.json",
+    "input_sha256": "5745711250d81c359abc6c2c526eda9c7d11b35fd1d49a337ee9dacfad9d0993",
+    "original_poster": "/Volumes/LaCie 3 MAIN DRIVE/01 PROJECTS/Morkeeth/2026-11-08/ROOT-HIGGSFIELD-SIX-0058/still-6.jpg",
+    "poster_sha256": "22ca457375d3138f4fe47aa5c0d70d9fb99da0a4020d04183bae9f16762878d1",
+    "lineage_cluster": "higgsfield-six",
+    "prior_context_present": [
+      "The folder closing bounce is hard to see.",
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C030",
+    "id": "anim-higgsfield-six-notifications-8nov",
+    "source_line": 4080,
+    "verdict_timestamp": "2026-11-08T01:07:41+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C030.json",
+    "shown_sha256": "992c256cd80da5a2439a1d10fb9aa540d9589090e4604264caf2991827586316",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C030.json",
+    "input_sha256": "c4f9b8cf4735b7a20c22d1e060e311ac4d3887c1ea483cbd3317de949f9120fc",
+    "original_poster": "/Volumes/LaCie 3 MAIN DRIVE/01 PROJECTS/Morkeeth/2026-11-08/ROOT-HIGGSFIELD-SIX-0058/still-5.jpg",
+    "poster_sha256": "5733bc280d14b501efcad0de74921aa897f1521b57d6ff1c784f24c6e3c993a7",
+    "lineage_cluster": "higgsfield-six",
+    "prior_context_present": [
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  },
+  {
+    "case_id": "C031",
+    "id": "anim-higgsfield-six-terminal-night-8nov",
+    "source_line": 4081,
+    "verdict_timestamp": "2026-11-08T01:07:52+01:00",
+    "shown_snapshot": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/shown/C031.json",
+    "shown_sha256": "ff5fd66c1e1a4b0a6eae4b7f5c93af55fb0e77576a6a447568d0cd7f10c16a21",
+    "input": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/inputs/C031.json",
+    "input_sha256": "64e9a6ec601eb123b09a026b8f5314fa05e05b453d9ece99f3fd92cf03e78743",
+    "original_poster": "/Volumes/LaCie 3 MAIN DRIVE/01 PROJECTS/Morkeeth/2026-11-08/ROOT-HIGGSFIELD-SIX-0058/still-4.jpg",
+    "poster_sha256": "a1644b40f143e1126feb4cfafe878a40282a54e4a45bd3ff6f80cf4797f070c1",
+    "lineage_cluster": "higgsfield-six",
+    "prior_context_present": [
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ],
+    "media_identity_limit": "Shown card hash pins card JSON/path; current poster bytes pinned now, historical review-time media immutability not independently certified."
+  }
+]

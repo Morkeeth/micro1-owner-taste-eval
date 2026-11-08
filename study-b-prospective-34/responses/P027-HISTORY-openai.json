@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:05:24.407221+01:00",
+  "case_id": "P027",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "a4694c34d28ed61b17b035b8c74a60201d4bc746675a4f50a91fc5064f9d41ec",
+  "request_sha256": "06c1fa406333dccb9db413b4ddf2f9aacfac000c7df1ce6cf4a99141a92d7c82",
+  "reserve_usd": "0.093512",
+  "response": {
+    "id": "gen-1794139520-EiIj6J4ecA9O4YHurPyD",
+    "object": "chat.completion",
+    "created": 1794139520,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The weekly-limits concept fits topics the owner likes, but the poster retains the explicitly disliked orange-and-black palette. Their history puts theme changes under new content rather than minor technical edits.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing content themes**\n\nI need to figure out how to choose new content that's relevant and leaves a good impression. It seems like there's a balance between historical themes and technical edits, which can be tricky. I notice that explicit colors disliked should be avoided too. I should aim to give concise answers to keep things clear and engaging. It feels like there’s a lot to consider, but I’ll make sure to get it right!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing content themes**\n\nI need to figure out how to choose new content that's relevant and leaves a good impression. It seems like there's a balance between historical themes and technical edits, which can be tricky. I notice that explicit colors disliked should be avoided too. I should aim to give concise answers to keep things clear and engaging. It feels like there’s a lot to consider, but I’ll make sure to get it right!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GWE4KedCu6sheVcagqPTmKT1OXUSMr7UES563znASmasn-GYI4FwjVxWTZdhdhjNNVycoUgQEY26JiyOnc3tRTVR2Q2j-9kL1TS8xqK_k_sbLr7bF8pl2t3Y1h5OQDDm78y49N-4vcJsojCHTz96zT2KUW0Fzjr1D_fFV0o8s2-boMtlIZlfyYY_7Z6jqrJiOlK6UlJ4pEpvYGbvSqOdEbLpDHepEAb7mBaNtHtR9raQYrT5DiRQsESs03AYKkeue3iryhH77xo-0E6BjXaT3i9LFoO7lsEMax0AZ9ThRatTVaPGRPWAyd_uxQASvYJY76kXrGyIY8TGzneawjN_y1ZeAWx7BAAgHY7s0PFXDRkVuvR4haxrSoKeL8FfqxFoFSHGZqLiVjHEz6iQ-fA8Pt3m_XAsbnQA4g3nc2zb2at1nxKu1sRUFRA2P2W4QGu2_T6odaJFp8mqJvFGMb282w6skZhPN32djHmUy0wLBnWQYvCPZ3pOBp8SUd125Znotubd-Fmtm73SZQkgWx44Z0E7uLkQSc0wb-wJtqz8fWxVM63vWKnp3gkOXHx0Pv6BK4X5glNGcNTvkNTU6uAMbnU5Z5xCoon-txjzJJtuZVxQ7aZA8nh5cLoifo7Mk1J42gFXcljPr1O9tuaJwQ1dWiiQ07xiiCmXI_p2j9DKDQN6LptU70WfGYB3a5JTbmHFsPdLK5R-Fazjs2pbauuMvPlAXidodDkpQaJo_PExIXGVFIhkycXWOdGxApA0u0Munpy2k2isYkNT8Kn-f3uV9NOnJNPeh4EYPyaE_CMC6SFgSKjZkJIn1BlMM_h26Y9i8NDpwcN2zySRzwf7TdMGzrNz35lqen7_BTiqD_5BT8_kgKMoiINjtl5Dk7hnPgLCKCzyloGvcvnQjkn-hEQrUH7h7mk1hH8zJraYFzQHHSvJ0_5KspjOkDs3ni4GT1Nkm7zqnYLuNwW0J8-tjKLM5bItLGGeKlYGzf7W2PXgbjEv-TT-3szaup3q2wQ7Omg33dBV3ZEx46S3jA79hEu57EDXaX_iO6aQXFR6lSZC1cli-m7RchE1MVeuhty3SU8CBQEZwow00An8zZaRErwBD5JtMo866Z8sYoEUEfOLDQegSlxwRbwtwIsrI62xJPndi4G7aqzmNjrYAjt4uf4YlZzBwO97L8hHzE39D2EDGI_iv1aQKoyTKvzkiodJvAVkq1rliGRnsvaFjFptgsrFdeV4Lcf6PQeL-J7ThMV_JpKhXtaaUI2QecRvNLrBq4bT6rheCxkJ1IWEy0BsQVOxpckwMrOpdH-rzuQRXM_BL9XafySoXKFWnht4Cm1LSeTv2TuqDvrRMxlQV1J6PbmwSkpWOrkgulrZsc-a0y3YQYvcbYvc8frDOoSKh25eJL6fSrTG5P4Un7u2KN-w7p_pLjtqt7_BKakgi9JWSfvgZMQzlAMfVZRYYAVqaLNakXXzza7kUCWLGaNU80Nd4OFKBaGoLqFprrV3s9Xy_dTAHXQTp2h6vZxadP1ctSoVgmvcZTSeZVr9mx1ufKPn7tA4FMEkdWBXrDeBMlwNqpFNm1vAeOLjj0hpK_GTAGPMGDtfBMxkrdb8lqZtUlDjpP4uO70f5y03F3V_0oC7J9-VTZbXtR1SHmus3H0d8VBeYnlCTwoMP_-gpy9c8kw79TJRGvxF-HkJA8wUroTFuIef835bzdKqfvsh1hQ8Nxr9aaZ4Z_DmVtPjVFmvT8Y_5oDsnK3mIgxZLpvCzNL-iKONpH3po3vn7fdVWtR_65ZYYp4PaM2oAUqv2SGk9ZMZJFdXfIh7Dr3L4HfEnLqAj5Zsr2Rzq_Y44pV2uAoUdwftDrs6D20Plf63L3zXppsP7h-ATuJr_JK11Ry0MGndLLPjorPzNzflWS87aJT1q2x7FIwdIgLlT9sFd-cccFHZSChpDIvb2-b6Qa1rJvZyuPjIfttYsoag5pDblsuNUtRQ8VikIYVM-8OEpuy8dYFc6UoSIj4ujwFm4h-pTBKNomsJECAveiNms1ABIUXciLTKQMxXhDmxLJB7_bKMzQRq--jyYRZlC-e47qN9dtIEelF4O2-OzrwRCGFM1N-zNOj6-zMF4uaoNoGiNh7-ZALbPfvRmYpXPtfw7jNjqtOaVhJJ95sP6o0V8V_F0DUZGrUdsD2Xli4.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_02be84b416c96a8d016af065821e1887d187582eef250c0b86",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3499,
+      "completion_tokens": 86,
+      "total_tokens": 3585,
+      "cost": 0.009606,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3496,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009606,
+        "upstream_inference_prompt_cost": 0.008746,
+        "upstream_inference_completions_cost": 0.00086
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 28,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009606
+}

@@ -1,0 +1,23 @@
+{
+ "case_id": "P031",
+ "shown_card_text": {
+  "title": "cmux, tighter and without the agent",
+  "what": "You marked this for an edit without a note, so I applied what your other notes asked: the walking agent is gone and the dead time is cut. It now runs six seconds on the same real cmux screen.",
+  "why": "This replaces the version you sent back this morning.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+  "context": [
+   "Picture only; the episode or Short adds sound.",
+   "Earlier version and your answer on it are kept."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P031.jpg",
+ "poster_sha256": "40af366499ad1329af88a5e760828c2976430d5599482d65faf4b2edd4fcfae6"
+}

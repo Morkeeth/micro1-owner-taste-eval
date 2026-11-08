@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:32:35.417555+01:00",
+  "case_id": "C008",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "438c0b9109c397d8cab3ae7680b035c2318930fbdb6b60d2e17d983d82c79d01",
+  "poster_sha256": "5bc2e8fefdd0ce4e0c2478641fb2dd4aea3a90b5f66e4545912a29a2e520677e",
+  "request_sha256": "7bfb0ef816ab82e95740812e1cb37ecc7ff2187648825e89f61a60f303bd9410",
+  "response": {
+    "id": "gen-1794105151-BIATv1QNQ4cMXKoC1oP7",
+    "object": "chat.completion",
+    "created": 1794105151,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner already called this animation \\\"magical, perfect done!\\\", and it was only left out of published work, not rejected. The single poster frame looks polished: clean document cards orbit the speaker, who stays mostly visible. That points to approving it for the Shorts pipeline.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1907,
+      "completion_tokens": 109,
+      "total_tokens": 2016,
+      "cost": 0.009808,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009808,
+        "upstream_inference_prompt_cost": 0.007628,
+        "upstream_inference_completions_cost": 0.00218
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009808
+}

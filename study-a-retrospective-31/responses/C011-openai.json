@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:32:59.170900+01:00",
+  "case_id": "C011",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "3d411ed313b800a4cafafe68aa6d46c447b46597b1d639aa2747294b4b7f9ec9",
+  "poster_sha256": "366c4007e88d474c9cf7594abae9ce3369661768d547822c2eca108a67f8be3c",
+  "request_sha256": "db2708c09607ed0a75841bf61b0fb2f3a40b107db30a47a10361258337a296d4",
+  "response": {
+    "id": "gen-1794105176-zCr6co8NIpVR61EyNPou",
+    "object": "chat.completion",
+    "created": 1794105176,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier “Beutiful, perfect” is a strong approval signal, and the poster shows the screen-ribbon concept with no obvious need for new content.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1435,
+      "completion_tokens": 53,
+      "total_tokens": 1488,
+      "cost": 0.004116,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1432,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004116,
+        "upstream_inference_prompt_cost": 0.003586,
+        "upstream_inference_completions_cost": 0.00053
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004116
+}

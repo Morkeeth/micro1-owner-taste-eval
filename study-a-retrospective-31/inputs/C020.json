@@ -1,0 +1,23 @@
+{
+  "case_id": "C020",
+  "shown_card_text": {
+    "title": "Token odometer",
+    "what": "A counter rolls through the tokens used, project by project. It never went into a live Short or a published episode.",
+    "why": "You asked to see every unused animation so each one gets a clear fate.",
+    "question": "What should happen to this animation?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Watch the clip once; your answer decides whether it goes into the Shorts pipeline.",
+    "context": [
+      "Earlier you wrote: \"ok this one needs to be LONGER, more fun animations telling about tokens\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C020.jpg",
+  "poster_sha256": "084b6190603f590af8f4afa9ed27ebba6a3a3627a6f343446cc97ebf88b772cc"
+}

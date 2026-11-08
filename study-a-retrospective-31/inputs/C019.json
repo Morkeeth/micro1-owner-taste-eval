@@ -1,0 +1,23 @@
+{
+  "case_id": "C019",
+  "shown_card_text": {
+    "title": "Six lanes in cmux",
+    "what": "Six agent lanes run in cmux and each one reports when it is done. It never went into a live Short or a published episode.",
+    "why": "You asked to see every unused animation so each one gets a clear fate.",
+    "question": "What should happen to this animation?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Watch the clip once; your answer decides whether it goes into the Shorts pipeline.",
+    "context": [
+      "Earlier you wrote: \"this is beutiful, this is a simple way of showing\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C019.jpg",
+  "poster_sha256": "a23c9a8d67b5dfbd245b2f3fdc518aba3bf4dd47f7a95e4cd7a9b6aae53b9a6f"
+}

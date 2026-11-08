@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:02:57.540024+01:00",
+  "case_id": "P019",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "4f29db16b6a61ca79c52ce2b003dab9864d1764e52ecc9942c910fc93409334e",
+  "request_sha256": "78081a5721fa10178846e7e1eb95128ec5bbd3b6d41661c596553574e4511fc5",
+  "reserve_usd": "0.098760",
+  "response": {
+    "id": "gen-1794139374-VGD3sJHDS0mzfBeGV70P",
+    "object": "chat.completion",
+    "created": 1794139374,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, legible four-lane cmux visual that matches the terminals topic, and the recommendation calls it a clean fleet visual. The only caveat noted is the shared green glow, which is minor, so the owner most likely approved it.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1924,
+      "completion_tokens": 103,
+      "total_tokens": 2027,
+      "cost": 0.009756,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009756,
+        "upstream_inference_prompt_cost": 0.007696,
+        "upstream_inference_completions_cost": 0.00206
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009756
+}

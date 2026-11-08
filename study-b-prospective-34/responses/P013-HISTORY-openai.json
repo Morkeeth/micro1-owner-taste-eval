@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:01:21.007744+01:00",
+  "case_id": "P013",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "439efe1085ce8968a19c38b2f4d5010ee9a431a175242f7a16a826bf95f4e3ac",
+  "request_sha256": "0bae19f85748c70eedf760b86c504738522240666e62524d42c7c70e5018f4f9",
+  "reserve_usd": "0.093188",
+  "response": {
+    "id": "gen-1794139276-frIb6qtN8EpyiA0LyFoW",
+    "object": "chat.completion",
+    "created": 1794139276,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The generic window-stacking concept and muted placeholder panels resemble the rejected screen ribbon and folder shots more than the distinctive agent animations the owner loved.\"}",
+          "refusal": null,
+          "reasoning": "**Considering design options**\n\nI’m looking to pick a design. I think having a similar screen ribbon for the folder, similar to how books look, could be effective. Windows in generic gray make for a boring image, honestly. It might be cool to have awesome reusable shots, but I don’t think that’s the right direction. I need to settle on a design that includes a short, grounded comparison to help clarify my choice.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering design options**\n\nI’m looking to pick a design. I think having a similar screen ribbon for the folder, similar to how books look, could be effective. Windows in generic gray make for a boring image, honestly. It might be cool to have awesome reusable shots, but I don’t think that’s the right direction. I need to settle on a design that includes a short, grounded comparison to help clarify my choice.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GSQtR3doGvS9tBM3ysHrIqlUjlv29hkWEsWXeVNnAH8EQX2yYhzPLs71JlpedWLcQ8F4MuN6GlUF1gmRQJq3sILxpJltVmBen5sIq52_QL7hZ82GF6zewsix1FHGHFT7PYvN9dtTgwoPCB3zSUSyFohBGzC8_n5wGFdKWyd4Dt-A1DYThokAckIp4BHWF3PDAl6oxcEDlDaG7u80OjDdrn2XeIBG3nQimxlwxTVnNsZNIRcA3r-7-Xt66MZeJYHEQ6w2zXxUtygohNAgsccOMjt8Ct3B6lzW7LpsUAptfEh5FcmHdV9sJbV31kQn0ZVcYYDKIv30HcHaaL0a1PLU7vHVPdRbXZhCBtc0hetVBS3F5TTLJJs9xLls6fdBnPbMTG2WaUKJDmBOm5eNbE2eYhJinmjiuNqXuILMw86jcbsECKC8ArSqMAD0lcLmIsMzk99l0vUGlvi16iZ_-7fd1vrsWfhnEWADDMooWYawAtXjj1WR7_s_lA0nQWzDLgvN3MoQG38QCBzyZG_EBqT_5DFbPIwQ2hgEPWp18yXzO_j-PEO2JLHd5LhbedJxJAdOUWAVYMivD7RmVt3fqE5u1yKTr4_U_IWh5_hbEuftPUKIIqcuV5uKH6KpKoJpU2EVttQLu-tkIo_l1B9BHo806O7LjSJxgeP1cKzJgiBix3oIViyelLeZ6yztUEa5ZLl8jNzb_fTzP8_ncKu1fJ8PpXHxqJo-4UcOEqzRYFWWB1KJkzCTmOAqPLvPvZuqIwjMVb2ONvfyuq6ASW3jMOnDHOAcX_rVqnlM_zD2ekEuneo-HUUHpgy8mStWWP6Wj6V6LmgM4pLRbXyoFEnXOzc5xxkEzOfunKEtyZTnDV4gf7QA3r-7KFdQxg9VHCngreG24g5bFQuZjO_eJxX0bzRrvKG20CHmr8Z3UqMpy7_qSlpqW9zqmsmbAd4AYBYgfOm0QKL2KvwtyY_d3i7ZrbYUSLe2YATsNTTS-YWijJlZsYGBtZchDym2qFAVqPc25I4ze8hNzEyqKO5Eswyxf3pchizQGPp1_tUVI7weU9f0FoV5DAvcDlPo8Z8SSLaFAf6GgB-cTRk-iiUDUPvkJTNSn5BGOgTep7ETxAdm7VN0Vxuyw6N-_knWbPkwzEDYFg7V8QMqWaggrBIgh6WiRdmzXSD2F-qdQpUEihztGdZSxs4_6at8q6yzLh07hmlH-D7zHqnrhBQeHB0bL597NhkNCVlQNB4nFwfDb4A5D8djYgpKbU1OKd8yrmnQbFN0JMvlDG6FnkWAR4bUCiQKH31uDJ6TBirkykBX-034DO-RB0eXOAoXzZsRCKKLnopnwAK6HJr1TF4v3bW23LnuJktTBji1fBgFFCRaI__3u8MWUrH_UolwsOwLfoTKW_bZ6V9pmyLbM6dZ15z0dEGzem6AdCtd7fD4ustLp2BZdVpArW0_qAudxxeapC0uNROJFYRaqiuXv5XjUtUVjeL3f-6Kr5gOhpTsIPRpIUPFjyPs7EOzz40USsqvvn8SMhHCS8VSzLTQBLGnGndhlAJCzh7GTd5Yb6Ugm83Tx3R18NIum3HgOK14ljd240PMRHUsI2aCwrRS9eIjOBVrDf6zX3w8nNdv_DQh8Y6q-CXOXJYNdEvHL50Zu_Qgt2TnuVjFkNBCNMWAp_2-rUcoru8YCptBZWKbCdIMUUryAxPgd0HSztDtpZVQvrSJVFjKboRTFxndUiIOiKmIeobfSwrDYG6aJptYds3R7SSAdvJMejSeyGsVuHa7cuO6hACHEPpEtr5xnYebJots1NOEUVPIMEhOAmWBCpHmnz2kyeBz35IyGe4xSTQJKd8dHfnnhnXefXskN6DIVOgtsLPXR66PnQj-1u6faGzx_cZdE2K5rqfCmO1h0rK7sdvNgItN8Fe0b6pda4TMj63L_DyH6H_D5bDihv1_5QRBMKOgsm3AqYOvv72ogfOCuwJL5T5mhg9Sq64IM6HAtGjWrI8WPhLuZy5bl73tqn45Mp3aABNPB7LWUg3lUZj1PGPWQX9kyYY5tw_Q56_2OA_c_GHtRFZZgbdVQ_Qyb1STeoV7c9skv3EdSkf3e8KGYYBMrm5eRO8kyeVQwK5r1dVys5oFUAORd3SNvJP6uNnarpa_sLjfp7y8FOoKxebP8Cbe9kuRzEdHwlr1uSxg73sqPMswX-SWl33CA7uAu2m70X8eB6UOInXNoOoVY0qtWkliK2BCmGvhw-I-drPdgOHDYwN2ZbpohQ6nXV-rooLvcPPrD4_kTtdVw880xuhZqLR8Zj7-HrglM-bUZwcx2Gb3gu2973jA8Q9dja_6I3CHibURbSWxl1V8fxUJfMAB6mf65J8s8yp_RKhbU94pzUZiL2MvtyyOcjNJV47iA==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0213ad01d15af22a016af0648e1ff087d1be0a6f5048395c59",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3487,
+      "completion_tokens": 93,
+      "total_tokens": 3580,
+      "cost": 0.009646,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3484,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009646,
+        "upstream_inference_prompt_cost": 0.008716,
+        "upstream_inference_completions_cost": 0.00093
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 44,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009646
+}

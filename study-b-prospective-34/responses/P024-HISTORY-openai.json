@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:04:32.276888+01:00",
+  "case_id": "P024",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "b85d16e5b4236f15f3cac0faf275326d96e03497e9dedf3079259718dbcbf238",
+  "request_sha256": "c006b8f409664a1b8f1b88048027c9dc89d462bd672c7ef47d8cc15628c0b51d",
+  "reserve_usd": "0.093652",
+  "response": {
+    "id": "gen-1794139469-BOqfO2MyqA1VEhyr5CdB",
+    "object": "chat.completion",
+    "created": 1794139469,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner consistently approves reusable pixel-agent shots and especially praised the runner animation. The poster’s simple agent-and-blue-line composition fits that established core visual style.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3513,
+      "completion_tokens": 51,
+      "total_tokens": 3564,
+      "cost": 0.009291,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3510,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009291,
+        "upstream_inference_prompt_cost": 0.008781,
+        "upstream_inference_completions_cost": 0.00051
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009291
+}

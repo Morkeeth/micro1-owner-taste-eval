@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:03:01.300493+01:00",
+  "case_id": "P019",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "4f29db16b6a61ca79c52ce2b003dab9864d1764e52ecc9942c910fc93409334e",
+  "request_sha256": "cd3d8ae733f4acbaae419383eef0caa0e52ae2da6b5244c4e1aa9e0b6d42bfb2",
+  "reserve_usd": "0.059620",
+  "response": {
+    "id": "gen-1794139377-O3ygMnV9thhsLkEFLQvZ",
+    "object": "chat.completion",
+    "created": 1794139377,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The four-lane layout is clear and reusable, but the repeated green glow flagged in the card suggests a visual-style adjustment rather than replacing the shot.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating design choices**\n\nI'm considering whether to pick a plausible edit or go with an awesome design. The card recommendation creates a green glow, leading me to suggest an edit with a green palette. The poster has a basic clean look with green lanes. It seems likely I should choose the edit due to the recurring green glow, but I feel a bit uncertain about this decision. I need to keep it short and grounded.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating design choices**\n\nI'm considering whether to pick a plausible edit or go with an awesome design. The card recommendation creates a green glow, leading me to suggest an edit with a green palette. The poster has a basic clean look with green lanes. It seems likely I should choose the edit due to the recurring green glow, but I feel a bit uncertain about this decision. I need to keep it short and grounded.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GT0_JuUDe3CVwT0rLgPt6_gU0nDtaJzj4GsKhPDRs6Qb8wtKoSYPaMEkPpvcsYhDB9JlVOLaHW_nLGmKO17in7gEZZlaAZrdUMDKkey7YGnItWLFv3XuQkMFkZ5EEbqlFff5LbwtvWZuhhwTtATKNTPYb1WhFNX5mLfM6AdcVPfPHufF7kdeMQKGB_wSUTPxzO-U0GjKC9Ui-SpEV8V1eO-6VLM2a7gDUFzQxXGxc9w5GTOI3VCfNZqZhq93XTUnlSWK1qtzhXpU1KV3IrqPf8bdilogV09Xn984EFjqUfieZnwodvHkrQaKKU-hsFugtLaSDGFd2F4_UfNUbp3Tlsdba6u6TiDbJIIBy8E6cHIKodwTC1rgHGVjXUSF6fJl0WmtR26O32dZ8zbaI5EIoiaOD87yVnUsdtcOuhsc5JpJ77GAnL_Fl0e7WFZI7wWa3nm6gXXP-mVi_SwvPE8DXPCWltOJGy-JSVByP5ztmIBNfoTwytudJe6eVjbWrE6bd1LJy9ytzdURLP0EqF3Car_toqldd1ejHGqU5O_afJOV2XnzLVqvwgvcy-mFlqXxLpu1KJVpg3roWqxR3qV9cgJm-RT5W5MnuFqBFEzfU2RK4jChH2J_EAjSxQ6EiuPgWbatSr9imka8kFMSp5vxOvzfMSweLTE7W8L6VMm3mprJpGgxgu9-2hSbnhN4oAmkXIeKBbDp50rmXAEG-IrqCbr3tFpZ3dsMzHV5p5QNTzVu5AcGWBt-zQ8VzAfPKgYHIgNG3WAU6lSPx5oUYjuRCCvod2UPyAie-4yIS3nG_TAFIDFWD8_dLkkXh211ZQkjbeiLE9QL29yFsRfVyETTeO0MUj6tTgy5m9nyOthYeOxhDrCKlQzWKw4N2ObA5EhLK5cC1e36Xsd2J1Ps-lBC4Rj_UXb18p7nCP8kr6OmZwmdte90Euda5VLi5K1hHUsvlvJzD1VW58nqYs2Z0uk-FaDNYaossP6ykeTLlS6i8hxvZNhVuLZD_bEaBaJhBWu-jLYsISE1m33yfIFmpLyeaVqAJTUDCvXJTOX9rjVxTKmrJ1xvuN3NNszAlyS6YNXISms1boKnI_DNgxQ5xt_hTkyfuJFzS2Ho0EDNX1jfyfXYfZcopVkqsNbJrC7I-y-YS1CjVM32glJalKIW2D_-BzCrHK90H3lzG8fdqsEFIn7kRTInfRKS5E_cZhMctYzckHK04gZtdSP5osPcBPXkx35ti-xqPI0lGHgwwAmNwp1V4F0JPGRlrxPZVGJqS6MtjtlY41ajbH2LnU8Do2gltBxkQRxDSxejtdYuGhLU-5ntEYhIrTpHXddYcJm2ANZJ5DCmOdK2MfBM1aY4nOAcgoFpH5W3m6qu6HrY4zZVOFlBdlrqI8b6hNmye-ORYUvWeq-hrkph52whKSPzVEhnPoz_sDnztrCl0IzeZhOTGlkGE6ctVaoooceyB5z8b-gWesU7JZHMPo-8CTRmjRSXH73GAbLDGW4tNFA3H33GVwTf7Rj6aGp_-888vl_vvwexhQXQmr_-NBpjfKZooVCJKSla2jvCRpDeHCbWk7T5p4buDn1T50XWvghjLAJKsFxbnJ7C4hx8KHV-qUrmv3wKd54o7qZ2qjJOlL4Vcf43B9OYfMLZdtqW3l8-F55QcNwAGmHR7cP85LU5ugFu84ml7xsLbm2mBclDbCWK0TyFKhol_EsPd5yol69-uNr2v6B1TTh3mbQRioKTfs-C5yqwLwpAzITCIr5uMSfk4R63GDkJZseM1i2lgsjWMN9zcuOAFsWNTxYuEXnWEIwj1gYOAtGKRXFcvWXl9xDRMvL8JWCpbqMQkC4WbHPrldXkqbEpGp5wDIKAA5mjHV-P7hjblByG0CxLV3AfVH1BDlj2wGtB3_yQtrgcAI6j_iQ9jErRaMwhSYhlZBO2mf7eQPyiPOWSNeXzXKkg5ocycqDEOi3EYuckY5Fpc5ZvasS_4VQijakfjaw1s7WvdqKlsEfWPgbO--p9MAuUbpTDJ8sNdqCl_43yyq-Pm7FFKGmUHUfKs6cPgJRz2uagrG2L3oPm2BCKAHy6NkBJQCD59bdn22BQW_G3vNiUOZNQPJqL6GJ_691UVqHWTsgH96e9Wzdw39ev7PXGVjDVmNaLiLFz_RunVGxSnbLT0aa0C6__vWiqA9gRGKLQFgxvCW-StSObjME-Tcp-C44pw9sVdry5u87DPsIs0bKPdLDvRcaQFpibiLI-tNgaWRRdfoaBHnEXWAxCIDzM7d13pjJhGv_T2Fcpp5jM_-DCTDa0qMiQNJxmq31PFU5DAHD4NXbLmaxsPUJwmOGhKrAdIVHyDt9BWszreHGTTojdGhCjOwceXgdE1fJYdzIr9lM2AMjavWy9EYSgVnft7r4su39eRQW3SUD3qY=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_06bb2d1bad49ba13016af064f301c087d1be99d31716c0ab74",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 94,
+      "total_tokens": 1538,
+      "cost": 0.0045485,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1441,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0045485,
+        "upstream_inference_prompt_cost": 0.0036085,
+        "upstream_inference_completions_cost": 0.00094
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 44,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0045485
+}

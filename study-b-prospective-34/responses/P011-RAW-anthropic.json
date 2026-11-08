@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:00:27.059744+01:00",
+  "case_id": "P011",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "5299c7a608035d34918a4379b8068ebcc93e3c3e3fd14520a06840e5c8756152",
+  "request_sha256": "c89e18cb8c52e64d9afb65bdac31f185b6b48162781a0db2e7b99d92d45adfbd",
+  "reserve_usd": "0.098712",
+  "response": {
+    "id": "gen-1794139221-VARWeA3Y1bOGhihrVCqk",
+    "object": "chat.completion",
+    "created": 1794139221,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The concept fits the reusable-animation request, but the poster shows the browser pane covering almost all of the terminal, and the 'every agent' promise is not visible. The idea seems worth keeping with fixes to the layout and framing rather than approving it as-is or replacing it.\"}",
+          "refusal": null,
+          "reasoning": "The poster's browser pane covers most of the terminal, leaving it barely visible at the left edge. The card claims terminal output arrives line by line before the browser slides in, but the terminal is hidden in the image. The \"one window for every agent\" claim isn't shown: the poster displays a STRIVE get-started page, not multiple agents, so I'm weighing whether the owner would want an edit to this one or new content.\n\nI'm leaning toward editing this card rather than adding new content, since the browser pane hides the terminal and the poster doesn't really show several agents. It's a tough call, but my guess is that the existing card just needs to be fixed.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster's browser pane covers most of the terminal, leaving it barely visible at the left edge. The card claims terminal output arrives line by line before the browser slides in, but the terminal is hidden in the image. The \"one window for every agent\" claim isn't shown: the poster displays a STRIVE get-started page, not multiple agents, so I'm weighing whether the owner would want an edit to this one or new content.\n\nI'm leaning toward editing this card rather than adding new content, since the browser pane hides the terminal and the poster doesn't really show several agents. It's a tough call, but my guess is that the existing card just needs to be fixed.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSgwkKEAgTGAI4AUIIdGhpbmtpbmcSDOfTfQqaY3YXOXjXbxoMPlJTJdRUDnBN8DYMIjACYPNXJ32LZpMJQVZ9sbs2gmLXkmcPwFLCBlbwYT9zXc0mYLU+8qGBlJU31n7QcqgqoAgdJDTszFITYcAV3t6eQs7pTsa4HerKC+0TsAMc/u8yI/Cc+bOxnaxhYjaCHx5hYIDIcJgH5KFhLzthUgnndP4Mkw375iuPiKh/JiLBrk77Pvku5cRkNxS6noYxcTYbPOyFJ1GDFPgsfaLhKUVpP3yZLSPBbCdRAGrPK2a5DlQxd+yO1PTD854WyIJ9wcWzjXhspXBnUZK/eVZOr6aVs5E73MgToo4M+5YHuTdNdY7FiU10RfazTbKj7Zf7RFpZ/FzRo6JTmxLVVB5cAvaX6BeXiKM3EeWDUglv+oJlFBlj4tjTx4g22Hv39G26vFoKY1wGq+WaYdiNyefcObFf3cS9Q7r7KiTKd52EAniFGKnJMzZF06lbVrfvvFODolfMLLzETbE/eMxtH9v//p7hUBWID+sgef8iw3dWjiXbquSR6/oyZigP5VD0RaYKs8hj4147d9UhX4WK9IoNQstTlV1xt+8rZKBcAFlU8lgXfWdOLQ5ArKy5lYm5aPidF0DTVIDwj4te9rrNJZYf+0wQptZMjx2Cy4CcM70xu8aBV63eJwCASPcZp3ju6U6Lkgn3WweGeM6O5P4lj1E30sVpduEBbPdyud6d5lI7FZJRXlKD4qZHzzM9NUf6s7eUbzMwaBs2mUnZc5zueWE8yhxLgPshgLqOAnj4MTaVGiJno4fotrLGX7sGT4Tp7/9GpUr2M1XD3QSDRz0MxMVHePf3yE5h2Rvnc49TZiNwRtxtHCcTlgY75FETBZHeJSuJsn+1j9AjjjvZUcdkl0oi+JWT+s8zMaXx6+MF7EDAQWUU+ADIbAH3krfKa5YQZ9oNUo2QVgivN99VugRlQuf8ykgMQoRCwRsYRkDlUTC/WJ3MyZsUKguDtEZ9m1UBEH1kn+qjrzbT4eQNGwj/epuNvVEqdUhCJN8IyYu+sywkjzTORMo2LgD3xi8dgquyj28quBEewpYuLZXhdic6p6sQJKx9FmBeQ4FzpfCCQr6IPVXgRggIrmD1dGC8/L93XxmeRtOV1fxi/JEHvNCYYqg5GpdKFQputtpDHbmoHZ6Tydekk82w5Q2gUP2Lzddb1XW4irhCq/M+bh5iguAWqx2LwwTvfqe4fgjYcrO9YPMoYuWnznEDM693UTO2lP+zBVxpdpkaDCnYZdZnEDIQbgYvHLoIJIwDyeDI6/zCZYdn+U6LwecQxOJwTVXGZxcUL2I93xb6ujZGHXhEwBJ6MO2Z5wvAYFp1L7TFxgG16mixUnL71dHVMolT8iKHkmhVYtu11q/lYLAqAgTzqUhpSkSr3HQ9tPQCpZYM1C/G7/VZZIrocZdErX0mgCboGWPDfwp8JPxegyUM1B4m8qTzitqqw4PHO5SALbVNm/pwtCBn8UImMksY8dE5WoUy3CR9A7q1V/zLmTMYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1904,
+      "completion_tokens": 302,
+      "total_tokens": 2206,
+      "cost": 0.013656,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013656,
+        "upstream_inference_prompt_cost": 0.007616,
+        "upstream_inference_completions_cost": 0.00604
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 191,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013656
+}

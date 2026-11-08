@@ -1,0 +1,23 @@
+{
+  "case_id": "C031",
+  "shown_card_text": {
+    "title": "The terminal becomes Paris at night",
+    "what": "The camera pushes into the agent terminal and its lines turn into the lit windows of a Paris building at night. It is one of the six reusable shots you asked for tonight, made from our own graphics.",
+    "why": "You asked for six shots we can reuse across every episode.",
+    "question": "What should happen to this shot?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Use it for the night run story.",
+    "context": [
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C031.jpg",
+  "poster_sha256": "a1644b40f143e1126feb4cfafe878a40282a54e4a45bd3ff6f80cf4797f070c1"
+}

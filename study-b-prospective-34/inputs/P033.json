@@ -1,0 +1,23 @@
+{
+ "case_id": "P033",
+ "shown_card_text": {
+  "title": "EP4 index, a lookup instead of a list",
+  "what": "You asked for new content here. It is now the same lookup as the Shorts version: search skill, the Shorts row lights, the Shorts index opens beside it with the skill Shorts highlighted.",
+  "why": "This replaces the version you sent back this morning.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+  "context": [
+   "Picture only; the episode or Short adds sound.",
+   "Earlier version and your answer on it are kept."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P033.jpg",
+ "poster_sha256": "517733d1741ee87c4752219e5d51caca79f1de27f1f2a7a89132da6ef6178e37"
+}

@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:03:45.445143+01:00",
+  "case_id": "P021",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "84204a4721884436abcf36a164876650056036b8de506060dae6b509db25ec1f",
+  "request_sha256": "53fdfc0c22c43dac75c20ad21d70f10db2a991239d228adac4c96d63db295dbf",
+  "reserve_usd": "0.093400",
+  "response": {
+    "id": "gen-1794139421-mFbKjjwc5DTVa7dC5RSO",
+    "object": "chat.completion",
+    "created": 1794139421,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"This closely resembles the rejected cards-into-folder shot. The plain drawer and warped labels in the poster also look less polished than the reusable animations the owner praised.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing card storage**\n\nI need to decide on the right folder for my cards. There's a style folder that seems interesting, but it has a poster with distorted labels that look generic. That might not work out. I feel like going with the plain option, but I'm worried it might end up looking too dull or unappealing. I want to make sure whatever I pick is both concise and practical while also fitting the purpose I have in mind.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing card storage**\n\nI need to decide on the right folder for my cards. There's a style folder that seems interesting, but it has a poster with distorted labels that look generic. That might not work out. I feel like going with the plain option, but I'm worried it might end up looking too dull or unappealing. I want to make sure whatever I pick is both concise and practical while also fitting the purpose I have in mind.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GUhzJHLF_OqWAstTWU5XXa3zjbOPbnBMYLzX7InGDP1CYthIsCAsknG5Yx3X48P8sLRf0pkRIyS0X5-VEn6TnG0UMvQjUw99MrsieT9AI7mXBDAERL7Ej3eTJyetDOpzmBif7o3xWOKN_kzE4wbb-65Gl6g11sLVo-1W77c0tRqioiGKZ6nNH1J5PXlKqMf1uAPvoAhrVqAaCo8obhLGTuvoEjOH50IBqkjRKERCOzwz5hH7Z3MbZCuXyPk1ItQxJdrcKTvRjPqo41qpQiTQgNiqmsr9YngrfPjsvSYtRmxPolSIM9Ih09SOTolQVYXEtERhwcxfBNs4X3pIudThgH6zXPXO2ejrysvqZhYr5nGgDRt9VYAjzaKjUle5on_8uG1JrDoXXSmz6iAqIRn9vaKySWVMwIN0XKtDr0aq1dqmkNUgk45d7fOjfb528KYAG3TesVki1Ifg_-x5GUojkrLTtsJZ16IZi4vxKwoloU3lHwHfernHG0_RZD6gxeSGsDLxGykoAeAgQIUlV3bsHjH7PVEYg0k5yruTzO7ATbpNCd2lIqmO9t9s85V9GdId5aSfVwbax9YKtv1eJAWkNNNYv3qYVMgIIUb1IJm8NkgZFF7uiJ1Pi2Oyd859itZi7T_gtL_n0HFWB43YbNrYxUaE8dEvGRPxuRiIhm7Hdb5ELmKehnkZEuvvrz2D9KoPlTyVJ7zhNUcdW3MSl_lNEm11ArO8QQXvvGSvNKNRTM7D8ngI6T8XWjudCOGhSPgJzehqElO996LxXu03XVVteYymJS7X0yAgRrHEFm3Gk2mj3NmwusBLv0a6fDfx2T88q5ZLK3SaLbCn6g0xl0g6Kwd05B-OMCD0XZh66QBu1P3iULAN7GxoSJiA1afhXYhuF0nUzHEeJRjtuhjIDinVBnWBFjAxyEQ6LY2WwjpFdhDyaY4GB-uZaNR28WPaPACXuqn80CHqs0ygnc5ba8dDiFubE5ddhCRvbsOyA7eu9WD0EfSmfG71QFb0qEr5l5Fi5LaD7avS-k-nyLE_1gKZbDRpQEIF57VowVPvE8XxHS3w3w8a91qMmOQ-Oy-uej2ADbYdwInttmoIJ1vmUzc_T5JLf753A7WB-iYoehItzhm9pOKsrY5XEf-XRSp24jwRWvyEZ30NGV3DNy6ZdshieGvqaESxiOM7w6A8u02Nx0my3J-UtxRkrasdjT3ASG74XuChmcaR64dztx_13Av3bJaHPy5EBMI3_gJgqRk9e5mH0JlEZ6cbneqeQtI2aR-AqjQ1IwTghFzxLSSmMR3zWkRYr3LZkUEIWo5ScPZqse6CKDeYg4OtyAzsJ1SDGKPRNn2tIwIHXqUNuy7IcaBOb16k7GkGsdwNX5TSKBTf1qeTxIpjABDAc9HkKCUqWSKxq_f-USMOgmoQz0yC4ewPjIcEjFY3cDTpxujwZBsTlX3n39_61LhFEY9qWnJUAQh8I3cKHOBTpefI7NLA6HHWvoXlRQyyw61Kq2u0P5jb1Kf3RH6PnqPVdbeVim0tZz4eRS4EMPIPDO2V0Kj44rYNfQBOTAZRVwQOpNX3ErHombp6OKlK2ia6gV0Xg4VPhIqpYOI74jY7GjrjoIEcKkwu10AOabEjETfRMyAhQi5OXBH2QY3S4BHAmC4Bwj1ubP2L_ZfAGMoU55-FVvKaZaPkD1pAEcfVm9hWcpTtsTVoRxlwjbNg2x1QTYibg73jSnUmGk0BjgcIIh4kozAtLuNBy2RoyrkKnxZZHM2D_b4r17wlP3fWzSY1jwEIciwbHBAnbtP4MnqsJYXQyEfnUxAqBfB6QV-RR_hRIBULCFTXQeJ-GsMHlNV8t2bE4BGwDmctmRMZW1DksKIBpoPvqFPDNnvTEt9MmHRMWIbjhkAHiQEIJmpJegXZFSkGrjB9eEZ5ClJmSbLGy1oyQjLHECvPZsQrMsQOYDNNKh0N5r2Nmb1eab1jEFjtJrz4nJVElvIax5LUl3anL_Y4U2cTFUOiSMBAAJOJQlk9Kz_GtrFSWBXCWNZv8V-pr8c9fkTMcexgbT6gv-1KUdA9ORNkJN4PTbVggBXFF49XpQwKSpytsQNbLiygS_sYRkLEe0DRlIGs46IDAa_QSYtCNYeoanwd_Kyhu-JDzEMI_FGI7pWR8p5iDX7aPc8vzz1JsOfVxcogrDjzCIFb8hSyIYNxg5rnBu3d73d29bcm062nejoYf-HgkQfCn34FoTH9FskTl-KYjxGLNskDxVl-k6CNO8XO5GiHKhlqx926HQcTBqFlJucQuzfbpid7JOWAQCGY8DsH0GHlA6sONhFHNSU9vC5P86a3J_i8N5O3N8b97kyelFMSp82Pfb3oZKsD78ESTa4OhL5.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0653e35c3a5ab2aa016af0651f169c87d19371c74d81b6e923",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3497,
+      "completion_tokens": 97,
+      "total_tokens": 3594,
+      "cost": 0.009711,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3494,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009711,
+        "upstream_inference_prompt_cost": 0.008741,
+        "upstream_inference_completions_cost": 0.00097
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 44,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009711
+}

@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-08T03:32:14.433577+01:00",
+  "case_id": "C005",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "603d6d0184d9d9474e990e000bd47d995793878e3a5d3d343170a89afeb68e9f",
+  "poster_sha256": "aa2e34a3761779aef5daeaae309b5986b4688372d8be802958ca7c5881d83fd4",
+  "request_sha256": "9a38b34addf52a975aa7a196906a33a4e1698d659ac9bceda9f945585d0edb82",
+  "response": {
+    "id": "gen-1794105129-fVFdeR79KNf1z336kl9a",
+    "object": "chat.completion",
+    "created": 1794105129,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster shows only the talking-head shot, with no visible animation in this frame. The quoted note about the face looking 'very red' points to a fixable colour or placement problem rather than a content failure, so a revision seems more likely than approving or discarding it.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at a card with a \"Raw eval, reframed\" animation next to the camera, while the poster shows only the person talking. The owner's note about being very red in the face makes me think they want an edit rather than dropping it, though the raw eval content might just be dull.\n\nThe first frame has no animation, and the animation sits beside the camera. Raw eval content could be messy, so I'm leaning toward editing this one.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at a card with a \"Raw eval, reframed\" animation next to the camera, while the poster shows only the person talking. The owner's note about being very red in the face makes me think they want an edit rather than dropping it, though the raw eval content might just be dull.\n\nThe first frame has no animation, and the animation sits beside the camera. Raw eval content could be messy, so I'm leaning toward editing this one.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSzAkKEAgTGAI4AUIIdGhpbmtpbmcSDO4pBxY0G8H7g6uIcBoM8Pe9b0msIycU9gNpIjDGr3gXzzqrZPxJe28QoX8MYry49qYsveN6E8NOad4WVL9ywLeRmxzkYIX4YyZTGFQq6Qj6N7iAHAZ4yuRyoyZa/bpHs5f+8KFDHOh+ETJ4Wcbtzg9EI0yDxdO7gi/h2JKeJGbVZxUyOq8I81/4Qx9hsfbTId5yjIw4JFZS4HQAjnQEa2bP5Ob43FHHzdYvpjs105zKN7jHDDmE9hnxBHLwqDWEpBYRYAhFZpboVC0/NXI4OhvtJFHQmDK82CyJnsXdxSrUfqRSrx2rrOEwtxACAIsWiY/VexswNKLjW1eOtdYyWqbuXmalPdOVLwwEdeb2ptBJWztrIp/QIVA/PivDsqMQOoP3qlxmiL40ggUO6stcRxEd5ngieN/829NY8KmRM0JKaNBeVw08+KRPrbMDoLESb2f2V2Zk41Yy+/srZdNaL3vhvw3JTuYHM8C6jXVvxfOoa93f9P3CWBV4vm02pIJ40LBP12QspWqQ89Byo6Kgq87dwRQgmnX37Eva6B24t4q44qLs00HyDfEifje6s+Jr4ys0BFDM/Pj6M1av2KcGQBIHhX82MnKSJRJmciNwY565qr6lPhY31xgGeQizLESclPTW/SjRbbXgY4h6pIGmOnRDU7/ejnEQ+AERgtrqNubdEq7hP9ZzEyUFK0xUXD3EhKN4Mk+FKw3mnaUA8CW0IDDTHjguXqGGhHbKU7M9ck8ilpr3XvpqellzyZPpUS3pJ3KjRvuagjGj9gNS2brBNCbHsmgULgy0zXoKKLrwK3uemSDA4bbxx5G3eq3zDfcHQlSVYz9o8A3AUDPvghVkqSL7I5V49V+1QIIT5jFvqZhwB4uV6x/UHDzHqCO1npahWE9NRdY5/HrZxpLW4nRRu6YOLDJ13wMrmH+QWaVlN5x7pJxxJSZh0nVMOlERgbHF6Bo7TxRkL/TN2t2K3iXXAbujuGgni1pxngfPdjlbveD6XTU9srKDwRex5l6pJep8UZBlONiUo1l9gxvf66OAjrdLLlH11i295mjl58YoXLzFM1JYyMKPpZFNU621LPCzeRsnhVx1qC01aYWNivPBFOKHlUurPCyngumIlVO4VE1deDBQCyQYu2EjmbKw7UMRgEfI0rqcAxLAEBzHYuOZIcKSSH3v5Hirbi5KQv+rhdHDyXR0MBJ9EQvHOL8Y8slXu1h1374fja/Rf7fRkVlhRFlr4mGSa+AgUEZTzMPyP0c+DOipPlhXNg4G8ojuf8KB+x1WSfnnZBon8s/52zO+sGwo55kL8Y1+1e5+fDxN/AjG0EKNRw9naSQPOhJZjvoE0HUMq5QDVs0/FWKqtpG5QtENVdpg1vpafGREoUPuLeyZwMRl8TRpdQv7FYAJI5oB9EHJi6fHWW28XvLpNcfnV0Fz/K+PIp+6wnamW1U9cDy8sH/qRVHYy4vG5j2y8M4fsM9go/uUDLyT7Xu0gdgiakr/ezbivcEPPCPHWqD8tVjvBmWT4f52H4r37iQxDtsLeIAFtwcbdRvMO2k2Ee++PVC1KFSJJLJMPmdcdIRnGvZKsJZ9ceIR5kYixtl+UIXofGRViRa7Mn9FGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1911,
+      "completion_tokens": 305,
+      "total_tokens": 2216,
+      "cost": 0.013744,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013744,
+        "upstream_inference_prompt_cost": 0.007644,
+        "upstream_inference_completions_cost": 0.0061
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 202,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013744
+}

@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T12:57:39.009673+01:00",
+  "case_id": "P001",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "00860c43fabda612ece1506b1a64a5283b62e1b2b42a9e247da89bc464645624",
+  "request_sha256": "a9c031247fbf5d22c48703fa02a21d0aa13da2bc3818086ff2649b7328be4a82",
+  "reserve_usd": "0.165888",
+  "response": {
+    "id": "gen-1794139055-ahiBFMPz9REw4Wx49SR3",
+    "object": "chat.completion",
+    "created": 1794139055,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a reusable core animation made in the locked look, which is exactly what the owner asked for (\\\"we need to do more core animations we can re use\\\"). The frame is clean, uses real folder names and includes the pixel agent, and the owner has approved most core-topic animations like this. There is some risk of a \\\"boring white panels\\\" style note, but the frame looks polished.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 6492,
+      "completion_tokens": 138,
+      "total_tokens": 6630,
+      "cost": 0.028728,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.028728,
+        "upstream_inference_prompt_cost": 0.025968,
+        "upstream_inference_completions_cost": 0.00276
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.028728
+}

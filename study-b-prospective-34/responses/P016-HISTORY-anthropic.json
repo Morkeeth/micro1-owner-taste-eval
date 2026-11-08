@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:02:15.153231+01:00",
+  "case_id": "P016",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "f6424e94ff26d764e1f3c86bbdd5451cda65a4af4ff20ed7a5823a0abc7c548f",
+  "request_sha256": "acb595028ea4550d659880ff7ab1b418d2c65e06f086d9ad2f0d32f8451856ec",
+  "reserve_usd": "0.166440",
+  "response": {
+    "id": "gen-1794139330-rQISDsFxMtoKRr24gldF",
+    "object": "chat.completion",
+    "created": 1794139330,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The shot barely moves, which defeats the point of a Higgsfield clip, and the still shows garbled text in the highlighted lane. The owner already approved a stronger 'Six lanes in cmux' animation and has killed weak entries in this reusable-shot series, so killing this matches both the recommendation and their past pattern.\"}",
+          "refusal": null,
+          "reasoning": "The Higgsfield clip came out with almost no motion, and that undercuts the whole reason to use Higgsfield. The owner liked cmux but the recommendation was to kill it, and the poster text came out garbled. I'm leaning toward KILL.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The Higgsfield clip came out with almost no motion, and that undercuts the whole reason to use Higgsfield. The owner liked cmux but the recommendation was to kill it, and the poster text came out garbled. I'm leaning toward KILL.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS2AcKEAgTGAI4AUIIdGhpbmtpbmcSDILV7TRooiEnwwqTgRoMb9rYYKZKsIh9/dUTIjBg0thTjtLFc6oxK55CYn1lCpgEyWGyYMccuqsjOcOeZyL2IAizl9LvFqirZcIF740q9Qb85cyVCfInAKUkfqumPX0/ReHmORBLgySqBYCLeX2duSgHd1stZNhFkmfaR7xb5H6eMCqkmi8Y77TwnonIXSXRDSJ35kptBPJ6pN/C51JibWbSEzSxZFtIij13S0LAYxD8+xxcucE7b57xqgBczPawHNOYlaYcAsCVvpEEK0bMudRRg1v9cjMJZT2ykARYNhiWhyxKouhL9ZHkXnmkRjSYcgPNDucfDme84JRywPFtYmbxKJXgeZJVHt1aK5xy7/Q+d1cAiSKWXRdOhOfswtcay3Qz0enTMi7+DMgzFvETewEaocNxrrpHpMPk6I+POU4tYSWO19R/FTReqq/rc8AuapP/2fV4VK9CSa9omM3VOM8ICfVA5b6HGJh5jRmqTdLi/1/9oCWn7smS0IVWkup2jaOlQr+Bm09mcAH2ehgtmlar/ZSEKKw1/vTVJWx1e0iSvH9ODWzFvwjGO8mmhOaxjv2Ls8LltCkJ4LQRNI2ceNNwW16Md6ZkBvgsJIBOcEU/AXruTzLD8ksEM1bHHd0rFmGHDvQF33kVa8GTtIHMbS+D6IHzWi0YPSQudQpanhOltWMe4uF8UMSml7OUNSgENLQFfZTDDHzvIOdfHjJtmj4cWLNtrlab9IZMuiqKVIivheeHtQbNq10KYpd1R9vbDRvwRodipbZHv7uvP0TV4qKU306OOkgkjnNWnhqOVuXqexUIWwL7mgcAcy+l4X56myekbSK1tHmMHmK8Nm0vF54/9b4GQS4KucX5EE8M6nf2D/UQdM6hmKsxYyOYojnbRGZHYwKiNgs32hcsK20SaFop+ZrKat/k1U3BM1KhhFaT7BqPZbbXYRG/9TAorfldZlK1z4eWZo7lPn48JTL2Tf92abG7vTkKI7AwLLbKMVrpR2VFHth61JyVr3bLEdb2M9CJBoJeySXENQX9347YHHm6/WY73zrIDmEkcHVGTLCgumoEot/UzHs8pDsP/nWs72HlZ6PEpPPcNvLNWg2wwm4YxeeHqCiaYulQUvRT+7jBNGSUS7cVZ0kUKTSsMf9+IfLla9LyEJ2kYe37jgbxTsjIxcEYucWRk1Ugha0HQZEjaKFGh5x5dYwtzNOPIRJmLzarlUR3Q0nFNAGFpW2287BW5v5wYEYzug1w45mjoIdxkj9w0Cc2YYyGEB1vXVQJ07JTONsYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5017,
+      "completion_tokens": 260,
+      "total_tokens": 5277,
+      "cost": 0.025268,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025268,
+        "upstream_inference_prompt_cost": 0.020068,
+        "upstream_inference_completions_cost": 0.0052
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 133,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025268
+}

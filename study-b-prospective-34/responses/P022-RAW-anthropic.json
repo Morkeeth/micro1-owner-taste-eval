@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:03:49.473130+01:00",
+  "case_id": "P022",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "ee72eec4fea8bb31aca2ba5b0acb5eb9b3c4b9d9634b0ebcdc639d89cfbc3c9d",
+  "request_sha256": "ee7d4641cabbc6454c2aadc8aed0411fcca795d6121cf12b3f2ae96d5ced7ce2",
+  "reserve_usd": "0.099128",
+  "response": {
+    "id": "gen-1794139425-7Irm1bg0C6teKBthxlhR",
+    "object": "chat.completion",
+    "created": 1794139425,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster is clean and fits the story, but it has visible flaws. The window title is garbled AI text, the composition is pushed far to the right with a lot of empty space, and there is no desk in the frame. These look fixable with an edit rather than calling for a new concept or a kill.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1928,
+      "completion_tokens": 111,
+      "total_tokens": 2039,
+      "cost": 0.009932,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009932,
+        "upstream_inference_prompt_cost": 0.007712,
+        "upstream_inference_completions_cost": 0.00222
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009932
+}

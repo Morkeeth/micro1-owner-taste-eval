@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:03:41.828980+01:00",
+  "case_id": "P021",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "84204a4721884436abcf36a164876650056036b8de506060dae6b509db25ec1f",
+  "request_sha256": "515290d770115d1abeecf74ca59efddcf520e6605174a9dc7944e223208339de",
+  "reserve_usd": "0.166320",
+  "response": {
+    "id": "gen-1794139417-HnNwsR0IegB0VnpmAP0H",
+    "object": "chat.completion",
+    "created": 1794139417,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\": \"KILL THIS ONE\", \"reason\": \"The concept closely mirrors 'Cards fly into the folder', which the owner killed. The poster looks flat and plain, with a beige box rather than a convincing wooden drawer. The label text is warped and AI-garbled, and white cards on a white background echo the owner's 'boring white panels' complaint.\"}",
+          "refusal": null,
+          "reasoning": "The poster reads as a flat, plain drawer with warped-looking text, and it's a close cousin of the cards-into-the-folder concept that was already killed. It's a second take on the index topic, and the owner had asked for core animation, which this doesn't deliver. The white panels note reads as boring too, so I'm leaning toward killing it, or at least sending it back for editing.\n\nThe drawer just looks bland rather than wooden, so that settles it for me. I'm going with kill.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster reads as a flat, plain drawer with warped-looking text, and it's a close cousin of the cards-into-the-folder concept that was already killed. It's a second take on the index topic, and the owner had asked for core animation, which this doesn't deliver. The white panels note reads as boring too, so I'm leaning toward killing it, or at least sending it back for editing.\n\nThe drawer just looks bland rather than wooden, so that settles it for me. I'm going with kill.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSxwgKEAgTGAI4AUIIdGhpbmtpbmcSDJr8AySTAFx6YpEdyhoMQfLxJYeAuIv5UmAjIjB7lME/wv623+Zc7+wns9aayTUKA/HFuJ2Bkce0xDAhjsAaEjaLZgtE8rd+Vdo1qgoq5Ad8F3XRf2bhd7fP5z5yLGUItmVjS1jBlgrKb6lIOg5Try15bZQppnAPsfzgUExbEf4orx2D6PMcvhry9lE7O93JYszrETcQT25jNZmts5WJlTIDWf1DaaGmbLnvOwts+hHKXzr4RtSaNi9i2h81NIzwX4EU6e0AsnZcl/Q11RSXVYp2OuuKJZ+tv+vQOXN0JGwlrIMI0yMwLPyv8/ejV16Swb7K6olPMBO+YzCPEOeJoB7vt25H92m9dP7fBRvw5GIObMts718BjUAuXz1+FNkXVqiL0g3nDkMsC9ru9wqobJ+MG7cVnL4coiMsOFggsRXh1ufllGcTXkutGUOkyoRMMulXXMKSuOnKmbNtksnMdtLOXmgFA8dhOTYjnUN7ezNyLzR+WJzNTCtBgd4shvo7oWLTeUO1muMR/m2AdaNZA5laEVH99YldQ2MBF7OuqcQ3ssYkyLdcSawYGfEoejXAa7ccpa8Mhem68sIdx3C+l4yXuKcwIe0RZLI0eKpq3OCB2XMtzFcMc1RHvd2vuddGnK85ygo6d96qHyLI1pvOLAQ9XQh13UTJHo0x2NO+8DVhM/3FIW/kFUyN3DHuQscfeUdpuOdCQt10vk+nKRC93hYTdvn/Dp6V8slSXhn2kI5diRH3w3uFW5oLqqxhU2woxX1iIOHj5TpcDU0RbHVWf5EACxYDR2T68iHRkjKxdxeUV8STB2+OhrumcaGS+nAL8/eo+X1vk3kCsssPDASVIwbu+KedCGgxfY4P5ThSXSYgITvifctI4UrRg6XouKJA0X2yMZa2C78kOL/aJApvvCUfay/1AqPcp20caj9BZJs0RkGqDsaQCr7OF7o5fGUL84HDW0iBvqxIqIu+aMqR1qP2LDJhNOagAEY0q2hlwrTj3G6zxnFDksSU3QCs6OAFEDLrh85HmYTodC8hyKbaItKGVmXtRWXBYDbcXhwXdkZwk+5S+qi/zBdi86Tjod38En3DUY7M93Il8Wr7jK+tRgD1+jh4+CHX7Kz7xjT1aQOkjqyvanoDd5N0NL+kU6mjmiDi96A74pMo+qLXgsk6yBMTOi+JGwS7cHLOVvQwsES7pS4k8l7EmsT69l0Ij9g9maEWCNdS30pQAudNBnuIMkBgG/dMAlYuRaOyq3jzXrCw9K37Zm6TitSnDW4El5BvWtCoWrAY3aSE2wSx8b8haT8t6CEZXh9PUbVWLo1NMZS7xtSFqPATkxJiVzHGg4RUHvD0CeQ3HltyS97jwvYODDGpjrs+7Qxx4At4x2r1DKrxIHrdG0INbJP8Npjhv0AjlvTKD14Sfw8QrJrCe3pV4tDt/uMYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5018,
+      "completion_tokens": 303,
+      "total_tokens": 5321,
+      "cost": 0.026132,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.026132,
+        "upstream_inference_prompt_cost": 0.020072,
+        "upstream_inference_completions_cost": 0.00606
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 181,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.026132
+}

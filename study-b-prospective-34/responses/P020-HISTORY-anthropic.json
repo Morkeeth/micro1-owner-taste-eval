@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:03:20.448658+01:00",
+  "case_id": "P020",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "ecdc6ce2976a9beb34fd4309d485803e0ad00587f0880ee12ceb7c98683fd283",
+  "request_sha256": "ad03cad791948e743360a7852167525fa7a6ac0df8ad2bf58e797c3b01a152da",
+  "reserve_usd": "0.167064",
+  "response": {
+    "id": "gen-1794139396-Hb5hup664kwRmOCrZr1W",
+    "object": "chat.completion",
+    "created": 1794139396,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster shows the index cards with garbled text, turning into dark playing-card-like tiles. That is a visibly messy AI artifact, and this owner killed similar card and folder morph shots from the same Higgsfield batch even when they weren't broken.\"}",
+          "refusal": null,
+          "reasoning": "The poster's text looks garbled, with the cards morphing into playing cards, and the owner has already killed two similar shots, \"Cards fly into the folder\" and \"terminal becomes Paris.\" The recommendation is to edit, but this owner tends to cut messy Higgsfield shots, so I'd guess KILL.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster's text looks garbled, with the cards morphing into playing cards, and the owner has already killed two similar shots, \"Cards fly into the folder\" and \"terminal becomes Paris.\" The recommendation is to edit, but this owner tends to cut messy Higgsfield shots, so I'd guess KILL.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSkAcKEAgTGAI4AUIIdGhpbmtpbmcSDCvREO7h936ZtczaaBoM/Vjr7kec9v19kICCIjAUNtsxFAOv8J3Q6H0D5WOJLqThYooWyLAv1MkzhzSimF5aa4IPsb13Zkdh5C0xrAoqrQZrLxqCqka5A63KmjSyaltkV5MWVcyjpM8FLaxY6QEsXScnzBSbZoApUuhV7vgkt66I2h7lJrjNNqxoRpRIs98E9BTnNSWjef0qbA22bEAetSGQy1Se+cuhlgtmBEuuTO5q4EGzxLKcl4I0vhXiTDEr2RSGPuin3L9zXqkQw1d3jSGb92DTeRc/XTwNqgBQ8nhudnaYbWshCrCb+jiVPZOzxDt8j1YrBkuNRwxZeCwOGH8eNavrWrzh5WPb7GBrH6esPlA/dGr8Eu6drRcvVy7rZC8Ro7Z/n4PI5bfCGsOLUs4mx85687OJ1mYmvPvCp5oDUJwkntm2/y2W89CC37BCrPankiG2lCZK4p8bWNPe8ChIS6+PzS+s4pFGyJKNAUYTxYISK/Qx/8zy9Pnju4VwNp5luqkRtoBAModO1U1z0SGT2l5G02UIcDVeIGuXmqZ89yvp4tuMFoJCVAKYYWs22tozoCK3V2A+ZHoyPOOeHFkXg9TgbnVafyZ12V6PJZKaRMad1s1OMkNRdWkeKkuPchBLDaA0TShMQD8CJ0eZ0ov+xZZ6K/MDJScWqCzcErB044juivKsQLehADJuPXmRahIK5eU/mlyMv1x6oJMSj2rCq7btp/2KZuFIDBl6osBn7xY7HDkNuPKSQdVDx/6PACoRnL40vYynHkwhDHHGE4c3TB8RgAwSmswQGBL1fMHnnhMkm4L/H7WgG+Z8ZSc0PF8pI866FGbsfSrtWCzMKdn3XD7h2WX2kstQhQdLt8gL1wyA6ES56z5nvzRyThKSL28zYOcv0Zu0QeBaOtnoVKPsItHKMzsEPcpYWde98JZgpj9pBPbw6mErCc9FKfkznHfB9/NFN+vs1a8hCiJp6KynynWBwmsca8bjitzG76IkpMgVSje/RgD8BwRD1WTUzDgz41FHvnIPXVOcqGMjkbx6uU99EAcESiBWiDx2KsUEkAaxQb1aomzWMfk0GL1f1BvoVRBRpu+O2NFdytQriTuTUMe0cZLjq9wj256/Vw26J1hrBMZm3WmDE/hVgaqgspRo4KWada5eBjLNK8eJF9TRTDdQQW6iJY9aBqsYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5056,
+      "completion_tokens": 204,
+      "total_tokens": 5260,
+      "cost": 0.024304,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.024304,
+        "upstream_inference_prompt_cost": 0.020224,
+        "upstream_inference_completions_cost": 0.00408
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 101,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.024304
+}

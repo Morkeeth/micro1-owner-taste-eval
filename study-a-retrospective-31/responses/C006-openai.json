@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:32:23.470166+01:00",
+  "case_id": "C006",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "488cabf05b74bde5be058e8de79541abf54d9919f600b7955d534cd2d4410079",
+  "poster_sha256": "1a45e4094710adbc7ab282ed93d95d35fb25a1633374a99cd3d9d4d9b0362629",
+  "request_sha256": "4fa214d96b3b2b51325315857b814a4830586c3b78bae9b114f9e3ca69521482",
+  "response": {
+    "id": "gen-1794105141-x2Ke0B7B8Jf7rwzCfBDY",
+    "object": "chat.completion",
+    "created": 1794105141,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The strongest cue is the owner's earlier description of the folder as a “statement animation,” suggesting it is a signature visual worth using.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1442,
+      "completion_tokens": 46,
+      "total_tokens": 1488,
+      "cost": 0.0040635,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1439,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040635,
+        "upstream_inference_prompt_cost": 0.0036035,
+        "upstream_inference_completions_cost": 0.00046
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040635
+}

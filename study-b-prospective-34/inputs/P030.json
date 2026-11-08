@@ -1,0 +1,23 @@
+{
+ "case_id": "P030",
+ "shown_card_text": {
+  "title": "EP4 weekly limits, no cleaner, blue meters",
+  "what": "You said this one does not need the cleaner, so the agent is gone. It also takes the blue meters from the Shorts version, because the orange you disliked there was the same here.",
+  "why": "This replaces the version you sent back this morning.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+  "context": [
+   "Picture only; the episode or Short adds sound.",
+   "Earlier version and your answer on it are kept."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P030.jpg",
+ "poster_sha256": "51b88d8a0481eafa1a3a75ce3ad16b5388492ac85757762ebcb7b61a786604d6"
+}

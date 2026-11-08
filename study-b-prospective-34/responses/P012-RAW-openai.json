@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:00:49.681426+01:00",
+  "case_id": "P012",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "6d44232d2338bec3f1a019e81dfdcf5b6595897266d311fb9a56e4231ee1e26e",
+  "request_sha256": "f87d1c28652e5f945212f5dc02bdc98c5f5e9607a48fd4f7f1011bd502c2319b",
+  "reserve_usd": "0.059648",
+  "response": {
+    "id": "gen-1794139246-0gn0auR8q8heeh6fH0MF",
+    "object": "chat.completion",
+    "created": 1794139246,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster clearly shows three readable agent notifications in a clean phone composition, directly matching the requested general notification shots.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1441,
+      "completion_tokens": 42,
+      "total_tokens": 1483,
+      "cost": 0.004021,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1438,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004021,
+        "upstream_inference_prompt_cost": 0.003601,
+        "upstream_inference_completions_cost": 0.00042
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004021
+}

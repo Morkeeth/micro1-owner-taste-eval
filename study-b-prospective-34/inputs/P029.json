@@ -1,0 +1,23 @@
+{
+ "case_id": "P029",
+ "shown_card_text": {
+  "title": "Weekly limits, no cleaner, blue meters",
+  "what": "You said the colours were off and asked if the agent needs to sweep every time. The agent is gone and the orange and black meters are now your blue and a soft blue, nothing else changed.",
+  "why": "This replaces the version you sent back this morning.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+  "context": [
+   "Picture only; the episode or Short adds sound.",
+   "Earlier version and your answer on it are kept."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P029.jpg",
+ "poster_sha256": "de8368ec3c4898a4ddb95dfb9d9d8e27ebf8d13db83facbe9ad7c6ce85b15fd9"
+}

@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:05:41.954471+01:00",
+  "case_id": "P029",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "de3ab7afb2183905ecaec4192b591b42111c7c701889ff7b9c5c7ca88f698a99",
+  "request_sha256": "9afc4f154408ba49553e3b27123f36187404c7d5f6d31f47ff6f5f980ec49fd1",
+  "reserve_usd": "0.098928",
+  "response": {
+    "id": "gen-1794139538-j10KlrTBZqwk0Kxh4PCU",
+    "object": "chat.completion",
+    "created": 1794139538,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This revision addresses both points from the owner's note: the agent sweep is gone and the meters now use the owner's blues. The still looks clean and on-brand. As a direct drop-in for a version the owner had already engaged with, approval seems the most likely outcome.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1916,
+      "completion_tokens": 106,
+      "total_tokens": 2022,
+      "cost": 0.009784,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009784,
+        "upstream_inference_prompt_cost": 0.007664,
+        "upstream_inference_completions_cost": 0.00212
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009784
+}

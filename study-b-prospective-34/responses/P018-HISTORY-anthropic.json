@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:02:50.106882+01:00",
+  "case_id": "P018",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "1cc503664de02f7ed00d5b4a8dccbb0e7ff7b1bb6e1fb7ae6bf32ccfb7862cc6",
+  "request_sha256": "da0e9f88e01dd95e7c698e908d4c5c0212c3095bc66b5219f4dbb5df7979bd63",
+  "reserve_usd": "0.166440",
+  "response": {
+    "id": "gen-1794139364-XdFLDwIyJ6hSGD94lXBn",
+    "object": "chat.completion",
+    "created": 1794139364,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The frame is a flat, literal dock on a mostly empty white background, with a stray green speck that looks like a glitch. It has none of the 3D or Paris-transformation magic this owner approved. The owner has killed similar plain, literal shots (cards into a folder, the terminal becoming Paris) and has called white-panel visuals boring.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the poster, a plain dock with mostly white space, and the owner tends to approve the Higgsfield shots but kill the literal, boring ones. This one is flat with no 3D effects, and there's a red icon and a green artifact speck. I'm leaning toward kill.\n\nI'm still weighing it up, and the green speck makes me suspect a glitch, so I'll go with KILL.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the poster, a plain dock with mostly white space, and the owner tends to approve the Higgsfield shots but kill the literal, boring ones. This one is flat with no 3D effects, and there's a red icon and a green artifact speck. I'm leaning toward kill.\n\nI'm still weighing it up, and the green speck makes me suspect a glitch, so I'll go with KILL.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSgAkKEAgTGAI4AUIIdGhpbmtpbmcSDJ8YxdPuAFyIg0COHRoMfeCOxU7qQ5GR711XIjCUtqG1RtkYDxujajct+uLSUchV57Iaj2dms0Ywp4+ZJOUM+d2YYDWIFN8+wuTiiQwqnQhIjr9RhlIHen+MNDZApaOju780gLu0/+JVBNLN3XmEaCPMCOkjYRBypqSJhF3es7wKCa6k6Vu+L5xwGrUytkqtOS3XNE7+rDnc7uAtzvnD+A0/VBtlYgJUOyUnS7EBlPLMbQpSJQCrgGnIbclY6WSgDMTi/hCyfRaa4r4W+uzgiJ6bV6SMKgGAwdHzqpIbAfDsSihag0E5FynO/xX2U+GK5ZZhmB22lp53iG3c8qd+1z/V08zV4vfBX40oTSHgIorc9zafdLbscZJ/OR335o3BpDbD+4pF3Gz6zAUuG92vc35gg1GjL8cAeYdMWeIHfDLTUxsOCUK2H4/dHF0s+FXo/M8pdHHMEn8nEC/sA9zIzGZoBxksRvBsHwVk4IHWrD0Tr+AbJ1mdPuFuMTOspv3LgA7s9fCBclOiUS3gud+UPFf3ZPf/7CvwSByRyvAOjQeh0gG+1W5PYQQw8stRpnwKUODzypDiBL2ML0WBP5OKyVP9+p86PEWcgtR+IOrL4lD89Xn50bCL7NNstkDL1M3oMLGIJC8rWUOk1jiTMU7HcZuafLPjvyxMNwWhjdhf2qDdY0JAlYbUpXETDk1ACt6byjCdow9NATnM2X3C8MsrJGsqe1dUbUMjiONvh/EW7kRMG4Xq2tnb3aLx1nfOdl/vN4dMoKqHhckp8cUUAwgIPOqr7L6vurmH7YrJWcwX9TazDjjNr+VSh3ONuWJuOqeYDmW+8W4eS/3wBGYCiA8FioY1lWulk/idvPN1NmcN1CHOPiWJ6iRbCo+Ma/niDAM5Jr66cPmvDzFQ21Bb32D0CxiIjqG+LfyfvyOP6nw9x74+2v7sipRzWe+OuPxj7hJZZ5aleuIobI252vlYompAIq+t47yAq4bsuFRi6e+bvHUqqRn4yNV7yn69SGmevyW/9dzTTZxzN5hDzd8+9bnKBdPxphFl97HgVjSrKVjJsT8x5GvT7xv1wMvsqoAoc3GNR0b6Yqwj5ySeXbtqnnDVR8VCaRa+n7b6EFM77P5sICc0GUd3HLQE13Oeut8CA9zyc0eDeYuFoOiPTZFIlWLEH8CKnWy3yALOFFE9gDnl5iEvKT4J9hHkSMbee3Dx+NhV+qN/3ACrKkkSUx2sUE2F1y4sPMfL1NbH1wG+WsdTHmey9Hwg5v1Z/t0H2OZRGIwE66puOZnK6bZB3XfSCZ2pzQqZYv3qEwdZC71cO+7TVe+vSk88AE2BR3nuNR4DDY6MQepO0MThdZzaokHcrtMTLXqLDePtd0o7kWViHCi2lgO4tgF5dNl9hnG3tbe19mPKIz7CfqXZAtK9K/bbwyFc/vY3OvaaKQyguI5PkSdjnZQcEou/AYmN7+YGSWTdFJQ1wRMIe8onhdInFQdl0798fcKrHPMnocsIu21pi9AYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5012,
+      "completion_tokens": 319,
+      "total_tokens": 5331,
+      "cost": 0.026428,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.026428,
+        "upstream_inference_prompt_cost": 0.020048,
+        "upstream_inference_completions_cost": 0.00638
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 187,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.026428
+}

@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:35:33.667654+01:00",
+  "case_id": "C030",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "c4f9b8cf4735b7a20c22d1e060e311ac4d3887c1ea483cbd3317de949f9120fc",
+  "poster_sha256": "5733bc280d14b501efcad0de74921aa897f1521b57d6ff1c784f24c6e3c993a7",
+  "request_sha256": "ff9cab3a119209e297f03e97afe3c77b7f0a29e02e7b30893127be1458d6f6a3",
+  "response": {
+    "id": "gen-1794105329-lzc7CUSoywDELlxElvqO",
+    "object": "chat.completion",
+    "created": 1794105329,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster pairs the requested notification graphics with an appealing Paris dusk backdrop, fitting the brief for a reusable agent-ping shot.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating options for poster design**\n\nI’m considering the prediction of choosing between “edit” or “awesome” for the poster. The request asked for something evocative, but there are drawbacks with low-resolution generic banners. I think “awesome” is likely a better fit since it meets the request better. However, I need to include a short reason for my choice, but I'm feeling a bit uncertain about it. Let's see how it goes!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating options for poster design**\n\nI’m considering the prediction of choosing between “edit” or “awesome” for the poster. The request asked for something evocative, but there are drawbacks with low-resolution generic banners. I think “awesome” is likely a better fit since it meets the request better. However, I need to include a short reason for my choice, but I'm feeling a bit uncertain about it. Let's see how it goes!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq79_18K9QI_BDdHQVXAnA_gNDwmiD_jKLrZ4K5K5ga8Q0oTnsbbpEc4XJ4dhXWjDLqQ3WrkcfUidEduQGkcf23-2k_OR6y3fxI3zR6KwY6WtcbUFM6vyvtYFL48evimR_xCAhcjli9jI5Xvy6Lir8Hpuo3awr-slw0FRGbfTgWyDp5QTX5pOGni-ZDFPL6QTa_2R_sIzsW52orDBTGJuV0eEmv3lF83yg8xazm-N3UJair1o0O5gHv2F-HKWbEq8-h4We4YmWtJPpo9LuPTU98dE96Fw_raZ7GN_aCkGVds6erVgyGWMJZTIc5ewM-bGOQAjIP23IYhZjGBGK6zZ2DFg76G2hgCH-NTmMN5OMUrTvCOnbtjxophZBgx-IQAtsTM-rRcbArllOMxwS_aKIGu7gjpNsLPxSfbs4GfcViZQgG9hhw7rAAhYYzKYHNCQNGn0c2XlA6Q84sTm-pcsR3CQ1Bl6xbSN-9hamz6iSpk6UgHb8ZzyVZ09hCs7Ntysts3XAFh_UghWpLJ1GCnBOQnDHphtXbOV7J-bb3bdN8RWo8tJ72pB2Y0WKxt1pT1XbfkXp9d3f-0duwcm_hjD0bnMPOVlIhVra9BgiFZ6Vou8hAcZqvjV-ZAzQ1tKDYAvy1kQVi1-AMilzqi2Y6Sg65wRyBOrFDU8YkyWFm_NCN2mteE5tNUJMUsJUvihl94RHk6a9-m2cmSWtC2QtSc3ZDCYcsqujtsccEfSsgA-VQHnoZwywbh3OzvOLTLmPQlk_fgINr5ZdtU1wigxa70P-NM0Z3e23qhjCZcsLEPFeKl8A8ee6yLZZaE6h2l2NJIHhXKflTD_gaFql2K0pyu4TZonMrXc7jrJsevx9XMQp60MStj-cYO7TZBcQydv8td4KfSKheVVkoO-Kwea8DhU8Om0fv-BcpAIzZ1gTWqY3FyO_xH-fk4ZEaDunFqsX6olrgmsfSImOl1daDqEOejSVY5nEEdAn6XgFH0TC_FGqnb28C-7rWJbe1MiBQQLA6mVenfXNSiYyfCCjR9RX5FGaCsoWOIMBmvyt8Jq73Z28QrghXaWkI4ksWIKkLuiPclYqdi6zvultBtsQfHSBdIqbuzZGUZs4ZHoc07Ny0bdnqJV_Utt74okmEhaejQ6njo-oMS8aqmRq7dE_niurf4xUDKQVHtpzZd6qNNg7uIubVJ2fCQ_hHP28ZEuCGYPeFPkDg0W2b82oftYj0Dkd7Z8_K9eJRshpdYghGH5w6cQz-k5NUH0O85UkehkTFMF2-7awWiLrE2gfrj_eXTqBmghzP6Gpdb0OzctXMe3gTUhQ2wyr8SM0Cf7YMDbMVl_uJmbPBmOEYtUyLGskwFrb0F49ODzf4FvpL05A_2m9PQlmg0ntqY9eb9OUzHRynQyKq6SzoTl6dnkNBe1yHUSqX59_FubH_fkwXcKR1zbg2OH5I4gmwlpcglDvsAQiHs4P2J9_-uSPrKnZqqM0td5bFUZT8AuBWnV8DTM-mkc22MLwkaA0FzFtRp3-5wqff-0q3JSyBz_CncRF5IqpQnGOe2XK4b6M62fAYjBEEbLLRM68kUI234hOqDd4GOPPyLe6j24t6Evkn5r36ixIOOOijfHsmktu8Yl7KHHgJvLJD_r98U6W5vaRbqlk962vsSL6__wUXlGV0hnbLHFZoeJZxXEq7CylnjY7K42lWjEEGz7TX7WfwCealx04zukEQcoe5_VaEOEL4VCsZc4ieIFkCMO-0J0iwFwe491JXXFz2C98t0JzaWxy9nwGA04sKfCp58phPvzePgu3IK8QMFhkhNcmH5xHYhaFPswjmsgp3K0Q1h9Ykrig5-Y9Zq9OGXVrguvHYlC56DsJAURY9gThd90r9wAtbejlruBAtHpflmS2QSndObA2_2DcuWKyEtfvA38-UP1xgWuf0eJfjk9DTnh2ssj3pm8K2oHwj9UMFcmAU-ZYv58-aWS2Nh65zHARAQg2eeGXaRXyvVR5N9yoK-1DURFqVKi3oOVMksn5MHUhUCtSyOqwiKqHoxaQuexJ6OzV3arR_nq_a1kGTgsqc45cFeLrCbmJsTmjhijEnN7hLmr_zlwDzv20-4O9muaKoB6DFg7YcwyTqjMKHivYY_YHECXWE86u1hkhKflh3Q0eJ6hS1qlZMvnsvKlmpXSc2wNATPYKV4rPJsm1KazECC-HF88K88gOhbuHIuQaHJui_-LUcP1XxDTVJAdRUMTH0xVRewNA-HaHXruzW-9xNiuPcVjQz4NqAK3OHU1XXdKXZtDsqJY=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_047000cf61f28b90016aefdff307f087d18e7aee7a457d04ec",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1452,
+      "completion_tokens": 84,
+      "total_tokens": 1536,
+      "cost": 0.0044685,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1449,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0044685,
+        "upstream_inference_prompt_cost": 0.0036285,
+        "upstream_inference_completions_cost": 0.00084
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0044685
+}

@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:03:14.075054+01:00",
+  "case_id": "P020",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "ecdc6ce2976a9beb34fd4309d485803e0ad00587f0880ee12ceb7c98683fd283",
+  "request_sha256": "323c031827225984367e42b8b23c24ff653a14673b67f2d21393275ab9c03b12",
+  "reserve_usd": "0.099584",
+  "response": {
+    "id": "gen-1794139389-be58a6akygng8gqb8gos",
+    "object": "chat.completion",
+    "created": 1794139389,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\": \"EDIT THIS ONE\", \"reason\": \"The card itself recommends an edit: keep the clean start and the landing, and cut the messy mid-flight tumble. The poster shows that tumble. The cards have garbled, illegible labels, and one is morphing into a playing-card-like shape, which fits the described artifacts. Since the first and last parts sound usable as reusable footage, trimming seems more likely than killing the shot or regenerating it.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1961,
+      "completion_tokens": 153,
+      "total_tokens": 2114,
+      "cost": 0.010904,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010904,
+        "upstream_inference_prompt_cost": 0.007844,
+        "upstream_inference_completions_cost": 0.00306
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010904
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:34:14.736186+01:00",
+  "case_id": "C021",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "f189a358e2fc5bb86f7d002952a9fd8813f0a20da0dca4b2770dc074a6e93b5c",
+  "poster_sha256": "6f2c9ac40cbc4aa35c666ac4244050b6b3f678d0e18fca79b28e6c412b76b2a6",
+  "request_sha256": "9f7a2d46f61c08f7de526c320d8c62debb0fdbc8913454c3f926d2b890b25dfc",
+  "response": {
+    "id": "gen-1794105250-5fI57kZilPLpwKcZCSUL",
+    "object": "chat.completion",
+    "created": 1794105250,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier note was very positive (\\\"sooo cool, great job\\\"). The poster also looks polished: clear headline numbers, Claude and Codex side by side, a weekly chart, and source attribution in the footer, which seems to answer the \\\"better attribution\\\" request. With the earlier concern apparently addressed, approving it for use is the most likely pick, though EDIT is plausible if the owner still wanted more attribution.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1913,
+      "completion_tokens": 161,
+      "total_tokens": 2074,
+      "cost": 0.010872,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010872,
+        "upstream_inference_prompt_cost": 0.007652,
+        "upstream_inference_completions_cost": 0.00322
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010872
+}

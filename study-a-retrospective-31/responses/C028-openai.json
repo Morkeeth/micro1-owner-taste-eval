@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:35:19.329293+01:00",
+  "case_id": "C028",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "ddbfc8a6eaf2b82aaab69bce837115cf23920c76400bc7031b2482b68e65278f",
+  "poster_sha256": "02d550e343ad0f44070bede6637cc9257cee17d08907989e074259af6e2c7387",
+  "request_sha256": "811268da619617db954c8bbfa98fe5fe9d76d37dce6c92aa60f1ca72e320a20d",
+  "response": {
+    "id": "gen-1794105314-8GD7Gln6PBc33RLTPh3p",
+    "object": "chat.completion",
+    "created": 1794105314,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster supports the reusable blue-line concept, but the card’s noted vertical-bar interruption and resolution mismatch suggest cleanup before use.\"}",
+          "refusal": null,
+          "reasoning": "**Considering JSON edits**\n\nI’m thinking we need to predict a concise JSON format. It’s likely that we have to edit due to issues with a vertical blue bar and lower resolution audio. The shot might match the request, but that dark skyline and glowing line seem off. I believe we should suggest editing instead of discarding it. I can mention that the concept fits, but we need to clean up that brief artifact and lower-resolution source before use.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering JSON edits**\n\nI’m thinking we need to predict a concise JSON format. It’s likely that we have to edit due to issues with a vertical blue bar and lower resolution audio. The shot might match the request, but that dark skyline and glowing line seem off. I believe we should suggest editing instead of discarding it. I can mention that the concept fits, but we need to clean up that brief artifact and lower-resolution source before use.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq79_nIRwhk1PBS4jrtHELtkvRanKdW7i5KqX6S6J4PSqsak3JdRSu9f0fpU-VKbm6DvkBaRCIOgcAPhWqCW6B5nxPpYjaVd5o22AT4z1P5HiZSZ-eg10UOTS0khdnAoz56HOhf_736ipFcq8e6pF-1A9JIutjaX3gwobhas07SBC6ChrfhjLRn8RAUgJPxI3-1LpyaXTy6KpPbELdWqF8qJ-bsfUtdkzeaBbRx385DEVvyQHawDR-ekVAvjYW97qKbI2QIjktnhjqm0W1S6saWlNHvdUmkXF2hB9Jo-hF18K_Vw9X6fJX8ZLMg6c8GUfZJ_fqliuM2pvo02LDzxDGZoFvWf-1WgRsV0na7Eys8OzAjKNKLV-kazDNF_vz8dXHL1oNRYf4R-ii0Oodd2KMVGeW8HujIV5tkUXLE3yHEWiIMBI9C4cOzYweUNRd59BumKkOkV5ZeXjTat-4DV58JzoVLInbpn1tZLhE7FjHxRA8KJiy5869k2rjJGK0J8XDxXEhRmWM5uNiH9OG6Kp3DCuG7FB0O2QEev0aisgyGP3ssyxHxSBBkmqc2M4jZctRBIOE5qsKY11DVYtWaOSXre4Fl6Lh258L9z-fSqVinvoR0CeE-00drAhwucOpz267Tdb8V4iwnJGwfv6KiT4jsT10u1TVNsntTcqEqNO6sD9lYsNeogKmeRo16oLD-3eCeNUNuy0xeDviLte07jDL49ulHOTPUgfNgr6BFSoouKWZ4GZ-b9i6PLZwuOZh0U8GrQb5S5v8bVYcaJF4AVtAZ5TXVFNCMj3rGsBpHEvO-zNO6DnC7qiUGZxGyKy0U1ojDPTg1NK1TYxP92pUlRWTwAu4QIfKFbY3U7JtPDjh0pRDrVR4WvempVGkLNba22TmvO_dAtOcRpzzxoXMoYtMCCPrrA_RmpvTiJcZ7K29EpMf7ovK1vNQ8hePtP8gr4Ql2m27O4mS2IDmKP0vzCOf0Sckmv6NutWTmXXCXrKa1IyjdUqqnweiJ3dE05NjwMDDG7nkzXxHZZfUtf0oxHAzdM5Hm74vuIOPt_eHzLvDLGKr_HD7auxVtw-AF8DX4dRfw5YoHhH07oKSqX36ri0jJUAA3ivvYGEjvjHKtMXv-vSiXivYaA1GIbivybIR6d88GMrJtkD7N7Zg_Ez2AdFlWoZz7c32-RZgeSc1ywCi0CmLotAYDNpGKsNMzMcQtXGaiURjwas7pXFO8YA__uw2wfJQZus43V1yy2cVe1QEp24eS1Wa2n6KTk0y9zJMoqqSicUjTh7MbbdsuuHo-3cM3KoHVN6iq6kZWmWkdA-WNqryuJeeJRRECnToRh2lxBANDbwxgjkp6zuBspTGP7we2FZUynKlO2HwGCjImlbakjctUWEhzv2QyKs6yqH7EoweGfHgHEjhjQTaS13FnVG-iuWmGGrptjUsX7grDClGXjZs5xdCR83B4FoDxu3dA8tdD0KwwTcVRSflGFupMws4Fdsq5AEAmxCQuwKLJhxA8PBI3eMUG9bcPRXWZyi5guwdISpw9X7gg5XvQ0KRZk-sx6aTi-kVtxWWx662Gu8-Zp61zzqmin_h0K35FaPtjVSkR9xDoTYHz89bZtgfJSGmpuNcDuWDrdYQzrKu2dTlYGdmXX63OZEvAxwRjeGro9ddOMo8o91fIJhdBTMZ2Ps_uaN29_vw30FiXBUphNi6fLrHVo6TM2RWBDkiMpqTTsNsXMQHlSWpAB44A-aS2xJDZVclVZE1KM2axHlWczxYJ-lAbNn5UQa2D7OC9r93K0jCcjkE0EL4HoeUAajP9FLCVgCeqDVE0zCDhstKc82Lp5dID549rpeXQQ7l2JYN2BAB25yCyn0r-LkFVmSvDv0etze_aHCah_03SJIbOPJlSypneBifnWMTU-lQMjWWY52oT3Fke7xz9BX9Ap3-3GdVJdCJPacmriZFnkXQDKsoOwEREe4L07-rpiMRg3vxGi6CwDORmPyBNgVSuw9pH6h_gpeJDYCtzeXJZtrbNGTX4COdvdo6KBsinCFKL9c2IKEq60fkXOtchwwWQeOwopZL0caLnf_dRKpUq3uPczjXaMR2HabCXgoVIYbFwXpfRiOJoDy9JnsAIUJbctBf-PgUWYRXelRzNOfcrmQtpKviePFIHDDMeg8e6hPdT8Iw9Jr2DZFVFmrPsbP89enkT0cfMDt6d_22_ScNeuNVA8qq3N7HVpRJYPofG6f0tHAapivYhZaQjV4tmGcYrjuwW6UNkUQj_Jn_9Cvv4FvkBa0lNED57Rp2smZBATdLWbcDJTB7rYwfOWre6slYrnSnkOzo1LlCIq3MiY5hE1oBVWD42ahU7vDPP-CLbaZGnjDbiYnI0yrrxE8gOWYBKa83ll-qVioi45AoEYERFNh7RqCog6Twzr5GoOa5ZWWWb8Wi7qpbbUL-RFfpNAWCtmAFeGsPw9ZJ1ozTpED1uSyDZ7qvv2NKXRzydrwbIcF7R7iSgn-AW049cfFh-quCj8I6K3LqNfYwAYqMGkuKCXbBFbkbZKuOJ1dE6iWsC9D-UCFrVBxnaDUhZR2ePogiIvY1FCFD4Q61c8RzD11zR5k2gE8K-HSdDZTqZOOmnbOJ5z9ATpWhVYxV_GtXbpYOPS1KC2sc2GiiFmQfEDwFX9YK1aBL3g-cYiwWaGv82Hxnvvr2Bu8PaORk3Ju7jBQ_acHt3lVZQRJEhtbnuVMn5Gl0pCOpUOYg0XMykB4ZNmQBjFWiA9rom6Mct0uvycl2jgYpEO8nNjwwytQj87i77Zl0gBjmDzLpERoBrJsDZ2k6Pw46pmnkq2wAxfAk_Nb1plj-Auk17IcPPs5LviMaYdi6QNcqhAK8-A79ez5GV_PcUo7hI0l_TutB.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0e0dcff1e207af63016aefdfe3ffd087d1be6d6cd8b97cd55c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1467,
+      "completion_tokens": 122,
+      "total_tokens": 1589,
+      "cost": 0.004886,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1464,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004886,
+        "upstream_inference_prompt_cost": 0.003666,
+        "upstream_inference_completions_cost": 0.00122
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 77,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004886
+}

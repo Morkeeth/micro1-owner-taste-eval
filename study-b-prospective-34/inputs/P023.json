@@ -1,0 +1,23 @@
+{
+ "case_id": "P023",
+ "shown_card_text": {
+  "title": "Blue weekly limit bar fills and resets",
+  "what": "A blue weekly limit bar glows as it fills, snaps back to empty and fills again. It is in your blue and has no numbers on it.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "The best weekly limits shot of the batch; reusable in any episode.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P023.jpg",
+ "poster_sha256": "069957151271772861460e92f5658537bea1f7ed0f3ee65515bf7a9d8562e736"
+}

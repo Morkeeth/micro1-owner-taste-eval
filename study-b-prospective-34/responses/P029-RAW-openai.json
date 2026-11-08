@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:05:44.105805+01:00",
+  "case_id": "P029",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "de3ab7afb2183905ecaec4192b591b42111c7c701889ff7b9c5c7ca88f698a99",
+  "request_sha256": "255897190ba8e6f5ca2684240d6f23042f7fc43458e1497d48ccca1996bc6909",
+  "reserve_usd": "0.059704",
+  "response": {
+    "id": "gen-1794139541-A6pBTwiKBePlkousJMAy",
+    "object": "chat.completion",
+    "created": 1794139541,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows blue and soft-blue meters with no cleaner, matching the specific revisions described in the card.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1450,
+      "completion_tokens": 41,
+      "total_tokens": 1491,
+      "cost": 0.0040335,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1447,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040335,
+        "upstream_inference_prompt_cost": 0.0036235,
+        "upstream_inference_completions_cost": 0.00041
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040335
+}

@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T12:57:48.150269+01:00",
+  "case_id": "P002",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "f702c98b8512b0879886033aba38b5c8e93c95e9ab894dbcdcd1b65806a58669",
+  "request_sha256": "b32452021ca19466b6da9e8a451888f428dc51f4bbc4254ed41323f991238eb3",
+  "reserve_usd": "0.098416",
+  "response": {
+    "id": "gen-1794139062-hVgvJb9NtSN8C6bI3K2e",
+    "object": "chat.completion",
+    "created": 1794139062,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"Best guess, not a certainty. The still is clean and on-brand, and the concept fits a reusable EP4 weekly-limits animation, which argues for using it. A few details look like things an owner would want fixed rather than accept as is. The Claude bar is full and marked \\\"paused\\\" while Codex sits at about a third, which could read as a dig at Claude. The pixel mascot looks disconnected in the corner. The disclaimer footnote and the baked-in title text also cut against reusing it under any line. These are tweaks rather than a new concept, so editing it seems the likeliest choice.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3399,
+      "completion_tokens": 213,
+      "total_tokens": 3612,
+      "cost": 0.017856,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.017856,
+        "upstream_inference_prompt_cost": 0.013596,
+        "upstream_inference_completions_cost": 0.00426
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.017856
+}

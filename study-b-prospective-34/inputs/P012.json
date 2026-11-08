@@ -1,0 +1,23 @@
+{
+ "case_id": "P012",
+ "shown_card_text": {
+  "title": "Notifications land on the phone",
+  "what": "Three agent notifications sit on a phone that turns gently toward the camera. It is one of the general shots you asked for tonight, made from our own graphics.",
+  "why": "You asked for more general shots about notifications, screens and weekly limits.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it when work is ready on your phone.",
+  "context": [
+   "The motion is subtle: mostly a slow turn of the phone.",
+   "It comes with generated sound, which stays labelled until you pick the music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P012.jpg",
+ "poster_sha256": "0bf3c20bd91eaa853470906e7fc30d0487c2106e54ceb343b7f3ae4a3aa67c10"
+}

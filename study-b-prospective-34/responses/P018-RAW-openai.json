@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:02:44.612027+01:00",
+  "case_id": "P018",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "1cc503664de02f7ed00d5b4a8dccbb0e7ff7b1bb6e1fb7ae6bf32ccfb7862cc6",
+  "request_sha256": "ea817b8a8efab6630bdcaf2f2ea7f80d736b54996322fd4b0b9219283251a501",
+  "reserve_usd": "0.059720",
+  "response": {
+    "id": "gen-1794139360-nVqr9laIEiGmas8JVZYp",
+    "object": "chat.completion",
+    "created": 1794139360,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster clearly conveys a Dock with notification badges, matching the requested topic and offering a simple, reusable insert.\"}",
+          "refusal": null,
+          "reasoning": "**Considering design options**\n\nI need to predict what works best here. A simple visual dock might look crude, but it can still match notifications effectively, making it reusable. I wonder if those options could be awesome? I need to stay grounded and not overthink it. A plain dock with colorful icons and simple shapes for notifications could work well, even without explicit quality standards. I think fulfilling the direct request will be my strongest approach!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering design options**\n\nI need to predict what works best here. A simple visual dock might look crude, but it can still match notifications effectively, making it reusable. I wonder if those options could be awesome? I need to stay grounded and not overthink it. A plain dock with colorful icons and simple shapes for notifications could work well, even without explicit quality standards. I think fulfilling the direct request will be my strongest approach!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GTkkABAvQwaxq7yeXXwBecJftThA1bH8sXpGtZGQY5Lgpxqi5VK9-gAe0G2GXCcUwj0B-iUooonV9C3qy5u_dYLcTl1g3TlgM1kJIduFeYHXjZOpYUM6hM3SogrlBwovra3_O02xBpDK9T4W01FIFFvQPLBg-a8rYNoLs_PGzXB8ywdKpwuG3d2R2ImYJVVYHXiPak-yWLJeap-CN46vQeBNOX_UffRa3yytdScBWXTTj33xUfwqk0QUfLpLb_tK1dLmz633GojI6jmCAwMUujG8W1kg7-E48znvasNEOuPmCfPMnq_DoXAiVjkgcIJSeL0S3Y1PDu5kxab-Wjf5qh0C3Oxi8pf_X3LY8Q-Rx6NqaT2qenC6kSgz5Bz0CHKixYnQ8sOU34-X90ie4JbwLrt28eJG3EOasbv6zPz597MLbjdpAG1Vww_P66nDjiJCpDlyuc9oXcHhHnlx2FR3FMTUTjSKP0J3J-yIAesbw2ZTwrfzdXHMMORK_vmQHQBkFtz-Bxi1K_o1sBMgcU6a4Q9Kong4gfetMAq79hLbC-pFJsscFYq3brLCTXZB0jDS084XIkGRera5bTZLqjGVlhxsMLr0nj3mi4FOsUSPzpfxqbuZAn2ktElPb5LnlJ3w4FztuaScErM8zQ628SHyNu8nj997w0y9d448kYW4d-vxcpIlq3igCYxL9uLmQZQFmyAQr57Xa8lEzLn77I3jI5oaK5YeribYcLBvhthgqsBC8tAjpWKfeooTeF5Pxb5bjy8jK4z5ya26uAtfZwLQOhPflT8WG3Cb12DHkSU5MeqV6n8842pqCFI81jVZ6QiQn3rJ7DHbyw9kgTMmll9vZOsN1aSVBQu03yK_cA5RCyK89yEz5H8_maA95ikvRneF9m2_w_xkmn9x3let9VQRGxPFrSbz13riSQ47WZe7AzjiHzHff5IGPkTzsZv2zwvaLJNBTLHNymQISaZa--EpfiZAb--0AIg7l87U8ZxXgxIzOJny8cbKh5Xs5xgpob0sic7EvMyWgCVZ0hI4FDSmtPhxH2L5uSrOi_RCi7PLUKqWZlpbEGAH9XLFGi8xgmpIazx42HYUPfZGJe2WDrSEiMvFlKH0FSMigHViVEqNoPsMuQu1e085lJjELohaFq9i2fG9j7AaU_5J-vhtlwfktEGhZuZ05YUCZDdltW_OzXANxHHqQ8y81WwVdBij4h5VVF6HyyFkSeDWiNUAu7Sm2uD1uC87nY01UfS_u8z3x0WZyKsVkEOlM0msR0oUIBzD1fkh9unsm4Jw1v6fzOIw7QEE0CnmfgCivMqO0vL3nnP5UmA29mCl63ijXH7ZAbrve8LlxQbiG_803032PeJ70fYNhkyAuWedIH6V8a8uv0P_X1mYYJzKafqtLwvfTVzGAwlIGemauRRnbMyxqHulMbZOdowzfmpHLZXorzyyttk2BETo9gJJYdDxjt1Cxn_RYtH1soyhUqrm-gxNi_OsF8B_tP-43zzK29ThEjDxSrrrp-55GOnM_F2Hhd1UUJK3iTcMh3rBe5e-eXLmNyc0JZQKvRXB3UkocPi2l37O6KJYMeHRj5v_NZxqN5PyNIMzdG5QE5AMLDJvr2H05jrKZzCojZ-48PCLSfUua_C1ztz9KPwXsZ17P_RWErpFoJFzJbB6o7Z3f0KDTkGDwdGBI4CB5fH3iVOpiCsyfw76Z4V84lcB5CahZUWJGuWQHBVUo6knZLR0hDwe-WYgAC0j6-m6XJ3K2ktA2Y_LGnhXYMFpgkCaZ64sBpasVEE0ePRPFIvFZqCel-nwYcXNXKOgQhmcaNheLhwABJQ5eujLf1W8Ui6ZE0exHTH6rAiBcxSj4KVT0vGCktQnKW0G3L8Ez_xxQ3Vyi-rMhgcG1n_U2H6ePxGch3Kbo_kPG-26shs-ZO8MYbCuMn07nFhWe9q1eKvgAOF07FfeY5QLUfOPK50l8HSiUtV8fQ7R6nWz-3nL7B81sV1g4yRN0YKzlVkBF3go5CgYn7twLdxjqWvUqEsgabkAQFUcUA_0stwZK2kl1vMcJ5LXKPQT7wZTzY9uaONQrhdqK5rMjIUdc4m_KF_7TO9RucMLZqfzLF3NjIxbLpX_Dpa1Cy9Jh9ty0shpCY4VWWe9NH_2b3SiPkQ1zK9n4KZXtjQDBlhKL-SsymzJf4StVQ3s9l-Hg_diDeZSpkQF_p0CADTgEqWi0QQAPrEVnED7R0sdb_E6n-GyYNV6VfapHCtjKQjxkYdc9XAH1feE6LYI5JAhZuALhwqHP1hwRreZt0HtojZGEPJKHcF0Hf6eJbkGPZsO_DnLD_TuKJf47-dLPZLtlYLpjpEp6YBSwr-0qxCVkFkIFIGv4BtnOKtBF9dpVUU6BwHwmMFFTNLfHkFKJzLpc9AAWJTQsPJ_xnGmeMqwlZF-wu35ZOTefU6fDuDgMNKS1POxo70cOqcJLk1JKWcUIT3ziH4DtxUgBT656XerkWWqu4Dvn_ezk9xrG-PpxeXAbarwQ1-Vkje5w==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0f180b72d880b0c0016af064e1ad0487d1a5631e92b64c72f0",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1445,
+      "completion_tokens": 96,
+      "total_tokens": 1541,
+      "cost": 0.004571,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1442,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004571,
+        "upstream_inference_prompt_cost": 0.003611,
+        "upstream_inference_completions_cost": 0.00096
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 52,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004571
+}

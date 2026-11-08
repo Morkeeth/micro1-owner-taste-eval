@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-08T13:07:32.974063+01:00",
+  "authority_verdict": {
+    "id": "micro1-prospective-34-spend-8nov",
+    "verdict": "YES, RUN IT UP TO $3",
+    "note": "",
+    "ts": "2026-11-08T12:56:59+01:00",
+    "card_sha256": "78ba0b35f3367db943dab2f5e5083ecc2e5a433bc6b27f76cd7806cacbeeab51",
+    "card_basis": "version shown on the page, unchanged at save",
+    "secs": 13.5
+  },
+  "cap_usd": "3",
+  "spent_usd": "1.9270890",
+  "reserved_usd": "0",
+  "completed": 136,
+  "status": "COMPLETED",
+  "current": "P035-HISTORY-openai.json"
+}

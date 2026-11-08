@@ -1,0 +1,23 @@
+{
+ "case_id": "P020",
+ "shown_card_text": {
+  "title": "Index cards shuffle and land in order",
+  "what": "Your index labels (Episodes, Shorts, Thumbnails and more) lift, tumble through the air and land back in a row with blue dots lighting. Mid-flight the cards turn into dark tiles with odd markings, so the middle second looks messy.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Probably an edit: keep the start and the landing, cut the messy tumble.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P020.jpg",
+ "poster_sha256": "2a662d3eca4561b30005164824c3faeb5158cc1fc66c069a620da0c73d88e13e"
+}

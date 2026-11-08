@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:00:46.804035+01:00",
+  "case_id": "P012",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "6d44232d2338bec3f1a019e81dfdcf5b6595897266d311fb9a56e4231ee1e26e",
+  "request_sha256": "fcc492f516c102b207e1afb507d4c710988594748dec98cc232ce9fbb456a11f",
+  "reserve_usd": "0.098816",
+  "response": {
+    "id": "gen-1794139243-uaXJpHWrqfKHnoKYTTLX",
+    "object": "chat.completion",
+    "created": 1794139243,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a guess from one poster frame and the card text. The still is clean and on-brand: a simple phone with three legible notifications on a neutral background. It is exactly the kind of general notifications shot the owner asked for tonight, and the card flags no problems beyond the subtle motion and the generated sound staying labelled until music is chosen. An owner who requested this material would most likely approve it as is.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1908,
+      "completion_tokens": 148,
+      "total_tokens": 2056,
+      "cost": 0.010592,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010592,
+        "upstream_inference_prompt_cost": 0.007632,
+        "upstream_inference_completions_cost": 0.00296
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010592
+}

@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:04:51.603678+01:00",
+  "case_id": "P026",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "7efe3573b80c7a95ddb9db1c41d172075339d292d5208c0b3381ae22623f3cae",
+  "request_sha256": "c69521dd8811bf7d832999b3d17815962eca8072f62e35d668b0051c8427c552",
+  "reserve_usd": "0.098864",
+  "response": {
+    "id": "gen-1794139488-Knbbs9UlLa0XdzYcLzHg",
+    "object": "chat.completion",
+    "created": 1794139488,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The still is a clean grid of minimal terminal and browser windows. It fits the episode's simple aesthetic and has no visible artifacts. The described push-in on one window serves a clear reusable purpose, so the owner most likely approved it as is. This is judged from one frame only.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1920,
+      "completion_tokens": 112,
+      "total_tokens": 2032,
+      "cost": 0.00992,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00992,
+        "upstream_inference_prompt_cost": 0.00768,
+        "upstream_inference_completions_cost": 0.00224
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.00992
+}

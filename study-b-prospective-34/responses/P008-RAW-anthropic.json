@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T12:59:35.840753+01:00",
+  "case_id": "P008",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "293c1e58e62b4a80ca7d8637056cdc733d1e09e685f696d6b882a784468e7dde",
+  "request_sha256": "73e5f77a1e6e0940d64e66289fc0ebc8e8e0db993375472702d9732c5b25479c",
+  "reserve_usd": "0.099048",
+  "response": {
+    "id": "gen-1794139170-erM2IpdDP2IQxUx691Ri",
+    "object": "chat.completion",
+    "created": 1794139170,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows the review panel at natural proportions, padded with the light background above and below rather than stretched, which matches the requested skew fix. The camera inset still overlaps the panel's lower right, but that was presumably part of the original layout, so the owner likely approved.\"}",
+          "refusal": null,
+          "reasoning": "The poster shows the review panel with light padding top and bottom, so the shape looks right and it isn't stretched anymore. The camera overlay does cover part of the panel text and the progress bar, but that was probably there in the original too. I'm leaning toward a clear \"AWESOME, USE IT.\"\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster shows the review panel with light padding top and bottom, so the shape looks right and it isn't stretched anymore. The camera overlay does cover part of the panel text and the progress bar, but that was probably there in the original too. I'm leaning toward a clear \"AWESOME, USE IT.\"\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS4ggKEAgTGAI4AUIIdGhpbmtpbmcSDKG50VsvJoHRgay1ahoMSa0KVnxYPGbZeSknIjCzxsPtj3YGmVJUoOZttbWFdGr5bY5iD/UEfeCIMylC2wXv9MH+1zadQivzN+CTvF8q/wfeGq67J0GKs52RmCKz29BwZxiw5ZoCq3t/bfMbhk0rAILbwQ3rw12H6uARm+vhBYkUm5vz8Jl5ZVFVM8GG00Qh4C0MGu158VCiDv3YDoPkh0SvB8hpLVuTLswPlB/DR8e3YBao3CJR1UFrWc9RNFoIi9dHtiR5N5xF46tGT1QY5d3UKPpxSGQ2GHkGgR5BL1WMxJIRkt2ZPnydw0+udITZpniiVwx9nGmU2DN+mRmcTiQGkKWuvtweau/6jVnvkMYcyR9Pvw1pmhF/hHAyLpQtUNJ4qlY7KYBZezLB+WQ3cOGUrITyd9NYz3S2IKTCOrOgz6hY9JoUN7V4HR5KDbdvRo/OJMaf1rCXIWBN0wMN30SFvSaYe5rgQp2Y8czAUUDHxLSwxbBTiTC5na4olAAY4Si342eCUXpO5qUORhkNEOYSWXjMDkqSgrn5A2ARYGT/KtIO5RHCVVXDHQt7d1uTgBWTBWm58mY169UVmrw2ZkAKza+6GTFWI8dkGVDdIzSKzfesZunl/wj5whp4UImSX4lyvGHmM42f2Wrca6nvb+q4YDnrqEig3YS0heRJkmD84l7fFpiBMdBGBNEbK6ZzbcLuNv/+ed2CuFIo8tJvuExQczdFi/dwdP9pbGoCcRmot3OWa47gnTsKU15axzLEvBR+eaiqcLSLlOTCD5w9TMtM33wndx7O+3B8MU7jz59XilS0TnYilRAIIy51uwIEzVeBom6FQ1TMmG7heg/g7M1dJBmF7it613ll2mBtEPFNhnfDjgjCH57eHMRJseHW4Kzla5YS3IR4iheV3jDGNMLOloIsG5kpr9IFxdoTXbgOUHsOA9u4CuFHQ5XjkaI7UtR+i5kyDB/2LjqEoyRb1YmxIc8M4VLGpDHHX62Xu9Q+yO6FjreXAtlb75H0ltY2KZ+VywCMBJNZcXO0rJ/mbkS+VGVlRO18noosRfegHGQSFZfXLi8KcRoQX67W5ZahhlHvpr6PXLwXqY3ajTx3zWRl4XI/uwnJEiBkH3rNsx2uyKSlR+YinlbLJuz+Nobz72IxX3it4B9eUvZONt7gT/hdHbAkZHeM4aUlE0aRTBwGxZrXniHQ3fXO8Gmx7/hxbQCQr4uXrYF5E0EbITgirdCfhXBGIjaJmkg2JgiVK10pkHY6KfD/mJ09NJ2ZH3Zh6DZk6B4c6hapWJdlwF3oEHUJ3BsZCYaZqPE6CHbwgFW4QX3NMcGmNe0xoVo6NkAbEMF87KgXGYBBgtDnrxDSc32boKfWPqPrynu5nC0TkBIEM6bay7Z9JiqBPfqinAzYk0wCXzPKgiDyjTEifIstSKuovMJyBzqJLy3V1bvqwangvfxGssQa0y2NTHHunLgYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1928,
+      "completion_tokens": 264,
+      "total_tokens": 2192,
+      "cost": 0.012992,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012992,
+        "upstream_inference_prompt_cost": 0.007712,
+        "upstream_inference_completions_cost": 0.00528
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 157,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012992
+}

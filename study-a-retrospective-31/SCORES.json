@@ -1,0 +1,118 @@
+{
+  "n": 31,
+  "constant_correct": {
+    "AWESOME, USE IT": 17,
+    "EDIT THIS ONE": 3,
+    "NEEDS NEW CONTENT": 6,
+    "KILL THIS ONE": 5
+  },
+  "majority_oracle": "AWESOME, USE IT",
+  "development_majority": "N/A: no compatible frozen four-way development cohort",
+  "confidence_limits": "Wilson intervals assume independent Bernoulli cases, which related artifacts violate. Cluster bootstrap is descriptive; few heterogeneous clusters and one owner limit generalization.",
+  "cluster_n": 17,
+  "protocol_limitations": [
+    "Same owner, mixed animation commissions/revisions and already-praised old clips; post-training creation does not prove no study leakage or no human prior review.",
+    "Poster-only visual prediction of whole-animation verdict; errors may arise from absent motion/audio and contextual ambiguity, not frontier taste incapability.",
+    "Earlier review quotes remain in card text because input is card as shown. Disclose this potential old-feedback cue, do not retrieve target labels.",
+    "Target notes/labels excluded from requests; separate label artifact, no generation yet.",
+    "OriginalB2usable8missing and accepted fallback ZIP/film unchanged."
+  ],
+  "design": "New retrospective frozen owner-verdict prediction study. Held out from NEW model calls only; owner outcomes already visible to assembler. Not prospective, not untouched analyst holdout, not proof of no prior artifact/topic feedback.",
+  "routes": {
+    "anthropic": {
+      "model": "anthropic/claude-opus-5.5",
+      "correct": 14,
+      "n": 31,
+      "accuracy": 0.45161290322580644,
+      "wilson95": [
+        0.29161735980520015,
+        0.6222783236264549
+      ],
+      "invalid_or_missing": 0,
+      "difference_from_majority_constant": -0.0967741935483871,
+      "cluster_bootstrap_difference95": [
+        -0.32432432432432434,
+        0.1388888888888889
+      ],
+      "paired_discordant_model_only": 4,
+      "paired_discordant_constant_only": 7,
+      "exploratory_exact_mcnemar_p": 0.548828125,
+      "class_recall": {
+        "AWESOME, USE IT": {
+          "correct": 10,
+          "n": 17
+        },
+        "EDIT THIS ONE": {
+          "correct": 2,
+          "n": 3
+        },
+        "NEEDS NEW CONTENT": {
+          "correct": 2,
+          "n": 6
+        },
+        "KILL THIS ONE": {
+          "correct": 0,
+          "n": 5
+        }
+      },
+      "spent_usd": "0.341456"
+    },
+    "openai": {
+      "model": "openai/gpt-6.1-sol",
+      "correct": 12,
+      "n": 31,
+      "accuracy": 0.3870967741935484,
+      "wilson95": [
+        0.23733101420380254,
+        0.5617589138033927
+      ],
+      "invalid_or_missing": 0,
+      "difference_from_majority_constant": -0.16129032258064516,
+      "cluster_bootstrap_difference95": [
+        -0.36363636363636365,
+        0.03225806451612903
+      ],
+      "paired_discordant_model_only": 2,
+      "paired_discordant_constant_only": 7,
+      "exploratory_exact_mcnemar_p": 0.1796875,
+      "class_recall": {
+        "AWESOME, USE IT": {
+          "correct": 10,
+          "n": 17
+        },
+        "EDIT THIS ONE": {
+          "correct": 2,
+          "n": 3
+        },
+        "NEEDS NEW CONTENT": {
+          "correct": 0,
+          "n": 6
+        },
+        "KILL THIS ONE": {
+          "correct": 0,
+          "n": 5
+        }
+      },
+      "spent_usd": "0.1239785"
+    },
+    "venice": {
+      "status": "NOT_RUN_KEY_NOT_AVAILABLE",
+      "n": 0,
+      "not_a_model_failure": true
+    }
+  },
+  "accounting": {
+    "at": "2026-11-08T03:35:41.670434+01:00",
+    "cap_usd": "10",
+    "spent_usd": "0.4654345",
+    "reserved_usd": "0",
+    "completed": 62,
+    "status": "COMPLETED_AVAILABLE_OPENROUTER_ROUTES",
+    "current_case": "C031",
+    "current_route": "openai",
+    "venice": "NOT_RUN_KEY_NOT_AVAILABLE"
+  },
+  "method_comparison": "No personalized method arm was run. RAW errors or losses to a constant are not evidence that our method beats frontier models.",
+  "known_usage_cost_usd": "0.4654345",
+  "accounting_reconciled": true
+}

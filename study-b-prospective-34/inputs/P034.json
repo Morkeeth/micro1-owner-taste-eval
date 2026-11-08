@@ -1,0 +1,23 @@
+{
+ "case_id": "P034",
+ "shown_card_text": {
+  "title": "The index now answers a question",
+  "what": "You said it was slow, not how an index works, and you did not like the cleaner. Now a search for skill lights the Shorts row, the Shorts index opens and the skill Shorts light up, in six seconds and without the agent.",
+  "why": "This replaces the version you sent back this morning.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+  "context": [
+   "Picture only; the episode or Short adds sound.",
+   "Earlier version and your answer on it are kept."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P034.jpg",
+ "poster_sha256": "1282779fc74774da714b20ffadb6a2330792a2eb4db786f146d2a56a3bf4a8c8"
+}

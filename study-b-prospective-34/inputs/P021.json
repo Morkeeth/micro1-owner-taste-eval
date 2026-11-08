@@ -1,0 +1,23 @@
+{
+ "case_id": "P021",
+ "shown_card_text": {
+  "title": "Index labels fly into a drawer",
+  "what": "Labels for episodes, music, transcripts, shorts and looks lift off and drop into a wooden index drawer that closes. It is a second take on the index topic.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Strong and readable; pairs with the index lookup animation.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P021.jpg",
+ "poster_sha256": "16c7b6ebffe62d21538e0d709e3b22cda3a7ed7592339acb22acee10914e2fd2"
+}

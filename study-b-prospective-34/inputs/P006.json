@@ -1,0 +1,22 @@
+{
+ "case_id": "P006",
+ "shown_card_text": {
+  "title": "Blue line to horizon, without the seam",
+  "what": "The original shot split the frame into four panels with a visible vertical seam, which is the flaw you marked for an edit. Now your blue line glows and crossfades straight into the Paris skyline at the same height, with no seam and no new generation.",
+  "why": "You asked to edit this shot rather than drop it.",
+  "question": "Is this fix right now?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it as a short chapter opener; it is about two seconds long now.",
+  "context": [
+   "Cut from the shot you already paid for, so it cost nothing extra."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P006.jpg",
+ "poster_sha256": "497f39fbe5f09f25c9b08c0e35b6f636ef02ae31fb3926d124f8ddf21723f51a"
+}

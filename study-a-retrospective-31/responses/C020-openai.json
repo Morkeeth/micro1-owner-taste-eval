@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:34:10.536295+01:00",
+  "case_id": "C020",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "44e1915c45733a14ed26a51098e143d84ee6fa523b6ed62f462db4af39a4a2a9",
+  "poster_sha256": "084b6190603f590af8f4afa9ed27ebba6a3a3627a6f343446cc97ebf88b772cc",
+  "request_sha256": "342161f70867310772d2a1770cbf66a25a32ede3d284b19a28b7c2dd2fea3c5f",
+  "response": {
+    "id": "gen-1794105247-rPekeF8g2vFufvSqmTFr",
+    "object": "chat.completion",
+    "created": 1794105247,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The earlier request explicitly asks for a longer version with more fun token animations, suggesting revision of this existing concept rather than approval or replacement.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1445,
+      "completion_tokens": 45,
+      "total_tokens": 1490,
+      "cost": 0.004061,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1442,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004061,
+        "upstream_inference_prompt_cost": 0.003611,
+        "upstream_inference_completions_cost": 0.00045
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004061
+}

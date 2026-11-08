@@ -1,0 +1,22 @@
+{
+ "case_id": "P014",
+ "shown_card_text": {
+  "title": "The weekly limit bars breathe",
+  "what": "The Claude and Codex weekly limit bars fill, glow and settle back, with no numbers on screen. It is one of the general shots you asked for tonight, made from our own graphics.",
+  "why": "You asked for more general shots about notifications, screens and weekly limits.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it under any weekly limit talk.",
+  "context": [
+   "It comes with generated sound, which stays labelled until you pick the music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P014.jpg",
+ "poster_sha256": "ea4c54c05e6fdf103afa70aa6026c7162ead04d4595c31cf8989060580c3e307"
+}

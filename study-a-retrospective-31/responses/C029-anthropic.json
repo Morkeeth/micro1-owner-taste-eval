@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:35:22.787342+01:00",
+  "case_id": "C029",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "5745711250d81c359abc6c2c526eda9c7d11b35fd1d49a337ee9dacfad9d0993",
+  "poster_sha256": "22ca457375d3138f4fe47aa5c0d70d9fb99da0a4020d04183bae9f16762878d1",
+  "request_sha256": "a5eeb3ce8ee44a1ffd32aeb5e310f621b6b75fcf561e86844d8444cf1eca14b1",
+  "response": {
+    "id": "gen-1794105319-ADfLKMbkfu3ImUYv0omN",
+    "object": "chat.completion",
+    "created": 1794105319,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a requested reusable shot, made from the owner's own graphics, and the poster looks clean and on-brand: a document with a wing flying toward the blue folder. The caveats are minor or already handled. The faint bounce, the upscaling and the labelled placeholder sound don't undercut the concept, so the owner most likely accepted the recommendation.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1925,
+      "completion_tokens": 136,
+      "total_tokens": 2061,
+      "cost": 0.01042,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01042,
+        "upstream_inference_prompt_cost": 0.0077,
+        "upstream_inference_completions_cost": 0.00272
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01042
+}

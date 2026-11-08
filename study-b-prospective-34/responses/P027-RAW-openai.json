@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:05:14.102927+01:00",
+  "case_id": "P027",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "a4694c34d28ed61b17b035b8c74a60201d4bc746675a4f50a91fc5064f9d41ec",
+  "request_sha256": "786b9bdf27ea4c52d08ca086a257f3dd674822cb40aa472f0c1f33d3f111de77",
+  "reserve_usd": "0.059772",
+  "response": {
+    "id": "gen-1794139512-Rqi9HcrOjUiNcO7XsmlZ",
+    "object": "chat.completion",
+    "created": 1794139512,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The battery concept is reusable, but the poster retains the orange-and-black palette the card says the owner disliked. A new version in blue is the likely choice.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1446,
+      "completion_tokens": 51,
+      "total_tokens": 1497,
+      "cost": 0.0041235,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1443,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0041235,
+        "upstream_inference_prompt_cost": 0.0036135,
+        "upstream_inference_completions_cost": 0.00051
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0041235
+}

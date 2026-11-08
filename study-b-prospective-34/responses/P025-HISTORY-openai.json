@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:04:48.444894+01:00",
+  "case_id": "P025",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "c42b78447e74e2cb5e49b43bd54a9feb6de5f605a4b9c2b1087eabd870c44164",
+  "request_sha256": "700248a36b344cdfe4d9a4ab976240c8b18cfe5f97d9cd105bd9de99ac8252e7",
+  "reserve_usd": "0.093464",
+  "response": {
+    "id": "gen-1794139484-pJ59F5vfNm7d2YYckmEY",
+    "object": "chat.completion",
+    "created": 1794139484,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The reusable agent-workflow concept fits the owner's interests, but the poster’s green glow conflicts with the locked blue palette. That looks like a targeted visual fix, consistent with earlier edit decisions.\"}",
+          "refusal": null,
+          "reasoning": "**Considering editing choices**\n\nI need to choose between editing and completely removing something. A clear color fix will require strong editing, but the transformation should be different. Since the owner's edits are small and technical, I want to ensure they are concise and well-calibrated. Balancing between the two approaches will help me achieve the best results while getting things right. It seems like a careful evaluation should guide my choice here.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering editing choices**\n\nI need to choose between editing and completely removing something. A clear color fix will require strong editing, but the transformation should be different. Since the owner's edits are small and technical, I want to ensure they are concise and well-calibrated. Balancing between the two approaches will help me achieve the best results while getting things right. It seems like a careful evaluation should guide my choice here.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GVgLAOVB-nx_h-yLY_w-OqrjcxFWxtgYHXHhbqCHO4jkPKJl92F2QMeCzH1De_GVvWw9aUcfTso0dOx-tSwnXkDzVQwVF9GhwG06kbwrFFXxn9TrJD9eeVYHQM2hwxz7QBeCe54WWsVL6NADyG98H6bcYD_UNYiJh7RluLxskBo6AwuCvBBHVRAV6Qn4OIHJt14o9KHJcKXzvClqBtyYTvLsiNWPIU1c0qTHBDwSedBrYxojciATgkkrLRSM04T0eyiqv-A_4TRBSDp0vaK7ZC4XxSuedxrP0qJYoskGbRq6FqRA0FvdfU7_L2DGiOY9CBokdP0rOaKW8ZZIHiGEY7EjPojwUIxDzLu0Bs6UyqfMS1lXUfmjQwqPInkYnWgrs0jJgq3B4LlGs945VdbBJhkDXX4DElNuNupWUHAIrQI1YbZKnhvySfIXOyHNGz6SVjlcSEdqc1g8hGo1nY16vQwr4JdqE4Daf_s9CHmU3HEMMuQG9CQ4SKXxlscLvHJ3XEeFmYrrSC3q0il0YUsSGT6K7O80YrWcFPErNsYsNSp9lDGsg5frq9OREFANZX-YbkzdEUqfyQ58eiFmw9ufnpM9I0vMar08fJCRvPRTaRNKQySCkkyGhndVX6mVVHGLdjG8sCR8i_O0U6-Ozgw122H1A8bI6OwPz6B2bdN0XJWHnP1a6lNX4JQDK4i50Kh-fBvuBgzq29nkPQDtkWWVsjQrLgIunrOjcdk8Lp3BRo5QzyaVdUCyNgOhk1H33veJgX8NT4sIS3s256s4ihdI0F3GqL_yX1yITZoeCgw047r48h5HTp14_8eOH6lRHmnX5UcPw4c7VZuuG0SHhS06FhuklJoG8SeFm75iho-_QK_Q0sGTR8bSUlJL67kFKXY046mRt2Y08Zm9rMB3q3RpqTmrYNv9RZ5rI9bCnFgHx6JSDlBl_8N12qoVUOnKmBXGqu_CuZJ8TIA7kGLAlt8TybxE-8TvKpdMkOfbSe3QN-I9DTj33EpWzLrqMeMj3ggZmREDCMol4bMDDy6lEILOFuMRSmTbSS0sryplUfHHy6V7g3sYQZW1E9af09s2052YMSpV4MuEZWFjz3L4r3geA-JviC0S9wNECUjLqecmnLyejHN0XXYIiGjVZD2kHr4qhwxf_9q6pl2h4StosJr5EVou3f0XZBMHuoFvFqa5zGvspfzXZZsCaoIp_ctMLsw5XPGzGM3HXBGEQLg-OELjz80GU1RGN0b_9Sgeg90LCRvVQznjrhMiiO3Oa5g_vxwab8h7VtqkROF4k3v6Rex1brXQU5x8jmy5O9wihA13Fbz3wMYyvpfderz8Z_mlVs2_anJvrRHB9FcCa24Nyz8jslZ0iuDNy9HUfByvwE952X2snNDsWRJ8tHihVWrmpNCzQr46GDcSmV0QAITiWH8nUG-vokX9wlPnL9EQWzwRvVbh5VkzLb-v1I2ZBAxzHGRvLaGZvcm0d-aGGGhN8HcO8i5V3-LPfrMzxb9vDAdJdC5ng7WQPU7epU99FiSD2UnhGq93AudtHYQNUeqQTMaISJcmkSPAA4fIiTb5zAQm2tkj1E8Pylm0lRJwvB25fJV2leqINLTH1bEVTxChXC0e1JPk0opePInJdnJDeanNmUzvfQkwoTKK1kAOgmYxkVaNXslmfeh3S-05UpEzakTUFR_eL0SHfZYoLlf5zr5JNtXXaRfAidxCQo5XuFo1_ddHVFEj6d1KZbJfWexYEDxPGLgMzo57t-DAfclTX45No4u90YndlVD9Sc9NDOGcHPASLWy2GN-lXjin8cJcG-2n3s_rmS6y5Od-rd7-YzuwYkK1H9HouPAKY23YAIMTqwTR4LABbqPJyxl6W0Vh02alNns6PD1YbDJFtKkaoMsmv5I2lAXQ94PHMIO4oNeKt5pwB--O3cC0wZHsiBzOn0GRoihD0NXf_nR1dqFSaQpx-Rwq8qCUfCMg6OTGjDJroF2cBNAgRqqCg8xehReSLLh7poEoc2GTGDftqGpx609ILBaLfNFjFtlfB2kWUYWfbl44xpYRdQwZhY-qImZk8RjMjPz0A3ChtzktJOYk53uSUOyjDA6uXIE_6NsVAaJTKUcPmdyCrWGXGdS7OTLWEJgGAozgp0fv3HxzGT2Dp9VC1VXqQgsLTSAsDBOI50G4EiRR3UCAFJqMnsxgqqDbPRF6UBjfWWOB3WYsYjYvlz55kWMr5xK7vptFBHAcb9J47rkUa_Z.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_00b24ddfc3e09db1016af0655df83087d1ab20cbdda6142270",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3507,
+      "completion_tokens": 91,
+      "total_tokens": 3598,
+      "cost": 0.009676,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3504,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009676,
+        "upstream_inference_prompt_cost": 0.008766,
+        "upstream_inference_completions_cost": 0.00091
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 33,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009676
+}

@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T12:58:29.451018+01:00",
+  "case_id": "P004",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "1c7cf27716f6c9b0e4379727a2129b7906f67472e2adf001fd788c390d08010b",
+  "request_sha256": "8c850c7e168c4cf9805db7264f81b1639e130e9eb321f8751bb9417e82d4cc8f",
+  "reserve_usd": "0.059516",
+  "response": {
+    "id": "gen-1794139104-f6qqK25PIovNVfe7J83B",
+    "object": "chat.completion",
+    "created": 1794139104,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean poster and real terminal/browser split clearly support the EP4 concept, matching the request for reusable core animations in the locked look.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on a poster**\n\nI'm trying to choose a really awesome professional poster that matches the request. I could edit the output to make it denser, but it might lose its compelling quality. I think I need to focus on being concise while still providing solid reasoning and evidence to support my choice. It's about making it appealing while ensuring it meets the user's needs!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on a poster**\n\nI'm trying to choose a really awesome professional poster that matches the request. I could edit the output to make it denser, but it might lose its compelling quality. I think I need to focus on being concise while still providing solid reasoning and evidence to support my choice. It's about making it appealing while ensuring it meets the user's needs!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GPlwx0e6-OxA3XLvNE_cR12C4gSQ6D7khzP35Y8CgwlYZEH6ik8jyMzcx2hQJUd0aVlnecewCuUAkdIgUXjaEKjbJdxXocFnQbcLsR6aGLIXGNOAs8ANRIpGEBvLL8ylwz3Fmdn-I51HyGZsYlausYhmRpmLl6kj-5QgKkpLtc3LNJ1kBZVzhJDRBZRN70i2dpeEReVjLC4ez9XJopO9FKeorYundNaG52VHN390oZO9_z1pQ9wPkeDcSYJ6uzE4Y9n6oDQCcSANI9gntBN2ieqmA3BwKvhTgGqMNctUBxZlKehUS073T-667zlt3X74zUCxe7dLWDfxGWubCFk1yxnuEFXlAo7s_aJBbOEDgxzjNUJRtbOGwSh_SpHRdnf5vNBKIzN61nDjGDVSthZ9kzBNM7HN4QCy7pttGa8OqarI3zSChuMalpMvXSpnVVAWuoRI9l8rURwO1grsOISbmlSeT49aRHQEcQ4ll3icWW2PfR3rTmP6njUMj2uwBjAF2kDhj9c7qzLEBJyRItKjB9JtJ1W5qYo7f1mg6Kxt4GT9452zasTonL8wWdvfQTbZ2Qvq-8x7NAMK8UVFjPMhwdQ8GcYA_hD--d6vH3MeXTlSeczkdyn9Tisz2YVTduDtGT4l10d1LCUKmkYZHI0GejGx5Ed1CypJcgNUluHGE7p0z6b4HGSVfh60s-Jol8XzA0MqCevDLAxYrsOozCbe77di1e3_TBLlZ4KuSVA571tOGEc58K0oRbtJmF9nDBh3e4Vclk46Pz_dikOTK9SLZAFvix3OpWOuN3mfogbwPc0789tu3CZWHpJostxwXXH0O-1IBbrVswNMeD9fEmSPJSOfUy_KZerYbyj_V4a5I2EJjK-eahPy6-ehfzFpfOGs65O70puYO7ocGjmGdVkb6j_JIEwenuslcjOqVIU6sDONW1oKBCHkrHEUM4zcy_S3giHCC88xDKkBviRUo6qSatwL_2cinATEQy4aK80k4QtZK_ye0hhMom92w5ZRwhnwZnwdq2lAYNlEtV2xyxNAnEv1BwrAjb_U7ny6BAAfg3hwTjy-mRIBG8hJmAhmQLCnbHVxp0zJZGWqpOZKFCU389kAuFB0YcNq8_-Ee-Ja7V6m34uhx9grtK73X3jnfEZjLl6kE2VQ5Juy83Lfv8TBfsBft9iZNXJvN02XsqOomv1SGylV_El6979k4fWEH8LB22KS78D1ESuODDmRFNjpw6fIRHvMD7PjhpmZrRP_uHOq5KW3qXis_xRWTlQbE14_TUiGMIj7CGpz_7Cq9dYpcJncBnWWLR3IU9NJYL1oBnC4z_z0GWLwYcUxcggKZ79YQIp26ZHbxFaK_ACEClO7WsZD4njRiFYbROqFejWnPh-fkgX_Me-UFNXZuCMkSpk5ptg-rZdlIbDryiSVETKQK9kyhXI_piyHWc4Okz6riK2asLuPHZANa6BZn7IiS8se0MuxUWj27IMYS9vjPp0c6UYJJAIgO0ZnJAP32yBpCursyBsUYEefMbnNjALFfczwwFBkR5PfL3hlUe1bAjtsXjB3hLNAnhwTDIZOvjWebLnViGUqALomS2RZCy94ZES_Rzd_qhMBhu2z3FNOw_uIytRz6BBABohGuAO9Wsho83smORvZsJ-FoktYJ-6w7cAl3ycWPWw_4gTmFgpHLSdL7phkVhz_BRJNz-48dqXxl7uJeEdsZdEOEPkws23GGqWaungZVnqJDLqX62vCfkU7HLr608TlBodSnNhvQeXY3IiRepr__pHlLiIbyghNu9QPwLsTVeLXtPAQwvaWwQJv_akdQhg-rwYSY5GfWXKGbHAi0ljnuXYxQ1RMq75S9aKgPmjw_S8Y6voMM7GSlLAzblcylz_961oySBy0f75eaEFQbji43upbn1I1SB_-ZSUmXwaijfwlL1cvQf6Dt7PZFMOC5NbF1A2bv2ErHzHyRBjHDR-N78K-TdyxlgV1lu5yQSLeKb6DHdZX6LNHMKncrpa8p7yH2jgfE6vQS1-GwwdvRAbRxBUjpAQIz6TCRvIg2GiM9iMzBW_kyTGrtr3idUCiF5oj1lsl7DrhTQbiN_8ky_1iC3HqOvZviaEPeOqfB-PnKOlRpaMa-cYPse4Sw3P0-cp52WOGtZvgbG_dM7N6Zg=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0a787dbb038e187b016af063e3ab3487d19d312e1c338aa2f2",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2791,
+      "completion_tokens": 77,
+      "total_tokens": 2868,
+      "cost": 0.007746,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2788,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.007746,
+        "upstream_inference_prompt_cost": 0.006976,
+        "upstream_inference_completions_cost": 0.00077
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 28,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.007746
+}

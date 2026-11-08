@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:06:54.505885+01:00",
+  "case_id": "P034",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "ac4243fb04d0d12a964c529b01e438687edd24a785447d02e4dd4e1095ce6778",
+  "request_sha256": "e4cf56b250483c5956859580ec33c8833e9a3ac44c11dc5b8a57dac5ffe62923",
+  "reserve_usd": "0.059804",
+  "response": {
+    "id": "gen-1794139610-gGZ60Ir47yG4j0UesMWy",
+    "object": "chat.completion",
+    "created": 1794139610,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision directly addresses the stated feedback: a six-second search-to-result example without the agent or cleaner. The poster clearly connects the skill search, Shorts row, and highlighted results.\"}",
+          "refusal": null,
+          "reasoning": "**Considering card revision choices**\n\nI need to choose a card for revision since I don't like the current one. The targeted revision seems reasonable to use, but I'm noticing potential highlights might be irrelevant. There's a second title, but no evidence to back it up. I think I should choose some awesome, short, and grounded attributes, but I don't want to assert motion unnecessarily. It’s a bit of a balancing act!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering card revision choices**\n\nI need to choose a card for revision since I don't like the current one. The targeted revision seems reasonable to use, but I'm noticing potential highlights might be irrelevant. There's a second title, but no evidence to back it up. I think I should choose some awesome, short, and grounded attributes, but I don't want to assert motion unnecessarily. It’s a bit of a balancing act!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GXeR0z355LQvNCLI07vJHMa1fmN5yp-1WrJ7kh0a6ZvLaKQ-GjDkIsRiI_hKccTJ3Kha46hUyoqtUurUvosG0H7XTDeVbsdg2IyA0sgY_WmFsD2L2wpOpBQHXxyLI6zwzojJQ8uw3yt8v6yXvrnnu_wfbGdomLloiImVH7DLr4Q0aAUUSRH7jnW3MAccUDtdmz7Yd9bW_Ee4hCPqAqlaUeicdG4ClEWmsKsTmuNRkwSnnqj_Yr64nTt3mg8_25zfZjy-PIMe5WYRP_RBjx-uGOKS8CGL-YBH8-xTOs4SGgxrB5VT2GUoYZJAbzz479sRAyk4vLLUxOYyPbNmOdcBy-0vlq3UV4oUgP_Xg-niGTWoRvxBamJY_5SJwsG_NjqY6-Pobp4351OmqaT0IZbnrkCguaMlzplci7gt2U7wu0B914HVRVYQxz9gnqvnf9RVjx2Ckj-fbL1s6xpQb8acV3VUfIERSVvg7afXoqEMLLXbbVXWrNl5Y3rLPuhvKpuD_CU0A1TqFNzhsHTBaLmzbxjSgA63t3lvDbTBk1uq3Z-BC47RSnPbfm_lLouY26HSnbBYxbuUwvMmdqb9CwzNQ67SSrC-pzemzSTN59DqEY4EghPPogCQMARnUBg73jZmeJmAQAqZi91izRzvYyeXJCc32-9YiB2DMzBDtMrzxwSdVppTfREO2xhBjLqjBDk03tLpZi7Q1HrxAtJ5ny6Tw4bkAZAEaaUStWyJyYitl6EsqgDpcrMJmF4uoj05ZxEbGOCMieKt4y_Xta0g8Z8H9h97yEaFq_tGRAubGYVlWijQb39-FZb7Yq9HKw6f2nyUi7-r03-1JT6N9UrioWSb-Q2Y-xF2fcQCIpRkNru6G54KPRXJQjLZPqjHv3O2Abvr51ath3myvQoXLfI_H_ITUy5Hgv6CuMCuAwYmXu5SnRJwEGxrCH1WUeRiXVMWnFbUeJleF07qNzfhd6wNew1iLR8ZxJOL9SMqIkFSAcZeqXEhfIGt3yYq7khYGZAsLkCZVynFxVaZonsIZCZxeaSlwnJwjLD-an8X4TQujxDXCVRjgzxE0JnnCtDUGRcXFU5R9gI6IqjWCl_IyzH0jQPGvfisYMkawvr_J72SMQowd2M7K4xTkZhp8YAXYZVMGDAT43DcRVAGwjNbqau2AAhLrsO8sNl1gDLKXEFer5KbkzTHGF9UDv_CJnMPqmeAWFxOB8hLrQ4P5oFD1XtUQmGjC9bbHtJixFeNh_pfedmWnKG7isPD8zXHq-7jEnfuN3EWGII6aDtCFS_PEf_gXhFhILkMd0LAz4JjuUC2Cq4su955Fd6DrYJzr2uV3PiBZmbg3R6-aYndzzpK72sE1f57R-68tHUJvjeJpqrrAECPbyIrnssUA9dMJqZ8U3fnVrXG815B9z2AEZ_cpKVws6wZy720aiPymxzElTCKafoQDdGkyEVM62Gul7Y2T5C-qLrehmBi81hQ39K3LtshPlRGI3iMKQKBQk9uAnUan7D6yPN4hVVVshuxCPt57cIPbTe-ceHS9PWuJ_p0PkJCwqRV-p16ViQPEGa66Y2VBL1iakI0QdDIJcNiAy9jT_hKRK4fU4XAu1eqZ77Jz0NbwyNt6DSfn9HGTVj4A5SC7zAjWeRqUE93zXo4AKi9rtE3M8Sics0V8aCC651m4Vvokj2iqWvEZEmkYYUCeh6wYEHrwIowUrQmeYnq7T6udOjgm3YIN9kRXRcbj-7YOahD8FNZibeM4nxiE8ciPQrXi8FBituUsiaCU6zzpJfjqKwcHl3B6-oWI9pBQrlCu3vUjqWgO3bcbTaXTXI2KtO-JfqbpedpEiYRwPtrlc1p1-rq0aZt71137gSXHWLpbdttvmDIFMRSqZx9x2vIEZS_l_7ZNKmNh8CkbQ85zNE62RMaGPU2wPzd8CFiJ9oJBWAamTr0LRkip5sup4sVkrb5EH6aIVNqTmykOPR-ok5isBztFlPQUVU8Ezg4XlZ_njyqJmMg_QEKh6b5MpV1ZWNRIDj8_guLSwosjW9w7y1dspLDOUmZX1U7kLBD35qeGQ-j3kpfle2-6o-WjXKgyoHOhKD8somHcvmB08tvyOmdpMTtI1eTE4b0IbdENkDPxamnJiyyIzcbv8d7-P7ZaZt3OxxTeS07gcPLzRz9GxlrxXkNB5NvM1imuBR7KKFx8np1ewDwsP962nMSOjjCsHefc4cNUgvq4V3747jFeCXgrwFndB1E1bt3_IK0evEsW05CpNVR015Lt8h5JKSVlKlUD_0EzRQ4HVBBA_NR_P7xXiTPXTF4-ii.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0d848e0fad18283f016af065dbf0b487d180611c422eb34bc4",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1457,
+      "completion_tokens": 95,
+      "total_tokens": 1552,
+      "cost": 0.004591,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1454,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004591,
+        "upstream_inference_prompt_cost": 0.003641,
+        "upstream_inference_completions_cost": 0.00095
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 37,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004591
+}

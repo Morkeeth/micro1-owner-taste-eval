@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T12:59:49.298476+01:00",
+  "case_id": "P008",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "293c1e58e62b4a80ca7d8637056cdc733d1e09e685f696d6b882a784468e7dde",
+  "request_sha256": "3c60c217c73e4275c5d742aca7b8fcbd08836e9ea2181a4ada940c8c65490223",
+  "reserve_usd": "0.093504",
+  "response": {
+    "id": "gen-1794139185-UVBwpks2nVtXvXPUwDjB",
+    "object": "chat.completion",
+    "created": 1794139185,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner liked the cmux sequence and requested only a skew fix. This revision directly addresses that complaint by preserving the panel’s proportions, consistent with the padded layout in the poster.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GQ0rBdbWhqo_fJhciUpwr4qDjIdpwqWJ9nXI_EccPSF1z35MGtfxGgg0PzdpV7_ln9JPld-OYJi7Fbfs0ATBc9q-4GD6jrHhaKEVHtq89C2YJBs2OolPT4bNx9fDBhN7pItifBy5IJEQ3v1hiZuKelGIy3Wquy1zPIdUPRKElHsU04ZTImqebk0ghWZKsaLYHNoSZnj2ti3kJay5IQ_KlHTZ2yFr1UGfswump54csokTssS9waezpoBedoPKkjcuKIQX6BfUjUuN2MDSPY42Zo1-0NXUSs4ylZPh6mSaL9izSFO2f_jLrhdKD9VnsqEyVuVasSimh_oT1Y2N75VgDwYYnEhd7_BtKUSHDE7PnAjvBcLPdziFt1NDl3iGjtpx0S5n7orMVoY6kojANe35PIMSz-QgfKWcnYm8xEcJXmiIHkxnwPrCnkxlWazNbmRGzTcdU_vD5EDHo71iFx_VEdO7OoGDctTLekjQtyouQVH6QOtTbL9JtaowYepkZ57KThFKZgnhhXRXlwKkDsc9iYBSsrchGV0C1AwlXQ2-eMOdhYrAi2cO4ybcu94BTF7XiIXIWrIpHkyCkqPvIe-AHFN_dLcOlKIIrFHC2_givhp3obuwxAghWHJ4WIqyh-aTHgBNg5aro6mLqeiViVEfA-TVSUz0LAjbtCg4_D1tkYVsLeOww5_E7k1uL4E9kWTgNapmkWy8PpD3ggfdO_twy5ex-H6-Go-SBZw2Qak1gWWLuOGsmDxDXKEj0F3GMSuupDVG-yyI-kNOXTKBWDRnEg6pYp2KAATSyqzPlJtqgqbaA2nYA41WmETCd8k26E1lObXPworRI81nStkTIgEvB_msWCc54lEsqmAJYg2c7YJfnnjMFKpe9KvAXrXLIa1Uqg3v-U02KUDV82AYNLgaDFZUEJofktMoADNHDAM53TFheDYgSlE4AIxOw9xil9Y1PkmkBn9ZehH0Aphp2l4onpfs4vnC5G0LTrJAOPsy9_Yh8figH7CME7qUyVY6FDIf3A-MN_6O_Hw588QE-GvPJCf3-FFWCTF8RV5Hl6g1kxf54xk62qJ96zZgx69zd1grHDshX1ErMPh6iUKzOZLlY-KsAQvUIWuVwEpa8_Gnx7G3hxQG3IW-stjkddgLu4kKZ_Wcjd1gUgyQ7Apj9immjFcqmzvxmqzVWuWnuC1UlG8sqhMJhLLujUDLy554v2D-hMuvXVy6H1gVylKKmo-LUTSC3QyJpKItq8XPeSYrBXim-oGc37qQWmeq237rpRrV4IH4ErnSEEYVy1w1PlWClWnXwIbmFFuo501GzbM6bu7fm6og0QTUGc8bncxal6cF1mmOOL-qXc0kW-WIf1l0eOsLZyJCr5oR7TjB-BbijeSWg-KeumpToOYC-2daR3WNvv5LXBj_Xht97Mm5TVF0iR-hvXEpI3UHVwZ6y-GRr0ul3C8AhsbYCat7NHev1Gzu0pcs6xXVY098CupCb4VgrntXYJxPUyS0knZuVzKH_64vsRCtTy7pNX6T7oK7rYDET6YqUuj_bOMaWEQbhhMh-MhE-iZOTN3JOvo_tQsDfC0IZaWxo3pAJBmUuzhxmyssq_cQr_muIbcZSiZL5ZwyPE7O9ipHI8_6wdnZNC5wXp5ePQ5gLZJvnzFMkvY8lqrnGAISPBN8C3Z9XZsL8T_H7aK0ijbhX2YKppLPgKZiKGrt-BgCs51N-G2pMqb0YxAKvSFjRGJKCiK4j-iZvIb1V99lsa1p0LGvjhc99wK0XqLJ3pNZj2iFycXPzlsQweJ0HSz1roxkSiNbTf_dTOo7y379WHymZRqhJj3SH2cgCjA12llpMWsDp7v22lXWJTWuLBQBXH_7lNlWzTFPrVHPtJwG0teqmpaJD4flDt846PTmhZgTuaKDXgHigUjpKO555KBw60ChkVlp9ICR_aVNCwaWaw_ZFhaGucaHErLMVDGS4UJKwR3Vg9fXd37QAHQY10pwTnWipWD0D71S1TiYOyHfRjLVtb0OBMOPOotzG2tDYsG_kfn3pbQQZ8ib4pACVyTkE17K-WqvYhXGsbh8F75LtCCI6J-V7IlrA-kJGwG9nytDlhii1-6_MQMn6CKle_IyItXpWRn5RzWoQmNaw4ovodANNcxONFOcz8eVlnipWia0fcLtI2B38x-wroXhPep.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_09985f0fb660d72f016af06432c3e087d18b0ab9007bcf7ee8",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3510,
+      "completion_tokens": 87,
+      "total_tokens": 3597,
+      "cost": 0.0096435,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3507,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0096435,
+        "upstream_inference_prompt_cost": 0.0087735,
+        "upstream_inference_completions_cost": 0.00087
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 29,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0096435
+}

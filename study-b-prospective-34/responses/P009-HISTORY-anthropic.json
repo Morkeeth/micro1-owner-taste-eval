@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:00:00.304047+01:00",
+  "case_id": "P009",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "f56969e96a5eceb88bcfed96bfa04284af736af99536a8e1dfd333791a9fc1f2",
+  "request_sha256": "f299ffdd67ca0b9fb24202b3005db22749995658f533c42d055054dba2122791",
+  "reserve_usd": "0.166168",
+  "response": {
+    "id": "gen-1794139196-8VctxGE6v9vZAyPd7hR9",
+    "object": "chat.completion",
+    "created": 1794139196,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a targeted fix for the owner's only complaint (\\\"Bit laggy\\\") on a clip they otherwise liked enough to send back for an edit rather than replace. Trimming the dead holds while keeping every moving frame addresses that note directly. The owner tends to approve polished micro-animations, so they likely accepted it.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5724,
+      "completion_tokens": 129,
+      "total_tokens": 5853,
+      "cost": 0.025476,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025476,
+        "upstream_inference_prompt_cost": 0.022896,
+        "upstream_inference_completions_cost": 0.00258
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025476
+}

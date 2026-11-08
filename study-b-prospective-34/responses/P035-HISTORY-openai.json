@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:07:32.970555+01:00",
+  "case_id": "P035",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "fc8ab9f3ef793256efc7c5f4d4a41a05b48ce1a0cf5adfa9d432e9458e601661",
+  "request_sha256": "aa0d28a8014ca3fbd41935c84a1f3f3f560862d1ebed84da0bf74708e14e8737",
+  "reserve_usd": "0.093856",
+  "response": {
+    "id": "gen-1794139647-8qY0agWcIb22Wm7U4xcA",
+    "object": "chat.completion",
+    "created": 1794139647,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The real cmux recording fits the owner's enthusiasm for cmux, but the heavily blurred sidebar weakens the main point and the visible crude prompt needs covering—localized fixes rather than new content.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating edits and content**\n\nI need to decide whether to edit or go with an awesome approach. The sidebar in the poster isn't clear, and the title feels unfulfilled. There's a slight skew in the history content. The requested material is there, but the crude prompt is visible. I think I should edit this one to address the issue with the sidebar. It's important not to overfocus on morals. The owner approves the layout, but it seems like I should include a clearer reason for the edit.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating edits and content**\n\nI need to decide whether to edit or go with an awesome approach. The sidebar in the poster isn't clear, and the title feels unfulfilled. There's a slight skew in the history content. The requested material is there, but the crude prompt is visible. I think I should edit this one to address the issue with the sidebar. It's important not to overfocus on morals. The owner approves the layout, but it seems like I should include a clearer reason for the edit.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GYE1ne_aBZMk8mo2eJvbX5TajBg8DJO4tI8eGv5GycndoL5rN5baYsHcXYsJ4zPxaWDTtg5dJvWiVZkO50x3Hglj-Wh5Vt2owDvCfkk-VpjmbTCIYnvEl8eWZi1tH9-S0CwHdhpUOCkyt4HzBJCHCPqD3rInMIcfxLhsnoxo1PdplbsltlM4FuZq31MW4kLDsjX9AWNMyaabuqT6FvohaQ8QLp2FfNTRb9ryUtLzUKQ74-5eycR3yk3YZXOPFKIZb7yZPtR1oSd-2HZWTLnEd73Y3YO1B9lgrs-ESU003SK8LUBB1yB5iBlTT6ESUl93ctrOE9djmKjcwE-LxqCQS0d5ZNp7O56Eibz4v08au0Ns-hpiMrGl3XtjE8_o7Qm2X_KANw2I6UpV7o0qxRH-dhUu48BYWf5_pluYSlwtcnC9buOpQ3ib5FZ9iHROHUN0M3MmNEykdH37ZTfemacGJbCho-jdJ4tkPYcmeRdvFv8kx8t1XBABF14t8srksC9cogZ8KKqZX9KOkw6dJioamy1hmtt3PBVs3YzRywaPaF0ZAiLLAlmgWZpMJrLgtMpHpmkoQh21ZAduObD5Rpn7BEmsRjTONVL4vleKysHAjKZA6TNwEDCUNaXanvViU7jAtMvSvsa8PTBr1dAjFeW1vX_2Et3_ergYMtOplNZVHY87zHvA8JISbquXK1iwcwSCb1fPQ6GHeO9cAkV4f5kzhLwNw5LwfHNT9VE7981MrFCJJjOOl_Ws4iuJeLYlcqH9q9TwceiSUpaNL57gqTZ4IKKxhleiPJ5rrWfxnJBeUpow0AWmbhojaz5X5dIgnh1RaMZikEKCICswVE45NZph3HATs7Ru0kxbelaeZXW81VgP97-OCrvkCEJJeVavka2cscE5ZaqT23-Ju84wApbIaRMIEM1irBh2CMjDqlCkeSCP7wB5X3vr-XTv31b0nxRcxdMTjLNh13XmB6lC0w5LJSZaQs5XCjVaAuQFBTNqBqE5q5ocELGwvenMBDR47OGAp5rweXuLj_ZKSqSQkbVagLu2F333fB9ef2IwCrKBfn9jA5TDCx2JNsTChSHWoO-ATWPjR378VkevZQUgUhgPuBRz_aMBiJ04bDIKCrvkiZcjfCCUnSThIHQFIgxw2zfkqxgZ2BpklNq7Aj3rQeFsB1yWCqfR0xnkpZgaPz1eOJExzRSlFmr6C34bc-xMw8E1pP5csOSqp1CD5MW3Wy4Lvyt1MkwvihgxtHtNVw4hbHiNiugykzkJ-jCNT07Uo14r8LpAoELtfZ6vRe9Toy278BAWCj2sqkZ-OQOMsdIO6I3B98g7FoBLq0bSYKNDDxnpwttD6tW-AfzP3JoZIxUDdSQr8pzILkQmaaM79uVkNKl7uA66qaO_yg_HFIluAc7ZY50w81H4ouZJ24K1gsqgSyqS5NsAM0z7qT7kB3yu29PJiIninRWZkWbUGwZVL_7BDuqyKkRXa30wkjBS-XDpGG12p2lvz2D0enEHHYoHwM14IPr4gEMnT0cShOYHtDTtnTO4pNF_9sop4yi3k9EvccFii8WlZK1mJFCfYRMr98VY6P0gX7LKOgBvdt-vAzxQUwDJHQM8FW6ItrtuipnrfE31LTdQxxXqWTIxP3IGFoNS4P1-EPIkAvttvu7vsugZs22GyuWwTfNMU8gWKnILRfwH8AxhfNr869rh247_PmgURntKHbbuUlDFwAPeA1plXHlg2s9W7h2Mi_mwTkz2T9svBAGobxlgmlnLQjGXIW2qmJRMb32WsE88FdlpDl55p3BmKYJb8tPfUVQ-oSR5dDWcJwplce_q8Q1hBIXWv7HlWJG4hb1tFarIoNC1vjB59PHGG9DE4NWyXC4VFIAVkV6yJDIzbrGck3LILz4kGyIDIuNzR6pats4Ks7uDI4JYAn0UacuSLkR62BK9SogY7yZ7ileO3eKTHvclaFT2PSsjW2BFoTaxt-LZ9fS02Nvg6TSzNHVzJhDi8s3LYXi6jxOvV-axxlj9Hs_iEcIEQiCPkgFdDFGSxMeDpOlvbuRpnUXdQBU_nlhONuQpCFDLVH7s21-zptSvAEwV0AVz4kjwF3SDBqs5iIJfYXb36oKQkRUMQFoj08gYUHUmoX-b3UVJB5DsCCUCmCUw2vwSriJajU2KHnI-YXE9CCZq6ATg96nyyPFw7PTkdQzsk3GRxAxkxkgTNLVfdEzmOiwTbbG65lYBwjwEnwx7aqRuJVqJl07DT1qxmbDZwhsWkgcmJ39XGJqMrMlTnjiMPHlAeGmaxr114EL0z75W58tpRjaFqjEtav_egS2TrpVXE6hDKwTizF8K9O8JJHuzCrF1cC6DCnCdsGmorbr4fTHfDq9m2tX2Ncc4h-BTkug2xSwdRjSTuu5sb2JT93Lv0f9BBMBFYbSd68SD5wZ3nz_UQHxUoPpS9i7asIxQnrM2FqDz3_Gb_sHfmO4mJWYFhli2XDNNM2xwoeRE3jDzJzH0xt_jXNY-CWxXxN4fWoeYPdP_5n5j1nAcIFn7lXFUSF47DTpR5G4fAwXFXIGb-_40JvcAFaeeqVOhbsgedCGl1jXnsE7tB32j98W9sVL5Jei0Na8yg2BefM8oEytHNl2r5SAtI3KS4Uz6_3HRD9cdvU9PPoP6HCAWobjugObDASn2F08jZr0jVE1Oek44t_grTYJBLbmM7Kt0cYQjLnQU8iL3y4uaMpuEA57BrHP6Xx500OiBSTxhADl67ebT8RVRaWdV4A6s28B5PiugRmY5Me5ZuxDkwZSbfuWxv4WEyAe8wK8Ckk52az6xFDsE-q2iSDePGr_Ju_UVScG-6lUKg9ncpWVbXlW1TBM4Is2TSo2OZsCAEWOid_wur2QS_KrbtnqZtQcSnblVPqLWBWllc6IsOMRt8TOSnSiBWs6bTWGIKoo29S8fKdzkuj36WQhkUjOU7Q4UY97WWCqPfJYbLNvhyi21ladLOS7nAosQdl5Owms4ICdHhShm4aYaOGOG0sFcYkws75z_75sVVOiY1J0z_D9dihYgACvQ2ya4KSRlqvwwgO3lEylo2idqobV7W77ZLQ56myBZXgsn7hyrpJER8jHjzKLBgVCZaUV2R9EytOSjGL-rfcxcq7GqqlvI9-k7Qviv1Ptk2ysTsQb9nAyMDKeDpbYGpFJPqlNUePcSutlLjqLhGNOkPgE1N2bHw8DO2dY97W9bnSKP9QOe6cEvh6urKLI_VbtHbjK5bhyquOXWagyAmkdDMeY0vM5Bng4PWLQRggTvXRvrHesjJKR4Dpe1Xm1QNOnp65AN9RFu4r8yKC83jojm7j6UIuW6mtUkRusYNfwRITaP2edfCYYDPtwSpjyYvR2QP5vRZIZbTFIIBn8fD2wkCK86rr__U6L6czKZ563nMKPmMxxe0ZPms3q7zOHFGX-ngAs8enEVfpFlfX4Y-yUTkMNud7W-0JwIX660-VBNB20ZwX50nadX2GMk-svzmBCy6BBK_qfjctm4qrs7K5E3DBR_ZrhooLXhKB85M5yvYuMsglhlr5pFv7e5R5oUgGToCt23V-KL-VoinQ=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0eaddb5638f94c43016af06600699087d1ac7ad236233c1561",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4870,
+      "completion_tokens": 191,
+      "total_tokens": 5061,
+      "cost": 0.0140835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4867,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0140835,
+        "upstream_inference_prompt_cost": 0.0121735,
+        "upstream_inference_completions_cost": 0.00191
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 133,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0140835
+}

@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-08T03:35:14.471036+01:00",
+  "case_id": "C028",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "ddbfc8a6eaf2b82aaab69bce837115cf23920c76400bc7031b2482b68e65278f",
+  "poster_sha256": "02d550e343ad0f44070bede6637cc9257cee17d08907989e074259af6e2c7387",
+  "request_sha256": "563bd09c08602f7e3a18637bfeed86b16871fe540c48b16a46b9df65b9872d83",
+  "response": {
+    "id": "gen-1794105309-rEt8nc3kIzE62HqdMSxE",
+    "object": "chat.completion",
+    "created": 1794105309,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster frame is strong: the glowing blue line sits cleanly as the horizon over a moody Paris rooftop skyline. But the card flags a brief vertical blue bar crossing the line before the skyline opens. That glitch would likely need trimming or fixing before the owner reuses the shot as a chapter card in every episode. Upscaling is also noted, so an edit seems more likely than an outright approval.\"}",
+          "refusal": null,
+          "reasoning": "I'm weighing whether the owner would pick EDIT THIS ONE because of the blue bar artifact that shows up briefly, or AWESOME since the still otherwise looks strong. The artifact is something that could be trimmed out, so I lean toward EDIT being likely given the flagged glitch, though I'm not sure, since owners often go with AWESOME anyway.\n\nI'm going with EDIT THIS ONE.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm weighing whether the owner would pick EDIT THIS ONE because of the blue bar artifact that shows up briefly, or AWESOME since the still otherwise looks strong. The artifact is something that could be trimmed out, so I lean toward EDIT being likely given the flagged glitch, though I'm not sure, since owners often go with AWESOME anyway.\n\nI'm going with EDIT THIS ONE.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSuwgKEAgTGAI4AUIIdGhpbmtpbmcSDESN9bZE/fXatY9YYhoMbMe49QiGf8CO6yX9IjCBPIcNbVAJsB0QZLPjNepPoBGttPCnLM03sWndzhzRVsAcrAgLMlMhz5sE3pA/QYsq2AeE8+CscqqZGM1g8Z45COKCeC0e3t04/xcWjOUwTnwFGcVi+y/Izp0EsFixZ6OAFS32IVXULTy3p31Yg+Mn425ANeTyJ8v/GGRrTby4sIxG5QwMLrag8azXS02dX9Y+nxcuE5yAfK2vosPPOpbLZDSEX876gt2fwUDKMY0xbbUXAlpltikHFFnUvKfLyIFCFE+esF/YtkdpTBPJ/duKLg0vQxpETUrQ2T2HUXj4X6XwhkfComthtdJMKhL29LeswbnXiIrOWgPdU8hiZc2F+TAR2SxKCwY9ajqsDrIi4OPHH5Z5lSIQx4qVdHHqWOtjIA0eTSkEqSN4eE5gXqRWIpFQW6Oe5VuGBhMcQku5ygYQsppf9Ln2FpFou1QzVX6gj6it2MBxnI/q8YH1LH+LzvXoeBBkjc94Vdv9jnWs8faj0YWSR6706kqUOt04sqvw0gW75BYkZHZSUXO/eEFMA1292isH6r7YKaBIPdIiClsh2szaJVLlHHhDEf0j0SmvyLvvY3/FDk8HiBwKnOzJJMZIshtehc4an4dRpY3Xa/XrbL2X8vZWk69ofdRDyvRQMLKNgz6Uj9Q+XpQZL8OroAVrAeStag6e2xZhe1rozKNGu+wbCgxs8aoNwoyBUkqaiDUuHMgdmpx8EPpp52WPOcXxNIPt+maLcFBOvbsEpCCbNxzpN9UJD1q5Yq7m88VhndpH3vzWHlhuvEhjA6IFIxTuUU4qfCTxyHyt23433fPEMQJ/aGIDglTTH1emx6+W4qetdKIjeL0vX750QOeGN/T6Fo5UotSJtLCvWubcppdLli58eRMZ4weVC80hMKc4eIysytSI+XRTvj/+bWIuwE4w7sumYPVSXyxsGpsW18lyQpB4ofs1bH/t/qWYsy+5lh79DTi8n/1VVY/AtrgQUJJo+ywKdKIOfZyeSP/Y54pkaLg48YogFq1T9RQpaWeFRdM3A2uiNVeZPFeQeUGjd3s3wySKQkqpqrBMhEvNTrJ6sQj22oZiVZKSSt+wcTJ+JoOzxHVqYdlV0WHgtNMtUdbuYckrdpv9GFG37hiUVHHpRtAkl7aqwHEAQdKaMTnkhRAMgjbg1odkX1MBenZWz3emJwrDuCGKnwlmNnetSM4b2DTZlq5bkQwqWBvJIA7V47mWG81U68p5nnW45eM6Q8e690KV5jWVvRRy+PkyHsmHZA2TC0Zo45LXTxyLs77/22X34lI2fDE/A0oTWN8xm9SRvrQe5RszT+cwsIwdCkw2/TnoJcQAXDFwKn0ae2zFlZTi7sKupU+sYn88E4gv7GHhPDl+IlGxXmEYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1948,
+      "completion_tokens": 318,
+      "total_tokens": 2266,
+      "cost": 0.014152,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.014152,
+        "upstream_inference_prompt_cost": 0.007792,
+        "upstream_inference_completions_cost": 0.00636
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 162,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.014152
+}

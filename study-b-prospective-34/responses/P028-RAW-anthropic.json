@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:05:27.677945+01:00",
+  "case_id": "P028",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "5cd779cba115b3e7a49a1dce25c648a7f20595264c618ee1f6c281c8c0b3b986",
+  "request_sha256": "8257a4ad0a4177acba8911f061c29d9eb968f3b137c487d2b6b5a1df9da313c2",
+  "reserve_usd": "0.098912",
+  "response": {
+    "id": "gen-1794139524-LNEB7hAvw1jpZbl6cG6I",
+    "object": "chat.completion",
+    "created": 1794139524,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The card calls this the weakest motion of the batch, with only a small pulse on the bar, and recommends killing it because another limit-bar shot does the same job better. The poster itself looks fine, but a near-static shot that duplicates a stronger one is the likely cut.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1926,
+      "completion_tokens": 107,
+      "total_tokens": 2033,
+      "cost": 0.009844,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009844,
+        "upstream_inference_prompt_cost": 0.007704,
+        "upstream_inference_completions_cost": 0.00214
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009844
+}

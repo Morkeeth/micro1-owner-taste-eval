@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T12:57:42.590910+01:00",
+  "case_id": "P001",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "00860c43fabda612ece1506b1a64a5283b62e1b2b42a9e247da89bc464645624",
+  "request_sha256": "69d77d150c102e7bbd1966b85ecf77946d12ea67109edd8fe654267068a5277b",
+  "reserve_usd": "0.093184",
+  "response": {
+    "id": "gen-1794139059-HM8DcMrBpeQY46XikUll",
+    "object": "chat.completion",
+    "created": 1794139059,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The real skill names, clear Finder layout and branded pixel agent fit the owner's preference for concrete, reusable core-topic animations rather than generic folder effects.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing effective approaches**\n\nI’m considering a prediction strategy focused on a strong, branded core. There seem to be negative aspects in the folder, but I want to differentiate by selecting unique, generic assets that still deliver impact. I need to choose the best options and provide brief reasons for each decision, keeping everything grounded and purposeful. It’s all about balancing effectiveness and creativity!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing effective approaches**\n\nI’m considering a prediction strategy focused on a strong, branded core. There seem to be negative aspects in the folder, but I want to differentiate by selecting unique, generic assets that still deliver impact. I need to choose the best options and provide brief reasons for each decision, keeping everything grounded and purposeful. It’s all about balancing effectiveness and creativity!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GO2xpDxTeldYYMVS3psmfk-L775D_ZMpR8RuRO6skQPCSdTEJPGVd3uRV8pdHoJQgBiaCNthTvdLmSgHqa8FiBJkrd45TFfM7btFnc6s5GoR2V3mpLBwv0brloSm6rxWdVaGSxRIyp2s84OAmtIkpmGqAFmgSnRlAixjDanzLcW1GzVH5UIcTjnjsFs_1zhy-7_Oz3Yp62JgvDicZMM5J8woLUqZvwg9i3kmP0kk04VOpgnUil9roiSH-rsMWim0U9s-Mi3Qac7yFpkYkqmXMquO2nNc1qZAnStLRGqUq1n5DFgxyCdKur9DxV6Pftjmxuc5SyBt8LLAQ8P24kjvBbRooBCT0uZwuilnnNVS4dQs4T-vQuvsFQKA-KO8yTlW3WdoUY1OYk8FFNRK56g-jlGDWUtTYZe76rUqAeaprkD0AifOoCUJNBcS_40uFOPygRNllvynB-3A9sLFedrexo-C-gQhD0VU47krlOWlhx3GQ406_RLZAMGZvzB6Tj7tH1mJl589MrkA4L_TpgSFtohgcWXI_h2xfGUWZxlni8cdSqRDYS2Vemao3Ef4kU9-w5T-pUsij4uOCOaHbSc529tfya3HZPI8hipBna7XBd96Gf4gG_mz2DW4n4sbJoUKSvVf9Zj9QRXDK3HKxdYtoG12b_JEFKn056qeKEL04GSBBoRksBjMefgjmTmkDdvjhcQ_6C2PwkXwv0ns7e5taxIxYCbQyjlrn61ZSTKzXySVI6M7d5OITfCCoyjnL1mMFddSDf5T_ih3O5CwIxmby5WImLDqY_o6qzoZhBe3IQKHC6LP2q3xrFBbDLeoN6zMPb-O3f4LX4aFZNcGKwDxaDsKzRowMloe-6UHqyOE4gTGEewnlVHoSpmt6seF1xj9RNgIJ7cYDoNMOJJW0hsTum5aFqTFlZQOA13m1oa0ITzoi_NZH6TvqZLIT8RABcKyNzfvNlkSXC0Ps3OV2MYdHr8WTcxZm5UXPvl9OpNKh0tf1Lda3epVFTGPtJLVEvWx1Lze-9tmKEqI8aTmaVNzLpcEAfIbqs2KEeKClL-9IZkVKEk-tl4n9w1zQc9veYt2fW3fS-1Lp_HbD9oN_lqYKRO8w-yj_JcYW4WJHfur3AT9UTlINdjQpwv_9-VJj7srSIUbIaYuquqollox81PG7LztA2GL2OZaMLt61VOgdEE0aKPBOk2iQq4ij5t2mv9hwlF3PKIuPmKf4tfqZ4D9isTEcz8gKtzP1FF0DD52nLiW07p9IWL3A2jlKJVdA44szL_VcVUeW1g39__pPOuTeuLOtc5oVF22hL0xKbEh2xpRMzImfDMOicCCBOI0wsgL5WXTkhH5lvJuO4sIOROD09hz7VkXRTr8aPdBCqVuT1XlIwHRnLy44Z4NGkbrupPIt2q_foHXcOAJ1fLfy0CCFzmaWsZ6hGF1Cby1oHf7_D3qwl4mQ4z-sDcxDSqBG3JpOQB8_v9rBisfjOOjNDWnpBJ-huxyI9naU5sQHUa1jpwLvrhcuV0P4cAOZmwu76yZDEGvh0W6VtNM0CptOYDFB2K2V_YwsUMt30Vi8ORdFT0H6-Pj08UQOWOLEStsYMKpJi7KkdJkb3nMcndTdVtdQHUsad4uDvzC8w_8Vx6DzrIIAmC7z7bE8ZEjzQcj0n4w-ksaI_KKRNxpN-ReTtHjB-BR2UdNxKSVQXl0E6_YGlPPGc-DdXkFlGqsACVJTxlVhrPJNExTWKjc66pw2a38ijDSeojihO1JELrgSbkGC4qX8z-Az5HBksnWxepa5bnUUSajZj7IaU2N5Gaa6yvsH8QzUhU-B-JiCcz3G_Dakvs_Xu9ZtpScSy0G4ev9G0XWd74NS0VvgyHd_eZE3qlwD8I6DtVFr9FAeptks0rez4-RcjzxWTYfE3Tt2VibjjO7ov37ZCc35Y1R-ejnoicVS_AlkjedEgVG8rHiPHb71NsVk52uAHIJWVgR90RyxDmIbA695pyU14TLrInr4OHuiPzEbIaxWUcIRdIHuyvMq2MXOqOyxeMKCny8pWky998KoNLnxSeVJF7mbp2rPkK4-aEh_8fUypR5vfphInHmFG_zM1DgpnUaLDbooZjD3BOjZmWeaUPyCzSIhU_wSNmUusd6ABnGbLEr4cvdDSTfTR05j1VfbwevM4SqMztlrnBOdsV.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0070ee9325e5413b016af063b4992887d1bb69eab00c47372f",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4838,
+      "completion_tokens": 79,
+      "total_tokens": 4917,
+      "cost": 0.0128835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4835,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0128835,
+        "upstream_inference_prompt_cost": 0.0120935,
+        "upstream_inference_completions_cost": 0.00079
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 28,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0128835
+}

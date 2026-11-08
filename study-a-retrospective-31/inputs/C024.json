@@ -1,0 +1,23 @@
+{
+  "case_id": "C024",
+  "shown_card_text": {
+    "title": "Two limits, one runner",
+    "what": "The pixel runner jumps the Claude and Codex weekly limits as they reset. It never went into a live Short or a published episode.",
+    "why": "You asked to see every unused animation so each one gets a clear fate.",
+    "question": "What should happen to this animation?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Watch the clip once; your answer decides whether it goes into the Shorts pipeline.",
+    "context": [
+      "Earlier you wrote: \"this is GREAT let's throw out more of this similar ones\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C024.jpg",
+  "poster_sha256": "7b782e94fcceaec446a1d836ce30fd218ab913e36830182d03dbf1624d388cb8"
+}

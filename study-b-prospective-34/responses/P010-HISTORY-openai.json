@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:00:21.433934+01:00",
+  "case_id": "P010",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "4fe34c8715b6b82355b4546a0e86f14e6d5af55f7137d581ce105a341287a692",
+  "request_sha256": "275efe4610870c686cd336346fa7fdd12b5316876c1c2c089551c2af76e288b2",
+  "reserve_usd": "0.093400",
+  "response": {
+    "id": "gen-1794139216-eMvIV0tsgsc89zG1Ig4P",
+    "object": "chat.completion",
+    "created": 1794139216,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly requested reusable core animations about the index. This proposal directly fits that request, with a clear, branded poster showing the real media categories.\"}",
+          "refusal": null,
+          "reasoning": "**Weighing options for presentation**\n\nI need to weigh the potential of a simple panel against an explicit index that the user requested. The explicit index seems to have a strong majority and core appeal. I should keep my reasoning concise and focused on the topic the user specifically asked about, ensuring it aligns with a reusable format that feels grounded and relevant. I'll make sure to tailor the presentation to meet the user's preferences effectively.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Weighing options for presentation**\n\nI need to weigh the potential of a simple panel against an explicit index that the user requested. The explicit index seems to have a strong majority and core appeal. I should keep my reasoning concise and focused on the topic the user specifically asked about, ensuring it aligns with a reusable format that feels grounded and relevant. I'll make sure to tailor the presentation to meet the user's preferences effectively.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GRUxM2I4AG9olisIgjcA_H9_uUmx7y-7Wwo6_sjbOU5JjkQoU19HgdRo1CmBArpWkDbKGO4rrMxXDPNOhrwK0I8mq9GJUfe5L8YlrSaohAK8T-DOjFGWh9tynvqYFNQsA5189xHmOp0M0vPij9HZBynhx0yiqFyOjUR1OILXh1qwkAD3wjP8D_9CeKB0rYEphT7zJyfJH-ls7qlfiy1M-Wow4lsNZj_3X0acN4TT22oAkYHjcvqYyPXLLtjLiBajA1V9kKgnItU6jDdBDubWx0oO_zXjo7v86p9a6xKYZM6SbZORnx7Lt8alzj1Kyf_J6xzmIc-IbD6f6XbUamm5CKUdZr96VKuNVBpv5PBdrh_ScswNOey5EYzjtWbY3DcBr8ryIjYRoEHBCxrGdnrOuVb2z-0xiE8iR7l89owq_twEOdA6SkowRVuBLbF4fzs4cv7W8D2rIypNk3nMw4xsJTN2-0RyblWXKliyPfvZjKU6wbEV2CsBDKqeXDXyBhznd_iH06ka1sfJsSe1kuHftZ4nqRzl-Vt3Cu0C1hiAfxbZ_MqCzkYNUDMdNS21xUthTlU69AKL-el2HL49ObuNdqZuVmhQJstQDPWbDop7n0RGdR5YYR9fv-wS5BzoVHgZDpd1GZ18aOORXqiQFsZSvyXNGgPrZu48XASkMFqB-rWN1_kB9qcL4_kbaBX6q_Pz1OT2dkGSLU37r3_9lY2x4emMQlfJytC9K5QTISnVUDDuRIz0tAm1Td3k6zdEMo2GiMInBGezIu08cjNMxoo4FmHpT1J-7CyWcLqdW6jnEz7siTjsEujRPsDzmUtEL-mO2vcmRl0ggXn_xtBtoheNE-S6nQQkzPHUr3UJkQBduVsTXkXWDf_6poK7z8m4ijypk8mZillMkMiHEpoRQkmNO-1hWaB1v5-MRbxoT14K0EJwNMgd4F9093GMEL4zW-bA05UUqsLYrn3YgbDhHFAXcrrvWlyW5eiGFCJLk4C04UlygMOfAvPv81VeH43bLLqunLsuAt-DT-8Juk8Ut6vh2mLXrq0z2xEPbXzc52ThA25keI7s-L1jMW04RpTPfhf4eUe_9dpCs7q0ozbno6dGOR8OWCy9mjR8NU2bu6iAu7n7fS1kJFQ033R0t5_wd8qjKpqQjJLVgv7JUSaFCl29rJT29pqRLQxBxHdvWeLG2x0ilQE50EgvC87sjUvWGnj6wxFwhCEq0KMaA9hBG-3yzGGVoCyZJIHVNBD505cmnTkugNeeltKuW46uR_Iko9-Tg2hlRDfHbGJAINGKB-U8kINokgxK_5HxbjVHvj8sC4Dw6WbXAsyV6HHE2tgFlZ65FagFDlEXeHeu8gxmL4Kxohsm2Cuirxy4Et1v61FszHDp5T5eGrmR5Gc7QmFksVK_CryHPvlJgvAJUzxapqq3eFUxxWttGg84rfI-GMg5UM47LyRZ0vk-SlD6mfmE8X_U94k9aOA8HC0rtlsQB6LrZi5qvqnOXPWoWHfJGXMTPi-ptRIoh1k2kcewEKyJVph4mAVpOSxCOtxvznI1kxaHQD6HkeZCadQImPsCa24Fdh52Nl6f4SYdJRtaU8Ib-3iQmks0mg4_afakeqJ2CClXhjTBfTxm5YT2Ve9-WuA_5g2EC7ZDcmV8PmS1LZz_BEOXqLUzcByQE_nV36pO_NwZja530ZMrhq0mlT9464nSOkNQp22kNRXpGtEBTQVo17pEkDK9wR7MCIGy1uDKRWSvFaL7oHC0n4dvrT5co0widxbcq9Z3lIlCiRTwNG1xW7vXndi42ZSG6n5UeNUSs-Tknd0y-5PMS0QBZkHLmx6AsDCEfxyVZZCem2tdvK1vG1b0PneCAC8OVDx1ERy-2auUG1janh45ncBYaYuttVEfhGGhr_RtJ05Ejhnt2R1xTt7cqCOPdOmzk9yF4YmC7pJbTNr-H2WzEM9ACUfzzv7KobAYZNajfsm7kcjTUHM8ejySEZ9D-XAgIsr7Jd9-iHa_O8AmnKacdWVCk3BAqHbF-_Yix1H5jdEQw3gRujsLhtW0D4bdWLDdwIJ5CVi9F1ZBKt_6ade1CBeb_pDsIk1kCKSHTQhRiQ33TjatPO4icB4vZz3vN4mWGAzXz5fHSOWLfbL8sRjCv7GVt6MOCgsmEidGVWTtkkNpTUEg5D1JH47Rrc5ARH2BmURA-wm3GRRXU34Mrwl37d8HWeMZrbhoOrpCxG6IMeHHXGi-IWkr1QzK4iVYCpsfeq1eqBQxWODrqr_ShccB88b1f8A0i0N3FdiYWU=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0a72fd0b730cc626016af06452716887d190ec0cd22f9a544a",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3503,
+      "completion_tokens": 87,
+      "total_tokens": 3590,
+      "cost": 0.009626,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3500,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009626,
+        "upstream_inference_prompt_cost": 0.008756,
+        "upstream_inference_completions_cost": 0.00087
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 35,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009626
+}

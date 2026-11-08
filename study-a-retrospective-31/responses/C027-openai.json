@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:35:09.261411+01:00",
+  "case_id": "C027",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "57216ad324a988b3e7bbaf03790060208da0f0fd0b81c5d58480ca48831be5bb",
+  "poster_sha256": "76f91c846c7701764cb51fbe9bd232b78d8d69bc50b2494c138bb0eccd34554a",
+  "request_sha256": "8a2392fd6bc15d5fd5f10a79f06ac36c3cfee88c67beaf1e295f323051152cde",
+  "response": {
+    "id": "gen-1794105304-RaEq2LMoYVKQzv7jlNm1",
+    "object": "chat.completion",
+    "created": 1794105304,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The reusable transition fits the brief, but the poster makes the agent hard to distinguish, and the stated resolution mismatch calls for polish before episode-wide reuse.\"}",
+          "refusal": null,
+          "reasoning": "**Figuring out image reuse**\n\nI need to make a decision about the image reuse since the low-resolution graphics are likely going to require edits. I’m considering the strongest options, weighing the awesome visuals against the necessity to edit. The card is labeled as low res, which isn’t a complete dealbreaker. However, the design elements might be overwhelming, and it’s not clear if the owner approves the match. I guess I’ll choose to edit for better resolution.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Figuring out image reuse**\n\nI need to make a decision about the image reuse since the low-resolution graphics are likely going to require edits. I’m considering the strongest options, weighing the awesome visuals against the necessity to edit. The card is labeled as low res, which isn’t a complete dealbreaker. However, the design elements might be overwhelming, and it’s not clear if the owner approves the match. I guess I’ll choose to edit for better resolution.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq79_c6tL2RxB_HYs_PoUqMWNHN1aNHXKlvw1xruWSizn0iRcZlZiWCuwnz8JLmdOwvWNS3KU9LKYEVEatInRBfBCDo_Im8VMNIuU9ep5y4k9lEsipXiS_fy-i0E6-VTLOLeYcFM5iPEupYuQJF9erDH3Z7AxkLS4ucJiDxbfsqWOMxiJO08DgjFBtsQBDQiVpZdCAfjF2gGdhZCNfdcxgfvDvWryYl6qsVnMKUlOfIXLgw5zZMWid7BhJPlEltEofiXk-ACQ44aWGjxvmMpHRupmXfKQ7XO_AxItf-DYguKOfeM6M_72icQZw3MHnQ9ZFU9q1471ACuDyoU9c_4s4wniP9zlcbos4wT5oblammmSftkYwZT7BNyi7LU-fNyE1iLUBDHIShgqaa081mGF9ttxm-YBfVvoeJSXxTfKPDZultzXp550sQli2_bh5K647_waFCVVmNpzJKu0J1BUS7rsnnel2gPXt6iGoif7LFETTTfOITNxLdHbN8brrrVvbwUgEO1CRuyzrzCoCZa2kznQjSn7L1iOpcRyR7X8QjCAntd_nexq7dh7efdGtpm4XuO0qKgJQ-oppQbBQKCib0sY4MZc_SxI6GuyBFnaaRA7o2MK5XiZC37qNq6qr37vtNuzaEd9lba4p5StId9YBkExycw3C3eaUsweLr08LbvCXUaEc5oUY3zh9P8ESTrzutlVmOOzWFN2BnHf0TViM0qlrmHp3oeHkBmAQtpsHWfKKfFc4kEq7v8ZEajlJFaEiIzcwU8Jzu5pShqAKgiFcj21XMqHojVGwwl1JYoRYstsvQM9AHsYcHt7CBcJU_cY9W424NoDystcIrC1THzYT4aUT0TqXf90FSN9H06t1qmPAM6DhscTjIAkaKRafaqWJi6ZMmvSbruRuC6o-NxMw0owlpdtJEE2hOWbu0JGODorouNB6um-q3MkNcuWBiV4YMMskYU-lpQRMq33rJcQo0sSMQwuT_snAelOQON3bJup-29JVnkIorvBWEhNNjiTUGGhEv-czxbLA0bsR4g-xvxgVhxAnXw148f3txfIKBn_Ll8X1Sf8mZxbQZBVmmFuAtrpQ3EWLA7IpPfjFzNT68Z9WHX0k7keK9WCpebyelTST29sXpIl3GmRSPPKlVA_pj7PFOAaEvkhEdwyR-g4_M2wy3_kEHqrkYkUxNez2jivFwtXvHV-lzJCng6H1EcsYNLcxXgyuMONCTWcFZH6fk68ZTr8O3yZMVEJHh7Ndn1hWaJjKRSIGfL6HqB6lA0rBmsv0qHmm967vhvUnP92elrCtjt4LDvU-LrdFUC_XgIXyQkLu-G-xXCotMDleXlq83NNHBgnob35B1JzKpFl6_9DxlyC1uWp-3LIbjHlEr0Oc8rzG7afYxCGDnq_qv4eeZpdzml4-Jep5N34FVvBBhBSw445pSeVt59uZuumXJByt5MP1zUCy8t42nwjxAnkJSwOGTOrUUcQh2ONKo77uFv6VVsFz-X0XG_uL-rZs0qt-owwyxUoX0AQ_AbcIIOFjWj6AKDodvyncPAhwIqH8R3Y_2jMVkLz_z08noLJFEM3_M4QEd9VW8nLxQnOgSNgxCtBxkL1-NmPrzNWOCHoCE5MjNqSWuy3khpheH11mDEs2OK4oKGPOPgnLyhSPQuouxuunJ-L6l2a-f-cGZnK3fikd-mMdgMDxL91u5x5SqdumA6XWo2r5dst88dqEo5eihbU9ZPhdLLq54JNHO5PsU4HICzkOAKLg-Dc5fDvOG5iS-F-BXta2sVq_IhorlPpnaPmMlXwSdD_15X7234M3W5VClGQwC56iy608lVRZ1j-vMcl_xk1HE4j-jkflDBsr-BEUljtimUXCVy2DQ9kXXcfMGvdtrkTolwZKGo9-RCu5OpGmqu55VCPOtzmXg1MY4-WYluh6KOHvqidFQVl4Xuo_l8Gb9Pa2cENGV9I6yRZLDopHksCvGO1Kq6-fj8TBni6TVYLMiYHBIlGmGjPGzs5m7Rr3XR0VxDWOnq4izBVZ1T0J3DKaHDhLQwqbePAuUcNJDHgZarGWDtwr5UsTk0y6Ezc0OLx5qcFDzD6la-zITRmxBnKVBL3VXAt0olnDW5S_XR3i9vkL9vOs6ih6Uho5YAsSXDKcY5mBS7l0B9OEzNF3hWUNtRCJK3b7OAjUVi8smeSFfIri3XzqzTyONOEKDr6udCIIYo-qPUceURpqUhkmqxcDaheGRrMLFrRI5QTcO278nEdkN54Qo-8_ZSlzQ0Ju-pZ0r46YzyGh-7HC6gQO-WlQoYrsCEEoXWAO7n4xocQf8nVDf2bxHBAGFr6a5Lq0dskCyCkACGmHu4R3Y-Cs-FGYn-WtnXrWxxbOBC_5MQv1ZDRU7p3TtbKRrchRn2Pi9Qe8Upbx4DgFvPjF5LxxDv6EaCSGj7q3dNZaALAzlDYatHoRQbOGBRZ49k93x-ecIgwtFHpS2X4wQ8O4VQp6f56i2PvB4jCEcboV7lduffr8HSy4ATT5ewTbz4PPlfw1JM49gKBZ5N9HV5_W96BO-1gHtu3pXveDsUGq81_VLFE6V-bLckt1UePina2tMChxpxmCuRU6ryjHitvXRITd7RseRbBsjzaS7p0Zi6sz7UkKRjr-TyL-LXj_9OZKwmnnwt671pCUM9FJuUkgrl7b1YZfJePdg7PazxygK8fkA1FJyaMCDW-COiECFc71cGwOBCNb25c2Y2QwMXyFWia5AJB8AITZKrLvEvl5L6aOpfp6ItOSp9yqqauRdb58isde5MgJqQav3QBqHi_EPok8sBKaxCeJfgm5qP7SresZcdxJtPkrcL9ugslaMEgcM2QVoB_Vq3NtV4HKNj_1TVSp-WAaNHARusPTfSnWgBms-o6iwaNmAWhaSqpxcHdiHLzaZ9GbcgfdkBwOjc2qJRYsrpLBUhUXnclaD_s2aI0gZ1W4RfeuRrNQlfT-9RfVYg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_04f684188f63f6dc016aefdfd9a10887d1a4fb59011c5d5d05",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1454,
+      "completion_tokens": 134,
+      "total_tokens": 1588,
+      "cost": 0.0049735,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1451,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0049735,
+        "upstream_inference_prompt_cost": 0.0036335,
+        "upstream_inference_completions_cost": 0.00134
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 84,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0049735
+}

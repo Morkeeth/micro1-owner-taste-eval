@@ -1,0 +1,23 @@
+{
+  "case_id": "C023",
+  "shown_card_text": {
+    "title": "Agent budget approval",
+    "what": "An agent asks for approval before a purchase passes its weekly budget. It never went into a live Short or a published episode.",
+    "why": "You asked to see every unused animation so each one gets a clear fate.",
+    "question": "What should happen to this animation?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Watch the clip once; your answer decides whether it goes into the Shorts pipeline.",
+    "context": [
+      "Earlier you wrote: \"ok yes, this is GREAT! more like this\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C023.jpg",
+  "poster_sha256": "67ac3deeb0696c43ed0bd4c34290111c6a982bc771704d5767d40faf38a2af62"
+}

@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-08T03:33:38.430274+01:00",
+  "case_id": "C016",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "fec0df9338d31ee07f28ea5e2f343274e36f4b1c91630c54ba919f4235c06a14",
+  "poster_sha256": "4dcee4aa8f6a63ccce1049fe6d0d66a4cceac006094c8aaa5da44a5cb24b00be",
+  "request_sha256": "a1192bac59b48d0a3e811e27df7e243ada9589c14c531959735d31ca626e256f",
+  "response": {
+    "id": "gen-1794105212-EowFMmJ9R78tSJQfeIqX",
+    "object": "chat.completion",
+    "created": 1794105212,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier note, \\\"Beutiful, great stuff\\\", suggests he liked this animation. The still shows a clean, on-brand review panel. Its demo content (the rename card) is a plausible stand-in for a verdict-landing loop, so he likely approved it as is rather than asking for edits or new content.\"}",
+          "refusal": null,
+          "reasoning": "I'm reviewing the poster, a review panel with demo data, and the owner's earlier note that the animation looks good. The verdict animation on the review card seems to be what they're positive about, though the demo text might need replacing.\n\nI'm weighing whether the demo data about renaming the nightly lane to Sweep could pass for Shorts content, but the owner's praise settles it, and I'm going with the animation.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm reviewing the poster, a review panel with demo data, and the owner's earlier note that the animation looks good. The verdict animation on the review card seems to be what they're positive about, though the demo text might need replacing.\n\nI'm weighing whether the demo data about renaming the nightly lane to Sweep could pass for Shorts content, but the owner's praise settles it, and I'm going with the animation.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSjgoKEAgTGAI4AUIIdGhpbmtpbmcSDN5QnRjGPzHajWyYuxoMwbpmF82fpGrEpNSCIjDrfcIqGy77C/8jtpOfSKoVwWhyS/Ec5Ca3XtpqaRMj6KBnpEFpeDHeKan75M0klfoqqwk1BdNmx0TQaiqElm5ZRVAxdxH21sx8moOm5P37GsBq8gjCBdbyCGMW0ULnUDDP74hi+zW3NavFMsuO88ns88uJQvEhrfsbiEOZilVafveftT0DLXoF5XdpDUphxKe585+wP3sNGJjpnwYxNsGlSR03Km0L4tcHYOAEi7WdNHhGjHZSyQzJqMUBXawr+UGXcay8QyUm6XE7mabkZbU5hAPYJPL3MCgZ4Byke5Lg7t/CP/mkQ3sHla4B11hbIRRZAONaYal1EiMKthGGTao0wP/gE/mmeeOZMSnLLIW0hb5NX2WvL8uJhVM8e8Sy9FVQFfXk/fyWz+qkEjTm7jD59B9M5T2VCl1lOdtCe5C5poijx1sJc3ifb4wOuFwc1mcgvMXiQKAxj7vp7WsJuBnZRYTtHkaohoVnCIEa2OrLC0Osbx2Ch5ddAYbu2Gga1yzapZCqYyXIDApyiILdC9P5Al/NN1SmufPW3uMaAUig2B8G264Cyo2gnEjKGkY3dljEwTVJp6YUpbUrJH4hVJ8tEw28Ouo4yTGC0QUAeffa5/enXshz8NCBOBw8qneSDaTNeNj7N9i/bLWbmnQyornCNJqBLjAQrjzJCb48LEhbjtK7KSvrCH7aYhDcJTDg5sRy7JExP61Z8RD4v7mL/pZGMOSJ9RyvAgy0v0johsAhm8/8K28PYBLBMRAC5bWvym982IXEcHItfGPHbvZrzf3n2K8adLZbwnuth5hTsedQvVdnXaz+6LZ6QFLfL3ZRISX3dNsnyFUKhMbtTv8chrLabqy7gocIx8tycTibD5nGbGoopjYCSu18W/eLdixNxSzR7lVLZ7vXCNk3Ugi8VN4VCixr6y81dDN3AXLHb5VgPdFBo3+KSVo7pMHTIqcCsQ03NezIT7Y0yVQC3XwYjFLdTtMo5f+iYFn7e5iQpul2JLlgpGdBZHGujyY/ik5gFLbhuHERjvUjoZj50YetifbwqgEQJG1lj3f8FTWrNVLln9XadCS7WBqzf/tcf/XPEWuqS0Z37vj1So9OtQpFtp8MegOROKoOz5IA8/ofqomGCXHpgLJep8qW2K0VXovUyD4n87TULzaMxCe0AgIps5e/y10RS1x0ezcaGRf+eG/HV3rRX7bKScPrYvAvUg5L/OgBjWSBiQXeWT2hH7DD/s/Rn5MzgAlNZNM0gtYJWjDXjSwP65hiSCN131C5eBkk4rLVk+9byKlWPtoQlucu3fWMb+Oz2hW+zhE1I/FElOfy6xPiP7Yu+Fy42LrT00i4skZpCkVA3R4pWZ3mVHxyGIYv6Vm0q+VNVyKXHe+/W4GPcmWx42y6PoQ1BtocrPJxODMbMexdNJhwPPGJkaaFPsUKNeHnyv7ewCuv+MwOeN114d7plAjbudv11gFtiwMEbdTm/y8NdRD0uDwY3jHfxQ9tydFE2pMukOweYNmdxc8+6TTDGo/O9CUOZrwYPtfBpFJs8Fiu9DP4LlKSH4p39G956e5qgZHZEKWF4rJJ660LRQ6xvu4CpTeV7KlR8igbwsp0L8yqrc8MYj/aCDbY4FkAn3ezEoVwbFUOFId4OZw6QeRDNCPZ01Anzk72sLkCGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1575,
+      "completion_tokens": 380,
+      "total_tokens": 1955,
+      "cost": 0.0139,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0139,
+        "upstream_inference_prompt_cost": 0.0063,
+        "upstream_inference_completions_cost": 0.0076
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 255,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0139
+}

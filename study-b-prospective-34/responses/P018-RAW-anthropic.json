@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:02:40.323066+01:00",
+  "case_id": "P018",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "1cc503664de02f7ed00d5b4a8dccbb0e7ff7b1bb6e1fb7ae6bf32ccfb7862cc6",
+  "request_sha256": "d9b82cf9dd1081d25ee5c3a88b61d9e46513994f2327a5e1d79ddcd08f7c7b8f",
+  "reserve_usd": "0.098960",
+  "response": {
+    "id": "gen-1794139357-fW1Yu7Yom7VU0tqAbEYX",
+    "object": "chat.completion",
+    "created": 1794139357,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, simple Dock with badges and a bouncing icon. It matches the requested notifications topic, uses our own graphics, and is recommended as a reusable insert. The only flaw visible in this single frame is a small green artifact, which is likely minor enough for the owner to accept the shot.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1917,
+      "completion_tokens": 122,
+      "total_tokens": 2039,
+      "cost": 0.010108,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010108,
+        "upstream_inference_prompt_cost": 0.007668,
+        "upstream_inference_completions_cost": 0.00244
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010108
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:34:01.156923+01:00",
+  "case_id": "C019",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "c71d9b3d889d990a1814f6f4738b33235959ffb4695cd7edcaacc87652e4536d",
+  "poster_sha256": "a23c9a8d67b5dfbd245b2f3fdc518aba3bf4dd47f7a95e4cd7a9b6aae53b9a6f",
+  "request_sha256": "93a851085fe162fb720f08e2dcf89d94325bceb45355e2f582a3310a7d0f5a8d",
+  "response": {
+    "id": "gen-1794105237-Kd5zZwqrH7vzJDMvZjQA",
+    "object": "chat.completion",
+    "created": 1794105237,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner already praised this clip as 'beautiful' and 'a simple way of showing' the idea. The poster looks clean and polished: a clear headline, a realistic cmux sidebar with six lanes, and a notification for the lane that needs input. Nothing visible suggests it needs rework, so the owner most likely approved it for the Shorts pipeline.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1920,
+      "completion_tokens": 139,
+      "total_tokens": 2059,
+      "cost": 0.01046,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01046,
+        "upstream_inference_prompt_cost": 0.00768,
+        "upstream_inference_completions_cost": 0.00278
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01046
+}

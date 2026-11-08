@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:35:41.669899+01:00",
+  "case_id": "C031",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "64e9a6ec601eb123b09a026b8f5314fa05e05b453d9ece99f3fd92cf03e78743",
+  "poster_sha256": "a1644b40f143e1126feb4cfafe878a40282a54e4a45bd3ff6f80cf4797f070c1",
+  "request_sha256": "3120ca1a1e0d528907f6a5b9235d0666c30a72316361eab339b109ea6fa50716",
+  "response": {
+    "id": "gen-1794105336-7ZmLzHe9kHt1FDl65ER3",
+    "object": "chat.completion",
+    "created": 1794105336,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The proposal directly fits the requested reusable shots, and the poster supports the Paris-at-night setting. The disclosed upscaling seems like an edit-stage caveat rather than a reason to reject it.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing graphics wisely**\n\nI need to pick a graphic that fits the low-resolution issue, possibly editing one of my reusable shots. Many tasks depend on the owner's choice based on stated risks. There's a generic shot of a dark Paris building that seems to work well—it might be awesome to use it. I also need to avoid suggesting anything motion verified, keeping in mind the night transition resolution, which I think is manageable.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing graphics wisely**\n\nI need to pick a graphic that fits the low-resolution issue, possibly editing one of my reusable shots. Many tasks depend on the owner's choice based on stated risks. There's a generic shot of a dark Paris building that seems to work well—it might be awesome to use it. I also need to avoid suggesting anything motion verified, keeping in mind the night transition resolution, which I think is manageable.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq79_9NnnRMHhAogu7smtYfeof9kVLWrasq6VhYGsgyj-SjqpK8g10S_wGIqqpLXnuvz_QCMydDyeqgH05PWi67Wqiha52V-ocgmW4IzxxJptu0oKrTTTARO5VUFw9xLm3nVSAoXGtaKwnk6Q3Lfm3Yu7_9FnpQPPiBTZiwEh-mDe4aBWO5bNVdIyFsPFcEINPcUdCV95VjNeqXikHsEn4eN-3vH_iaZsluOgTdqBDYdBPwya7YqB6wtI7gh38_r8k9DRJsm86N__Rka2vREKj56ms3hYNM083Bh1cuyGUDYe4VJ4-pUJez2HRpO-FFs0_-Cgvklp3BoS1SG7daqdq4JvKJcnPKlsFAaBU4cNsCMPxJ-THzlC-ERRW1Od9yfqQZ-P9-_gRpe7Lx4CCykpIk8ghXGBxIkuCJwoCIf5VkxsA6i2Fha-bZ4hC0jY9Ij0YOPNmlROuWDTxgxFGicQO1_afD-wkePo5qAc-JJ6DB8RrO5EouCahubfL9WprF8jEhA8hsZGzcs4Z1YUYcLjBjV8OAG7E8UqBIX1131IFGT_wzHpz32O2wZGeh9Q63EmxQUJhhC6o4yqtwjeViYr-RIkq7yPQBvTTMutbJSD__s1EzJUJPeRFSBLGnV9YQLjaXE1SfgR3UfRo3n9ouaOtHDmzTvgw5YHUprlNYTHb6UgaPjMf6jtW1qR5KVU4JIC63bBuJ5-A2tgZuJJjw5Emv2fAXwX1_bqsAilCNuwqzUUYqeHQYa00qdvm18g6L2Bl3y13H8UmQHPClT47I8KyoxE2rIrEjFiMN98Fvzddkt1zQTe0TlvMmeV0dj1JQa4Cs56zOmFoUSaz5HVIYtlk29u-TdPq0Hv1_1w7DXo7F25HsBK6XhdsEUbHL3JV2peDtbDjYRRPrF11v4DoojCu7Y-VZU87qnzpJqPEONe7SfQWSBmxsgw0QR13elB_2pTnU_N29W-eBa5uZ5W8ca1XozCbVfktPVdteZfQIXNOt4X6xkWEck3ayikym7D5_lTsfSKJdZv2b2166uRRtD1__mCLsIxxwgdQ_cyrKbWF9DUBnUm3ijhuB0d0HkVXDJ74oas-7FhM6JEL7hPRR26v4g7BhHptPFn1AcNyAuv1Sz_bsrxfXpaQepyOqHa6DFjJbrgT5FbYmTP7TgwmdmkdlkXYb15KnKaS8AkIMuqxqJznookw2k0DFvSXJbmTS_EMcfYKP-NdlvTWPHoJYMjGTKFiqa-z8SAoMn1o-3RyXHUZvOKVT86yh2zoQpyj9Lh5dvWeqElew6O9OXQ_oYRpAMg2QXCQYBisoS6FbDgSaIV2KCvmQe1qba1YGZeCtDHpv3BNS4i0_4c5Bk4sNZxR6eOmiMDLR_Qf3Yamt8ue7NA_3MXXX1AsotkyLc_zfTvsRRUFPjQZJ-BcOO1QI7TEG2iQfb8kivxmBVj12hb9egS0ZLqnhe5FiWfonBaBID2mgjG5dOQXJLxgdJtkNnP6_lieZK-gU21LTCpObWn-kMsAhgcnTlkUK4G3ya6BH-D9Bmaq3bgPIvsNooGzSNkO_-uy9kgIAU41DO59XBSI9iXgHItwjVVr8g8lL3-Y475Exgy2O8gVE3Ttv6W2l3mEGeIBDIuIq0tuztAdiqnFB4TVujyBnU9I5x8Qd1VuNPDahzI2AzSxGP4-g7Djy-cuQv3XRGyPIMgEG4Bg8es-bIOe-YeIRZ3IOEHK-AP4H50R8fBVlXz8lJfJo3v8LIvuyWSaouGMtlYoX9SeI5HUInTKVJQ23AtE0PKzVeML3XAWuv0sqjKovdwIxLPDqrpmtbIQ-agOrhJYkbTwuczjFE-LnQ4ajV1dpoMY3kDmJdNbQVn0kcL7gdYnmU1ItHtzP_pieFw1vMjC90QfVTN7Do4boHiZIpNNCznyGxlq5q-C236vXpuv4LQblFpN9dj1U1jEcwNX1MkC6xWTVwDjbgeHk06gpC6QoGxzsNkrMmN82ZeYODlh9V3wRAqgdUVEQJbWXoEf2jOIrzSJnJdxLdT89rXZXQxKJhgCuA_mePhqn9Y-lhYnE3p-9F5HUrM_W4RfsMqaif1NkPvn2qJmikJ26lj4CknxeoiwCTUQ_svgEPOaHl-Z43stw-c4HhXKyBAH8kusEm4ceVi0jWD5klpMHoxrbWm5GivwFdhUS2cErZVsX_2p2Q_fqqmXx2qNpb4XKApnOxgE-I3rsqFU1lTcdETx34_DFfqJB9roEH0B9YwY-kI-0H3__zEZcbdbLR9SjX1-TWyjzhKPW7QDHbqn9wkPuLzOb4YxZXsffIqOf1L1KWJqSnq_wSCwm_KkDzEat0mldLrbfAav66pvi7AaJPQJ-39CP-1TWar0aJbKWilcuojsLDTdxui54j33qDgY-8eUcjCGo2DH0826LDVKE_CAKcVtDTVj5y5p90JFtAEMK-8FpennZgYYQuKheylxU6X4D59HewR9Q4PItthjYhBEe6yW0upNF1dYUGKIK1x5QTJG68SjC2zQYX5SUsUCk4BK0CIiK4c8dORF-Rhf0vb3mxPKZ7SUNz4GEfL9uhEHAP_ZrUlEdZj4FK9jWifMsx-rTkzOOaybGbYOqECROBt2t1TnugaLu6frJI2OP_iHoQhqLpk5IlzazYSFchYO54SmvcnIltRB7Yq1st0AL8E=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0925412273f53bdc016aefdffabb3887d1a3809a4d415cfa5d",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1452,
+      "completion_tokens": 123,
+      "total_tokens": 1575,
+      "cost": 0.0048585,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1449,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0048585,
+        "upstream_inference_prompt_cost": 0.0036285,
+        "upstream_inference_completions_cost": 0.00123
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 62,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0048585
+}

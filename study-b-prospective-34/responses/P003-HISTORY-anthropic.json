@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T12:58:13.328547+01:00",
+  "case_id": "P003",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "660dccd809c49442503ea707b5d397e4435745eb171543861686cffcad9b1e7b",
+  "request_sha256": "8c22db17bfbe9452f74e7b7a2b74759db0095acdb073834132c8d7de6c7b75f9",
+  "reserve_usd": "0.165920",
+  "response": {
+    "id": "gen-1794139089-aOIiGiQRvoC8s2kJ5jiO",
+    "object": "chat.completion",
+    "created": 1794139089,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The poster is a plain grid of white panels with blue dots, and the pixel agent is not visible in this frame. This owner has called white-panel layouts \\\"slightly boring\\\" before and usually sent plain UI-card animations back for new content. Index was one of the core topics they asked for, so a full kill seems unlikely, but the content probably needs reworking.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 6490,
+      "completion_tokens": 139,
+      "total_tokens": 6629,
+      "cost": 0.02874,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.02874,
+        "upstream_inference_prompt_cost": 0.02596,
+        "upstream_inference_completions_cost": 0.00278
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.02874
+}

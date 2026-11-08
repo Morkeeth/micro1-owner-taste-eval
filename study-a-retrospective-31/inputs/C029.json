@@ -1,0 +1,24 @@
+{
+  "case_id": "C029",
+  "shown_card_text": {
+    "title": "Cards fly into the folder",
+    "what": "The document cards flutter like birds into the blue folder until only the folder remains. It is one of the six reusable shots you asked for tonight, made from our own graphics.",
+    "why": "You asked for six shots we can reuse across every episode.",
+    "question": "What should happen to this shot?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Use it for saving the work.",
+    "context": [
+      "The folder closing bounce is hard to see.",
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C029.jpg",
+  "poster_sha256": "22ca457375d3138f4fe47aa5c0d70d9fb99da0a4020d04183bae9f16762878d1"
+}

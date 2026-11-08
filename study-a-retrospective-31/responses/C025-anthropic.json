@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:34:46.579511+01:00",
+  "case_id": "C025",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "e70acf70f104e285e3c38490d4bb1ae39390cf34af0671e94840923d75db9a64",
+  "poster_sha256": "7130bd531afd538ffe1a97836579327866e6a581e0aca444c7c96247ef4f479f",
+  "request_sha256": "4094955686dc35fb90ad0ff9e168f442364989be0db4b806c533d30ad136a618",
+  "response": {
+    "id": "gen-1794105283-y71ziIfkcDxbczMED2rJ",
+    "object": "chat.completion",
+    "created": 1794105283,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The owner earlier said they love the idea but found the unblock step weird. The poster shows a polished concept with rails, a barrier and a lock, so the likely fate is fixing that one step rather than killing the clip or rebuilding its content.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1923,
+      "completion_tokens": 99,
+      "total_tokens": 2022,
+      "cost": 0.009672,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009672,
+        "upstream_inference_prompt_cost": 0.007692,
+        "upstream_inference_completions_cost": 0.00198
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009672
+}

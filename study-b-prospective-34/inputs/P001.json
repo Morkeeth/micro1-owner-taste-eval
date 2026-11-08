@@ -1,0 +1,22 @@
+{
+ "case_id": "P001",
+ "shown_card_text": {
+  "title": "EP4: the skills folder",
+  "what": "Real folder names from your skills folder file into a Finder window: grilling, writing, eyes, plan, frame and more. It is one of the reusable core animations for EP4, in the locked look.",
+  "why": "You asked for more core animations we can reuse in EP4.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it whenever EP4 says the word skill.",
+  "context": [
+   "Eight seconds, wide format for the episode, with no sound so it sits under your voice."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P001.jpg",
+ "poster_sha256": "0040e3c37fa14f6f8c1051d1ca4ac536b7f2d132590910953a757d19a34b7199"
+}

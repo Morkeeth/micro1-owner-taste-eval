@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-08T03:35:04.277185+01:00",
+  "case_id": "C027",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "57216ad324a988b3e7bbaf03790060208da0f0fd0b81c5d58480ca48831be5bb",
+  "poster_sha256": "76f91c846c7701764cb51fbe9bd232b78d8d69bc50b2494c138bb0eccd34554a",
+  "request_sha256": "4c6ca4d93b250ba220f5f36ade5a879207815fb3cec4af3e1c894c8ee299d677",
+  "response": {
+    "id": "gen-1794105297-fOkjUYOMB9clWyLsreY6",
+    "object": "chat.completion",
+    "created": 1794105297,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The idea fits the requested reusable transition or outro. However, this first frame is already heavily pixelated, the agent is an unreadable dark blob and no broom is visible. That points to fixing it in the edit (trimming, upscaling, clarifying the sweep) rather than using it as is or dropping it.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the poster, which is a pixelated blue blur where the agent isn't recognizable and there's no broom. The owner could choose to edit or kill it, but a dissolve into pixels is acceptable for a transition. Since the poster is already dissolved on the first frame, the clip probably starts mid-dissolve, so the agent isn't clearly shown.\n\nStill weighing the two options: the first frame is already a pixel dust blur, so the sweeping action isn't legible, and the owner is probably picky about that. Leaning toward EDIT THIS ONE, though NEEDS NEW CONTENT is a close alternative.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the poster, which is a pixelated blue blur where the agent isn't recognizable and there's no broom. The owner could choose to edit or kill it, but a dissolve into pixels is acceptable for a transition. Since the poster is already dissolved on the first frame, the clip probably starts mid-dissolve, so the agent isn't clearly shown.\n\nStill weighing the two options: the first frame is already a pixel dust blur, so the sweeping action isn't legible, and the owner is probably picky about that. Leaning toward EDIT THIS ONE, though NEEDS NEW CONTENT is a close alternative.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1927,
+      "completion_tokens": 464,
+      "total_tokens": 2391,
+      "cost": 0.016988,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.016988,
+        "upstream_inference_prompt_cost": 0.007708,
+        "upstream_inference_completions_cost": 0.00928
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 343,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.016988
+}

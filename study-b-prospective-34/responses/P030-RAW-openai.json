@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:05:58.386764+01:00",
+  "case_id": "P030",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "45e97ad0c6ac9c3522e3c641d194481711fd3f9333a43364b61ae6a77d071e48",
+  "request_sha256": "a9e4e3099fa689a731ac0096d89f3fc35a85835476be5cb56dbf69644aecb647",
+  "reserve_usd": "0.059688",
+  "response": {
+    "id": "gen-1794139555-sNyBU0AArLt5lHvWzkTE",
+    "object": "chat.completion",
+    "created": 1794139555,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision addresses the stated feedback: the poster has blue meters and no cleaner character, while keeping the weekly-limits concept clear.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2794,
+      "completion_tokens": 46,
+      "total_tokens": 2840,
+      "cost": 0.0074435,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2791,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0074435,
+        "upstream_inference_prompt_cost": 0.0069835,
+        "upstream_inference_completions_cost": 0.00046
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0074435
+}

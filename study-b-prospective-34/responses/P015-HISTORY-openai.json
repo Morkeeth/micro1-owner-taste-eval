@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:02:03.040093+01:00",
+  "case_id": "P015",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "362b53fc73100e1e06166bbd44c8b1fa5a7e71998e734faacfd008fb1bccc6a4",
+  "request_sha256": "e86f437702be5d3bb2374b8bb5e6f458ea2441faae4bca13bb3b4763c6c7d0a4",
+  "reserve_usd": "0.093492",
+  "response": {
+    "id": "gen-1794139316-H0VnNZKHmjijThJhdlNH",
+    "object": "chat.completion",
+    "created": 1794139316,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The reusable agent/browser concept fits the owner's requests, but the poster's garbled browser text needs cleanup before use.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GS6SKw_wBJLtT2RkQP_vZMLwt2QPv1yCnzhM6F4qvMSCKBD4R6jzzzQBn2sVdQg8V1-3U2rrPqdkrgBfPvcGIIomNl9BE8HsJ0jeVPtz1WiNF51IuP0niPYFSLFENiYtlDrO3j_b--94alx35oYAn71uaE5kKcQtFNkMqjLJeKQhnX0vmMv2_Jvn_xO0fDt-ng-qo4wTs8xxmcszrzWzXS6RTVgTnRCQAJHZl6AZMNvEcQmscaVO1JZMQp-aNXwrqVTPZ-NfKZsONOoqiU8XrpeDK8KtfQ-e7BEj08MtwN6ujseIwP94K2WQSoexZZI5xtkZrAJ7Qhq4CuXhbZ2bwEK4MkIipkik1f15wmX-79Zz0ezTdyxQQyNAkYY9irmarw2yAqq2feeJ6iUb1mMXxBqImvs8DiqoTVraWVvHXfibIcR1ltHY6OwvdsSXj9jarD215SxAWIER8BjGDyiKDOfA1S6AjLx-S1Pv0eKu3qs49b1LPKtzOdHPN2zOAhpLG05daa-zk-G8DHZlJdUq2Sw7KG8xqdNnoAYm3Ar9pXkTUr0eWsn8q_ata3aIbqVHbJrVYtA6HPyvfeAR7m1uHDMFHh3X7n0x8_6bcMe8ThTfH1BNQX9OtEzPxkPgdRUoCGUF_1234Kpu0FoW5pLg8cMis4wZcoyzyigECy6rW5LTzjTfWATCoQtVxzXvgcz7PD5OhR6RJlFMmS5nxDWXN7Q2zGcQ1TerFd92EzPK1G_RjWppUW2VvVFKLKKq1QQV03fhxgWEJuT6Hx9Mwb28-Z5_vWwIBc7V4HvjzugGCudd8vK7f0kSS_rNklAEtPTcXUZWO-xGf_4e1ts6Tv7Xab4WvHxiFw2oEpPL_acAJCDqyrGdRRymkg4IUDogCaMEAWPbCQwIxcYni65zKOofP6FCBQbQmhvx5X7P3bqyXl2LRhgZQbWiOEFq07Avglvhl5itq2h7H6oWUWpxsXVdW1XxAJhRKZrkp_G-Lcx88BfFwBzVaW0skQ_V8Zk72LHs-EfCjFcLrnTfsGcnaGOQDxevOvOgukN7PSw_NX3X0izBufVuXY5BRZsWMK7oCZhvRU4G9T085Pvtx5nho1SP_-iM8cp7F-JbkUMQ2sTpd23wSF63XfaXZ98_TM6Ek_HLs3dbyqK2Xyrx6PrT9GeAxGq9r2Qs4g_LFDImzf19uemg7EcxDwNOGBo65bKawJURP5z_c0vXEPurs_F6U4embYWOJLHl9V-XsATw_bHV5MLFsNtboD4qdR5txLcITF4-ycpVRv36i9JShWY2mbAI0nCzh_CQQxFGvg_Zr2RRZmP89U1V8NjeG5nZPvPsoyFHiG-Z2KMrNMTRThGwTCdI7woKrMYSHhlSisTLjN3uMC5CwLBlY71wUByU8UVauYYN-iPo6GHryuKyNX-MHcL9Mkp4mwldv88Cg8lBsR5fuOmO2bREKo_D_DCbj26I0fj4Du9IcimdfGYrScC_IhxxJ_nIrsVkPvStLovfzUsFgJnWppbY0ylO9wAzipLP7aKgJCQo_bWIPhtuk8qO_V83h5aF998QrL1RkJ-fR-9yHm63exxVO-zmw_7ygqq_bA1CFFMi_Y9fE1jIlcFhc95ylXGd198IgDiopKsMfDGQ3HAqhH1P9ouyLYj913SSnwLnaxj-p8AzVLMmw6rnEfuuTB2v-2lyB66of5x4wcszUG4GokxLFAX6JRX8DfyJRE8a7AD79G3cSy_niII1NQl05-m416Reu5phdIG-e1WkoSIKRuoEToo7KGtdmtm2zdY3AzrSa6yiK-25Z4bN2rgoDcMZpOX7ENCJ4bL82xdE188oGf_2-AIgrQXC8_8lEkPOnBu8TUEvc6XJw2z0SH7_o07BhkUMr9Lm4w8T2kBjnXnTsJ-XenimKwMAw_k-DLDwmXsqe4xqnXKSyKAbj6Jqf3CmyDwCuZClIKWfRlLa9zY0QUw2FcJQZbt-_wkLq5KxDSUkWR59Jm2DyH11r-nsTloDYNsWMQduvzTsjg91defOO019FT1eANRWDcLb2Rlnq22px3clFHnDXp35q3l8uAz1OFi6CNvGpcNijSLDAJrYHxA2mz7qHtJ2lk_hd1s1k_cpWTpueXeEpFnE1vGuRzJxaNhTJiCDDblTm8dfWh_qY2-4JCR4LXijjCvC6m4OgqPzURw8_bfv5_S7uc8VbWUOjE0LVwLh7Lp2FuDP3LyOxS5gKvUUOWLx_2XdAMZlH1ue9PyrajiLSfQ-IZmZ121zQHSnmWa5mKysXmmsVJwHrdRwKQzan4BKtcRVAGlzuYi2eDVUghSmMFYwUvCHzseFXYci8mvF4sQgpkQwOyk-nZwxaJGoIJavzNhS7efEABoqIxcwQkXSg6SlzzsJkj5yXEpMfIeX2y67Y9Hd8Yy_lW-t875ke3DKmYXSJ062aExfryts0lqwI8zbvnJ0HLlaPXqjJAbt4aICOMJ5bje52lKnfqvHzturVKxhQnHwVe7zakhJNfWCp4p-0L08IXPfbU-iET8KLG4QD4TpjdZqgKpQUpMGbaxGl58AGokaxntC-FK7ctC7QyANVr8RlU4Qk4rC2_kdpuiqINPQVstyZXLK9FzVqlQZwqQPmYk8IJ_IOmbMIJsoCuhbr53ELmJi_CvpobW4trzi168qtllbO38iZfF33TiPuDnKvwjMWJqYZx4seuOtXt576BQwJgzyvcahCQ0zd3RPOZFu2fpEYcymYDI9-XnDgK9seMY9_hqQ9houXQ4cNr6dZ_pSyP-JP1pkGrMUGF3_jNKadWb3BaG-vsdoO2uzmKevjNYE50TnYmKNzLE3NRDHWITEBOpgqo-ksvLVhfluSykjngfLME4pgBM29JcafRreUkkfrI4rK_CMzLLyYULV3IyBFA6n_8OY-mRBz-Gr6XFLFpFX4Biavjvr7uJCOXYr7hR5Zptu8D3E2Z7iuEjVa24iuwHulmdWGs3xVCM6BQUPXqLW7yKC748exxsjj1vk6CW8Mg4UPiKKroAWDWN-HP8dbwDoJKvb5QMPCckZYJ6X89pbqRzyj9JRIV-F7BIgHuRhHswS-YWpQuy0yDYKtP1LisYW7pjxQcLIzsXhVk9ldPzkB52ME3m_qEvPX2sAC_BaVFiJnMtqVvZc2pm6SVDA1gckezdObe9TlPftrJFYw3Ek2P9wa5wN5knBc838IvIVhBQiA6qCDTajcFAXXOZY4CtIkKK_CM-lVRtrVehpbP3jNeLaiYywBjXOf9y7Wq1rEOrApnd3VjTc9JV6zjGoP-8N7mdWUIP3PKqWy3mHzoqoqaOHElTqd41gzxtTn7vElTuAsb8fX_3XBr645sIWaWdP2ukYvUubGeeMoQ51G8dDtgvs8QBuPErpVz8yL_EnO80Z4TKFdmPGqwYoHO98tQCltrcEWYCWPyyYJyZljDpO9e7Zblr0tfvo_ZgfjSlF3kp5FIrVncFc2RwbR2IRVR7XZRd_K9fGbUgZCkMXO9XAwjQKuGSI1KlBpHbg49U-DtFT2io1YerdV6KIrPVwMXoo_kPxZ4NJhKqd54Zq1SWX8B-Oh0Wq8NG-dyLOvsFTQFnzfwVuSHGnma8oWquZ-0aEy2BPspcRkZrLarwJK97hdpmSstKKA3F5hUBA3r1S7fdKj4qMRe1KRX9cdAB7s-zgNyLLLwMCrG9X5XL9HqPyFbIiTHp45Tlkj-TXsaqh7WgMNFYqyZJ5ggU0c0gO13T9zJVM4h1o3t9E0FL4FML2QsK9KGVsVwrwZ9_pV-mTGPTiF3wr7PIbE2GnBBxTC2wCYzSIbTYhMjpoZB7OlHYVt6K2Q5Crw6RSIGAmhjctkIGTEETRwhNBOE4R36jbqqK75sGRBtXuxROiaAHlv283G-Uv6W2c_KgilaOjZ-KVB9ie29QIUvOWHtFVZLb1JsC2VtusERQAvoeSLXCdlohc0gBleiePM7PwdiXjkgXJNCclqSrzu42uebuJOT9rJGjHwlooRMcHCpTfIVS_UgE7lU=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0449564c527857d0016af064b634c087d1bca633898226ed1b",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3503,
+      "completion_tokens": 204,
+      "total_tokens": 3707,
+      "cost": 0.010796,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3500,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010796,
+        "upstream_inference_prompt_cost": 0.008756,
+        "upstream_inference_completions_cost": 0.00204
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 161,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010796
+}

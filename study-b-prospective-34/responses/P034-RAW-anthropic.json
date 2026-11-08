@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:06:50.630545+01:00",
+  "case_id": "P034",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "ac4243fb04d0d12a964c529b01e438687edd24a785447d02e4dd4e1095ce6778",
+  "request_sha256": "a2be9ebcc111ec88d386486d847a7c2c833019567fd1d0a58f5dcddb69505570",
+  "reserve_usd": "0.099128",
+  "response": {
+    "id": "gen-1794139604-XMtSkI5RAAkWHyprPSx3",
+    "object": "chat.completion",
+    "created": 1794139604,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The revision addresses the earlier note with a clear search, row, and highlight flow. One frame still shows a questionable detail: \\\"You wouldn't steal a car...\\\" is highlighted for a 'skill' search with no visible match. That points to a small fix rather than a full rebuild.\"}",
+          "refusal": null,
+          "reasoning": "I'm reviewing the owner's revision, which looks clean overall, though the \"You wouldn't steal a car\" highlight seems odd for a \"skill\" search and might be flagged. I'm also noting the \"Hoard all\" row and predicting the owner, who is picky, may ask for edits or may accept it, and I lean toward thinking it will be edited.\n\nI'm weighing whether to send the owner's revision back for another edit, since the \"You wouldn't steal a car\" highlight looks off for a skill search, and the owner is picky. The concept itself is still the same, so it's hard to call, but I'm leaning toward going with an edit.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm reviewing the owner's revision, which looks clean overall, though the \"You wouldn't steal a car\" highlight seems odd for a \"skill\" search and might be flagged. I'm also noting the \"Hoard all\" row and predicting the owner, who is picky, may ask for edits or may accept it, and I lean toward thinking it will be edited.\n\nI'm weighing whether to send the owner's revision back for another edit, since the \"You wouldn't steal a car\" highlight looks off for a skill search, and the owner is picky. The concept itself is still the same, so it's hard to call, but I'm leaning toward going with an edit.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSjgoKEAgTGAI4AUIIdGhpbmtpbmcSDFeSAhkTLKIP6x+8nRoMAsb5XhK7C27fQY3TIjC42PyZuyxCS797rKwlNG5hBf103+26Nv4heMLY/Ue5ZNrwQLCq7IE62lSzvX5ljoEqqwm0gnRnzlb86tJFzKke97CqtVTpcZ9jkAm8dFylTsTC8sZgBI+moBX7tGrlPKH/JWkVUKoTVVFPWGLfx+EKdkSqPmm0Akdlb1PPkXWgSBb/qi9C5vVxpP/NyQlM7Bs44L0iuFpyUy9PzVstto+9m+Jfvne7AT2T9Kj1ZJHzD0VzWwI/QbrcnHHLgWG1YVcsukavGOz0AYxeDrS73SglSih6DPgAGQUWNmSUeyUc7XP7YywCSf+zZiTOCYA4ezr9ChyLRXvk8/+jBToO+vHkh3fJknjkwFat178m7vVSCtI3gNVDXTBlEPLSCzezLq0L3ev8cRptopscXNVyFURQPcKGTaFwVJnB4iztDt0lul2deI7bcBMhsLb77V+DJpH3nDtWQ/Qarad97SYy3Gz8+5gMFKjY+uxjsfh8UgBCBJ0Rylp2y1n4sHIzbBCc+m0cZnKse9Uf4HRAn47HmiY6R0RQLOnLszpC99t4R2HNdKGx5SARwN8CUwWk0A7PvdnoqtM3c6o/9QKkO4HhhdlH2WVoooGBfli7FaHezf5xa2FwyDtmg+MAhLVM0sqZJETtF7zatP3hWz7wMq92Hfr3P3PwIWyAYZuTAigx7SR22SNp7GZcW2v0QyWiA/qzqDHCEDNb5ZCC/qgeMSjx4RSTmAkRaiZff91Vex/vGEOffaMzKlpkiVOZEP+uOHT2FqZfgrNiQ90Ugp4FT0TFfllrDMEBcGZZ6/s+NrH6n2xDeFRTk1z3KimeTSBT6arQPO9HKwtsnnAE9TV43gNKDCiGNXJf5F0+cbxWUTdT6ul6bdS7Qx7U6JEIYW0kK1gnFuU94fjwpO3ChB2Qr9G855TMvHjwnG5S7+BnwXSkfMb0pcsjXA5x61hU4sV+hnhRpRv0LR5UzjRMJHkMrQ2XPs8oU3LVFuKFLDKlYn6urPFwP3etR7F96vOW5hIEaV3Q1xxOxdThHU3VcB8wTVsEZWDhP9CrfLfjS6dUnve2OV8vj09P5Z1lbCO8FDTPutFqmW2EUiK2TXImZtZDPbZfBC87whdTkjw1i7xnuKBDLDW6PE7olEDMONf+pbkHRglisYdEiYb69F6torHMIWti55bkgsgzj2x7IOzPilCVSVCDOZ1K4PemgQmGJeNq7iwctzwkyCz1elQkAzcLUD/TgaYevA4u4kMT+xO0Q8ATSpbGgUEl2PlrhoU9me3vKC4Mt5L8GQLLVV8mcXLYd1ifWsYrl4xWiTX3B5MgFScwaY2mG3igWVZgnEulP0XCJtASrTdH+wtDRa38zgdZBYEWH0cVDL7PyeEI/XExzJK0Mw+erxGsyh4S2xSrQRt2+qJryI98LJ3VzYUL2wnaoVDYh40KF743Tbqn2Arc89e2l5CfVCbrX/cFTQflOUp9MnZETyMH6L5vI0cT2nAdWuBe5b/bJrue8av5jDTzqlm3kU6IpQFXWziXkO5016/bkHKlz3URRJ09dVCTNqHVBCJEJNGBW2oISEizoB6EFcPRhrO3+tJhsePXsv+w8N3ysdCjSHpTiZkVKRXuAjVmisrpucuvQJgupdGreq/ilnm0CyhjswEN3Bm5Jqn/4muGaVsFGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1920,
+      "completion_tokens": 347,
+      "total_tokens": 2267,
+      "cost": 0.01462,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01462,
+        "upstream_inference_prompt_cost": 0.00768,
+        "upstream_inference_completions_cost": 0.00694
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 233,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01462
+}

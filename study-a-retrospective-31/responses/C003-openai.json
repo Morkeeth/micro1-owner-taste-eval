@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:31:58.896144+01:00",
+  "case_id": "C003",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "6bfd9d82a2c7bbc012233b21177256fe7f5322f64e10760528647c7bfc8a10a4",
+  "poster_sha256": "7e998bf37a8fade783d138976aaa039cb38a0b0f11558864ef161d3662362516",
+  "request_sha256": "2f73e04c8d847867694a03fc8cbb8abd2683e842d69de3a3d504ff93eada3731",
+  "response": {
+    "id": "gen-1794105114-6arMKgZVIh1FqQLl1y9x",
+    "object": "chat.completion",
+    "created": 1794105114,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster presents a striking wet Paris street with prominent red, yellow, and green lights, matching the playful concept and the requested ambition. The card also says the concept was approved and stays within budget.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating card choice**\n\nI need to predict the user's choice of a card. It sounds like it will likely be awesome based on the rendering, which is ambitious and visually fun, despite some nonsensical lights. The window orientation seems faithful, and I don't see any obvious revisions needed. I think I should keep my reasons concise and consider the image and the prior approval of the card in my evaluation.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating card choice**\n\nI need to predict the user's choice of a card. It sounds like it will likely be awesome based on the rendering, which is ambitious and visually fun, despite some nonsensical lights. The window orientation seems faithful, and I don't see any obvious revisions needed. I think I should keep my reasons concise and consider the image and the prior approval of the card in my evaluation.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq798e9gh6qkGFhs8w6srEvn2QZmJFo0OPSo0TloE0uvn-ezgNCJ0xiAZtXHKwk2w9rH6DoRziKC_ZPUfM6ygiM14qkqGBy3wGQP9jMV5QDsQe2a7xokaqkAtFJbh4TmkXuusePMyvyvD78ehOqle1TpMWq3m_nhiLB53BqH5tJg4fw8Wxmz0LIHxj_eHdoVS5JZrgiqWYLGjX-tO5r5nG7dHGNYwa61JfXuWVurcdr0VQL9aBZnG7OdYGDHtx_ocoeKjx4NS8eoZ47XSfIuWaBCfovwl5vaEI5qSzFdDABv041Y0rNWml4OE_0qgHaGL6c4f7ABCoPZOurzvFNzr5reizMsgoEzR3CDmy2LPFrbrV52RV6JsKZef3YPiDwx24DWWuIzqvMAtjoCOt6PrmJgiCkZ_0f15ByEP9y_kaEMn_acHRIH8PtkcOjdk1GPQ9F1X6nS7q4dBH4bi3KQcv1QItsGG_LR2tbgmXFJwQD0X7x_p6UKZnN2mjfjJJcf-0y-7FtkudV1MYxrO_3KD1wnuk8l5zT8Z-qVuiEuHjWTipKJCHSt6yPdxDR_iWjoO95l16lbuIFCmB5WengxtWq3nvlKWCZZ2M5FS9CycY5Gsa9eAEjpRicYXul1aKtJHlGwwF_NuJ_IBnGn32yYNucBfDLMewGzFWcPzsURY8q-c7F1_tOt0NPRnhDzJ-eaVClA-Mam_FqiYA0V9q6yBLH7CaXJFACwpQafkI5Nj59jMy0akzi-dhP_UEGgUF1n8gA9GQjsc-iycQLKFPG3UFNaeiEB8N6NWZaWqNn8GVh7p6nHgTiLSmeBEzyVFHRqSwONalB6zcRCepeHPBD7f5t461lbnspNN6FWtvMjyQ2pDgBGpG54gobL25jZagdjdMCmEgUXXxtUc1qLMbe7JrA40vsdRMWMKwbki-0GWuoz-7aY115d-QYLQR2xpu4abuy2980YzOmUH5JXWsd_lk0rb_qva9YBMXkBslNA1Q2tON1O-zu4OnEbWDXxLkKHnNdXB9_gDcuevnDlhKOC8fZotnpWdfAPcecjnW7Vq3RHRMfEHrr3RNPkaZnx1zoCRveKox9VOewn2IZC0rY1evzsZlRwfrNDTXXCXax-Av6Um01ykWEPWQ4yL_7fdZefH2i7rSXXcr6uPC9OCiMepGa-IN_CRIzvfKQyxP5XNa_RaPaX6X3sPz25hTCbOy3ShNDTuj9tVATBuMdCCALNX2mYYOhXkwI6hbp-kWx5UQPh1iXvatyFICrXGGAzzfiwiX7IMem9yDLgo75nLCkSIQ__Iqzxm7JNqomIaIejqQ8ZqOJY9SQZSAK7paqKfc7qPGrk7HP8j_GnUf2vDCyjtkqMSPVIYd_8a70OV0_4qSIiYgN85xa_qZ9zT4JQHQjtTvABeJilD-RIrK3pfOsjbwYxjPUMOD06oCinmt3tl0NlJvWsz4TbEg7LzUSYcBXijqbprDrwFeHIDiz43Z8u9kQHPgiLj8te-14S1pc1xByWrTOhsGjZaSOfT1FCyPXJ-8Lu08vQdU2C1Oks1Zv8DaslE1UyqQpE3craPRrPc_tFlkiEVi7Ft0RNCeh9ayunSt8HlFuIAEQGhDL3k8gM4_9aVNKzLGwp6gbla4MtlyIKTZq9HwH5pCqv9pB3yUUfW1sYqJ2ef-X2ZTHYH0slk71_kGV6tzVsO_VO-OqIMjF2oWujMa9cvz00MjXEbafFxPNulFeo1TngQ8jsw_Gg262kFACdU6LVt8eEaFcorIUdPN_2xY6R5WrCnfPVVXIt5Y9io8iWoUH0h_rB02T6PdnuEiOE9rhFBL1-qOiygldF97XX-vEgVIzP1caQf4hMM4M7-Ldu9B5VUJ82I3ldJnvtbAm9qxGg_W0oJKTZdhOMGsi8_M3hmRvHuyIPjDap5DkY-CEkCc21m2FPvMkGOWKWPcsYibe5a5mKubdleXDV1GO-qB2sUu3MC83ih0Oojh6iGHDS3DXkHvJTgJydA56Jq4cCzG4gOFSL0RiVNk-ZNIIdcdiEEIAgSmn5CE7Wj5vx7DjkmmKaGb1yz7DAQrJXdPaMjcSfBdWJ7sRR1C4LeS4SMeBv7XRKcCsW3e9BqO3dsXllzgNOErRcz31tS2N8DwQG7wQLb0knqFV6VmeT0m8FIieDXxTKvn1K4iGWU0m7ERNDFDytmvJZpL_OgBbf2Hvf6loA5Myd4sDYDdDzDnv4dNNt4J1C9aTss1pbm0f1C6yANYN-GVFZdjVVRCVngwo30UTR04Juq9o0xb0vGoARDiKR-VuSjr4rK2wVsOwFFj-4l5yYvcodKj2_CvNcElOA==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_00524cd46ab17a98016aefdf1beae487d19e77b2cd006bc003",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1469,
+      "completion_tokens": 101,
+      "total_tokens": 1570,
+      "cost": 0.004681,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1466,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004681,
+        "upstream_inference_prompt_cost": 0.003671,
+        "upstream_inference_completions_cost": 0.00101
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 39,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004681
+}

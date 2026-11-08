@@ -1,0 +1,23 @@
+{
+  "case_id": "C001",
+  "shown_card_text": {
+    "title": "The pixel agent breaks out",
+    "what": "Your pixel agent turns into a small 3D figure, grabs his blue broom and sweeps a burst of blue pixel dust at the camera. It is one of the three Higgsfield shots you approved, made from our own graphics.",
+    "why": "You asked for more ambitious and fun generated shots, so this needs your eye.",
+    "question": "What should happen to this shot?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Opens the Unslop trio before the locked animation. Its generated sound is dropped; the trio keeps our music.",
+    "context": [
+      "All three shots together cost about a dollar forty, inside your monthly limit.",
+      "The month now reads about sixteen of your twenty dollars; nothing more is generating."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C001.jpg",
+  "poster_sha256": "ea97f41b59327b4e6bf702b8922f65b9dfea576c0d0773033597b9f03170d0d0"
+}

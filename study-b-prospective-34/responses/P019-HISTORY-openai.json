@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:03:09.925888+01:00",
+  "case_id": "P019",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "4f29db16b6a61ca79c52ce2b003dab9864d1764e52ecc9942c910fc93409334e",
+  "request_sha256": "d2b9279fd3bbb09531253d269b736188cedd6905818c4719e4a08a2f5841377d",
+  "reserve_usd": "0.093360",
+  "response": {
+    "id": "gen-1794139387-Ili2LgkGq46ETxvhvNYq",
+    "object": "chat.completion",
+    "created": 1794139387,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"Closely matches the approved “Six lanes in cmux” and the owner’s request for reusable core-topic animations. The poster presents a clean, recognizable multi-agent terminal visual.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3497,
+      "completion_tokens": 55,
+      "total_tokens": 3552,
+      "cost": 0.009291,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3494,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009291,
+        "upstream_inference_prompt_cost": 0.008741,
+        "upstream_inference_completions_cost": 0.00055
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009291
+}

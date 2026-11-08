@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-08T03:34:07.637129+01:00",
+  "case_id": "C020",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "44e1915c45733a14ed26a51098e143d84ee6fa523b6ed62f462db4af39a4a2a9",
+  "poster_sha256": "084b6190603f590af8f4afa9ed27ebba6a3a3627a6f343446cc97ebf88b772cc",
+  "request_sha256": "459a92a0e1127db2db391b9a749b120d6d6ad4e17817c215be34ec305302961e",
+  "response": {
+    "id": "gen-1794105243-0RWrXCMBjxC84EK8dlbo",
+    "object": "chat.completion",
+    "created": 1794105243,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The owner already said this clip should be longer, with more fun animations about tokens. That points to adding new material rather than simply trimming it or killing it. The poster shows a solid but sparse single-scene odometer with a breakdown, which fits the 'needs more' feedback.\"}",
+          "refusal": null,
+          "reasoning": "I'm reading the owner's note that the piece should be longer, with more fun animations about tokens, which points to adding new content rather than just editing. I also notice the poster's 87.5B doesn't quite match the 88B breakdown, though that seems minor. I'm leaning toward needing new content.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm reading the owner's note that the piece should be longer, with more fun animations about tokens, which points to adding new content rather than just editing. I also notice the poster's 87.5B doesn't quite match the 88B breakdown, though that seems minor. I'm leaning toward needing new content.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSpAcKEAgTGAI4AUIIdGhpbmtpbmcSDDYu78gSYyAvXitLGBoMt3qje5oIqO2zU7d4IjAYKGVSlPuO7/d42YmzQnhK6nZDPHQFrRjjWJEvg2PsyH0H0Qcemmomuc2hyEK80mgqwQbwW3qsUtEflJJTe5xO2nLrmeDPjEDE7KAoPu01+XCU+B0egryTPYtrkwGPu6r6NpCcBSOZE7elMIcZ05zbGGFrF0ciA8P2FAGYyNF/F8I3ytop+2kyGoSvFR5o7CdtmvjNIK/K/EbRt8nh+OqJnWxbEgDbTp53xzK9cGr7LoBWi6jVy/dm1KSecenR3v0DR3NSra6v4tt09EuC2nsBznlPvc2VnAPOb1VTBZq5yVac1amKG8a5eLO5sorPJC5h387mLeAmWylj9jO4kl0JJZESbQzU7+kO5pG+K+R7cG9R4wJHZaq/LFZarP1NEdS2J9UE8vAyHPGDtHNX5GqF+zL6kz1wEK06oiRLRq9vj7vLhjk13Eoo/IRqnXUvEwwgzBxW6BVKDXCTCNNZUTdZcfZW+Zr+8flujlPBZCH/RcRdMI4tOxYfaBn88yv61la5w1/bgiSLFLI42CKdgM45MFbKxsZeBxyp4N3KrlwgfHIHcaBCCO66vsOc0OFvyZhuzzkzuF3V3mh9bI8mVLqkWount7qHmv7UKmcCvE85HcXl2UWP4llf5SESjyu1krZc2jdtJvFC2mvrbGRTBsaoiYCrNBxEkdW18s0c5alQCWHsljCsP1IOn2hG9auH/8jwUCamf+jIaBIrmysnrug/XjnvNbsLxG/74mCUhzc4bgES1f9vfuwKBADmuvQ2m7yl0yXd7lQSNbjQGYgmD0jHN4eSJl977pWejBTNzvZnXq9aMtOJ1Xn/IL25zuWl0MgD6HVEoCwyg2xgmDYDypTpDYKlZDnbQS+vjoCHCvl3cq45YgqmC5+zpviBfX4M0ukaXMGEMCxT3mWcNP652ytjK7J63XYXUytIHTkCL78io+U1+DP71h/exSQ33PjYAkpg7qzAdCu07I9hQkmpkFrnuNhNNXTgPSyDEeRZdMemCv23DG5dpHT7BmQ+QzxVmuuDAEq9htqzPUjhMZVWwUtdyeTkY9uqEC+w3cckQsHPYIB4DIgUP88qvkgCH7ks8aZh9WKT/PMksjrp+KurxZUbsmySIfTb5UL8GbgjbDu9yqvL3AwnuVYFK5WgiWpsvhdpf6MEzH0gFFu5Wqt1YeCVMPWG+xgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1919,
+      "completion_tokens": 230,
+      "total_tokens": 2149,
+      "cost": 0.012276,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012276,
+        "upstream_inference_prompt_cost": 0.007676,
+        "upstream_inference_completions_cost": 0.0046
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 118,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012276
+}

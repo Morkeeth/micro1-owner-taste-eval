@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T12:59:26.833914+01:00",
+  "case_id": "P007",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "140753c40211f9f4ed418db8b1e5e94ed600e343540577ef76099b6a05690a10",
+  "request_sha256": "21cd6bf2a4e155b86cf7507e9e578b1654fb99244cccf94c1931b0b0ea83d0d5",
+  "reserve_usd": "0.166272",
+  "response": {
+    "id": "gen-1794139161-UlW5JzW2tcGK6l2UKU8q",
+    "object": "chat.completion",
+    "created": 1794139161,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is the reusable weekly-limits animation the owner explicitly asked for, and it features the pixel runner, which they rated 5/5 in 'Two limits, one runner'. The plain white panel could draw a 'boring' note, but the owner's enthusiasm for reusable core shots likely outweighs that.\"}",
+          "refusal": null,
+          "reasoning": "The owner wants a weekly-limits core animation, and this one uses white panels, which they've called boring before. The poster looks plain, and I'm weighing whether it's worth an EDIT or AWESOME rating against how closely it resembles the already-approved \"Two limits, one runner.\"\n\nI'm leaning toward AWESOME, since the owner asked for this topic, though the plain visual and the lone runner below give me some doubt.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The owner wants a weekly-limits core animation, and this one uses white panels, which they've called boring before. The poster looks plain, and I'm weighing whether it's worth an EDIT or AWESOME rating against how closely it resembles the already-approved \"Two limits, one runner.\"\n\nI'm leaning toward AWESOME, since the owner asked for this topic, though the plain visual and the lone runner below give me some doubt.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQStwkKEAgTGAI4AUIIdGhpbmtpbmcSDOVPdDMqPJborTc2IRoMCxI4tkBsRdeDGeUXIjCkJ8IJO2mtxIKT94G5A5DjndTmDKcdvOR3iJlb+FcbmWRn0prCmPFOBtbWoBiU0k8q1AgqwPLBAj8AmXP9lGSrTi9CE/ISH1puz/EhQ+Qc+Ecnky3EhA8dW3M7W63xpDhUNM7M1wjlLm1hhHXvS0j4acZUOpTxbrHpT8X3zJPfrp0ZTbkCpFyJqnmTS9RzuqCaHs97TCVRytVs/raxVsJlJH8Ki1u4qms2vIem93KWxo9uo2qqv3KJAxO4mNIwXhPSMTfsqAlzMmQAiOW7uJTBIFyHinm4KLZmqLHxMkW3mDdq/Bs+2yWF0RK7/5z9HvfFmre52vCHDljtKp9+d60fGCK5dBKuiiQmlKuPMgHWMOf/9x1CZrhbc5n4kCUDqWWzNCo2Z9iK50eTktMMpBRQtOpdk02CPxmSTj3A41E1Mmh3ZO2W9H+bLl9ZO7Cv3EKGotzr7AQZLcVMZ0pn5nZkLdN7F1d7/zWx2S+jcrqMW1I+gf7Iz5NyfZw/tadAJL9JpNe4jxl3arpf2ITo9u/f/q5HmZN0rfi3H0alxyZrNWup0cQt2AvVX8ZOMwcT157k3wgskixfWOiKnqfFmod2CKDt5nRd9DcPUI+zau98GO8FKm8peqmAaOJCvzznm6fUcJ4J751KP6ZeJmkdz5ayov/Fxk05434Qw7QJCQNRKUQwtzGoRQgTHss+NPpDWwdPse+KhZi2iM/FJrDm+MTPMPhXI0RUIoEGgBWG2Aqi5oILHG5GebE0QyyAC2wHhsgDgpf9jgQm403olIcEXrWAkRXt37lOTFBzlJZvof6Cuo45RRjpZst1NlP+JQx4cEMNQx9tfus7NrkDiFtB+Ammtq9hqoJFlxS4ycEq/kDFR7xjFmQefZeoHT7xUN5t4k4mGJAK/qu6gCUv83FiZclVWK8OfnF3wyIVk5ErC/dakrnYU/aoe5xrPivX5z/hcR3cDnYMDK6JVXYS+eTjLt+4XkO7AgFl3krgh1E9ebGEBRPw3xgDM1V71S4Va4HrwPw7FaFffjzgcRugd/1KwBPKzpZD+WcMdxXvJNhONF+Q9kuQ1SXIlD1ATKhGb0Jd+7KKuD8txCAOYM4UfMSfjeN6a0SOkmsAoiFDfPcAQQcJbWO9X/zw+3+/fkWaWtOzQtPUsyu9Wa6+jP/bC/E/W2xGJb5bZT2a9Za/HekodBzJFztjCydI6dMt8keqSVgANn6d1pG3lnwSIsGznmH0wPSfXXw7/ifO4bWc0my7E8ELAnwZn/XYW5dET33TILPjghMZwoJMhDJHK2PwxaGR2Wrf1tgzw0WDqOXvIBv2u8TD8EpXPsv9hSBISovrTm4Vtjw7gO4WgD7R7waCUqSTrs62uhXslWsY3r1xj2J0igceipjT4qw658OPl4DoJvOlyZUMvNgDkamQL/yO3qApIzkTL9py4MQ46UFSSP8vpYZ0Sre8H6b4rLDVRzSOCVkzSp56uRvsFv75BSgtQWxyPTLuFbLZ1QoIXIJ8aiqwJDtF25U9ujFIwrdGOJ3n3l5OYYhAOoUiDD/3GAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5011,
+      "completion_tokens": 320,
+      "total_tokens": 5331,
+      "cost": 0.026444,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.026444,
+        "upstream_inference_prompt_cost": 0.020044,
+        "upstream_inference_completions_cost": 0.0064
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 196,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.026444
+}

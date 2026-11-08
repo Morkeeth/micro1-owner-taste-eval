@@ -1,0 +1,22 @@
+{
+ "case_id": "P002",
+ "shown_card_text": {
+  "title": "EP4: weekly limits, two meters",
+  "what": "Claude and Codex weekly meters fill across a week, pause at the top and reset, with no real usage numbers. It is one of the reusable core animations for EP4, in the locked look.",
+  "why": "You asked for more core animations we can reuse in EP4.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it under any weekly limit line in EP4.",
+  "context": [
+   "Eight seconds, wide format for the episode, with no sound so it sits under your voice."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P002.jpg",
+ "poster_sha256": "19d088cb160cef4002382667db777315676fbd4fd4b62a84cd640a12454c8996"
+}

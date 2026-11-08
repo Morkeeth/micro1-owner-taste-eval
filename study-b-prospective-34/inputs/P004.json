@@ -1,0 +1,22 @@
+{
+ "case_id": "P004",
+ "shown_card_text": {
+  "title": "EP4: cmux, one window for every agent",
+  "what": "A real cmux screen fills: the agent terminal output arrives, then the browser pane it drives slides in. It is one of the reusable core animations for EP4, in the locked look.",
+  "why": "You asked for more core animations we can reuse in EP4.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it when EP4 shows how the agents work side by side.",
+  "context": [
+   "Eight seconds, wide format for the episode, with no sound so it sits under your voice."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P004.jpg",
+ "poster_sha256": "b95c3c63eeae1294e747fa68e97f4482c3c72087d3ca1dba3e752595416f668b"
+}

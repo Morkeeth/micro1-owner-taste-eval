@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:32:18.047114+01:00",
+  "case_id": "C005",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "603d6d0184d9d9474e990e000bd47d995793878e3a5d3d343170a89afeb68e9f",
+  "poster_sha256": "aa2e34a3761779aef5daeaae309b5986b4688372d8be802958ca7c5881d83fd4",
+  "request_sha256": "0e0ffe5416e7c93aa0961d5b314ffb9ca8867597489bff777d976e4210ba86d1",
+  "response": {
+    "id": "gen-1794105134-A7R5UJykMoRwEcbhT869",
+    "object": "chat.completion",
+    "created": 1794105134,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The earlier complaint about a very red face matches the poster’s reddish skin tones, suggesting a color-correction edit rather than approval or rejection.\"}",
+          "refusal": null,
+          "reasoning": "**Considering edits for poster**\n\nI need to decide how to edit the poster, focusing on the explicit red elements in the face. It seems there’s no animation visible, so I'm thinking about how to revise this effectively. I'll choose to edit based on previous feedback, particularly addressing any issues with the red tones. It’s important to salvage the poster if possible. Let’s see how I can make these changes!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering edits for poster**\n\nI need to decide how to edit the poster, focusing on the explicit red elements in the face. It seems there’s no animation visible, so I'm thinking about how to revise this effectively. I'll choose to edit based on previous feedback, particularly addressing any issues with the red tones. It’s important to salvage the poster if possible. Let’s see how I can make these changes!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq798xyvEGz_saVtJh6d3YRKbIUdsGvXAD2xtyzj88Y94APYocjb9PBKZ-aL_U6RP1Wm5iJEke8hEUtzshS-aWOC7Z48FLtti54wnlnb974DOB62Ua1qOjlIHQ3CXEAE1GWrB3k6KV10e7GBhKUrFPvHvLZbMxKhK_i2A8j9Abd2dzV7KqyO2YxArI9fZUjCQtnm7TFdmMOI3lDmRQxzlMngZeqvmqs-b7mZcZZXD2N4Ob9qMmQBIlEUt6-xOs0JI3OYLYDDYn8z4KybgiMIEe0S6dRjU2r__j01xI37Q_IBwCSv4swoRAU0Wz-23IzTIXDOCQVaob_qpwvXZiuO7PEDXp4vNysA1lqcL1T_T-SygLwm7Li0avP7UaXa22jWPg_PlAGCymjYzo8kufFr7-gd631esnBpU4lpSk-wLVk8OWCWof6wdBksOI5YGytMXR86xLlYLZbfGrGnK30drTXbzQE2w7QibGlZQjghCzcI-OorxncHsAQ3IuEPNFq58WVUzxS0vKSL9T3wIOn45V_mA8LvPbNJi0dc-j4ZKS8vU0auYdGY3wBWFFVGn7DvY19PErltRlfOG6YxRMieRYfi2LlH8ReRbLytyjVgiKGfcTic0qf48U9OIMJRrywQqojdV1Y83yC_PNZ4ARRZrH5HSOH_m44-7rcMKwlHs8Y-r8tyzhYiaNlTWIbTn_9e2u9rrvWY8IL-qw0_nbn7Hy-PpT7rFlGc0jYw9JJKbgKtTM_3enE4MqwKLEFav3kEhy6qdfay5DDyZzFAKFAcSQ8NkqZIYu7Oyth69QYWkqMePjEnI5wfkT8eNUxqRgI4e0pjZZArWa7NfrcfL0w5du7tIkMzTWrRstbTn-DXgO3lPgzA-FbLigOMpK34iTYfTUugMYtuWYOWBSJzCynZZL-dt3mpTAcFau6RD6SmpjG8xbaqQl8tBn6PLTZY6LE_UofG4D_n__UpFj7EfLlQbbAO1-g0-lXo6IvvbpsRtvM-YPfE6JaC54pcsPSRySAVdrqRDKZYdOLmxhHbUGN_Sno_Box4DB7O7BkXMmupnxQ5uugdL8WTdw314yf-FKHVjwbMhRk-U_bDW97ioXoampvUcu2-JXl5M1B-ds2g3lfHKx5c4dM4G1eoE0KfuUNs5DGnsfxYV3lHla1NCkwnwOL1VXDGOaY0mubDtLaL306gh01SvZQKDZ3nCfR2FNB2VG6ruyVfE45N33TSJ8UcI6nCRsANicPnKPP2zWzf-t35fi51sRugKIKpNA-Uff_pDc6v_29ev8X3fITsoBysjzh-qMFJZiCu2KDkidKat8tWGI3RVpcDUvS3h__T-c3Ei-EVrDwdcyE8W7zeYHO8vp2PmQ40mTgJS2JoeFL7r8qwZI6UYwIKpthymKIB7ZesqafpaM9HqXx-smC7NKLEhP20ikxADctCJfS6QxsuGNIk98-2q3bbDfEXZsPGg02XcJr5FJx2dRvY0b7a7WpgK42GAdDI57L-bw617a8oa02iMwMqojkjLsRWy8B7ORKzXESIVcNdgZB8UuYxRhS-Z3Tnkt9jyLrn1n4M8eIZbeSCt3HUi6hUQUGNUM-MZJXRGAu1pGwbY3wy-Zce81NY5tVmOQFGJghm_GDy4GkhPpVtIemLs9l-Gv-9W7P9ZZqSDnAAWLMh0lp0RKXEqNB8doE5bcRSZt7iNaJ8R7BWeOX7muV5vYxy3wjjcmwpinmNrqPuucxQZeEhfPmFPFWS-dtQ-uOp7juIuYIYm_mqU_Qc6n6jlmBQw3CY0dibRp7eZ0eI3l-FnD3x5rmbxVB2VzOe4wiuyjLPe9uhCkz9zhgRoMZxhJkT6XcI6zyIKYuSkdvPM5BauYJyB05-OXHMgLom0Fd0QgwnaOpMGcUKdr1gd3eJACGQeD9j7WDB_al9xfANqti311hMLtBfyauZdSK5PZTqWmEiuEc7MBeF39t2IhFuGyF0dCWmh6schWugF3PYpt1xs0txCXidDh5fdHQXlKPeKs5re__Bo0harRm-R-Q-vGdfPphZ8d5tqs7gZs1fIz5f0n9GUo33wb70qeTqeu_R6zH51n2ZunfGxjI3835R5RBZr4IDfiT_T6_UNTMR_y8jIIf3n0rTlHtTHjUWZaXNmvNlScTcnQyMaEZgmow4MELYPbD-Jq8SGd851xJx67.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_08e32953d2a5f5bb016aefdf303d1487d1ab8cc2d64c97a96f",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1441,
+      "completion_tokens": 78,
+      "total_tokens": 1519,
+      "cost": 0.004381,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1438,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004381,
+        "upstream_inference_prompt_cost": 0.003601,
+        "upstream_inference_completions_cost": 0.00078
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 30,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004381
+}

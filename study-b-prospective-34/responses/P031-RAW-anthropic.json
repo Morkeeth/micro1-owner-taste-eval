@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:06:12.566615+01:00",
+  "case_id": "P031",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "b37138b6bc0ce79d81792972e55bee0b8c31e2b89d328a4f2193bf0fc86aaf76",
+  "request_sha256": "2de274babcbd83034d1ff30ac114a867840b115d38982f3b9d8018d8408f36f5",
+  "reserve_usd": "0.098944",
+  "response": {
+    "id": "gen-1794139565-vj5jUIFQiapvFa4CaR7m",
+    "object": "chat.completion",
+    "created": 1794139565,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The earlier version was sent back without a note, and this revision only guesses from other notes, so the real issue may remain. The still is a fairly static onboarding screen that still shows a cursor and a generic tagline, which makes a further edit request more likely than outright approval.\"}",
+          "refusal": null,
+          "reasoning": "I'm checking the owner's feedback on the poster: they sent it back with an edit but no note, so I'm guessing what they want changed. The cursor arrow near step 3 might be the \"walking agent\" they mean, though that's unclear. I'm also weighing whether they'll edit again or approve.\n\nI'm weighing whether the owner will ask for another edit or approve the poster as is. The cursor arrow near step 3 might be the \"agent\" they meant, and a static screenshot where nothing happens for six seconds could read as dull. Given the changes already applied from earlier notes, I'm leaning toward another edit.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm checking the owner's feedback on the poster: they sent it back with an edit but no note, so I'm guessing what they want changed. The cursor arrow near step 3 might be the \"walking agent\" they mean, though that's unclear. I'm also weighing whether they'll edit again or approve.\n\nI'm weighing whether the owner will ask for another edit or approve the poster as is. The cursor arrow near step 3 might be the \"agent\" they meant, and a static screenshot where nothing happens for six seconds could read as dull. Given the changes already applied from earlier notes, I'm leaning toward another edit.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1914,
+      "completion_tokens": 448,
+      "total_tokens": 2362,
+      "cost": 0.016616,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.016616,
+        "upstream_inference_prompt_cost": 0.007656,
+        "upstream_inference_completions_cost": 0.00896
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 342,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.016616
+}

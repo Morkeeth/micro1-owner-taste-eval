@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:03:59.189937+01:00",
+  "case_id": "P022",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "ee72eec4fea8bb31aca2ba5b0acb5eb9b3c4b9d9634b0ebcdc639d89cfbc3c9d",
+  "request_sha256": "113bb0fa7b9dbf2ee1963e56a23210ff5729db3e7a1e7854d2c489d33a9cd747",
+  "reserve_usd": "0.166608",
+  "response": {
+    "id": "gen-1794139434-qeZfoEIMLOY1vykVyIQL",
+    "object": "chat.completion",
+    "created": 1794139434,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The poster shows a sparse white frame with a generic window, garbled AI title text and an empty phone outline. It lacks the character or Paris magic of the Higgsfield shots this owner approved. It is closer to the 'boring white panels' they criticised and the plain folder and terminal shots they killed.\"}",
+          "refusal": null,
+          "reasoning": "The poster is a plain white frame with garbled text under a \"Review\" title, and nothing else to hold it up. The owner has said white panels read as boring, and this one is both. I'm leaning toward killing it, or sending it back for new content.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster is a plain white frame with garbled text under a \"Review\" title, and nothing else to hold it up. The owner has said white panels read as boring, and this one is both. I'm leaning toward killing it, or sending it back for new content.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS6gcKEAgTGAI4AUIIdGhpbmtpbmcSDN32SxerV2EGY60hTRoMxF+0D6/PTSVBIP8XIjCOF+lW9wOtL+TIF4c0Lup7G1FFeFF0es1JF7W/NZvTsjR6TQChkhgm1FsC5tMxKAUqhwcz1+ZIdRA4IjvazUakjwhA3o9Xaj93oiuAcMejG1nW8uqe9s+86+wBleEb/2DuRP8aMQ9uGDujmpTHkE7dGvJcNPTiWMAA9imujV2Jw9jJV2wj3eURf3eiH7JV46g0P1MofHjEcTDsa+W83uRerj8raTm86nH9ah1MfqdrqI6XINfES2TMrwBRzKA5DpaYY1KqAaGNMXDUl2XaeD9XD7wplAwwsUVNLaDtCnhLDGwsxp9nvtNsLxcxAf+56N1Bn00OAe13mWwQ+dipm2vD4kWkx8F0bTb6E1RpGMRrKpVa1aGdzY2SM0/bBFXwekLslPnpFZvtrPKiER7xy/yB+tdyFOB6AevhXftJ9tpyz2THMSah7QWIEUB9lu5sNhHM3PGEtL8SqR06SAX+Vsef0qliQNTHNCzMnqTbdRrjEmjTU34qY6QrI6pwliMpxJcpQTNbLV1oSTKMrTpqShpNJx5MMEDpn7PeFzv4EZGr2IrqNTBbGifExbOupg3HUy2UyN4zoWO5nkXbXfOWXJXhvsoQTPe0fqQ6Lojr/8wSYFd5TkIQTg4tGkJ48vuTtZvSuoL0LtKWHwymPKSFFUCL5Wn3X0+mAp4BYxBo+FC58TP5gNhWrZhB2Vfa7OMFEZsxwleX3HApw6WNaGFu8w1flk8oFuH6ylfJQ3zy59sCOhNFl6wJH6qmuQEd+DNU9EgGSW1irtrN4n/oNFSLAj0NMdAaq4wRMgs60D1hF3f2Azerra8df7OPzFb4G/FcKBuym4JSJkdWWibx8iI+Nvhq3OIPQHyyQYM4JDla/7wVfK4dCdLyaozrdNweS1mNHxclBLj+ZA+W5WV76xJE+jf3wIlu+zVEbZgPPq/NA+qNBiJxrx5vjZ2SsIQXRIpeuzlo9V/tJQ5ae7SBR7r9VBzHQkW6W/COOIvBLTNVKR4PIe2VZL1kk6H3dgAj0+HZcQIYFLlWni4evu7GH1qOcCxpbNUZwhXVW/cuRyzCYRRqF9gnNMHiJWJ+84yENic+pUcVl+fU1UPTEBOrIZIvk/s1tdscPpHB1JsTIAqbX0EVVY1LuRVZhHUzuWlOepIIkZW67v8w2Ph93rAp/z+fTkDo9+lt3gjTS5Sl2y/KQZSLnnOLhKhELXuhbA36rdTat/NX32FpwxFManFHo0OXxbFLbXbT2+sOUd5juwWc/GQ3yMTYbfdRE9p7bKQYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5023,
+      "completion_tokens": 258,
+      "total_tokens": 5281,
+      "cost": 0.025252,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025252,
+        "upstream_inference_prompt_cost": 0.020092,
+        "upstream_inference_completions_cost": 0.00516
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 139,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025252
+}

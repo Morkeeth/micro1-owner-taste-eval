@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:33:32.669308+01:00",
+  "case_id": "C015",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "27bb7a60c03accfafdbb85deaf2cbdb01306d403f34870c1c31d171f694c7995",
+  "poster_sha256": "3731f021d0f70d6e2d285a0e7b60861e68383408bd70d32504aaadbf86d026f6",
+  "request_sha256": "db562c6e012843e1d130d70ab3a709f0263eebe3976072d78f7fbcbab5905972",
+  "response": {
+    "id": "gen-1794105208-6gTQaqR58xpyCgPGZpHX",
+    "object": "chat.completion",
+    "created": 1794105208,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster looks polished, but the generic “BIG TYPE” and color-swatch overlay suggest it needs a focused text edit before becoming a standalone Short.\"}",
+          "refusal": null,
+          "reasoning": "**Rethinking content presentation**\n\nI need to provide a grounded reason for this decision. The poster's new model has an unrelated big yellow-green overlay, which doesn't match the actual story. It seems like it needs new content or edits. I’ll need to choose an existing polished footage and adapt the typography for a standalone look, but this remains uncertain for now. I’ll keep the details in mind as I figure things out!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Rethinking content presentation**\n\nI need to provide a grounded reason for this decision. The poster's new model has an unrelated big yellow-green overlay, which doesn't match the actual story. It seems like it needs new content or edits. I’ll need to choose an existing polished footage and adapt the typography for a standalone look, but this remains uncertain for now. I’ll keep the details in mind as I figure things out!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq7998JaTbseJJMQq3nWtq-zXbaY2DfDlzhgGvbvf9WeNrWVBCp_xIq6aOOxYfA7EH1UHA9wc9i5MZ-8fUPpQStqZwOrk4-oJvxR1Jy0mSw9zzXGAyaQ0K_ma_GP_ZLij62Cy973AeQLBuUgw2WpZ0xCWXF_wFDuQ-B8tLUFx3xspvDMtqzADyhPkqEvdJor7ImcecrQCJjy5BJLvbbnL3eL5shIvKY2FCbiczu1Bpt6M2U1oDUrYfPwJvxHwAsVVwhjU2J69bYSUCd6an1fvCVp2gYHx3B7AHPcUVG4JE5n3iZgCbCIlidbFyZrFiEUCfiyX7nSevaSBgIqX_nVcbAPASTNpONA3jrgMpyNINMArBVDVR0IP9NiHlSynFQDlcmpXlWop02Yz831NA3JMTw8IW-goV0z8K9u5C6oXhKyTynm022hrJfjoc0OMoFa-TDtWzuNloPR7PH7G2x4mxLMncQ5X3x4sAv8heCeHezlClTM2FVpocY-RfZDTLOFx3IO5TaSVpmogoMfTFRchCOOYFVeH8NjAerU7FQ1KwON5he8_2Wm69bdfjvB50Bj3scLt_5b9O3WyFvsWhHKsgUAKl0LbJZCxzRLdbStsZPrrCwZ-PzFXROfuMOkW68K5OOpyUrp50yHwTUmysAUKaXByHaasz2Zptd0AirGd7B0QQWpL-R6SSRRGfV2Lr_nivY0oESjUtCAKSmE4ZXPlNdhjccfzesW7qgwcvszqLiT2uWScN6D7iY2PFYfqK2NATDuExzHcbIFoXPAeI9j7bD861NZhiKgMTPzHZPU6zzxaRsB1u1sEQ4QqlcvMqWI_eK7hdfe55Ksk_le_fIPKvxhu51lRDS6hc6X8OSQ8jwWtZXaJv_ZkhjuoO7N-ljKG5lYoBZgwzG-s5F9qugj7uXLOUYh97cp5_lzqTGjyBfztIOkvTwmPsCSwZz9oY4SUc5RFzELGgJyEKXYfIfEoLMNcbQ7h4vSL8yQ2c79rIy1PQY6xmyL_Kr47M1qqWOWgpw_3Cn2Ctrb2S--0Weh1MVCWUJPEBAxHctFw-Xy1Lp04eAQ9g8T5Yqj2pyMQ3RS3WadlswOe6qTKwZfvXnqaepTh9kiPUDCX1c16xESLMpe0lrsoM0AsEUi4OAp-_lBkb-3U3qXWDmNVZ7UzbB4PJUhv4AV6JZI3zunhF8dypKxr8ticBnzbEqr-bAqD6lxUaxFROLdS92TyPOohRrWDtlu13OwQyOAmKSMoQpQXtoKx64GwNjwXsZHWC4E3jb2GQ_Pkk-gLEaGaOnIuDw-2tyDOrGTQiG7aVO--45C6c26cmyWH7Vkx8l-zA9ELjC4y85AxgvzrRZWSBFyU_f1Rfn2QlcQ5z2E5M0PclzM1oEI7QXYfzkCRZnJpLHXFdgeWCY0_x8uwN31idqn45si8YDJGPo5yVtnaoWiWvNPy3FYZCIRpoy-LjUTpet5vpF_yv_uJgdM727Cievl4UUh4RlSKDtteDPp9nJ3dHkVOuru_O13iGWKBoSIQXJbwNiNhjvkN1H6DKVROOAjsI32UUMgesf5cnswpMYhMiB8e4L2OHN8Tn5-fBjnBoC1UeMzxdTSUAYY1i3yr1SYMh_4rUze8QQwVYeeO7YRAnmlNR6Y5LHs6m7hbKeiV3xRZ9GjwHJM0A4LyPgByvm4biNjC-oEj9z7zGnSMN16yoJZw4guvOvZQEQOmQSZeqIn7r1xeh6CRz3iuFNGY1koHDe5mCpiyy8sYdJffm8hdziIXugB-y7Ew0EKIdDPj7hHxY5E1gZCM8LDVF7inPa5XBIbZtll2SeZe6Gfv3ZvfHh8ZKW5d22g5hlUgrHxVU92n1dt56aAVS1dkw5Cd3GGwKr-X0B7OWxHQ0CirSZVQgz_Le-rXZUX_jq01aLK5bnYUO2WtuC5CcvSlk5j_8mFfx1pKH3tszIj6LYN4_KS7ITcd5p2yCSdaSYcsnwUb0vJWhb_6uE28CnUafnwRdnNTZvEGPv43hoESw_SeWdnwhfbYADpIAoUCutySoCA1BZygixElccA7RCHR3HoO14u0SywXglv1ksMx4xiJHGZZiAc8kMB01YdXsvAFCU_1FTasuFvUiOke-98IeqwEbbrhIPhTzDO0P1xxeyADPDZ3NGJ-VbRw6uTa1cHUaG1eBoIMy5w7B62qN1_6g3hSHtENg1TAIT2qU83OXEqVHLUipdrU9_9p0l2P-8LOjUjZEOwykxQfR3oqArWr9r5qphw8G3BhBAhObZSYFZvJZaLJWPVEred4k1u7bgUFk0bvfPnEbF3_g2Cif_D3LPufnoObMERPEop4vTYLnVGL4uUjXluDDKZBnjkxtujx7x7dlQyEdb0C_lCw0hL-hvjQ-NDfsFIBpeMBVljbJ50IJvCEVqH7CqZhB9FrW5ORYltECNp3mdfgst04CIgzSTNig4poyqshX9WNlKgwSUxbHrkBlMiXiTRwVpFs=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_00e2b132ebf5de50016aefdf79f22887d1b4ccc9dcb9671a4c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 696,
+      "completion_tokens": 99,
+      "total_tokens": 795,
+      "cost": 0.002382,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002382,
+        "upstream_inference_prompt_cost": 0.001392,
+        "upstream_inference_completions_cost": 0.00099
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 49,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002382
+}

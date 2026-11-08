@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:33:53.851482+01:00",
+  "case_id": "C018",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "b7d001f512ba51f563e08077533346e31613df3b518c0713facbae8906aea4e4",
+  "poster_sha256": "591b0db06a81f0a7acd5cf8fa4314fcf5b2dbf40a6f77d16ed290a106e6030e4",
+  "request_sha256": "10fe4ffcf8c5243417c4950000bf581f0e48bf4600dbdbbf0bf1c1d620a9245b",
+  "response": {
+    "id": "gen-1794105230-0EH1KNpBVzfa4KbjJb3N",
+    "object": "chat.completion",
+    "created": 1794105230,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The poster is an abstract grid of question marks and token counts with no real product UI. The owner previously wrote \\\"great animations but i want to show the actual UI\\\", so they would likely keep the style but want different underlying content.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1903,
+      "completion_tokens": 94,
+      "total_tokens": 1997,
+      "cost": 0.009492,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009492,
+        "upstream_inference_prompt_cost": 0.007612,
+        "upstream_inference_completions_cost": 0.00188
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009492
+}

@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T12:58:42.021733+01:00",
+  "case_id": "P005",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "c44562add349c79e208a6e76b4fe46350ceb5a1903a08b24b813c161ed598ef1",
+  "request_sha256": "8202d0b197e927472673f324cea3ed251ff64e6f5a77e564c1500c690aeb451a",
+  "reserve_usd": "0.098672",
+  "response": {
+    "id": "gen-1794139116-WeqGAhXJBaUP5au31avV",
+    "object": "chat.completion",
+    "created": 1794139116,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, on-brand chapter opener: a blue line, a clear EP4 title and the pixel agent, all in the locked minimal look. It fits the request for reusable core animations, and only the title would change per chapter. One small flaw is that the agent seems to float slightly above the line rather than stand on it, which could prompt an edit instead.\"}",
+          "refusal": null,
+          "reasoning": "I'm checking the chapter opener poster, and the agent looks like it's hovering a little above the line, with the feet sitting higher than the baseline even though the mop touches close to it. It's a minor issue, but the gap is noticeable. I'm also weighing short caption options like \"AWESOME, USE IT\" or \"EDIT THIS ONE\" as simple, reusable lines that fit the brand.\n\nI'm weighing whether to guess AWESOME or EDIT for the caption, since a picky owner might want EDIT given the floating gap, but that choice feels risky, so I'm leaning toward AWESOME.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm checking the chapter opener poster, and the agent looks like it's hovering a little above the line, with the feet sitting higher than the baseline even though the mop touches close to it. It's a minor issue, but the gap is noticeable. I'm also weighing short caption options like \"AWESOME, USE IT\" or \"EDIT THIS ONE\" as simple, reusable lines that fit the brand.\n\nI'm weighing whether to guess AWESOME or EDIT for the caption, since a picky owner might want EDIT given the floating gap, but that choice feels risky, so I'm leaning toward AWESOME.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSoAoKEAgTGAI4AUIIdGhpbmtpbmcSDNnHb8r76ZGAbq3vxRoMnO8sYAGX89alitHyIjAxC4cJVh9YetU9UhojlmXjTUG5KsLH2T8eJv4eYf2H8oR5OqMREJEAcd80KmjVKxwqvQnC8lCVUGA6Rz8/rHFV0uDl1AeqKMx6TmW5EMdGMYbeW93PHj4RAbO0O2lPwmQ4MnNFUP8OJWcXrtrOOOkuazXHRyoMtgG7VezFIEV91T57M1MUImGc8KQvCTxXNdmWU00eefL+Vrip75ijOmckUF5Zdu3iuqUYyfSktINIRc6+lldToiRpLTFGmtgN02wnCKbAYa3CoKyuvpo9atX9Hp/EznuxmIRjBlZZzDh5h65qS90UbkTtKQAIzXTxhzjU4+BnL2l00eVhjr+s8f8RSDAw3zOBLgsY6b0VkZpJI7mHbXI5g///qT5VjewK+N812Wcq/hgNmSw9VzzLDZ1E4K1IwcKsKE3+WQqmpIP3uavJjCQwt3/RLYb3X8nGh/6WlXhiCRhOgCaUqfW6Z5fn3eDeHHgb583dlvbQx9bMdWjYHWZTommaJXgXqA/fJOkasSbntdwVCouRvswizr38Yv9YzK8NCpYwVj+Zue+DBt4uTJtRt0Z8zxm2vxkhjxGOznZDKDdMeYSkFI+t82c/Wb2wKReGaWIyG4u+tW1HxGKAGcmqGRVa9IiwHsUEkvuEgbPAPQd5WfzwiZClW0mWMQJxXozPJewpvWJeUKOKvkJkKQUhl5mkB+ZJP9vpaiLsD6k8/jKmRKNiCYQZ7784Ui22briaGgdN7ZT/uehgCzoaL/92XcL3o9Qbf7ut0aNSMbr5Forb6cHyBUdSTu8vOUfKdNPDFCVyxuupVRzQdFNAR05mB5/fdfRg2+yISZaY+y0ZH7ANDw7qIQ3JrgCzPF2rIRMjkigzqpenqwDNtjhQb13kpWE8Dfn2bAXji8gPprkfMv/t6Z9cUbPwzXoZdLzXU5dv4ozWFBz1v5yi6HDJ3+8Xg36xb33llV4IrXcsKugqiYTayGARA2WEDV+GNw4ccoSwXOxgT+piDVJGsnwTBVgtGer3pyXJDCiNus+XB9B3OuB7AYaN847EaKQ//WfoYdOLuVunhNf1OF1qvAOEuTYostn5KlW9wPoAe4ssrG6agmjoNt/bN4Hzj84u3NLwjTpGN8Gs3CPL9gMUW7XJD5oUCr1a1eDwRn2/BCMNBk+I49OhdiYBZDVka9nydI+ey5Xhh5glVkmmtGc8s1Hxu8MjAVi/XmB8/y+MmOhISFyZVuAROGV+mH40Yt1nLv5UyjfbrpfWI5JIj8UU5moz8hJYsYY7t3AooKh49O8SRl7m0+yUnct1rsZPx+zmMnXnxKlNAKoFS5huvLa4CR2aG+eg8pydFgOxqVHnLMCuStzNlaEW6BWJxj9I1awqA34yxGF2JSlZqPQb6j2LrKNXOlD9jjaelUVZGUjkJv3V8HinPkn5eiGmtQ/nsj1fRBoY31L1vswTpEUciJUpLftsgw2V2u0HioMaOp9fW+Gq1bgtLeqYMJ99FU6QBgWNB+WHxE3hjpnElPaAwALwP9mT1d04shag3KvjdNlBPsfVVPXz/rJQx2bxIjbFzCoeW+/dSwLN7GHPqQg9P4isf6tavS/dJFT+wwjTb1jd30ADtn0kQPWRs33qycRwE7f9i+S4Znmfo5JQE7/kzSxCERlIB0y7KKhksv9L0OmeiZ3W7ELHrioXzg/KlA/GnUmLGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3403,
+      "completion_tokens": 389,
+      "total_tokens": 3792,
+      "cost": 0.021392,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.021392,
+        "upstream_inference_prompt_cost": 0.013612,
+        "upstream_inference_completions_cost": 0.00778
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 252,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.021392
+}

@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:05:49.686310+01:00",
+  "case_id": "P029",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "de3ab7afb2183905ecaec4192b591b42111c7c701889ff7b9c5c7ca88f698a99",
+  "request_sha256": "2e8548ae21617c3b2dd1982090169ee5f9859c3ef611494ba9c9879dd0191368",
+  "reserve_usd": "0.166408",
+  "response": {
+    "id": "gen-1794139544-U1h5S4u9Ag8lbxAxhz8x",
+    "object": "chat.completion",
+    "created": 1794139544,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a targeted revision that does exactly what the owner asked: the agent is removed and the meters now use the brand blues. Weekly limits is one of the core topics the owner wants as reusable animation. The owner has usually approved clean, on-brand second passes, such as the payment rails. The plain white panel is a slight risk, given their earlier 'boring white panels' note.\"}",
+          "refusal": null,
+          "reasoning": "I'm reviewing this revision against the owner's note. The owner has approved matching revisions before, but they earlier called the plain white panels boring, and weekly limits is central to the topic. The color fix and removal of the agent look like the main changes. I'm leaning toward AWESOME, and I'll go with that.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm reviewing this revision against the owner's note. The owner has approved matching revisions before, but they earlier called the plain white panels boring, and weekly limits is central to the topic. The color fix and removal of the agent look like the main changes. I'm leaning toward AWESOME, and I'll go with that.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSjggKEAgTGAI4AUIIdGhpbmtpbmcSDAKkTCFgzMEp6p09kRoMhynRK5uiGkQt0ZaSIjDpq9Rv06LC6owyVLf8UnmozlZXzwFJoJJL5kLh/kzK1NziV71r1GZct8FVjsPhK0cqqwfz2KGtp1ll3A3pUdx0jF3GT/j0Lgef7BHscHsOk2OUCKpiQh7gV4gjtV2oumyouO3l2FEigNoQD670clxxFw2jvUByXVfPG3pZcdaxhTFxw/oTgfYYpAJRz35GUr/oHatcoAsy8ACPzqf0QJF2NB1giGO5vGbG2TsyZM72o90VOm64yXdlRnbcGDxAQ7RsjfDqkZ3+Vb9WbhtVjbYdFDcNMwmtE6PJApozg8wMO/K8AiX9n8Q/mWJ8SXGQeDmNxsJ8aK7yaZfBhnduHgIH9sDxJgAxBJHYyCDzyHGEHEHhvhXW3xtCebmJeP5v7fCUgleYzcnE832BaiSo1vARjYO7TsOIne2eCW4Ao99U9KevJrhLZpsCrP2AbL40DY9/zaj7eYqfgQDwtgRtFSzxjrVk1pIBYzRonxZg9B/rl7FOK4xYVb+cBri2hsW1CWws6+GwGBamtNLgSTm0TKZpW+OtipthDYmTvyordtWhNVRAAZGN7D1R7/i7zdOoDDGWbmY9IqQckz2jubxIGCrtjt69ogzvkQTFePiDXNeO2EaED2674jbXNiWRw+JPEVv+yH4DhoaYirXq9FF27QRGkQiOyQ5TABh2KrfZCi/7UewrJPts/MKQres1N01z3cAWUrGoKO4iS8BDoc1bzYpdRWXRxN06n9YITf1ysQHwLTaUUtcuQiea/TjFhRKw5keZgWiu88y9983iHIf+HhX6fqDlGtyzrkBJZFf8N46F66DuxBnVjY6DPDeFB0Kl5kGw3plRmstiM56b+XgkNDb+CuavaIBQuS3ViN1wtxcwMd6gc6R97yFoFb3IgHUkg+SYr9a8yTJfggSMU8711OnCQt6vGrZH/84ztTxGMJkAX1uQXC++u5KoHk8qbyaBCq99Uj/UztJSX/K1P7nnKIwm4mM0ZWIlwDNI7jsIhhdP1kFn9VLnBDR1VmGMgXVpxU0hMHDuP8SUy2fmVC8vzNtMGSnXbaVd8A7bqvVOSOHJfItntPCBcSORc0PuAZNqLPw2Scco6kHv1Q20pvso+wvJ9PodOyf3C6F3wJndBq4DLpfl8A0CiGCA6Z6+a0Cfz2rUwaxf07n7fYEl3GenHUz2A5eAa77cVhsDsYlVxT+r8HnRx/xJmv0g4lLoEHtMNJJF8JplqCx172rW7hnkip9UnpRlc4668xPl28+Q3mygby9xaTUHLxxcriXNguhzIPzbgKH5VgcUxWzGLZ1gL113FbNUWbqtsnDl8tRHHKIYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5011,
+      "completion_tokens": 284,
+      "total_tokens": 5295,
+      "cost": 0.025724,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025724,
+        "upstream_inference_prompt_cost": 0.020044,
+        "upstream_inference_completions_cost": 0.00568
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 142,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025724
+}

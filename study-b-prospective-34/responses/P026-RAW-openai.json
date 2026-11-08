@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:04:56.486206+01:00",
+  "case_id": "P026",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "7efe3573b80c7a95ddb9db1c41d172075339d292d5208c0b3381ae22623f3cae",
+  "request_sha256": "004204f01c581b0cb1b30c5b0ac4ba4a223fe09992df6bba23f0761a7a156bf5",
+  "reserve_usd": "0.059672",
+  "response": {
+    "id": "gen-1794139491-ixC7WBksV3XzgPvgyQlA",
+    "object": "chat.completion",
+    "created": 1794139491,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean grid of light and dark windows fits the screens concept and looks reusable for the proposed focus-on-one-agent transition.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating poster options**\n\nI need to make a pick for a poster design. It seems like a clean grid design could fit the reusable description. I'm weighing the choice between something awesome and something that’s just generic, because there’s no prior example to reference. I’m leaning towards the awesome option, as there’s a clear reasoning for it. I want it to be concise and ensure it’s described effectively, confirming it’s not just about motion but still imagery.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating poster options**\n\nI need to make a pick for a poster design. It seems like a clean grid design could fit the reusable description. I'm weighing the choice between something awesome and something that’s just generic, because there’s no prior example to reference. I’m leaning towards the awesome option, as there’s a clear reasoning for it. I want it to be concise and ensure it’s described effectively, confirming it’s not just about motion but still imagery.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GVo5kpzDfhPJXiMMYCav9wYE4-8phh7td4aetoty36DFv-fvUylrwI5zFGj4UptPJQBGIhUFLOWcP8IGa4ylAJ0rgJbjXqQzpKggrIYns3LjniDMDJ5yQuBZqjjA1qGFcJqWCdMUCAeD1Ce-scD-hwllEUsiPxEyPr1_zlnqS3kwHXxEYp31_B32cLJHLuoCCYcpbU1aCIsXjrrkpJ6xthrtUN5au2Hho5PAiJvkoGup4z9deQCdGZQn2GWm4-N6saVdpBgeYNOw9xix9o60zzQsMv7CRVdjCa4ZX2M3y1YuNjTWK3nHwJeZZaJ7mBefamzLBzthdBNUAEV8eQUflS6wq1QgWvQt-nVsPUp5oL2HnhBVTbZWOFeVRkLL-ePNDuPKQVol2SlyNIltXLWFS9tG9XzBg_mnvdXsC4UzvFcIukpx34Vb05oLLTrnXvm-Lt7mqxGHvPwHUUCVrmRcTd9sEeikdYlmwgrJOw7jUu4Ue5N8drTPdlMTFep7YSUCiab8idfct5Ac6Em5dZV-DUVBsUfa-BOpUnHa3Kt9Z-AG7PO9LOqW57Q6jWLTlugN5W__xPmlwGyAYBSkmLIWlUli9tHO18WPz0l2C_BF_NW5cH_R-D5tCD33vZp9ySFZ2j6SRegZsKDnwNroZiWObVAkWdU6jvTzWbKJvaaAmBHjAYWsiEWeFfm2QVnrw6Co551ddNKbYpooBEHG5-diydtFZV3kiA0cNOTrwKznPYLpR65_Nx4kEXN-rwkUkc4ATNFACkkN9eL5xhAiXuNmqcpUGUjREDmwkhu-AYIS8q5m31HzpLZ8cnF76O1AmfIzjFJ2y-WsrnNXERAw8fbI-NI-UxSqTcVE0TZi5UYciuaB8SAYpZ15WOOBqubPJFzyxvknW2a6VkVBoeMdI02LH0t1_PaxyA7h_cH5PtmvgYuO9lOtqRNCqZ0HsDgS5wAz7V_k2SEKIpuVi8MhzBjFEx0aKCxW8lVssYzbm0yylvvjWFZMDQZfvajTeT55xgsm_HmPFauuMJB61Y7xrvSvjzxl7S_fGzW5aG3BmK1sSD0mwzFF28AXYL6Lwya7VX55rsN6_-lj8Yqbx711_whdJOzcQoZ5KeoNfBA20mwu4dQHEPRHjjA4L3F2CY9Srgdo6vLnp9Lmx6RE2ibufs4g4pyS5zE_IBgr-ajF8wvzsyIzyqFR-jx6LWZcGlYqRUewF3cS2SgZO5qMeT2IAx8BWtEZpTuCjHx7elLUCl69gblzO4qd5ek89Cl_yFARChvBl7t3uVR-fm6qcLYzQyteCQ6rB6DuZ7w_1Fon9fOwofUsTwNscjwmpDG5Ezhzgwb1k229qCVI9so_lDcjruWQ8IYt9oTg3PZ0A2FexRFbRYgnrkAYM_Ky14DnwqlbP8KTH1TcuGi2tSWFuTnz8Fb4ZA6gFJlB8Gub1wWcbT2BHL1QXAA0WzAvoR-VUsOkLMeDbPwZC1tBeDZ2aOcpDM-IuUzMfp09BWo-Ekv4hfqSJUrX4m4hpEdviLlm9VpNElOY4Y1XWEvlJKitTRlyarwh6Yt_1Zs4pBC85rLk9uto_a69IQR0R7qayZBOTnem_fq0AencBOmwlVkSUAkyYm6CypcJ0ipp_Rm7UH2b6klJeRdsGyL-PpOBxWSVaQpge8JKTbO21GP3BXqL_OgMvsmiKSlXhL-oXySgfqTCBLnyqMjiJG-s3lVrXMq1WezKIIFiQuADEVschTaYoJKCdDHpV657urkFuP6b9P-YfJaEvYyF7XVoRiGOnBITVrsX35n0ad2UCs3kzevHQ-qB_DxqnENw_3WC5pUAEZ3hPwFKHzkOPsZ_lf4h1ICk7-FlTLmj5RvttL71aPOvUZJtfjubfl7-2i1hytpZZ2Cuv3O1k2YMVrT1S9M4iPmg5I8oMK2dSm5pO-pf9tMrNZJFHp_y_QUOw8dKkhthrVvuiooM7MbIem0d5pVp42jDJ7oK7IzHQaERAoPyF765z3rTtIjmatNcnHoc2UuPzDZ8oyxomK69xJwPmMrCsO2mVPE0mngwyyb2cJYdo3dLxJJHtSXgcoV7kT_XpQAEoBdpkySw0XNOq45Vg8HGOg3JCh222IIEQ-iQkmjUVfNWzBVOBj8vKdN4t_SJUCffqCHdCUybPMWHEzu1tjKNQCm3epJSFg_23zW2VWw8E2aWUGSe_H3oiv8nvLp0OZDjhtHXrQzj3e-Ss0ipg39xG0wecL0sZKReakhmz9876V5YcQWNjIlN46O4N-i0IMUOZlMz6qj05ercCy0r0HH2kgezVgIWAA-EVAU04PnZcKqDZwfs7hf2ZFuWQrncdnE4pl3tSAPOePHMqPeB4xSBGf6Kzlc9gaK9Xry.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0cfb94c58330a9e6016af06565ba4487d1964b57fb537af720",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1448,
+      "completion_tokens": 89,
+      "total_tokens": 1537,
+      "cost": 0.0045085,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1445,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0045085,
+        "upstream_inference_prompt_cost": 0.0036185,
+        "upstream_inference_completions_cost": 0.00089
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 43,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0045085
+}

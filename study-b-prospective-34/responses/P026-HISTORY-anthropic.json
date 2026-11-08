@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:05:01.753893+01:00",
+  "case_id": "P026",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "7efe3573b80c7a95ddb9db1c41d172075339d292d5208c0b3381ae22623f3cae",
+  "request_sha256": "d4a61b0a5bd931a9e65772a796ab3c0c0bd0336365e019123d596aaacb5c609b",
+  "reserve_usd": "0.166344",
+  "response": {
+    "id": "gen-1794139496-YXPPaThLPRFJOtlQoQZr",
+    "object": "chat.completion",
+    "created": 1794139496,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\": \"KILL THIS ONE\", \"reason\": \"The poster shows a generic grid of placeholder white and dark windows, with no pixel agent, no Paris magic and no real content. This owner killed the similar 'Screen ribbon reveal' and called the white panels in 'Raw eval, reframed' boring. Among the Higgsfield shots, they also killed the less imaginative transitions, like the cards flying into the folder.\"}",
+          "refusal": null,
+          "reasoning": "The poster looks like a generic white windows grid, close to the \"Screen ribbon reveal\" and \"Raw eval, reframed\" panels the owner already rejected. The owner liked character-driven Higgsfield shots and the Paris ones, but this has no pixel agent and no Paris element, so I'd lean toward KILL or sending it back for new content.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster looks like a generic white windows grid, close to the \"Screen ribbon reveal\" and \"Raw eval, reframed\" panels the owner already rejected. The owner liked character-driven Higgsfield shots and the Paris ones, but this has no pixel agent and no Paris element, so I'd lean toward KILL or sending it back for new content.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQShggKEAgTGAI4AUIIdGhpbmtpbmcSDIjolicdisdrJD9GhBoMynivrRuYjqYmtnm7IjADlyEDYB40jfb5s27zYlJQ7SlD1qKA24NiMLDYjVgjUdJZP+TtqbqKnsjIMpJoQgUqowffaE4WxrW0VlxZH9DFgpDSMtAaFkdXmUf9nonQyjBHkQK0xXwDsV3dwtwnkiaS4w5JHH4sG5DHIO4ajrD7GY6ALAnV60YODL+s8OP8px1lhdRQTCaws27xfkW/o1r2u3dL4ob7dFMnwc5vhXoOIq66A5D2BX2FT7olriQBW51xCNi+/rGfYoe4BwnrCu9NvogYp7/dx9Cmn8IAiFJ7P2V2kI+41s0P+bKxZ3Y9eRFQaytO5Qyn1FV7czTiwsQZ25bS/7fBWbafUNrhc/5lL4/CwZ72jeeM0Qf45e5kQRZkG3gh00T+eezcU/x80QIy9naIhLboCscUFVUpOmCeB6N74Eww2usXigwdGMIDvkqRQLAyu0tOkmIjyJkCPQXIMPdAajR8O70qevKQtcglzzEqiz+HIbNjzPOWL8+2XNkC4sckEB1Kw9gWpM0Qxuy2xjACZQYt0rNiFdoTQJCIcEDSsdZcVrVIXgOtG6QfRmWvwrCzkoCU/AwRNv/dGxSoIItjilkgRWsHB0+5xS0C24lVOaS3OasuwOxW34ldmlQsytYpdYu/uS8+F03FEB39U4SypInFrAX9rFtB9lsWZKxHRyyoils7exBAx0gyqGwp1IfrGbOr96M1hV+rTzUnZuhm0kPwMubh/dlT0WStF8j6UWQ8HO6kr06Smg8Gca7qJL5SAfo1ca6rh3MqtyAOBQVicWP5LKxDdEm9dmqN94PW/dOwt49QktA/qbwTLGhv6jECKtWsiE9njsOH6TVvin/oQmWQCgPHlwnNBQ0imkji61o8OS3kayzIWVH5tdyg4V5VZS+iqaRIYBGTSLr5egzW2HFARix7QQjPzZcFdqtXhB2lYznTkDfzGLjdsHR+mgKp+RLPtmpU5W9LIQbXjxnHYYAXg6E1Suxy3thhugDZDAw00kvW7WyRCPOLOoXFgaLgO3MNURNWCiuoio5a0+kuIGjNxvTzcVSCa1rIfD2T24s1EaKzZtQo1omjazNoiRp8ET3kPyXa+N37zcOraEIQj1BHSG0D/plO5nmAUCdSk6g5J7J93kBoXnMyFD0nhirv+Aw1/dVTvzNy1zXGvkLa7RsqgYfU9eJFKJRU/9RDj5IeBCkWDZ4RkEgSmd9RxRz8ksbvIOsZ8QBiHd1s+n5jdd67cEsMSp/d5oaO/dNQo/iLqBMtxX34xk5vTk9SKDq6W967w2K8kx874pyfpqWpz0nQAGSjnEIdT4VkgecQn8bvGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5015,
+      "completion_tokens": 302,
+      "total_tokens": 5317,
+      "cost": 0.0261,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0261,
+        "upstream_inference_prompt_cost": 0.02006,
+        "upstream_inference_completions_cost": 0.00604
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 157,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0261
+}

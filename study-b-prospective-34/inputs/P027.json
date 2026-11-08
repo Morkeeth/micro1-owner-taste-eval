@@ -1,0 +1,23 @@
+{
+ "case_id": "P027",
+ "shown_card_text": {
+  "title": "Weekly limits as two batteries",
+  "what": "Two batteries labelled Claude and Codex drain with sparks, then refill. The colours are the orange and black you disliked on the weekly limits animation this morning.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Likely needs new content in your blue palette; the motion idea itself works.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P027.jpg",
+ "poster_sha256": "b3d8a1549fdf65a8957a81ffd571060db5c71db7f9102c8235cc96c91ad3ceab"
+}

@@ -1,0 +1,22 @@
+{
+ "case_id": "P008",
+ "shown_card_text": {
+  "title": "My agents took over my laptop, skew fixed",
+  "what": "The review panel clip in this Short was stretched taller than it should be, which is the skew you noticed. It now keeps its real shape on the desk colour, and the cmux and terminal parts, your camera and your voice are unchanged.",
+  "why": "You asked to fix the skew because cmux is great.",
+  "question": "Is this fix right now?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Watch it once; if it looks right, it replaces the old version.",
+  "context": [
+   "The panel clip was square-ish and got squeezed into a tall frame; now it is padded instead of stretched."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P008.jpg",
+ "poster_sha256": "9b08560af1282cfae2ec88d7a0841b671ea12c8fec6166d494a02dc781f489ea"
+}

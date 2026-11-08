@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:34:27.960778+01:00",
+  "case_id": "C022",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "5f9a87e3c196d72b25db75d355ece5e46e4777f421eb612db990f6c7d3f588ba",
+  "poster_sha256": "b1cfeda8f180150c10adae52e3ca63e1d2c2a877c05ce4606ab2cdb710c0d035",
+  "request_sha256": "5929fd0b13972a0a1d973655175d9e8f10c92d8345ba81abac8de543a8f55af2",
+  "response": {
+    "id": "gen-1794105263-LoowFZqVzLylY9rHX3HC",
+    "object": "chat.completion",
+    "created": 1794105263,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The polished payment-flow visual fits the owner's earlier praise, but the poster explicitly says no payment was sent. It needs a clearer demonstration of agents actually paying to meet the stated brief.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on content editing**\n\nI need to make a prediction about a poster where testing stopped due to a lack of payment. The context is asking about payment options. I could go for new content or edit the existing one. It seems most natural to edit the original version since it's really good, but I should also show actual payment details. The second version is cleaner and focuses on avoiding payment issues. I decide to go with editing the original.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on content editing**\n\nI need to make a prediction about a poster where testing stopped due to a lack of payment. The context is asking about payment options. I could go for new content or edit the existing one. It seems most natural to edit the original version since it's really good, but I should also show actual payment details. The second version is cleaner and focuses on avoiding payment issues. I decide to go with editing the original.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq79-zOAmOT4VHgADAKmPipt-jxSDmHKhxKeNpt7-rcyU6c-EMMsuUOIcDzLHBPTdrbS-OR4QuFuoOy7l7-CbGUxD2qkjpv82YA_74U7bAtUmsstLxCjb6jm7UHP3uNjUrErcS_tPUnCYk0F3zaxwFvyUDez5d-246JsVs_hUROxTrAZ-ozRWuPvtA8OYaBLBqSkgMW4iMRmnBFbDtMiB5HX6VLLdo5xX44PtYTKY0T3jFvfHUuaNdMJtHGcF5g-h67QLQSsmh40M7-lo5F2tXa_xRk8eCA5Ofh9VG3Ly9oULqSMeHeOMj9eBNUsNXh2jMQzV6fYs9cm4Dq-XhEE2S4mL_Q276U7DsbBRN-vMma49VSR45sJYsqtoWtZ41viYwqXdzvik7gUFhFiukO520Zu_Ym6oZuMpgp-VF7XFlZUhpGTXAKPYCe7-PfdYupAY-xY-Bc0TeZpcQ1WkRy1M7D6q-7AA4UjxCEpzHgpvgv6DAkF0rlDxia60xvLbsno8SbXyqHvq__el0aKzWxjYtenyUpJoNzlIjrMJeRBzQbie-engaG0V5Rz0Ufv6KXlpTFvHjy5hL5wWN92RtgRmLQPQ6NRo6sHZTX4YO4pgT1MZhbXV34D-fkDSZSMPYphtpn1W_56PZMTOznm-AxP1xGuHTBjnJhKThU4eTqQA5BAssVETcemZgrTwmCmXBtoFYgWB7OwT49nm2uBrU92LhRNfNvh6SexihhOsVeBpxhFJcqMXMAfD12uNSlk_-qBLOkZjJKa25A707Pj_oJYfYezvL9tp16O3LwYpWgizcWJdfZU-aVejePFuLmwnCMVGu4ETFJe5bMLFGBBxJWvLaz-x3Aa6AMBNCk0r50wl1Ss6S1XcVSg9NvlTALUx_UA0rO9VgWFjtG_g2cCIXftB1jpowuFJ_lkCVTRahswBpFs1dzIDkBhgoU80vS_SLGGvHdyIMBDUR2d9GhwwcwM-HkVgsgSyjDids8WkXFnbE4gOKH-I06t4rfo_4g2t4wxmO0nqaG8p_5E-UMvdK-0YYZuEsD5TWEMMlGzTdbpC3S-QLUSI6upJ_T7AqJum8xhG86_vAoMlwu86bXxONBLcZ0kZPdzvY8C1_CDg1k1h6MnoZOy1pFeC9yF2tfsSDazd7xT3jalKkWgaYz1lr9RmJlLdyQTAb3Bv2sNcboRr9GjjMP5uqta0jfGxnavW2v3SylIGja_Lk8cgzCz0nIOkAZ7lb0UAlmDJ4s62eGUltN3g4xWDsXWyBVDTJvXsDYIygT_gt9L1vg_3SCuc1orIkj28syueapMtNwcI1BdwGy89zH1QLHI84ylVM-bCFnkztXW3iv50KtRNVyRgD4X-hGp1sBlsJkI-0_2juf7-tyw15sCOWDrNIcyNMB8QgpCpSmuEg6ZYcgS1SAOlO3JFWpcJ0gxm6OXdcHJ6PkOIqO5V0McqxVs7e7evOjaHfoakAmnfm3CtwQgrOMbJ7wrcPi-wHvTxZjiMuFVbwGK8oqpxHXQBVzijVr0qmfxe4cLG8eO0M37oQI623v7yS9lrH7Jg4DOhMACikVxjX9anEEZGwM3BFUeOlp0YFnWo_vxdmSg60M5HpB6ATlviKC4dBh4kWAqTsytyK9ckmMrC_3uqsLFLwj_V2BWmtSiIE-FhIQM-Vpih9DsaXVdbW4v9BWOf31D1lUBnwg27-4SOuK7qsrCH2Q4gcf4QokRjbZJCwTGUkuukaNNUxlumag5AoKJakk0-pjfixyg0jw7dCENgT3GCknPngU1PTT4tPr483kgHZJV3QDzuwE-vSVW9sMTa0RFR3NRJzHtVnV5Z7fa9E-ngMZxozySSSeulmPe2pdThFDnmfqbmEj1cM7339X6lCCfDVV7U-aiCs2xRUYATRZGBqJ0pUX_NzIdeOePnte2DtzJmPlYE3IpC4qVjWBLWwyaBusgrA36zmFHi0JPm0jozZOWVvDqqC7E8VYQmWZ1TO9mX0hXQ6Bfdmi2MhBjePeFhf0qjtx04VRGBdhryFYDuEBLoq_S5ih20l5ctpljZL0a5Wi6PG7d0AnMhSwDCbllxgrlao82Ri4bwNn8rGBcbh9Cw-soo4xRGcyG8deKKtABEcJL2C2LvPa_QRheHe-DGF0qXMCRu3TwtGSxOYxxvJ8aqmTMcsE7qMd9w-H31LQxWasqR5guHrwTENkqiXRGQOdbjG9Wd4lqEQe_xByrCz-KVw-ZfPDCBOdopt1EGSEwt1gYAFn-bHmQLkakCKdsL-W-MBBEsQihbnbb2fIfrBKquqixMzTqmg71W-QhKZuB-iPrjg05fUqHAJRCAQB0v9UiQM4-gAUsWn03_QyGaOnV328gIRrHGmjICT2GSt6KloK6Nw5KX1NAE3VldBcdaOJYw0VK-w9qeFubINVJaEBkZShiLF96sguHshDfyuXpYUDKFDGLxeBA9EC1aB3cj0guc9ZD0zh7MDubIDn0fYHOrxTgEzjD0y5JBI45q6ucRiPW6MsvCaiPtid85hqLbid8f42tL7xOlm5r0rrZXVXRz7LB2tQoyOS9K98vXk_3Ul5g8OOcn4eyYoWCDzTg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0059a193897490a0016aefdfb113e887d19bcef0ec7822b152",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1450,
+      "completion_tokens": 116,
+      "total_tokens": 1566,
+      "cost": 0.0047835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1447,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0047835,
+        "upstream_inference_prompt_cost": 0.0036235,
+        "upstream_inference_completions_cost": 0.00116
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0047835
+}

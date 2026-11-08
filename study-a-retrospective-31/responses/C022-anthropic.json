@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-08T03:34:23.772430+01:00",
+  "case_id": "C022",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "5f9a87e3c196d72b25db75d355ece5e46e4777f421eb612db990f6c7d3f588ba",
+  "poster_sha256": "b1cfeda8f180150c10adae52e3ca63e1d2c2a877c05ce4606ab2cdb710c0d035",
+  "request_sha256": "b7db4d828e540b1d1720309ad1057c06eefe8bf2421ed021459322c0e188f39a",
+  "response": {
+    "id": "gen-1794105257-6n17ZZ9jhra1FhFirUWr",
+    "object": "chat.completion",
+    "created": 1794105257,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This second pass appears to answer the earlier note about showing how agents pay right now. The poster shows a real, dated 402 reply with an actual price, network and asset, and the owner already called the concept great. The main risk is that the probe stopped before any payment was sent, which could still read as needing new content.\"}",
+          "refusal": null,
+          "reasoning": "The owner wanted to see how agents actually pay, and this version shows the real 402 response, which answers that. But the test stopped at the 402 and never sent a payment, so it only shows the request side. I'm weighing whether \"unblock\" is supposed to imply the payment goes through, and the poster says it doesn't, so I have three options to choose from.\n\nI'm weighing whether the first option, AWESOME, USE IT, fits, since the owner's earlier praise may have been for the first version and this one adds real probe data. The bottom half of the frame is empty, though, and \"no payment was sent\" means it doesn't yet show how agents pay, so NEEDS NEW CONTENT is a real risk.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The owner wanted to see how agents actually pay, and this version shows the real 402 response, which answers that. But the test stopped at the 402 and never sent a payment, so it only shows the request side. I'm weighing whether \"unblock\" is supposed to imply the payment goes through, and the poster says it doesn't, so I have three options to choose from.\n\nI'm weighing whether the first option, AWESOME, USE IT, fits, since the owner's earlier praise may have been for the first version and this one adds real probe data. The bottom half of the frame is empty, though, and \"no payment was sent\" means it doesn't yet show how agents pay, so NEEDS NEW CONTENT is a real risk.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1928,
+      "completion_tokens": 429,
+      "total_tokens": 2357,
+      "cost": 0.016292,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.016292,
+        "upstream_inference_prompt_cost": 0.007712,
+        "upstream_inference_completions_cost": 0.00858
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 313,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.016292
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:31:43.654953+01:00",
+  "case_id": "C001",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "71ad70611594b7b7dfe7613832cf38005307d93d880371b53b48a11e2925a484",
+  "poster_sha256": "ea97f41b59327b4e6bf702b8922f65b9dfea576c0d0773033597b9f03170d0d0",
+  "request_sha256": "3ae0c3752e939092101cd452223cdb45ef6d9621746c735bf4cef6541175f32e",
+  "response": {
+    "id": "gen-1794105101-WF5aWIm4H3rRwDuVLryC",
+    "object": "chat.completion",
+    "created": 1794105101,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, appealing 3D pixel agent with the signature blue broom, matching the requested fun generated direction. The card also places it in an approved trio within budget.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1476,
+      "completion_tokens": 57,
+      "total_tokens": 1533,
+      "cost": 0.0042585,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1473,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0042585,
+        "upstream_inference_prompt_cost": 0.0036885,
+        "upstream_inference_completions_cost": 0.00057
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0042585
+}

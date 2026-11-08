@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:04:44.350848+01:00",
+  "case_id": "P025",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "c42b78447e74e2cb5e49b43bd54a9feb6de5f605a4b9c2b1087eabd870c44164",
+  "request_sha256": "77346de8442c1cd14321a30f4e19e07cbaf18ba7dca1f4c6566fed0909145750",
+  "reserve_usd": "0.166448",
+  "response": {
+    "id": "gen-1794139478-4anaftnkv4DYklUCXxKB",
+    "object": "chat.completion",
+    "created": 1794139478,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The step-by-step terminal is a clear, reusable core motif, and the card says the pacing is good. The main problem is the green glow, which breaks the locked blue palette and has a simple fix. Recolouring it is the likely verdict. It is a fairly plain shot, though, so the owner could still ask for new content.\"}",
+          "refusal": null,
+          "reasoning": "I'm weighing whether this plain terminal shot with its green glow is worth keeping, since the owner has killed boring shots before and recoloring it to fit the brand might be enough to save it.\n\nI'm leaning toward editing this one: the recolor could fix the off-brand green, though the owner's note about boring panels means it needs some new content too. Even so, the recommendation and the simple fix point me to EDIT.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm weighing whether this plain terminal shot with its green glow is worth keeping, since the owner has killed boring shots before and recoloring it to fit the brand might be enough to save it.\n\nI'm leaning toward editing this one: the recolor could fix the off-brand green, though the owner's note about boring panels means it needs some new content too. Even so, the recommendation and the simple fix point me to EDIT.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQShAoKEAgTGAI4AUIIdGhpbmtpbmcSDKGl8DmaMvFst08hDBoMyni3Zn43iTanqUuoIjBwEQVlI1tQ8SENq3Z0ZkCh3XXb+JsEapCheS6Tcj5dVuXD4VM0qwSB6JArBV4dZl0qoQnMUJHI1xhqddiZpg3des5XbCHE2hIsWj65EKGx//eCrnSP5dMz2UbIOGvW+ZkytluhywGl8sWJwWUoUylT0EJ/dSfe3nh4olfgVDRlJhY+I2k8XUFkvSpzytelx1DwfVNm9/3zK/MOY8dbPhLtHS5cJ2lX64Ca/YQGGsoQbbKitPqrlTBg/rgDzY1TpfQZXZGdS2hUv4XGrAGddvmxT/gN8EyhuBmEXaSL/KYJYX7tIiRPzlu6/l2NefAc2RPCEr6R1q8xtBkZA8ZGFhSRaKg79tno4AH9225j0AX1bR3k7akyJCxlbhT4Q0CqUF4SPoRaAL9tyInpTStepaQ834ih5Lh8gXrAVXR34X1Nf6c3VV0tcha4diSlqIjnOBGCdiQZnCWfi0qCxSwwo53X1rlAittRiVNoNn/XBwfksAjjvQWIdKxV3CFyWhdk5D9whwZz/Qf8wdA7FkjngQhYzY1DnyTaBO5QXQsmjXd9JZ7PlVTRKd8I4rs4nuZvgmOGttPk+7a2ldFCK3UwAbT50McyfW1MY1D5rdaavNgLZJ3wlS2f0wcZX/AhPSANMgUSAfulBnEyf6Zm0vCUxck0yqMlScxSkSE+xhIiNzvOQOrZlNCWxmbMWraseoa/y7O5ew6xTuvJbzNGrgwgTfgq+DJO/5NoYVBNhD/XVCYpyDzrag4Xc46/CgevA1HeETFPton8qZHjyeqzresE3buwsMBLJOInH9yGs00CYvnCbpgz/AnvOEVgXvSIMEC4zDesl2SD7oginGqGHJb0lMHBA6fE+OU78Ho32wwUEqVIDe6FvdvsKYax22NrWm2pOSC+Tf6F88ie+jR397fTO/7d1peOfreQNtq4qsRGVJE+4QVNRHHn5aWJVPHbgATJyvVI65mMNB8xoJSUVHf5TnmsFoC0ezQZDdT6uaGl7jxhOjrTC8vmQfyOAM/A18guetn8MlZfX1suiC8VZRR+7V0vZ8l2ooIPHR1vo4MsSACqZ8g0ThQZFnh1HzcL0vXYqXcIgOPw5r86KF2wwwMwfJyp5L8vKWIB+3gItVQsX7RW0ZHpEjx9vLNiK18pi/gwyvwkHB6oMx0gqk6NerJWjbafVq6tAtX/4cuIh7oTrOK5AAjlr/p+PApdrZPgq1LcsxFsWNuYrCQX2fZ0Kmwa4LHq75w4gjE/aNDf78JiixfHB6utyDxbUWMwq0ybmcT/BF1zr77EPgJw2K0+U+dyKmB7gyiVIm/crU0hPDP/xfb2uh6jshnjmr2mW8nKX/i2/j7LcV20WoaAOaSIDZpPhwQFoXUri+JeKtG2RUgPEhX7/QMJkkkgzAjq0sCL9zaLasiywn8sSXOrgB3mV7wyrIJkOOt0OsZSTN4utScegILVRCR4BaoEhPAll5Q3+xAjBl3h2xuI9o9gNQUgGqiUMO9VgOOCkAOpSz5F2hTKLouZw382gvm3G0zYzmJ1HWQhms26TmkPdL5GajoPQjufc/glt7UqzzYBox4SIMza1LkPHKJOD+7BvFQKq2LC3FUhdwDZF5s/BtXK7aQS+LWQLX4Eckf+2F59/KWru1k6mEBl+R669HkYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5025,
+      "completion_tokens": 361,
+      "total_tokens": 5386,
+      "cost": 0.02732,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.02732,
+        "upstream_inference_prompt_cost": 0.0201,
+        "upstream_inference_completions_cost": 0.00722
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 237,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.02732
+}

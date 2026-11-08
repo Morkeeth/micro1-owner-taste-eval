@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:00:06.199629+01:00",
+  "case_id": "P010",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "4fe34c8715b6b82355b4546a0e86f14e6d5af55f7137d581ce105a341287a692",
+  "request_sha256": "6116bb71df365a02e69e0af9879055b2cbb73c647f053b746cfb0fde9c67b282",
+  "reserve_usd": "0.098840",
+  "response": {
+    "id": "gen-1794139202-wxskVwgj4KWg6hWGGgmD",
+    "object": "chat.completion",
+    "created": 1794139202,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a clean, on-brand core animation that matches what the owner asked for: reusable, silent, vertical and in the locked look. It shows real index rows and makes one clear point. The poster has no obvious flaw that would call for edits or new content. I'm judging from a single frame, so I can't assess the motion itself.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1916,
+      "completion_tokens": 124,
+      "total_tokens": 2040,
+      "cost": 0.010144,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010144,
+        "upstream_inference_prompt_cost": 0.007664,
+        "upstream_inference_completions_cost": 0.00248
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010144
+}

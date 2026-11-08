@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:32:47.964715+01:00",
+  "case_id": "C010",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "fbb1194c244bdd4c66e138435f7748467ae63c84012024d2e66cc600934f9f48",
+  "poster_sha256": "346c77f75db2f75f88d1f5786c5abb684e3d107272675d41e35b58c64fa3f245",
+  "request_sha256": "478e6f6a05c2ad63489bc17fd2bb602f90dee10920e3f57935bf9d2ef6cf6ac8",
+  "response": {
+    "id": "gen-1794105164-aWsi5GYX9q3XOCVJHW7v",
+    "object": "chat.completion",
+    "created": 1794105164,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The poster shows a clean, on-brand overlay titled \\\"What the agents build for me - my slop folder\\\" with a grid of screenshots, so the content looks usable. But the overlay text is small and crowds the upper left of the frame, which suggests the owner would want it adjusted rather than used as-is. This is a guess from one still; the card has no owner note to go on.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1093,
+      "completion_tokens": 140,
+      "total_tokens": 1233,
+      "cost": 0.007172,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.007172,
+        "upstream_inference_prompt_cost": 0.004372,
+        "upstream_inference_completions_cost": 0.0028
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.007172
+}

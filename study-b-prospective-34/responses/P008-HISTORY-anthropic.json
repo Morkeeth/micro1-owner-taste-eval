@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T12:59:45.125695+01:00",
+  "case_id": "P008",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "293c1e58e62b4a80ca7d8637056cdc733d1e09e685f696d6b882a784468e7dde",
+  "request_sha256": "e7b382d4d9806d5c91d397d7653d22d8fad90de4598ae6e9d07ce93f33533865",
+  "reserve_usd": "0.166528",
+  "response": {
+    "id": "gen-1794139179-eL5Il5Z3idOpi4b9yQP1",
+    "object": "chat.completion",
+    "created": 1794139179,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\": \"AWESOME, USE IT\", \"reason\": \"This is a direct fix to the owner's only complaint (the skew) on a clip they already liked for its cmux part. The poster shows the review panel padded at its true proportions on the desk colour rather than stretched. The owner usually approves when targeted feedback has been addressed. One risk is that the camera inset overlaps the panel's bottom text, which could still prompt an edit.\"}",
+          "refusal": null,
+          "reasoning": "I'm checking whether the camera overlay overlapping the panel's bottom edge, covering part of the text, is a problem for the fix, since the owner usually approves things like this.\n\nI'm guessing the reviewer will call it AWESOME once the fix lands, since they usually approve these.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm checking whether the camera overlay overlapping the panel's bottom edge, covering part of the text, is a problem for the fix, since the owner usually approves things like this.\n\nI'm guessing the reviewer will call it AWESOME once the fix lands, since they usually approve these.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS3QgKEAgTGAI4AUIIdGhpbmtpbmcSDB12+C4/GbkxrMSiThoM0zivk8h9R0fK4vVOIjAk46zxcvKv12NYBj3JCh6sso3GXQfmkr+7NixRfiS3sAHqyPasIHgYlFOUXCrD3dgq+gd+LFOfz0hZIXOOAqmMkm+LFJfBK7vZAOdCSxWv4Lz5/uBiJLm20TYOcnWYVqADzf7dez9dGngyRuadQTN+U99f0Odr5gLEkI8NKDpR3OVZrROgEZZ8Wd9szrEUn5Ykuqe5PLv43H3p9tlAoTjbDqoAftmiq+uRCbpyCBCls2uCL8wgGCFFko4xjWYe+CvFY81yqoaLFwHH9pl7CMZ5ENjeEx4s+McyFGvg0fKnTLzJcJocBloJLdFTy9bXTHy6HP/bASXRJsl3MNcsWGMz/h29QOS+eCcPqms0fXf2NSUBOnjPlJNIxuQ0S28mHSZFbUVsnuL0ncR3FbdNOiQdkLXBlfx46OXv9c8WamdMps4HmQx2yVMc1PE2+hW+3EBQkq7oCu6Pdlw6S9PL2PyA6E0D3XWhiaQ9Su+apNHC3J4G9iCtsLe2kNr3UFWsC275Ei4x06uW+uD+Ng6bMHhGvwRJXmoeGEW5fu1JH1su72pYkbfvdh0d6Q9RoQ3Yjl/rn4dEzhDCNbExDez8D70X8LUYfrdRFvyoQdNpH5TTEwllAiOsuALks6zmSxyqgPzI9ny5ievcySRWhDT7LKffUyuXv5BAO0S0N96wGMxqvgPniVB0HkK1X7itXRcGRXC+iRYETPof03OsQCjmJd+7IwcdirBSg4yQ/stZxbsCkqmzpIMWCeiKM1OuXZZ6AAaswa8rLj/11Cn/1S4l4VvEZBgMoWcpCFWgWAg+4kUa0XlU9yej8jdTD9om2W78Uk1sd0faLDrel/8HwIydLoRm1EqaqdKiD/FMUO5A/iJUNY4YJw55AqL1CFgL6v5yH0fh60Am/Maz4AUtVFdTDWvI2qk4FzZrvK8Mh7TY1XhVYwNopwWgEulmB5CRpeQt9NXwd+cVDYSOguB3Tw4oIgcTuJKzBLOqvp5uSBhXYICPGebXUXHODEWj2z5FE3tzEVqLGQqCLJI4Oc6LKpSDrcv0AYEoiJ+G1MxESfgM7sZ1rsO6Drzqnhfl+gOboIZHxXLNQDeGGM+GJzMmCYzT5gZ1LGfqDPYjo5pOdYtyqPawXBZo9aRtKBZMU4su74whloFdv5Tj1s4znfvcGl4f0T5gNXrRNhTvlal8mCemig+vcYK4riCmdVJIiZC+zBcqr8jT3cqaG6OdB47I2mtFokrfJEy9CWfIaPDvdb1VSbY/Ag8GHbJoCHQWxugcKOrWRSvBLaEmo8/zQE2PnPkOEzZob9MyTvauf/LoUq6kYz1ELqIwtcYF2yFKOxCv1bG99b+QW8AOYygrC6qE00FMY2UL/vV3q4nLEuDN7iNlg5n4UyHJN09J4WVApkR95EUOe2sVVjN+bMPMoKwbMOjvGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5023,
+      "completion_tokens": 318,
+      "total_tokens": 5341,
+      "cost": 0.026452,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.026452,
+        "upstream_inference_prompt_cost": 0.020092,
+        "upstream_inference_completions_cost": 0.00636
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 174,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.026452
+}

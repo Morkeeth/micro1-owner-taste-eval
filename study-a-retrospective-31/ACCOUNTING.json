@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-08T03:35:41.670434+01:00",
+  "cap_usd": "10",
+  "spent_usd": "0.4654345",
+  "reserved_usd": "0",
+  "completed": 62,
+  "status": "COMPLETED_AVAILABLE_OPENROUTER_ROUTES",
+  "current_case": "C031",
+  "current_route": "openai",
+  "venice": "NOT_RUN_KEY_NOT_AVAILABLE"
+}

@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T12:59:17.202784+01:00",
+  "case_id": "P007",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "140753c40211f9f4ed418db8b1e5e94ed600e343540577ef76099b6a05690a10",
+  "request_sha256": "2f986145cb3048eaad94914123a7c3ed32803104d6b27ab3999f44ea73ab92f7",
+  "reserve_usd": "0.098792",
+  "response": {
+    "id": "gen-1794139153-3xcUzNkqMd8Gd5K7joAg",
+    "object": "chat.completion",
+    "created": 1794139153,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The frame looks clean and on-style, and it is a reusable core animation the owner asked for, so killing it or replacing its content seems unlikely. Several details point to tweaks rather than outright approval. The Codex meter is maxed and marked \\\"paused\\\" midweek on Thursday while Claude sits low, which reads oddly. The pixel runner is posed sweeping with a broom rather than running. The \\\"Illustration: no real usage numbers shown\\\" footer may be unwanted. On balance, an edit request is the most likely choice.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1916,
+      "completion_tokens": 195,
+      "total_tokens": 2111,
+      "cost": 0.011564,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.011564,
+        "upstream_inference_prompt_cost": 0.007664,
+        "upstream_inference_completions_cost": 0.0039
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.011564
+}

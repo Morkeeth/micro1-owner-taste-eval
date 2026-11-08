@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:04:29.355286+01:00",
+  "case_id": "P024",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "b85d16e5b4236f15f3cac0faf275326d96e03497e9dedf3079259718dbcbf238",
+  "request_sha256": "44bdf731a7d0a2567c08d0934ce58ed1d3ab2e0f4cfe4e342ac799cf9044d8f7",
+  "reserve_usd": "0.166824",
+  "response": {
+    "id": "gen-1794139464-lyEpQHUVBrSIEYIhwwSs",
+    "object": "chat.completion",
+    "created": 1794139464,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The owner loves reusable pixel-agent core shots, but the earlier blue-line shot got EDIT. In this frame the agent looks off-model, a tilted black blocky figure on a plain white background, so it likely needs fixes rather than a full approval.\"}",
+          "refusal": null,
+          "reasoning": "The poster's agent render looks off: a black, blocky figure with blue stripes, tilted and not matching the pixel style. The owner usually approves agent shots, but this one seems deformed, so I'm leaning toward EDIT, though KILL is still on the table.\n\nThe agent shots have all been getting AWESOME, but this frame looks off, maybe a bad generation. I'll go with EDIT.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The poster's agent render looks off: a black, blocky figure with blue stripes, tilted and not matching the pixel style. The owner usually approves agent shots, but this one seems deformed, so I'm leaning toward EDIT, though KILL is still on the table.\n\nThe agent shots have all been getting AWESOME, but this frame looks off, maybe a bad generation. I'll go with EDIT.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS9QgKEAgTGAI4AUIIdGhpbmtpbmcSDNoK5AjZSDhWP5edzhoM298wD5SAP0R1UUcUIjCj7hrsgddR6gf+GgCX9QiCzXjcs45Z9ZKpmly1ioeT+hkeNl1UmcKJV91W0qFAbc0qkgghG+KlxrpokSfCDz0q2UeMmLTDrvLPTNvdU7KxTknUPPysfHYIYEJ5aGyBtc2tcc+QKAHb83cs3a8+Qo3V2dzJ11PES3vFV7hfazs0U+3XLLvsUry/sPm5f/VvYR/nal8jxKTIO6Mp/6r34xA+qxkg9Fdb7LpEMfYj0vfwQifm6irR+IplNvdxWicYupw1CejxQY1LMczXbbcKzykpsWdU+IZAU7J0fy9MI44GuVNvK0YaoAE7V1Kfi7+aAwHqloknyBWyqcRFdkr+qY4gDzY3yvZz7oPxWON22DU+n7qUUfBGsaLyPhvN/DePVQplaT0LmTE0aCdEtomtfFfOHe5w5X3BLr28lCrlhNM4oys3mfNu+pbOr3eLOm2SfAp8LeqBDcPbuXgw76nQdmpsL/n97dTzJ2woqIKJ91akJa31npW3lTU+Sc0nl3MMZYJb/F5Sgk9ID1lqkarqdgC8y0lOK5msfpyYUVvtev1K9NJogDP8FLQ8HDEcTRgKx106xusauqyvkUOIXaeWezeWkPDzMOnw4h+nUgJCqntexqXDTxq4pMCKwV023QOtInioXik2lDzM8VSKx6EWlvIqaK+aMnl4JW+9QZ6/Up5eW8oVtk7xodcyJAku6hqeV3HXunximRM15WKxWf4F6PSg5dTapvhd8zqMD8MH/+tUAUMWI3bkkSku92R0cDsKbKqpts9fME57avcKDaUFzhZHqztqPb69YGF7JGVZA8LWmz75i5GK0yoo8GPngsYAEcqIozePJu5MtBHO4IjLQO+YWTIn9HPtlU7lwy60OwwNcMWqD2VAEOqten/dAx35+IFnNCBWG+kWSxStCFXBkMYoXPAU9tgADMXM2gTjMoNknh3qPWNBm19tZaSqzzZjN96aC8UAMQL170+QIBoZW5pT/I8uP+BK2oMynOm+jaRKJX/gLriadbkoXwvp6cViQE4ZvZDla5ebnYq12QmDbIMdbaAlm5kCiXc6b7WFhbH4ai5cL2msSDHJHlqOrmE3xZMzemTwqXQt2zYDuU0RtbaoySBWkarASQ0KErCKHVpSLzWgHdtF2JOBv3KtQs10DqQxplwoUCkXPleQhFS+8vpT0HP7lTUWwZU5bx9wL7SxZPYgDt9beKMPbc6yPCIh6GRpys00cAJTfIBYg2kGx8C1T3l54bRaYK1WQNKMtklUb9cNgIGCnuPh9egbjW5Z0DvqVRHQJQlknF4R8n/xY+longgvsRVXadhW7EaPiRUCsV9dXSXd4pusVMRTe3isJupRw2VQKzcRN8SqWzf8QmNkzo6QXngPOzezz8RwfYwPeYJ+mwYw5tzQncRnGtE/I05i0nX9o4IJi04Nwz/0kMi/xJdxrG8oula/vhgewKnbQiDH9LmyGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5030,
+      "completion_tokens": 296,
+      "total_tokens": 5326,
+      "cost": 0.02604,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.02604,
+        "upstream_inference_prompt_cost": 0.02012,
+        "upstream_inference_completions_cost": 0.00592
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 190,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.02604
+}

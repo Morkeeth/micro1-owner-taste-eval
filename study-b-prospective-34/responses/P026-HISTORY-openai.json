@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:05:05.665418+01:00",
+  "case_id": "P026",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "7efe3573b80c7a95ddb9db1c41d172075339d292d5208c0b3381ae22623f3cae",
+  "request_sha256": "fbe9427f9d5d20ea6b4a4363d9cdcdde614774f3841561f0c3d21dd61c92d368",
+  "reserve_usd": "0.093412",
+  "response": {
+    "id": "gen-1794139501-A2ayTVyJmtIFxvtVQ8g3",
+    "object": "chat.completion",
+    "created": 1794139501,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The generic, repetitive window grid is closest to the rejected “Screen ribbon reveal,” rather than the distinctive agent and Paris shots the owner loved. The owner also criticized plain white panels as boring.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on a kill strategy**\n\nI need to choose an effective way to address the screen ribbon and the terminal. The generic white panels are just too boring. I want to reveal the screen ribbon, which presents a strong case for a decisive kill strategy. It’s essential to provide a concise reason supporting this approach, aiming for clarity while ensuring that the content engages effectively. I'll work on figuring out the best way to present this!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on a kill strategy**\n\nI need to choose an effective way to address the screen ribbon and the terminal. The generic white panels are just too boring. I want to reveal the screen ribbon, which presents a strong case for a decisive kill strategy. It’s essential to provide a concise reason supporting this approach, aiming for clarity while ensuring that the content engages effectively. I'll work on figuring out the best way to present this!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GVxf07P0HIduHFJ8zTpzTdpB4QISVRVEtaF3YcGl3y4nnnF77drYIa6gumIVcORKyH6ZSbHSYgHL5NNroNwJFzRBu3VT6Jg1ceKhf5H2_7mMFMP0atlNkaepl5Ykh5_sDuS3p8plvQDGovmA0T_5deeFhbcmp9v4Ynj-M91nzvi4zaZdm82utAzlxsDOukuRz5Hplh9AYQxsJcG8mbRKb1NYTxl0YFgyz_yI_hEiFu01bFON_WBMrHm_2fu045ZHy7y5kGZvmQ1hZM5fYS2iL2nSLcIpw98fgZuqTS1mc2HFURHX7S5umhFiPzdA_0_hv78Fqe5QfvCFN7OM2S0bT4qZSQDu41VFgWEgUpXqCDmhP4q-UsYc-HJhlE4nI5mH-8Pj2K1bUM9eM0h-eXPuop5XfQCybuZeYU_JraO_foXue8LukzHewAz8KV5j4h_VnhmRqVtnilmzGnlrU484hRq9aW5jquWeLih7RGlD-TyR_U7FuFslFoT-pnBy4ZnoE993q35vDfd91gbb1l8rMsvzIGU901OZdFhYvN1sG9yRb9Atm_-EobNd7UZXCalUsYQNxARcmOv69H68wFJ9wTPzveGN7kBsIVwTea_KBhnu5E3Ql-4e1eTTb1eFhvCJ_pAF8B-0h656OU3OSnzUA63eWzmIAgAZLewVOnvtixTAfLt589h4uSXnawnKiaNtMe0PTFQMf5JGVkLljNpNBoWZ1-gjVLDgJTOe4Ex_i46cgvHIvz5n8KE-iRMWw3lXaRgv2a8Y6PvwN2K7VHaBCRENUEEtd5xmwiFbtn6hfeUZKuAuVkgFMMwVZb1e-CSYyCI_gyAXbpEGNa7OrgtfyZXxeM90zQ1jsmTgo9AwRgCqIpRIh_d2Yu6zo8qLAECCAjXPlRKe_CROAY5qi0OesniLwM-hU-5hPHq8xNbjcR96dSZNcpLqrmltx59yz5Dgi3zRtZrmiLmI-YPaSS2E7D4_zbGQWc5eZwnqRxVUddYZe1PzMXbzMvUejCg_dwlUlqctz9cNxkv5d1unB2Vp_4jiAtgyWMYADz6zbANLMKtryM4Dgi-bxoDbQmSxzNeEHq2W6GFbn6C54ziER2HeJpnxCkdtY4xqrd4pODMyjM5wNuIOwjLDJ0uI6OZUN_L6wU0xnnp35v6_kPA2QHCWNiPWRS1hqW6pL2g9M4x9QGF-tbUlLqnR5VFb2HQkv_TeJO7j4SQHyaFGZekcG4pbe0IU1gkE57wjsglvHyfcAhL_Og2Pqr2-aBRCWub0RQ-2DokKLJH9gQBv7z6QVWplghszMviApPzbL4yU30EpdT_p3oRyh0j8sIDiDNEKG2vxc10xXUOyfwYt3rYy8kLEapW0pPluTS5VxuIe0wBWFpzGvXN2ZyPq4YqiBLBGZcONqBN9bV5aIEOppK66Kt5OHa_qzFIxpOrILpuxnz5sb0VY2qrIpqGD0ku82W-GW12TUmwd4-wiXUW-kiHUKqE3tDjg7Cs6P8Se8Bq2ZY-y01n9FnxLH0lLkXOhXTJmNil7unav-au0TAuL6Jsc5sz_R6M1JoDaIcgC_R0saYavzaxfsetXjvTrbhBkgUslZazB1328lGUm1yd1XhfMHPjCuk8IDJzeNrEiK7kGU92eNe6E8yd5YAzVQt4JQZcxeWWG6JEpLgTkMTx-578NmIwNo7HY9t8mXoU25PAqWyD5lnJ_v_HeddnBXmzwIy-uHSktWe8puVEsY9a2uWrI4bd4Nd5Hx2U0mO-jWZuRO--2vDWiHFappXShHL6ZRWxHPTCpaeFLAh290xCC_xTtkvoYF3_IhEP4ASOyOrEZ6qzHZXfESYhYQpY9jtpOUI2bhni-lpjurs_l6bmiphOrKY4FGgJ0uvOA4J0MQNmnsH_ats_soLdquhqb-haXokD-SIfZ_6unxmG8tWT23L8hShw9GMfA8DZIsJMYZjiycj0FwXAYJyMnc9su4dPR0L2ILLqzSmj1OWZTzOFabepGzPLO_nj_CEclVj-Iq-J9fHVvadhD8Ys9tTIVg1sewTrSZu7-unmd0r3ekcw-OWtLALqeUtTv-vIItgWqYI9rd48kyNAgdBEAM3lenT83zE2AZJ-nWo0HfG4FR6EuowaunnE9kp1JrmNwk-AXTUhRThOqp2CghnBa1mVPPIO1OId2VB_5Ijk-WDkFNa8neZLgK5yGITUtSYWlRihcNP8cgABVXU9eBV7jUjmGc7eibD1f211FyVwsnrS9i80vmzDwcczBNakwrUzjZ852h7sBE2e4HuhPLTlwIGIyAuoDkDYMhYG3vX1Wo-i_ZtLilMWm51E_sOqK1LfJQ8AwI408jL5feLxXq4=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0bd07efa1aa1f751016af0656f2ddc87d1a966fed8c943a391",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3501,
+      "completion_tokens": 101,
+      "total_tokens": 3602,
+      "cost": 0.009761,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3498,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009761,
+        "upstream_inference_prompt_cost": 0.008751,
+        "upstream_inference_completions_cost": 0.00101
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 42,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009761
+}

@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:01:04.537075+01:00",
+  "case_id": "P013",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "439efe1085ce8968a19c38b2f4d5010ee9a431a175242f7a16a826bf95f4e3ac",
+  "request_sha256": "b8667318a3d3bfc6f0d7ec995151392541ad43613c73361ff10b566d4aa28f6b",
+  "reserve_usd": "0.098416",
+  "response": {
+    "id": "gen-1794139260-XpSlavamiRY8vjgVAotw",
+    "object": "chat.completion",
+    "created": 1794139260,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a best guess, not a certain call. The owner asked for exactly this kind of general shot tonight, and the card recommends using it. The single poster frame looks clean and on-brand: six labelled app windows above a minimal stage with consistent styling. Nothing in the still points to a clear flaw that would call for an edit or new content. One frame can't show the motion, and the generated sound is a separate placeholder until music is picked.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1890,
+      "completion_tokens": 159,
+      "total_tokens": 2049,
+      "cost": 0.01074,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01074,
+        "upstream_inference_prompt_cost": 0.00756,
+        "upstream_inference_completions_cost": 0.00318
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01074
+}

@@ -1,0 +1,24 @@
+{
+ "case_id": "P035",
+ "shown_card_text": {
+  "title": "EP4 cmux, every agent in one sidebar",
+  "what": "You asked for new content here. It is now your real cmux recording from fourteen October, with many agents in the sidebar and Codex answering, and the other agents previews blurred.",
+  "why": "This replaces the version you sent back this morning.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it if the change matches your note; it is a drop-in for the version you saw.",
+  "context": [
+   "Picture only; the episode or Short adds sound.",
+   "Earlier version and your answer on it are kept.",
+   "Your own prompt line in that recording contains a crude joke at small size; say so if you want it covered."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P035.jpg",
+ "poster_sha256": "d9265971aabc8f2633238c67962d697bdd805b4aa1b5123a7cca49e129b68136"
+}

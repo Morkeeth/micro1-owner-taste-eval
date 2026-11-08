@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T12:57:31.566118+01:00",
+  "case_id": "P001",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "00860c43fabda612ece1506b1a64a5283b62e1b2b42a9e247da89bc464645624",
+  "request_sha256": "42bceebfb1cc35213ec49092b0a13f7f3df7992083799ee025cbd067a94dc2ae",
+  "reserve_usd": "0.098408",
+  "response": {
+    "id": "gen-1794139047-qjlLm5LGtmuCuXlNoxwM",
+    "object": "chat.completion",
+    "created": 1794139047,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster is clean and on-brand: real folder names in a Finder-style window, a clear headline, and the locked look with the pixel mascot. It is reusable, silent, eight seconds, and directly answers the request for more core EP4 animations. Nothing in the single frame suggests an obvious flaw that would call for an edit, though motion and timing can't be judged from one still.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3397,
+      "completion_tokens": 143,
+      "total_tokens": 3540,
+      "cost": 0.016448,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.016448,
+        "upstream_inference_prompt_cost": 0.013588,
+        "upstream_inference_completions_cost": 0.00286
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.016448
+}

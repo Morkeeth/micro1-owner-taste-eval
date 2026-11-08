@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:32:52.371092+01:00",
+  "case_id": "C010",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "fbb1194c244bdd4c66e138435f7748467ae63c84012024d2e66cc600934f9f48",
+  "poster_sha256": "346c77f75db2f75f88d1f5786c5abb684e3d107272675d41e35b58c64fa3f245",
+  "request_sha256": "9524bb3482f5ff914b06e5b46bf94ccbba09542342221bcd11d15618a89a6d43",
+  "response": {
+    "id": "gen-1794105168-2XeAslvZQxFXEFWFPz36",
+    "object": "chat.completion",
+    "created": 1794105168,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The screenshot collage supports the topic, but its small text and dense layout would benefit from simplification and larger callouts for Shorts.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing poster overlays**\n\nI need to choose some plausible poster overlays that are both usable and visually appealing. There's no specific target here, so I think about making a small edit, like placing text in the upper left corner of a visual collage with camera overlays. This should help create better edits. I want to keep my answer short and cautious while ensuring it’s effective and works well!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing poster overlays**\n\nI need to choose some plausible poster overlays that are both usable and visually appealing. There's no specific target here, so I think about making a small edit, like placing text in the upper left corner of a visual collage with camera overlays. This should help create better edits. I want to keep my answer short and cautious while ensuring it’s effective and works well!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq799UAd0jHv4gcSsuJN8NqxUQPWVspHqFo0zLw_wEed3yJrb1Ndb6zf4XD3u4DpEViKzYOLUoDxcJYb0QMqpUQl9ML5-ePXcKuANRPAe8w-X0lG7KISYuL_h1iMXEPmiP7s2G2SSL1ndKuDrJ9tilFlI-WTLUMWkUMmXJdhGNw7Oc-lQ0dwfgY1-Z9adjO1ogzAIjlWSSAFO6-0QSsI4Wa11qiExaZNbmsHM0uxIjivS7qQBXprMN-uSFNvo9MF1UzxehTTX801khpDzdROsdCSNBZezTX5QSV8b8mniWJpnobVbyg1AhA2bwc31nGE2_mT7jI1gloB37UkLo7cqYiSRI8Y1idLIXCQEBgni0bTIERoBxpabqBH_c0QmTB5TV5mbblnCv2sTYHK4Y8LAUJH0RuBdJsHfU86DRjT2sHgHa3aKYtMDR2UcnkTLTaW2806r29SdlVlVzzLaxxtgKAaS-btQcrBu-40IzmDhB-JzeOTLdssI658wGSlZTQu6vuNarDI5-zzzpSe9-ALNSM_mqjz3R3abCHL5pEjI_dDy7jShRWnlby-Xgw1_WTsYZzBN3BrK-uk3dOfxcBrNLxLyM1zoC7dtmTNWjuA-iaRZvOyvZWlFpztsrYan_x-GUvDgMviUyOjXN_byF21OBZI4IRccnCKK7Rgz4QgM1tJ5G2KLVqa4BacBi4yMjRAAsNHnt2LzdPvKs1tQwiKqVnxvoPIxiklATtPCGKir0uUfmBL22oFUj95YcKlO3taYPtVaqvau46o2zMNkMK4pCr2uzyUM0A1RZNxn6g4QTSjmAbZzuP5yV7GAeeOc8Tj1fPj1-eo1Ezj6dICfdKO1HNYRsolRhHUmdsIttR79VyhZmjB9LOiQHxs9QyDO5MrIDnAmw_orguAQgrKachlton1Vl083rd7iVeSjyFHzURu6VSFq6j4V16rPJu9T-La8rar9hBHt7tyReDNhdVMmIcWVH3e036QraDcNXkPojxk_9GXDFG5LnbTK9o6q_CnvKFnLC82k7JlOeY4UK3jRCC-lo1BI5KlkFpt8AdFnVpLA96R7SUoS_QN3JvhLxd1UfapBy2vphHzi4lW3EeAf4JzPXrQPn_W5iFXhJKFoPd1yIY1bZ3jZf8AT-MJ9XtihHUyEP9rNiW_ZPO3VmrAnBHdRW4fLzJkUnTkkymE7ZuC-4UE3vLL1NDkJF3HaxZVMog8NCwSKcydsd9GIh5h9E_1ZJAtgXaxF8-dotd-hIdrYaLtaA6Pa1hWLH5dm8rLnbJVoUQGMYrhVbz7wrHqEyFHorwyXEJL7Z4cLycBIbdlBmN7677mT7bNNBD37oJ88L8rLYiXT_m3SmrCJkIF0zz_XvgNV4s-qoTC0W4xGqZpVxfmKnrzI6BJJGwkNkijD5f3ayagg9X6c-9kg3dSsdqzXn_vEKMG4c5ITrgbhKvy5Rf5eWKpgiWrX2o2HLckYxyj7ZhOm0vj_IcMFev-qdmxWHtaL08QbJyReHoJ1nYUXY4euCQQ9u7wuKQqaTYnli7sadUjjIowlGDS3cqHS_NW2uB7ybR1UFXc-a8Bgvlq7WtCV_6EX6YoQVJa5aUBvqNsrF92UgiYMcUICd7NTu7ea7g1CrzdHUAiGzLfiQ91zh5y-p_GZ__JM_0AWUefoJ1GGawLpd5PrwIsNxtzD61-vrAnDVitzRAL7AMVkwcSEG7ia9Sf7mPFw7PE8bphGFqF6m1AJyspHHvbFHr0enB6hjWdRWTiWyLE_m2vAurc4Mbh8NXik5bVkTX6rttMZfY0egMmltElq4rkPN4HdNH19oDptxaKf4GgreQmVWaOXfmcRrXBAkh0FQ5596VIKxIPm5fdiygQVoF8WyrtkmBIr3vLsANHTOHGQtvmk0HhhrG3w2NFjZXqdtzm24-2-IhjtztYvaaRDlcnUmc21G80oBBZe7JIPyvEEJ2U_wBhFSPOS2N7BGB5lR1KiFt1FFBioFBfgzNCsboGlaZ3_rMIjP9kAS7EoAvvn25YTjRu6eKWk1hIsHokmosBDFkVdRaz8bHISr-Agz4Y5J2ZnSpAoagfqq9eyoJ-GU04mihXsc-UBgaVygMbqAtAul_y24ZN9Jvf0PAqa_GlkklepzkphoHQp1ZMWhfYtfgfFhRoxw5cg9K8XSDMKlMXZqWYMwcreOxAbgFJkJ4o_2GAipoaIQTIsDGRz9eu0Uolkyj37hG3IFSBlaOHxaSrwA56aRDZCCI_5UgUcyIpF73xQn6UUcPgtfme6munwTCzHc_BTdydv1QOR6VFxA2vDJlgXUqxu0.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_058d15e3b63bfa2f016aefdf51a24487d18c1f4e51d522157d",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 688,
+      "completion_tokens": 85,
+      "total_tokens": 773,
+      "cost": 0.002226,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002226,
+        "upstream_inference_prompt_cost": 0.001376,
+        "upstream_inference_completions_cost": 0.00085
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 39,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002226
+}

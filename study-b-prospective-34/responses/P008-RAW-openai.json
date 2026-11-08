@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T12:59:39.429496+01:00",
+  "case_id": "P008",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "293c1e58e62b4a80ca7d8637056cdc733d1e09e685f696d6b882a784468e7dde",
+  "request_sha256": "3647e4689077682039374af47786ef218cb0643d8a9219d40eb6723cece5a4c3",
+  "reserve_usd": "0.059764",
+  "response": {
+    "id": "gen-1794139175-sCJDyO31wn252zd9cfIi",
+    "object": "chat.completion",
+    "created": 1794139175,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The proposal directly addresses the requested skew fix, and the poster shows the review panel with padding and natural-looking proportions while retaining the camera inset.\"}",
+          "refusal": null,
+          "reasoning": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GQr9ewSedphagQxPnUAm2owIrzeGyBsKWp2cwnKscD44HiARoaKX7kFpSCswcREzvy4h1CeCkCyQW8o6SsaSaA-HZSURW1jsO8ae7mycpZKHtnxk8LtAtuIxJGBxrJKJ-APBMFwb_nsF6jegK6bRMleM3oNOpBhMZ6G8VNxTcK0XwwbSzGBRqroxmLaJsQeS9L68x0-VccWQa6VjBNmc3d1JUbgTdg-ytp2mYt7_JeKKHtkr_un0h5YjGgiY6iqFwVFVLLMsvNeYpQOUJgavl7fGDTP5KtLxchMZ2IxUNcztISRPe65c8PPSkjMvidRISS3J4A08r8JksLuU46dBZpvjblNhje4SD01tWYyzqE423Z6YSRMpoSuxcJ8hBTViCUtv5N9QqqisMZ3wsHv0XWGT4FjiY8nzHopSxuBkTcqWkJsiMTMmB1mDLj0VS_v-nwWrajhxdjKJWIX5bNgPLPGxwQUoiIm3eFUAh6KX3NV0BTgGo_ra47AIceDiY20sjeNpzx7U1FuN9kJpxOmlbHTlLovhQWtrlFVH0jxgqFNDJh4BVYDULLN0baR5b1Hy73mvQlPA_ZQ68Ff8oCx6a2HNTA6meBtVEgc51AaN-zObmnJliaAGiY5Llav4gRzyS16y8qyw3GZtyCSLHbGxOD0WJS_-ni8gB5Z8C46-1wU1RBzT5eWfkWU1hqLmH7khDHijz4I7eftxPDGzbWJOn_Xbo1NXPRHSxaOL3T9gAX_ldgOkl_Qs8_8_axeH6m5AR6i2dF9id3zXz1FyYXeqk8sTJ0jwywUECbN2BFkUc9zFsGrci_iALyUaAfsSTlFu81sne3kt8j9FjfCihZN_scdliYY65a1hH883bIaopIl2HacH_3rfpAFFoN37Vg4-iwdpLYnujM7Xoh2CkfbP4bR8dnm0a1-Ri5xpnqXG78HBf_4ndlxAAG7fRB5vl_evFBfgtF1uqfoZxZDFm4ph1bdjElR2H5bSajGolecRiYmZkpkivtrGZtW5f45ZUY8rBSPc2Q_N-AtclceAGUekCg1mzrCI-hlSEDzAkdGhJCiP_2PCtc7ndVk715OSBXaydFYk3VWULPzQeonzq9pq58IGoYYNadRuoAQgCVzpwdJR69Ou858C5kOVRnF9yPLioeNYssv7FmTh53tMzA4Cw-xRoU5O1cq-peTkWwsT4SLYUDdfAz2lx6Dn9EubEw8nH_Tn2aG7mrwxHvoX5pArFNpqvplHgg6LrGom7EoU9QUsgrkuGHwgyO85-l4c-9Ts04JOpPQADNlrQT-uT5YPwChBlLSot5fWPAfOn52D5njht3PFobMhQreFujU6cDE9kcJSfsTCiGgWzSMqN_cR4VU6f8sj13UHnWXNqnSmdPt12FcT2_hxP9o18ezkRNajh_LQVnGipW4Zmbav3LZ1lw7QXxkKr5PPgW5dnYJ3Ujfn_IR-iXoZBd0XeBvu0HzuxgU2N03ikJsQL1vNBdly5RtFiu_mIUXSND44GOgqvn2Iki1j8lZ4taYdxtdQ-upnbTXxMdkXSt6xiJpKR5HbE2LqqlXUGqGtf-NurlKPVeWzLd5UUsGHUXhOm0yC-5sxpTbREhNQtTtFCfVZSpMXtExW82lW7l_KVVmH6s3BOCXFrlu_9Pxi18wgGsAfpPyGCPY9qZFtOcWkeESFsXqJ4vUejpjG2f9ViDq01EWUctDR2Grn37Rp_qHggdZ0R1NNo3ODu15vo5ZZHna-c5o9oonS_SCm5mMFx9dbIOKDXxU5mc1PUYQLKk_tJ4mOiunlg_71j260lL0_Sjmb7zzfuuL77fDsQWEeCRfOWid2hz1I7FxqKbNIhXEHmqO-UJ5P8DjTJEq9zzQDR8Qt5jQ8WXI-FalUO0l9m_UlWK67Ee0ZQT5ogCMXiVUqB-ToOQxCaV_YfiQU95CLoPrVTUq1eTEHCN3ueAklU_wX5bGeavE1XKYZkODeF3uPf8KaP8MHUwqjPPYtR7WDtMV9j_-DzAikBVKtqumN57pO2L8rPE5Q_5MGHrd5Hsz-WwmJgOA5jPboHofRpbKOKpUShcewtR3cw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0154c6f8dde0d216016af064298ebc87d1976b8d60f748ad02",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1457,
+      "completion_tokens": 72,
+      "total_tokens": 1529,
+      "cost": 0.004361,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1454,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004361,
+        "upstream_inference_prompt_cost": 0.003641,
+        "upstream_inference_completions_cost": 0.00072
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 22,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004361
+}

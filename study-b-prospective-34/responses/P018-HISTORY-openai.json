@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:02:54.835386+01:00",
+  "case_id": "P018",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "1cc503664de02f7ed00d5b4a8dccbb0e7ff7b1bb6e1fb7ae6bf32ccfb7862cc6",
+  "request_sha256": "0c034bdd62ef148daf4afe7a5f20f376700917c88efa359522feb93c06e25289",
+  "reserve_usd": "0.093460",
+  "response": {
+    "id": "gen-1794139370-BYBdQ2OzS83W1OYXI9nQ",
+    "object": "chat.completion",
+    "created": 1794139370,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This reusable notification insert fits the owner's request for more core animations and their approval of notification-themed shots. The poster shows a simple, readable dock-and-badge composition with no obvious issue requiring edits.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating graphic designs**\n\nI’m thinking about how to predict the effectiveness of my designs. It seems like using a historical approach with positive elements could work, but I’m also considering the simplicity of the graphics, like colored squares on a dock. There could be a risk of being too simplistic, but there’s no direct defect. I want to choose something awesome, referencing clean graphics and focusing on appealing notifications for my topic.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating graphic designs**\n\nI’m thinking about how to predict the effectiveness of my designs. It seems like using a historical approach with positive elements could work, but I’m also considering the simplicity of the graphics, like colored squares on a dock. There could be a risk of being too simplistic, but there’s no direct defect. I want to choose something awesome, referencing clean graphics and focusing on appealing notifications for my topic.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GTu_UmFKsQ6w6OE_bqlWB9cirhrz7OJCSc-qZx5R6n-5EUsERQyvy9HQ_uOEm88l0-JIHRFOGWBy7lISamgiz3Z2gVEwMEDxDfjJxKQRjNTA-kRAMdi8Y4TEUgUMAxwETPA2nRIRVL2XK-_WV3K0GEjXQIJ0YOVfch3I0YuWshlRRq40CSwlh5OHcqMV3rG5tDICsZzIF3D6ltMlgYOuBkZJEvOXvMqi2GUofJQgRD8NkVfJjQqtRmHdkGJy8R0tb5G2yEOeMgLjOTu8vmYXFSTps9ZPZuVhqRjAvlOz94_yeSGuSkHG0XrFdzlsbAYzfF8vX5sa2RN5Tjw1pg_ZYie1-1ivkjj-xKXDAgfZwa4her1U4bRX3Wb1vKXTwOhA2_Q0AIMOJLAGUqfFqlEeLFoxxsBw70h617VrkEV24bAFpt9orvkR7ap8vLhTKLvXeawx27-CqJFfNn5vQ_z7sHGmqXY_15KEC3BfuOpx3kcKWnedvNdxjb3JCHe4kL97uJbaLzsLg2FW3KITunhaKJv_oG1z2niPPlQqmJwXA7N9nEOEnLI3Wl5kATulKGP1HFtwivt4ue_6ciRRBqQ6QcQF4qsJ36z_o3xR-xyF37SxuaMrMx6v2A3rpbu6v-70hZ7vqQ_7w2x3czhVzWqnYMzrZV1vl9aV7CjSx0vMVH1zX_DD22xafk9E7zSPL9oJbHuQ8x0mH4mxUeDmnaxWDXY57Oi4MGsL2VD7tzSHotE2tgsWfOlp6_99TrFCWV8MuyXu5nuFz9dYfOyJN5tG8SxCa8y399mFeogNCZoZ0OYmaRkNyP6wt198H8kmB1mQOU44yykxnYoQXsjjXo0wAtAXNyh-BO5ch0zk1v1m4jTi_Lc--cuYGQUqoXh37rlF4pIrrOPMKbP8g2mOW2SrecKSAhYOXZgvWsWK84Wq5zxgLg6BANtyuvZJ8LI_5bJr3AKcWw1yqSSDXS1z_gWcWbYTISX-r1ESn1J2WbO1LetC0hHV3VbPG0P7BGQMkgXiGPIsPvyK81Um5MjLjTXT8BJ2ABx6GwBuZRzYLuKbJhs3nl5JUNf6NPVXiUpPHJB0_PfVlbbr9qS4XIH6K6koQoaMWelS8o2qiVtGRa94rBlqwNuRGN_hVeF6ZiI14ncosol7lWU2Zyl17r0J0X9YBJpvhEGMKWrV7kMQd-cD1edyM3OVDvt8TDpV1DHzMUJ4Vp0jh6tjI8BviTuMvQFBjZHIPvQsydef0_zg4pswImp5S8XdcrWkWtKIbuqJ41aeHO7Rxj23D9ugQ-WsP85zBLsDoinkokC9c9ahubQleHHtKcMV4DxHdDR-Qan1ka-Ki77dl4ysnWukqcGooFasWfnhDlrFeuwyz0Uk6HiwTtGj6OO_yKMKiTg5gsjF5XikE5kvSdPRYomsvo3lKaq2NvQMFv2pOA1g1He_0_QIktQhSo4C548Z_uQjZCUwfyHZmC_aMCXSg3_FGIUmuOsY4AiD0l7-ZFvc6Asw3yaHwd72kJ0huRUnhKD4FNMZSCX2IHe_r96iM0aviq_YwhQU5_mYIP2aeA6MPCFD3qFcOwaDhFePqjxo3cYHR77E7UQHJlkvAoJSUMc5N1axLCZvpjZuB8hq0IxtMEIO6UnhAA-QQoOOpBBnWeBBFRAE7CroxChz6HaPp13hYpYkosCOOzESjuYMkNBS17C70_mXGJkEXWBouds7BG0mXCPxkMKRf15IEJDr7jgFxC8cmcldQb5-c40nvsvNc8ysRtW1GINZvCdBuCJGZlEOyUh9e-vu9hZWPB6y_BfXX7Fq9VsLDW1iZgpTO_0p_jUhesgp0AvzowXU6o-nS9E5f7mKuGsNHa7KO6OS6nrtDy89Ka8DOkRpnQyg48kLgkIUtGxiRXW8MeaYHx1nopvkABxw-1PnS6vtpjBaU8bk7URa3mmldHLSnJaAdp20JQnbd7VWNqwHIkELDybjk82PHuli_Jejg6cfgHMcsKId9JfkaXplrOBVlIvfGbcl4mjCZoLAfd3fhXKyVhF0AHBmi5C4T0BhOx-uvuj4JZG0fNNyMoqjRyqkJ9UMCYwirtdV32Yrx2VRKotU_CWLaWSLtKdM7xGB2XHUE3osalOHKVZbifpEx67cGwE_sp24-oHU5iKDEHP7_MWKdKjP9N2Yvu0P7UCbEiITC4tBfmYM2IFsYUgjY00WnzuSIJhrNBt70f3-NxfAoGRqBZtNuh10-txE8J0veRP6abcMI8vjgmcZ8sOsgIevOM0Zswzlx6toaYNDDd2fDIaQpLjMwS392_k2M_jafigiuK-7SagFsDE8HJDtfDUD9b--ZEMDYZX9UUhPfledAvIMryafo5tO_L8gD9K4iL7YmMQ7wMNcNGJz3dnzEFmI2Ar6eUCxW-hqHsKUW3arc0Erour-NetGEujPDjD9mpGY7G8ZBVYibnzXw3X-ZUzLFNGjuuTEwM1aJdnHTXwpk1klmwLa88v50eDSzxWFUqx5wxP42s0zFAyKDxbRl8NSW46_3rursooS5UltdhNMRw=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0a68650b9b6abedb016af064ebbd8c87d1a6170e6fade169fa",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3498,
+      "completion_tokens": 112,
+      "total_tokens": 3610,
+      "cost": 0.0098635,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3495,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0098635,
+        "upstream_inference_prompt_cost": 0.0087435,
+        "upstream_inference_completions_cost": 0.00112
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 51,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0098635
+}

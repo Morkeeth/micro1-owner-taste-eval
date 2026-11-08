@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:32:41.354177+01:00",
+  "case_id": "C009",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "58af6e70e27278e2a55a56da8f93133a616b8d15be05eb1e225f422b5f3aa452",
+  "poster_sha256": "35c69dc8a617b1e1b5c74d92b117611fa47c40db07b06e8924ac8c8a3b3c0530",
+  "request_sha256": "06048361d9c08b1d9730354fc0ddc9e50c927e81210a05043cac8ea125e44bea",
+  "response": {
+    "id": "gen-1794105157-wILvryav8TNTrOq6q0ND",
+    "object": "chat.completion",
+    "created": 1794105157,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner's earlier note, \\\"GREAT, betufiul\\\", is strong praise. The poster frame looks polished: a moody, well-lit portrait with clean serif caption text. That points toward approving it as-is. Mismatch with the card's 'close object' description adds some uncertainty, but the prior enthusiasm is the strongest signal.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1903,
+      "completion_tokens": 135,
+      "total_tokens": 2038,
+      "cost": 0.010312,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010312,
+        "upstream_inference_prompt_cost": 0.007612,
+        "upstream_inference_completions_cost": 0.0027
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010312
+}

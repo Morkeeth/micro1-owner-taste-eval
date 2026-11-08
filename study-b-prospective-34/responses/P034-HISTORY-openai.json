@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:07:09.823423+01:00",
+  "case_id": "P034",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "ac4243fb04d0d12a964c529b01e438687edd24a785447d02e4dd4e1095ce6778",
+  "request_sha256": "010cc41b7969f43ba3b9145259a40a9b4ad0ab3995f48014cfaf68e5f5c63e32",
+  "reserve_usd": "0.093544",
+  "response": {
+    "id": "gen-1794139620-9RBQrMu9up0uUMbRKDJI",
+    "object": "chat.completion",
+    "created": 1794139620,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision directly addresses the stated complaints with a shorter, agent-free search-to-index example. The poster makes the hierarchy and matching results clear, fitting the owner’s preference for useful core-topic animations.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating revisions**\n\nI need to make some choices here. The history of positive core animations is nice, but the white panels feel boring. This revised version seems to address feedback effectively. It might be awesome, but I also need to ensure it has enough content. The search skills should shine, without implying any theft. I want to keep things polished and utilitarian but will prioritize making it engaging. Some probabilities indicate that it'll be better with a few edits.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating revisions**\n\nI need to make some choices here. The history of positive core animations is nice, but the white panels feel boring. This revised version seems to address feedback effectively. It might be awesome, but I also need to ensure it has enough content. The search skills should shine, without implying any theft. I want to keep things polished and utilitarian but will prioritize making it engaging. Some probabilities indicate that it'll be better with a few edits.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GXt-FMmxHuKI9uvKSDWvEvKzfNuagX9qE0XhHs_hIDpYCE1sM-FfmgTz_W3IP1jypMC6S529FgV3v_Vx9C_eTHvVdCosAte4HRkta08Mil0yYab8HTKgUuZbTgUBDXxE4TWFqULLdNDJi30zASXUH9ecA7OZ_j8T-kFKA5GWeHSKZ7dFpsm7ldikFJKXVW9YV6zfyc2B4E5xu0S_IQdC8RhFq22l2N-ySWfr1pA-W96b7eLXg6ir6x8hzbgP8BVMjz2kgYUS3zLFcLadZnQnIWqbZttO9Bb1_2bc_Wc6X_UpBex8T1GLJyZgjf3K7xMiYiIDn6Ch7VVfud9qDxEw1nNuVhgdVMdXhHmme8fezmq76eWTUx1Dh4-hQZjyQpAvbOOTpyGzHt7ZevWET78bINjGItVVrb8XD2Jgh2KYiIlvkv-5a6mAzOwJ8HjW-ZaZn1ZlbiUsHerNY5uN-LEVropOXVpqG5rBsBYe0NYtAhFHTtJePJWaDodj0nfoVEMGQMTOLdem9IX5CA1gpJx8v-Ch368288Ga3lClJS2EnlR55UqOZHtFT9XJZOkibVZjIPp6ARyWD8sqjQeeOf2sFCA926UrPTnguoDNCi84016h6v-Sx8117eZr78IGRSEIsLeDYkSDXbRDMDn8nD9M0WMjqmFYLE0KW4YyIKX4x5elH3O_vtEHur0mUPNVtLVr0kXnmFI_OVO6JEcGZqTcjgKpdO_DQdnuNgG96LpSW3MoOq3ywaaQw_t5kdOrEz6_ehj9ss7UdrfMQNAgvg02tMs33aZnM-5jlfJg8K7r9Bnv9iFmA2hwuT0sbQgvhI2W8ozLc_IuOwlmUXOrXqVvxoVGpOZbB2_gDpblG03c_ITcDdzkVu6p6I9CW6D7eR0tJjH2WZczpE-irSe6tHcRWJBUTJcm3Ar2wUxYNaTpGOFqAliWwfLBRxqWq31PGf3sB7J6ATSYZm7inng1MGhFvnLoMxr1ovWEJ377bLRTntqUZbKBb-ZCGNN0kcq79K4xjzhYDRsiSmtDPmYzMpgKZIoApase9D1qu587VLc-U7NRRSPtwdDrzvF8n2RnsghlKHU01qQFSrdVVf_E8RvYNyxXzVHvdyFInL5H5E-AE3mdL1yzklwnTCfp5rA_RrPTHp40uTbr1CMxgJX4VRuzzoQi90eQRta3Ha0MeXN1hDhccbRxtPLGUdRyOXyDKY5FCd0SEKHBFsuPMGXJRKYY7ICJ1u6SBE5mJj842dFAUSTvutn1lec5n68iTwPJo5WX2jDzJz4CEypDghqgy3TezerhJ-GVqthnauAmSOvIYpUmIv8jGYXARYfoibhVwb0-FgpuN2Qo6WlH-0bK_zLp1mGq-eP96kfIHTLKXK9zRhD9gmKYfXbK_1qEMoNiTMaJ_JjF6vaIyfxuWXGPoNfMnv7oWUfRfdxC0zf1hU5oyDoEyM6K2bAHr5UsYGcmMyA6eIfuhj_h0577FV5oOxqJmhE2VK-U1qPU15ejZsQL-ad-T7hSNQEjAp_ryQHC3H1AWsldIdoe3D_ChIXxgkCT1-Y-1Gs2BtsiSzsrF9r4hRbxOO5DjGt82cCTdUG1cdkvU6q1P8Y-FsWqiysosaJNKhxN63M_zG3qIc7Sl5aHS4HE2ECR2BbjkSILB4Jarcn-ua9FmEAd5Oq7XLlKRqXasXTctFc6qwGG6pHCeeURGunSXcDUOovxFWAjjz9yZiBZWLpGkBvuDTfbY-dJrMi0GxlQTjsJr00pNb3uHESrqBqRUE67x0OQaAgH61qJRTsbo0mdnVPf9KVTgLtNKn4QuzPgj0vFFgXyZFPN873CDdHk9u0shaiyzZLI02qL1qm-QwFZ_GbqDn5HWW9fWWRVcyL6GgKKZFpRW8DRbA8hasoB0gbX0TNrcSokXha6OapJd8fbrvYQ_3avm1V2n6UwMDwpDF89q0g_R0wFjVLDbP2gx5pgMPcBG5rwCr0ddYs-Viny67NiIb2qg5CgkrcTCRHhptD0mkgIZrRWg_GhtawzmggmVFyWBa7_OqVOHV9FOM81zFrq0gWxiY6-j__zOZf7gjl4-2bID5jy8J8Tpdc1S7vuUh4VNWgjDc21pZQ9xrK8eZ_3I80ntBJKBkMsq60s8TlSe6cY8wO0xsif3LEuDEZNbkx6RxiIplMHq38bR0nLmA4a0NK5m_-X25hTUUOnQhFVfC_D7aTIp6NJIlY0P_zttGUwAFWLgQbmIwZ5PHxDOpVmcl1z3t-GnC6h_X2Y9tiQoGvEQDI6roP8rQyR6KSy6XFA528sDzsm2bYi4QxlfdS1X3L5Jzwdn7dauiA167VMkukJG3zgshCVWKG8Hwru_n5bcqfRdNYID1tLvSTCyiKpCOXiFtcjK-EGRKbhQA-XMQts4V0wbhLZkgvPO8oy2yEk8oxcS3UXF-i1cv9ReZL37y_fY9i3TRxFlwMQUS_VdQp2O1-bkzSAWVkLYi40Zmjh3hvsbHwahFDlxiC-QYFmstiqxTi--EuGE5FrUkt4e4xPZYMLSGrpBEzWaZQ88SRzRnN7t00Us92WV7knxgiLEaKTloG0YRVqWsQ25eVrZls-HVXl_Xk62uyhKvNAggLYI2h-d7h1mNzCZpFFN8DpCjvw_zTsKUwPmx7FaORmr_SIhZ115C1oa2d3Cal7r5wVQbRAR64LE6q-eVrgfPLLbhT55UXMwf9r1VCZosLrpayT7KN9bt-9h47xMFTK7J3nDF-KPI-vwpVUvNJnFYr2ur1xhu0igspSVgdTlLzT6x1Gi09KaKgtlqTjMz_kel3I96MuEt2FCRMMJ-e5-CesSNyWScaji_1-VHuidWm4smMdx_GLGmwOgYhsnjQKA9E6p26nhG6TbBoXyqOL3M5NwJQ0Aw0P95OPp-h_X0iHRy5Er9A3bu3lHHkRUvZtxSTOFR7z5fYw7wVDifMeucF3JfFn9jrfeH6Vui9xEwkdpLsC_hPofgTioHFjJHciYH2mSPJoc1mdq75wLglJQev_3s0ASq0YdMRxcbF6M-wh_qt7X2QGmmiFHlgVQN2uyx59auSmSenO868V-3n-ohuIZcFcSv14-slZn1lR5Z_dJneD6zaGCGo6B3lnAUytjXxv2AeySkBnfD8TBZGBePVV3sOMflGUXtdibq4fMKiNe9fO3mM7l6rv4NXSZDWQglbjqjGFKRLWm103s7G.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_06a4b8432070af83016af065eaa79087d18d709924f2d5d52c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3510,
+      "completion_tokens": 161,
+      "total_tokens": 3671,
+      "cost": 0.0103835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3507,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0103835,
+        "upstream_inference_prompt_cost": 0.0087735,
+        "upstream_inference_completions_cost": 0.00161
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 100,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0103835
+}

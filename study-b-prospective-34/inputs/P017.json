@@ -1,0 +1,23 @@
+{
+ "case_id": "P017",
+ "shown_card_text": {
+  "title": "cmux panes lift apart and snap back",
+  "what": "The real cmux window splits into two glass panes, terminal and browser, that float apart in space and glide back into one window. It is the cmux core topic as a reusable shot.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it whenever an episode says one window drives the browser; it reads instantly.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P017.jpg",
+ "poster_sha256": "63b9ae5391386c9ab9a7e1974bcf7ce52363bebd5d652b406cd9f588e49e5f88"
+}

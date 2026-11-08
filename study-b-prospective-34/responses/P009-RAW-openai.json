@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T12:59:56.405143+01:00",
+  "case_id": "P009",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "f56969e96a5eceb88bcfed96bfa04284af736af99536a8e1dfd333791a9fc1f2",
+  "request_sha256": "e2376052f6e982c8983fd00cef9c26b1a79ffab6bf2a99ef2f67ed17067bf1c8",
+  "reserve_usd": "0.059584",
+  "response": {
+    "id": "gen-1794139193-aKqHAc6rNFw53HLKsike",
+    "object": "chat.completion",
+    "created": 1794139193,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The proposed timing-only fix directly addresses the reported lag by shortening pauses while preserving every moving frame and the existing content.\"}",
+          "refusal": null,
+          "reasoning": "**Considering direct fixes**\n\nI’m thinking about predicting whether to approve a direct lag fix instead of editing demo data. The main direct fix seems promising, which makes me feel optimistic. I also need to provide a concise reason for this approach regarding ground card and motion claims. It’s crucial to keep things simple and effective while explaining my reasoning. Let’s focus on these details as I move forward with this task!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering direct fixes**\n\nI’m thinking about predicting whether to approve a direct lag fix instead of editing demo data. The main direct fix seems promising, which makes me feel optimistic. I also need to provide a concise reason for this approach regarding ground card and motion claims. It’s crucial to keep things simple and effective while explaining my reasoning. Let’s focus on these details as I move forward with this task!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GQ8RB-QNmXhlc5V9vbjecUzwBF50iw4e9Sb9pb_LeIqL6bhfkDqcqRKegGX6SftKOVuXHIqDzw7DlUr8nkBTOhCc842w4FFz-FkW5OF4axtfdT_1p-gWnXZK5-F9zmn7v6keh0A6Zqa8Lz0xAGLhOvIumlPS3GxQRZGn69FodU-IZ20J1nXw8ISgWelgXi7f8zl3Bn6Fm0p3jtsAZwWZi-37kQtz0ymgHxJty9prYvah-UmoF9KJhucUtXNu4ldpUYArzKy0Pax6y_vnbUDAg2FPx3okdmvwiYyjvFMi18wUtlW2E288er4yRq9Kgiqujt7-H5DSLmfvU8Tb6OIlfrjjXit6ygooozb5F0weBiJ1tJueVAGWKb258kyLj8mgTX1znX1JJArqgTXKopEmjkDLSxNNwOPRVZzPZwdvQH3XKkEa_tjotgLpMhH8PxthsvtnWPTOUZDbjUQVNHcI7CZmN6ZzuaOFeAAOYIZRjwXXPgFDcLcWCLJXyOLBnU5Qlxc8fcgGsRvV8_vll1xSUgb7o9FlzicG16h2R_pqR7ljzS45nyyF2h7g2dvHvg14zMfnkyCHjw5tgdq-y5DQNtsZJCLgK5lLgNvZygvmly1QmNSk-YK7L28V5nGBQqfCh3PKA4UD0Ezmdy6PT5lxzwTS6XZ4nJ49LG5OOdlM3fBClBWtY8FVZCA6BWKSSh5tBg9ayC0012UHGeTjVeSYWzRXrpk9gVxJpVQSBOth1q5g4rZUIRC4hQBOPFH-bYp5gMVKo7i58C6YvG8JheaTKaDxdIh3fbpi8dC20ARRsud6ANB7cr6U7zk0GtlnNbx6r1yg4Dd5el1W_NzRopYLvUn5jK23m6prGc-WBNrunU2gwdLtTFs_7E6cWM1fI8o9PsX8Sj7zxIGeMXZ9WnoJ-1LHk91B-jqxVFELcY4Q3vVvQl884j-G2mgNZAyBVmomcsQCBgGBQMQqNf2qsuF86uvyJ8jFfh3z54Rr2IHYK7DYlTAXf8xdYxdhf8HsYVazftCMHhPv39qsH_ppFkiJR_1GMNrWLO51wO41TDZP43AsH0x9Y4uZWjN6oeUCbXylB34I4cKjMdwYbhcTsnOwmYd7WGFpBcUKK5qjSZdGFTMJL9jbkWwLcqF2apge6H2ELiqvDPSsedQs3Gy-BZUB01CXdjxzfQVGR1r-IAh_Ub9e-ysZl6M15FgUj-VgU3BV7QvnP2oOvX22GhGj9IW52EqucyQqcen5A69FYSuSWpy9-znTgoWY-sRVyZCOJiISNXwCehhYxBUDeLWTV0wyQRRnY7HRqcKta1uHgWcZUa1zND9gPLbLJO4WcZorjjZzr5Wca3dZ9i8ACa-WDqKadyvE7CF04dWQvPKstyBmHRZHKQTGK3_AF611KD2ddHO9C8rNBBmxSPlRdh3Fz1pKiYpaSPy9iTrXXPqaPPjUB0GS8UFooyQhlD_egBKexBoFdOzAjaTV6QHlBEiq113KYIHgC_IEZNdTVtLlgkS1CVp7HpHcIIEwfadok4hD0OPhAc0qcqgrfbFOOttme7I4HH-J0k69Qqwe77gF_qLmrqnqtMr_3U7V6hMuCp1xItsYXQYdufohCAs_xdUlCGp-6sRDM3E-tRHd-5y5x1dwjpmgSGCr0WdK3ao0nyw4G-o4cPp0IpDDqjT2wZ4_NzNHxEeUYtNrVzi-kaCIjcMHwcVrFU94p-G-htYN22JRSE-IesFueIzyt6odv1wlJE0ISDjHY756BUI4Yejvgb_8q4UN8ncJqqul7uV3oM07y4LNACaO8-qm00c8oLqRG2Oz4Lq2vZ1Q7Ji7A_1bhSbRcBx9XeAcD5upzofPLG6KVYpG0ornYdwh_BiD5L_6AwCOcCBjHyNWhcQB39aoyFKyaAqC_ZjqD3QK_WUf3SyLJ3ZY9Xw2ekz8PHT5N3gCSsbv3gZpruNOGkOb3AZQ4r8-S0JTXwni4wxCmot_DkdVn-7pvMv4UPDpUe6fpedh-erE5s-Ji91XLKjaExB0mtzh-xqOXxmKpLN9TR4WOHNQKfJ6qKE3h0N93aXWyGYr5u5ey1pdXvjA4Xr0E0Cck2ISghUa-LCCeQYxhBS09X4HQy1ve0HJkzMfPLGliRLExEEELcsnE924GxlyWP9Gw-fUvU3qQ4wVvKtYYGKXEBGszUFGTrEKg38mxuG1yXkh0rnQPfbyg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0052350b402db53d016af0643a5d6487d1bafef148abab6f95",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2097,
+      "completion_tokens": 77,
+      "total_tokens": 2174,
+      "cost": 0.006011,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2094,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.006011,
+        "upstream_inference_prompt_cost": 0.005241,
+        "upstream_inference_completions_cost": 0.00077
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 32,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.006011
+}

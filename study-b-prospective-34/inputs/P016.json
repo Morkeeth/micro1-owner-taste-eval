@@ -1,0 +1,23 @@
+{
+ "case_id": "P016",
+ "shown_card_text": {
+  "title": "cmux lanes with a waiting notification",
+  "what": "A cmux notification says a lane is waiting for input above a headline and two lanes; the picture barely moves. The headline text came from our start frame.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Probably kill or reuse only as a still; there is almost no motion.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P016.jpg",
+ "poster_sha256": "20dba86169f399760f485422ff2302759529fb4af52e87dae71c696f30762a80"
+}

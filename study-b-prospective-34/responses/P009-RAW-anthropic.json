@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T12:59:53.043139+01:00",
+  "case_id": "P009",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "f56969e96a5eceb88bcfed96bfa04284af736af99536a8e1dfd333791a9fc1f2",
+  "request_sha256": "51604f1492ce11f2fdeac05b364f3e36343eb01f1abdca7bd301c7f49d68fca5",
+  "reserve_usd": "0.098688",
+  "response": {
+    "id": "gen-1794139189-8UGxCEilqQL5ji6uXT1l",
+    "object": "chat.completion",
+    "created": 1794139189,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This card is a narrow fix that answers the owner's own complaint that the clip felt laggy. It keeps every moving frame and only trims the dead holds, cutting the clip from 14 to about 9 seconds. The poster shows a clean, legible panel mockup with nothing obviously wrong. I can't judge the timing from one still frame, but a targeted fix of the owner's stated issue is most likely to be accepted as is.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2629,
+      "completion_tokens": 161,
+      "total_tokens": 2790,
+      "cost": 0.013736,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013736,
+        "upstream_inference_prompt_cost": 0.010516,
+        "upstream_inference_completions_cost": 0.00322
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013736
+}

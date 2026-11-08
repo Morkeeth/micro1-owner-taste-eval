@@ -1,0 +1,23 @@
+{
+ "case_id": "P024",
+ "shown_card_text": {
+  "title": "The agent walks your blue line",
+  "what": "The little pixel agent walks along your blue line like a tightrope, then the camera swings low as the line runs off into the distance. It is the line topic you asked for as a reusable core shot.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Strong opener for any episode chapter; the low swing at the end is the best moment.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P024.jpg",
+ "poster_sha256": "851f9c75937d9a0a3086f5ef8423c7c99d3be187a5cc6477e9d0e316d8586c95"
+}

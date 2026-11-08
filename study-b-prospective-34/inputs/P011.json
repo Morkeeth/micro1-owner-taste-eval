@@ -1,0 +1,22 @@
+{
+ "case_id": "P011",
+ "shown_card_text": {
+  "title": "cmux: one window, every agent",
+  "what": "A real cmux screen: the agent terminal output arrives line by line, then the browser pane it drives slides in. It is one of the core animations you asked for, built to be reused.",
+  "why": "You asked for more core animations we can reuse across episodes.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it wherever an episode explains how the agents work side by side.",
+  "context": [
+   "Ten seconds, vertical, in the locked look, with no sound so it can sit under any voice."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P011.jpg",
+ "poster_sha256": "4c6cbc796d5a8872712b98552983a5e38d325b091ae9b79eb7bbc66bcee3da4e"
+}

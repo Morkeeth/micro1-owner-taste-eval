@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:07:20.265486+01:00",
+  "case_id": "P035",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "fc8ab9f3ef793256efc7c5f4d4a41a05b48ce1a0cf5adfa9d432e9458e601661",
+  "request_sha256": "9c5fd9cfe75d7c5181eba8838de2cf7c83b32888d3145b9f708574bdc7ebc0ca",
+  "reserve_usd": "0.060116",
+  "response": {
+    "id": "gen-1794139635-rRXOdKfVxHIThoSneFfO",
+    "object": "chat.completion",
+    "created": 1794139635,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The replacement uses the requested real recording, but the crude prompt remains readable and the heavy sidebar blur obscures the agents the headline promises to showcase.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on edits**\n\nI'm weighing whether to choose \"edit\" or \"awesome.\" With the poster sidebar completely blurred, the headline isn't clear, but I can see the joke. It seems like \"edit\" could be the way to go since that would make it more readable. The supplied card has compelling new content, but I need to prioritize editing for privacy on the joke. I should state a targeted fix to clarify my choice.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on edits**\n\nI'm weighing whether to choose \"edit\" or \"awesome.\" With the poster sidebar completely blurred, the headline isn't clear, but I can see the joke. It seems like \"edit\" could be the way to go since that would make it more readable. The supplied card has compelling new content, but I need to prioritize editing for privacy on the joke. I should state a targeted fix to clarify my choice.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GX3P6mEGA69MwgglQKTX1tIcATHxNHBlqW2vWw6YCqwAwYxHbXWDE2Z8c-enphoMr0eEHkT8irUdMTVdZJlEsFCM8JRDmmbo-78uUedmJ_3XL8Dz52qm3FHcbLpoDtDJDZF_GVlUzdl3F8LcFlhm8hEj-Nl5lGG5aByHEp28O2FM6rqPxSrkzfH-tMOmqrhEp1P3MHEKZlTxqySMcG4y9-wJ2NbEF1jaIE5sAeUyJxes9XOQmM63WqzzWuDdPc1sirLN7JpLqVzDHdkCH1ODruZgcymGKCKPO8SXxCGw3ErGTgSyYUBbvPwnnPTOsDQYnHIj-TuO0Ch-vNw57k-KewI94gyW72SP_tduOpTmbHX-LfjI7Rk5Z33DnrORZHLLDfJFLHLBwLHZ67atlgKQlEcQvvRCN4ZOCk1Uh2a5RUx0_M24l8pVubrDYAqDwOQE0VdCg6WFmwnzEK7KsLf_m6_x5cxq-iB_aZvG074_HMAW4pqLF7kX56QdJzbU3evyQ03xC7t9RTz2pPIu4aCBqiLxOD5eERN-XJtWHGWt5k2O_bqp63OaozE8drRs0lq_M9YymuJRyUfIHct3K0Wp0QhYQ3LmfNhuvO-AdA6ctLMyv3PXex54JPZbtoYiPiyY46tU9G1qRjNidocSHzPh7McESPLW8AKIo5JY2TNaK8Qp7T8sxrpPOC-37prbTUtULIs5XquqeqLATyWaJ1AwD5WXkH6TxHe94dDBVVwc95qfnxzDtbHuu59ZbJk3dSgfOJYJhxZ8WJK2OZWUvCOGF7JY8hdwFHGGgYNdJSa8UM-Xx6tyWbT_9o_6IRSxTv_j4jnsmSeHvUZkYtff9G9EP67Er_MHlVjfzEQ5nimZq7mTufzooJlLvLQnJVSTPC6PD8RMKSE0z4L80e9sY707COqxMnBdNrvqDejS7jch6H1AIC9o5O_CJtybeB8FUJP4Xj7FkH1a5d4les5cWD6V-6YyDBC5ZxHdmY2bUNe2nfL8aqirzi1sGsmBVzRCx_mzTaYOOGUwQ9WJfFzacqjh5s7LzfqJvweoYf9V_hgG6dh944cqzgGQTdwoUKNJWXdo0b1WczxteKyUaZLJLXQsbrwPboOrR0cM4cpGsD6THlg__GJAzc2M3DVY1TU3h51OEQPv6NBYMM2-PdrszRlJTIQ9LC6tk0CtOJ-7Y3LImul-g3Lc0UqMyAocYktVvIKmPB8tIzfyreqcmoYzPeIO3AtpWrOvRu9dD-1FcIJ_M6KsDVPCE3I3qsGf_BvEkq2Csp_Sf_lbA-dexKisXZlKqL6AY7hZjKahK65aDnwooRzU8ZirdZsxNNRd2Hh-ZVAnhh6P7YIEn8ZMMEhpduN5SppQNLfj3zfDs1EJIdeJ_a_KpKDvsvWk3ncqcUeTCQPuygQQtxiuob0pfAfIE5opAGXye0WVdAhz6KPUUWR1j9W4T_pgtCbGd2ekYEc0xaVEkvEJEwZCIKzbVMB37lSTct7_tos52UekWS39XIeruFhcc5s-V5_9K_FC3U63PCBYkjF3nuOwX2dMSK-BsN4lYuAlqZxARdjkBnCaxJcKcdjxFH-uXmtgDGh08F6KGGOxgS44P6JA4WsgdY-OyZzjL8W5ty8-NOOBAr2o_pjaqRlrUBVPOeD3kWNasbgHZtDjlVpNyRcu5UoI0hbh7lL5-QQpI_b0Miw7bvbE81ANjzyJkmNTt_Pf_7q23tiezgn1Q_qoJZDCD7seK5AIlIv4GfGNae9pEL3oCFHo4gKe6KnMzvm2khR1cg11mmwSOn4vWkhTrGnZWBFmRvE0zYnrYV8gxNeN19ZnfMS6LF9XKTMRkjN4OIl9X9DfMpqQL4bfNFquYR9nXF1snEFoMn_DRFAMc05tqUyakbDClkRitSYDEyNh3-6dp6rmmQQaZ3Re24YT6DRHl2pyfsRzP63HeXSF0IHAXTPwBF0duLXn0YK5nB4IxLc5Vp02ABKD0SsU0oeJI8etV_MUO_5-InHVORtLWQDeBo8lQW1hMjiShq8oDvJEj_ByWCNkvQiAxBlX10fbtU2m7gTgQoUWnp_JQ_NpIHYco3LQ1pElBTGLpLc9wEOy7IYEySYsMZh9hFBjeAA5bl1R_QsU-PH71kx7NDodo9RIGuc1i3cVWHAE4g0R7gtlm3ooRaIt_Y9aHdqGonc3WD9Md-ptoa_0I4PrZ9UKBJWO0nFvmFJs6LoRMotBI9JLrniprojHGoyk9hoxwNFVseXDVuLN1I9ScpRCq7qjk0Zv5JezxGRc6k2nz_TWpOB6YUnCHm4o4NIfyIwApYwZjjzsvHJqz5FSgz6k54FB5IXuYWLmbVGK-XuGMSGh9D-1FcYR2Tu6ljm1fwhsHrGi1ZkQb8Tpi79PS1NSO3i2jjA3o_7UPKaYjN8A7mPfa-CGcPO1rf_Ct0Y2Z5tRlprfXuyYZluhk3ctsAWCbfl0UWbGsYwEC0i5jyWJw_appQv19GM9dFEfFaEGn8LCQfhAMgwDMJk7Nq_G1eMdjromWLTGjfHyTalxfhtCo5gAe_qlsjW_rWy0ugVE0uMwMOj.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0f4ff8bea882efa9016af065f569a087d1befcbda7872f1e53",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2817,
+      "completion_tokens": 106,
+      "total_tokens": 2923,
+      "cost": 0.008101,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2814,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.008101,
+        "upstream_inference_prompt_cost": 0.007041,
+        "upstream_inference_completions_cost": 0.00106
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 57,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.008101
+}

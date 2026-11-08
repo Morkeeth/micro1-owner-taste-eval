@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-08T03:34:34.636927+01:00",
+  "case_id": "C023",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "d2bf5c42e33dbf85882cf0b8dfed43539631b5150209e637ca31d1852800cc9f",
+  "poster_sha256": "67ac3deeb0696c43ed0bd4c34290111c6a982bc771704d5767d40faf38a2af62",
+  "request_sha256": "15dcd34ec3257657ad884c69e8f865b3fc23b7ae64bf8102b1cd7f652f44ae74",
+  "response": {
+    "id": "gen-1794105268-gfib03CSkoJsPdSENSpI",
+    "object": "chat.completion",
+    "created": 1794105268,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The frame is polished and fits the style the owner praised, so it is worth keeping. But the budget bar contradicts its own numbers: the €60 fill and the €100 limit marker sit at the wrong points. The approve/decline sheet is also cropped at the top, and the lower third is empty. These look like fixable flaws, not a reason to drop it.\"}",
+          "refusal": null,
+          "reasoning": "I'm checking the progress bar against the text: the black fill ends around 39% of the bar, but the label says €60 of €100, which should be 60%. The limit marker also sits near 65%, so the visual doesn't match the numbers. The Approve/Decline panel looks cut off at the top, too.\n\nThe large blank space at the bottom of the poster is also worth noting. I'm leaning toward EDIT, since the visual bugs are real even though the owner liked the \"more like this\" direction and the overall polish is good.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm checking the progress bar against the text: the black fill ends around 39% of the bar, but the label says €60 of €100, which should be 60%. The limit marker also sits near 65%, so the visual doesn't match the numbers. The Approve/Decline panel looks cut off at the top, too.\n\nThe large blank space at the bottom of the poster is also worth noting. I'm leaning toward EDIT, since the visual bugs are real even though the owner liked the \"more like this\" direction and the overall polish is good.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSvgkKEAgTGAI4AUIIdGhpbmtpbmcSDCswCskPqD021bl3sxoM5xjMWPYSmtP4v9WHIjDdiHgnSVpWERc4nLGqgkX0h/OVEfH0Wfz4KiXTg1WF2ziQS7tXWhUvnunmDwSeHSQq2wgBx6PyEsBwPJ7V8ZurTz08MA4Hry6aFmKFgF6zKIcv1S0PmLrSGtwRhVJ7dqHwBXdR9N32QBR01iAp5lZen1Denw8icmU/BD6xKlnX7oegNedF3mailiaSPnZ7100/3Oe1vMNReLicfQgDcWsQCJbFUcA/cV8QMapyEENB7GSqIJJwZcmM/ICyuPxjjJQg0/068YLv7Mi5Fn3ZAKVz9Q0JajhRa53ySBRyXwSWsVplwsGdgs2HHgHWfNg7R3Wd5OgHqXSocfGiDitCBgUDUs8nItvjm67F/OpnU/VPJmSeLAqpXka3HaZZxOKxl7jXMDKmqS8KU6/njRa4moMBDidPKwar6Ej4i5s2eFXny887/xSncYFCtZ2UbW0BZC0vEKH13DdqQZ6MSXCYtayN/KmIq2a5ttCxSIrO6wNNzbj9wE52kCfsVAy5YSG0UxeuzW3H/TwIogllHrI5LMEf9ss81w2cDiuK6R2NpzT6LOxOxdKGLYl3HxWRECpSFvziWAmRVjtoRvqaCzqY05DgPrDxGuFWa4UfjK4dzYb0IaN0U1ak6tFMLE+4PXoQIIU12LTtkDqkOeovDWk+ifqo9o4XEajVnCkDaiksRxODRDqn8eTtoZcqJSZJu8LZOVgX8DLKigPLenPf5iUo5u0v1/WY1FB2XeSKu7HgciKwQn+wMQs9VdJYmM0ZKIqk1gqpADa997iCV/vMkNhlWQNDhXCULOBx8K/phZFlMekLbOAC0FC7wBqrDBNm+2+5tREz/EFhkbMzznZDAV9N0++rxDq0uYYiWXv7AF7k4KNn6XAAEZh3F9tA1RehdPCH0Ufyx0mZN1whjUxEzqog95IKZXNtCgSPKUETEsK5ihrOET8LSl9NOUUo8pWclRK376Ncx98si0AZxqAgPJNpUpLZureiSkoVuIsIZArW4RNxH0nFJEssOo/9qmA1BlG6TRGwyRFQNyGA19AOHdsIVHZUEmn+cxuRdFfFlRQpzk3U4nUViZJ/0m6FEOXSOwYFqGNmT6CVeNGm+tLtDjOMemrZYoE/BQdjBPpoPKl6P8plL14U3LqiH/kuxiE9BxiWe738Checut5r6HqZYEH/6J92XfO2yIQ9Z+oJBdoAt5nqI0boTZ9GGBD7ZHg7K8kyCtzM+AhIUuUOutkKPIy94WbQKffLcJ9vZCXvP22d84U5YHbUppIWbJE3tiC7GECaFbdZ+AS8o9LWPytq6VAUYgNTIj7KC0Aowp6NZ/M4RLk8SvpbXr7Dwbjbr9U5VdOfZD+aazBgtAM/WfvdJ1UtzsyfqJKHkB/yw4kXSLvyfmT7E7Fb4pFWR1srVzP7Z0P8HnJR6a6fhHSd4m+jPdpOn1fFvPuikhGLzG/S03SQFD4yEdf4ck8er1Cr5CWko3S/d4Sc1TZt6mCewKK8wApgcsinp1dEjWqzJ0NIF4WO5n0jggc5AgbP4XZexz66HSlcvJKPif/R6OyI3giNB64R/hgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1917,
+      "completion_tokens": 358,
+      "total_tokens": 2275,
+      "cost": 0.014828,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.014828,
+        "upstream_inference_prompt_cost": 0.007668,
+        "upstream_inference_completions_cost": 0.00716
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 222,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.014828
+}

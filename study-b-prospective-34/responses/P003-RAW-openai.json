@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T12:58:09.509638+01:00",
+  "case_id": "P003",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "660dccd809c49442503ea707b5d397e4435745eb171543861686cffcad9b1e7b",
+  "request_sha256": "868d07542ed4e8652669df684d869887b2819d5c51b7eb196d06fc8431eb2b8f",
+  "reserve_usd": "0.059460",
+  "response": {
+    "id": "gen-1794139085-t15Dfa5WtZoIR7iWTMV0",
+    "object": "chat.completion",
+    "created": 1794139085,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean, readable two-column index clearly communicates the message and matches the requested reusable EP4 core animation.\"}",
+          "refusal": null,
+          "reasoning": "**Determining clean poster approval**\n\nI need to identify a poster that likely gets approved while ensuring it meets standards. It’s important that no pixel agent is visible, but I shouldn’t jump to conclusions about any issues based on that. For this, I’m aiming to communicate my findings concisely. Keeping it straightforward will help clarify whether the poster is suitable for use without unnecessary details. Let’s make sure everything is clear for an effective assessment!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Determining clean poster approval**\n\nI need to identify a poster that likely gets approved while ensuring it meets standards. It’s important that no pixel agent is visible, but I shouldn’t jump to conclusions about any issues based on that. For this, I’m aiming to communicate my findings concisely. Keeping it straightforward will help clarify whether the poster is suitable for use without unnecessary details. Let’s make sure everything is clear for an effective assessment!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GPRUjXHSJcT8wW-sKBPfN8NLTAwRSRtWmaZK6SfGPtIZoFJOymY1PckfFOrqOVDHupeFaIgWpHcOKl-SSj6hHG_Wm0kK_xjlf6gsfQLXtkk1ev2HVAMzFi62bi3brRwjArmaHj7EKrzGsQVjM1NdyKQNb59olim7vJYHeFqTHqAfwXHh3eJHWNw7m-lookuLS0ZauevHgohP0V-n127cZhH-PigNds0pkQjHrKkJscyvnMtJM3ubjWeM9s4ssWslKvLmXQtDmEoHXUflW43RD-hltNsg5Imtop6J3Jrdi1JoYS9rQ2nIO0owDIMtlmLQsx9xY6wyyKav_a6lMWR2UcGGrerP2xV8lwA8pZxjLYI72dP-_uZCcPgsaCqxSdJOfF-DVSS2eUilJqnkc9tGs-0u0oyjt2dB0MMUUzSJx_9gTygCE8H1tEgeVzNo6jWY5nr0kfpTpQ6n5K2kzZnk5lxHDvZ-dV_FULIH3IlzOckNdJpcOjTFiFYDS4dCebLWn2TSPFDnS1KXT6meWAgNXRkuG4DMAkqRDh6EnJ7jRfBxQFgA_xsHk58lzeRf90UQxhfrxKAsdpTFYOcdkPs8dfNLbToH7CKgUctUpUNqxUrffQ-gcXSzm8mP9iR6dSs_tmOXMQxJ8lR8MN04rAY9h8vlZAegriTdD0wNGShNrdX-eKZDP05oTrs8xwIeQNHDttVETEssovAyJgDdf7rVRqjcVMT65ntc9NangFoXSRHfNJVPk3PLSlVJXbMqmmlKDTmL-Xr7VmjJnEZELuzJLYayxSaX6nUUVPfzr-tmxqTOkaHrCiAwbwZV07aApdo_7YIn7gEQPIGQt67my4y6QLSoq6G-ZH3yOlBgi-1ZnGjfizuG0ijB_-EaSK9LgUQQH3kGHGomlcHj6g8V4HpUWdocNI7koCfH5roKHs8yjtnXrEaBe-c0e8HwXR_YTrU_zL02z_m6FupEEydYhAe1jJMWDFvIJAI8v-5K1Kup0QHiZC7pB05H2u_7DZkqyu3eZPMmt2J1V6kUicEVtGPRABunFULRnQo2e8R5pr0chME0YTcvqEf9lEMquo_CgW8DFZbs3G_-JxUHsw2HYvPGjEiXrURvmUFU03iCrnA4uVPRMqlwQugNItdMYC4yaR7AheJWRE29jHYRXWSo3yybs2SERZfzwu1M9oZFDozj3DrIuP3ly32PhnxF6Os7UmGWMOhv7RUReT3pdztc6syrkmbs_5Jv7PGMAvxW6wjzLzB5nCNqFilJEiA-CAXC-1AE0Xogu77SCMIsIkZOGOi-Uv00_Edxj3qCPpzDINVW4OGsRoqNNWyMWxKnDOdXT50MC8OjoFq96i4GQyp9EvDkOgVUiYpJFvyWurPIk2g_W1bmRpuzKFCZ-rHvaUUPPkvfvo1dEjiW1YxjM7mcswnfoxwzzhYKV5QDBugJRszZ-wc4AY3vj5t-9MojffzE-ol_lnQTvRlYoKVnLZ0JdXYvYrFummB01rHE5YR9pjS_sPH9sPWyR_dnfcASCMcNKpZPvHOw2rE7SNY_4UhE0_cDrRrX8TlluoRQxNriGvkuuqEMuAyRkHWYj0QMq22Bwj-Bf-Va_moMQbvxjl7j3bmhmIvs1epnTYneXTaCMLewchNzFFu6poy2U0uBZtNtTOfOii_2bSTl9PzklW9WCV8p5KWd2sdzVFfJ60VbmfzXgC-oA25Jsnolc2Khr8V2OgP_Y8Z5NHy1iYY3kgg9yqBkm-VMwNH__uB9FRUu5Gt5LYB5j1I70JWs4um7PjiFFakH2Xsbmpxu9VWmag3Q9pmJlxJb40c04daAwYHnSgXxS5-qkr8Z3fMsz6Y8sBeowcOuekN03p7vwF3zBUeTMZnQ4peiv07euZQ3J5qqRxesH_3LzI_diTE834aTxgmUOIjj92OKWR-MHKqgBxzpxMwjjCZqSn6eNHNOM43ge1t1SjFimw3QH2luMMESmwIH72_YWalFw2YYvD2MFoNyN3gqzn7KtXvxPunT5UoB9ow28pmBtzbm474SdxQV5VcjM7cgbH1hBdCsUogCTBhjtIvBzGhTJYRIaYxJYJee0yXTdyKjAE=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_016b67f7ca9b486d016af063cf709487d1a7e01269aebfebb4",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2787,
+      "completion_tokens": 67,
+      "total_tokens": 2854,
+      "cost": 0.007636,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2784,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.007636,
+        "upstream_inference_prompt_cost": 0.006966,
+        "upstream_inference_completions_cost": 0.00067
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 24,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.007636
+}

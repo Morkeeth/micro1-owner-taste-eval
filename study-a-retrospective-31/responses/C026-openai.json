@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:34:57.530082+01:00",
+  "case_id": "C026",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "d5e54d33f760c8cabcc7ad2d9156b7ee041cf2c8e0f3733d74bb4328ea3ee34a",
+  "poster_sha256": "d47dbcf4a3cdc35a5207bbb519dbe7474fd0b7f07d4144e3e6a3c970a55f6cac",
+  "request_sha256": "2c9e7323896b3ea151fa8dcc6959ac7873fd9e19e0c988f609565b7f03ff3362",
+  "response": {
+    "id": "gen-1794105292-Dloz2OpMydnbSpfJerRV",
+    "object": "chat.completion",
+    "created": 1794105292,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"It directly fits the request for reusable shots, and the clean agent-and-window composition looks suitable for an episode intro bumper.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on graphics options**\n\nI need to decide whether to go with “likely awesome” or make some edits. I’ve created six reusable graphics that are positive, but they have a low resolution as a caveat. The images show a dark figure, and there’s no clear mismatch, except that they could be upscaled. I should come up with a short reason that gives a factual prediction without implying any motion in the images.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on graphics options**\n\nI need to decide whether to go with “likely awesome” or make some edits. I’ve created six reusable graphics that are positive, but they have a low resolution as a caveat. The images show a dark figure, and there’s no clear mismatch, except that they could be upscaled. I should come up with a short reason that gives a factual prediction without implying any motion in the images.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq79_RrDAw5H2oPA4jXgLaAR6okO3iLgBIJN9qXz9c5M5VizxCIUbN_jiloEniH8LKXfO10JIegmQWsDPMUEyU45JrGOR3zuSgi4wPk993zpB8iEgXa37g0QDYNIB1XwCE0EMSKfJWDa3PnUIkll_Xom__eLrZWAtpxZTORQ2xTizlYgoWcnhtqWFWbJIu_BVaDytmAAGqLMs9cTGWZiS2WvsEVcrA_C6gfxltaV9FEr4f6HeCKekRk45VBYXDluHpdOEBRHSRPAgriZI60XigVY_xQ0eusjnIKvEvev7HWH5sw1FH2YiVYAMln_-raNI8rPx9NnMKa-SxkjCDp0c4hxx6S4CWtUGAJp0GUgApS1NKfvrWxjQsVpsEcdP3LZ_bLtax3P-9J8fi9Vcio14_NndxK_a_c7eLOPyqxAZib-QLMQgvz3q1P-9-ag7YOm9A2k0b-IDaZqLtM0jVlJXWEyuZIInkU_ZtFs0LdaahT4xTF1x-Iykti0CFDULNy-YJweJdAkA9y6VwOTxYsb8wykR_SsAfgyQKGBWdUUGtvNl7kurQfze1haeUMTCHBn45R12hPhAjiiSfFiQejBPev80xkAv5eNtGZ8Af4DX0incVkL6J0aLApZ2IQhfsy5ph8327jDV8y8lCFqNNbT8I-bqvat2KCyPZhXi8A8QTTjDG-3xDzldcF_5Aig8ezHieR-g0GpdhsWF-IDHANPP0Y_doXxv5LppWq3W8DoyxJGV2uWgFqTBwLH0Ep52WbdnEWPhjJv_9G6HtjcCSW659Km1JlQ9I521rMu2yp4KLe4TB1felhKECTnXcrGhsmSTBgF2gOGaBUo4N7CaEDIg3VhBMvbOpXOET0xKWrgnbYf9939pYrDVBZhUHVOKfKg3wvBgTG3JHtq9KfZODonCYJQ3KVs6dWyVpozsJR7tqeUwnXxh-AMOus2k-8f5UMvwQ6DIbxTZ6OW6yMDrF1-doamRLgzvngqUBdndIpnqCnKkTwtk-XaZcqQGu2FOnopq8lsX7V-sgTDItZAeOFI295H_Beji7EuuV46DHTqECyqHOJM0jrWvoM78-NjMvQg2PfklXBSbcE0GQIUGBrhT74mqZMlpb2gwSMNLsWIz2s61bPW8DnDS_DrAm-ZU_7GbAK7_pzD9B98VnP6Yts-VU3YMWc2f_KExa1UVK1nGA7rNFMyvb8yEY5VaL_0r1DYr56F5WXqKln-wC6Np9TtzhQAmrvL5HnwJqu8kYMyW9eHkuKTqX7M_9QKzGtYmDCgmNda7_A4jBLelTFZK-8eEp8ole8qLtr-YHAuFZ15_dsZAR2v2Og6MGsfMN_8LRcQSR2ObiA-prLtJ5A_Qiz_R6-R53P-pdOlJOjoRnP-vmrwDqTz5VnIxm0tw657Y3VG0Q0AzMatPcsqrIt4eEM19W_qouEP3jNiGOnjqsdNqkqpc-g-6NHsy_AyTbxOUF6qZf8rRugUaZVMWEH1h_WefIFYaDzM0QqoVj0r_l8MbBHLuuAWRMUm-v4f3RIr5IoJoopE-tje1KNg_kGfhaYNLBDtsVev-UX3-Vj1c38FGcCKIThDOLv7ls2GRni8LW74zPSJYXP9-XKN59knBDdk_CmUlETpntch6uH5u4Ws3ErQpa8HhkZayhLoUCXxSHKDL5LlNDcf7ik0KgmB5zmAftH5204Pjg5DOY3ih834xuzyFaLlzd9yJHxoooGKuVh4dH_m2euGqSGqVHkBRFXIYBI9U_lI5Xoa9w3VlEf82FaTOWkY7kLIC7LqvYZIGgnjwufqwmlOXV-6I3HGQFB3MFA_PVxSKqqZXrJMvtiWUC4LvoQIOjujiAl3xCVynXepp4gunuvYVSTlze3ukz3FRrMlEtegcFAYz55vd2GWyElFJKHcD8W0s8PPZHXDvQmHbxVXQ0b4pPPEcraagoJx-rxsHHLZx72fMXW0pdTtfmj_hEHbM2IVepnAl_mW1aT97fpi_qJZeyuBJb-GdFPNa_ZfvA02emPTa1HiEDWYGT8GqQU4NaD9YLQw6iOW69BAThsIN6UxyEfKJ74X5SV9MK1__LTeVDzqcnFZKl05lb_V_qrpiwNcfd1raK5OrrtG74rc-b-iyVL6QM-8SGIPF-gNiJG8nixOPL0-jRwU1eXB_uSDq7cj1OBiLN8gacYv2YHtBsuEqdZe-N7a_8MWlXEQgNr2ar4A2QysQTvqQIJKETuc88J2SC3IIVNdI-XcpAXZVQYQOEdDWGlYAAOLqbrHgSkK-l2m9goZUdaOGFlOB3B9bRV-e7_94qnahw4Cgi2DTenngOtAylA2MzQGBqVBvRWvohW_6ElQFLqCB_xQATIZpuSEWmGlKw68AvtlVY8ElnxyQws7m4g4BQ-xoUWrvsFg==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0c3faac842eb36bb016aefdfce89e887d1be15e124f91cec6b",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1451,
+      "completion_tokens": 92,
+      "total_tokens": 1543,
+      "cost": 0.004546,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1448,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004546,
+        "upstream_inference_prompt_cost": 0.003626,
+        "upstream_inference_completions_cost": 0.00092
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 46,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004546
+}

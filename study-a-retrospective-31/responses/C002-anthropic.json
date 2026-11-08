@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:31:48.134952+01:00",
+  "case_id": "C002",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "7513d1e1fe9c165f599fd6c98b05cb5847024538daf703eafae7f32e12e42d58",
+  "poster_sha256": "8a2d5edf2ee56fe6fc8cd1c64d176278971c088a8d4554fe12869d51832e7523",
+  "request_sha256": "33156353bdd2c54dbde7c29d20ef3e4626bcab07f31bf03e907079dd29c09065",
+  "response": {
+    "id": "gen-1794105103-duOIanvS1EgXrkERk2Zw",
+    "object": "chat.completion",
+    "created": 1794105103,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is my best guess. The owner had already approved this shot and asked for more ambitious, fun generated shots. The poster shows a clean, striking paper plane over Paris rooftops at sunrise with no obvious artifacts. The cost is within budget and the recommendation places it well in the trio, so outright approval seems most likely. One limit: the poster is a single frame and cannot show the motion, such as the folding and flight, where flaws could appear.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1959,
+      "completion_tokens": 166,
+      "total_tokens": 2125,
+      "cost": 0.011156,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.011156,
+        "upstream_inference_prompt_cost": 0.007836,
+        "upstream_inference_completions_cost": 0.00332
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.011156
+}

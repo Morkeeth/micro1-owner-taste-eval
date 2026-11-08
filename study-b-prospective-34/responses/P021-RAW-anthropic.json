@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:03:32.410390+01:00",
+  "case_id": "P021",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "84204a4721884436abcf36a164876650056036b8de506060dae6b509db25ec1f",
+  "request_sha256": "78d8b3dbf0f6b3bacc5ab1b30d261a2a93910317b0063a4ace69b573f2445e23",
+  "reserve_usd": "0.098840",
+  "response": {
+    "id": "gen-1794139406-UnBMSz4pvcf9bklPatJx",
+    "object": "chat.completion",
+    "created": 1794139406,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The concept is clear and fits the index topic, but the poster shows AI text artifacts (warped 'transcripts'), a flat beige box rather than a wooden drawer, and an odd handle, so a fix is more likely than outright use.\"}",
+          "refusal": null,
+          "reasoning": "I'm noticing that the \"transcripts\" label on the poster looks slightly warped, while \"episodes\" and \"music\" read fine. The drawer is a flat beige rather than real wood, and this is a second pass at the index topic, so the first version may have been picked or dropped.\n\nI'm going back and forth on whether the owner would prefer AWESOME or EDIT, since the garbled \"transcripts\" label and the odd artifact on the drawer handle pull against the strong recommendation and the fact that owners often accept these. I'm leaning toward EDIT, though I keep second-guessing it.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm noticing that the \"transcripts\" label on the poster looks slightly warped, while \"episodes\" and \"music\" read fine. The drawer is a flat beige rather than real wood, and this is a second pass at the index topic, so the first version may have been picked or dropped.\n\nI'm going back and forth on whether the owner would prefer AWESOME or EDIT, since the garbled \"transcripts\" label and the odd artifact on the drawer handle pull against the strong recommendation and the fact that owners often accept these. I'm leaning toward EDIT, though I keep second-guessing it.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSsgoKEAgTGAI4AUIIdGhpbmtpbmcSDLALYHkhFEp+7n2OXhoMuj8XU+/pByVKFeP/IjBNxVuTBJNp0WbZcSWITvdiu1BoVXeTi+wPSsDdoaU1FsE19xxvQxrSPNZhfc3LubcqzwkWCiiQ1XjmNSJFsftdPMhl1iPrn1p3SZUGL8Y447Pz3IjtHufciPJ9F2BkxFXBf9zg0ccQtxd4qbMgpVg55cTWisttXjOCWUSQvUyF33j4Qd52d5U3Tq1bvfkGkadP/byQ3QVLXxNu7gui1iK+sFW2DYZnXzgWQ1CCVwCNX14TN8xN8wHrai3GxORIhNYQyhWBBaMZs/z7lA4EgHOL/KKD4hWSsRQtenqAF1+aO0BlEwU2b9aTtvtt86byCF3cPzByhuO4WDhUGpg2taBhvkWaGw6hNehw8fsk5460wsBR/qihqFWBBx3l/uWs6fFNzVqnm2nZwwLKelU2XDZfJC1uSj53sXK+kAIkNg2cc8fPhS6gjsRO8asKqvnXeoKkxwEF+T38zhfa12Vnnu5Nhc8KqkS7Ppu4DG4C/yvad4mYGYJ2o4YuljyQ77G+wmEnmkOcdYIQOVM6+jdCJyLKpx6R3PIdjTpHZn4obbEgw4t3UasfiHD6WAKWPV7jTK0LdknPoLol3e4PWlIh2nD7jPa9Rj70uZNJXhYTJU12CyBRlZVl73g8CMPtgNDmdIcpFyTtkCbaiqEFh0SR2mLwm7OINfznTYIz7sp5btWMbakWS80UVbTilvgTUhs81NFFF8aJPQHUFJ9c2U06HIFDiSCjmvYZ9WDg6q84t1hFRMsUb4LaRngqWcNVyXkiYD0c1ppXvkOxQuiquVoCsy403JzCZbyq87Ba53hM3BFrpiHbJP6YbAFonCAUdN/taUwA5MkKBiji8UpFVLmjU12zUItKSLNG07jBrBCSxFNx74Kp/vcEWtlIfeR7TSmvuuo73NYP3sAuhuOupdNT0RSm/2mwsAdJnbGDpYiZOmJXB0b7wWr4ZRPjYQAPMcvEVQcneUNBcWB276j+wSD7U/4D666o5rFKF5G+51PX01oj7EaISFHTQEEglpZRf4Nb1oA9HLCMKS8TD3UgfaSzyaTMQH4dBWIbM23hguI9zDr9dUoFLhLFjI3d/aXW9jO9pQTTKJpnhoZdkDWRTt/7B5DlSlfM9+UdDW3BXQS1rbq5EKo8+4T/gl3/CzanUi2fFEAUu1odbCqHCoe6pS0lELECux2vnySLe0EQRaarhJutpCcJIEFH7EcdKzOZq0FYrBUYY6PwivMqohSgsjXFkj/r/k8x0qiWpW91/z9hdoxULhbF3kNDdaDxI1KO8olhhkG3q8gbBi1lRQ5ONxcZZCCN90acZaYCwfIq+NI9wIEoPOlTLVrPbT/f/eiWa1asPciyMMKFbLU7E1RpAtLqepdEQX3wUXIdHmwmMkwgfsnSnJ+/937FhuK96t2Ah1npRIE2nGa9Zrsfcp5fyUAcE2ro0WHRES668vzPxM210YLgqNh8sUYqnCLN8kn3zeg4lM8QSDnj1im5u0p9az2damk+X+S1qalTHFClj5xFD+hSe+3dsfKi2Ej45ldTjVIWtQnFnwbSTc+mkpf2yw9i+rZsInA0ObrWu3VyscxmuByTabzF1LNreF2zvFvfV3U96tHkbTXW9qVyKquxlSqJSmoaOcmRsU2QcbAjRr9DX5/PMfgTMzbHGHEV517rV7oMXDN93pLVgUpKSkm9Vr5+g3lpRKq1JR8zDkT6exOBw5tcOoYaGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1923,
+      "completion_tokens": 362,
+      "total_tokens": 2285,
+      "cost": 0.014932,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.014932,
+        "upstream_inference_prompt_cost": 0.007692,
+        "upstream_inference_completions_cost": 0.00724
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 263,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.014932
+}

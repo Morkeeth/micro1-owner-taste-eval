@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T12:59:00.622110+01:00",
+  "case_id": "P006",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "91caed51cb476a4d4db0f1e3bdf83bbadfb2cb5453eba03b5d5599be4bd05d2c",
+  "request_sha256": "f86a7f5b1770ee403bcc1647906fbe2b63faa6091f23987aee4979073930b464",
+  "reserve_usd": "0.098920",
+  "response": {
+    "id": "gen-1794139134-y0z1R6yQV5gFzGsUcb85",
+    "object": "chat.completion",
+    "created": 1794139134,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The frame shows no seam. The glowing blue line sits right at the Paris horizon, so the specific flaw the owner flagged appears fixed at no extra cost. The washed-out, slightly ghosted look reads as a mid-crossfade frame and is a mild risk, but it is probably acceptable for a short chapter opener.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the blue line over the Paris rooftops, and the frame seems washed out and hazy, maybe from a crossfade mid-state. The owner asked for an edit and the clip is only two seconds long, so I'm weighing whether the line sits just above the horizon.\n\nThe overlay ghosting might explain the washed-out look, with faint vertical lines along the bottom suggesting another image blended in, which could make the owner find it muddy. Two seconds is very short, though, and since the fix addresses the flaw, I'm leaning toward calling it a good one to use.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the blue line over the Paris rooftops, and the frame seems washed out and hazy, maybe from a crossfade mid-state. The owner asked for an edit and the clip is only two seconds long, so I'm weighing whether the line sits just above the horizon.\n\nThe overlay ghosting might explain the washed-out look, with faint vertical lines along the bottom suggesting another image blended in, which could make the owner find it muddy. Two seconds is very short, though, and since the fix addresses the flaw, I'm leaning toward calling it a good one to use.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSzwoKEAgTGAI4AUIIdGhpbmtpbmcSDMcV/t2dVXYp96TUrhoME5NE7u9/TKjKeLDBIjD0+O3mYgw/w+XrUxwjEgOEenMm8pECo/ED9lO8a1Llo1oCl1xubF5XSPAduhYOriYq7Am+lEZWE3ilH9eVrpa9BXNRH2J9wkUEpOHTWNrH3euzcvU1AugM0Jo5YlmvLoAEDAtUdwf6eY165A6oNlOWqBUd1o8PB9jOJ4H6QiU6KUD1NBS8oONJ5KBmeHF19Hrn6PQuycjro/Q+V1rZt+xEItB0as+sbidx7h8mnmzqBjVWTEy7TvFerQNagyS1bttEggEcWz1hbQ2jhNuiG1x4xyKXrhQd/Wf0w7/TBQCw4vpsn+WbM6HfOjKcb0gKcI3mipnW+EzAONIWO0SEBq5udXk2s5Ghb59/+c38peJQzDsT6lTmDNxJLTApXvPK3wMHOMQPmaJyO5/JHNka4wteK5BLq/dYyAUWMeHjQ73RI/VwR0WUSQwv+or92AYUwTrF/mhceaMLyqg6dV1L+yKya+5IX0O+vcBc6iWnxZUPMLJ7tH/5HXT2+QC6AsNKR9EsDvGOPAmXyIdPg3xlmHc+/q5R5YMu+ShJyhc5HpLhHhxGIvwkXu/Mn36on13+jdvlJMI14Kskltlcg71XK/ky771oeX966+qeprEZKrpwyHWDFOXlu0ORPLqjWYcFvdmSYYkkWxFTniGGURCfWsGFThS9wrnIPNin4f5VVodIIt0WQdM1VTqpjVVmyzriJzxu60zz+t73alcWJJKkrTDufwuJXa8stjTi6qYGyTRBZtbgqVdK3G8OOrHmRA6rY70HpbcChImdi+quFTqwKYdBE6Dhsba2KGahSB7R6464/PvVGf4/pLKZYnCHlfHCZzDEstwoX6Gl2MGC13e/sllJ5FmhAOrNlJN64M9XJgvjGgnlIh4ReNL+o6kIP+ZRzHtmXK73fGXMICmgbLrXiBozi8jRdYd3i9qqV3IPqU5+u1e8/Pt9nUIFwC59rRuFFLBU9WFmLbe+FlM0h7bbJDw2VVfDUKfsnC/KjI5V1niNKmUJGr5oesh7H7S6/LQYl/ccH9axmmX9Uplb6mQ5AIRMYsgJ4vwQVTzEkyA24iS7bSBQYGmuC8EDASXDuBfvZVjOuAXwEp8vMt2nYJkoZxgmtbFu+Ef71m1yQVRJTp6Kd/6YBeotHgGKMQvHs/s3aoYRp5dmLObX9xhtw3lDUOJDBpmYPa24T424kZCBEIvLrV/RQps+BtkX2T2PdHfs2p/p6kJpCNHkq7bx/Cdzmr/juC1fg5ebf1k8+yBUlPhKqTpkwBhU7dLffLueMa9Eqca1AgLyL0X3qFMBwnvZc405E5O7F069hzV6syz5hRylvR+9CwQwSLm2xWNI2Mx/amaoENJy4yixWocxmuTqRRKPJhtB3NXEWNQ34sjE6Pxyi2gKXKjN4Ap3nCWhqStJq1liXq0o/tWFiSaeYUAi1XKBKZm3eU/xDP4uWPwsxUffs+cNoH+ENye8hkxGctLKUtm5tl6N/r4Yj7vjUspUpow0HhAgI+dL1vE9JK3XNRfYHROjA33D2scjmHHBS5CPPX3QVA1lcNC3TP/ytJzZNsA3fDci0BAcrLKOmyIC7kMke7Gsc9nlzn9clYSMDJDOpoU3sy27J9VGwhlgjiwe+gR1m5xzqOIz4BgmE4RtWq/MxcUkyo/5t85Swf8cpUA3oFHcsLyMGhit9tWb2jl6gy1g2fW2N1mbz792a0iicxkUBhA9Pl0vhgXrZFtPXo0jPjAgg6hlHDGa6cjwRMHlHbcYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1918,
+      "completion_tokens": 400,
+      "total_tokens": 2318,
+      "cost": 0.015672,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.015672,
+        "upstream_inference_prompt_cost": 0.007672,
+        "upstream_inference_completions_cost": 0.008
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 270,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.015672
+}

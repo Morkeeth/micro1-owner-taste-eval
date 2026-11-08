@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T12:58:54.509317+01:00",
+  "case_id": "P005",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "c44562add349c79e208a6e76b4fe46350ceb5a1903a08b24b813c161ed598ef1",
+  "request_sha256": "a1d7374da461812230010a7411eafc02058d3910e2c2268b5f6775ce879458d8",
+  "reserve_usd": "0.093316",
+  "response": {
+    "id": "gen-1794139131-DrgsXPvpYSsNCgEOcp1J",
+    "object": "chat.completion",
+    "created": 1794139131,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly wanted more reusable core animations and repeatedly approved pixel-agent concepts. The poster’s clean chapter title, signature blue line, and familiar agent fit that preference without an obvious content problem.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4843,
+      "completion_tokens": 58,
+      "total_tokens": 4901,
+      "cost": 0.012686,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4840,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012686,
+        "upstream_inference_prompt_cost": 0.012106,
+        "upstream_inference_completions_cost": 0.00058
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012686
+}

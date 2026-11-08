@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:06:23.423995+01:00",
+  "case_id": "P031",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "b37138b6bc0ce79d81792972e55bee0b8c31e2b89d328a4f2193bf0fc86aaf76",
+  "request_sha256": "6211e96228b0624dddcaa156de73861e672f2232baf834b236266c8e876acd8d",
+  "reserve_usd": "0.166424",
+  "response": {
+    "id": "gen-1794139577-RQySjJWYSWqN4p6TSRMk",
+    "object": "chat.completion",
+    "created": 1794139577,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This revision applies the requested fixes to a cmux shot, and the owner has praised cmux before. The poster shows a clean real-screen frame with no skew, and the owner tends to approve revised drop-in versions. The plain white panels are a risk, since the owner has called that look boring.\"}",
+          "refusal": null,
+          "reasoning": "The owner likes the cmux piece, and this is a revision with their feedback applied. The earlier complaint was that the screen looked plain and boring with its white panels, though the owner did say the slight skew on the screen recording was fine. Now I'm weighing the static white UI against the need for something livelier, and I'm wondering about dropping the agent, which the owner is fond of.\n\nI'm still weighing whether the owner wanted the agent kept, since they seemed fond of it, but this is a fix to an edit request and they've been positive about cmux, so I'm leaning toward going with the awesome version despite the risk that it looks plain.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The owner likes the cmux piece, and this is a revision with their feedback applied. The earlier complaint was that the screen looked plain and boring with its white panels, though the owner did say the slight skew on the screen recording was fine. Now I'm weighing the static white UI against the need for something livelier, and I'm wondering about dropping the agent, which the owner is fond of.\n\nI'm still weighing whether the owner wanted the agent kept, since they seemed fond of it, but this is a fix to an edit request and they've been positive about cmux, so I'm leaning toward going with the awesome version despite the risk that it looks plain.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSuAoKEAgTGAI4AUIIdGhpbmtpbmcSDOVJp4WihwLrdA/tPBoMRqIjaoFxeWE9pyDmIjDVklU57fYOQAubLf+HQ4yvt00ZzSxKVVZSkT3Sb//EPuKIIyE/8ptBbNx7RmemnHUq1QkZOh4LuGv5TLGxKBJfPZkIec3pvjN0PW1ZwrrT8qjDBQSUuSuls7WcJMY8ZFxV+QdHR53FYzU7WtjuYbFIB1oGpHi9I3uatKtyPpVlxyh+5hZUXuVobYeIZM0hld2TQ4t9kSobwqpKaVdqRaRprxZcHNCROOLy8LccNUK4Rz3SEveGibGUx90G6WdtPKQyUFzmdKl3rVp/ayblw9nPxjsh7nhD52LQ7tfRUdHaQSTxR2inl/qelFD3yxwQwDr/1QAheAxGYD16kBvz6OZVGSE7b0swAnBbdFVxnsuFADzuCFBAsBrYDSs+dMUc8aV4gPwCPGovHYCO5tWS+vPFDtaLAQa4VIlOaBiK5u3d2BjOixgvTfWuY09k70BpjASOnYHGKECx6z2N9w+mwVMOPGJLDVU2iLGYR4ToIdzhDZDokSDz593H7ngJeZ2D5LWnCjwq2/PnKh24t8tJ8p9Vq9MIE5R6+yBxFku8dwWNhAgK3fZ/FeK5fZL9GPTmQoxLtwWntfm/c4/e/6gY8EGHl4OpCcHBWEa/SGgQ9e+1lV8a4LMOn8Aw5xfOFCnOcOCkh0ItQPKAlhlVOLHFcg7cVqFSMBMZJq1jjhqvwMAArTgCzWnfKPRmmmuvJ1Pud7fTOlVtYSM1MVI9JiqbILvHRRQCxV2bhhSr+WDSJGrmoRkNwfzWPMkXusvTNqtN0bNt+wz8cgHbTXkQry22xAYrn+H0lZ+JAJV/usqMja22kvR4rf046krgLEWXBm5Mjq0uh7ke4AYZfemCQ/oqI/RrRYAYYBeHWBYDFl1e1tVw+FtPNmbeb9jX4cSlFvN+/PysNcqQlY2VfhSj1MTjs+y37FGdWmp8rwO++gOXczwN9LQNWKWL8+aqQgctXXtYQTZOzGVKYVX3o6MpD8cMYPJ3309Io47l7BHLhPsbGi01UCCNkzZudSSxqenZ/EYOLYef5sEa9p9oKQwVU87EOw7Vkcc3ZVx371/I9knEfB4Vh3apd3YYCpXC1w8cZuJO1Mpv5LXK+TltD08vmRoyJT6j+BmTQcA7BI1cZrMUHkcBbxk38L41IbtvHenbrMyWy0T/oUIf2Gm3ZsRhvaiNKkTIiQTiOTyIB3v5jVQibLv/MLxXHQGUDxTOjUA8aj9q4vuS2O6f51WOADWIvsr2SfmDbWW6EwRjpSD8RXzMm94wQX/V35bYTH8yIC/NBHqbrQo3AjzTyUEDzHkxGy2grg+gjRr9I50+qnEC9/3StTOWaagaRUwZEBBtZmR5u0mlPuvaKt52G7otVITUVCO28OkZyNi6v9nbWJTU91gDezYntVit3LrnqE7fOR/fHAXPFH66F8AmQ4xSjbRzNJ7i0hdpv8JZGFg/OgoU53gksVuYO/49jtl7vUso+N6HTZIZVDwNVLEjz46EZ9tvaWx424tsq+C7t1Kn0YQDFA6mLrTRvdnlQHHXDi95Ug1HHeLXsH/wnP6wHnidyDuDMrc+7EjFpuFVg5/+KIPmVP5R4RPaXjYDwwwagRVDEBAWM0oiMZxzeFG22HsLqWjfSw59fzCRZgwnVVjm9yH79TYmGHGpBogLlSFIn8EPre5Ic93gPXNq+fcB+pgKLLH0CKisFi0j6F7TFBBzyGWO6KXfLRo441F2YAhyulHTGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5009,
+      "completion_tokens": 357,
+      "total_tokens": 5366,
+      "cost": 0.027176,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.027176,
+        "upstream_inference_prompt_cost": 0.020036,
+        "upstream_inference_completions_cost": 0.00714
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 243,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.027176
+}

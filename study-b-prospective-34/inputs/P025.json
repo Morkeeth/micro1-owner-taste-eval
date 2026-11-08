@@ -1,0 +1,23 @@
+{
+ "case_id": "P025",
+ "shown_card_text": {
+  "title": "A terminal ticks through its steps",
+  "what": "A dark terminal lists plan, write tests, run tests, open a pull request and wait for review, and each line lights up in turn. The glow is green, not your locked blue.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Maybe an edit to recolour the glow blue; the pacing is good.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P025.jpg",
+ "poster_sha256": "37c48e30e14a39f8f996436652dd707f2f066f0b70fcdedbe7865653b03a587a"
+}

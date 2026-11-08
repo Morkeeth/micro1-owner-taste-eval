@@ -1,0 +1,23 @@
+{
+  "case_id": "C021",
+  "shown_card_text": {
+    "title": "Token story, second version",
+    "what": "The longer token story with Claude and Codex side by side. It never went into a live Short or a published episode.",
+    "why": "You asked to see every unused animation so each one gets a clear fate.",
+    "question": "What should happen to this animation?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Watch the clip once; your answer decides whether it goes into the Shorts pipeline.",
+    "context": [
+      "Earlier you wrote: \"this is sooo cool, great job! we need better attribution\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C021.jpg",
+  "poster_sha256": "6f2c9ac40cbc4aa35c666ac4244050b6b3f678d0e18fca79b28e6c412b76b2a6"
+}

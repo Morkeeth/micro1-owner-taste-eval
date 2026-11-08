@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-08T03:32:03.575041+01:00",
+  "case_id": "C004",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "45a30a06d88c663b5ecd0293de5efc49447abed57ee437a15bf57fb718e39440",
+  "poster_sha256": "98cf6e489cdd2708e17c2a68c9a10463b787c47590ff18a86083246e17252728",
+  "request_sha256": "7b293aa4ba5270e5ed96ac0b2106532821eab3af2f71cc3e7e759791d58951bf",
+  "response": {
+    "id": "gen-1794105118-NErWShB7rIfcdyE6s2xz",
+    "object": "chat.completion",
+    "created": 1794105118,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The first frame looks polished, with a clear headline and a believable four-agent terminal grid. However, the facecam overlay covers part of lane04 and the window's status bar, which suggests the layout needs fixing rather than a full rework or deletion. This is judged from the single still only.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the card, which says laptop, fleet and panel animated together, against the poster, which shows only the terminal fleet with a webcam overlay covering part of lane04. The overlap obscures content and makes this one look like the one to edit, though the title mismatch might be fine.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the card, which says laptop, fleet and panel animated together, against the poster, which shows only the terminal fleet with a webcam overlay covering part of lane04. The overlap obscures content and makes this one look like the one to edit, though the title mismatch might be fine.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSlAgKEAgTGAI4AUIIdGhpbmtpbmcSDFmwMoBAFAiqf6biuhoM7I+SJwVOwl76h4VqIjDwPV/qJxW3KWPkb2cPzIKB5t7SuhRtsTAY19GGEcyp0QOS9bxRQk3hpkhebY7zwg8qsQcvAXxvm2NGdFUeNVMbQFpi2AezQEp3pDsg29tZw1EgYgt/ozhxzFxAFGRJ42yTviMhu6YgXqCmhMM5Wp1BAfvy98ZcDlVmBkmDjNlCGZsgvIQ+k4ZqkCkrwyXlRjsDWBQ1xCd/zzMrZb0Q834YJkBeD2A/phRv4JLHUtxGOIfAQ9Qzu7zRptrIzARau7hWFwyTDPdEn4DXm30T3Q20bpIQ8FtfiUbhlMz6htb89lOv/h8L+Zrrr8aFu0ZmAqZllqUPn/LzZi4W1QOCRirLDGvX4FKMCTm+saF2UOGAkF+5fS9z0bb6ZxMOBYwHMKdU/F95YZe30xBOIuLsBcwUmQf3jwFo7OtMHSnVt6VdNbLhXNShx4DWsDaH24qUYkTktGPuU5YQuRoVr87EO8hW4cwJp0xKQx/B2hq46u3KJPdSUmr7bYSivB6hcSu1T9t0CXg7ponbwoYsHsD9SnWcFqYh56bS4eexo9ShoYt2aLChC2jzCKChq3qIOntJJ5JUPdYtAbY7BfriitAcHKuU+mj3+fwBjkwTU/HHF4ZBDMFZVT2D1bq3jT2bk0GwsPg60eBAvLglseLFUj1Jo33Gv6sKWzQCgwsPxOKPp9zAyEkKL5QrUQOQBzmm7Kvn4mdlIprqlMnpIzn6HNnPPR9NUuQU2DTQz6WFLdv0gRZD3FV7gORR77E0zm5p9ATt5AmzTZxklZ+QS+YNKjrVMiyboiVTJWSo+/CVSGLfbpNTSE6HeD92vnnKEWkHZBYGcb8NEAwvIM1GmFTyl8tFo2tf2i/Zw/DrHrWxU3G6xYg6n1f4xerVoyRXvO7/gHBK05n7maHYlHCzaVwkHJmTfr6zcHWkzXPc1CS5fJD08mBEnBAook1wvJJmNmvjx2Hye3rHy0dOaSs77RTeQxkJdMlLIq/MaMrjaKj+vb01Zi7vmcYVdWSYywhoqLT52xPv9wIZ3PvKZPm4CE4FZUP3znn6SqbEaxng6NDi0a0WOsQLE9mYE8Q8BLX3SuBLeFQOsjnLm54pusfX8t4nzEiuvYgjSWfHZQbWRZZj1NSidBx90lGUtAivwQIIxTROE0PvJuxcFsdUPDfK4/o3ZoVrlD7fr2iun9I4am8XhxokTeVrswLPU+6kNoEEHhiT+7tm5eUnD5OYoZ9/R8UCEjoUH++wK/JoqcU3wUMRp9bvTYYM5G2iO/OadK+79W2wGaxX9tuTNc0g/TE6qb4fAq2A0XzGWevBNxISfgT8d0s/ITGn5H+sq90YAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1902,
+      "completion_tokens": 258,
+      "total_tokens": 2160,
+      "cost": 0.012768,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012768,
+        "upstream_inference_prompt_cost": 0.007608,
+        "upstream_inference_completions_cost": 0.00516
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 146,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012768
+}

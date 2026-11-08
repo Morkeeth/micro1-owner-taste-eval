@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:03:16.632901+01:00",
+  "case_id": "P020",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "ecdc6ce2976a9beb34fd4309d485803e0ad00587f0880ee12ceb7c98683fd283",
+  "request_sha256": "a6ccc91fa22012d0f7351443f39ee029a942e1ca5ef5778dd7589e79cb9e91f3",
+  "reserve_usd": "0.060032",
+  "response": {
+    "id": "gen-1794139394-0WN3l2KOyQvkUo071GzL",
+    "object": "chat.completion",
+    "created": 1794139394,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The card describes usable opening and landing sections, with a messy middle that could be cut. The poster’s warped cards support editing rather than using it unchanged.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1466,
+      "completion_tokens": 49,
+      "total_tokens": 1515,
+      "cost": 0.0041535,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1463,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0041535,
+        "upstream_inference_prompt_cost": 0.0036635,
+        "upstream_inference_completions_cost": 0.00049
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0041535
+}

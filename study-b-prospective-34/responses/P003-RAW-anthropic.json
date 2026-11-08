@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T12:58:05.591450+01:00",
+  "case_id": "P003",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "660dccd809c49442503ea707b5d397e4435745eb171543861686cffcad9b1e7b",
+  "request_sha256": "1d49b3e83f810b252786df12584914d1916377e756b1df97331f5a07696b4f36",
+  "reserve_usd": "0.098440",
+  "response": {
+    "id": "gen-1794139079-B7kEP3AYZTeiHmpywo6R",
+    "object": "chat.completion",
+    "created": 1794139079,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The frame is clean and on-brand: a clear headline and real index rows in a tidy two-column window. The empty left area plausibly leaves room for the pixel agent to walk in. It directly answers the request for reusable EP4 core animations and fits the 'we checked what exists' beat, so the owner likely approved it as is.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the poster, which shows a clean index with no pixel agent in this frame. The card says the agent walks in, but it may only appear later. I'm weighing whether the owner would reply with something like \"AWESOME, USE IT\" or \"EDIT,\" and I lean toward A.\n\nI keep coming back to whether the owner would call it \"AWESOME, USE IT\" or push for an \"EDIT,\" and I can't settle it. The frame is a fairly static list with little motion, which makes me doubt it, but the design is clean and the data is real, and it does match the request, so I'm leaning toward AWESOME.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the poster, which shows a clean index with no pixel agent in this frame. The card says the agent walks in, but it may only appear later. I'm weighing whether the owner would reply with something like \"AWESOME, USE IT\" or \"EDIT,\" and I lean toward A.\n\nI keep coming back to whether the owner would call it \"AWESOME, USE IT\" or push for an \"EDIT,\" and I can't settle it. The frame is a fairly static list with little motion, which makes me doubt it, but the design is clean and the data is real, and it does match the request, so I'm leaning toward AWESOME.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQStAoKEAgTGAI4AUIIdGhpbmtpbmcSDMCLiy15D9cMSFMOKhoMsoQ+9WR8VT+ySJGsIjCHYpT8OnaJsPeTFq1vAqyLwmaDt+U/J2ArJyMp7xNqLrgOfW+JYDC4UHPH5T13QLkq0QmiePujpTHRncs50OVVlu4pPNGKuUeYBXBkmwa9X24T3JReVLIbYFmy4InZHLR2WFh4+6vnvtC5yPoaHvA5q484PVSwgB/HQCMzYB483xp/lz3RGg5D9JOfFkmsqsRk5F3gcYjRRy0bevRqiXzCzMl/LMUiYXEWnSb7Vbu7X5k6kGbT0NZz5+GMkymJlALnT1FJ+zLwdu4pbHC1jnLv1isER9d1sRPpIyEJYAroy2DaRyRZ3oLuMaT7mECRjkk+06CGe8+2In/lBdR/vrFjYkRh8ZXOhhskJFTq+tB6pPM3zP0CsYD81/qhjzjyT3pNBdAhJadXzT0vzNnnLE1nQEcQb9wQjUzOppdIwlWklJGN9oDWh5Bn3k8VVpNba4NBK8ZgLkq/8+lvgLfNGFU3H9Hi4Q84to3SyS1fIXe5NUYgRYRGKRFsg39o7t5+NS/WizE3K5xPh/r7Te/6riATcXk0DD0ERypceLhkJSeZ9CdLsmzB690kqtXzK3sxdLbufIS1DyxBGUWeNlmTIz+d/86DoVN8pgKTRXkUoUFynoXdRfs03UeaPiQDcO0/mAvzh15OwGnZQ0uiT8os5Aik9sjbpVSwgPY2oxXeDGPqou0G6VGlVIQ44gUlEAC1zSO3U4Z4clk5BIzQAwyA0EW2rHPtwRSYtSplZQamW2q7UoAzL2tEt7CZme+wcUsD4Jicr/MCNPRDqZaDSA/bgXL6TRVAfaRChyQGqpmCwdyj9XZZcXpLyaPNn7N8KvPFLvoZ/Ar98oIq1ce6znvsZ7OobrZUkNk33ePMVR4vfu/1+KVmcVocw66a2CVBrc9AJ/nPZ7E1G45igKzLmvuQ342Mdh1sHJFw088zd7F4YRJprwfGciZ3N+upRCe4X3KdBzEdODn1jfa6eTHA2ebxhsjJ0tfsHuEjPQgXJO0Tn+51OkB+2qx5DDPZJDpkK311NCsAVbIcjD57qqO9TRU60r2f8suwzkmRX5M0PdQblzf2w8724hTGntJoJZFps0LMslEaqremmYfAE8Eh6GzN72Gsc1T/ulXgJNb9yCQjgD8c6oQ0IquDSO1zczg10TvffpHN1EpfkVOaPbt76SQqWRck5jB37kAqhzktK780HD6yLrzB/h4A+4pRzWiyde33ub2Y+ZeRaKp6IuTfTMP+MmZR5XXLltVCRi5MPnVqDf1mBGEZaoolXlSLgv/zZJ39sdf5JblYEtWX1DeMJzm9K4SMIGNhTFmWacz0yaK6sOIh0Mmf63viSdc/vP1ueD+KXcZN0bqt1rsNJ1QKPF9pQATbOKNm6Q3Z3EqBHl+kakblijmZ++SPUI4NUObI9kwVyNZvy1TZM++OhRQ3OcIDl8o3NwfQJle9YemTvb1YY80rIXRGMrZ3aspkBuOHUIbDb3GuF5RSa0qLZpPsuME5UyMMyBhd9lNfE7H2Xt9UVnBJHDoYd+tA6PYG/KB3fxQ+ZyCgqin1qC7+FOsa0rrc/aI3wCvSGTPZJmveyl5miKbyHtpWwSkqyEjihoen9GSAVoGokHaM7iJSo4b3j9vy6qF7D4J5pNH3qwTWoSkr7zaNpuK5f+p6V2Pl1wUQ4nWBGlqMeOYPwY96uG2EnMQAuNrk3Ec0ICeZh3o78TMVAqSH/21RSNgYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3395,
+      "completion_tokens": 373,
+      "total_tokens": 3768,
+      "cost": 0.02104,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.02104,
+        "upstream_inference_prompt_cost": 0.01358,
+        "upstream_inference_completions_cost": 0.00746
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 246,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.02104
+}

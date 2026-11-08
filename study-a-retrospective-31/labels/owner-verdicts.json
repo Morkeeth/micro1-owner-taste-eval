@@ -1,0 +1,955 @@
+[
+  {
+    "case_id": "C001",
+    "id": "anim-higgsfield-agent-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4002,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "Ok this is AMAZING, we need to do more core animations we can re use! Lime CMux, index, weekly limits core topics",
+        "ts": "2026-11-08T00:54:31+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 59.6
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 3992,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is",
+        "ts": "2026-11-08T00:53:54+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 3993,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is AMAZING",
+        "ts": "2026-11-08T00:53:59+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 3994,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is AMAZING, we need to don",
+        "ts": "2026-11-08T00:54:04+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 3995,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is AMAZING, we need to do more core animations",
+        "ts": "2026-11-08T00:54:08+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 3996,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is AMAZING, we need to do more core animations we can re use! Line",
+        "ts": "2026-11-08T00:54:14+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 3997,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is AMAZING, we need to do more core animations we can re use! Lime cmux",
+        "ts": "2026-11-08T00:54:18+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 3998,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is AMAZING, we need to do more core animations we can re use! Lime CMYK:",
+        "ts": "2026-11-08T00:54:19+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 3999,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is AMAZING, we need to do more core animations we can re use! Lime CM",
+        "ts": "2026-11-08T00:54:20+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4000,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is AMAZING, we need to do more core animations we can re use! Lime CMux",
+        "ts": "2026-11-08T00:54:21+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4001,
+        "id": "anim-higgsfield-agent-8nov",
+        "verdict": "NOTE",
+        "note": "Ok this is AMAZING, we need to do more core animations we can re use! Lime CMux, index, weekly limits core topics",
+        "ts": "2026-11-08T00:54:30+01:00",
+        "card_sha256": "3c8b0285e4e0aa90b5d1838f3cab40307ed921ca8a1ca60078a2e15c6bf54718",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4002
+  },
+  {
+    "case_id": "C002",
+    "id": "anim-higgsfield-show-hn-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4003,
+        "id": "anim-higgsfield-show-hn-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T00:54:51+01:00",
+        "card_sha256": "57aa8be579a5720aa83f9f4fb6fb40bcbe43f4182e080c5964344371519ee4df",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 18.4
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4003
+  },
+  {
+    "case_id": "C003",
+    "id": "anim-higgsfield-traffic-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4004,
+        "id": "anim-higgsfield-traffic-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T00:55:03+01:00",
+        "card_sha256": "48d967167627717a2a97610fa16a747bd2bb311f6457818f051a48e851348054",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 10.6
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4004
+  },
+  {
+    "case_id": "C004",
+    "id": "anim-unused-laptop-fleet-panel-8nov",
+    "label_exact": "EDIT THIS ONE",
+    "canonical_events": [
+      {
+        "source_line": 4007,
+        "id": "anim-unused-laptop-fleet-panel-8nov",
+        "verdict": "EDIT THIS ONE",
+        "note": "Slight skew on the screen recording but Cmux is great",
+        "ts": "2026-11-08T00:56:55+01:00",
+        "card_sha256": "a54d49a51eb4e0f377f037c583f960967c0679228ae7c0ac05060b0e2efff926",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 110.4
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4005,
+        "id": "anim-unused-laptop-fleet-panel-8nov",
+        "verdict": "NOTE",
+        "note": "Slight skew on the screen recording",
+        "ts": "2026-11-08T00:56:46+01:00",
+        "card_sha256": "a54d49a51eb4e0f377f037c583f960967c0679228ae7c0ac05060b0e2efff926",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4006,
+        "id": "anim-unused-laptop-fleet-panel-8nov",
+        "verdict": "NOTE",
+        "note": "Slight skew on the screen recording but Cmux is great",
+        "ts": "2026-11-08T00:56:54+01:00",
+        "card_sha256": "a54d49a51eb4e0f377f037c583f960967c0679228ae7c0ac05060b0e2efff926",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4007
+  },
+  {
+    "case_id": "C005",
+    "id": "anim-unused-raw-eval-reframed-8nov",
+    "label_exact": "NEEDS NEW CONTENT",
+    "canonical_events": [
+      {
+        "source_line": 4010,
+        "id": "anim-unused-raw-eval-reframed-8nov",
+        "verdict": "NEEDS NEW CONTENT",
+        "note": "It’s not the best one: slightly boring with the white panels",
+        "ts": "2026-11-08T00:57:24+01:00",
+        "card_sha256": "f6b00c98bf4d1d5d55effb76512b0ea724cc390a7130496aff1009680e80ac90",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 27.9
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4008,
+        "id": "anim-unused-raw-eval-reframed-8nov",
+        "verdict": "NOTE",
+        "note": "It’s not the best one",
+        "ts": "2026-11-08T00:57:16+01:00",
+        "card_sha256": "f6b00c98bf4d1d5d55effb76512b0ea724cc390a7130496aff1009680e80ac90",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4009,
+        "id": "anim-unused-raw-eval-reframed-8nov",
+        "verdict": "NOTE",
+        "note": "It’s not the best one: slightly boring with the white panels",
+        "ts": "2026-11-08T00:57:23+01:00",
+        "card_sha256": "f6b00c98bf4d1d5d55effb76512b0ea724cc390a7130496aff1009680e80ac90",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4010
+  },
+  {
+    "case_id": "C006",
+    "id": "anim-unused-style-folder-8nov",
+    "label_exact": "NEEDS NEW CONTENT",
+    "canonical_events": [
+      {
+        "source_line": 4011,
+        "id": "anim-unused-style-folder-8nov",
+        "verdict": "NEEDS NEW CONTENT",
+        "note": "",
+        "ts": "2026-11-08T00:57:34+01:00",
+        "card_sha256": "dbf3eb2bdb2bffe9c0f736fa99bd61c717168d2b936c4b227eb59335c38b6a7d",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 9.3
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4011
+  },
+  {
+    "case_id": "C007",
+    "id": "anim-unused-unslop-real-ui-8nov",
+    "label_exact": "KILL THIS ONE",
+    "canonical_events": [
+      {
+        "source_line": 4013,
+        "id": "anim-unused-unslop-real-ui-8nov",
+        "verdict": "KILL THIS ONE",
+        "note": "We need a similar but this one is not good",
+        "ts": "2026-11-08T00:58:06+01:00",
+        "card_sha256": "f94633039bd2300182775a7f7d55fda450dc969fa348715d290a5a516e8db571",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 30.0
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4012,
+        "id": "anim-unused-unslop-real-ui-8nov",
+        "verdict": "NOTE",
+        "note": "We need a similar but this one is not good",
+        "ts": "2026-11-08T00:58:05+01:00",
+        "card_sha256": "f94633039bd2300182775a7f7d55fda450dc969fa348715d290a5a516e8db571",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4013
+  },
+  {
+    "case_id": "C008",
+    "id": "anim-unused-books-orbit-8nov",
+    "label_exact": "NEEDS NEW CONTENT",
+    "canonical_events": [
+      {
+        "source_line": 4014,
+        "id": "anim-unused-books-orbit-8nov",
+        "verdict": "NEEDS NEW CONTENT",
+        "note": "",
+        "ts": "2026-11-08T00:58:19+01:00",
+        "card_sha256": "c71375474426010e30c07fb7463f32c99d90d6f389c68d8f44e4086250ab0758",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 11.3
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4014
+  },
+  {
+    "case_id": "C009",
+    "id": "anim-unused-close-object-8nov",
+    "label_exact": "KILL THIS ONE",
+    "canonical_events": [
+      {
+        "source_line": 4015,
+        "id": "anim-unused-close-object-8nov",
+        "verdict": "KILL THIS ONE",
+        "note": "",
+        "ts": "2026-11-08T00:58:35+01:00",
+        "card_sha256": "637623138246841216f2df98f01219caacf8fa88692cf5cc327a6be5680c453a",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 15.0
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4015
+  },
+  {
+    "case_id": "C010",
+    "id": "anim-unused-ep7-batch-five-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4018,
+        "id": "anim-unused-ep7-batch-five-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "Yes all of these are magical this is our statements for generating new ones",
+        "ts": "2026-11-08T00:58:55+01:00",
+        "card_sha256": "211a019f2d34d44b83e0d2da8ecbd5f97956b9ddbf27b396988810a5db32626b",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 19.1
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4016,
+        "id": "anim-unused-ep7-batch-five-8nov",
+        "verdict": "NOTE",
+        "note": "Yes all",
+        "ts": "2026-11-08T00:58:46+01:00",
+        "card_sha256": "211a019f2d34d44b83e0d2da8ecbd5f97956b9ddbf27b396988810a5db32626b",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4017,
+        "id": "anim-unused-ep7-batch-five-8nov",
+        "verdict": "NOTE",
+        "note": "Yes all of these are magical this is our statements for generating new ones",
+        "ts": "2026-11-08T00:58:55+01:00",
+        "card_sha256": "211a019f2d34d44b83e0d2da8ecbd5f97956b9ddbf27b396988810a5db32626b",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4018
+  },
+  {
+    "case_id": "C011",
+    "id": "anim-unused-screen-ribbon-8nov",
+    "label_exact": "KILL THIS ONE",
+    "canonical_events": [
+      {
+        "source_line": 4019,
+        "id": "anim-unused-screen-ribbon-8nov",
+        "verdict": "KILL THIS ONE",
+        "note": "",
+        "ts": "2026-11-08T00:59:03+01:00",
+        "card_sha256": "2353bf022cd021ce05566ecf3d1caabfb1db36a3c6b165d1e14596adcffc4025",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 5.8
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4019
+  },
+  {
+    "case_id": "C012",
+    "id": "anim-unused-ep7-batch-four-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4020,
+        "id": "anim-unused-ep7-batch-four-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T00:59:18+01:00",
+        "card_sha256": "5c387be5a669c436112a7ec9f5bab7005b799d9be097f3f3411fade43960c661",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 14.0
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4020
+  },
+  {
+    "case_id": "C013",
+    "id": "anim-unused-ep7-batch-three-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4021,
+        "id": "anim-unused-ep7-batch-three-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T00:59:26+01:00",
+        "card_sha256": "1474cb5da111bdeb60066a21320ff32d89eea105444dddbf6c7563e9266afc73",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 6.8
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4021
+  },
+  {
+    "case_id": "C014",
+    "id": "anim-unused-ep7-batch-two-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4023,
+        "id": "anim-unused-ep7-batch-two-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "Yes all of these are grear",
+        "ts": "2026-11-08T00:59:38+01:00",
+        "card_sha256": "46da1f9e110f39c20bcce9609f2330d9a38cc34da7649b65ff50450ceae70504",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 10.9
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4022,
+        "id": "anim-unused-ep7-batch-two-8nov",
+        "verdict": "NOTE",
+        "note": "Yes all of these are grear",
+        "ts": "2026-11-08T00:59:38+01:00",
+        "card_sha256": "46da1f9e110f39c20bcce9609f2330d9a38cc34da7649b65ff50450ceae70504",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4023
+  },
+  {
+    "case_id": "C015",
+    "id": "anim-unused-ep7-batch-one-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4024,
+        "id": "anim-unused-ep7-batch-one-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T00:59:44+01:00",
+        "card_sha256": "28ba95bed5439ebb67022312955d7e5d8c7434d3d87af4bb7ef3d3d4967ab456",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 4.5
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4024
+  },
+  {
+    "case_id": "C016",
+    "id": "anim-unused-micro-panel-8nov",
+    "label_exact": "EDIT THIS ONE",
+    "canonical_events": [
+      {
+        "source_line": 4026,
+        "id": "anim-unused-micro-panel-8nov",
+        "verdict": "EDIT THIS ONE",
+        "note": "Bit laggy",
+        "ts": "2026-11-08T01:00:05+01:00",
+        "card_sha256": "e4bdad96b7d46f8db36c23f73be2bc234001d80e2d2c31f55909f1bf537359a4",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 20.3
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4025,
+        "id": "anim-unused-micro-panel-8nov",
+        "verdict": "NOTE",
+        "note": "Bit laggy",
+        "ts": "2026-11-08T01:00:04+01:00",
+        "card_sha256": "e4bdad96b7d46f8db36c23f73be2bc234001d80e2d2c31f55909f1bf537359a4",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4026
+  },
+  {
+    "case_id": "C017",
+    "id": "anim-unused-micro-tokens-8nov",
+    "label_exact": "NEEDS NEW CONTENT",
+    "canonical_events": [
+      {
+        "source_line": 4029,
+        "id": "anim-unused-micro-tokens-8nov",
+        "verdict": "NEEDS NEW CONTENT",
+        "note": "We should change the bottom themes",
+        "ts": "2026-11-08T01:00:29+01:00",
+        "card_sha256": "95e289d6a0e6777e69ca9449d573c2498b5ee30d39f0cd00e33bb86340c1b6f7",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 22.8
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4027,
+        "id": "anim-unused-micro-tokens-8nov",
+        "verdict": "NOTE",
+        "note": "We should change the bottom",
+        "ts": "2026-11-08T01:00:23+01:00",
+        "card_sha256": "95e289d6a0e6777e69ca9449d573c2498b5ee30d39f0cd00e33bb86340c1b6f7",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4028,
+        "id": "anim-unused-micro-tokens-8nov",
+        "verdict": "NOTE",
+        "note": "We should change the bottom themes",
+        "ts": "2026-11-08T01:00:27+01:00",
+        "card_sha256": "95e289d6a0e6777e69ca9449d573c2498b5ee30d39f0cd00e33bb86340c1b6f7",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4029
+  },
+  {
+    "case_id": "C018",
+    "id": "anim-unused-x-post-tokens-8nov",
+    "label_exact": "NEEDS NEW CONTENT",
+    "canonical_events": [
+      {
+        "source_line": 4031,
+        "id": "anim-unused-x-post-tokens-8nov",
+        "verdict": "NEEDS NEW CONTENT",
+        "note": "We should include the general overview of the inventory then attribution",
+        "ts": "2026-11-08T01:01:13+01:00",
+        "card_sha256": "888e60194ea502157f86eed082703f918cca927467166c6626cf47f58138c0a9",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 42.7
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4030,
+        "id": "anim-unused-x-post-tokens-8nov",
+        "verdict": "NOTE",
+        "note": "We should include the general overview of the inventory then attribution",
+        "ts": "2026-11-08T01:01:13+01:00",
+        "card_sha256": "888e60194ea502157f86eed082703f918cca927467166c6626cf47f58138c0a9",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4031
+  },
+  {
+    "case_id": "C019",
+    "id": "anim-unused-cmux-fleet-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4032,
+        "id": "anim-unused-cmux-fleet-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T01:01:24+01:00",
+        "card_sha256": "bd65f0a09a2764e662189a93c9d9d23f6b778b2afe01e1092611da996ed7840b",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 9.2
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4032
+  },
+  {
+    "case_id": "C020",
+    "id": "anim-unused-token-odometer-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4036,
+        "id": "anim-unused-token-odometer-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "Still needs the new themes but great animation 4/5",
+        "ts": "2026-11-08T01:01:48+01:00",
+        "card_sha256": "3b8bfb133c2756fb37c1033ac6aec676add895139c1bae0d6e3c931cf18808ee",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 22.8
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4033,
+        "id": "anim-unused-token-odometer-8nov",
+        "verdict": "NOTE",
+        "note": "Still needs the new",
+        "ts": "2026-11-08T01:01:40+01:00",
+        "card_sha256": "3b8bfb133c2756fb37c1033ac6aec676add895139c1bae0d6e3c931cf18808ee",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4034,
+        "id": "anim-unused-token-odometer-8nov",
+        "verdict": "NOTE",
+        "note": "Still needs the new themes but great animation",
+        "ts": "2026-11-08T01:01:45+01:00",
+        "card_sha256": "3b8bfb133c2756fb37c1033ac6aec676add895139c1bae0d6e3c931cf18808ee",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4035,
+        "id": "anim-unused-token-odometer-8nov",
+        "verdict": "NOTE",
+        "note": "Still needs the new themes but great animation 4/5",
+        "ts": "2026-11-08T01:01:47+01:00",
+        "card_sha256": "3b8bfb133c2756fb37c1033ac6aec676add895139c1bae0d6e3c931cf18808ee",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4036
+  },
+  {
+    "case_id": "C021",
+    "id": "anim-unused-token-story-8nov",
+    "label_exact": "NEEDS NEW CONTENT",
+    "canonical_events": [
+      {
+        "source_line": 4048,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NEEDS NEW CONTENT",
+        "note": "Still I said this multiple times subscription is 200 Claude and 2rp codex validate but end on showing both",
+        "ts": "2026-11-08T01:02:42+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 52.9
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4037,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still i",
+        "ts": "2026-11-08T01:02:14+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4038,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said fhu",
+        "ts": "2026-11-08T01:02:16+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4039,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said this mu",
+        "ts": "2026-11-08T01:02:18+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4040,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said this mul",
+        "ts": "2026-11-08T01:02:19+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4041,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said this multiple time",
+        "ts": "2026-11-08T01:02:20+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4042,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said this multiple times",
+        "ts": "2026-11-08T01:02:21+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4043,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said this multiple times subscription is 200",
+        "ts": "2026-11-08T01:02:26+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4044,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said this multiple times subscription is 200 Claude and",
+        "ts": "2026-11-08T01:02:27+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4045,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said this multiple times subscription is 200 Claude and 2rp codex",
+        "ts": "2026-11-08T01:02:33+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4046,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said this multiple times subscription is 200 Claude and 2rp codex validate burners",
+        "ts": "2026-11-08T01:02:36+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4047,
+        "id": "anim-unused-token-story-8nov",
+        "verdict": "NOTE",
+        "note": "Still I said this multiple times subscription is 200 Claude and 2rp codex validate but end on showing both",
+        "ts": "2026-11-08T01:02:41+01:00",
+        "card_sha256": "5e01135ecac1bf49ee8212272d80b259d785940b8870cd29fe373ebfc6a6ff0e",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4048
+  },
+  {
+    "case_id": "C022",
+    "id": "anim-unused-rails-v2-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4049,
+        "id": "anim-unused-rails-v2-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T01:02:57+01:00",
+        "card_sha256": "3adda71d117e2df770eddf6020b9d0ac48aa355d80aeb6a2b40a218056ecfe9b",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 14.6
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4049
+  },
+  {
+    "case_id": "C023",
+    "id": "anim-unused-spend-limit-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4050,
+        "id": "anim-unused-spend-limit-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T01:03:09+01:00",
+        "card_sha256": "7bec5e9d3bce87c06cfc0823081b1c06cf638d0e30cb65a9edc0edd7835d1034",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 10.0
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4050
+  },
+  {
+    "case_id": "C024",
+    "id": "anim-unused-weekly-limit-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4053,
+        "id": "anim-unused-weekly-limit-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "5/5 top notch",
+        "ts": "2026-11-08T01:03:23+01:00",
+        "card_sha256": "3d1bbe2245f58d627e2c7906a7ea8b9b386163fc297610495c3b4d30737f0095",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 13.2
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4051,
+        "id": "anim-unused-weekly-limit-8nov",
+        "verdict": "NOTE",
+        "note": "5/5 top no",
+        "ts": "2026-11-08T01:03:22+01:00",
+        "card_sha256": "3d1bbe2245f58d627e2c7906a7ea8b9b386163fc297610495c3b4d30737f0095",
+        "card_basis": "version shown on the page, unchanged at save"
+      },
+      {
+        "source_line": 4052,
+        "id": "anim-unused-weekly-limit-8nov",
+        "verdict": "NOTE",
+        "note": "5/5 top notch",
+        "ts": "2026-11-08T01:03:23+01:00",
+        "card_sha256": "3d1bbe2245f58d627e2c7906a7ea8b9b386163fc297610495c3b4d30737f0095",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4053
+  },
+  {
+    "case_id": "C025",
+    "id": "anim-unused-rails-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4055,
+        "id": "anim-unused-rails-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "Already have feedback on this",
+        "ts": "2026-11-08T01:03:40+01:00",
+        "card_sha256": "0e1d4a9320afb85b1e5a1f62af533e7e5cadb8700e81bf458d02db27397d10c5",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 15.7
+      }
+    ],
+    "notes_exact": [
+      {
+        "source_line": 4054,
+        "id": "anim-unused-rails-8nov",
+        "verdict": "NOTE",
+        "note": "Already have feedback on this",
+        "ts": "2026-11-08T01:03:39+01:00",
+        "card_sha256": "0e1d4a9320afb85b1e5a1f62af533e7e5cadb8700e81bf458d02db27397d10c5",
+        "card_basis": "version shown on the page, unchanged at save"
+      }
+    ],
+    "source_line": 4055
+  },
+  {
+    "case_id": "C026",
+    "id": "anim-higgsfield-six-agent-arrives-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4076,
+        "id": "anim-higgsfield-six-agent-arrives-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T01:06:53+01:00",
+        "card_sha256": "d308817290ea4b1ae46af6fb188d0be99b42ed952b79efe9b2dd9dbce3e56704",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 10.7
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4076
+  },
+  {
+    "case_id": "C027",
+    "id": "anim-higgsfield-six-agent-sweeps-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4077,
+        "id": "anim-higgsfield-six-agent-sweeps-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T01:07:05+01:00",
+        "card_sha256": "064e2de03f26d02373495dd9963103da6e372810e433484b411e7cc4602f5a5c",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 10.2
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4077
+  },
+  {
+    "case_id": "C028",
+    "id": "anim-higgsfield-six-blue-line-8nov",
+    "label_exact": "EDIT THIS ONE",
+    "canonical_events": [
+      {
+        "source_line": 4078,
+        "id": "anim-higgsfield-six-blue-line-8nov",
+        "verdict": "EDIT THIS ONE",
+        "note": "",
+        "ts": "2026-11-08T01:07:21+01:00",
+        "card_sha256": "e8a010b145aa0a017d2e9e0fe1e7c31d0da64213b8857b213f23bb2d99ae1027",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 13.6
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4078
+  },
+  {
+    "case_id": "C029",
+    "id": "anim-higgsfield-six-cards-folder-8nov",
+    "label_exact": "KILL THIS ONE",
+    "canonical_events": [
+      {
+        "source_line": 4079,
+        "id": "anim-higgsfield-six-cards-folder-8nov",
+        "verdict": "KILL THIS ONE",
+        "note": "",
+        "ts": "2026-11-08T01:07:30+01:00",
+        "card_sha256": "b49f099c6320d065b48a6750c552c50279adebe5e2ddd9182fafbb4adf49bbe4",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 7.5
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4079
+  },
+  {
+    "case_id": "C030",
+    "id": "anim-higgsfield-six-notifications-8nov",
+    "label_exact": "AWESOME, USE IT",
+    "canonical_events": [
+      {
+        "source_line": 4080,
+        "id": "anim-higgsfield-six-notifications-8nov",
+        "verdict": "AWESOME, USE IT",
+        "note": "",
+        "ts": "2026-11-08T01:07:41+01:00",
+        "card_sha256": "992c256cd80da5a2439a1d10fb9aa540d9589090e4604264caf2991827586316",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 10.6
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4080
+  },
+  {
+    "case_id": "C031",
+    "id": "anim-higgsfield-six-terminal-night-8nov",
+    "label_exact": "KILL THIS ONE",
+    "canonical_events": [
+      {
+        "source_line": 4081,
+        "id": "anim-higgsfield-six-terminal-night-8nov",
+        "verdict": "KILL THIS ONE",
+        "note": "",
+        "ts": "2026-11-08T01:07:52+01:00",
+        "card_sha256": "ff5fd66c1e1a4b0a6eae4b7f5c93af55fb0e77576a6a447568d0cd7f10c16a21",
+        "card_basis": "version shown on the page, unchanged at save",
+        "secs": 9.6
+      }
+    ],
+    "notes_exact": [],
+    "source_line": 4081
+  }
+]

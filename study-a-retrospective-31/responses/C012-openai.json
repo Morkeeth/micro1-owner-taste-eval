@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:33:07.535493+01:00",
+  "case_id": "C012",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "18fc081ea339a907a864c6f5f79834557f8a5794d464aec67d6137245423863c",
+  "poster_sha256": "336a1cee68dea486076ca4a9c354e4e2ff4f25cec052740e03097269f47b4ca6",
+  "request_sha256": "faabf8e427ab03ac4b0098ef98bfe00b8e8e9857cfc4e073fc2189ded0cbb6b3",
+  "response": {
+    "id": "gen-1794105182-Z5alBO5mK3OXb0BuJMEv",
+    "object": "chat.completion",
+    "created": 1794105182,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The diamond-grid concept is clear, but the small caption and thin outlines could use stronger mobile readability before entering the Shorts pipeline.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating visual options**\n\nI need to choose an effective visual overlay for presenting ideas. The current design with diamond patterns looks okay but isn't particularly eye-catching. I'm considering how to ensure animations don't seem generic or unused. We don't have a strong history to rely on for guidance, so I lean towards something polished yet subtle. I notice some text could use editing for better contrast and readability, especially on mobile. Overall, I aim for clarity and precision.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating visual options**\n\nI need to choose an effective visual overlay for presenting ideas. The current design with diamond patterns looks okay but isn't particularly eye-catching. I'm considering how to ensure animations don't seem generic or unused. We don't have a strong history to rely on for guidance, so I lean towards something polished yet subtle. I notice some text could use editing for better contrast and readability, especially on mobile. Overall, I aim for clarity and precision.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq799jf74L8abro3Sc4B606cby2RoWW41Tx9HW1iwqArxz5ucxZrupmTs401tGGM_b9O3VYarCCq74G7V-MjGhnS_BFVMAqP-bPT9vkaIv-gaRWuGNmWexL0yaTbS3juyj5qkNafGjXFt7P-wWpl4zRBw2VGeb9y0HgRCUYOdwh-iGhUA0W0cnRYtddkef0Yiz1UMem1oSiVPUTqg1_IWemplCLqwk4JrKf9fwkHJb-RKWbqNfmh9OgiT480UB-WjZF9NqfB6H9HjtB3psYTFoCBa13zIZzCXkfclt6lK2GemNErKDMc5duaKj_1b1JrpTuKCQzUoc--eb5jlw2lupsYII8gwdCJOVGVl_uifX4EfcVM2jBMzsPLTjbOZHwueNh8J_zksl-BVcNgutBFrAei_Ik6p2pJDmndcvwhVYbKNa4kq8D4KhoRywFD-qZmTFw_Bp8yEfkLwRQW4wqwZwt-HZ4R29HPb0PtvhcZVTAZAJNBAXcrERzirJ0luUbJ5pL6iM1ptWKtpBOpBJfZ61FMOly2KFRA1jliQ1H1db9vLFwMaaCco6o2_vkNYXO27XM0Ekh3dSgLevWJggLc6q92pyL3s5IZxk2L_sdK5hzU_qwM4ihkQCc-sgCSXdvR4xeLbHuKVavz_CBVoXX-iIc-KX0ABoKg8_9826hmh-7mfHzYdSQ4BoFRHAwVSis2rqiVd1EUBAvMr6eDC0eJp9zQbGGMwufdbIpl3D5BiChCVxV9J4KquZ9N7ARLWH8PVvppvTDOuzEiVneWhCHoqEgdicxVBcoMKzLEIP4qDA5gF1ZFsv3R7UisJIVS-Q0yILDIuOe8Ht1IaCAHDNqfyyg6pA41f8V7osRraNVwbwDCoVfj4e_7jBko6vyhFgEaiOzRDtIyVQ3tM8So35iBXq3rgvuNR2anvFJXgR4mGsFQ6WAKRfok9G4gd3IEb29asBI7bPsNripL3Y0b8N3SXh9lZrQPWFZhRMf2D4tIsMpYZ0bonHfK6G5BoCdPm4B7dhAmKs4-8EW0r7WfFzno1ENt4voTdDNHMAr78givxam1xXHOs8kRMYIIzPnwSfEJYPxw1ZcCIwn3sAdeYgp5yUvrnCY2ppWhOY_rvYPbe-Ck7Jy5yN6DXmanByZFnlgPWAq1DCPTVPPnfuseqi2uy0dM9Dp3tEhOeMutSUYCqu2Bi-1tveUm82w1U9POsyZEe5gegV7Vo-ySps39a37x9p5v9tgNQ0txoGDnJIUXcspvbq8BaxBw8o4z1X0380M3Z_MDpIminftegcmxAPGlPbCh1ftlsz5ZN1Ej0EnykPPbXiGKCPCfQUxXxtcJ--QrHx2FYIrsRQBPlnKkhCl6uJhl9IV6ho2OeYY1Bf3PdRo4Kivtp8zQjImfnLN4ooF1JLL4KJwpAi87xQPsMkdne3cfQVgab_ozd-MqENqlot8sost9gmrZlopluhBkjydBGq32xVsqHH_0RBau6cZnagksDTS85V3JIU18VdALTE1TsNYynyUHw92NAuqgWBnv8vTLG3oAyceX7D3xO3Dj-I99ZuStvn1qD1d9ttvSqQLEHQR74-BKP4wqqIT8BuegTk1Qlb-czlynUb69nrfgCKLeHypKQl82KChUL0tqN7JyL1vJz32AXitwYhyvSoVQ_6xd1v4H4YCnE-pUPGOdQlO99oF1wbY4qv8H-_vdLyG4pKpWeDAx7bBUGLmSCoYHrVmL0VyTEArEQqxB65ceeOibYKxQt5LNsEoVMoNzi7WIqxhsooYBJrQSiRsFZZVHgKHvFCUKXJYX-DSwbiNaZE-vUYn-hmiRsyfT-_0-ouQk8yPlo_qLlGzhWxtZ1AKb0LEuNYgsOIB6h1ryp5-G5p4OF2ty9rNyYL0VrqDPCsutiTYP8dqI7dE5xv09N6jimZq2H7XzCzvV0OEGAAcXkcFtgpqsHzWac4aTtuqaPCx9_zJqMTH82qEeiqk9ATdtIVIQF_N7H5z_VtTOUvVZgI6VekJQj0eQVbhmpVYHSas4yccC0JdEVpoxUNufYUk5CF3b47lUZUXGx5VDCWeBg48mCLMPJNoVyY2Tfr3tLKrLmqS8IZ75XtB09q68RrOWVXUut8OsbYvhy1Xa4ZWjEEs2XMzRTx697YglDEOOLjA2RZJwW77Y0bHnkTN8A-u1r3pTqmXBacfH7pynjk1nLbocEBfJRS21fEm8e6VCiQyuc8jfp98Uz4nkmo0T6By6uhtORJhMO5iCKflBqK9o2BXX7e4SYJD6UHX7n0gAA3fHtcCJ5kPIxJamCVuCEfDBg4G5ncVJCD-OQ1n4LmjqA1o71wPdQqVtyOXvYjbawfkCnFwSafuF-DbRkIbg1B_TeR0cN41aajMy4_YRaEye5p_pqOkPhwYKzKKhyjDo4dafc-YdJHmVOliHVydUy11TIs5pMiG79Yv-EkIjBOlHfWz116cIy9OxY5NQ4FdXZMZdn5_jx5vHqC4uAgtslVRCVXVNtyLGk9hVxPspBi6uXrp-OOO9xsRRNhe8zBK-M2c-qFDglDN6hKjaw0zCDr0ExyjKbSKd5Xij07agdWdKiCVF1_OOQzSIyTtW8y-5aBKcnsiWfKXgCAFZQixKUFkJ0TYc9uM9DYAee7_0IbgP_J3tSE1W-j1aq4dh4sGaxTe-TLD-IG_OfdgTyQAKGdnK_KyFE2wvYU4pRFg9uCSZ6w4B40_gVKj-qC53F3_PpNZsxfL9WkWh5z_u7ipuzD_JZ7afD06KEj-GBoemiDeDTOxOHwqcL3WRS13n3mQaZwNuyb7FClUCefkXqMjTpxVK-Q6__vB7JU1mRSwS1FlY1M9ZPD1F3NVIAO3QaurlRONx1Bs2-pYL4eqTsNidBC_7msa2T3uvc6wjgUpNYNl1i1KRZvD6L3JdtA8L2g1J50VjF00HePahD39wX_jjJ0XogtmmhPQnVTf9QKFcjtPnUanXzluLs9qQPJ4FX2gfPI-JqHgP3ArwZ-7CalsofmQsytYv6F.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0cebfab75dea42a5016aefdf601a7c87d1a871c60fb97deac7",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 688,
+      "completion_tokens": 138,
+      "total_tokens": 826,
+      "cost": 0.002756,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002756,
+        "upstream_inference_prompt_cost": 0.001376,
+        "upstream_inference_completions_cost": 0.00138
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 93,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002756
+}

@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:33:42.923220+01:00",
+  "case_id": "C016",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "fec0df9338d31ee07f28ea5e2f343274e36f4b1c91630c54ba919f4235c06a14",
+  "poster_sha256": "4dcee4aa8f6a63ccce1049fe6d0d66a4cceac006094c8aaa5da44a5cb24b00be",
+  "request_sha256": "105b7df21a430e1d07e9c0b7564827da2870e70b9c89c92b22bc54f73de28e8b",
+  "response": {
+    "id": "gen-1794105218-5lS4aGCbdLJaPIokbLAw",
+    "object": "chat.completion",
+    "created": 1794105218,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The earlier “Beutiful, great stuff” feedback is the strongest preference signal, and the poster shows a polished review-panel design with no obvious issue requiring edits.\"}",
+          "refusal": null,
+          "reasoning": "**Selecting demo content**\n\nI'm gathering that I need to choose content that has received positive feedback in the past. The poster demo's review of the UI seems strong, but the specific content might not be as exciting. I should consider whether it would benefit from some fresh demo data. However, the main cues also indicate that what I’ve got is pretty beautiful and should be awesome. I'll aim for something concise and visually appealing!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Selecting demo content**\n\nI'm gathering that I need to choose content that has received positive feedback in the past. The poster demo's review of the UI seems strong, but the specific content might not be as exciting. I should consider whether it would benefit from some fresh demo data. However, the main cues also indicate that what I’ve got is pretty beautiful and should be awesome. I'll aim for something concise and visually appealing!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq79-GCRHDYykTjjAbDlzAn4cbsaO6C5j1MiHfKmmPq7JG7mAcXOPinpX923Cs_ObhM4RvZjgELE3u7prsgydMuclmUusjCdgb1OHZDB2NUbpOAamw71ZnEq4DU8kKJVNrJ8CUvbmAklrV3IagzW-cQC1jJnl19j9_HwppSTQ5o8lcR2kuZKimbY_2Ms968MIHDb3F7wqT206WNgQZLDtTGEFljrf8jjfF0iK8y4W8iG5dvJKmsizyVNYnGFig8o8veFbJ2aNaV1FpWfaXCp2lAbavVznYBdYVWgwzAregMRhtwgSozKZKtsFO7yjIfMz6vIB9rTEPkGb2l-Q0RNNPMuiolC1ZYABBL37eFLvHvUWiumM_Zu33g_nNIbqiqNFsH3qv97XGrwAocurqqIkn0blAYtJpXbWeA39Sz_udd7tXxqPLtSThpWiTdVWXhCmFI2pekPRFq7n2fTRDOwaJ_gwGNe6k3-uQ4itU5fHlGLGVPiNfwICMHVsNIBZjB1xAtdo2wo-lR4e_LMd1qgHYmkgxb-1e52Z779u5sAw7U-7G7mfXm95Jb63EaoZctZJ82kiyYt-Fpl09RpRBB11KQlYRfVCBBPw6ZGXkeIAW6is0cSjQIP7xYyf6I7DBw-Ydzxsax5TR-Sodw7MoATym-kFchLRRlGiOm7QA2XXOSyYjL10wiMmU1zathNzp3jcuBWA_HC_9p75pXLbmkrqXx-u6ML-6EOXlvlxyhK197GL7Lx029JBEzYJjJcn0NaMOPMc6H5ZYXp3sflQyFwAhFHE_VtfOAzL_7YUgL9Ka3yDhzH7JksP45EgObwAuDQQQuyZxLVO7Fn7dvo_Im7u9Qtwtlev_c-iyVfoq7IxW7RBrhBOjJy92ynzh6ksl-YCeNILgWiMWnPOAqtP_61p8-QKsCqZXMhT67u8hAuvOFizEb5hxjt1WDVfs5DfcDQoE8LZrQmO__8Zk-RFqE9QbuPb_ylARFgE_Nt5XUAN98SBy4M3YHzqH387DA21yIWk4aKvynnS0xQtEDhfYbBkojke4-CgV8gzaL0SBinUDq5bCdjMJcu95q7qqFbjet7MurH1Ge6OL_u0SMvVLGZo5L5jZGSw59TrteZJWVZjCxiIIUQtT2o6_qnW_3lWhZYKA6XzhJ5TQY2XMkiR5CKCmiqNsDWNcSE23P1O_vjbgpeMutFEVUJNwcmG5aQX0yJiG4i_k5datm7P8--KQpTiIKshoMN1U1gdYdWzsShbLLBP_ZZWHQjSMixFIa8FKZIhm7Io1J3v1DoWB5kcl9tVLZtqiUYag0jLHNGuCKMaBT7JyynZ4SA9xJEPphk8HsIeMjZ5S4f9KHf6d95uh2CfmhlZyZnuSaO0CtYOr7bDajB0AKPKOXLxJYfUQ7n4Hi2OYWd1-OxNc257l5K8EqDOc7koO7wZyFuswnifqFrxEC-4NQTj_pzczmAAdCArUH4L8DZClsLXJBY6v9F9WeJYz8YNf76RTLXppUBa4VtC26Qr0pYi-iV_SKiPZxtl9eoMyK2gK3v6kk09ebN6IFv1TPgEkoGVBIN4u56x6f_4MRMt71wcPNWzUd6s1Fo-YjNRconYLvDwF4kqEGFh5_mFPrdhLWqvdPzUs_DEdkr2-u63nxFdb6NL_HEofjClLHWCGQKrMXn6R0-NkUw41BOwdo48RyP-5MwUq6ETtT0xxon39C_rL0UmuMQTAOXDlksvyuTIuGOL6fN2WrtmZzSjnxm6cuCbyyJUUYjbMLFweoRs4VpG_dbK_IzpCoR2OpqHl1_YvdfsEfRnIluUW3XsczS4hBmNYK1d5pgSbS34YHEyrKRIjNsbxnMSajGIDmHbOuMMVe0QBtM57IlgSCtz3dSqvqeIIW9qlOCVdwFEgRDe6mAonqxPnklGB7K5sY01gDXr_wQsoBQuLHicKPfZiQqgaGVQQIkRd4fIUpKP_EtxP05zLrHQ4zatH_AD-WRMt18uEkb0m2cETx1SWOLjZ5S_u1B2LOSo6Oc3a89EMjMghe5cDeam_FQEEq9euXFEXTDv2SKIS7vk-tSLXXvsOaQDmnx4QYcIilheWoVUrlcoOkq_HGYEToliC_3DGHC4NdTl3UNTLAbecFVHmhrBLOnvgakep9eFeNpissklIL3BPe9D3IAu_tsKpCP2ej_7LHPmJ7ve8jRboFaeSfoplgl5Ioks53n150eINKhZqi9WT6cMHxlffBHjne630OJZP8Si8fCf2Z2fAqiSTxIaTf6Woaxby50fzFiwdHhhhBdJYsSpVZmwZWTks0dtjRe45areJ1gVMaLoB3Afcp2xobDmntw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_044fdbc0f798d120016aefdf8427ec87d1a8a1d83c9c69b0f3",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1138,
+      "completion_tokens": 96,
+      "total_tokens": 1234,
+      "cost": 0.0038035,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1135,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0038035,
+        "upstream_inference_prompt_cost": 0.0028435,
+        "upstream_inference_completions_cost": 0.00096
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 41,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0038035
+}

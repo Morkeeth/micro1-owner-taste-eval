@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:00:43.309340+01:00",
+  "case_id": "P011",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "5299c7a608035d34918a4379b8068ebcc93e3c3e3fd14520a06840e5c8756152",
+  "request_sha256": "f2e8708a4424486dd156a7457e3e06c193d98cfb3d6eecbd21df41583f34bf86",
+  "reserve_usd": "0.093336",
+  "response": {
+    "id": "gen-1794139238-tDGSoR7y16l06RV3zT0Q",
+    "object": "chat.completion",
+    "created": 1794139238,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly requested reusable cmux core animations and approved “Six lanes in cmux.” This proposal fits that request, with a concrete product screen rather than generic decorative panels.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating screen content**\n\nI need to choose between selecting likely awesome content and editing. I'm thinking about the history and if the cmux can adjust for any skew. The poster screen seems slightly off, while the browser window looks straight on top, but the content edges have a bit of a perspective issue. I aim for clarity in what the cmux owner wants, keeping it grounded without any exaggerated claims or motions. Let's focus on making the content as awesome as possible!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating screen content**\n\nI need to choose between selecting likely awesome content and editing. I'm thinking about the history and if the cmux can adjust for any skew. The poster screen seems slightly off, while the browser window looks straight on top, but the content edges have a bit of a perspective issue. I aim for clarity in what the cmux owner wants, keeping it grounded without any exaggerated claims or motions. Let's focus on making the content as awesome as possible!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GRqr428JLXEymPtvc91ukil07Am3dPCJJbqRcQyfPrVLtDutkfPaVRmzKb-O_0dpGU-TBNyPY93xMnpgFT8Qch27xdzzua6WmjfJb-iJXVPFE4Exywt8GXOScsaexhItQ4REvvtbs9WwCS3P1v6PwJDiRui02xHFUBU8eDT50BPuz0yHHmy2QXdVq-0K8rT6DsXdlyLyqqnE6W7QQFq2_AeIbDx6N6TYOtshqmPL2OL-E9tOB66__TLSgIOwbyrejuJ47jueAwLCWBfO4yvBbia_bc9Dt3Qj9It6rpln3xVaSU8F9fZwGNujyDW654qbu3pP8kdNFjJt06_vGcoWeyJ0kBQ4wk6s8FT-XATa300WRtlsKjM06chgdiNq1OQq_OIEFl5jpgu1kDmfOrr2vtdVWG3FaB08HuZUsqep6WSQMBlb0VBJRm-fqOgcIq1FuzE6jHqX4va6SL3yxgmBBhCLiAX5-T2qLbRSsrX_kPlJlRgACHU0t2S2szUy4pTVhraVcDyAujBDIGoWqS1BsGNsKhsdCy2etSndl03jfhjgoU-r_Zu0CdxJNIRSjBr-WJ0aiuDbEjcj5Cz3SPkJ3SuxhfRHJUSzZDZjRNsB-OUuDd6DwpUWXxmg3JUQ-gmkIlQQU8wXakcbe6YimPEAHr9Ru0cKxTfdOMHSGHMStlWbO3q7XeajQmnnwqUyVDtjEBUVb8PCoQ56Jo4XEl87UkSzsEDUrqpEqBXqJHatLjTIYmaJlkvXGDaseNxSDuAdU9PEtgUw9cFwPvmcBFbjSzrFNITk80kdrwJT1uW6tvi_l_DcLe4CbGNc1ekQDcyv2EQUFoDPtqe37kCmauHKI7waDlxGHymOAPxQK8J28FKHiBJtHw-ZNa71PMcxAI0qBl8bk7yYaD6axLTAlB0XXIhPu5bxoYrXGqHsFlvS88ZzlbL2UUo9bFtTvnC2cdTzPRbzKVMi1YJz4pV-XQszBYmeBkfQO-fC_lrGcPZRzA4KTxN-AMttBAEtBdBluKpogOdx9r9NR5cWBt8aXF-qS3x2C0A6DVoxI0Wrg4vY6mLuIukVUoql_D22S3Z9N7QWebtaGtmJyIyR2mbNkl5-Wo2CmAuYI6Yi4MvZ8R79ezMj4mSksV7b1bbADnWrcqILKRlZmPv4T0yX17y13_39G8C8Lr8LmkyOeqm-4r-hSYYMINY9MSlmoR5EfE5RbgeB-MkCW1qagegJyAmtPisr_lMckFUNlX9rnLpw-PMIodlVauCH1otYwNh4b_q9lt4IU-mNdLW-Km8gJnPAFPLAHInq5gfDzappsZQw6Z8MpLjT10CknX9cCH6VvTu8U1IvSVLNUwTJgZxYXOSLiBuVDgF6UGnld6qQPx1O5AXO922Xs_PRqJIZ9NbAzClWTcaQWTJRuBWcfTDcQ8oQ8vWHI9Um3by0yYg3HQlngLAgxOqwap5TRKqzI5_UTcwo1FWr5kEW6hVKcSKSdHRQ1LxFRe0pxRTssT_e0rqOGcA-nE43VPkQseBMJo8kwF7k9HlXIYWUXcp3Rn6aI-TNmTBe-vvf1GFUvf9xn75x7U36I3Av6KQzkqClLZ0XcM9NgOjEiEYRaMTx3d-zGkh4KPE5UdWERcP2uBAdEGqWYY1PmzqjdGj47G6UbLwclrkPQFzKmuP1lh2uA8sde_FN52NJN6wzEPqlcCDUfNz4eMhNJqRgLQZZwvxW8ks7gSz3j6KJBtMZqZ26iA2NN1vswMZDuB1JdjEuFknZwgD9-YjaCNH8ddcJ5IeqH8v9vsjpYd5Pacq441sdZ2n1DRPn21g3x1w8JMghnB1Ih4b5De76Fu8SL2oR0FXMWhNn8tPRMDHHCdyo0kVxTOThGy1h_koOjIM3994Hj5yVzxQc_nqsp14RSoiiBngJIKn6yu4jO5NbVS8YuMKT6G4WWESe3RWMGljhF8OlM1KXydG1cMSIBs5Puyz9s8Lf0cx-yUEdgB_c3NxGataZBSAMaExH87qJTxwlZCQWtNfr6Ffu9xhvB3aSm-wjrLTa8d1N9IjcvEqUACGYFnVl8ptmSKXzTypWu9WClN9CjDBmwvyiYV1EtB6LsBmM7JCevv680--rJzt2U6Rz4sT_O-cpGMsP5O5HdPj9VUFd3Kr1TaZ8yAfRCKPf3PL8AuAv1PXvc-Islg6v5qkXKjnkCeq3nY16ZlSVpN5a0MugiWeyMlXZSIIynusFzBJMimocvicGVEWRRvHwwVsyfCqtKAdYkjUATFxSUwxH8NV87FmAMMCJOH94IqnlTGSBDDPF-1-3lR5swc9sEkK8FKYKzzxV7Xr7Vztg8xjZWMwIUemUYDFPHfwasPpzLz0E5b3rYCPRthiRZz_DHjvfzuCTwjgQ0WkOE7bOcDz-VX2an_8Ac1diN4qPol9zqh8qv1EDtOAy1-D3004QkIXQ-szmSEA0Cdc-Kl2Mv4RcQr_arYYQd2gMHAlKR62zF_wqbVPizsXbrPTMxdvblwywqGrc5dGriDci0ErtvkK5g==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0a5e68e53c5e1bde016af06468384887d1a5e21d0f26d5fecf",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3499,
+      "completion_tokens": 112,
+      "total_tokens": 3611,
+      "cost": 0.009866,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3496,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009866,
+        "upstream_inference_prompt_cost": 0.008746,
+        "upstream_inference_completions_cost": 0.00112
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 55,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009866
+}

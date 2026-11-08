@@ -1,0 +1,23 @@
+{
+ "case_id": "P022",
+ "shown_card_text": {
+  "title": "The review window flies onto a phone",
+  "what": "A Review window on the desk shrinks and flies into a phone, which then shows the same page. It illustrates reviewing away from the desk without showing any real screen.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Fits the review panel story; no real data on screen, so it is safe anywhere.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P022.jpg",
+ "poster_sha256": "9568a169d0ec5ef95cb3b6799403a713fa98ea818f5939a141545991221866e3"
+}

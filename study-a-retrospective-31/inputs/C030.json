@@ -1,0 +1,23 @@
+{
+  "case_id": "C030",
+  "shown_card_text": {
+    "title": "Notifications drift like snow",
+    "what": "The four notification banners lift off and multiply over Paris rooftops at dusk, then the camera tilts up to the sky. It is one of the six reusable shots you asked for tonight, made from our own graphics.",
+    "why": "You asked for six shots we can reuse across every episode.",
+    "question": "What should happen to this shot?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Use it when agents ping you.",
+    "context": [
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C030.jpg",
+  "poster_sha256": "5733bc280d14b501efcad0de74921aa897f1521b57d6ff1c784f24c6e3c993a7"
+}

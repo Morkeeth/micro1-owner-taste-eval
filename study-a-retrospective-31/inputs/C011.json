@@ -1,0 +1,23 @@
+{
+  "case_id": "C011",
+  "shown_card_text": {
+    "title": "Screen ribbon reveal",
+    "what": "A ribbon of real screens unrolls across the frame. It never went into a live Short or a published episode.",
+    "why": "You asked to see every unused animation so each one gets a clear fate.",
+    "question": "What should happen to this animation?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Watch the clip once; your answer decides whether it goes into the Shorts pipeline.",
+    "context": [
+      "Earlier you wrote: \"Beutiful, perfect\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C011.jpg",
+  "poster_sha256": "366c4007e88d474c9cf7594abae9ce3369661768d547822c2eca108a67f8be3c"
+}

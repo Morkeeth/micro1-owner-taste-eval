@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T12:59:30.130961+01:00",
+  "case_id": "P007",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "140753c40211f9f4ed418db8b1e5e94ed600e343540577ef76099b6a05690a10",
+  "request_sha256": "ca1cf36f2987616c86a209f34bc9df33185ed77654142f56f8b06adc00c55eef",
+  "reserve_usd": "0.093376",
+  "response": {
+    "id": "gen-1794139166-5Z1N0bDY8tDrFuv7bs4m",
+    "object": "chat.completion",
+    "created": 1794139166,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner explicitly requested reusable weekly-limit animations and rated the closely related “Two limits, one runner” 5/5. The poster pairs both meters with the familiar pixel character, matching that approved direction.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3500,
+      "completion_tokens": 61,
+      "total_tokens": 3561,
+      "cost": 0.0093585,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3497,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0093585,
+        "upstream_inference_prompt_cost": 0.0087485,
+        "upstream_inference_completions_cost": 0.00061
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0093585
+}

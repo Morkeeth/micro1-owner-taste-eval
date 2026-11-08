@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:00:16.921070+01:00",
+  "case_id": "P010",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "4fe34c8715b6b82355b4546a0e86f14e6d5af55f7137d581ce105a341287a692",
+  "request_sha256": "a745b40adf8205b9f0f6ca80706d549af039346435d6d6f77870c0bc58fa7133",
+  "reserve_usd": "0.166320",
+  "response": {
+    "id": "gen-1794139210-RzJyLqkN8rsPSzgbRNkE",
+    "object": "chat.completion",
+    "created": 1794139210,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"Index was a requested core topic, but this frame is a plain white panel with a static list. The owner has called white-panel animations boring before and favors magical, character-driven shots, so the idea likely stays and the content gets redone.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the \"index\" core animation the owner asked for, but it's built from plain white panels and a basic list, which the owner already called boring. Since they like more magical effects, I'm weighing whether this needs new content or just an edit, and leaning toward new content.\n\nI've already dropped the ribbon reveal and the close object from the list, so I'm settling on needs new content for this one.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the \"index\" core animation the owner asked for, but it's built from plain white panels and a basic list, which the owner already called boring. Since they like more magical effects, I'm weighing whether this needs new content or just an edit, and leaning toward new content.\n\nI've already dropped the ribbon reveal and the close object from the list, so I'm settling on needs new content for this one.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS+wgKEAgTGAI4AUIIdGhpbmtpbmcSDEKQq0Fslazx8A2mOBoMrFQo4tr58d9Ia278IjANrzbeq+WNmNWeqQMs3mUfu3z31XVq2h9SBuQs9v4ogLc8Tlr0ldtBX2R3H0ObsJ8qmAhkEvOeMHB1ZEgCadrAZDtJqw852TPBnj4t9oQofvmNTq/1o6bBxilcrnVCtz3DbLih6LMoQjR3Q3kuAo/stitj8jzSSpNPZSHqbvo6SlJYIaPdWURNePbmCFnjUILokfeYqI+J04b5YLKL9wz5JzEBiIZCA1VVOw7hNxrw0qLxw0JOsH40y6Rdo2ygP8c36ifpV2/8BOhwPxRjrsIi69eZDvmIn5ctfq/0ONLOMwThVea7tm/DEC/ug2e/s1jEmGJW/g9YBzd/PLcQF2skQxGDrHe3+I2ZRxP/JrcyPn4Zz5oJJH5M9p/f42hZ/nsZ8gXf1m7gWLigq17v5RCBLipi6dH7IKJLrSzx/4ph0GU+Dt4zH9zGMGv5nmqU2ZpWRh/Tii3N4iF6N4uoOyPiZgjs6/fLQ9pK9rDRE4S51dwMhfNTYHgH3RxOxr0bgfeEqfjS4BTGZgllsCokBAxJe8Ivg33miAM1Majw1OZf6fTE+m0wNggTQjiPLcd7wLNal1fa1wUN/ZA/O2/NFrKsyfT2Pp+IjrLDzH+NJ+vQfQk2hhxTZY2hkK9mGAKyebG+CJDO5RUSQpkEgB6ur8+RSdir0QxNgEBBimFMedA/D6hK6A86IAVBV3GE939ZAYusNW0pEKj+x7HzzzYD8mUa63RsxyCWIvJbOJZ1OachLpL4w5i0eQ9aCkuLFSd9QGPBLive2xCjMfov3IFV948nLm1BxRZQGASVHcGCSLmr/sxElT0vJL9krDpPWg2KJ4o9CCTs5PvQ/cmRJGhceFqDZSQE/h5Mp9bo8P1KIXJ8eHbDYpCtGcke+4uT8EZIQef+Y7d4Zsjjdgo+AZ/vflA8Y6Cj3/twZt7JjEQ3DRl9gaOQ+cqwBbvmQEOQqSc/DuxYEG2IA1r4BeVe6mbKEgeGyvc+0EFv+EQkcokz78BMRfbTMWJ7PDnQSWR7tUbKkVFt1THmJKF4Zjizm0iTaKUNsmjUnWUdcXICMxWgUGb3oiLghn8u7TDkVec/Vs0xR+wYtBAr9PQ7pFetEPXSYF+eNG9I6NK4z/7DvoITXaPxwrwaXVvxF1A+zSMxoQcD2Q4gc96sZS764MTW5426/dsc2UNeajc0XB0BC4gL7dVArduxPWcLd0SEnBQBo1LI5hrTTDsdgqlrqHwGMvZm+AO6AiZME+oJfe42JWBuu3BN5RX7iNUQIShtGswUqygTxuxl1hPV66W5ru/MhOSHimuq8ZI7Z9epqM4yBzk4ow4m38ZY4ucF4WdiXNfvf6Z3WMCGpwxpzflnuB8Kx1wuXVYzllQMW0WSLK5vR2PfUQqc/CmXj5vbdSeZ3jn565n4tQkLbaq9PaRtUUg33RsCzq+jwnmrppsccC8dPLGJUazV6wxu3rDnJhhvUzWQGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5011,
+      "completion_tokens": 284,
+      "total_tokens": 5295,
+      "cost": 0.025724,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025724,
+        "upstream_inference_prompt_cost": 0.020044,
+        "upstream_inference_completions_cost": 0.00568
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 188,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025724
+}

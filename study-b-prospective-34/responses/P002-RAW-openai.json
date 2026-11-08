@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T12:57:50.713813+01:00",
+  "case_id": "P002",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "f702c98b8512b0879886033aba38b5c8e93c95e9ab894dbcdcd1b65806a58669",
+  "request_sha256": "843d1d1591e497bd3a58ef561e46d281b6c195cae3d5084525b3ed433d471b80",
+  "reserve_usd": "0.059448",
+  "response": {
+    "id": "gen-1794139068-lcvpRohf0u8FWY7XYtAB",
+    "object": "chat.completion",
+    "created": 1794139068,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster clearly communicates separate weekly limits with readable meters and a paused state, matching the requested reusable EP4 concept without implying real usage numbers.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2787,
+      "completion_tokens": 48,
+      "total_tokens": 2835,
+      "cost": 0.007446,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2784,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.007446,
+        "upstream_inference_prompt_cost": 0.006966,
+        "upstream_inference_completions_cost": 0.00048
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.007446
+}

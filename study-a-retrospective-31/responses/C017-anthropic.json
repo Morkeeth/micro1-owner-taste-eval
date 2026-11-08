@@ -1,0 +1,82 @@
+{
+  "at": "2026-11-08T03:33:48.559598+01:00",
+  "case_id": "C017",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "52f56f342a571247a2a8eb3b63f3b4c3228558b644f52374f4ecd93e5bc39dc4",
+  "poster_sha256": "32ee209ac40cf76c3f8cc1a13155c4042396a5f4ac4f94edf4e5289b7fc68770",
+  "request_sha256": "99ba92235958a1e916fcb0d16daa0f49ddd0d90db9696d3b8d6b573592a6797b",
+  "response": {
+    "id": "gen-1794105223-KZnrvKa0EIbby9qlmwIK",
+    "object": "chat.completion",
+    "created": 1794105223,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The poster looks polished, and the owner earlier praised the work. But the card says the clip runs on demo data, so the figures shown (3.17B tokens, $6,920) would likely need real numbers before it could go into a Short. The design looks keepable; the content probably needs replacing.\"}",
+          "refusal": null,
+          "reasoning": "The card is labeled as demo data, but the poster shows a full dashboard with fairly specific figures, which makes me wonder whether it needs real content. The owner did praise it earlier, though, and this isn't a micro piece, so I'm weighing whether to flag it as needing new content. Demo numbers in a Short could mislead viewers, which pushes me toward that call. The legend's \"Exact\" entry in black versus the lighter \"How sure\" bar is also something I still need to check.\n\nI'm still wondering whether the \"Exact\" versus \"How sure\" legend colors are clear enough, since the bars are labeled in a way that could confuse someone reading quickly. The bars per day are tagged Claude Code in blue and Codex in a lighter shade. Given the demo data, I'd still lean toward marking it as needing new content.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The card is labeled as demo data, but the poster shows a full dashboard with fairly specific figures, which makes me wonder whether it needs real content. The owner did praise it earlier, though, and this isn't a micro piece, so I'm weighing whether to flag it as needing new content. Demo numbers in a Short could mislead viewers, which pushes me toward that call. The legend's \"Exact\" entry in black versus the lighter \"How sure\" bar is also something I still need to check.\n\nI'm still wondering whether the \"Exact\" versus \"How sure\" legend colors are clear enough, since the bars are labeled in a way that could confuse someone reading quickly. The bars per day are tagged Claude Code in blue and Codex in a lighter shade. Given the demo data, I'd still lean toward marking it as needing new content.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSqgkKEAgTGAI4AUIIdGhpbmtpbmcSDAvLvFMo0ZkIgVIUUxoMIpRXjFjLOadCt3GCIjBSQdE6DSLcQkEtfTg7kIwzEEHCDGoAydlsKJdmbTpfqqAvYCY3nnFFVNc8XP1AoOQqxwjACTaNy5bkSYyMJEz8Yg10/LbnIMS6n6OLkmg8T1fD0CKO6m6WrZhwMlvq9H9sJeIAss4y4A4vH8n5zZy3WQH30BCCO4fBZJLki9Gk8/TN3g5boXsCbdgfaKSxEtRK1Q4zAewFBLmZnn82poz9Y8NJDFedLLeyTI9kE3CzsAYCo/5ElJCKD9a+5XpL8WBLgzLJCMrY3a+QPneHq2fIYZOda/MXJeJuA12RRVHnv9iyymg2UvOKoRHRdTfHqvARIjdLbdRXlRKtXl7O+7OkCf2MsfAPOotV9zkqHq8dw1JaiItG8sSz//Gv5hY/PCTzwZRZbFvBcg+VWl7zh4+syRPTu1p8ZSiWRUrfyeVX6VBdjBst9SLntWfh4KS/BnNklIpJdQJBFbXEavFAWhJBCfoFmyzj6zS1jhA07ijGCulK0pul5lqjdf9MsqsD9uv9yxsYrve8XmFgGFHXLRglHi2SKm/1Zhy6fKd4N9j2c92WUAMhAYPf4+xlv9PUPoJqVMCEYkRAPz3VpOdqGw9psafMWITS9yjVwEa5A/SBtPvMXCyo6UmlXKXrH9thDdj04jaR3zzqcZShTFzD4US0Q7b0pQWduz8NWJ8sQCpOPzoQut4umeAzS0LA31trLeiiEG5k3/DHiE2jqjOIivTYMpKFLfLx3sBRtiQkPlTOa/NpxdkICF1DGOqZc0vKKHE/Y/PCZJGlJVwcRAwWoIOpeF1Eh7sE/PD/e055Mh3l82pJeT0nAA2Hs9nQNUNJNW12+lNc+IVkIeh+zqUcINfoaa2hlHH98mB97H3+/X/h68qJWdunPYAyFO3xcTPun2VIvyYDwUX/qjGuaiO0b2DbyNxQ0krQn7fW4pCdto/Pgcip4NEcZGyBVvGqj/FddGuuy/+ICtZtrtysCsGm2bgRzpcx5MEk8vhmiFQOK7FiEjqv2UZxVh3W1GIacphpekAehKQk8VbdfmWGIQymSeHXM7i7rCfO6SPQRcv277WE89z1D20NRYRvxg9BOJQMUXELFfSHpyUvnah7oEUzhPAeULe2kBUnXMFZescznMExlc61qaCJG2SZoSA7Qv7Cdt2dnSTPlhrKN2ynwTTySNcamjPIhQPUrzy+QFa2C9lbKVQ5oTUzeE5TPPCsQcbfayd8AHSxV01XDxP825sWhuYNAJwjS7uN4cNQhvUnfYlXdP7c/w5WpCIrPcBVO3YqEgvld7SU8DN44/4aLEVmo7bAflWatZP83qA1D38ZLr6/4XCWY0u6xv0dfKLM386vQ4MNka/rfDdzSt1oVUP1VkH+Nj+IaRlHb7IQvlfG0uMWBfUKJNJVbVAzt0MmQITqIEK5vCQsw8NJh2btg9ZRP6K0Nw0esuYyl+EVm8OW4A9CIUfwF1Ie+nTCeTVJZXVyJb2X3atQLOUsSVgdu5hRaTqKX2Fiy/kov5zrT1b+XpRZbp8mFUORIulzoh0YAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1571,
+      "completion_tokens": 328,
+      "total_tokens": 1899,
+      "cost": 0.012844,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012844,
+        "upstream_inference_prompt_cost": 0.006284,
+        "upstream_inference_completions_cost": 0.00656
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 212,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012844
+}

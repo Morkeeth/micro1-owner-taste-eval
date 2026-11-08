@@ -1,0 +1,23 @@
+{
+  "case_id": "C027",
+  "shown_card_text": {
+    "title": "The agent sweeps it clean",
+    "what": "The agent sweeps the frame with his blue broom until everything dissolves into blue pixel dust and wipes to white. It is one of the six reusable shots you asked for tonight, made from our own graphics.",
+    "why": "You asked for six shots we can reuse across every episode.",
+    "question": "What should happen to this shot?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Use it as a transition or an outro.",
+    "context": [
+      "The clip is lower resolution than the episodes, so it gets upscaled in the edit.",
+      "It comes with generated sound, which stays labelled until you pick the music."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C027.jpg",
+  "poster_sha256": "76f91c846c7701764cb51fbe9bd232b78d8d69bc50b2494c138bb0eccd34554a"
+}

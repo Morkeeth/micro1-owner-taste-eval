@@ -1,0 +1,23 @@
+{
+  "case_id": "C022",
+  "shown_card_text": {
+    "title": "Agent payment rails, second version",
+    "what": "The second pass of the payment rails, with a cleaner unblock moment. It never went into a live Short or a published episode.",
+    "why": "You asked to see every unused animation so each one gets a clear fate.",
+    "question": "What should happen to this animation?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Watch the clip once; your answer decides whether it goes into the Shorts pipeline.",
+    "context": [
+      "Earlier you wrote: \"this is GREAT, but we want to show HOW agents are paying right now\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C022.jpg",
+  "poster_sha256": "b1cfeda8f180150c10adae52e3ca63e1d2c2a877c05ce4606ab2cdb710c0d035"
+}

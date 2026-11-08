@@ -1,0 +1,11 @@
+{
+ "PROTOCOL.json": "c34c015ab8e59f43cf61573fa9894c48470b02e58c8abd8ca82019c7123cbe62",
+ "MANIFEST.json": "dc74ea46e2b07b56be3c38099c1eb0ae87cd4142d628984bda0857228dfddefb",
+ "run_prospective.py": "d837513a18739610fc3780a396f493a6d8693feb12ac87660f7335513bc907da",
+ "HISTORY-BLOCK.json": "ccc97ccfa98542c6a98a80c99414b6f94ba4e094c2eaacc5a85a4f8eee944253",
+ "score_prospective.py": "2ba574a03fbeff8f136cceacc796251c36202da1a09ad5ab86f31cf4ce0ef693",
+ "build_freeze.py": "5bccaad92215e0900388d432722feb6fb9f282bd9ffc03c36f617e09ff388afb",
+ "labels/owner-verdicts.json": "e953cfadf610345a3c7e464afaf3d14880ecaf971e49049c793703afde941422",
+ "frozen_at": "2026-11-08T11:33:59+01:00",
+ "note": "Frozen before any model call. Labels were visible to the analyst before freeze; disclosed in PROTOCOL design."
+}

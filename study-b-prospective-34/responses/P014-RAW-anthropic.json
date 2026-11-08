@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:01:24.218934+01:00",
+  "case_id": "P014",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "b973faefdccf65ec872bdf2323d962ae997a0a557e8823451cb5ec0a7758cd90",
+  "request_sha256": "86ddc4bea15962be78dd3283fbbf4bb8b43baa570351a099c76826de7a878a24",
+  "reserve_usd": "0.098424",
+  "response": {
+    "id": "gen-1794139281-kS3hK3nsFKYkJG0aA1Ee",
+    "object": "chat.completion",
+    "created": 1794139281,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is the general weekly-limit shot the owner asked for. The poster frame is clean, readable and on-brand: Claude and Codex bars in a simple window with no numbers to contradict the voiceover. Nothing in the still suggests an obvious flaw, though the generated sound and the motion itself can't be judged from one frame.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1897,
+      "completion_tokens": 129,
+      "total_tokens": 2026,
+      "cost": 0.010168,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010168,
+        "upstream_inference_prompt_cost": 0.007588,
+        "upstream_inference_completions_cost": 0.00258
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010168
+}

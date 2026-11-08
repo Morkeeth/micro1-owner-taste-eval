@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:04:21.266787+01:00",
+  "case_id": "P024",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "b85d16e5b4236f15f3cac0faf275326d96e03497e9dedf3079259718dbcbf238",
+  "request_sha256": "3996bdc3f692f9596da8f1c49ec3c040df5f6f8b38a1b04c570efe45dd394bfa",
+  "reserve_usd": "0.099344",
+  "response": {
+    "id": "gen-1794139456-ozpBggtmDJk9UeOPyXr5",
+    "object": "chat.completion",
+    "created": 1794139456,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The clean blue-line composition fits the reusable topic, but the still shows the pixel agent as a hunched, tilted, oddly shaped figure. That looks off-model, so the owner likely wanted it fixed rather than approved outright or scrapped.\"}",
+          "refusal": null,
+          "reasoning": "I'm looking at the poster, where the agent seems to be walking, but its figure looks tilted and hunched, possibly deformed. It doesn't match the usual pixel agent design, so the character may be malformed. Given the composition, I'd lean toward EDIT for this one, though it's hard to say.\n\nI'm weighing a camera-or-flashlight-like distortion on the agent, which makes me think the owner would catch the inconsistency. KILL is possible too, but I'm settling on EDIT.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm looking at the poster, where the agent seems to be walking, but its figure looks tilted and hunched, possibly deformed. It doesn't match the usual pixel agent design, so the character may be malformed. Given the composition, I'd lean toward EDIT for this one, though it's hard to say.\n\nI'm weighing a camera-or-flashlight-like distortion on the agent, which makes me think the owner would catch the inconsistency. KILL is possible too, but I'm settling on EDIT.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQSmwkKEAgTGAI4AUIIdGhpbmtpbmcSDLwEICqccDEnJFp5rhoM71r1VMSlgkswz7CjIjAxGZq8l0XBnw4o1eDV99aCcarrtBZJwUb9EDO3GCJfcoDiPiZEIvdq7IMd1KK/riMquAhzxP5wPiJ49R/BmVJsnUCfONt1Ou95aPoq2Vuzd/fQ/GwUWGVZ5Hzshd+1RGd6n7EdT1jDnBx3sBGlXb96i62SJFlWKrCPMNj6yGN3ra85OR/3zG4ug2+yxOolkpNBDwTjdq6VvtEoaAp3ZJeO0HmYl3ppWQRf33xnX82C4Ff1JlhJiR3j5QQFCzueY/9Av2zPoPxWKCi4V46qeON3wtD5CaAe90ez2YA2x/1fDVVhVLwRwdFCJe/JeFUC+it9/Myol+eCjmzQhZ3v2dhE+jRDKOF3DT86kFEREHxiqIlHsqpgpZ/f6colcvWqIC+omF1MtXCzi4LGzcLAniqtJyWJ1+9tQLTdS3Z2MQlgyLktkyU4XzNUjHbVaze3HMhiT1Slw39j/oti4vpICRggpX2KdtbpIW71Qn1cJWFOrTXv4NGCDXQOz3fVnRVEDpP0MUsFJd9IMXLDdu+Mp046JdDn+RiM54+JvuirJ1qSc6kKoJzCQGR7uEIBXyfF1ghTqSxviZczPzmrxWBi8ZSw8MaarKm8bRG5y3MFHbWTTaDz9R2CPJeTmt88YY72BQ2CFSgKyBA6vZrEAZ6M+SNbFh5ZUer6PJdMNVJjMlXGZ2Pp6tin0QQ4Dxdysu55zY9QmhRP2095VHAemi5j8siSDFU72mn8AEiPPi9qrGGmxoiXqO6+Vp4/HsdA73Dk2WmT9a2dDgIvCao3Jk4EwofSg8cINeV29nK2Ux29RHVBJB+QLgfGPkxKZ4CoaN3VtR4ZddFcipM+s2rTgM2DNWQaZijWgzy3kBHztaoSrZP6GBVVumIc3HrSbYZm2YCT/DMvQdN2kpIlmH9+AbQETLhrI/KzRzExI0yXaGwhQFiuFpwjymml/Fv6CP0G7Z4wsmFCo7H7p7M3kh2N07V9+06TMNgLD3zNnI0l5z81t/D149+FgflWBjEBbUdUzpPsYeuoGR5F+jrcrKBtzp235XlUTZaxWYHBY1fisKMz/KD4Vw8tk9HJamXNBzYU3v4DwwQIusvTwAZhe5mr/B/y5UyaTeREhIGcZBsPciE/i2BLSox+DV66itcgZczKWsIOVrGoLegB90SpRwAtbh2E3hSGCySUV6qCYiuJGECYvjMWn7XQzStlxWN4Mu5k9RYQ3Wl/6yfyNcWqgYDCmlUj4cs+GQCcEqEpHQrIdDOW2zjnpjxScyPC0yF4dI04ONFuqN9kUoB5cbFGTYC1raie78+HmYtHyy78sujTyNYll2OyCZYh84ucncgqkXBV5lMNGb32BdqxxUr7uwwB07weh2TOyx5NIl5nS0gmMZNOHhQNwp+JQN/HQ/he0BQbuOArQHRjUfHjoU7aSSjkrkmFU1wqt6re0+xYPW9Vg/8bQH+opoPK8Q15HxgOrZ6Jg0GhXnrn8IZwR+xdH6czI+HZf4fN92HRPDM2BrB9/00YAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1935,
+      "completion_tokens": 300,
+      "total_tokens": 2235,
+      "cost": 0.01374,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.01374,
+        "upstream_inference_prompt_cost": 0.00774,
+        "upstream_inference_completions_cost": 0.006
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 195,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.01374
+}

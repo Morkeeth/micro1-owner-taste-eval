@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:06:27.477599+01:00",
+  "case_id": "P031",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "b37138b6bc0ce79d81792972e55bee0b8c31e2b89d328a4f2193bf0fc86aaf76",
+  "request_sha256": "23bb22e829d81be4dcdc01f28e8998919515d606ce7f0c2646174af442a7297a",
+  "reserve_usd": "0.093452",
+  "response": {
+    "id": "gen-1794139583-PfPuf0bxXrWY0R9pqGTh",
+    "object": "chat.completion",
+    "created": 1794139583,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner consistently likes cmux-focused demos and called cmux great even when requesting edits. This revision reportedly removes dead time and the walking agent while retaining the real screen, making approval more likely.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating options for CMUX**\n\nI need to decide whether to focus on something that seems awesome or to edit. The strong history of CMUX is a point in its favor, especially since it has six lanes, which is impressive. A revised card likely means less downtime, making it more efficient. Then there's a peculiar poster for STRIVE contrasted with CMUX, which makes me uncertain. I think I should aim for clear and concise reasoning but it doesn't have to be perfect.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating options for CMUX**\n\nI need to decide whether to focus on something that seems awesome or to edit. The strong history of CMUX is a point in its favor, especially since it has six lanes, which is impressive. A revised card likely means less downtime, making it more efficient. Then there's a peculiar poster for STRIVE contrasted with CMUX, which makes me uncertain. I think I should aim for clear and concise reasoning but it doesn't have to be perfect.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GXDSKHE-cx_edqgpkMuyJxo7JG_tPc1VNrznoUlhhZqW6Ut34v5KxfuSEUKd3GIIyd7ptor_SgrDg1FAsXP3nv_H7rmtXltLf8gguFIztOA-NW1pZjI7IMQq2_e_0RASL-LRbUgAjlOkFwtud0Fz-fGye5DULeLG3ck6fTUEm_dwGsm1dKuhFbECo27KPhG404jlZj4dhFHYymdYxQL-GEYa6eZ1NMWBMyH1rw2da22DTR0J6ejtE3zmyVWjsLHqkNpcWgUgFtSDwvpCyFnPng69_3XqOTCwnEFuiymc7l1bEM1nxvh986rxEn70r09kCizSbjgPjoBweXdWa3L370lfPzhEToCG3eE_p9jr4q6MnNZp52MFFtVlfcX-CheyOzdnlXQ6TEredJ2NQch7_VMvQWmOyOF6vRZimgZ5eNP_KVFyBfYuFb3DiyCwy6qkNIP_OsgwU2KYgsTRBcDHXi1oG82b7bGwUTPmVgac6ytRctaVttN8e3XWskro2779FtktC3tAEWArWYOGMkofG6kLEYzXKlwKVpHx0jpqkIABzdO66OuZ8WyQI8V65yhPI7yDRf3phybF0av-_35n-eZsYp1FNyCSzV6bRyC6F9HfRLBBzCvmXCrmHKliK8rqnxWOr3qzODsVoxeKClqh9ZaBIi45R5n8AGcizhxR8mWHDSzuOPO7iROssnLezSgYzrvl2u3Ney7xMBul5wdi2yDWfYsf-zvmdooVUL7AFPVJiKH0dra2RCtU8T1mKsut502SlQTpWJbb5WZ1yJrjVlePYWhv8-BXCt1OU2iM2gkS-5uIkInsbWPGZrl3XOr0Az17HvyrcDaX5CXgMsv_5K299VMzPYzLL9U26Ay60byTHGKs2hyNMeag8iCQMgLxa-OkJgWjk2_rAR4GjuuNyxr5AfNXxr_ovt3RpUED5YEmQz27u3-ADO3-l06Z2W5S0zqOVuHFLmbWkDcRT1PBSqtwGseiquLRSStNa5KW_D6dIU-mqtNgxmaxz9y-JBN9ggijYulppX2HD4dJn2zZBkdP3KxQFeABTdrFuO6P7xDUeDE9ZVCeU72LAne6oXjlvMOE-8CRndOUG8PkQj1y-gXRE-MpEN3bhzivNbfwFdGRZoXaTY44RL9X2LBE-nzLdV2q-ER0i1wvl1mUNRoI6apa6zkKzWRG2Y0iljzOFLpafm7gk4Y9XHL_1qnFMX_3hmV6T6BgJsIrqf-9V5HhF4N2HEbR9zmKLVQDCjoUNL1v09ozdzFDA8aL3vXuLgxv9scXxdSP6Oygi7d7lKS8pLj-wURPPbKw9ZQTWMsXWDbHtK5ljWZxtG4R7N9M_bgTk-fb718u58OsK2aPnya2ZFC7S996f-3fCvGa17uMtCT6jJzyJ8PyPqEWYMht-8odX-pOIGuZX10Q-aSCUuBV4sQggi3nfyNKglGBvVPVbpVF51URt49ydquDL9jpeZ-bGzLtsZ8JTfy8QaWpM3OdKrKB1VULr1_KyItVqrP6EBF6YIR3RYg63S39gEw9vOAmrmgiKxGDEMqrvt_6-1SDVLKcEubJ8id5iuZ6q77Mzz6BcvBkCEWEP7CFI5vprDPBqevuSIcD9dMeXsmywNaFejUge9hE_JUIoAOE8A1SrqISZUfanXeVJitk79bIpt5-q1mv2aSXKX2d9yw3LhYNus82reWOWZaQDzMRA92xoohslsultEchTFk0AevQRiJ6dhnMoyDriRNW2wVFhCFHeetprXXkqkxrBVimFfzJU2QWi7oadcPpjZuofZ5bw5e8FkosVAdfL1ipaV4elNftRVGXkkTV0NmNnmKaP4sTVU7H5hUJWsLzsmUZV2kuZEEa5PIsNJDAzd2kaYR4w3ujD0nUlMRBKKbtQKniEF3gmxH9L3LBhvIjauB039H5eKfj6A4YoytVu-S77gjv9tRcoyqJYyvX8cWsCu1wrIGxdi7GAxCejGkQzVMYZYiTkDIrCCz6eactY9h18fu4dMULVaJ8qGo-Giz_WpzsOzeGPCfaV0J-Y614AAlJwyBcmrePNyW9uV42eoNVArFjq2S2NsMDJ5Bq8f3pAt_ucWFfZVllq1RooCjbRczbLkTmrw32UVZEajWAefKfVhGae8NeI2gpleW0w-CyeZf6gFJa811G5MMQr1jg8E8Up8aWkTornFxceyAJg0nO8VNxrV2h30rwpNMOncABnAfFrHJ_wUrfSRpL9-M0H1u8FqMPx2b4YkKOVmT436x9sHDfYhZjMfUmpXla0zGXhINrbUVB6Tc5vPsLIK-hgLQShDR9wWXPDn2H_Z2NvPRiv6-XsOlS2NpNogfO21PNrj-b51gkId5hEW-UE-2PuK37H95jCBkROCBVXKfZHnVVD7P0ladaqNSxPr7Os4QIdFyQGDLMFZFdCwSwf69zNTpKfEv33H89neEXcjWyvh0aGnAbRQfqi5K3w==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_04a403783f410603016af065c0ba9487d1808eac80a1fea780",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3507,
+      "completion_tokens": 111,
+      "total_tokens": 3618,
+      "cost": 0.009876,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3504,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009876,
+        "upstream_inference_prompt_cost": 0.008766,
+        "upstream_inference_completions_cost": 0.00111
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 50,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009876
+}

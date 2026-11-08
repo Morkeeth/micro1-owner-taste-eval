@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:07:15.382521+01:00",
+  "case_id": "P035",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "fc8ab9f3ef793256efc7c5f4d4a41a05b48ce1a0cf5adfa9d432e9458e601661",
+  "request_sha256": "7db59be9abc1240ba1ff214bbea10137a3dc5c137c2f0ee8fb22779304b2409a",
+  "reserve_usd": "0.099752",
+  "response": {
+    "id": "gen-1794139629-Pf3PQf4UcucGOZLB13ig",
+    "object": "chat.completion",
+    "created": 1794139629,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The new real recording is the right kind of content, so a fresh rebuild seems unnecessary, but it likely needs fixes before use. The 'asscracks' prompt line is legible in the frame. The whole sidebar is blurred into an unreadable block, which undercuts the 'every agent in one sidebar' message. Both point to targeted edits rather than approval as is.\"}",
+          "refusal": null,
+          "reasoning": "The owner has sent a real recording now, and a crude joke is clearly visible in it. The sidebar is blurred so heavily that the agents it's supposed to show can't be seen, which may weaken the point being made. I'm weighing whether to re-edit to cover the joke with less blur, or keep it since it's their own footage.\n\nI'm settling on whether the sidebar blur undermines the \"every agent in one sidebar\" point, and I'd lean toward re-editing to cover the crude joke with less blur.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The owner has sent a real recording now, and a crude joke is clearly visible in it. The sidebar is blurred so heavily that the agents it's supposed to show can't be seen, which may weaken the point being made. I'm weighing whether to re-edit to cover the joke with less blur, or keep it since it's their own footage.\n\nI'm settling on whether the sidebar blur undermines the \"every agent in one sidebar\" point, and I'd lean toward re-editing to cover the crude joke with less blur.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS2AgKEAgTGAI4AUIIdGhpbmtpbmcSDFbaG85euSNbL5g3shoMMg5KDBJ0GlD+rNUUIjB0Tq33+UOichkXaxc/E994Oy94IsguAHjSuNEIoOjVei7sttCIiUdKBTgtXOA1PPQq9QfJqliRRwYcBc3ob95XsYzRTVZpZ9sJED2GGlatsGtamtbQXGF2XV0SupwbQBnYS8B71cg/y3jLe7yADtenKLWLuxGlTDWlxhxksBrq4O15lJPmMonNeACLjqoDxtIEhLTn41+pc2kVGckayHIEzfp0P58IMn8ncqMPTv7EoNHsRCULg6hvB22NvqLdgoPueGPmZyD34Ky5MKIj2KIlMDoD6Bz1dF2t8YKJ3Km7fUGiNWAuodoW5VtTIn051+jGiRVj6zloox0bN+oINziEWwz4f0ltaLo4jKPsYIZBvrxVtdDYP0Er7Zb+fdF4gvcxp456TEJNWl5PtaaY8ySVS6GnL+DxuYMl8YSFk9BKULQwvWxm+DrnI1J9z90oKskWI0KhdNXgS/I+iLCMdlxHB5OVUZypcttulRR7h6OsXZ+GCU0UhqmEsaE57zep97IGsjQBUgvAAPI6Owk8TQX6Ghh95iaVkyHg/7JtKvvXsn5dFaTA+uB4rZj7m/8J9VsQ1TxHkwYwhWRjTquGmjl1tqCF/J5//E8KpVxVEilTowXMqMb4cwDpo/trZ9+a3t0S5RWNTefrzucMO6kBwTj54LylXR8h6xHWo9stnOATgq7F+0Tuv3xETWDEKTsy3SepkzXPm2QZxR2t+OkLhaS1cwYgygP9esQrEorf102jv5Ojah7uFCJ1DuIif4d+uEkUkktrd8+cFnSRo6hs0+ztYtPSfPe3C0nD9O2V1r7QYXqNCuCID32pUQ3fmt62B1dFqCy/QJj4sMOvpyPLuxhQxvbQfYG5Aoj0Ifyg85zUhdpWxNaVXgGzjSJIhroJRqZyHf7yDQnnINBKzyHOYHAgP/C3mPGy6DUSaDd3utrtz1jcIhLSOsT/CYoFqUoE1d6+5ucBtHXxs0INAOIsqG8CDA3XDt+xRxjrMl/cwMnZ1YcE88ZMRkCY2wZPzI8aigDbh0PS+/CKzq65jm6NoWeFyBrRTvK2v23c8hCm3Ep+xpKHAw7xK6fQGtSfCDIsWAHZsGaHENjlZUwS0VIsty4FjFYuT4U2Cdx6ja7zWk6+8fjl7Wn4nYh+4kg/Q+egBx/Kz7ymlBYup2Sz4HMANCAblzEo2Ik6bW2gCJUY57iWrwGsbTWSxC0VSmO9EYfG7X8pjLwbLpGYLEVdtbDTOuSSOBibGTVl/vJgUdwwkkuDOV8qlks4MokD6W0REK0r5V/F1tRW3vSwscE26GufK4DgTwWBn24be5GSsCqKMLRGwg+4bdF/Cd2xOHb2GheorhwNmN8Lpsu9VnWCdlTFmzEt7kCAMnGjaFIYguRWrU3IWvwi8AI4shIO6DejQe+pJiNXk8F4cBgmhRgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3441,
+      "completion_tokens": 312,
+      "total_tokens": 3753,
+      "cost": 0.020004,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.020004,
+        "upstream_inference_prompt_cost": 0.013764,
+        "upstream_inference_completions_cost": 0.00624
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 170,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.020004
+}

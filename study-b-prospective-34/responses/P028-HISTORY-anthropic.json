@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:05:34.815397+01:00",
+  "case_id": "P028",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "5cd779cba115b3e7a49a1dce25c648a7f20595264c618ee1f6c281c8c0b3b986",
+  "request_sha256": "1a8c4ab6b980793ce60c720b2363f279c641cd015006b4a4d4ca36071ffb5731",
+  "reserve_usd": "0.166392",
+  "response": {
+    "id": "gen-1794139530-KuzHHjvp0hXnTWIRcTaS",
+    "object": "chat.completion",
+    "created": 1794139530,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The card calls this the weakest motion of the batch, with only a small pulse on a nearly still frame, and recommends killing it. The owner has killed weak reusable Higgsfield shots before, and already rated the original limits runner animation 5/5, so this near-static copy adds little.\"}",
+          "refusal": null,
+          "reasoning": "The card describes the weakest motion and recommends killing it. The owner loved the original \"Two limits, one runner\" (5/5), and this Higgsfield version barely moves. They already killed two of the six reusable shots, and weekly limits is a core topic for them, so an edit could work, but the recommendation to kill and the weak motion push me toward killing it.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The card describes the weakest motion and recommends killing it. The owner loved the original \"Two limits, one runner\" (5/5), and this Higgsfield version barely moves. They already killed two of the six reusable shots, and weekly limits is a core topic for them, so an edit could work, but the recommendation to kill and the weak motion push me toward killing it.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQShggKEAgTGAI4AUIIdGhpbmtpbmcSDJlaVwUCRUha0AcjdhoMnQ0rgXSWC0/jBntcIjAGHVXimqvCKdQ1TTixitaldMh+dU6ScQvP03p1gIcKJ2XLgxSCFe4Omqw/6YSSbkAqowf6AuY6WTYaDmWtHO9vh1ylYzN8J/mIRGuCLlAmP/KynFoQwWj9HKjMS0JSDYnpwYPTsEUucTV/iHzZseI3Kv4vM03sp6khfrPVbjRL8doUYoNMELfoMaqLRKVkojACSzKoXSPc54sJAkeMchXh/jafdpTex0IQpLOKpBpZtkGNOoQx8q8xYEtF3D3YmizOgMwfP8UxsstszjheZ63noJrHUrwI80VLT38mOsyAVDsgJux1PfKiFRnOJONm8UN2MglSbIHr4YTm/0IQoRPHkhzW8DmlPCCpGarhkzqAWLur0Wauwjbltvz0bp9rWGr0p8Lc/T13npydgggqxMgqhtvTCup86Pca7qYIjqeL2UqIUiP9YQD184GX2Qg/KLsUbzik42MlMbGlSLYW5evaKVKXLKVp8CtLtNZn3fjao577bnDGbynebVVlyJhx7vuHJJ4rhcfSBR472VY8mjL9JMm69slgHvpi3jBWG6D+BJ4odrERY7l0WVm++BCIZYCMgCM51fxlg1t+LilYTqJGe8WEfcQ6jGoR0Qre/ExzkoxO8IP0wvbhtcUoLlYkKNgzC5dI4rOSZF6XgsfLPjQ5Jb1vFQcbRuoVn3Px37+folDtWGCmICAiquO8a5D7spvsNWFpOnarmsLs3taCUkUe0meeX/MpBH9FMD9tOCuHf0hBBGy2kGnsaC8qipMZEjBtFN5JmOypqVyOcWqpKldHmgY5OBwwFPpLKOFKuktLJPstJc10RPeX0XP3Ax/BYoKkOqi+PndtWPVcMVyFxDA2A0US2KjCkuhWmxZBjZo9okP9LRkoksFIMAhOEoAEaCnRQqUilEvpP5CrNuiQ0GdkLWjOy83N/StQH9EWEbPPI+2tXz6FkgX54dzlW8Klm1EgLa37YGPGXKcWEbsYsGHTODyjCeB+OD685k4UM2MHDy+1ezbSouit5H2s5kqDDFdXsw5bfW2AZhFcgm144giCwBTPOfcSzMH8ftqfWJVtTJjr/HCjvl13VDrv/NCladFWs+Usrb00wJrfF/vUZhmbzMXmABLaCT2R5DNOcDVBCrjs8zUwZeCXkeNTGo7Z05Rf5eaTIm5N/DYPbOGKiHDcp3uq9cefoVhXXIF8wwe6IjvihYGoVkfHQ9M9DCE3pqXd6ulghPO0tbgOmmUjXsq0EFefHPT1XthAXb8P1dTYMDTtshl+XPlxXxnO6TJj2VqnxGfewUi2gsFNQMd+JGKTzFbxxXXeGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5021,
+      "completion_tokens": 252,
+      "total_tokens": 5273,
+      "cost": 0.025124,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.025124,
+        "upstream_inference_prompt_cost": 0.020084,
+        "upstream_inference_completions_cost": 0.00504
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 140,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.025124
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:31:54.394594+01:00",
+  "case_id": "C003",
+  "route": {
+    "pin": "anthropic",
+    "model": "anthropic/claude-opus-5.5",
+    "allowed_response_models": [
+      "anthropic/claude-opus-5.5",
+      "anthropic/claude-opus-5.5-20260921"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 20,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1000000,
+    "highest_input_category_usd_per_token": "0.000008",
+    "output_ceiling_usd_per_token": "0.00002",
+    "per_request_reserve_usd": "8.040960",
+    "live_endpoint_source_sha256": "ec0ef50badbe454a268e5d74e660dc441bce481b005015b4ffde67fe6c7630e5"
+  },
+  "input_sha256": "6bfd9d82a2c7bbc012233b21177256fe7f5322f64e10760528647c7bfc8a10a4",
+  "poster_sha256": "7e998bf37a8fade783d138976aaa039cb38a0b0f11558864ef161d3662362516",
+  "request_sha256": "1d8ac6a65dc8e4f50f087e7b4c94d83a6cde31a9c6e40cf8b25f7502db2ae626",
+  "response": {
+    "id": "gen-1794105111-EPbydhe6R7g0ywGay6s9",
+    "object": "chat.completion",
+    "created": 1794105111,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The owner asked for more ambitious, fun generated shots and had already approved this one. The poster frame looks clean and cinematic: a wet Paris street at blue hour with red, yellow and green lights that clearly echo the window buttons. It was cheap, stays within budget, and its generated audio is already being replaced with our music, so there is little left to fix.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1956,
+      "completion_tokens": 136,
+      "total_tokens": 2092,
+      "cost": 0.010544,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010544,
+        "upstream_inference_prompt_cost": 0.007824,
+        "upstream_inference_completions_cost": 0.00272
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010544
+}

@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:04:06.818826+01:00",
+  "case_id": "P023",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "e9e80df3632d994ddf1dcbec55538cfe9e4d71fbd09093924fe1f7ad151c0600",
+  "request_sha256": "4b140d1dde38a983f567886ec418297af57a75a3e135cd2dddca99934471c3ac",
+  "reserve_usd": "0.098712",
+  "response": {
+    "id": "gen-1794139443-oiVIUqcbHjkesn7HuPyB",
+    "object": "chat.completion",
+    "created": 1794139443,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, on-brand blue bar with a clear 'weekly limit' label and no numbers or artifacts, which matches the card's description. The recommendation calls it the best weekly-limits shot and reusable in any episode, so the owner most likely approved it. This is judged from one still frame, not the full motion.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1923,
+      "completion_tokens": 127,
+      "total_tokens": 2050,
+      "cost": 0.010232,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.010232,
+        "upstream_inference_prompt_cost": 0.007692,
+        "upstream_inference_completions_cost": 0.00254
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.010232
+}

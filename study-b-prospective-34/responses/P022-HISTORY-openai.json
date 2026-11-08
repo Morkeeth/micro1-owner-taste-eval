@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:04:03.734868+01:00",
+  "case_id": "P022",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "ee72eec4fea8bb31aca2ba5b0acb5eb9b3c4b9d9634b0ebcdc639d89cfbc3c9d",
+  "request_sha256": "e12a3259da93ee960b6ab934cebc1cf898b878d0e0a7b50f480dc96ca617ac87",
+  "reserve_usd": "0.093544",
+  "response": {
+    "id": "gen-1794139439-Y3Qswkxe4v4RzgDVcvpF",
+    "object": "chat.completion",
+    "created": 1794139439,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The generic phone and white placeholder window resemble the abstract screen/object concepts this owner rejected, rather than the distinctive branded animations they praised as reusable.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating poster options**\n\nI need to make a choice about the poster design. The generic white panels have some text issues, and I think they might not convey what we want. It feels like I'm stuck between keeping it generic versus something more on-brand. The user prefers something magical and branded, rather than just a standard UI. I might lean towards scrapping this design since it doesn’t have the energy we're looking for. It's time to decide: I think I'm going to choose to drop it.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating poster options**\n\nI need to make a choice about the poster design. The generic white panels have some text issues, and I think they might not convey what we want. It feels like I'm stuck between keeping it generic versus something more on-brand. The user prefers something magical and branded, rather than just a standard UI. I might lean towards scrapping this design since it doesn’t have the energy we're looking for. It's time to decide: I think I'm going to choose to drop it.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GUzfapy2OEMUtm8zxf-LaHgYuckyzvx0NKuzBHlscZyAdKVYFQQ53-bP0AOkM788XFptcD_LSMMMIejOVHQcWiVL1FGqrIsz9B4Ay_K4zfph6zx4zHmvO9KODylQyQfA0_apuWGKYqYprT9fkXfHHyLrRx78Nqtv0iXk-516JgXM8mJrU5J7NcT4KKmnvJqCrGg7t5HtsOyXCR1MPLG99WGv1RocdwSYxHtnGf7M-9XhrPCjcH012mLIP_qmcQ3fGnTLoBlMwuWPJm4vCY62QdSxwstjaFmG2KEzBAh8SgPGjuzgldytA3zvYBeutLSDg9Ges2fZrP59JFOwEopLbdWDRQAbUiBcQnx9gamHMkdsxtS4Agne-FePskixfb8DNZuUZ-bWSuPf9fMS8sv98suOwZHkiix_2r6Ni2219YvlXD1PYzovzDgrXQ6MFE6TuU0g_bKMOar7jR6iyKYIszeXCdEI-f7Qp1pescPiS06C-PUKdCfLEdbiqJtJhw9lbFyPo1vwCWCwYMJUjmB0xUkRKi9Avt5miFjlmQX2qo0UH9ZJ7d5xTPO40U_7t5lLmlnR0IsQwKZ3Kl5Ym18-DF19G6rsowBprfbTo1dEawMV9CSVtPxl_Rh91MJcKPDHrEgl2VC1s0rA88R5AxqWQJ826SpNCMsWIHZAH-W9Icr19yaSuCherKBJYUqqDqcjgYk_fhJ-EVCkeBjPMHR5zt7hOWbexe9sLLLj4TwrHnKDaViQqUS2R-zAxCk89prQBj-_YlMOPL8O9SzeNLYsSpBVGx_GAwe0fjWclYkN6FNHsCGOLDIh_R2zBHAwU32_OOcTB4dXUrKSZVwK4uHjcQ1jkIQPBfDSAOdaHRMUbfaTB54H1JUSmKO6A4PDgM5hS2l783UH7O1xd3vB1dumlhg5_qTFYx8tT6RHJLBkmWr4wR6o8lux1PFowqc_q1zWoH6Hai4sdhZDlT8eGkknZaPQZ5Ej8Usp2tu3RuK70B_cVyCRWQjozcQ0NIKWjzKCs60UQTFP2GcHoFtcJ42x6WHo2my2wbmrN0IKSiqZjX1PLYBsjjU9zehXOqKZxxRW2kxqQr9JVT1n-KJagpAPtnG8EdUYYJA75AQoTqi5P-KflbhEJkVqPa5NZoh2OXSCWSL1MyY6h4hj2IhjYJY4UJ6SQEDhqZjMw6C1kCAGjeR9D0Ja_OhIgOh8eEtO73o8xLZghK9Zk2xCBBKNXGg_oiD4QOzMtT6ww-Qxh_EQEPh9k2NrOwcAD0shkVVHfxh9i5E4QHnKtxvrN-Js_we4ITSgi5u9tcEwibWvQOdIfaQBBRGsUVZvBcFu6uAfTpvzQQk1fy7A0iAjQ124IjtH3Vwt9TQic0TYIXXTmUtLSE7o1MgnGyW71iwAHyllZAhHg87VUXVjtCWPVH4QxLAYt05RJ1v00eUiwDN_iN1rXgyI_H3CnWwvDD5jBiuXgLvkNVezfWQ5ZTEEGiDd2vJZTNBWVw-RSQg9hKL2VuCssjyR6OAl7i_JEeNxJTgeXrpL4Q_tQAadlzDPO9vemyYegDg4MLswv5DheQC1l-HijZAMdtALcHos9Mad1IZLBoQkFTj8Z9UsrbJqx_1u-RTq5-TAtN1npeh7MfEvAIyy9TkXiUu4KIMrj_QBhgaB2mLKbjfnN29bq79rtYM4KzZul4owM2CFV-C7VAdKiy1C6m0fox2e6fOOmMRZ8t_eQx8D_N189xaux1MYkUK-_CmUy0Hd2SzqAgcPbYhIXEAb9SfzZFiM8rdZLcH0iWW_RDjS0eSXdkSAD1VCGiL-ZmgyCbJqCyHjjlm8CwY7fjg1U8V3xMgR_-V-i7mI7PSqigUVTmqwioXA_XjmXxdAC-EVps54CT86VzIHxV8V5-zDnWEAV4v_EQ3azLQKLJ8pJtzQL5__Ki9NDE_0ZkK_A58O2sxiF2mfm0_Ki86NC4s52QPMz1mSUZw8E0yjUUbN-46Q5y1hZvmBOx1Nk49F3_YYbVa0CewbqfL6n_vJ39EjZaOSbGZXI8HJwixs81xb9jYibXYX5m1UzdCDRfLcqvOON9Faa6VGeWY-S4IZGL4tcfsH7JiAj1DZqwXZUvztLqA57wNyXTfIEuFxEv2aDkKoYFJ6a-B6cZYWfpbIj97E-PXFyCG4cOKWEt-fNVFB5Wy34RV2z7ApYVGQSdkY8uCYueLG8KHtS1IdLnlH5rFu4ZrD2U1jqO3gUAxUaaAyyL7jQCeYvBYQGLj7HtFSCr3qP6fVBIaV5Hgq9mJElZvnNffkkFw6hoKG3azYibRux5-dn0z1QX0RKgdDvioDgcEWn1HZWRvJzvkOw-04_nDVBw2FH6LtJoAiyMA2xJZnjdqTgkUfq2kJ_LhH3L_yQ1IyTyLMtBoPHr3Xi3rVD1wzBCiAL5WRU6icjGvSKzWwnap9gLr-Byjs5FgiO7Hng7Dgmu3NLnbYRHzPxRVWkiDUpj2Z1ahOVM5Ge7oE-nfkNfQZxGo69rsV99Jv1eENr68SgQ2HNxqGWjOzFL6ebCmV3ujWAUkFnl_I_Zfq-ip510ictEPZlp2BApXxnSwgVoDub2OSMt1MXP_vTGIl93-kt99QPo37X3Axn9DPiZUNDKnZXd1udYR86if4lmnGQPI48TczkQefZS8fuquT55K2D-pI8Cw6eYUu6kpBiR0VmuiAB0IxBuoLy4iegV3ZPae4FjTSv5HKUZ60mJbgTTnJeqAwf9kmA0wnk2w0bI9KXUtImhbv5qVknbHqp4FS6IVir1_qdxPpv2Udz7DIvEiA-MFaiAKyfwE80HsFsbpfq45xJcs.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0bf3d16e06db93d6016af06530839487d18ddf578115e6987c",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3506,
+      "completion_tokens": 128,
+      "total_tokens": 3634,
+      "cost": 0.0100435,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3503,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0100435,
+        "upstream_inference_prompt_cost": 0.0087635,
+        "upstream_inference_completions_cost": 0.00128
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 79,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0100435
+}

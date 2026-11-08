@@ -1,0 +1,292 @@
+{
+ "all": {
+  "RAW-anthropic": {
+   "correct": 16,
+   "n": 34,
+   "balanced_accuracy": 0.38958333333333334,
+   "class_recall": {
+    "AWESOME, USE IT": [
+     10,
+     16
+    ],
+    "EDIT THIS ONE": [
+     4,
+     10
+    ],
+    "NEEDS NEW CONTENT": [
+     1,
+     5
+    ],
+    "KILL THIS ONE": [
+     1,
+     3
+    ]
+   },
+   "pred_counts": {
+    "AWESOME, USE IT": 18,
+    "EDIT THIS ONE": 11,
+    "NEEDS NEW CONTENT": 2,
+    "KILL THIS ONE": 3
+   },
+   "invalid": 0,
+   "vs_constant_model_only": 6,
+   "vs_constant_constant_only": 6,
+   "vs_constant_exact_mcnemar_p": 1
+  },
+  "RAW-openai": {
+   "correct": 17,
+   "n": 34,
+   "balanced_accuracy": 0.3614583333333333,
+   "class_recall": {
+    "AWESOME, USE IT": [
+     13,
+     16
+    ],
+    "EDIT THIS ONE": [
+     3,
+     10
+    ],
+    "NEEDS NEW CONTENT": [
+     0,
+     5
+    ],
+    "KILL THIS ONE": [
+     1,
+     3
+    ]
+   },
+   "pred_counts": {
+    "AWESOME, USE IT": 25,
+    "EDIT THIS ONE": 6,
+    "NEEDS NEW CONTENT": 1,
+    "KILL THIS ONE": 2
+   },
+   "invalid": 0,
+   "vs_constant_model_only": 4,
+   "vs_constant_constant_only": 3,
+   "vs_constant_exact_mcnemar_p": 1
+  },
+  "HISTORY-anthropic": {
+   "correct": 10,
+   "n": 34,
+   "balanced_accuracy": 0.33541666666666664,
+   "class_recall": {
+    "AWESOME, USE IT": [
+     6,
+     16
+    ],
+    "EDIT THIS ONE": [
+     1,
+     10
+    ],
+    "NEEDS NEW CONTENT": [
+     1,
+     5
+    ],
+    "KILL THIS ONE": [
+     2,
+     3
+    ]
+   },
+   "pred_counts": {
+    "AWESOME, USE IT": 12,
+    "EDIT THIS ONE": 7,
+    "NEEDS NEW CONTENT": 5,
+    "KILL THIS ONE": 10
+   },
+   "invalid": 0,
+   "vs_constant_model_only": 4,
+   "vs_constant_constant_only": 10,
+   "vs_constant_exact_mcnemar_p": 0.1795654296875
+  },
+  "HISTORY-openai": {
+   "correct": 14,
+   "n": 34,
+   "balanced_accuracy": 0.36354166666666665,
+   "class_recall": {
+    "AWESOME, USE IT": [
+     11,
+     16
+    ],
+    "EDIT THIS ONE": [
+     1,
+     10
+    ],
+    "NEEDS NEW CONTENT": [
+     0,
+     5
+    ],
+    "KILL THIS ONE": [
+     2,
+     3
+    ]
+   },
+   "pred_counts": {
+    "AWESOME, USE IT": 22,
+    "EDIT THIS ONE": 3,
+    "NEEDS NEW CONTENT": 1,
+    "KILL THIS ONE": 8
+   },
+   "invalid": 0,
+   "vs_constant_model_only": 3,
+   "vs_constant_constant_only": 5,
+   "vs_constant_exact_mcnemar_p": 0.7265625
+  },
+  "HISTORY-vs-RAW-anthropic": {
+   "history_only_correct": 3,
+   "raw_only_correct": 9,
+   "exact_mcnemar_p": 0.14599609375
+  },
+  "HISTORY-vs-RAW-openai": {
+   "history_only_correct": 2,
+   "raw_only_correct": 5,
+   "exact_mcnemar_p": 0.453125
+  },
+  "constant_balanced_accuracy": 0.25
+ },
+ "fresh": {
+  "RAW-anthropic": {
+   "correct": 12,
+   "n": 25,
+   "balanced_accuracy": 0.4236111111111111,
+   "class_recall": {
+    "AWESOME, USE IT": [
+     6,
+     9
+    ],
+    "EDIT THIS ONE": [
+     4,
+     9
+    ],
+    "NEEDS NEW CONTENT": [
+     1,
+     4
+    ],
+    "KILL THIS ONE": [
+     1,
+     3
+    ]
+   },
+   "pred_counts": {
+    "AWESOME, USE IT": 12,
+    "EDIT THIS ONE": 8,
+    "NEEDS NEW CONTENT": 2,
+    "KILL THIS ONE": 3
+   },
+   "invalid": 0,
+   "vs_constant_model_only": 6,
+   "vs_constant_constant_only": 3,
+   "vs_constant_exact_mcnemar_p": 0.5078125
+  },
+  "RAW-openai": {
+   "correct": 12,
+   "n": 25,
+   "balanced_accuracy": 0.38888888888888884,
+   "class_recall": {
+    "AWESOME, USE IT": [
+     8,
+     9
+    ],
+    "EDIT THIS ONE": [
+     3,
+     9
+    ],
+    "NEEDS NEW CONTENT": [
+     0,
+     4
+    ],
+    "KILL THIS ONE": [
+     1,
+     3
+    ]
+   },
+   "pred_counts": {
+    "AWESOME, USE IT": 18,
+    "EDIT THIS ONE": 4,
+    "NEEDS NEW CONTENT": 1,
+    "KILL THIS ONE": 2
+   },
+   "invalid": 0,
+   "vs_constant_model_only": 4,
+   "vs_constant_constant_only": 1,
+   "vs_constant_exact_mcnemar_p": 0.375
+  },
+  "HISTORY-anthropic": {
+   "correct": 6,
+   "n": 25,
+   "balanced_accuracy": 0.3125,
+   "class_recall": {
+    "AWESOME, USE IT": [
+     2,
+     9
+    ],
+    "EDIT THIS ONE": [
+     1,
+     9
+    ],
+    "NEEDS NEW CONTENT": [
+     1,
+     4
+    ],
+    "KILL THIS ONE": [
+     2,
+     3
+    ]
+   },
+   "pred_counts": {
+    "AWESOME, USE IT": 6,
+    "EDIT THIS ONE": 4,
+    "NEEDS NEW CONTENT": 5,
+    "KILL THIS ONE": 10
+   },
+   "invalid": 0,
+   "vs_constant_model_only": 4,
+   "vs_constant_constant_only": 7,
+   "vs_constant_exact_mcnemar_p": 0.548828125
+  },
+  "HISTORY-openai": {
+   "correct": 8,
+   "n": 25,
+   "balanced_accuracy": 0.3333333333333333,
+   "class_recall": {
+    "AWESOME, USE IT": [
+     5,
+     9
+    ],
+    "EDIT THIS ONE": [
+     1,
+     9
+    ],
+    "NEEDS NEW CONTENT": [
+     0,
+     4
+    ],
+    "KILL THIS ONE": [
+     2,
+     3
+    ]
+   },
+   "pred_counts": {
+    "AWESOME, USE IT": 14,
+    "EDIT THIS ONE": 2,
+    "NEEDS NEW CONTENT": 1,
+    "KILL THIS ONE": 8
+   },
+   "invalid": 0,
+   "vs_constant_model_only": 3,
+   "vs_constant_constant_only": 4,
+   "vs_constant_exact_mcnemar_p": 1
+  },
+  "HISTORY-vs-RAW-anthropic": {
+   "history_only_correct": 2,
+   "raw_only_correct": 8,
+   "exact_mcnemar_p": 0.109375
+  },
+  "HISTORY-vs-RAW-openai": {
+   "history_only_correct": 1,
+   "raw_only_correct": 5,
+   "exact_mcnemar_p": 0.21875
+  },
+  "constant_balanced_accuracy": 0.25
+ }
+}

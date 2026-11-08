@@ -1,0 +1,22 @@
+{
+ "case_id": "P013",
+ "shown_card_text": {
+  "title": "The windows orbit into one stack",
+  "what": "Six app windows lift off the desk, float in a ring and stack neatly into one pile. It is one of the general shots you asked for tonight, made from our own graphics.",
+  "why": "You asked for more general shots about notifications, screens and weekly limits.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it for many agents, one place to look.",
+  "context": [
+   "It comes with generated sound, which stays labelled until you pick the music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P013.jpg",
+ "poster_sha256": "65aa023bab332fbb950f7bdb6431e4f4c0d6de7d47ae2d7a6dd2e50b36cf27b8"
+}

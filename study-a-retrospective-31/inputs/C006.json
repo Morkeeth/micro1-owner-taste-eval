@@ -1,0 +1,23 @@
+{
+  "case_id": "C006",
+  "shown_card_text": {
+    "title": "Style library folder",
+    "what": "Reference images fly into a blue style folder in front of you. It never went into a live Short or a published episode.",
+    "why": "You asked to see every unused animation so each one gets a clear fate.",
+    "question": "What should happen to this animation?",
+    "options": [
+      "AWESOME, USE IT",
+      "EDIT THIS ONE",
+      "NEEDS NEW CONTENT",
+      "KILL THIS ONE"
+    ],
+    "recommendation": "Watch the clip once; your answer decides whether it goes into the Shorts pipeline.",
+    "context": [
+      "Earlier you wrote: \"this folder is defeintly one of our statement animations\".",
+      "Checked against the Shorts and episode indexes on the eighth of November."
+    ]
+  },
+  "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+  "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-OWNER-WINDOW-FROZEN-e87f7594/posters/C006.jpg",
+  "poster_sha256": "1a45e4094710adbc7ab282ed93d95d35fb25a1633374a99cd3d9d4d9b0362629"
+}

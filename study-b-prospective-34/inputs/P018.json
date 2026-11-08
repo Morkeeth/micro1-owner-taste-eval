@@ -1,0 +1,23 @@
+{
+ "case_id": "P018",
+ "shown_card_text": {
+  "title": "Dock icons bounce with notification badges",
+  "what": "A Dock of app icons bounces one by one as small notification badges pop up above them. It is the notifications topic you asked for, made from our own graphics.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Good short insert for any moment where agents report back.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P018.jpg",
+ "poster_sha256": "94054b5dc8b19ab50fef714fcb008b2c68e6a69f957f6fb1ed9d059809cf42ea"
+}

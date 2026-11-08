@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:04:08.834688+01:00",
+  "case_id": "P023",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "e9e80df3632d994ddf1dcbec55538cfe9e4d71fbd09093924fe1f7ad151c0600",
+  "request_sha256": "ba6a839042ca03b40f890a4840b7640427812d5d2e506572c30c3c4df856084c",
+  "reserve_usd": "0.059596",
+  "response": {
+    "id": "gen-1794139446-DIX2kl990C9LbaCKUBE9",
+    "object": "chat.completion",
+    "created": 1794139446,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a clean, vivid blue weekly-limit bar with no numbers, matching the brief and looking reusable across episodes.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1446,
+      "completion_tokens": 44,
+      "total_tokens": 1490,
+      "cost": 0.0040535,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1443,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040535,
+        "upstream_inference_prompt_cost": 0.0036135,
+        "upstream_inference_completions_cost": 0.00044
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040535
+}

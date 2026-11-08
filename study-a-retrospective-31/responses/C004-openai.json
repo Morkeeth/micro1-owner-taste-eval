@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:32:09.007224+01:00",
+  "case_id": "C004",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "45a30a06d88c663b5ecd0293de5efc49447abed57ee437a15bf57fb718e39440",
+  "poster_sha256": "98cf6e489cdd2708e17c2a68c9a10463b787c47590ff18a86083246e17252728",
+  "request_sha256": "6b15848458fee27f2401b7135b296df7dcfa07ad8a01395101b4a7b6ac7c188e",
+  "response": {
+    "id": "gen-1794105123-gcXDeGeT4z7iHH08djkw",
+    "object": "chat.completion",
+    "created": 1794105123,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The headline and four-agent layout give it a usable concept, but the terminal text is small and low-contrast, and the dark face inset needs a cleaner presentation.\"}",
+          "refusal": null,
+          "reasoning": "**Choosing poster edits**\n\nI need to select which poster to edit, ensuring it's polished yet maintains a dark aesthetic. The text is small and feels awkward, so I want to avoid sounding overly certain. I should choose to edit the one that has issues with visual readability, as it's too crowded. It's unclear if the owner had a professional approach or not. I'll focus on the most plausible edits, considering the readability of the title and overall look.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Choosing poster edits**\n\nI need to select which poster to edit, ensuring it's polished yet maintains a dark aesthetic. The text is small and feels awkward, so I want to avoid sounding overly certain. I should choose to edit the one that has issues with visual readability, as it's too crowded. It's unclear if the owner had a professional approach or not. I'll focus on the most plausible edits, considering the readability of the title and overall look.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq798oY510WH4GEb7BrEPHG5KzMCyA5J9--iO9iSlKm-0BHCFL5rBcSbIwLF69kZj7T4VL7ZBBOablG0TeYpxLBlhsJN7f4uCYwrBNfz7NGoRGgU6mDRTAahDNoI7DRMFh5H7bIfOjL8vqvXKYmp9NVRu2s1HkRZjO1rOQir0PBlLMPyqnHG_zi0_Vm96_anZmTjFZ074BhWnCD1lBlgo0iLG9bJLwA7njmiqgp-voVMId82lwIKkJCvt8mYSJAiB8CklmQAZHLA98I4N02AqhW-KBDVb0kWghrAp3_jtJZsc9ULg_X3JLiM_E0FB_aL5k91KmKP8WY8xUzgFBpqgGT9DMD0TeOv05g3EBvd3QroAKnfP8499pWGPKV0gm-NRakZSuvyCjOxUJ9Lu9zxHuOY4Q5q4SGxlArtMi1c7ak4bDBLGSD35e1jbsYiCesXY2qGN8_spGCmSjIZQv82V3Ba9eXKPTw84KUVPHFz2QxEnLDy7LJhLUopVxG8rcdsvFAYlQS9ah2LO98CA5jVSVMIbJAD5LS1KIAke6JhnRxuYzXR3DnbiyJ0K1Xv_VHgHOPEATrocBfG_36IE4IB3nJ8UDw4t0XQszeyzPriwCFp77KXNSBDE0i41WSYCPeWI-m-ZXG8SGb6OsXxRmPltXb3aAjRw9Y34-dzOel1iatbGDIE4JmsxiIQ7bpfyjuwzEMFwgKg-q5kcDuPkO2WUxVbrfvSU0o3SKjhTxy03zUAWoXy4xjtFrbPb081lP39c8WA8JV4ZJ5AlAcr-y9BYjBtMEvUECXKHuT2jtzCGhtejTWTmeb4Fzm1CE0r5KdKF2cZyoTROqh4DntHRy29NoR845ERj567FhmLUHWp_yTc_xninxxV7tJ-S8by_E70-kFRM-WmE2VRrsmvsgR5MjOQh6ak104MLojsmPYabwtSuO1CtPlRSK6RmTC5HNhjbsJPZKHQq9YsJ1S70-MICoiVSRzZw5fMUEEOkBW1pQV7FuEC3cxteoRQanYg6BvZOB4AZNlJxBbkodNOY5mM8bVA_QRqPid9eUiNw6e47FocLqflx1G-cA_HZRmbAtGM04mgWMQ-UEc5YfDP_UGSzmb_WXZTncOfLjFJXXr4qjHDrbCdjIiuuuBHvNhuBU5uP5slVO_BV01U2Rx-hW2mrJJDj9JeBLFWSPXqjg8wVZkM8XJIMWoYbzZ4_yUD9mjyw5SbDenzQAbdPfSdbI4zlVagM8kIGx_qpWh12i5rzFFLeolQwnz11DTN9odcESDVABwNwV6sZFfuemwrAOWR6RjKG94tDAgcHqvj27HzUvwYnD4YBHwrmKdO119FrpmohsnFNO30I91S-syLLGHygren084RpD_2Va5bLGynVU54mrY6WEi4wmBLrG5Fh2adghUMPp4FpbrlE5uf7_agrU5o69ckhumsUYguzyAXhY_U1wWF0tqOjDaZalOfPq1JASfqXY7Kx_BJMM3AlErEeXEmO9MqukbbsS4uXxluHnLvlr96TipZf_yLHDqPySuFTpoi-PUCXGGI1KBxy6V2h07JXgr6gQf4cz6sWKWisicHIs5Ysbzc8VkpCMQfvA8wdRMeCo61XexmhPKF2OF65h1zgqDmbV92eL_QRflJ763aPBVYPPmvI3ptoRO6Gtw1dOsqVabCse-J0F9RfZVBbEzaICBM5hX9Th-HEdqA_R1Ys5NCo0k4amydvBmwOsGoQEGqQGiWuPan7D_vA7i3KRiwX32cz4tLRlGTE2LeKAfW7Fqm0sqT2DHdlYyLY8jJ_XJNWxeGcjGhynhYPKY4Y-A6AukWCoxYeiDtoBcAYxplPy1YxRsksh_8CtxX8YBLqeO6YTBUz18TnW9CkRj37rbQ0JJRT1ko-6Ho84_riH7uVA3gwMfcdkZRtG8eWAUF0MzFCcqBkTkBJ89NPR7YVtmvmsaR4XYDeEHWlYWHjHyj-2vGm7CgCZ7PAmJp6k2tO_8YE1AQJMjBpf7tFm3pLWGoTfwUVz15xL36SprY7tnecb-BZ0FnqUaYD2leecXck6l_mvfziW-b6IB6fGQwdiGURt1kPxojoBzTmmQ9AIA853sPgTIclPbePzxFvsYOfesIVASfsP7IAMhtFp29KOY1eEQbBXGM1FpSkTJabbanL8Q1_jif-jorCLSb6GjwP_FoICQg03Sxo3-S3f8F-Z-3647ygXgTGzMWrjjkkcStVbHRQXNM7MfRhqrbdhZR3dTfLEYE3FsrdliA8OxHhLAgDo9ou5nmbLvKZoKdrcVeFhDN0dgbUOVM_Qa8v2Oie_oEtvI5yom5uVH88wpWuMAVLlbDemDGRjVoTI58Aizhn7VsvRdm5-b9btRO_LsUJe0YtU-0ud2_w7_eARQ0559Le5PJx8s1rbfgnihkvEEKv9JVNG5Sc62mJKImAo3GXgGZmox5sWuUX9z8kY79zPuKF8NIzTsCGweSHLD4JYxctijjPqYLees5f_Gd-fhPE2IORvDSVdVsFOXERU7RvMxVq6nURCUu9Leg8ArOO-EgdpYHQ45XU5zvt4jPqdKRsVlNuhwl84ZPgU0rBlW5qHyp7zcgVTFbBMfsehPg2INOU0TCLXvk8ycGwIX19nuWqsmUdwUNdhL27eigmWkhfdpkAvQVHU0Zu8uV1lQOYt0rX8OzN24MR69llBR2VjpnV0NtrmL__cps19Uqvj0sbtKjwMmrkPuZiMn5JV1n_6lulFLTk=.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0bb1b5b371773315016aefdf255edc87d1b8a6ee242ad6bb69",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1435,
+      "completion_tokens": 122,
+      "total_tokens": 1557,
+      "cost": 0.004806,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1432,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004806,
+        "upstream_inference_prompt_cost": 0.003586,
+        "upstream_inference_completions_cost": 0.00122
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 69,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004806
+}

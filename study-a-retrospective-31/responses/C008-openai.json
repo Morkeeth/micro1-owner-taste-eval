@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:32:37.738826+01:00",
+  "case_id": "C008",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "438c0b9109c397d8cab3ae7680b035c2318930fbdb6b60d2e17d983d82c79d01",
+  "poster_sha256": "5bc2e8fefdd0ce4e0c2478641fb2dd4aea3a90b5f66e4545912a29a2e520677e",
+  "request_sha256": "6e3ccb3e3a88f7e66d6e88244a50d53a2577a1faa928cb2448409a96b00fb53b",
+  "response": {
+    "id": "gen-1794105155-sTKeee3ipWHeps2Mk1VV",
+    "object": "chat.completion",
+    "created": 1794105155,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The strongest cue is the owner's earlier praise, “it is magical, perfect done!” The poster's floating-card composition is consistent with that positive reaction.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1436,
+      "completion_tokens": 50,
+      "total_tokens": 1486,
+      "cost": 0.0040885,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1433,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040885,
+        "upstream_inference_prompt_cost": 0.0035885,
+        "upstream_inference_completions_cost": 0.0005
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040885
+}

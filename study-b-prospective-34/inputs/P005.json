@@ -1,0 +1,22 @@
+{
+ "case_id": "P005",
+ "shown_card_text": {
+  "title": "EP4 chapter opener: your blue line",
+  "what": "Your blue line draws across the frame and the chapter title settles above it, with the pixel agent standing on the line. It is one of the reusable core animations for EP4, in the locked look.",
+  "why": "You asked for more core animations we can reuse in EP4.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it to open each EP4 chapter; only the title changes.",
+  "context": [
+   "Eight seconds, wide format for the episode, with no sound so it sits under your voice."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P005.jpg",
+ "poster_sha256": "4fe065f34152b20468e197c3d5f95ff931ce0f552843513417641ff8b9ef8c6c"
+}

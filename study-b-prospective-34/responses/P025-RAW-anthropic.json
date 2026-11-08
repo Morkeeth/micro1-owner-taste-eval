@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:04:35.301887+01:00",
+  "case_id": "P025",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "c42b78447e74e2cb5e49b43bd54a9feb6de5f605a4b9c2b1087eabd870c44164",
+  "request_sha256": "aafb70c2003fa2908f0f4432e548b2ef699a103e4a03948c589ae8a3a63cd269",
+  "reserve_usd": "0.098968",
+  "response": {
+    "id": "gen-1794139472-7XXCkd7ePX9MU7D6ZNC3",
+    "object": "chat.completion",
+    "created": 1794139472,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The shot is clean and on-message, and the pacing is described as good. The one clear flaw is the green glow, which breaks the locked blue palette. That is a fixable recolour, so an edit seems most likely, in line with the recommendation.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1930,
+      "completion_tokens": 99,
+      "total_tokens": 2029,
+      "cost": 0.0097,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0097,
+        "upstream_inference_prompt_cost": 0.00772,
+        "upstream_inference_completions_cost": 0.00198
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0097
+}

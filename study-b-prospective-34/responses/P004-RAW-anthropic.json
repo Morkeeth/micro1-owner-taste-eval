@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T12:58:24.074756+01:00",
+  "case_id": "P004",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "1c7cf27716f6c9b0e4379727a2129b7906f67472e2adf001fd788c390d08010b",
+  "request_sha256": "bed8268b17525b90cee49b9731c94d27060f573455671f4fc4d101902bf37e28",
+  "reserve_usd": "0.098552",
+  "response": {
+    "id": "gen-1794139096-HLeHTQB7yMTUaFcYKbk4",
+    "object": "chat.completion",
+    "created": 1794139096,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The look is polished, but the captured screen undercuts the message. The headline promises 'every agent', yet the still shows a single Codex session. The terminal is cluttered with internal noise like 'Exited (status 1)', 'ack rejected' and EP4 production notes, and the browser shows a localhost URL. A cleaner capture with several agents side by side seems needed, not just a timing tweak.\"}",
+          "refusal": null,
+          "reasoning": "I'm guessing how the owner will react to this poster: it looks like a clean, real screen, but the terminal text is messy with internal errors and odd system strings. The headline promises one window for every agent while only one agent appears. The owner could go either way, either asking for an edit or wanting new content entirely.\n\nI'm weighing whether the owner would ask for an edit or new content. The terminal shows errors and an internal URL, and the \"every agent\" promise doesn't match the single agent on screen. Leaning toward needing a different capture, since that's a content problem rather than a wording one.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm guessing how the owner will react to this poster: it looks like a clean, real screen, but the terminal text is messy with internal errors and odd system strings. The headline promises one window for every agent while only one agent appears. The owner could go either way, either asking for an edit or wanting new content entirely.\n\nI'm weighing whether the owner would ask for an edit or new content. The terminal shows errors and an internal URL, and the \"every agent\" promise doesn't match the single agent on screen. Leaning toward needing a different capture, since that's a content problem rather than a wording one.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3401,
+      "completion_tokens": 507,
+      "total_tokens": 3908,
+      "cost": 0.023744,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.023744,
+        "upstream_inference_prompt_cost": 0.013604,
+        "upstream_inference_completions_cost": 0.01014
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 353,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.023744
+}

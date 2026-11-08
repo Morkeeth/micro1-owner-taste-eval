@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T12:59:04.822606+01:00",
+  "case_id": "P006",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "91caed51cb476a4d4db0f1e3bdf83bbadfb2cb5453eba03b5d5599be4bd05d2c",
+  "request_sha256": "7a0a00e0319b420aa1d43018cb1fa786ff2455601ca806f62afba6a833ea1ed3",
+  "reserve_usd": "0.059700",
+  "response": {
+    "id": "gen-1794139140-1DB30NAzXaiAMWv1Zb8U",
+    "object": "chat.completion",
+    "created": 1794139140,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a continuous blue line aligned with the skyline and no obvious vertical seam. The card describes a targeted fix to the previously requested edit, preserving the shot without extra cost.\"}",
+          "refusal": null,
+          "reasoning": "**Refining predictions for clarity**\n\nI'm thinking I need to predict details concisely while ensuring there are no visible seams in the image. It's important for me to acknowledge the difference between text and motion in my explanations. The idea is to keep things simple and effective, which means I should focus on clear, direct reasoning. By doing this, I can create a smoother presentation without unnecessary distraction. Let's make sure all elements are cohesive and professional!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Refining predictions for clarity**\n\nI'm thinking I need to predict details concisely while ensuring there are no visible seams in the image. It's important for me to acknowledge the difference between text and motion in my explanations. The idea is to keep things simple and effective, which means I should focus on clear, direct reasoning. By doing this, I can create a smoother presentation without unnecessary distraction. Let's make sure all elements are cohesive and professional!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GQI2uAyufEbZTx7CJ3Qounl_V_vxwnXLAlKyLVvWhhP1e70dO5YyqL1wYi_hvq3p3vURUzoAXqtuKMI1wETSBPWnYg_arlh9CYSYZQKPH68H5RHIRIWAgg0WpRu4nbEy4vt8FsFotgNkg-gSyw2T54j2f6q2Lm9L_FICekqy2vDZ9OxXSjDnu5OF5EALKHb3JtlqgFDI3Vz0BttjhwcCA6anPM78SmXVBMcfJGMQSvoYsYJ5ZMy-bu4o8FBwYhlHvHfZutplFlVMrq5hCAszAHSL49I1zJEn8Cd-o851XzzfASH04IuJ7hIERBNluESeki7TPpH-tMlVuPZldasaWzeK4W_7tgXUdrqNUei32XxOFRvBZz8knj6nH6mKplc649YrEQnljAd1EAyCa0kK9QWrGR_zVTZb7Eg8a9JZ80x69uHSjzKGPRg3DaiBYhtfUaCkhnY1qHvFZnNzOp6Jk5SU9WQwk-sjJ24aWR4o3liJQRnB-xpi2R4jitgsSQlpu6n1TvW9OSQL5vCoY0DvqC9pbiI2PRmE5ZVAavdkvhan-hbJovdmQ5FM4fv8W9mdhyXA6y1wAmMHSWAXNLAZ7PFUQFiItRgX3whXf9PExAc-WmETyXrULAVsEyhDvm9tCe7tVZY04O1-c7Lo3j9zjMYe2pbvVyIINE1YdvR8dYmWjvWKGHoApP-rFe6DqDy8xn4dS3JGV3xwobOwBmEWZjr8kIiCI67-mqQNHYPVRJfCGBHk53M8NpR7ExzeHtgcASlrzOHMylWmO5DbQX8UYZZtafRFMTntvH8kBP60rpearwS3szfvYZZ__yDqftNspx1qWV0fIk_qKTa6wpHVXzi0s0R7qdhUK7yX0TBnejHfRAZ6JBxKjNNZXeE4lKTT3Gbylb1gSPWfDPaMbqzIdwJc9bHw6JRYBXgFcwedSrfm0Ijjf8ITrdGA6GbyHPrn6ouhZAoYGhjRs3DLsTTEepRewOfTKTDyz9d35BPxukSfPEt12nnndsO-ttN6x_eJQYOAqhJWaJ-YkqMZzrvLvNurJ1SrKlTRMiI-OIv4SYBYw2yw9r30mjAWzS9H3RphfbvhsUl1DeNTo4w94NNkBSWkrsPV_ygnQwEgoyxQM02b4d--U9K8eBpW2kWMM0Y_ivtOb3hf_JA6k9oJhU-yH7tW6qGXDf2FuZWzyDxaCl2LIds3QoXgBq6pqXY6E4QRvgK73rQC2_j3lswDsjBC4rsJqzfskjYJuFN91WRvE5zk8uJ67fnkg1m4DUXa9kINZsgdvvZ8FwMc-TfJi882e06aOkKQx1R5qhO75_GfJ1E2-vXZkREgwwSslNt9faaT1Gx73M3lyv3DsHZ1JEABmV3UEbNSygnM5JHx-Tjyn6zrQ_hLRtMFq-LbEdtjLUsI19ynrdXArwUdcoO4u_aYI349RyYced3IPnxfsYo5wf-2gcNUKjnLqxX5hm9ib7rI7SY--D2qcu9NcKvIhJSsTTgtNxamo_8k-eWssCgEOp_YUkqA5WRkzPWe0Vo0aT7U5YjLYiO8yxuA6iOA7mr6Jl3MYwbc4LQx2FhBrs7jI9C7LCIOGroXCQXSeFiHaC7eZ1qcjXCOFoo86_0fBas2pc9iURmjFd2RsbdGjbBOc9Uv8foKHPNTKycLTDniK9vpp_w9u2IZTPJiHsMPWr40kn1o0qMPk74_Esun9hq-gJ5EQfFtivYtQy-SZUdacPhnb8iaS66oWHw_-sfJr8EVDrfiCBeWdzj-HHJEZ51AkhhHTwB6RVtHjnttJd7SO0z6Ibf0E2kzbeUTE1nBw7JXAB8BoXsp4ps0xtQVZB1n-JRUMm33BvTTGIV1ZbjtIWS7sUTm2WvV9q7tgJfvxdu3dwe76914cTJBHkS9J_LGgsfCM-l-D2ydHBeqo1Zw_zT2xveQgc0Tu3RNfJpQbpp5cPV0aSfkDJttfcawwx1AFyBe_dkTwEVFPBJAQ49p6O4rQhI00RCWXwjP4Cxv4Flf00lS8iatXQkQrF8oL0yj-wBk9jH69IodyWIdyJy1utZLxWk9XOSLZoRxfCRzOeEVNpt6A==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0141541824381e6d016af064066eb487d190429cf739b30de0",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1453,
+      "completion_tokens": 80,
+      "total_tokens": 1533,
+      "cost": 0.004431,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1450,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004431,
+        "upstream_inference_prompt_cost": 0.003631,
+        "upstream_inference_completions_cost": 0.0008
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 22,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004431
+}

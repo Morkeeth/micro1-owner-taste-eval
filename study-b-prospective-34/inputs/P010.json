@@ -1,0 +1,22 @@
+{
+ "case_id": "P010",
+ "shown_card_text": {
+  "title": "One index, so nothing gets lost",
+  "what": "The real rows of your media index fill in one by one: episodes, Shorts, thumbnails, transcripts, music, looks, footage and the hoard. It is one of the core animations you asked for, built to be reused.",
+  "why": "You asked for more core animations we can reuse across episodes.",
+  "question": "What should happen to this animation?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Use it whenever we say we checked what was already recorded.",
+  "context": [
+   "Ten seconds, vertical, in the locked look, with no sound so it can sit under any voice."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P010.jpg",
+ "poster_sha256": "2bede4fdf661f8645e8e182c7a4278d7aef686219d4062d19d94ff506c427f53"
+}

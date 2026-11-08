@@ -1,0 +1,23 @@
+{
+ "case_id": "P028",
+ "shown_card_text": {
+  "title": "Weekly limit runner barely moves",
+  "what": "The start frame headline and an orange Claude Code limit bar stay almost still; only a small orange pulse moves on the bar. It is the weakest motion of the batch.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Probably kill; the limit bar shot does the same job better.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P028.jpg",
+ "poster_sha256": "2beca13346a44ecd2b7eb50d29e56c72d4d71edde535d4bd9d121a3a378e6f82"
+}

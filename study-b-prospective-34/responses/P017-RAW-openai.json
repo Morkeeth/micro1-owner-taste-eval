@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:02:28.283499+01:00",
+  "case_id": "P017",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "6a872cbf563c76ef864557a86d5caae18e6ab84fa858b205e63d7266332cfb1a",
+  "request_sha256": "e2ac3a79fbff152c0296d65527060516efdddbaca3327904afa4dd9610ac41a2",
+  "reserve_usd": "0.059852",
+  "response": {
+    "id": "gen-1794139344-zlqJxWjz0m402tzlv9oc",
+    "object": "chat.completion",
+    "created": 1794139344,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster cleanly separates the terminal and browser into polished glass panes, matching the proposed cmux concept and making a strong reusable visual.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on poster design**\n\nI need to choose between making it look awesome or polishing it for edits. The poster needs to be visually appealing, matching the concept and being readable in a real UI context. It should reflect some branding efforts too, but I don't want it to fall flat. My focus is to find a balance that makes it concise yet grounded, while still capturing attention without unnecessary movement. Let's try to keep it straightforward!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on poster design**\n\nI need to choose between making it look awesome or polishing it for edits. The poster needs to be visually appealing, matching the concept and being readable in a real UI context. It should reflect some branding efforts too, but I don't want it to fall flat. My focus is to find a balance that makes it concise yet grounded, while still capturing attention without unnecessary movement. Let's try to keep it straightforward!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GTTXwp3Q1CuGX87jVbbJ3Qk3ASSTgCCRQBw1DVPfzryilUvd7pl_QNi-JXH0WBO1bqLJEKQbCi4CQRCNjZ1TYtDOdbgRg1dqHravS0w6VTB92EDulzJLFWeTOnZlY4qOYrVtVO_D_FR_2iyuo7tIXaScnkPtzrpQKjqhGXsBHqQbDVOrVL79fJU38VJSpLqCnLq6jwLOveNQPe8kmR4SNXCknBDH8sETilHKQStiYqtdh2yjz-fqi8-0ZQdyrq78t0MPzKQkU1tuN0k1m78oiedmt2e3tBey3FyALW7gsn9XG1g5vVuxXL97TlviApxYXetOQ8hPDQrZFv7yhsUJZ1TScHQUF2IAiu-UHQpB1XEJKJTwSveWxX6TbDMo9Mv7dGOqhfCjjzQfvt5YKVes-q07LRHIyByQoOBS5OQBPWfy4rWZ696reKHf6d2P8-_Oc3rCD5bKrpq3cjO8Ba7WqLNXCvwOmQteTUtsasFn5GWZF0XEp0WkokoJi6-6rgb4NI8UKI55SKrBWnLmSfUIH6De8zT-mZPwoRXozX9RL2QSH0RWvNe2MOBoZRMrSeAn-zrgqvWpMw_DJHFIREC7PG9ljUtnMSlIr9pbzpFapMk29TLmlGSEYp8vVJMjKH9Reg7x1bzopUm_aRMvAtDRQdA8jLbdwf4CR32gCFv_SCiqtI857H0iKxegMM4bvUCkmF31BxZXWmB1l2av8JBogcu1GZDryjUin4hfioxaZYNzY65cUhViyD1USWCoQ8Z-oFJgtOVkqYdslU2t_b4Wi3WEUzMIcM750nupOjRFYIa19qL788vppVSXQxANOn-Px9Oeg4vDpGz6VpTU5GsfNTFm0WdZLkGRMT9bmZXoBzF4PuZVz0Xwf8cfd2rl9jMiLtMVE_KQhFPIKcf3lDst7dzYyXrbGejlT59WHwbA53Ng_Dw5fVMMZMvE1VcJzHK6fNnkSwf6tD_vk8Ep4TQbR-UScuZ9d5nbMBzk-VvBMXATkRxjGkPaypNkPArEXNQ2DEJ_wEbVn-IwICEi-6_THU1Ph-VP-WlxIRdJdD11WL-qlWl0GF6JQiNMq9C-o7R7_iB5iMyljrs9qd9mSEeP4UHiArPJtTPsxo1UOWX8S1CT8gtUIuSCCy4MSAoGGhtDD-ukMXZLvrRUnNSBKLo-a8mR7Zlvl9nrFBlOcWxAdBVZRGTJzzGjQ2dfzTAmuf7_wbnluHwymxpHdnxep3S9PXPp2P85-ilSjLlrrGLfDBsU2heZFLsVKcmiOVfjQLFzdZRRJ0QhQ-6oaclkXYnb_7tPNliiti2plU0CC44G952GNOuiJ7ksSAHp6Fy5JW_L8z9Rtm8szX1XmNHEXZ_gT5xf46HvL4rpN_h4VVJakAF4RVgD_RdHfoOI8GIY777n_J60quEBmohO774UG7mFYnd6lU1obHL0PLzGvAnEJfakteo0w8jmHOzivYFl2m06GSkzbOvbkQNJQrjbBF3anKZH_k6CbEAIR8OTFEWDZrgwMw7PTD-lJ6G5UHMS1Yd6cg9mOs8patdc7DSrA2aKSCkeRMw8PGISHUFkRXFcmPjWdy_fcrI9aFJNyZL2q0bA7M_ySrZ3IqrEqdV0BiHCDmTkTU4P5xvJUCW5b-LsIh2Y1WaEYkQ4WW3cPm_WiK7sX1wC3-h6Iy-rU4bSrrfnhEezLSmaDXwX0-pCAEREVfs5O-FYnTr-GKnXtvQIvSewWxlpfFTUq_eOXkxNW5Zt2915bzk3veHc2CLWImEKQAy7k9TOAX4TxSIlJ_TGt4hGjk3bR4erbhc9EvfZ5aQFAE_ttS7yRgCWn5P1laggbRpSCBRCyWanfhitxIFUS49Qq3p7Uk3vzulnSBVKZt0PDfsCy071lHVVaVENDPsfGccCLztHncA6yKStR_1BqGVyiKSC4Nxu5By91EZcp7psrc2M8cJLhLb4Qd2mUtCoD4U0O3vP3ncjJzICwC0-RfGlPLZe-3Q4K4045x4U01MLeWv3MZnyZ8rPvte00_mBI1NKeOa_j2riS9ieFpEnn_JBgvBs8XaU1pBUJWMoewpKyCdBt6ra64a3U744ICmbkYDXbRhVgLYBz4L8Jtq7WJvvsc_4urgzb2IEDg6ZtZwbNHgGYbN5aaObbPO4q_PNlZHQbr95WFjFYGFScDDpPUKPvp5Pb7t7wu51iPDGVltwnzz5FfY2YlUrRw_iv-AyGefgc5wHfmikVvKN91w-v5d-q86.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_017fe6b39d0a0b38016af064d212ac87d1bd0e8b654cbed876",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1457,
+      "completion_tokens": 83,
+      "total_tokens": 1540,
+      "cost": 0.004471,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1454,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.004471,
+        "upstream_inference_prompt_cost": 0.003641,
+        "upstream_inference_completions_cost": 0.00083
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 34,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.004471
+}

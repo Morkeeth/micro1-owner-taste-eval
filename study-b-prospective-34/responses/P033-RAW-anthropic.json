@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:06:31.298374+01:00",
+  "case_id": "P033",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "b4eb2dc5ffac4639942ca85a632529be68371c3424567823ef5466031f4b7983",
+  "request_sha256": "a848fb1f4a74525c8a8394f8d89c715209452b704c7a1fb2b539c7ee7527f57c",
+  "reserve_usd": "0.098912",
+  "response": {
+    "id": "gen-1794139587-yqgTHoLdC1K4ShjQ1E2K",
+    "object": "chat.completion",
+    "created": 1794139587,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"This is a direct rework of the owner's 'needs new content' note. The poster matches the stated lookup clearly: the 'skill' search, the highlighted Shorts row, and the Shorts index with the skill Shorts lit. The real-data footer also helps it read as polished, so the owner probably accepted it as a drop-in.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3414,
+      "completion_tokens": 129,
+      "total_tokens": 3543,
+      "cost": 0.016236,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.016236,
+        "upstream_inference_prompt_cost": 0.013656,
+        "upstream_inference_completions_cost": 0.00258
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.016236
+}

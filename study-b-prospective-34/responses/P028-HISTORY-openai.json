@@ -1,0 +1,56 @@
+{
+  "at": "2026-11-08T13:05:38.309761+01:00",
+  "case_id": "P028",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "5cd779cba115b3e7a49a1dce25c648a7f20595264c618ee1f6c281c8c0b3b986",
+  "request_sha256": "f3f147596ad8564c3bf5607c698c91ac5f00f1080dabac2d31ba86c2646a16b4",
+  "reserve_usd": "0.093436",
+  "response": {
+    "id": "gen-1794139534-DufhRVk4DUyOPCgcJpkg",
+    "object": "chat.completion",
+    "created": 1794139534,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The owner loved the animated weekly-limit runner, but this card describes a nearly static, redundant version. That fits their pattern of killing weak executions even when the underlying topic is strong.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3499,
+      "completion_tokens": 55,
+      "total_tokens": 3554,
+      "cost": 0.009296,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3496,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.009296,
+        "upstream_inference_prompt_cost": 0.008746,
+        "upstream_inference_completions_cost": 0.00055
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.009296
+}

@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:00:55.990416+01:00",
+  "case_id": "P012",
+  "arm": "HISTORY",
+  "route": "anthropic",
+  "input_sha256": "6d44232d2338bec3f1a019e81dfdcf5b6595897266d311fb9a56e4231ee1e26e",
+  "request_sha256": "6e488abd2a7a55fa042f35409a3cb35e640dfd3a1c5e850cb7f67fec68db187f",
+  "reserve_usd": "0.166296",
+  "response": {
+    "id": "gen-1794139249-oiQKsGBJr49hUu47u9wv",
+    "object": "chat.completion",
+    "created": 1794139249,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"This is a plain phone on a grey background with white notification cards, and the motion is only a slow turn. The owner has rejected similar quiet, low-energy shots: 'Close object, one truth' was killed, and 'Raw eval, reframed' was called boring for its white panels. The shots this owner loves have a strong transformation or magical moment, and this one has none.\"}",
+          "refusal": null,
+          "reasoning": "I'm reviewing the feedback on the plain white panels and grey background, where the owner called it slightly boring and wants new content. The slow close look at one object is also marked for removal. The notification drift piece worked well, but that relied on Paris, so this version doesn't match it. I'm leaning toward cutting it, though it could also be reworked.\n\nI'm going with cutting the \"Cards fly into folder\" idea too, so both ideas that were marked for removal end up killed. The current draft gets that decision, so the next step is to settle on what replaces them.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "I'm reviewing the feedback on the plain white panels and grey background, where the owner called it slightly boring and wants new content. The slow close look at one object is also marked for removal. The notification drift piece worked well, but that relied on Paris, so this version doesn't match it. I'm leaning toward cutting it, though it could also be reworked.\n\nI'm going with cutting the \"Cards fly into folder\" idea too, so both ideas that were marked for removal end up killed. The current draft gets that decision, so the next step is to settle on what replaces them.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS2wgKEAgTGAI4AUIIdGhpbmtpbmcSDM/xSoYyFxWXP3kRoBoMnFdvamCFQqPf534cIjAjpMybWpJe6KKqcnIB4ETAn9KFQQ622ZS/apSbJPcaa9v3buJNuyzyTW8aVxhqUNQq+Adk/y3PGvhP7BBYwrwq4U+uT80/XU3ebPerS5JmwiFzOykbEzJ1E2R4o50mVhrxHYct95PpePbD1T9X/g+MsznvGZUCaTdTbaKPCflbQaoA4OC1v2Q5sf+ERxO+12wsgMeWYBmsWD2flc1fHDqO/L6mtM8tOnxc57wTfqXrMlVqnxTjMGh3T9gg4FXS2A9rLp+M7CURRsm4KlyFgDgWyN5LYijw//sK1LAhDFz7hvXn/ZIKyDH60PEjIUXB+JLIJQBIsfpj/TqV9qPu2njUHn8unfUywWEPNNijxShVrodr8xFn/0bAl8JwglvA/enXJGiCHHBk3IMm9VY9lvWo5hW7hSD5R/nJWUlJnuZyCz1lSoSKON64iN3eNGYZEPZpcOFZ2iri2yqx0vxvCiUfqkyFsB8YYzmsuYXR+Z2uM9NDeezjfH68qHBkeUldgrs95lQdyaUFLhgngcWKyG63kOZ50+YbHuvGtOp3cbPgCYQHPhNRNUXdA2pmryYnS5mv11CpZz336r7icHaUd5Y4g14FCkFtbDmUNpsin5Jh+vJ5XghVDTizHd0UjCVYD26EA8pE46YxJLQ0Zis7dtxrnRgEFfxFk1rdSyiGZwlPY9fMi6QGMw9rTUZiZljzfl6SxohU6Hsa4xLI01XVL2KHyvWGd0GoLUZBSfuqlu5CVLxrceFuB3VIUtShtpGztjRL6A8zhqnTJSN/5ulxf6vXDKBHxtuQ/c+/jDuQ/hiPXSb2IQBqhVLTaa7Js+WVPceMMasD8T71qogidc+bw2dn10uQ9Hb1mpBKG+sGfEe6XdJh//+XNQjEfaeN50jlPc4bGs95LAzg1/4x26sy4Aa/d2UCyE+JA6wZFebBJPRshDUfV17cNzfc9LxKwG0uiopL7zRmD+kZNghv8zcxdz3ut3SUZAVZneH3LksAwxl+9BASqyJmYy390roCRkU5lI8mk5mQjjGt0VyDN663IN2eiTDTLBghrG/H5TdtwfQRaWMbxuWzZuHDum4pGhSxsj3ds10RZABx1vUsEFVUY4iW58+s4u7iiOo0jUj6JxlhnEb7MtJG796h8qqZKPgd0sUMVM3Ly1aSdXyyrFSDPTvthmpq4pKLLUZJVEkI5XQqI+pxmeOkSJCfRZ6+9d1QmaSFxkjYtDm5arnRFhuMnxtjdJVbNwtYRPjmxxbpE8Zpk1jKxm6GYZtvtVraawX6/Ve28WVGG+68L3t6I7rqY6hxA6dP1yAMyfh88LSElULjJuVpuLs//iaxq5Sxti6Ml9a5+Tf4bLaatiljY4j1Y6yXu7b2yzXZogjoJygPco9n51YW9wxzAnknk1bpArTGbR/GgHYMnjWlnToCyxgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5003,
+      "completion_tokens": 319,
+      "total_tokens": 5322,
+      "cost": 0.026392,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.026392,
+        "upstream_inference_prompt_cost": 0.020012,
+        "upstream_inference_completions_cost": 0.00638
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 181,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.026392
+}

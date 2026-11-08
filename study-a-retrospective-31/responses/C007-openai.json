@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:32:31.500203+01:00",
+  "case_id": "C007",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "c90247dc9186feb982382dabbbf25669e138ca48f54a7cb5ad35c63ac03b8c57",
+  "poster_sha256": "3f0f37ddf6f9f756d58eb1130a06793509da827e8eb8053613a4408f7e044f23",
+  "request_sha256": "91c4ab1b7e750e6d86fec253e695562fad6b8d61158720824eac05e0f18c090f",
+  "response": {
+    "id": "gen-1794105146-5oOFkbXcz8iIikimZicK",
+    "object": "chat.completion",
+    "created": 1794105146,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The earlier feedback flags excessive red and fatigue with the layout, suggesting a visual rework rather than using it unchanged or discarding the concept.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating edit versus kill**\n\nI need to decide whether to edit or discard this layout. The earlier feedback suggests that it's too red and looks tired, which leans toward killing it. However, if the concept is reusable, I might just need to refine it. I should pick the strongest reason to \"kill this one\" since the layout is finished. The wording indicates negatives, but it's modifiable. Overall, it seems like editing would be the best approach based on the feedback.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating edit versus kill**\n\nI need to decide whether to edit or discard this layout. The earlier feedback suggests that it's too red and looks tired, which leans toward killing it. However, if the concept is reusable, I might just need to refine it. I should pick the strongest reason to \"kill this one\" since the layout is finished. The wording indicates negatives, but it's modifiable. Overall, it seems like editing would be the best approach based on the feedback.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq798_4WiK0LLoK9eqGmnunosDgg0vaHVh4ecytXHBi2hxP9kgHRfL8LhBeHnVlzFg3Tvosh7-MDtMoAqxq0DLSqo_rdxj5msETgQNBt3Go3V_hcHNQNccGq54OrAhRUIgZ_bsqFxIihmTEfXhmHyvKj4s6o33oW0nADguyoWtN9X3nrYsWE6dQNuFioysKjy0QmUaIuhwdltwBCDDz4JjXGt-709j_uqut7QvaV_NRmWVxEkLLJv4AJVZZcVQ9K40E_Q13ELbfVEWM6qqBC_1WsQmTosL4aaLXTfYj90sZq2MeiVjYLOSemiFvQG1Fj-LclkRRVRQ2vuIPFVB6g399MVN9OF6IfmCQzg-PLoCfioYTC-yi3BDFNUurSJfM8chANv9BFiKpa9lssZSCGEeD5I05vliV2ykdNW7GeMvhE-PXAQYnfzaDoYLHE9LKjjmPlIFHaWYf3kCVE_Xs8ENb8xTJ89N9AzRF9OS3xa9B_Ea9xobUF8OZu0I4vgeVGwmz9_Bn9KM0h3yJqCXSZozKrJcBwyxOwWLeQfL916HMLC8cDOnfFhpm2yP68xQz8BXC0N7xicbG4stbtEqBzTKiae-4qzt2YOWjeyvEmp-q2i-jt6-OQzb2zcrOBpYHMOXnLz4NoPygGnfTKdQ17hQgK6HNNOCMK-OZaq2bdR-z6M_Xl0BlMZp4UXWJi8Mufy-I4nYtbkNWeIxC_7PTGaPQBcGkQE9z02Bhm_-_GcoufwHHONzv153T0QCDa34nL8mBlL7-08IouWlY_qYTl6p3yzYIkfq7tnAL2RFiWSe40cnnG9LmwmkquinIG0po350KmyhrRf3T_f0GpM-5VnnJ9LilhK-KoDzlCqlYUSlkhEx80ADzCppwSGMa3euIo8tRTZQ80CtnOo2DfxqLieji-kaIGQgJFV7kxEbgwBzu8dMJb6c8tPdgI4B6jCk6ugu8o4GLyq3z8Aw7Pvuxm9La2BhfWZSdY5z82s7EkN8ydZqqcMMWEhl01Ii3v7_RFOE08Yb7eb3E38aZXVbE3nowHN-cEhbKcUqLd_ktxfParn-Q73gXhvlHi2CkRq88VW2VJpzijAp_qg58x-Qlym9uznQphrLkgxqKAZP2wZmIJQWz1AzQgWLPNil_pNh9U5Gj_IBAEfBhSkEeTKdh0m-Bz6d6HXssJwzxU-niRIJ5ZKn8aEmNikhSBGLxWd2NMBozSPi3_K406vLl5MhXg8aO5wzglhiGlCFxQOZLouAJh_2xV6INPKsGC91sG_VdZBSv6j6IsjEqLGqlVKXcOKeR3eB-QAnry_yUeLPUrck_UzgNMH2HcE_PalrbHb0wIZfr3a-TSUEhOqACe8GocjcnWFduPXSqDNYYf_nA9KXDMNelq_Rm-PtnnjT0eJeqfPD1yoLSyvVkkq4spKeiG6AY21dgH7F36PXfRsKpXYLDCxNG1vzJVKtn93X3tCim5qKfNApgjRq6h7jAbl5zjIHDWj30ua1k_5Gc1IY_OGliwkvZRoEUNaodmZEHOGlaY2_ctdCoS6uiLeyAI9_qNZ6Sv4RCFXLiWc-trm2WKb7oacMZAKWfSHL1HgEIWNFk6zcdIC48o1WvuCljO9eUoKcI51nio-kxm2nz6UlfpJezN1ghwjDKtOuUNWVGliKNt-ypuNjrZtrjiPnxOSkQt4urgl9awiZOj-RyawDGW099uBXVPPO53gHWiqkoP97PeVapTWzdILcANi3YK7NZTD9w_FaWpGirA_kpQv365OYcpq0JGQmRj5_Ock_xt1sux-t_lfko3LpzBXD9wrDnodhTnPrDFcIWXUo2z2VEHqrpkf4OmFs5gANVaY_rBQbnKDlpXVE3UYCvp9f1_aoasvv9lEBJhEAJplpDXVAhnzlpJV3wYeMWsznOOyKv8u3mwmpp7DhXIg_XCp11oZc96yeFGCD2qjyHqIuSUAVK2cTWXM0L3khV5MSR_P4J5wGEDL1b2ty3f_OhQxKtK_g11zVVyxpI7I58uxpeP8ULC0GRQuhJOOQEEDxfiL8Q2r7xM4_iZEz5Mc-FJjUpgecMbO-FRxm7h05ecXUYax57vpWdxKYWqi3SXCqnuR1XhVF8Xfl5MGyz3UEc_Z5GC3iw5JJ31MOe27rtmkQH1k9dpPIH7OVBwJZ-Mpt2ZHT9deB2_OQClhSnBX0Wrqti7kto5Q-elL6nO1VGdgHdAKiathhL_gGeaSJ5XZYDH1XaTYOxdkADH5xRGhHNAcHEVyfkSVGt5W1FNPukrOYDxe243QlZcKYVZhkmHFvDrIUeuNLP6prqiKTYLG4SsUjpBNGGzEO2cRelKw_PG10B0WPguhMxgt1ntIMQA_rucoXIEad1EIrQlSGTFAyRt_h-YJrETkZ1SKriLXPuo05szhjbvqvA_CnLcj4e8LUXMaG4cTTJn-CWZ9xMS_wZ-O82dnq3oBqJS9nf4jKtqpkCOqzTJAv53yZYrHaeM38uTunDwsSgYdOO5MotiTXJeemobGFy6HnkWrMFDWIjEXOchVnnJrALE6G-rJy3wjuJc6oHOsmlb4wIouloN3EdAhrt4Cse0qM42YF-szSvMc9FvAJNEJvQQbLyotaJCckGgMZFubI54wA1Q6sVsThA14osiqRyV7AmMCQXUiTq29cu_j_B6waaEoZWHq_nBec24M37MeLrULCmMiPTLsevBK8S_JO6W7Wp4Yhpq4s8EWSkJ60Ym6V6bdSNbnihobbxKr8DL46ZpDDNL-q6XpZ7D1pKXoQOrX6RI_z8cQCofwd-B9SRFujA-pwqBbrXtO5r1NKOaaG2-JbsLpfxRdHpSVdHeSNfH8MeyXodnIuaVmPYq2XswCvUzIdmPV00bFhKwwSzJqXRZesndV9frHbMi11WT-sOR1mUtoZ1VMO_JBqdjrhdPPS1BrmVUDUZ6P9mm-3_eRYkkvPWepC2U0E5R6pcSQEJbt-YHz5ROUVbwgzAoAIOpk0Q_lv-hqJiYqOcSl55GQIpKa72sJvn_7IqypwtjYTE5Y9TUtQmQ==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_022b2646280050c3016aefdf3bf72c87d1b2c4c8005130b6b5",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 141,
+      "total_tokens": 1585,
+      "cost": 0.0050185,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1441,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0050185,
+        "upstream_inference_prompt_cost": 0.0036085,
+        "upstream_inference_completions_cost": 0.00141
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 93,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0050185
+}

@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-08T03:33:18.826402+01:00",
+  "case_id": "C013",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "a4b0ade734705662df9171b712abe9521651a005a1374401371c630c41095ae4",
+  "poster_sha256": "12d8d623ccaeb40b2f6f41851a9996de887f3f6b054596b424540b5349c354cb",
+  "request_sha256": "63edfebd9ba47efe525ffc79f0bd7a7496f64e89745b8934c83a76a049fed3b7",
+  "response": {
+    "id": "gen-1794105193-JOLSYyR6RkVgDvVXN0RX",
+    "object": "chat.completion",
+    "created": 1794105193,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster shows a tidy design-reference overlay that complements the talking-head shot without covering the speaker, with no obvious visual issue requiring changes.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on design choices**\n\nI need to choose between an \"edit\" or an \"awesome\" design for an image overlay. It's going in the upper left of a compact daily grid. I want it to be polished and informative, but I’m not sure it’s clear enough. Most predictions say \"awesome\" is the default choice. I think I should give a concise reason for it without any motion. Maybe I can say that the \"awesome\" design shows a clean, relevant overlay that fits well without obstructing the talking head.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on design choices**\n\nI need to choose between an \"edit\" or an \"awesome\" design for an image overlay. It's going in the upper left of a compact daily grid. I want it to be polished and informative, but I’m not sure it’s clear enough. Most predictions say \"awesome\" is the default choice. I think I should give a concise reason for it without any motion. Maybe I can say that the \"awesome\" design shows a clean, relevant overlay that fits well without obstructing the talking head.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq799ukN486VCxOXLG8HmWxgNeCMefiITL7hM2MGvdOnhZgYLRjOIIgfNWSnXUxXntQAo7tW_X5uvf9P0ZM6wdRakWC9u7Yr-r8ILrP74W8lqVDjONsr79Tcd2ZZlttj3txsU1MJbFvJU4II2GW3ExoScKzLV33bN3uTcjFj6ibhZN4OrNd3LP06zmIQVPFs3xmJdHWvOIIwbY0YfTfuZnbtDfLQKAaLutgzv1FkDglVP40tQpxAnrO1kctCbEhhPe7dH7cB7zObB7IWKHHdoYobtAZMNLCGvJNBoMrLTrlrFxsP_mlN8m8t_8V9vwmIB8TKNH0rXiRXf5FXEI-j4x2eAn97s-5VKMIhzABuy_SCxljLSYqFuXMUHlWcExBIOwvbwP2QrfD6rSj_nT_Q9OlAuUHm-MaDd-WBVWLDdFD1vs2pfnNx6aeMw62O5OCvu-zk3S3jkJ_JwzgHx6-HdGlrjj7GbmeIirXYUicRnI8dTKGmQWqCC2N7g-QH8lIMyMN04-PxlrNsLlFdaf1vqMMHUNvyLEx3GvDtMWryugLdd_Ez6QbVmP9iR5ZS0c9WfIkU-DKbAaX6GxmMFI_nCyHP9gB9Fi0CiCXPPN8YEmVuXjQFaw2Kamk6Ey5ezazagc1WkJeO7sBkO-o9oWj14qnk-7yGP9PxmtMNd6E9BVZW8LN8P0QtGUkkDjc8YDd6MuTVG5KydA9nZAGGRzKdLllgHABXmNpU7hmZLksWkWsny3ewrBEzHaIPbaKdMdSrZ0R7Mem2dlzWmMvbIWTg8pC0uFU1FdA13WCmrTghPRc21onYsXB3xXh3tlUh--G3HmimXJs8Fv14ueEAhI3JGcuZ966tnnLY9YmZY8IW5IAMNGy0DQrhdy4XTaCCuAIKV855rsATHVtBxpaMJnshTV_axUvCn0UUGURdSagJVBq9MJchprhDO_JXY_m9TcNIkhL5VTrhP_ekv9dpH9Vx0ADlyoBT0kaB9zQ7Lds3_LPySvao4-NqAkQmZVUIXl7_UZ5l7Zn91dvCn13edV4xKFFRot_eLO8i4crWOnV6yWgnwPB_u_Wm6BKHgIqYM4hB8PNQUbpx-bwygQ1c3_XC8a0875lLjeXKaTFnS3fS_3i7V3c3kcqYg2RoIsbrdOdByfvkGBkfqY153F7jSrQAZoIIeHfqWBhzz6JG-aQTiq8wT3tmEncmRA7BhX7xKhfM4le_20uFupqJ_ZCEP26PuIFfPiSLyi3elgC2gO1lp-ZeoPwps96F-R40Y_bvSxE0uOAqeEgCuDfuPCRz76KV5rRNAUaCeEz9eEQG3l68c2lILM6fFRfnTk9OLdx5lrW2QjNSqGjOjp2HtMszQ6mkql6_cHrI3oqIqLYWrP8HUQyNtHOrhpoejhQIMuTfh_wCO7X2f9ixfPeFRsPC-B88flliZwe1GfS6Mc4HFUdMDeeQDDt48nyjAfuOekKhc-a_oSCvMstcKM3IF99phJcs6MxAKYw8qZpsu2fJa6ViIzJHEt6t1yIslSiSqEb-zLmAVq_WKZ5RaA4Y-NThDE4slGhv7JGAxweXj0d4PsWV94oXvPo524OjGdPJEB_qc4YiYTkYQaRnTWGzzr3KgtOhmdlkMS-wFXFmkqzEGXaNarYGuGlBm3OpJHEeJlXp8pY5HxXMaWYU1IeXcvXWafe4o7aMlX9RYTWt9k74yy6cokQV8sFnoTuXzvteViAEFDAjoSoC93qlIK5hT52eV_vLMGM7K53GiUlkuDEkBcvBGnZGb1rD-BLdZazoh2_5XQXfe92N81qH0Ydc2LJ20xCyp47mhU54Yadkv9nRe2LcwN_8Lrv_tL1sG5H7GSGGdK6nN83gSul4oKK2XNBcF0doSOu_u5AGMwSMW9JpXmzPRyy3hnWE7aE7UYCM8SiYJW7GgnUsF3vwDCDvfMI-qiYoXnEC8-WuVQpj1zDLRJmdooYHqQAGmJyK7zGWO8qKaCvJnD84X-HQe7u-vyhdxuizWd2QYAwlTBv0969d7MGct0gI9cJD1iP3btxx1MXR5gPSQ1mbbTm7XquS86PwOYsALieZGnbLE_tjH-Ugcu4oVokym4w8f7zsC-7kYXaekWnZWDgFY6LIduk0gje2rE_7umZyplcI3qEA0MgnwEF3uoZvIW9S0XFbn-OeEjYlFsnL7_Zu1VftRIPlOklqRHFzJMzDW4pE5AQiSeh7Y6IC19w19GO0QMcA_rtbG9t6dVimqko6f-a700qAU15kvb9CKroom98ELhgfIIR7AcvsyFABcXwOGWW4HvYHIfQ-HanFvpA8uTvXWtMtMiAXiHUlVkpJYfmhbkTuDR1VcHPI9u0Wy019pUAPhPJItya2DDOUoVUMYQh-O-Ou2R6CROHmfORKW9tHtXQP5I1jNseUNmBNTPEPpsXXZq8JXL3_BfPorYyA5ZVuuFgDhSeTaqH1PPmG50ffNXw8XFjewUgnMA5Z_9a3VKAfyhwPMlfDRYmp011AnfMbAVgXem5beYX5fvvvHrreRPeJ5jLpIQ6rH2_xEGzu6cGru1rmYK7WEdkIv7margTQ1DqfxCxMKWjQrJrWo0ec-bXeitz1UqRV274vShpr-4AhORXZI-uoR92TovTBmt.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_06a2b272033d622e016aefdf6ae46487d192b9e127228108bc",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 688,
+      "completion_tokens": 109,
+      "total_tokens": 797,
+      "cost": 0.002466,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002466,
+        "upstream_inference_prompt_cost": 0.001376,
+        "upstream_inference_completions_cost": 0.00109
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 60,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.002466
+}

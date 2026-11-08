@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:02:07.695645+01:00",
+  "case_id": "P016",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "f6424e94ff26d764e1f3c86bbdd5451cda65a4af4ff20ed7a5823a0abc7c548f",
+  "request_sha256": "5755756d9aca21129e0782b0dc861c1f97223d9c0e8413f069131360bea4fa94",
+  "reserve_usd": "0.098960",
+  "response": {
+    "id": "gen-1794139323-BjMsqtakjOobG7doKMvR",
+    "object": "chat.completion",
+    "created": 1794139323,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The card says the shot barely moves and recommends killing it. The poster's highlighted lane also has garbled, overlapping text, which suggests a generation artifact. A near-static shot adds little value as reusable video.\"}",
+          "refusal": null,
+          "reasoning": "The card says two lanes, but the poster shows six. My leaning is toward killing it, since that matches the recommendation, though the owner might prefer an edit. The poster itself looks polished, yet the highlighted lane has garbled, overlapping text, and it barely moves the needle.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The card says two lanes, but the poster shows six. My leaning is toward killing it, since that matches the recommendation, though the owner might prefer an edit. The poster itself looks polished, yet the highlighted lane has garbled, overlapping text, and it barely moves the needle.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS7wcKEAgTGAI4AUIIdGhpbmtpbmcSDCkVSMf9WCy43MphqRoMtkb6aLIBoWXiwMt1IjDLG+W8dhqTOqUYEo46V4w/UOl+yoBofEeOWO8dlao0JckgR6Z728aRLHhc7LM5Ia4qjAeMgZXSrdilfxGBsYQHXOU5Zaz4bhfh8XDjeYoFPsYRbxJ07Nzgl50Q/TzoSQR0TjTqcZvR87iw0QKvbU3BtdVv13FWaouFWhBIbsYDOCMS2YT8+17nRU6h7qMrNurVZ9638tQBj7O37ve9QLYpR936XZjO5RJuKCMDiVs30G+FZ+LH5u//Pu0kCsxgGDFr5kBdFww65X5brwHsqVGZL3lzjyVudishwb9MsZVsffySrlyjpuSftgBpuDy33JptO7SKZGLKo2wOtDduMxY7FAHA0X4OadQkzIGW0Lr7kkk4OJMZ4d/9JjkTRflQ7/f0QJg7fJF9l/zyl0xEJcSeD8WToG2Eb8cYdNIoTBg9IbZx+mqjCDwTdnBtvWDHVjgy+9hVyTReRto+kWP4478Wk6GdlYref9md4+fjd9qhMvHApsWX5RkrLlsJdPn1WlOaju3lOsneYTvwKViEMTZayWspt6UEW0cokPBIbZMxH0j47+2NnH+vxjRy12gvJylvi5WL01Vy9A/ObJXL4OY37qqskCf3fonCAVafaD7GORbUrXvIF7QvBTwCeX4uhDTXro0zMneSawARp7Nmi/npp7ERIajSCcd5H4jro8xDnZ43nnxB+tNGv5PtSCs0F76REJjf3Xpjgl/iZVKBkodWOEpSxX4O93GfrlmjIRbLu8rSo7d9t2YEVv+B00ZgcqahqtXuPE/Wwhqymzmi2efkjSrH2wHhcas53ZpYFEu1BphPpfcLaWUucD60/1iQoH83DWQqXJCu8D0ZEvusT1AZsoEZxawZ8opXXSAIUFjIgyVF7igT+KzyyxxwLDksdDbIQqIxdczyn6+hXXzGpSBIQq21MEH3oB8vbl7o+wxHS9uH2LoGRl7Gdeu8p60dzNFEQNK3PeJUOLauO2KejLbKN4+dpzhVbUvQw6EqwriE1mHjK/dYve8Vti4qHjsfYc3qO+HwNa4xp4hsVAjaUS6b+V66JdblS5phVwHu0GXwlRvbbvfbbRlMzc6q1I0sx+vuC+tZnNpwJgpLRu6JTrHM9yW73DE1TKq/seWVSDdue5zLcoqL4sJZ6xzA4eaWjKpCiZLNIZ404b4hB+369Yr4veu5+3UoGzWDfRpXaz9OgJFawh+jd5uwWhCqqXp0Kp7TvJmGSZl7ZL0uVe6WoNOBOr3O54/uJEg+V2ehmF740LrjxqiAPpINwMv+OMTuyhgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1922,
+      "completion_tokens": 218,
+      "total_tokens": 2140,
+      "cost": 0.012048,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.012048,
+        "upstream_inference_prompt_cost": 0.007688,
+        "upstream_inference_completions_cost": 0.00436
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 128,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.012048
+}

@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:01:00.482982+01:00",
+  "case_id": "P012",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "6d44232d2338bec3f1a019e81dfdcf5b6595897266d311fb9a56e4231ee1e26e",
+  "request_sha256": "d6c278f1c57c7e37d054d06475c1ddb2a4788798a261b23215bbdb8c0afa01b6",
+  "reserve_usd": "0.093388",
+  "response": {
+    "id": "gen-1794139256-qcmyco7gphLYdUiMR7BH",
+    "object": "chat.completion",
+    "created": 1794139256,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"KILL THIS ONE\",\"reason\":\"The plain phone poster and described slow turn resemble the static object shots the owner rejected, rather than the expressive transformations and agent animations they loved.\"}",
+          "refusal": null,
+          "reasoning": "**Evaluating object decisions**\n\nI'm thinking about the need to predict outcomes based on preferences for content versus potential issues. It seems like when it comes to objects, a slow and generic design is more likely to be rejected. The owner has a preference for magical transformations and dislikes anything boring, like plain white panels. Given that, I'll decide to opt for the more engaging choice while carefully justifying my reasoning. It all feels like a balancing act!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Evaluating object decisions**\n\nI'm thinking about the need to predict outcomes based on preferences for content versus potential issues. It seems like when it comes to objects, a slow and generic design is more likely to be rejected. The owner has a preference for magical transformations and dislikes anything boring, like plain white panels. Given that, I'll decide to opt for the more engaging choice while carefully justifying my reasoning. It all feels like a balancing act!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GR8XcbSpU-FzIp9X_9g9vcX0DFjyJGfTUp5TWiuKIzkzKGFl52QDDbr0pk5_LETHZTGAyqkWviSjqg3T82ZFQMZpvaK31Xk2vOeU52ib_0ASuc2lEW9TXaJOW21yyX9_amW_JfvdOc7G7Xl-okWAulLrjThkFJgEPWvMKuyxTRadiXtFnnYZFI_0z9nGyoI7y6kYsMk4Z-lzUI_zF35gERQj_jWFWuKAqkrvvIgj6IyYAUxVPDSGqL7onEqqoxdA-1wT-p3jXCgomhxdlahoFZw90oqFeDBVocI2fRjKX2jrnRtbh03Oz_XlbQtbnh1FQolrGQlYhNuuD_bPakSjkfya8etHdnRz_HB1S5LYtJ27HCOqP_mTUhY6gtYOjRETiV3LX63ejMvV-hyxGZWtHHn3WyI8b4tZgZp6iI8QPsOVWojdXXNXI0em1IpAc7dK6tUODY7M2zFHY8yOrmL27rJp3kYYA85x03io61lVUt-p-KJ7m0Ac3TZNi6IY-FM4nIP4I6XUj7Jza4gfzbvOhpYScwKlrbIcS5xDrLL2FWqd3z-16NFnYyskd3x1E-yX0ios4QRt1VYJNfXIpVzq8AXhmyoJTYxFmg1OPK-Pj6HdHFeRwAaaVzioZmKGg6pl9on33xveHSbegNqiw6Z7uZosQ0W0hENWZDDjgcRVwlMClvVlX0eLZu2LH_2EZgJ_06Xj8sWbTcgOc3bJJ-UOXTjKKHcYqlCt4CUSfHDdCQbvaCUyhIVoz9Nr4LzHPDRIaS1qnLpYNCcrcoG2Ec968TqhR-w1mdCpOwF3Eo7S6DLwoI7KSGSh4GIdOEMeLpboENl7_ORmMMA2QsqdcDZGK_hBCjE8TkMRbO0auDb_Nyv1DA5orNKjo1iwfmqxZWpoJIcmdgqMg1gMgqDEOTBwR_852Sqevm_AVtQqSy5M2T-EBXSf0mJS6_rojsOTzkGCAk58R5Ma0lNk_QX_IR2IzPx33W2cm1yi2op4B00qK_-JME4ateI5xl18OgEeGZrPKbIPs7ybE3Xu6PJxgHy74BI9zpLLNBnNh2ZeOTnEmh5R6kmmutSAwVpKXTdNPVI_3aLzs603CLdb_ZJs9RdYiy_P05N7WFR-nJmumMsewf0AZh8bZDJLxvzFTHVnfN_0dJiMLY6Dmt-avupCer2w7p-EBebFwCOKiaOwGo6GcxW0PEpsFyqeEScbIsMLKegxNeY1neQaJ4El-Cg__dBZ4Z9FcV1DF072ZnA47aWPA_Ue7LIXU132yJqrXhX6mssVDMDvhj6z0AmtdyILXhJgS4-tyxM7yEzy-UEDqwKYQufEzU6Ep9LmMiTA8jvfi1xCTbjDEQME-tFUBB2Q2cglAt0gT_sM9I8K0REpuas669me-2HyjBfktdJBfamP3wytO8cZVdvuzIRt7oYPd1fDTHJmIO3D8qHH1gWfQ77G1_Ow2UvyjPZEAyUdsWxSJ2nAypXSN71tJP2dHL3aGXZ2Ir28hHqJ4l5wC0SILvj94HF4RwrXws5IdOYrPGwWYUtid-VE5VHoxToWf3Uc2x7_8U0b6pnMpPtflt-GB8oRyG440nmWSZ-kGa9fvLrkiljfoPe6cjRK6e5Y1mzavfpYCVbz7jt2H-2qwIHqSgC3ZMBnbiRuWn2tCGn_bfIYFQ-piCjkUT1wEckQHVk7TdmtfPNrKWnP2wcuQv8FpoN1jk7xly6KztzRA-4l1kjGWJt3CWFmxWaM0EIS51R8RUQVB7Nf4KE9B2R-QC5Efm54gkMZ5i344CZaMVghT_5Iyu5JtYj4hxyY2WteINv6dixPwicSHLHVegdoh-EGDrvrEQAx2eDugzKyzQf4OAbRlUWfzdDtlQFI5_yTRPbG1_TDD6JJaQvPWyyluWuGXpLSa_4we-PgGz6RvyyF7Ob3hNLvadF1Kioy_M8qF-JKsUPStO4_2s4VHreoAcrXvaeO7XZHkS0UJmJ_Oa4fZIy2Dv-DPX9xZ6kONO-ZRW6a2d__LLVVupPDK3OEURzkiPt-qJqgv9LAajAz8VYRpdURg6lFTvMoNK9u03-Vt6AYr929dTvnfOSNx9ofe1w5CRJqb-qcf-l91HxT32yGdMbhr6w6goqYj6-PKNzVPFRxzUcfP1FgKZq4lU24iriWds_FfMv9ZHRaYkpw85urx6Ie9YHmmFHolOxSi2iK6eWWeOxK0KOY-xXJPUhTHu9tWG68pE3fS5xoX98Rl5xrhRYvG-qBXHnRF3MgePCW-rNP7wbfUz14nZ_sfBpx3Tcc1d_jRzQ30xpV_kUyi6NgT_sd1z0qJQncrsqeTdiQlz3EK4A_LwTiC-0bzmuc1-qN_1yfmXYDWjXepq6-P3J9xNza7bURvO8zGK6Ww-oQ8ui2Uqwd9ieJnvUvNBhSaOQm2NzAuG8HFJNA1RpC4_b3hwJndCXUWp3CeGJU_jA5wkrHC9H-pZDX-84FUKvxvDbaILn6vVeikxDdM5SSdxcz3D2tlAmhgTjOkGdHYOKbR06hZtHN7302tj75Ei-APVKb_Hdvy2ju77MPVoq0IKS0yqzQY49s3H7ocs1Ehcn6TPSc5tcRiXLQ0PC_fSJoigLX85OAfmuaq7WNwDMVC1tchIMR9vEkPvKQy0sAtdQxOH8Xa9mQx90r9MaIihxRsRahweVY20iwXZCt1s2lbZgkju-cEP-vhN14P7z_UoMLiZeXImISh9LclOrh2490aKPHv3K0iPmLyuHrqo88fsYzvBPMJCajXE5r36xsgUEugrkcSUDqPYsJLqBvl9EhWvujSN3lj_U3ulI7C-6irCQ_jBTtowo8LKF6Bfc-XfD9fUwfY57iylWlxccRHunqBddS8NWqDBVZPHcAjzMVd6XbCKANDuVQmy7.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0409473a8cb0ca8c016af064795f5887d1a248452d94616b1f",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3494,
+      "completion_tokens": 125,
+      "total_tokens": 3619,
+      "cost": 0.0099835,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3491,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0099835,
+        "upstream_inference_prompt_cost": 0.0087335,
+        "upstream_inference_completions_cost": 0.00125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 76,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0099835
+}

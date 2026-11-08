@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:06:35.429087+01:00",
+  "case_id": "P033",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "b4eb2dc5ffac4639942ca85a632529be68371c3424567823ef5466031f4b7983",
+  "request_sha256": "233af3f92a47265e29ffe18cab342ba477bfffeeecd8c686650e03b086154441",
+  "reserve_usd": "0.059696",
+  "response": {
+    "id": "gen-1794139591-HWqnvAL5GF0qpk4AeBdv",
+    "object": "chat.completion",
+    "created": 1794139591,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The poster matches the requested lookup replacement: “skill” is searched, the Shorts row is selected, and matching Shorts are highlighted in the adjacent index.\"}",
+          "refusal": null,
+          "reasoning": "**Considering approval of matches**\n\nI need to choose the most likely reason to approve the revised matches for the poster. It could be that new matches are needed because of duplicates or maybe there’s just no context provided. The standard reason for approval seems to be alignment with relevant criteria. I’m weighing these aspects to make sure we’re making the best decision for this situation!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Considering approval of matches**\n\nI need to choose the most likely reason to approve the revised matches for the poster. It could be that new matches are needed because of duplicates or maybe there’s just no context provided. The standard reason for approval seems to be alignment with relevant criteria. I’m weighing these aspects to make sure we’re making the best decision for this situation!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GXKGWUCInqe9tkilze8j5A9hdjszVIJLwHXjCbLeZhmWJcowvyZm507j_l06VMJU3yEveTkpBKGkrMfdrsfHI8YWhMXRRAVBane9AzOhdddytLGau9k6fvxirQ37-z_Klkxc6_t7Z_lvzbpmCZaeyuPNFEm2ByNYMYmtz6kBbOs0hOnVq2CnKvY91mdtvnala0aBdpf1wYotCFn6vF15mmr5_8qioPvD_2f4oRFLeFuVAYwUJI4xWTpP1g1MlHZ0RQHrbmMJ8tZO7Stqxf0cU55xzFOCoYLDhShITCSKcOLa0SYnDPYYxRBIjFduvHBsjB2CTv_jssVvPJ0cvmFN7KR-d0ThXKhPkRgVbBGo5inUCc8R3SqAcKk5Dxa4Mxwa3InCm7mSKeRwKua9TnRGTkzdunCM-HL9qYIbwSWRpTKVc81ZX6gxdLrD_iiGILGKYcVRKGXjfzxxeF81vPErhc53tROoYZxEfCyMDSlc3_1RECI91M3M5AzXnFuyr2CXmrAe8xi1OXcVahH_68uWo-UhjM1zkvrOUnUec-EX7mgOoor_qlulxQpS9nyjhV-I_gk0kz9A74Ka-pkkUcPq-86TbqXrSBcx4GPstnuSKukP_dZ2Zy-PyTElX-Ra6LzsAJ6W8eaeWCOLU4_Xn5dMG0nb-Ia60kwtl7In2QM7oww8jC4SSkLlhgZxYAlCC_UZHldwOiqYAG0tAN8z9rY0_OAuEAAZeH6sK8KbqxlwcZN2pR8cbuddCgBcJFwWz0I8aWUiu9ptA-P39ia9TzqCgVDUS10OWS7Aje9CeIiQz4UhTwxYmgJJ1vg9urBo2V9WYTsebX6LAZRwtILnD2RPo9NEiQp_TqOmqrA1C6dqdMm96Wg1V344rqmCAexLpSWH7-l5Wr8Tt6ERxC7tB8v_yfahRt0xsv5D5Hy3dznhZXfjT5ulldllPlt059gPWLWTrtZw-EXJyJ8uW32mkgZUGQIEqWntb7hYKNC2dIDgPbCiNO3bnvVD023-NniWKek_O-d33jJZPlafQKVZLnQSxuOAYWzAeNXiPSJwh7dT0xnv8991QVZ0JfYT8OJV2BnzZfqxo7_di6AhFqbEFo7P-HruymGPCsnhStw_HOXFEVz0fX8BuXdwQzSMaxf8VWOJHvWi170dkfYQRANwp9R0QKOiGsWhZVaLV9CRgBZcuVs4E9M2_aIL882YdPDYmOEi7KFGJ-AL63SUssE2MBIra6NKuZK7AacC8whWLJHvNui5_ik5Syacd2TIui0-7fLicKbi78hgyvFZPnj9FBXnDpb-A2quGNeizzX_Z6PySm660NescShW9-x91p3xlc4wqb2qiT0QiTQJaAfy3wA1ktVIU5yf9ARtLhPD90tj8g-7QENt8Wu4OSOBcmhK_GwXcC1woSuuLpuoYlTt9b9ftF0EFr02jjWu0tsmA0kf-WkWeziTiisVG2lgHtRLT7U9bVB-UzNHoVSZNrCRXeS9x8HglrkdXrTZkRxkjjVYl4_vyTSXwSgUUJNRmVGGcSUearuTQh3K69camNRxa73P86v3WO7iOknzp6F2cE9MbeRQv4Kf0eXXSkheTgq5qgMBjlx9BnObDexmrxU2rg0DM6WnE1m2iGxH5pDNiBBH7ppY-Sub1dmHv4Jk_frdyyP04JMfgaJ5sUs3TTbg_CRYUPZsj10whIsauUGSukPiY9jeIofZIIemu_8l4Vswj_eePzUSUSbNlTfbUGwPOnEy8F-PgypJVcrB67N2MalhsT0ReE74Kzat8O9hYQr5dnmqRS7LvNRvyDAqLrfDkSB-vD_dipkJEbJFNyZlqVQd4WNPB3Cb8jNOFen8LCKtFmX_kRul756qrXermxB_4IGU5l2A7ypJPg1LE5KKH2ruE5tMuJdR5caiiQdhgZJ57uUreWAKNLnixuqFBSeGiChTSfAuzKfUiLHYKDhmpFUFO1Gw6pbH8RXpCyouHzWv40MkrQQ_0oecKxiGLcVnlAaywCPXRQT5LJGJzYk_rKjWCfG0vcBnukF8Eo98q4dPRwih-I-xNdZNEr2-qZj8699xdboi5xG-2CYluh5H5MQ7lDgbbg_By8YAjRgSdbXhyw_vgcmL3ytC7CYhl_07AItw40GZ8fSWYlux_0WAkSU5fbdyWr9TvMB7SFGGMRtJeanPJvwktWXRGh7Njh3ueuNW0tnpw==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0838345aaafd4d65016af065c8e4bc87d1a3406a44d13839f8",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2794,
+      "completion_tokens": 83,
+      "total_tokens": 2877,
+      "cost": 0.0078135,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2791,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0078135,
+        "upstream_inference_prompt_cost": 0.0069835,
+        "upstream_inference_completions_cost": 0.00083
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 31,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0078135
+}

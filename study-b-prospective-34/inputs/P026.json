@@ -1,0 +1,23 @@
+{
+ "case_id": "P026",
+ "shown_card_text": {
+  "title": "A wall of screens, then one comes forward",
+  "what": "A grid of terminal and browser windows drifts, then one window floats forward and fills the frame. It is the screens topic as a reusable shot.",
+  "why": "You asked for more reusable Higgsfield shots, and each one needs your verdict.",
+  "question": "What should happen to this shot?",
+  "options": [
+   "AWESOME, USE IT",
+   "EDIT THIS ONE",
+   "NEEDS NEW CONTENT",
+   "KILL THIS ONE"
+  ],
+  "recommendation": "Good for the moment an episode zooms into one agent out of many.",
+  "context": [
+   "Made with your ten dollar top up, inside your thirty dollar month.",
+   "Generated sound is dropped; episodes keep our own music."
+  ]
+ },
+ "visual_input_policy": "The exact first existing still/poster shown on the source card. It is one frame, not full video or audio.",
+ "poster": "/Users/morkeeth/.local/state/fleet/evening-run-20261026-delivery/2026-11-08/MICRO1-PROSPECTIVE-28/posters/P026.jpg",
+ "poster_sha256": "23b3b35b0f105e6b6e1846a8fa1874645019a796d66888445bef48af17d51e03"
+}

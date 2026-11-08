@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:06:44.540253+01:00",
+  "case_id": "P033",
+  "arm": "HISTORY",
+  "route": "openai",
+  "input_sha256": "b4eb2dc5ffac4639942ca85a632529be68371c3424567823ef5466031f4b7983",
+  "request_sha256": "793db152e0f38b81d1685b029b71fd0a7023f2f4acf49040ff436e62ccc739bf",
+  "reserve_usd": "0.093436",
+  "response": {
+    "id": "gen-1794139599-89wp5QMqfUOACcO9Ji0I",
+    "object": "chat.completion",
+    "created": 1794139599,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The revision turns a plain list into a concrete lookup, with the search, Shorts row, and matching results clearly highlighted in the poster. That fits the owner’s interest in reusable index explainers and approval of focused workflow animations.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on a meaningful index**\n\nI need to choose something significant for my project, something that really connects with the topic and is approved. It’s important that I don’t just rely on a static list for this core index. I might run into risks by revising the white panels, but the task is clear. Overall, I’m feeling optimistic about finding the right direction for this — it could turn out to be awesome!",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on a meaningful index**\n\nI need to choose something significant for my project, something that really connects with the topic and is approved. It’s important that I don’t just rely on a static list for this core index. I might run into risks by revising the white panels, but the task is clear. Overall, I’m feeling optimistic about finding the right direction for this — it could turn out to be awesome!",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GXTJgMwqrVE61wwdyh-AClv4m5BxlfFrI1W4p-lEVijUUnymWMKvaLRPSJsiIhb5AAnw3xETY_oj5-WFdFH_fe3wssTZEsrHDoB5wdj1VS0vWLt_EfEBtIpUyoWjoh6HsnA6-BVNTp7sW9aVCsznVpkZgH_q7ct-3miF0DWyHOwvx1IVFXDvQKSVv7ZBHWlhK8ua6Puqn-ndjeHIHl-E2YCfirqXflPrJLQJCuacsqSqDt_MWqCpwxsnKRcgRHyMpeiO5EwlWYof-H2sP-cKBSQ8jXwhDV2VrGarILsoDawXBS-D7zlJKykFD9BNtBeCOJYHCr_s4Hkp5tuOXi8hi3gyLzVRdKPX37_DOsACiHsLSrD9b_JUXDxYdmyj1FtJb7dHUV0nOgj00pritSj3cT6J3_0ZU4q7ZDB34Jymnp9cMS5cEiZmidLwMrvPTKU4MhH1yr-97RofEICvmBik82FAJfAWcTDf68o-AybUU9whyVsl448UwYOzEkVFHXa9Io5DfS6Gc-9OJscFOJ4yJ_uIgVRu3v3kCXJ5WYHGqVOiGCZP4ue9QnvtE1p3jIYey3bo4SdCf4IY6gEJmk2k2HfQqrFamgxxNqRMo2ISWqgg6YfARGu4c-9OWAHWHufKWNBVsHbfjJrJusgIh2AnfiDccAbiM6jJDdf8oHtera3Wc0yIULgx4JWkil0H24doAAuUHcKH-EdCmXjJq6zXDZwWJg4NKgcMJcuc8x7-xMCEYf-LoO9hahYA3bSjmhm9X2hspsCnx0PdBmANRTjMJeQ71JRtHp1hLz2NaxMR7zjXYLqrU0qgXRlZ_BzXSsO9nXkiEyquMMB7xkLHCkADjHmNzHaOubsfYO3JHXWF1G8FSIvgRcf1YUJnQgSoKkNvkRqVwLqm1H98_fTd39IJcnk_RNrbtu2xJyDAlVUTyX421YER6ZDJMbNwcND9ejCWMvwi8f0JH3_AqDMP92UjPawwtA6NpeUyh2T0qJAVv3XYxNgiczE4-fEZdf3kFCUZ0kbK3YFD7UM-XldF6pH4vvPw7Lvp62PMsn9EINKYk6JZfHiofrvUu2WY7jc8g6cYjE15xf53ysa2R4wtjJmvLxCM4yOGG1v1TCT97QA0lt8v7AdbMDwpqjK3fGe4znIXPpB9qtMPBHig1EUWctAJeP6H9jdjRVnlLJoROlb-LVvDvRwFZ42yMr5rYmItHov-glNEsquE5932dWecaKZT2c-HBeOtMPietR9K_8z3vsL30-cZu-Q52a8d20fMAVZLaMe7EgUPgK63ye5kllEvc6CYmeCOCyTfpkto5xySEH_xshdG9OxcfPM7tpe7ZnwPoNMwK9DMTAlukp86-uhFdSVZ3P37BPbLEauyPm8kXE_-9OtAcw28k_KcXDKHMpsnmw2mxNRswGtg4PkaA-1bAcedAIUxheFfGOBl1weQgpXIAmXVWLeagX79yTQJQupwhj0ojU_3cfDOJIyNmeBT9QwwKLN2_WxCWfLPIWVp7pYUJvgW8X2UUH-827zJEL8ptyHo-8lyi2MY3Hzc3fjZ22fcIWMPh4NNgVt7elHXlJj3b9z0Ym7IrTVIvHhn3gFeAWO8iGW1ByOycmPlFc7fizchVL_rvElF08cH-SALsOVMvVDdCdv92GQ2GCERPJNH-KdvYSSdqAXfjMZgYwXEnQSnyS81LI5uazhF3ZPNxF2h9_dXN5djDX3qbDFZ1fUhnpt5F7Ok8Kp3_ZUubK9SvX_CtSV1L8U-12VoOfSSM9KkGB0_BBah51Yhj84IeYCra4Yz8F9XiU5jOp90ckPuQp3SdKPriryAHKRiiHUggcHubKNV2Ncq6pR65hJuAPH8PO9CJS10U6UwPl1B-e3pr3yYDEePKO-w0ctV9AIeuwHbYtKI37MAHbwJSSLtGT9iR-GYgb3IIc2lDROineXg98UhzRf4TH6y16gj5LvGXdEmqSw9PJdk8Yk2knv-Nm_cv2epqFKi9tRMbK61Hpa6iFMMUY27s5bn5xeOoQWE0dSyvwRuWGXNpj0pM9RyQVchLif5eTkwddEmcHcsL9bhEuUChvije6-7G-VHP4Ohh5V4glRa2GCMouGWGX7SRP1WQPf3fNNbC1eIovGtAmL2pSCbk8WhB6R_QS5_2iRUDGSlK0pdmHj2ng0qNPXQmCjrnfsl5GixAE7zXWz_NmExMbCQ0Sc-dkycR-e1DWDDl2aE3WGim6-2OrZ3Vs4UIQcbd6-qo8X3CBysKnZ5fVgYx12qLgSe10sUaI6VGnIoV7NYSd9Hc-bjEH_UH-fT6EukTVmxAihNADeml1UtOKFROjBww==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_06586e357ea17690016af065d165a887d1b339d1fd85a68f63",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 4847,
+      "completion_tokens": 106,
+      "total_tokens": 4953,
+      "cost": 0.013176,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 4844,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.013176,
+        "upstream_inference_prompt_cost": 0.012116,
+        "upstream_inference_completions_cost": 0.00106
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 39,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.013176
+}

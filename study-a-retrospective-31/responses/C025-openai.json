@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:34:48.797436+01:00",
+  "case_id": "C025",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "e70acf70f104e285e3c38490d4bb1ae39390cf34af0671e94840923d75db9a64",
+  "poster_sha256": "7130bd531afd538ffe1a97836579327866e6a581e0aca444c7c96247ef4f479f",
+  "request_sha256": "815072763cf0724fff59c0566b8998381e9d0ba7b28082d206667dd6b4f4b73f",
+  "response": {
+    "id": "gen-1794105286-HyrBX2kuKlWoYcmswIxh",
+    "object": "chat.completion",
+    "created": 1794105286,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The owner explicitly liked the idea but found the unblock step weird, pointing to a targeted edit rather than scrapping or replacing the animation.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1446,
+      "completion_tokens": 45,
+      "total_tokens": 1491,
+      "cost": 0.0040635,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1443,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040635,
+        "upstream_inference_prompt_cost": 0.0036135,
+        "upstream_inference_completions_cost": 0.00045
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040635
+}

@@ -1,0 +1,71 @@
+{
+  "at": "2026-11-08T13:03:37.063949+01:00",
+  "case_id": "P021",
+  "arm": "RAW",
+  "route": "openai",
+  "input_sha256": "84204a4721884436abcf36a164876650056036b8de506060dae6b509db25ec1f",
+  "request_sha256": "dc2e24741abb7eac089ae75de042fece524e338d235dcfa8a8631ff2516c4889",
+  "reserve_usd": "0.059660",
+  "response": {
+    "id": "gen-1794139412-dx1EJMnFBBeMItHaSQqF",
+    "object": "chat.completion",
+    "created": 1794139412,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"AWESOME, USE IT\",\"reason\":\"The clean poster makes the index-and-label concept easy to grasp, and the proposed shot fits the request for reusable visuals that pair with the index lookup.\"}",
+          "refusal": null,
+          "reasoning": "**Deciding on poster text**\n\nI need to choose between options for poster text, but the episodes and music transcripts look distorted or might be backwards. There are three labels that are readable but appear rotated on a flat beige drawer. A strong recommendation would be something readable, likely an awesome option. I shouldn’t overanalyze too much since there’s no history to consider. I just want to choose something clear, minimalist, and reusable.",
+          "reasoning_details": [
+            {
+              "type": "reasoning.summary",
+              "summary": "**Deciding on poster text**\n\nI need to choose between options for poster text, but the episodes and music transcripts look distorted or might be backwards. There are three labels that are readable but appear rotated on a flat beige drawer. A strong recommendation would be something readable, likely an awesome option. I shouldn’t overanalyze too much since there’s no history to consider. I just want to choose something clear, minimalist, and reusable.",
+              "format": "openai-responses-v1",
+              "index": 0
+            },
+            {
+              "type": "reasoning.encrypted",
+              "data": "gAAAAABq8GUYCK6G0uayaajLQpN1jNcK8w0qrr-2oWgc1rVgAC132pcanbPOOsXMsepwwD7wSWMQczoBVJpmodwwXQKhKuzxl_o9B5Me5cLb07qPhSqFdAGlZqFQLQMlVAyszYgN2-iQByI7G6EGQjt2SzB8vEsCzMQhwAAHMEJ-v5sXlV22cTWEgVX1eEemTQbiCbz4FFwR_VajoL-aRMLXLp1u3PGNRqOVFIeHAcMBfBVZ_Cjv2WvF-K3xePqqSqTWmThB-r8R1hR8kkLIaYEv3ystkSEs2fwXIw2elGQ0Q9ZgBguMVjTqhP8hk6K2-lLEMSUv3UMHH12nb3qkJXIC27fmQRwG2jp5RfKWkdd9MTDmn3p_95QWsNBps_ukWCnJnm2TAcDH5azYXH_4FlhGud_AnAey4BKmDVfLtvs0Jf2Sn8johZby3ipcyOm-vnDAr3f7pRXBexQNL_kUyI6auuWwll73xPmHXduAoNG7B0VTezIz7UAYzlV35alJ8epq5enZH1G5vr-TuYOzxPlQFWzQdvgd15HyUQx4rXrIhXoSlGriGi_l8e6JGu6mMilGlrL4E7EXKERSKtDg6tPw2nazHKmUz05vBQiTOVF3CZ5tzZNmSx8TS2sWNR00OEvVBtan-y7VtCxjR-heB4VbMWLdRJMxsotBKo6r7lPZGQ58qSBx-9wmn7vDKDd99Ryi2I9KhWZ7D-Hw12F84CVPyEmt90FrZft3vskmDYiC6E4twj1hIZ3Pg_XkUnBzO3nJw0QJ4j7X6wuqO7tAQCSpX0sAtudKPTK3IrxYnGsJ3BunjF0aqs-Y7N-NPwTAeQm7lcw-D7wWEpguDvwwGECFoOQY9eu0e2RKocs88yVDv1nSZoKbiOEfrCniaKJhPDi42igvlm7qCHPpNaDG410FYpIcwmtMtyGylU2YysfJHk-5Tmqu6BT9OCC9nWBkW9MdrO1Af1zTAdd-WAQ-Esd3L_aoonpmgmFZiDq0L0hQheM24wBSkEe7J1YYoafkvhpIAoom7Z84kimnRMbu9ldtmRszaeKq4Ahw-kyEQnkOlawZPvkKwIeozC6FHXXAxbat2_B0vdYPJznPHjIEZKOS4Fib9_5MmvCkUhpFJBWixbS5rSxKyh-E1DER1M73U8kc_Vm_Ol_iE7oP99fn7wvwFx06xSEDLJK_C_4zpS9aK9GdOwebJs8Hs8BkSLu7dFXkfgBY3tUws4Projno2nRW1EMg9LcmqiYLt4Qi34mUOIG7xHn-jyY1CACj6ouHVrSIdMTlBwu5kvGKuCS_k7LeRCX4hi4C096hXw8257eGFdnN6k8epz8OacshaPuhsYQ9eWgtv6UrTcBlcu_F4XtZv362bcFIkt_3b0vRk6EPFA-KmE3330bBYIVlfoXCwk_x52FHjtfazIFONEAlVWG405l74LIJgp0PpbKs0mcY4utsA7XrlDbxqn97v57dNYcIgD-BVvMdHiiydd2pSfm2jrA1UCkhAhrFFf3sD9XBL581XHciZa_qTKWWYrcsTB9V2hX1AgKzGXkxnmVp4n3fL-XL2Y_SdLaSTcHBjls2Pl-OfHrIqCeO5oESKW4vbOrP00deRQUxa8dUU0lP9R3CzYEhxwqzdtFk7We_hYgU3tXtFqRCAqJrVAZU-YKXVkHgS_gHpVBxs7WehxGz-frrwGikMkuXrJq_ImUSrmvMCq1Y1bYpDjLNkUc-JbeQucGct74lv-_G4P17-UVZp58c-5b6mST8yrPseHeOmqW3wLtG2RoQtwXxTdLeEBKLvA2HEecSoJMLQdMX9XtwlU8sV9P0ZgKPcSx6azZhNfn0Z36U92UVm0MydMqd9Bd8Qe4X_OHJhXYou_sVWPtG5dw3OcWdQWrkNpyJZ3MWqu1z-mEVugwvVgtJ_N3emTLCa21QbMPmJotm0clFqfQi5PqbTAumdFJDzSofyzjTjPMJdf3jnmHHYxa-if5AIFbYjZ3zLZhJctlvS3K_mtGPDFGjbN74YGI_LhjScqc5vADcJ-CEi1jCvEYPXgbVmuQQ1qWYQ0Tyf26SXoRbuAf4uOnRifl2z68hkkF3p0c8rHmb-jB4Cn-3spmPdoA1l8lYwDs6_wGTrGM8yMurcf7jrphFrIcTj1yOdXWGRosOSS_XR3jrQCMddAZYj7uxMpwkyeCX1jUxVpf0yrhp5MaXdyUcbc2OyVovXBFWmcwoYEPTy-ESDGByZc-9J091DW1jWEBS56y_hlI0cjMaVdSib4vghUDGKrEmVr9Vx5TTTENfRuvNigDDWdZEC3jtVbCu0gyw6is8qfx2avNfiBjfVI7OsoGIFDCKZMdgQzHqbPAzqhQmXyruhis_iD-bN0LbdIF9LctRSITKCR1i9Nv9365yJ7L5uh48JpWNYDDv-X_zjg0RYGoAi1hlIZSTEnJOCdXMb8cNkwkyMqlHyHS7moZR9LXHbUgeEVXUN2vl86VW241PVfs_Gieo6yykNzSLFvX8QD6_mofXmRjOnJluI3_qI9_HlgsJ6Q==.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC02LjEtc29sLTIwMjYwOTI5fG9wZW5haSJ9",
+              "format": "openai-responses-v1",
+              "id": "rs_0bd591e709b7784c016af06516494887d1b24f0216bcf43ec0",
+              "index": 1
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1444,
+      "completion_tokens": 104,
+      "total_tokens": 1548,
+      "cost": 0.0046485,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1441,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0046485,
+        "upstream_inference_prompt_cost": 0.0036085,
+        "upstream_inference_completions_cost": 0.00104
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 52,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0046485
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-11-08T03:35:25.317656+01:00",
+  "case_id": "C029",
+  "route": {
+    "pin": "openai",
+    "model": "openai/gpt-6.1-sol",
+    "allowed_response_models": [
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-20260929"
+    ],
+    "max_price": {
+      "prompt": 4,
+      "completion": 15,
+      "request": 0,
+      "image": 0
+    },
+    "context_length": 1050000,
+    "highest_input_category_usd_per_token": "0.000005",
+    "output_ceiling_usd_per_token": "0.000015",
+    "per_request_reserve_usd": "5.280720",
+    "live_endpoint_source_sha256": "ac4ec51c44151a5b1af2404fb373c0f5fd9d8b008be19ded1a8afa701de6f17a"
+  },
+  "input_sha256": "5745711250d81c359abc6c2c526eda9c7d11b35fd1d49a337ee9dacfad9d0993",
+  "poster_sha256": "22ca457375d3138f4fe47aa5c0d70d9fb99da0a4020d04183bae9f16762878d1",
+  "request_sha256": "d69e97651a98c75141f57185fb270f77fe84a8a75dbc567a05c87879a220e0bd",
+  "response": {
+    "id": "gen-1794105322-nKLy0EcN9MVDgqnduM1J",
+    "object": "chat.completion",
+    "created": 1794105322,
+    "model": "openai/gpt-6.1-sol",
+    "provider": "OpenAI",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "completed",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"EDIT THIS ONE\",\"reason\":\"The folder-and-document graphic fits the reusable saving-work shot, but the noted hard-to-see closing bounce and lower resolution suggest revisions before use.\"}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1454,
+      "completion_tokens": 46,
+      "total_tokens": 1500,
+      "cost": 0.0040935,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1451,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0040935,
+        "upstream_inference_prompt_cost": 0.0036335,
+        "upstream_inference_completions_cost": 0.00046
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.0040935
+}

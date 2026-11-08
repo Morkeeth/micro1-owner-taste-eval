@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-08T13:05:11.972641+01:00",
+  "case_id": "P027",
+  "arm": "RAW",
+  "route": "anthropic",
+  "input_sha256": "a4694c34d28ed61b17b035b8c74a60201d4bc746675a4f50a91fc5064f9d41ec",
+  "request_sha256": "3fd7544695ff0df6784ec4a1d752ef5cbddd41779e0e093059ae49e8b082eb9b",
+  "reserve_usd": "0.099064",
+  "response": {
+    "id": "gen-1794139505-ymmFzAtTCl9jfmohorBS",
+    "object": "chat.completion",
+    "created": 1794139505,
+    "model": "anthropic/claude-opus-5.5",
+    "provider": "Anthropic",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "{\"choice\":\"NEEDS NEW CONTENT\",\"reason\":\"The card says the shot uses the orange and black palette the owner disliked earlier that morning, and the poster shows a salmon bar next to a black one. The card recommends regenerating in the blue palette since the motion idea works. Fixing the colours in a generated clip likely means a new generation rather than a small edit, though a simple recolour edit is a close alternative.\"}",
+          "refusal": null,
+          "reasoning": "The card says the owner disliked the orange and black colours, and the recommendation is to make new content. But the motion idea still works, so I'm wondering whether an edit that just recolours this one might be the better route. Regenerating the Higgsfield shots would likely mean new content, since video generation doesn't recolour easily, though an owner might still pick the edit. The frame itself looks clean, with salmon and black tones and a blue glow.\n\nI'm leaning toward \"EDIT THIS ONE\" since the change is only a recolour, but a colour change on generated video is hard to do as a simple tweak. Weighing that against the card's advice, I'm going with NEEDS NEW CONTENT.\n\n",
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "text": "The card says the owner disliked the orange and black colours, and the recommendation is to make new content. But the motion idea still works, so I'm wondering whether an edit that just recolours this one might be the better route. Regenerating the Higgsfield shots would likely mean new content, since video generation doesn't recolour easily, though an owner might still pick the edit. The frame itself looks clean, with salmon and black tones and a blue glow.\n\nI'm leaning toward \"EDIT THIS ONE\" since the change is only a recolour, but a colour change on generated video is hard to do as a simple tweak. Weighing that against the card's advice, I'm going with NEEDS NEW CONTENT.\n\n",
+              "format": "anthropic-claude-v1",
+              "index": 0,
+              "signature": "CAQS7woKEAgTGAI4AUIIdGhpbmtpbmcSDMrh7v2PxTjFwvxZrhoMd0hmuLx8S5lgnVgXIjCVOCAPYgEedOePWeA1TDwW2NraGM1RKEy5z++/K4hdwBVQg0vDu/BP01bNz7GPdIQqjAra9NWYbg+pFWiDx0QadWrJklIJiEoI7tERnc0XSdFM9ZW0BvK46Si3Se1oazA3YvSs6J7uEMblEcj1wg6AvjCnTVP4Boqrwe41nYl5TZoa4utgiCDzC7mVxQ87IXYVdMsXfcBYk3aNVrl0ncifFHC+JL0NyxIvd2dotB62QwlATUXECshLf3thxYUpjvu+Lt/73z9s6zFG5xzZtR8SCAJ/3p9XyY6tE5fC2kgas3ldnSnTCYNYztsG4ET6RF0wIKK4NjWPlphtFAgHRfXJ5LL+ozY4aAcZSgWk8Vv/GHd7524nhbZ6cV8reP3s5Chqe0MwKBAaxol+XpICuG0AK68PoDxigCcp2hsoJEksAn9oSiQMmDQo2yU+w3TcFGMzvFQANstMEBzE/EzLjoyFUmY0kMkbzC8GB6qhkfrCaOO0aJLMRhrHlLU+4HmHIMwtZqXGoU26WhMNaGGFJx5dYgKE0gnuTS5JGPBI/9sDbsoxHOZACphtkxPKQ4nXy2k/48ZJ2u5wJ8REhI+pCffzi0NAWAEXVipi1+aDMHRuMb1HLdZL/IF6oOzahqpPC1EjXPLwMHP7LhD5p5TtateUaTLCm11U0nNYOJM9Uz6uhyJtOoI4Vqo6JOYLxRIzNbeKXX8lsV8KK7oBqr/z4UOevXLzQ1k+jIsd3kjT0tFKTsV10jZDOiiP+U7czF47/NEEPq36WNbqSWdzNjVfoUi12iTuQ++Sdkm/7R/jwIJZ/h/i+kBM18rpRvuUIE1lKnKGcYQwyBvd3vfnKsEiyhoUIZ/hll62+3FIPcEC2Ed/1hbqs/uQOwE5XCwoFwXBrvPdcbS6l7LvDCK9IS1WAGJj2om+u+ls5YkCwrxxdSDDNjqJv1eaiilPAlMPN+AwGn1yo2fimKKbwI8S/pOK6kQc4nE1nfZKeMaAPEpgyxC9Rah9xDl7MhJYDmOp1tHEMoXsoJwfnpMchdjCICIHJjIQabt8a0oGM2hVt8DEEKorJFH6OJ/GtoNX3ccoLZKDhA4LfIYPZHXo30oUK4RxAh1ATjTqoEiC8dS0k8eh88ELS+MYtLHnHEBgnj/Qmi+F5EuVixmU3XAyHURg0+zSthOkH7Njn6jy1TJhaXPAHIUklgvAtqAmujSc1zPkjnB/ToRpWaeozNeFI2tA11gQa/KLNqV87g74XT8rIliauSuqe+PuOobS/bnm2SXvtewJznzieukJGXYapDyDxKA3anBUxZ1XEuiS5I3aLBftO+qY46A8h5AUixBKlufSs5IpUgkKlKP3jEBc/mPRKz4fiw1Y+kXvhBA5fb02ro2s+g+73xeazqQ42iEFP87Fe8BfxM1jt0aUcJOfCkRO9RO+OTRKmH4i0bnmcvXTWvVsH2sJee/mA/krvgw3PhkjtuC9Jcte2icoVGmqw/N6eDwYgH+iuwEVfohUc/d9EWpvcwuMm3PBvuFv+WtGiQ6g6CAvOiMYAzgwNUB6dYm6u2LUuRw2ngn5tSDubVqdUWV4PRB9XMlzc11D0CEv38LuvFjDIYj+bA7J48PlbPMASzhYiIl4mTGguMTo75PuNNtuDNQFnLBg7rPW+IGVxhbFePazo6G/OpgNzw5d32MxvqKaChsAAYLCBV3nliaPnamdLwm3kDlMr22B51p+Ha1FhEYq6uhzIqkILfUvZFCm7PqnxaqWWPC4XExYeripGVEWOWnuHdY0Is1vy2W3h1nrGcNtwBgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1vcHVzLTUuNS0yMDI2MDkyMXxhbnRocm9waWMifQ"
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1928,
+      "completion_tokens": 408,
+      "total_tokens": 2336,
+      "cost": 0.015872,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.015872,
+        "upstream_inference_prompt_cost": 0.007712,
+        "upstream_inference_completions_cost": 0.00816
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 268,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "actual_reported_cost_usd": 0.015872
+}
